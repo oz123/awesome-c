@@ -60,7 +60,7 @@ JSON
 =======
 
 * [Jannson][53] - A C library for encoding, decoding and manipulating JSON. [Expat][11].
-* [YAJL][60] - A fast C JSON streaming parser library.
+* [YAJL][60] - A fast C JSON streaming parser library. [ISC][61]
 
 
 Learning and Tutorials
@@ -193,3 +193,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [58]: http://bellard.org/tcc/
 [59]: http://check.sourceforge.net/
 [60]: https://lloyd.github.io/yajl/
+[61]: http://directory.fsf.org/wiki/License:ISC
