@@ -43,6 +43,7 @@ Game Programming
 Generic Programming
 ===================
 
+* [klib][76] - Small and lightweight implementations of common algorithms and data structures. [Expat][11].
 * [SGLIB][30] - Simple Generic Library; an implementation of a range of generic programming structures and idioms in C. No license specified.
 
 
@@ -228,3 +229,4 @@ XML
 [73]: https://graphics.stanford.edu/~seander/bithacks.html
 [74]: http://pcc.ludd.ltu.se/
 [75]: http://pcc.ludd.ltu.se/licenses/
+[76]: https://github.com/attractivechaos/klib
