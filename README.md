@@ -10,7 +10,7 @@ Compilers
 * [Clang][38] - A C compiler for LLVM. Supports C11. [NCSA][39].
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports C11 and OpenMP. [GNU GPL3][41].
 * [PCC][74] - A very old C compiler. Supports C99. [Various licenses][75]
-* [TCC][58] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except complex types). [GNU GPL2][8].
+* [TCC][58] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except complex types). [GNU GPL2.1][8].
 
 
 Database
@@ -28,9 +28,9 @@ Editors
 These are specifically fancier, IDE-type editors. If you want a programmer's text editor, and yours *doesn't* support C, I'd be quite surprised.
 
 * [Anjuta DevStudio][42] - The GNOME IDE. [GNU GPL3][41].
-* [CodeLite][45] - A cross-platform IDE. [GNU GPL2][8].
-* [Geany][43] - A very small and fast IDE. [GNU GPL2][8].
-* [KDevelop][44] - The KDE IDE. [GNU GPL2][8].
+* [CodeLite][45] - A cross-platform IDE. [GNU GPL2.1][8].
+* [Geany][43] - A very small and fast IDE. [GNU GPL2.1][8].
+* [KDevelop][44] - The KDE IDE. [GNU GPL2.1][8].
 
 
 Game Programming
@@ -62,6 +62,7 @@ JSON
 =======
 
 * [Jannson][53] - A C library for encoding, decoding and manipulating JSON. [Expat][11].
+* [WJElement][77] - Advanced JSON manipulation library, with support for JSON Schema. [GNU GPL3][41].
 * [YAJL][60] - A fast C JSON streaming parser library. [ISC][61]
 
 
@@ -86,7 +87,7 @@ This is a list of resources for learning C programming in general, or something 
 Multimedia
 ==========
 
-* [FFMPEG][63] - A complete, cross-platform solution to record, convert and stream audio and video. [GNU LGPL2.1][15], with some parts under [GNU GPL2][8].
+* [FFMPEG][63] - A complete, cross-platform solution to record, convert and stream audio and video. [GNU LGPL2.1][15], with some parts under [GNU GPL2.1][8].
 * [lodepng][69] - A simple PNG image decoder and encoder, requiring no other dependencies. [3-clause BSD][6].
 
 Networking and Internet
@@ -99,7 +100,8 @@ Networking and Internet
 Numerical
 =========
 
-* [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [GNU GPL2][8].
+* [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [GNU GPL2.1][8].
+* [GMP][79] - GNU Multple Precision Arithmetic Library; a library for arbitrary-precision arithmetic. [GNU GPL2.1][8] and [GNU LGPL2.1][15].
 * [GSL][47] - The GNU Scientific Library; a sophisticated numerical library. [GNU GPL3][41].
 * [KISS FFT][71] - A very simple fast Fourier transform library. [3-clause BSD][6].
 * [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [3-clause BSD][6].
@@ -115,13 +117,26 @@ Parallel Programming
 
 * [OpenMP][37] - A set of C pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
 
+Regex
+=====
+
+> "Some people, when confronted with a problem, think 'I know, I'll use regular expressions'. Now they have two problems." - Jamie Zawinski.
+
+* [PCRE][83] - An implementation of regexes identical to that of Perl 5. [3-clause BSD][6].
+* [SLRE][80] - Super Light Regular Expression library; a very small implementation of a subset of Perl regex syntax. [GNU GPL2.1][8].
+* [TRE][82] - A POSIX-compliant, feature-full regex library. [FreeBSD][24].
+* [T-Rex][81] - Another tiny regex library. [zlib][49].
+
+
 Standard Libraries
 ==================
 
 This includes both C standard library implementations and libraries seeking to provide most of what a 'modern' standard library would have (containers, string processing, etc).
 
+* [APR][78] - Apache Portable Runtime; another library of cross-platform utility functions. [Apache2.0][32].
 * [Bionic][4] - Google's C standard library, developed for Android. [3-clause BSD][6]
-* [dietlibc][9] - A C standard library designed for the smallest possible binaries. [GNU GPL2][8].
+* [C Algorithms][88] - A collection of common algorithms and data structures for C. [ISC][61].
+* [dietlibc][9] - A C standard library designed for the smallest possible binaries. [GNU GPL2.1][8].
 * [GLib][1] - A library of utility functions and structures, designed to be portable, efficient and powerful. [GNU LGPL3][5].
 * [glibc][57] - The GNU C Library; an implementation of the C standard library. [GNU LGPL3][5].
 * [GIO][2] - A modern and easy-to-use VFS API. [GNU LGPL3][5].
@@ -132,8 +147,18 @@ This includes both C standard library implementations and libraries seeking to p
 Testing
 =======
 
+* [CHEAT][84] - A very simple unit testing framework. [FreeBSD][24].
 * [Check][59] - A unit testing framework for C. [GNU LGPL2.1][15].
-* [CUnit][34] - Another unit testing framework for C. [GNU GPL2][8].
+* [CUnit][34] - Another unit testing framework for C. [GNU GPL2.1][8].
+
+Tools
+=====
+
+This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
+
+* [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
+* [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPL3][41].
+* [Valgrind][85] - A range of dynamic analysis tools, including a leak checker. [GNU GPL2.1][8].
 
 
 Utilities
@@ -152,6 +177,7 @@ XML
 
 > "XML is crap. Really. There are no excuses. XML is nasty to parse for humans, and it's a disaster to parse even for computers. There's just no reason for that horrible crap to exist." - Linus Torvalds
 
+* [Expat][89] - A stream-oriented XML parser. [Expat][11].
 * [libxml2][62] - A standards-compliant, portable XML parser. [Expat][11].
 
 
@@ -230,3 +256,16 @@ XML
 [74]: http://pcc.ludd.ltu.se/
 [75]: http://pcc.ludd.ltu.se/licenses/
 [76]: https://github.com/attractivechaos/klib
+[77]: https://github.com/netmail-open/wjelement/blob/master/COPYING
+[78]: http://apr.apache.org/
+[79]: https://gmplib.org/
+[80]: https://github.com/cesanta/slre
+[81]: http://tiny-rex.sourceforge.net/
+[82]: https://github.com/laurikari/tre/
+[83]: http://www.pcre.org/
+[84]: https://github.com/Tuplanolla/cheat
+[85]: http://www.valgrind.org/
+[86]: http://www.gnu.org/software/binutils/
+[87]: http://www.gnu.org/software/gdb/
+[88]: https://github.com/fragglet/c-algorithms
+[89]: http://www.libexpat.org/
