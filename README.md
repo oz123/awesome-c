@@ -151,6 +151,7 @@ Testing
 * [CHEAT][84] - A very simple unit testing framework. [FreeBSD][24].
 * [Check][59] - A unit testing framework for C. [GNU LGPL2.1][15].
 * [CUnit][34] - Another unit testing framework for C. [GNU GPL2.1][8].
+* [minunit][92] - Minimal unit testing framework for C. [MIT][92].
 
 Tools
 =====
@@ -272,3 +273,5 @@ XML
 [89]: http://www.libexpat.org/
 [90]: http://www.sfml-dev.org/download/csfml/
 [91]: http://www.sfml-dev.org/index.php
+[92]: https://github.com/siu/minunit
+[93]: http://opensource.org/licenses/MIT
