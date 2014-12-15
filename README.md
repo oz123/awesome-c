@@ -44,7 +44,7 @@ Generic Programming
 ===================
 
 * [klib][76] - Small and lightweight implementations of common algorithms and data structures. [Expat][11].
-* [SGLIB][30] - Simple Generic Library; an implementation of a range of generic programming structures and idioms in C. No license specified.
+* [SGLIB][30] - Simple Generic Library; an implementation of a range of generic programming structures and idioms in C. [GNU GPL3][41].
 
 
 Graphical User Interface
