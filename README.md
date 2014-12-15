@@ -119,6 +119,7 @@ Testing
 =======
 
 * [CUnit][34] - A unit testing framework for C. [GNU GPL2][8].
+* [Check][59] - A unit testing framework for C. [GNU LGPL2.1][15].
 
 
 Utilities
@@ -189,3 +190,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [56]: https://github.com/libuv/libuv
 [57]: http://www.gnu.org/software/libc/
 [58]: http://bellard.org/tcc/
+[59]: http://check.sourceforge.net/
