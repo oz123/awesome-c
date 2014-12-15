@@ -159,9 +159,11 @@ Tools
 
 This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
 
+* [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
 * [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPL3][41].
 * [Valgrind][85] - A range of dynamic analysis tools, including a leak checker. [GNU GPL2.1][8].
+* [rr][95] - A debugger that records non-deterministic executions to allow for deterministic debugging. [FreeBSD][24].
 
 
 Utilities
@@ -169,6 +171,7 @@ Utilities
 
 This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
+* [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
 * [ICU][67] - International Components for Unicode; a library for Unicode support. [ICU license][68].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
@@ -277,3 +280,6 @@ XML
 [92]: https://github.com/siu/minunit
 [93]: https://github.com/keybuk/libnih
 [94]: http://cunit.sourceforge.net/
+[95]: http://rr-project.org/
+[96]: http://libcello.org/
+[97]: http://nethack4.org/projects/aimake/
