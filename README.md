@@ -36,6 +36,7 @@ These are specifically fancier, IDE-type editors. If you want a programmer's tex
 Game Programming
 ================
 
+* [CSFML][90] - A binding for [SFML][91] in C. [zlib][49].
 * [Allegro][48] - A cross-platform, video game development and multimedia library. [zlib][49].
 * [SDL][50] - A cross-platform library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [zlib][49].
 
@@ -269,3 +270,5 @@ XML
 [87]: http://www.gnu.org/software/gdb/
 [88]: https://github.com/fragglet/c-algorithms
 [89]: http://www.libexpat.org/
+[90]: http://www.sfml-dev.org/download/csfml/
+[91]: http://www.sfml-dev.org/index.php
