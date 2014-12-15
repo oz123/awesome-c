@@ -112,7 +112,6 @@ This includes both C standard library implementations and libraries seeking to p
 * [glibc][57] - The GNU C Library; an implementation of the C standard library. [GNU LGPL3][5].
 * [GIO][2] - A modern and easy-to-use VFS API. [GNU LGPL3][5].
 * [GObject][3] - An object-oriented system and object model for C. [GNU LGPL3][5].
-* [klibc][7] - A minimalistic subset of the standard C library. [GNU GPL2][8] or [3-clause BSD][6].
 * [libU][28] - A small library of basic utilities, including memory allocation, string manipulation and logging. [3-clause BSD][6]. 
 * [musl][10] - A standard C library, compatible with POSIX 2008 and C11. Designed for static linking. [Expat][11].
 
@@ -139,7 +138,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [4]: https://github.com/android/platform_bionic
 [5]: http://www.gnu.org/licenses/lgpl.html
 [6]: http://directory.fsf.org/wiki/License:BSD_3Clause
-[7]: ftp://ftp.kernel.org/pub/linux/libs/klibc/
 [8]: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [9]: http://www.fefe.de/dietlibc/
 [10]: http://www.musl-libc.org/
