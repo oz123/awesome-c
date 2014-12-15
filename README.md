@@ -9,6 +9,7 @@ Compilers
 
 * [Clang][38] - A C compiler for LLVM. Supports C11. [NCSA][39].
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports C11 and OpenMP. [GNU GPL3][41].
+* [PCC][74] - A very old C compiler. Supports C99. [Various licenses][75]
 * [TCC][58] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except complex types). [GNU GPL2][8].
 
 
@@ -70,25 +71,37 @@ This is a list of resources for learning C programming in general, or something 
 
 ## Online ##
 
+* [Bit twiddling hacks][73]
 * [Writing efficient C and C code optimization][33]
 * [The lost art of C structure packing][34]
 
 ## Physical ##
 
 * [21st Century C][35] - A very good *second* programming book on C.
+* [C Programming: A Modern Approach][64] - An excellent book to learn the basics from C from.
 * [Expert C Programming: Deep C Secrets][55] - An interesting, in-depth and *entertaining* look at the innards of C.
 * [Understanding and Using C Pointers][36] - An in-depth resource on pointers in C.
 
-Networking
+Multimedia
 ==========
 
+* [FFMPEG][63] - A complete, cross-platform solution to record, convert and stream audio and video. [GNU LGPL2.1][15], with some parts under [GNU GPL2][8].
+* [lodepng][69] - A simple PNG image decoder and encoder, requiring no other dependencies. [3-clause BSD][6].
+
+Networking and Internet
+=======================
+
+* [libcurl][65] - A client-side URL transfer library, supporting a wide range of formats. [curl license][66]
 * [ZeroMQ][52] - High-performance message passing networking library. [GNU LGPL3][41].
 
 
 Numerical
 =========
 
-* [GSL][47]: The GNU Scientific Library; a sophisticated numerical library. [GNU GPL3][41].
+* [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [GNU GPL2][8].
+* [GSL][47] - The GNU Scientific Library; a sophisticated numerical library. [GNU GPL3][41].
+* [KISS FFT][71] - A very simple fast Fourier transform library. [3-clause BSD][6].
+* [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [3-clause BSD][6].
 
 
 Package Manager
@@ -100,7 +113,6 @@ Parallel Programming
 ====================
 
 * [OpenMP][37] - A set of C pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
-
 
 Standard Libraries
 ==================
@@ -120,7 +132,7 @@ Testing
 =======
 
 * [Check][59] - A unit testing framework for C. [GNU LGPL2.1][15].
-* [CUnit][34] - A unit testing framework for C. [GNU GPL2][8].
+* [CUnit][34] - Another unit testing framework for C. [GNU GPL2][8].
 
 
 Utilities
@@ -128,10 +140,18 @@ Utilities
 
 This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
+* [ICU][67] - International Components for Unicode; a library for Unicode support. [ICU license][68].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
 * [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
+
+XML
+===
+
+> "XML is crap. Really. There are no excuses. XML is nasty to parse for humans, and it's a disaster to parse even for computers. There's just no reason for that horrible crap to exist." - Linus Torvalds
+
+* [libxml2][62] - A standards-compliant, portable XML parser. [Expat][11].
 
 
 [1]: https://developer.gnome.org/glib/
@@ -194,3 +214,17 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [59]: http://check.sourceforge.net/
 [60]: https://lloyd.github.io/yajl/
 [61]: http://directory.fsf.org/wiki/License:ISC
+[62]: http://xmlsoft.org/
+[63]: https://www.ffmpeg.org/
+[64]: http://knking.com/books/c2/index.html
+[65]: http://curl.haxx.se/libcurl/
+[66]: http://curl.haxx.se/docs/copyright.html
+[67]: http://site.icu-project.org/
+[68]: http://source.icu-project.org/repos/icu/icu/trunk/license.html
+[69]: http://lodev.org/lodepng/
+[70]: http://www.fftw.org/
+[71]: http://sourceforge.net/projects/kissfft/
+[72]: http://www.yeppp.info/
+[73]: https://graphics.stanford.edu/~seander/bithacks.html
+[74]: http://pcc.ludd.ltu.se/
+[75]: http://pcc.ludd.ltu.se/licenses/
