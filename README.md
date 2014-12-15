@@ -142,6 +142,7 @@ This includes both C standard library implementations and libraries seeking to p
 * [glibc][57] - The GNU C Library; an implementation of the C standard library. [GNU LGPL3][5].
 * [GIO][2] - A modern and easy-to-use VFS API. [GNU LGPL3][5].
 * [GObject][3] - An object-oriented system and object model for C. [GNU LGPL3][5].
+* [libnih][93] - A lightweight library of C functions and structures. [GNU GPL2.1][8].
 * [libU][28] - A small library of basic utilities, including memory allocation, string manipulation and logging. [3-clause BSD][6]. 
 * [musl][10] - A standard C library, compatible with POSIX 2008 and C11. Designed for static linking. [Expat][11].
 
@@ -151,7 +152,7 @@ Testing
 * [CHEAT][84] - A very simple unit testing framework. [FreeBSD][24].
 * [Check][59] - A unit testing framework for C. [GNU LGPL2.1][15].
 * [CUnit][34] - Another unit testing framework for C. [GNU GPL2.1][8].
-* [minunit][92] - Minimal unit testing framework for C. [MIT][92].
+* [minunit][92] - Minimal unit testing framework for C. [Expat][11].
 
 Tools
 =====
@@ -274,4 +275,4 @@ XML
 [90]: http://www.sfml-dev.org/download/csfml/
 [91]: http://www.sfml-dev.org/index.php
 [92]: https://github.com/siu/minunit
-[93]: http://opensource.org/licenses/MIT
+[93]: https://github.com/keybuk/libnih
