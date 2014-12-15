@@ -60,7 +60,7 @@ JSON
 =======
 
 * [Jannson][53] - A C library for encoding, decoding and manipulating JSON. [Expat][11].
-* [YAJL][59] - A fast C JSON streaming parser library.
+* [YAJL][60] - A fast C JSON streaming parser library.
 
 
 Learning and Tutorials
@@ -119,8 +119,8 @@ This includes both C standard library implementations and libraries seeking to p
 Testing
 =======
 
-* [CUnit][34] - A unit testing framework for C. [GNU GPL2][8].
 * [Check][59] - A unit testing framework for C. [GNU LGPL2.1][15].
+* [CUnit][34] - A unit testing framework for C. [GNU GPL2][8].
 
 
 Utilities
