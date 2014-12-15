@@ -109,7 +109,7 @@ This includes both C standard library implementations and libraries seeking to p
 * [Bionic][4] - Google's C standard library, developed for Android. [3-clause BSD][6]
 * [dietlibc][9] - A C standard library designed for the smallest possible binaries. [GNU GPL2][8].
 * [GLib][1] - A library of utility functions and structures, designed to be portable, efficient and powerful. [GNU LGPL3][5].
-* [glibc][7] - The GNU C Library; an implementation of the C standard library. [GNU LGPL3][5].
+* [glibc][57] - The GNU C Library; an implementation of the C standard library. [GNU LGPL3][5].
 * [GIO][2] - A modern and easy-to-use VFS API. [GNU LGPL3][5].
 * [GObject][3] - An object-oriented system and object model for C. [GNU LGPL3][5].
 * [klibc][7] - A minimalistic subset of the standard C library. [GNU GPL2][8] or [3-clause BSD][6].
@@ -189,3 +189,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [54]: http://www.colm.net/open-source/ragel/
 [55]: http://dl.acm.org/citation.cfm?id=179241
 [56]: https://github.com/libuv/libuv
+[57]: http://www.gnu.org/software/libc/
