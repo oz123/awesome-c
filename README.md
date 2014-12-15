@@ -17,6 +17,7 @@ Database
 
 * [leveldb][46] - A simple persistent key-value store. Available via [clib][26]. [3-clause BSD][6].
 * [MariaDB][25] - A robust, scalable and reliable SQL server, designed to be a drop-in replacement for MySQL. [3-clause BSD][6].
+* [Redis][51] - An advanced key-value store. [3-clause BSD][6].
 * [SQLite][22] - A self-contained, serverless, zero-configuration, transactional SQL database engine with a C interface. Public domain.
 * [UnQLite][23] - A self-contained, serverless, zero-configuration, transactional NoSQL engine with a C interface. [FreeBSD][24].
 
@@ -55,6 +56,12 @@ These are specifically [widget toolkits][12].
 * [Tk][19] - A basic widget toolkit. Part of Tcl/Tk. [Tcl/Tk License][20].
 * [XForms Toolkit][21] - A widget toolkit designed for the XWindow system. [GNU LGPL2.1][15].
 
+JSON
+=======
+
+* [Jannson][53] - A C library for encoding, decoding and manipulating JSON. [Expat][11].
+
+
 Learning and Tutorials
 ======================
 
@@ -68,7 +75,14 @@ This is a list of resources for learning C programming in general, or something 
 ## Physical ##
 
 * [21st Century C][35] - A very good *second* programming book on C.
+* [Expert C Programming: Deep C Secrets][55] - An interesting, in-depth and *entertaining* look at the innards of C.
 * [Understanding and Using C Pointers][36] - An in-depth resource on pointers in C.
+
+Networking
+==========
+
+* [ZeroMQ][52] - High-performance message passing networking library. [GNU LGPL3][41].
+
 
 Numerical
 =========
@@ -114,6 +128,8 @@ Utilities
 This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
+* [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
+* [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
 * [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
 
 
@@ -167,3 +183,9 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [48]: http://alleg.sourceforge.net/readme.html
 [49]: http://directory.fsf.org/wiki/License:Zlib
 [50]: https://www.libsdl.org/
+[51]: http://redis.io/
+[52]: http://zeromq.org/
+[53]: http://www.digip.org/jansson/
+[54]: http://www.colm.net/open-source/ragel/
+[55]: http://dl.acm.org/citation.cfm?id=179241
+[56]: https://github.com/libuv/libuv
