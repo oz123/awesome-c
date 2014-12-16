@@ -125,6 +125,7 @@ Parallel Programming
 ====================
 
 * [OpenMP][37] - A set of C pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
+* [TinyCThread][115] - A portable, small implementation of the C11 threads API. [zlib][49].
 
 Regex
 =====
@@ -153,6 +154,7 @@ This includes both C standard library implementations and libraries seeking to p
 * [libnih][93] - A lightweight library of C functions and structures. [GNU GPL2.1][8].
 * [libU][28] - A small library of basic utilities, including memory allocation, string manipulation and logging. [3-clause BSD][6]. 
 * [musl][10] - A standard C library, compatible with POSIX 2008 and C11. Designed for static linking. [Expat][11].
+* [stb][114] - A range of single-file libraries for C. Public domain.
 
 Testing
 =======
@@ -179,6 +181,7 @@ Utilities
 
 This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
+* [bstrlib][116] - The Better String Library. [3-clause BSD][6] or [GNU GPL2.1][8].
 * [ICU][67] - International Components for Unicode; a library for Unicode support. [ICU license][68].
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
@@ -309,3 +312,6 @@ XML
 [111]: https://www.openssl.org/source/license.html
 [112]: http://www.gnutls.org/
 [113]: https://github.com/RhysU/c99sh
+[114]: https://github.com/nothings/stb
+[115]: https://tinycthread.github.io/
+[116]: http://bstring.sourceforge.net/
