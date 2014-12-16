@@ -318,4 +318,4 @@ XML
 [114]: https://github.com/nothings/stb
 [115]: https://tinycthread.github.io/
 [116]: http://bstring.sourceforge.net/
-[117]: http://c.learncodethehardway.org/
+[117]: http://c.learncodethehardway.org/book/
