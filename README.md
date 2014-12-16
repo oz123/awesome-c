@@ -80,8 +80,8 @@ This is a list of resources for learning C programming in general, or something 
 ## Online ##
 
 * [Bit twiddling hacks][73]
-* [Writing efficient C and C code optimization][33]
 * [The lost art of C structure packing][34]
+* [Writing efficient C and C code optimization][33]
 
 ## Physical ##
 
@@ -100,10 +100,10 @@ Multimedia
 Networking and Internet
 =======================
 
+* [GnuTLS][112] - A secure communication library, implementing SSL, TLS and DTLS. [GNU LGPL2.1][15]
 * [libcurl][65] - A client-side URL transfer library, supporting a wide range of formats. [curl license][66]
-* [ZeroMQ][52] - High-performance message passing networking library. [GNU LGPL3][41].
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
-
+* [ZeroMQ][52] - High-performance message passing networking library. [GNU LGPL3][41].
 
 Numerical
 =========
@@ -168,24 +168,25 @@ Tools
 This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
 
 * [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
+* [c99sh][113] - Run C files using hash-bang. No license specified.
 * [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPL3][41].
-* [Valgrind][85] - A range of dynamic analysis tools, including a leak checker. [GNU GPL2.1][8].
 * [rr][95] - A debugger that records non-deterministic executions to allow for deterministic debugging. [FreeBSD][24].
-
+* [Valgrind][85] - A range of dynamic analysis tools, including a leak checker. [GNU GPL2.1][8].
 
 Utilities
 =========
 
 This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
-* [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
 * [ICU][67] - International Components for Unicode; a library for Unicode support. [ICU license][68].
+* [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
+* [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
 * [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
-* [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
+
 
 XML
 ===
@@ -306,3 +307,5 @@ XML
 [109]: https://github.com/libgit2/libgit2/blob/master/COPYING
 [110]: https://www.openssl.org/
 [111]: https://www.openssl.org/source/license.html
+[112]: http://www.gnutls.org/
+[113]: https://github.com/RhysU/c99sh
