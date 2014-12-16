@@ -80,6 +80,7 @@ This is a list of resources for learning C programming in general, or something 
 ## Online ##
 
 * [Bit twiddling hacks][73]
+* [The C Programming Language 2E][7] (online PDF)
 * [The lost art of C structure packing][34]
 * [Writing efficient C and C code optimization][33]
 
@@ -206,6 +207,7 @@ XML
 [4]: https://github.com/android/platform_bionic
 [5]: http://www.gnu.org/licenses/lgpl.html
 [6]: http://directory.fsf.org/wiki/License:BSD_3Clause
+[7]: http://books.cat-v.org/computer-science/c-programming-language/The.C.Programming.Language.2nd.Edition.pdf
 [8]: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [9]: http://www.fefe.de/dietlibc/
 [10]: http://www.musl-libc.org/
