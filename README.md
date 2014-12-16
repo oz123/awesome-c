@@ -82,6 +82,7 @@ This is a list of resources for learning C programming in general, or something 
 * [Bit twiddling hacks][73]
 * [The C Programming Language 2E][7] (online PDF)
 * [The lost art of C structure packing][34]
+* [Learn C The Hard Way][117]
 * [Writing efficient C and C code optimization][33]
 
 ## Physical ##
@@ -317,3 +318,4 @@ XML
 [114]: https://github.com/nothings/stb
 [115]: https://tinycthread.github.io/
 [116]: http://bstring.sourceforge.net/
+[117]: http://c.learncodethehardway.org/
