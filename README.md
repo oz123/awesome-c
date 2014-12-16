@@ -17,6 +17,7 @@ Database
 ========
 
 * [leveldb][46] - A simple persistent key-value store. Available via [clib][26]. [3-clause BSD][6].
+* [LMDB][105] - An ultra-fast, ultra-compact key-value embedded data store. [newOpenLDAP][106].
 * [MariaDB][25] - A robust, scalable and reliable SQL server, designed to be a drop-in replacement for MySQL. [3-clause BSD][6].
 * [Redis][51] - An advanced key-value store. [3-clause BSD][6].
 * [SQLite][22] - A self-contained, serverless, zero-configuration, transactional SQL database engine with a C interface. Public domain.
@@ -41,6 +42,7 @@ Game Programming
 * [CSFML][90] - A binding for [SFML][91] in C. [zlib][49].
 * [FreeGLUT][99] - An alternative to the OpenGL Utility Toolkit. Allows the creation and management of windows with OpenGL contexts. [X11][100].
 * [GLFW][98] - A multi-platform library for creating windows with OpenGL contexts. [zlib][49].
+* [ioquake3][107] - The Quake3 engine, freed at last. [GNU GPL2.1][8]
 * [SDL][50] - A cross-platform library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [zlib][49].
 
 
@@ -86,6 +88,7 @@ This is a list of resources for learning C programming in general, or something 
 * [21st Century C][35] - A very good *second* programming book on C.
 * [C Programming: A Modern Approach][64] - An excellent book to learn the basics from C from.
 * [Expert C Programming: Deep C Secrets][55] - An interesting, in-depth and *entertaining* look at the innards of C.
+* [Head First C][102] - A 'head-first' style book for learning C.
 * [Understanding and Using C Pointers][36] - An in-depth resource on pointers in C.
 
 Multimedia
@@ -114,6 +117,7 @@ Numerical
 Package Manager
 ===============
 
+* [CCAN][103] - Modelled after Perl's CPAN, this is a big collection of C code that does stuff. The full list is [here][104]. Various licenses (all free software).
 * [clib][26] - Something of a package manager for C. Comes with a [bunch of libraries of its own][27]. [Expat][11].
 
 Parallel Programming
@@ -290,3 +294,9 @@ XML
 [99]: http://freeglut.sourceforge.net/
 [100]: http://directory.fsf.org/wiki/License:X11
 [101]: https://github.com/orangeduck/Corange
+[102]: http://shop.oreilly.com/product/0636920015482.do
+[103]: http://ccodearchive.net/
+[104]: http://ccodearchive.net/list.html
+[105]: http://symas.com/mdb/
+[106]: http://directory.fsf.org/wiki/License:OpenLDAPv2.7
+[107]: http://ioquake3.org/
