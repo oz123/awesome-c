@@ -36,8 +36,11 @@ These are specifically fancier, IDE-type editors. If you want a programmer's tex
 Game Programming
 ================
 
-* [CSFML][90] - A binding for [SFML][91] in C. [zlib][49].
 * [Allegro][48] - A cross-platform, video game development and multimedia library. [zlib][49].
+* [Corange][101] - A game engine in pure C. [FreeBSD][24].
+* [CSFML][90] - A binding for [SFML][91] in C. [zlib][49].
+* [FreeGLUT][99] - An alternative to the OpenGL Utility Toolkit. Allows the creation and management of windows with OpenGL contexts. [X11][100].
+* [GLFW][98] - A multi-platform library for creating windows with OpenGL contexts. [zlib][49].
 * [SDL][50] - A cross-platform library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [zlib][49].
 
 
@@ -283,3 +286,7 @@ XML
 [95]: http://rr-project.org/
 [96]: http://libcello.org/
 [97]: http://nethack4.org/projects/aimake/
+[98]: http://www.glfw.org/
+[99]: http://freeglut.sourceforge.net/
+[100]: http://directory.fsf.org/wiki/License:X11
+[101]: https://github.com/orangeduck/Corange
