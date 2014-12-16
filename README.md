@@ -68,6 +68,7 @@ JSON
 =======
 
 * [Jannson][53] - A C library for encoding, decoding and manipulating JSON. [Expat][11].
+* [jsmn][120] - A minimalistic JSON parser. [Expat][11].
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON Schema. [GNU GPL3][41].
 * [YAJL][60] - A fast C JSON streaming parser library. [ISC][61]
 
@@ -190,7 +191,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
 * [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
-
+* [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
 
 XML
 ===
@@ -317,3 +318,6 @@ XML
 [114]: https://github.com/nothings/stb
 [115]: https://tinycthread.github.io/
 [116]: http://bstring.sourceforge.net/
+[117]: http://troydhanson.github.io/uthash/
+[118]: http://troydhanson.github.io/uthash/license.html
+[120]: http://zserge.com/jsmn.html
