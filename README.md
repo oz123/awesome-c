@@ -269,7 +269,7 @@ XML
 [74]: http://pcc.ludd.ltu.se/
 [75]: http://pcc.ludd.ltu.se/licenses/
 [76]: https://github.com/attractivechaos/klib
-[77]: https://github.com/netmail-open/wjelement/blob/master/COPYING
+[77]: https://github.com/netmail-open/wjelement/
 [78]: http://apr.apache.org/
 [79]: https://gmplib.org/
 [80]: https://github.com/cesanta/slre
