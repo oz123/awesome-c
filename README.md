@@ -184,6 +184,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
 * [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
+* [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
 
 XML
 ===
@@ -300,3 +301,5 @@ XML
 [105]: http://symas.com/mdb/
 [106]: http://directory.fsf.org/wiki/License:OpenLDAPv2.7
 [107]: http://ioquake3.org/
+[108]: https://libgit2.github.com/
+[109]: https://github.com/libgit2/libgit2/blob/master/COPYING
