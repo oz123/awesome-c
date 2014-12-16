@@ -102,6 +102,7 @@ Networking and Internet
 
 * [libcurl][65] - A client-side URL transfer library, supporting a wide range of formats. [curl license][66]
 * [ZeroMQ][52] - High-performance message passing networking library. [GNU LGPL3][41].
+* [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
 
 
 Numerical
@@ -303,3 +304,5 @@ XML
 [107]: http://ioquake3.org/
 [108]: https://libgit2.github.com/
 [109]: https://github.com/libgit2/libgit2/blob/master/COPYING
+[110]: https://www.openssl.org/
+[111]: https://www.openssl.org/source/license.html
