@@ -16,9 +16,12 @@ Compilers
 Database
 ========
 
+This lists databases and data stores with C APIs.
+
 * [leveldb][46] - A simple persistent key-value store. Available via [clib][26]. [3-clause BSD][6].
 * [LMDB][105] - An ultra-fast, ultra-compact key-value embedded data store. [newOpenLDAP][106].
 * [MariaDB][25] - A robust, scalable and reliable SQL server, designed to be a drop-in replacement for MySQL. [3-clause BSD][6].
+* [PostgreSQL][121] - A powerful object-relational database system. [PostgreSQL licence][122]
 * [Redis][51] - An advanced key-value store. [3-clause BSD][6].
 * [SQLite][22] - A self-contained, serverless, zero-configuration, transactional SQL database engine with a C interface. Public domain.
 * [UnQLite][23] - A self-contained, serverless, zero-configuration, transactional NoSQL engine with a C interface. [FreeBSD][24].
@@ -33,6 +36,20 @@ These are specifically fancier, IDE-type editors. If you want a programmer's tex
 * [Geany][43] - A very small and fast IDE. [GNU GPL2.1][8].
 * [KDevelop][44] - The KDE IDE. [GNU GPL2.1][8].
 
+Frameworks
+==========
+
+This section has big libraries that provide data structures and other stuff you expect of a 'modern' standard library.
+
+* [APR][78] - Apache Portable Runtime; another library of cross-platform utility functions. [Apache2.0][32].
+* [C Algorithms][88] - A collection of common algorithms and data structures for C. [ISC][61].
+* [EFL][119] - A large collection of useful data structures and functions. Various licenses, all free.
+* [GLib][1] - A library of utility functions and structures, designed to be portable, efficient and powerful. [GNU LGPL3][5].
+* [GIO][2] - A modern and easy-to-use VFS API. [GNU LGPL3][5].
+* [GObject][3] - An object-oriented system and object model for C. [GNU LGPL3][5].
+* [libnih][93] - A lightweight library of C functions and structures. [GNU GPL2.1][8].
+* [libU][28] - A small library of basic utilities, including memory allocation, string manipulation and logging. [3-clause BSD][6].
+* [stb][114] - A range of single-file libraries for C. Public domain.
 
 Game Programming
 ================
@@ -51,6 +68,13 @@ Generic Programming
 
 * [klib][76] - Small and lightweight implementations of common algorithms and data structures. [Expat][11].
 * [SGLIB][30] - Simple Generic Library; an implementation of a range of generic programming structures and idioms in C. [GNU GPL3][41].
+
+Graphics
+========
+
+* [Cogl][127] - A GPU graphics and utilities API. [GNU LGPL2.1][15].
+* [Clutter][126] - A UI library based on OpenGL. [GNU LGPL2.1][15].
+
 
 
 Graphical User Interface
@@ -97,6 +121,7 @@ Multimedia
 ==========
 
 * [FFMPEG][63] - A complete, cross-platform solution to record, convert and stream audio and video. [GNU LGPL2.1][15], with some parts under [GNU GPL2.1][8].
+* [GStreamer][123] - A framework for audio and visual media. [GNU LGPL2.1][15].
 * [lodepng][69] - A simple PNG image decoder and encoder, requiring no other dependencies. [3-clause BSD][6].
 
 Networking and Internet
@@ -104,16 +129,20 @@ Networking and Internet
 
 * [GnuTLS][112] - A secure communication library, implementing SSL, TLS and DTLS. [GNU LGPL2.1][15]
 * [libcurl][65] - A client-side URL transfer library, supporting a wide range of formats. [curl license][66]
+* [libevent][124] - An event loop replacement for network servers. [3-clause BSD][6].
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
 * [ZeroMQ][52] - High-performance message passing networking library. [GNU LGPL3][41].
 
 Numerical
 =========
 
+* [ATLAS][137] - Automatically Tuned Linear Algebra Software. [3-clause BSD][6].
+* [BLAS][135] - Basic Linear Algebra Subprograms; a set of routines that provide vector and matrix operations. [BLAS license][136]
 * [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [GNU GPL2.1][8].
 * [GMP][79] - GNU Multple Precision Arithmetic Library; a library for arbitrary-precision arithmetic. [GNU GPL2.1][8] and [GNU LGPL2.1][15].
 * [GSL][47] - The GNU Scientific Library; a sophisticated numerical library. [GNU GPL3][41].
 * [KISS FFT][71] - A very simple fast Fourier transform library. [3-clause BSD][6].
+* [LAPACKE][133] - A C interface to [LAPACK][134]. [3-clause BSD][6].
 * [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [3-clause BSD][6].
 
 
@@ -139,24 +168,23 @@ Regex
 * [TRE][82] - A POSIX-compliant, feature-full regex library. [FreeBSD][24].
 * [T-Rex][81] - Another tiny regex library. [zlib][49].
 
+Serialization
+=============
+
+* [c-capnproto][130] - An implementation of the Cap'n Proto serialization protocol. [Expat][11].
+* [msgpackalt][132] - A simple, light and fast binary serialization library. [3-clause BSD][6].
+* [protobuf-c][129] - An implementation of Google Protocol Buffer in C. [FreeBSD][24].
+* [xdr][131] - External Data Representation; a standard for data serialization. Standard (no license applicable).
 
 Standard Libraries
 ==================
 
-This includes both C standard library implementations and libraries seeking to provide most of what a 'modern' standard library would have (containers, string processing, etc).
+This contains standard C libraries.
 
-* [APR][78] - Apache Portable Runtime; another library of cross-platform utility functions. [Apache2.0][32].
 * [Bionic][4] - Google's C standard library, developed for Android. [3-clause BSD][6]
-* [C Algorithms][88] - A collection of common algorithms and data structures for C. [ISC][61].
 * [dietlibc][9] - A C standard library designed for the smallest possible binaries. [GNU GPL2.1][8].
-* [GLib][1] - A library of utility functions and structures, designed to be portable, efficient and powerful. [GNU LGPL3][5].
-* [glibc][57] - The GNU C Library; an implementation of the C standard library. [GNU LGPL3][5].
-* [GIO][2] - A modern and easy-to-use VFS API. [GNU LGPL3][5].
-* [GObject][3] - An object-oriented system and object model for C. [GNU LGPL3][5].
-* [libnih][93] - A lightweight library of C functions and structures. [GNU GPL2.1][8].
-* [libU][28] - A small library of basic utilities, including memory allocation, string manipulation and logging. [3-clause BSD][6]. 
+* [glibc][57] - The GNU C Library; an implementation of the C standard library. [GNU LGPL3][5]. 
 * [musl][10] - A standard C library, compatible with POSIX 2008 and C11. Designed for static linking. [Expat][11].
-* [stb][114] - A range of single-file libraries for C. Public domain.
 
 Testing
 =======
@@ -184,8 +212,10 @@ Utilities
 This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
 * [bstrlib][116] - The Better String Library. [3-clause BSD][6] or [GNU GPL2.1][8].
+* [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
 * [ICU][67] - International Components for Unicode; a library for Unicode support. [ICU license][68].
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
+* [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
@@ -320,4 +350,22 @@ XML
 [116]: http://bstring.sourceforge.net/
 [117]: http://troydhanson.github.io/uthash/
 [118]: http://troydhanson.github.io/uthash/license.html
+[119]: https://www.enlightenment.org/p.php?p=about/efl
 [120]: http://zserge.com/jsmn.html
+[121]: http://www.postgresql.org/
+[122]: http://opensource.org/licenses/postgresql
+[123]: http://gstreamer.freedesktop.org/
+[124]: http://libevent.org/
+[125]: http://www.hboehm.info/gc/
+[126]: http://blogs.gnome.org/clutter/about/
+[127]: http://www.cogl3d.org/
+[128]: https://github.com/atgreen/libffi
+[129]: https://github.com/protobuf-c/protobuf-c
+[130]: https://github.com/jmckaskill/c-capnproto
+[131]: http://en.wikipedia.org/wiki/External_Data_Representation
+[132]: https://code.google.com/p/msgpackalt/
+[133]: http://www.netlib.org/lapack/lapacke.html
+[134]: http://www.netlib.org/lapack/
+[135]: http://www.netlib.org/blas/
+[136]: http://www.netlib.org/blas/#_licensing
+[137]: http://math-atlas.sourceforge.net/
