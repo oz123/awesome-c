@@ -79,6 +79,7 @@ Graphics
 
 * [Cogl][127] - A GPU graphics and utilities API. [GNU LGPL2.1][15].
 * [Clutter][126] - A UI library based on OpenGL. [GNU LGPL2.1][15].
+* [libxmi][174] - A function library for rasterizing 2D vector graphics. [GNU GPL3][41].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
 
 Graphical User Interface
@@ -132,15 +133,27 @@ Networking and Internet
 =======================
 
 * [asnlc][138] - A compiler of ASN.1 specifications into C source code. [FreeBSD][24].
-* [GnuTLS][112] - A secure communication library, implementing SSL, TLS and DTLS. [GNU LGPL2.1][15]
+* [GNU adns][155] - An advanced, easy-to-use, asynch-capable DNS client library and utilities. [GNU GPL3][41].
+* [GNU SASL][160] - An implementation of the Simple Authentication and Security Layer and a few common SASL mechanism. [GNU GPL3][41].
+* [GnuTLS][112] - A secure communication library, implementing SSL, TLS and DTLS. [GNU LGPL2.1][15].
 * [libcurl][65] - A client-side URL transfer library, supporting a wide range of formats. [curl license][66]
 * [libev][144] - Yet another event loop. [FreeBSD][24].
 * [libevent][124] - An event loop replacement for network servers. [3-clause BSD][6].
+* [libgss][161] - Generic Security Service. [GNU GPL3][41].
+* [libhttpd][166] - A library to add basic web server capabilities to an application or embedded device. [GNU GPL3][41].
+* [libidn][164] - An implementation of the Stringprep, Punycode and IDNA specifications. [GNU LGPL2.1][15].
+* [libmicrohttpd][165] - A small C library that makes it easy to run an HTTP server as part of another application. [GNU LGPL2.1][15].
+* [libsoup][167] - A GNOME HTTP client/server library. Uses GObject. [GNU LGPL2.1][15].
 * [LibreSSL][143] - A BSD fork of OpenSSL. Various licenses, all semi-free.
+* [mihl][169] - A library for implementing an embedded HTTP server. [FreeBSD][24].
+* [mongoose][171] - Embedded web server for C. [GNU GPL2.1][8].
 * [nanomsg][139] - A C-based implementation of ZeroMQ. [Expat][11].
+* [neon][168] - An HTTP and WebDAV client library with a C interface. [GNU LGPL3][5].
+* [onion][170] - HTTP server library, designed to be easy to use. [Apache2.0][32].
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
+* [oSip][179] - A SIP implementation in C without additional dependencies. [GNU GPL3][41].
 * [Tox][145] - A communication platform, designed to be a Skype-killer. [GNU GPL3][41].
-* [ZeroMQ][52] - High-performance message passing networking library. Implemented in C++, but has a C interface. [GNU LGPL3][41].
+* [ZeroMQ][52] - High-performance message passing networking library. Implemented in C++, but has a C interface. [GNU LGPL3][5].
 
 Numerical
 =========
@@ -148,7 +161,11 @@ Numerical
 * [ATLAS][137] - Automatically Tuned Linear Algebra Software. [3-clause BSD][6].
 * [BLAS][135] - Basic Linear Algebra Subprograms; a set of routines that provide vector and matrix operations. [BLAS license][136]
 * [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [GNU GPL2.1][8].
+* [GLPK][159] - GNU Linear Programming Kit; a package designed for solving large-scale linear programming, mixed integer programming and other related problems. [GNU GPL3][41].
 * [GMP][79] - GNU Multple Precision Arithmetic Library; a library for arbitrary-precision arithmetic. [GNU GPL2.1][8] and [GNU LGPL2.1][15].
+* [GNU MPC][175] - A library for complex number arithmetic. [GNU LGPL3][5].
+* [GNU MPFR][176] - A library for arbitrary-precision floating-point arithmetic. [GNU LGPL2.1][15].
+* [GNU MPRIA][177] - A portable mathematics library for multi-precision rational interval arithmetic. [GNU GPL3][41].
 * [GSL][47] - The GNU Scientific Library; a sophisticated numerical library. [GNU GPL3][41].
 * [KISS FFT][71] - A very simple fast Fourier transform library. [3-clause BSD][6].
 * [LAPACKE][133] - A C interface to [LAPACK][134]. [3-clause BSD][6].
@@ -159,6 +176,7 @@ Parallel Programming
 ====================
 
 * [OpenMP][37] - A set of C pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
+* [pth][180] - A portable implementation for non-preemptive priority-based scheduling for multiple threads of execution. [GNU GPL3][41].
 * [pthreads][146] - The POSIX thread library. Standard (no license applicable).
 * [TinyCThread][115] - A portable, small implementation of the C11 threads API. [zlib][49].
 
@@ -189,6 +207,7 @@ This contains collections of small source code. If you want something big and in
 * [CCAN][103] - Modelled after Perl's CPAN, this is a big collection of C code that does stuff. The full list is [here][104]. Various licenses (all free software).
 * [clib][26] - Something of a package manager for C. Comes with a [bunch of libraries of its own][27]. [Expat][11].
 * [gnulib][46] - A collection of common GNU code. [GNU GPL3][41].
+* [ulib][154] - Another collection of source code. [Expat][11].
 
 Standard Libraries
 ==================
@@ -217,7 +236,7 @@ While practically any decent programmer's text editor supports C, there are some
 ## Emacs ##
 
 * [Flycheck][149] - Modern syntax checking. For C, it can use either GCC or Clang as a back-end. [GNU GPL3][41].
-* [Yasnippet][150] - A template system, with C templates for common code snippets. No license specified.
+* [Yasnippet][150] - A template system, with C templates for common code snippets. [GNU GPL3][41].
 
 ## Vim ##
 
@@ -232,6 +251,7 @@ This is a list of useful programs to help you write and debug C code which are *
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPL3][41].
+* [libtool][172] - A generic library support script. [GNU GPL3][41].
 * [rr][95] - A debugger that records non-deterministic executions to allow for deterministic debugging. [FreeBSD][24].
 * [Valgrind][85] - A range of dynamic analysis tools, including a leak checker. [GNU GPL2.1][8].
 
@@ -240,14 +260,21 @@ Utilities
 
 This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
+* [bfd][157] - A library for manipulating binary object files. Part of GNU binutils. [GNU GPL2.1][8].
 * [bstrlib][116] - The Better String Library. [3-clause BSD][6] or [GNU GPL2.1][8].
+* [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPL3][41].
+* [GNU Libffcall][162] - A collection of libraries for building foreign function interfaces. [GNU GPL3][41].
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
 * [ICU][67] - International Components for Unicode; a library for Unicode support. [ICU license][68].
+* [libavl][156] - A library containing a range of self-balancing binary trees. [GNU GPL2.1][8].
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
 * [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
+* [libgiconv][163] - A text conversion library. [GNU LGPL2.1][8].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
+* [libunistring][173] - A library for manipulating Unicode strings in C. [GNU LGPL3][5].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
+* [ncurses][178] - Coloured terminal UI library. [GNU GPL3][41].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
 * [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
@@ -414,3 +441,30 @@ XML
 [151]: http://valloric.github.io/YouCompleteMe/
 [152]: https://sites.google.com/site/lccretargetablecompiler/
 [153]: https://github.com/drh/lcc/blob/master/CPYRIGHT
+[154]: https://code.google.com/p/ulib/
+[155]: https://gnu.org/software/adns/
+[156]: http://adtinfo.org/libavl.html/index.html
+[157]: http://sourceware.org/binutils/docs/bfd/
+[158]: https://gnu.org/software/freeipmi/index.html
+[159]: https://gnu.org/software/glpk/
+[160]: https://gnu.org/software/gsasl/
+[161]: https://gnu.org/software/gss/
+[162]: https://gnu.org/software/libffcall/
+[163]: https://gnu.org/software/libiconv/
+[164]: https://gnu.org/software/libidn/
+[165]: https://gnu.org/software/libmicrohttpd/
+[166]: http://www.hughes.com.au/products/libhttpd/
+[167]: https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup
+[168]: http://www.webdav.org/neon/
+[169]: http://mihl.sourceforge.net/
+[170]: https://github.com/davidmoreno/onion
+[171]: https://github.com/cesanta/mongoose
+[172]: https://gnu.org/software/libtool/
+[173]: https://gnu.org/software/libunistring/
+[174]: https://gnu.org/software/libxmi/
+[175]: http://www.multiprecision.org/index.php?prog=mpc&page=home
+[176]: http://mpfr.loria.fr/index.html
+[177]: https://gnu.org/software/mpria/
+[178]: https://gnu.org/software/ncurses/
+[179]: https://gnu.org/software/osip/
+[180]: https://gnu.org/software/pth/
