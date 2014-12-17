@@ -12,13 +12,17 @@ Compilers
 * [PCC][74] - A very old C compiler. Supports C99. [Various licenses][75]
 * [TCC][58] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except complex types). [GNU GPL2.1][8].
 
+Crypto
+======
+
+* [libgcrypt][] - A general-purpose cryptography library, with a range of available ciphers. [GNU GPL2.1][8] and [GNU LGPL2.1][15].
+
 
 Database
 ========
 
 This lists databases and data stores with C APIs.
 
-* [leveldb][46] - A simple persistent key-value store. Available via [clib][26]. [3-clause BSD][6].
 * [LMDB][105] - An ultra-fast, ultra-compact key-value embedded data store. [newOpenLDAP][106].
 * [MariaDB][25] - A robust, scalable and reliable SQL server, designed to be a drop-in replacement for MySQL. [3-clause BSD][6].
 * [PostgreSQL][121] - A powerful object-relational database system. [PostgreSQL licence][122]
@@ -74,8 +78,7 @@ Graphics
 
 * [Cogl][127] - A GPU graphics and utilities API. [GNU LGPL2.1][15].
 * [Clutter][126] - A UI library based on OpenGL. [GNU LGPL2.1][15].
-
-
+* [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
 
 Graphical User Interface
 ========================
@@ -130,9 +133,12 @@ Networking and Internet
 * [asnlc][138] - A compiler of ASN.1 specifications into C source code. [FreeBSD][24].
 * [GnuTLS][112] - A secure communication library, implementing SSL, TLS and DTLS. [GNU LGPL2.1][15]
 * [libcurl][65] - A client-side URL transfer library, supporting a wide range of formats. [curl license][66]
+* [libev][144] - Yet another event loop. [FreeBSD][24].
 * [libevent][124] - An event loop replacement for network servers. [3-clause BSD][6].
+* [LibreSSL][143] - A BSD fork of OpenSSL. Various licenses, all semi-free.
 * [nanomsg][139] - A C-based implementation of ZeroMQ. [Expat][11].
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
+* [Tox][145] - A communication platform, designed to be a Skype-killer. [GNU GPL3][41].
 * [ZeroMQ][52] - High-performance message passing networking library. Implemented in C++, but has a C interface. [GNU LGPL3][41].
 
 Numerical
@@ -148,16 +154,11 @@ Numerical
 * [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [3-clause BSD][6].
 
 
-Package Manager
-===============
-
-* [CCAN][103] - Modelled after Perl's CPAN, this is a big collection of C code that does stuff. The full list is [here][104]. Various licenses (all free software).
-* [clib][26] - Something of a package manager for C. Comes with a [bunch of libraries of its own][27]. [Expat][11].
-
 Parallel Programming
 ====================
 
 * [OpenMP][37] - A set of C pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
+* [pthreads][146] - The POSIX thread library. Standard (no license applicable).
 * [TinyCThread][115] - A portable, small implementation of the C11 threads API. [zlib][49].
 
 Regex
@@ -179,6 +180,15 @@ Serialization
 * [protobuf-c][129] - An implementation of Google Protocol Buffer in C. [FreeBSD][24].
 * [xdr][131] - External Data Representation; a standard for data serialization. Standard (no license applicable).
 
+Source Code Collections
+=======================
+
+This contains collections of small source code. If you want something big and integrated, check the Frameworks section.
+
+* [CCAN][103] - Modelled after Perl's CPAN, this is a big collection of C code that does stuff. The full list is [here][104]. Various licenses (all free software).
+* [clib][26] - Something of a package manager for C. Comes with a [bunch of libraries of its own][27]. [Expat][11].
+* [gnulib][46] - A collection of common GNU code. [GNU GPL3][41].
+
 Standard Libraries
 ==================
 
@@ -198,13 +208,27 @@ Testing
 * [CUnit][94] - Another unit testing framework for C. [GNU LGPL2.1][15].
 * [minunit][92] - Minimal unit testing framework for C. [Expat][11].
 
+Text Editor Extensions
+======================
+
+While practically any decent programmer's text editor supports C, there are some extensions that make it more pleasant. This is categorized by editor.
+
+## Emacs ##
+
+* [Flycheck][149] - Modern syntax checking. For C, it can use either GCC or Clang as a back-end. [GNU GPL3][41].
+* [Yasnippet][150] - A template system, with C templates for common code snippets. No license specified.
+
+## Vim ##
+
+* [YouCompleteMe][151] - A code completion engine for Vim. [GNU GPL3][41].
+
 Tools
 =====
 
 This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
 
 * [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
-* [c99sh][113] - Run C files using hash-bang. No license specified.
+* [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPL3][41].
 * [rr][95] - A debugger that records non-deterministic executions to allow for deterministic debugging. [FreeBSD][24].
@@ -281,7 +305,7 @@ XML
 [43]: http://www.geany.org/
 [44]: https://www.kdevelop.org/
 [45]: http://www.codelite.org/
-[46]: https://github.com/clibs/leveldb
+[46]: https://www.gnu.org/software/gnulib/
 [47]: http://www.gnu.org/software/gsl/
 [48]: http://alleg.sourceforge.net/readme.html
 [49]: http://directory.fsf.org/wiki/License:Zlib
@@ -377,3 +401,13 @@ XML
 [139]: https://github.com/nanomsg/nanomsg
 [140]: http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c
 [141]: http://cmocka.org/
+[142]: https://www.gnu.org/software/libgcrypt/
+[143]: https://github.com/libressl-portable/
+[144]: http://software.schmorp.de/pkg/libev.html
+[145]: https://github.com/irungentoo/toxcore
+[146]: http://en.wikipedia.org/wiki/POSIX_Threads
+[147]: https://www.opengl.org/
+[148]: http://www.sgi.com/tech/opengl/?/license.html
+[149]: https://github.com/flycheck/flycheck
+[150]: https://github.com/capitaomorte/yasnippet
+[151]: http://valloric.github.io/YouCompleteMe/
