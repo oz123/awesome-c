@@ -127,11 +127,13 @@ Multimedia
 Networking and Internet
 =======================
 
+* [asnlc][138] - A compiler of ASN.1 specifications into C source code. [FreeBSD][24].
 * [GnuTLS][112] - A secure communication library, implementing SSL, TLS and DTLS. [GNU LGPL2.1][15]
 * [libcurl][65] - A client-side URL transfer library, supporting a wide range of formats. [curl license][66]
 * [libevent][124] - An event loop replacement for network servers. [3-clause BSD][6].
+* [nanomsg][139] - A C-based implementation of ZeroMQ. [Expat][11].
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
-* [ZeroMQ][52] - High-performance message passing networking library. [GNU LGPL3][41].
+* [ZeroMQ][52] - High-performance message passing networking library. Implemented in C++, but has a C interface. [GNU LGPL3][41].
 
 Numerical
 =========
@@ -172,6 +174,7 @@ Serialization
 =============
 
 * [c-capnproto][130] - An implementation of the Cap'n Proto serialization protocol. [Expat][11].
+* [libavro][140] - A C implementation of the Avro data serialization system. [Apache2.0][32].
 * [msgpackalt][132] - A simple, light and fast binary serialization library. [3-clause BSD][6].
 * [protobuf-c][129] - An implementation of Google Protocol Buffer in C. [FreeBSD][24].
 * [xdr][131] - External Data Representation; a standard for data serialization. Standard (no license applicable).
@@ -191,6 +194,7 @@ Testing
 
 * [CHEAT][84] - A very simple unit testing framework. [FreeBSD][24].
 * [Check][59] - A unit testing framework for C. [GNU LGPL2.1][15].
+* [cmocka][141] - A unit testing framework with support for mock objects. [Apache2.0][32].
 * [CUnit][94] - Another unit testing framework for C. [GNU LGPL2.1][15].
 * [minunit][92] - Minimal unit testing framework for C. [Expat][11].
 
@@ -369,3 +373,7 @@ XML
 [135]: http://www.netlib.org/blas/
 [136]: http://www.netlib.org/blas/#_licensing
 [137]: http://math-atlas.sourceforge.net/
+[138]: http://lionet.info/asn1c/compiler.html
+[139]: https://github.com/nanomsg/nanomsg
+[140]: http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c
+[141]: http://cmocka.org/
