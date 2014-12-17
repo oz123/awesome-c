@@ -11,6 +11,7 @@ Compilers
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports C11 and OpenMP. [GNU GPL3][41].
 * [PCC][74] - A very old C compiler. Supports C99. [Various licenses][75]
 * [TCC][58] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except complex types). [GNU GPL2.1][8].
+* [LCC][142] - A Retargetable Compiler for ANSI C. [License][143].
 
 
 Database
@@ -377,3 +378,5 @@ XML
 [139]: https://github.com/nanomsg/nanomsg
 [140]: http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c
 [141]: http://cmocka.org/
+[142]: https://sites.google.com/site/lccretargetablecompiler/
+[143]: https://github.com/drh/lcc/blob/master/CPYRIGHT
