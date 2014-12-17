@@ -16,7 +16,7 @@ Compilers
 Crypto
 ======
 
-* [libgcrypt][] - A general-purpose cryptography library, with a range of available ciphers. [GNU GPL2.1][8] and [GNU LGPL2.1][15].
+* [libgcrypt][142] - A general-purpose cryptography library, with a range of available ciphers. [GNU GPL2.1][8] and [GNU LGPL2.1][15].
 
 
 Database
