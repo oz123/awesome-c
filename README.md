@@ -16,8 +16,10 @@ Compilers
 Crypto
 ======
 
+* [GnuTLS][112] - A secure communication library, implementing SSL, TLS and DTLS. [GNU LGPL2.1][15].
 * [libgcrypt][142] - A general-purpose cryptography library, with a range of available ciphers. [GNU GPL2.1][8] and [GNU LGPL2.1][15].
-
+* [LibreSSL][143] - A BSD fork of OpenSSL. Various licenses, all semi-free.
+* [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
 
 Database
 ========
@@ -102,25 +104,60 @@ JSON
 * [YAJL][60] - A fast C JSON streaming parser library. [ISC][61]
 
 
-Learning and Tutorials
-======================
+Learning, Reference and Tutorials
+=================================
 
 This is a list of resources for learning C programming in general, or something useful relating to C programming.
 
 ## Online ##
 
-* [Bit twiddling hacks][73]
+Reference
+---------
+
+* [C: A Reference Manual 5E][181] (online PDF)
 * [The C Programming Language 2E][7] (online PDF)
+
+Beginner
+--------
+
+* [C Primer Plus 5E][184] (online PDF)
+
+Intermediate
+------------
+
+* [Object-Oriented Programming with ANSI C][185] (online PDF)
+
+Advanced
+--------
+
+* [Bit twiddling hacks][73]
 * [The lost art of C structure packing][34]
 * [Writing efficient C and C code optimization][33]
 
 ## Physical ##
 
-* [21st Century C][35] - A very good *second* programming book on C.
+Reference
+---------
+
+* [C Pocket Reference][182] - A concise reference book for C99.
+
+Beginner
+--------
+
 * [C Programming: A Modern Approach][64] - An excellent book to learn the basics from C from.
-* [Expert C Programming: Deep C Secrets][55] - An interesting, in-depth and *entertaining* look at the innards of C.
 * [Head First C][102] - A 'head-first' style book for learning C.
+
+Intermediate
+------------
+
+* [21st Century C][35] - A very good *second* programming book on C.
 * [Understanding and Using C Pointers][36] - An in-depth resource on pointers in C.
+* [ZeroMQ][183] - A book for using ZeroMQ with C.
+
+Advanced
+--------
+
+* [Expert C Programming: Deep C Secrets][55] - An interesting, in-depth and *entertaining* look at the innards of C.
 
 Multimedia
 ==========
@@ -468,3 +505,8 @@ XML
 [178]: https://gnu.org/software/ncurses/
 [179]: https://gnu.org/software/osip/
 [180]: https://gnu.org/software/pth/
+[181]: https://savedparadigms.files.wordpress.com/2014/09/harbison-s-p-steele-g-l-c-a-reference-manual-5th-ed.pdf
+[182]: http://shop.oreilly.com/product/9780596004361.do
+[183]: http://shop.oreilly.com/product/0636920026136.do
+[184]: http://faculty.euc.ac.cy/scharalambous/csc131/books/C%20book%201.pdf
+[185]: http://www.planetpdf.com/codecuts/pdfs/ooc.pdf
