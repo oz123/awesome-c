@@ -83,6 +83,7 @@ Graphics
 * [Clutter][126] - A UI library based on OpenGL. [GNU LGPL2.1][15].
 * [libxmi][174] - A function library for rasterizing 2D vector graphics. [GNU GPL3][41].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
+* [SDL2](https://www.libsdl.org/) - Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. [zlib](http://www.zlib.net/)
 
 Graphical User Interface
 ========================
