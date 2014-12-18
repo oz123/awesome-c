@@ -80,6 +80,7 @@ Graphics
 * [Cogl][127] - A GPU graphics and utilities API. [GNU LGPL2.1][15].
 * [Clutter][126] - A UI library based on OpenGL. [GNU LGPL2.1][15].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
+* [SDL2](https://www.libsdl.org/) [zlib](http://www.zlib.net/)
 
 Graphical User Interface
 ========================
