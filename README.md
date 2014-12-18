@@ -277,6 +277,7 @@ While practically any decent programmer's text editor supports C, there are some
 
 ## Vim ##
 
+* [Syntastic][186] - Syntax checking and linting. [Do What The Fuck You Want To license][187].
 * [YouCompleteMe][151] - A code completion engine for Vim. [GNU GPL3][41].
 
 Tools
@@ -510,3 +511,5 @@ XML
 [183]: http://shop.oreilly.com/product/0636920026136.do
 [184]: http://faculty.euc.ac.cy/scharalambous/csc131/books/C%20book%201.pdf
 [185]: http://www.planetpdf.com/codecuts/pdfs/ooc.pdf
+[186]: https://github.com/scrooloose/syntastic
+[187]: https://github.com/scrooloose/syntastic/blob/master/LICENCE
