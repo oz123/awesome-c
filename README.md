@@ -195,6 +195,7 @@ Networking and Internet
 Numerical
 =========
 
+* [apophenia][188] - A library for statistical and scientific computing. [GNU GPL2.1][8] with some [exceptions][189].
 * [ATLAS][137] - Automatically Tuned Linear Algebra Software. [3-clause BSD][6].
 * [BLAS][135] - Basic Linear Algebra Subprograms; a set of routines that provide vector and matrix operations. [BLAS license][136]
 * [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [GNU GPL2.1][8].
@@ -513,3 +514,5 @@ XML
 [185]: http://www.planetpdf.com/codecuts/pdfs/ooc.pdf
 [186]: https://github.com/scrooloose/syntastic
 [187]: https://github.com/scrooloose/syntastic/blob/master/LICENCE
+[188]: https://github.com/b-k/apophenia
+[189]: https://github.com/b-k/apophenia/blob/master/install/COPYING2
