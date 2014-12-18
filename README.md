@@ -99,7 +99,7 @@ These are specifically [widget toolkits][12].
 JSON
 =======
 
-* [Jannson][53] - A C library for encoding, decoding and manipulating JSON. [Expat][11].
+* [Jansson][53] - A C library for encoding, decoding and manipulating JSON. [Expat][11].
 * [jsmn][120] - A minimalistic JSON parser. [Expat][11].
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON Schema. [GNU GPL3][41].
 * [YAJL][60] - A fast C JSON streaming parser library. [ISC][61]
