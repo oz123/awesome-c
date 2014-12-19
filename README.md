@@ -317,6 +317,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [ncurses][178] - Coloured terminal UI library. [GNU GPL3][41].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
 * [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
+* [udpc][] - An implementation of the [Universal Design Pattern][]. [GNU GPL3][41].
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
 
 XML
@@ -517,3 +518,5 @@ XML
 [187]: https://github.com/scrooloose/syntastic/blob/master/LICENCE
 [188]: https://github.com/b-k/apophenia
 [189]: https://github.com/b-k/apophenia/blob/master/install/COPYING2
+[190]: https://github.com/kozross/udpc
+[191]: http://steve-yegge.blogspot.co.nz/2008/10/universal-design-pattern.html
