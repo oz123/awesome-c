@@ -20,6 +20,7 @@ Crypto
 * [libgcrypt][142] - A general-purpose cryptography library, with a range of available ciphers. [GNU GPL2.1][8] and [GNU LGPL2.1][15].
 * [LibreSSL][143] - A BSD fork of OpenSSL. Various licenses, all semi-free.
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
+* [libsodium][198] - A modern and easy-to-use crypto library. [Expat][11].
 
 Database
 ========
@@ -81,7 +82,10 @@ Graphics
 
 * [Cogl][127] - A GPU graphics and utilities API. [GNU LGPL2.1][15].
 * [Clutter][126] - A UI library based on OpenGL. [GNU LGPL2.1][15].
+* [libjpeg][192] - A library for reading and writing JPEG files. Free software license (check the source).
+* [libjpeg-turbo][193] - A faster library for reading and writing JPEG files. [Various licences][194].
 * [libxmi][174] - A function library for rasterizing 2D vector graphics. [GNU GPL3][41].
+* [mozjpeg][200] - An improved JPEG encoder. [3-clause BSD][6].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
 * [SDL2](https://www.libsdl.org/) - Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. [zlib](http://www.zlib.net/)
 
@@ -174,6 +178,8 @@ Networking and Internet
 * [GNU adns][155] - An advanced, easy-to-use, asynch-capable DNS client library and utilities. [GNU GPL3][41].
 * [GNU SASL][160] - An implementation of the Simple Authentication and Security Layer and a few common SASL mechanism. [GNU GPL3][41].
 * [GnuTLS][112] - A secure communication library, implementing SSL, TLS and DTLS. [GNU LGPL2.1][15].
+* [gumbo-parser][196] - An HTML5 parsing library in C99. [Apache2.0][32].
+* [http-parser][197] - An HTTP request/response parser. [Expat][11].
 * [libcurl][65] - A client-side URL transfer library, supporting a wide range of formats. [curl license][66]
 * [libev][144] - Yet another event loop. [FreeBSD][24].
 * [libevent][124] - An event loop replacement for network servers. [3-clause BSD][6].
@@ -183,6 +189,7 @@ Networking and Internet
 * [libmicrohttpd][165] - A small C library that makes it easy to run an HTTP server as part of another application. [GNU LGPL2.1][15].
 * [libsoup][167] - A GNOME HTTP client/server library. Uses GObject. [GNU LGPL2.1][15].
 * [LibreSSL][143] - A BSD fork of OpenSSL. Various licenses, all semi-free.
+* [lwan][199] - An experimental, scalable, high-performance HTTP server. [GNU GPL2.1][8].
 * [mihl][169] - A library for implementing an embedded HTTP server. [FreeBSD][24].
 * [mongoose][171] - Embedded web server for C. [GNU GPL2.1][8].
 * [nanomsg][139] - A C-based implementation of ZeroMQ. [Expat][11].
@@ -302,6 +309,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
 * [bfd][157] - A library for manipulating binary object files. Part of GNU binutils. [GNU GPL2.1][8].
 * [bstrlib][116] - The Better String Library. [3-clause BSD][6] or [GNU GPL2.1][8].
+* [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer vision. [3-clause BSD][24].
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPL3][41].
 * [GNU Libffcall][162] - A collection of libraries for building foreign function interfaces. [GNU GPL3][41].
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
@@ -520,3 +528,12 @@ XML
 [189]: https://github.com/b-k/apophenia/blob/master/install/COPYING2
 [190]: https://github.com/kozross/udpc
 [191]: http://steve-yegge.blogspot.co.nz/2008/10/universal-design-pattern.html
+[192]: http://libjpeg.sourceforge.net/
+[193]: http://libjpeg-turbo.virtualgl.org/
+[194]: http://www.libjpeg-turbo.org/About/License
+[195]: https://github.com/liuliu/ccv
+[196]: https://github.com/google/gumbo-parser
+[197]: https://github.com/joyent/http-parser
+[198]: https://github.com/jedisct1/libsodium
+[199]: https://github.com/lpereira/lwan
+[200]: https://github.com/mozilla/mozjpeg
