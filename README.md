@@ -126,8 +126,10 @@ Reference
 Beginner
 --------
 
+* [A tutorial on pointers][213]
 * [Building C Projects][208]
 * [C Primer Plus 5E][184] (online PDF)
+* [The GNU C Programming Tutorial][212] (online PDF)
 
 Intermediate
 ------------
@@ -563,3 +565,5 @@ XML
 [209]: https://github.com/riolet/nope.c
 [210]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153
 [211]: http://www.cppinstitute.org/?page_id=1487
+[212]: http://www.crasseux.com/books/ctut.pdf
+[213]: http://home.netcom.com/~tjensen/ptr/pointers.htm
