@@ -27,6 +27,7 @@ Database
 
 This lists databases and data stores with C APIs.
 
+* [Hiredis][201] - A minimalistic client library for Redis. [3-clause BSD][6].
 * [LMDB][105] - An ultra-fast, ultra-compact key-value embedded data store. [newOpenLDAP][106].
 * [MariaDB][25] - A robust, scalable and reliable SQL server, designed to be a drop-in replacement for MySQL. [3-clause BSD][6].
 * [PostgreSQL][121] - A powerful object-relational database system. [PostgreSQL licence][122]
@@ -125,17 +126,24 @@ Reference
 Beginner
 --------
 
+* [Building C Projects][208]
 * [C Primer Plus 5E][184] (online PDF)
 
 Intermediate
 ------------
 
+* [8 gdb tricks you should know][206]
+* [Diving into concurrency: trying out mutexes and atomics][202]
+* [Introduction to OpenMP][207] (video)
+* [memcpy vs memmove][205]
 * [Object-Oriented Programming with ANSI C][185] (online PDF)
 
 Advanced
 --------
 
+* [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][204]
 * [Bit twiddling hacks][73]
+* [Some dark corners of C][210]
 * [The lost art of C structure packing][34]
 * [Writing efficient C and C code optimization][33]
 
@@ -197,6 +205,7 @@ Networking and Internet
 * [onion][170] - HTTP server library, designed to be easy to use. [Apache2.0][32].
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
 * [oSip][179] - A SIP implementation in C without additional dependencies. [GNU GPL3][41].
+* [socket99][203] - A wrapper library for the BSD sockets API.
 * [Tox][145] - A communication platform, designed to be a Skype-killer. [GNU GPL3][41].
 * [ZeroMQ][52] - High-performance message passing networking library. Implemented in C++, but has a C interface. [GNU LGPL3][5].
 
@@ -323,6 +332,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libunistring][173] - A library for manipulating Unicode strings in C. [GNU LGPL3][5].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [ncurses][178] - Coloured terminal UI library. [GNU GPL3][41].
+* [nope.c][209] - A C-language-based, ultra-light software platform for scalable server-side and networking applications (think node.js for C programmers). [GNU GPL2.1][8].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
 * [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
 * [udpc][190] - An implementation of the [Universal Design Pattern][191]. [GNU GPL3][41].
@@ -537,3 +547,13 @@ XML
 [198]: https://github.com/jedisct1/libsodium
 [199]: https://github.com/lpereira/lwan
 [200]: https://github.com/mozilla/mozjpeg
+[201]: https://github.com/redis/hiredis
+[202]: http://jvns.ca/blog/2014/12/14/fun-with-threads/
+[203]: https://github.com/silentbicycle/socket99
+[204]: http://danluu.com/malloc-tutorial/
+[205]: http://www.tedunangst.com/flak/post/memcpy-vs-memmove
+[206]: https://blogs.oracle.com/ksplice/entry/8_gdb_tricks_you_should
+[207]: https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
+[208]: http://nethack4.org/blog/building-c.html
+[209]: https://github.com/riolet/nope.c
+[210]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153
