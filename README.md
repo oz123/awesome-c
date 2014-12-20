@@ -281,6 +281,15 @@ This contains standard C libraries.
 * [glibc][57] - The GNU C Library; an implementation of the C standard library. [GNU LGPL3][5]. 
 * [musl][10] - A standard C library, compatible with POSIX 2008 and C11. Designed for static linking. [Expat][11].
 
+String Manipulation
+===================
+
+* [bstrlib][116] - The Better String Library. [3-clause BSD][6] or [GNU GPL2.1][8].
+* [ICU][67] - International Components for Unicode; a library for Unicode support. [ICU license][68].
+* [libunistring][173] - A library for manipulating Unicode strings in C. [GNU LGPL3][5].
+* [libgiconv][163] - A text conversion library. [GNU LGPL2.1][8].
+* [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
+
 Testing
 =======
 
@@ -324,24 +333,20 @@ Utilities
 This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
 * [bfd][157] - A library for manipulating binary object files. Part of GNU binutils. [GNU GPL2.1][8].
-* [bstrlib][116] - The Better String Library. [3-clause BSD][6] or [GNU GPL2.1][8].
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer vision. [3-clause BSD][24].
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPL3][41].
 * [GNU Libffcall][162] - A collection of libraries for building foreign function interfaces. [GNU GPL3][41].
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
-* [ICU][67] - International Components for Unicode; a library for Unicode support. [ICU license][68].
+* [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [libavl][156] - A library containing a range of self-balancing binary trees. [GNU GPL2.1][8].
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
 * [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
-* [libgiconv][163] - A text conversion library. [GNU LGPL2.1][8].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
-* [libunistring][173] - A library for manipulating Unicode strings in C. [GNU LGPL3][5].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [ncurses][178] - Coloured terminal UI library. [GNU GPL3][41].
 * [nope.c][209] - A C-language-based, ultra-light software platform for scalable server-side and networking applications (think node.js for C programmers). [GNU GPL2.1][8].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
-* [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
 * [udpc][190] - An implementation of the [Universal Design Pattern][191]. [GNU GPL3][41].
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
 
@@ -567,3 +572,4 @@ XML
 [211]: http://www.cppinstitute.org/?page_id=1487
 [212]: http://www.crasseux.com/books/ctut.pdf
 [213]: http://home.netcom.com/~tjensen/ptr/pointers.htm
+[214]: https://github.com/adamierymenko/huffandpuff
