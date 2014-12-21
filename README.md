@@ -30,6 +30,7 @@ This lists databases and data stores with C APIs.
 * [Hiredis][201] - A minimalistic client library for Redis. [3-clause BSD][6].
 * [LMDB][105] - An ultra-fast, ultra-compact key-value embedded data store. [newOpenLDAP][106].
 * [MariaDB][25] - A robust, scalable and reliable SQL server, designed to be a drop-in replacement for MySQL. [3-clause BSD][6].
+* [mongo-c-driver][233] - A high-performance client library for [MongoDB][234]. [Apache2.0][32].
 * [PostgreSQL][121] - A powerful object-relational database system. [PostgreSQL licence][122]
 * [Redis][51] - An advanced key-value store. [3-clause BSD][6].
 * [SQLite][22] - A self-contained, serverless, zero-configuration, transactional SQL database engine with a C interface. Public domain.
@@ -63,12 +64,24 @@ This section has big libraries that provide data structures and other stuff you 
 Game Programming
 ================
 
-* [Allegro][48] - A cross-platform, video game development and multimedia library. [zlib][49].
+## Engines ##
+
+These are provided as examples of C game programming code.
+
 * [Corange][101] - A game engine in pure C. [FreeBSD][24].
+* [ioquake3][107] - The Quake3 engine, freed at last. [GNU GPL2.1][8]
+* [Quake][225] - The Quake engine. [GNU GPL2.1][8].
+* [Quake2][221] - The Quake2 engine. [GNU GPL2.1][8].
+
+## Resources ##
+
+These are libraries of all sorts that are useful for game programming.
+
+* [Allegro][48] - A cross-platform, video game development and multimedia library. [zlib][49].
 * [CSFML][90] - A binding for [SFML][91] in C. [zlib][49].
 * [FreeGLUT][99] - An alternative to the OpenGL Utility Toolkit. Allows the creation and management of windows with OpenGL contexts. [X11][100].
 * [GLFW][98] - A multi-platform library for creating windows with OpenGL contexts. [zlib][49].
-* [ioquake3][107] - The Quake3 engine, freed at last. [GNU GPL2.1][8]
+* [RetroArch][231] - The reference frontend for [libretro][232]. [GNU GPL3][41].
 * [SDL][50] - A cross-platform library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [zlib][49].
 
 
@@ -106,6 +119,7 @@ JSON
 
 * [Jansson][53] - A C library for encoding, decoding and manipulating JSON. [Expat][11].
 * [jsmn][120] - A minimalistic JSON parser. [Expat][11].
+* [json-c][220] - A library for working with JSON. [Expat][11].
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON Schema. [GNU GPL3][41].
 * [YAJL][60] - A fast C JSON streaming parser library. [ISC][61]
 
@@ -190,12 +204,14 @@ Networking and Internet
 =======================
 
 * [asnlc][138] - A compiler of ASN.1 specifications into C source code. [FreeBSD][24].
+* [czmq][226] - A high-level binding for ZeroMQ. [MPL2.0][227]
 * [GNU adns][155] - An advanced, easy-to-use, asynch-capable DNS client library and utilities. [GNU GPL3][41].
 * [GNU SASL][160] - An implementation of the Simple Authentication and Security Layer and a few common SASL mechanism. [GNU GPL3][41].
 * [GnuTLS][112] - A secure communication library, implementing SSL, TLS and DTLS. [GNU LGPL2.1][15].
 * [gumbo-parser][196] - An HTML5 parsing library in C99. [Apache2.0][32].
 * [http-parser][197] - An HTTP request/response parser. [Expat][11].
 * [libcurl][65] - A client-side URL transfer library, supporting a wide range of formats. [curl license][66]
+* [LibEtPan][222] - A mail library providing an efficient network for IMAP, SMTP, POP and NNTP. [3-clause BSD][6].
 * [libev][144] - Yet another event loop. [FreeBSD][24].
 * [libevent][124] - An event loop replacement for network servers. [3-clause BSD][6].
 * [libgss][161] - Generic Security Service. [GNU GPL3][41].
@@ -333,12 +349,14 @@ Utilities
 This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
 * [bfd][157] - A library for manipulating binary object files. Part of GNU binutils. [GNU GPL2.1][8].
-* [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer vision. [3-clause BSD][24].
+* [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer vision. [3-clause BSD][6].
+* [CommonMark][223] - A C implementation of the CommonMark spec. [Variety of licenses, all free][224].
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPL3][41].
 * [GNU Libffcall][162] - A collection of libraries for building foreign function interfaces. [GNU GPL3][41].
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [libavl][156] - A library containing a range of self-balancing binary trees. [GNU GPL2.1][8].
+* [libbson][235] - A BSON utility library. [Apache2.0][32].
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
 * [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
@@ -346,9 +364,12 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [ncurses][178] - Coloured terminal UI library. [GNU GPL3][41].
 * [nope.c][209] - A C-language-based, ultra-light software platform for scalable server-side and networking applications (think node.js for C programmers). [GNU GPL2.1][8].
+* [pbc][236] - A protocol buffers library. [Expat][11].
+* [rabbitmq-c][228] - A client library for [RabbitMQ][229]. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
 * [udpc][190] - An implementation of the [Universal Design Pattern][191]. [GNU GPL3][41].
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
+* [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression library. [3-clause BSD][6].
 
 XML
 ===
@@ -356,7 +377,11 @@ XML
 > "XML is crap. Really. There are no excuses. XML is nasty to parse for humans, and it's a disaster to parse even for computers. There's just no reason for that horrible crap to exist." - Linus Torvalds
 
 * [Expat][89] - A stream-oriented XML parser. [Expat][11].
+* [ezXML][218] - An easy-to-use, fast and lightweight XML parser. [Expat][11].
+* [libroxml][219] - Another library for parsing XML. [GNU LGPL2.1][15].
 * [libxml2][62] - A standards-compliant, portable XML parser. [Expat][11].
+* [mini-xml][216] - A small XML reading and writing library. No dependencies aside from C standard library. [GNU LGPL2.1 with static linking exception][217].
+* [VTD-XML][215] - A very fast XML processing framework. [GNU GPL2.1][8].
 
 
 [1]: https://developer.gnome.org/glib/
@@ -573,3 +598,25 @@ XML
 [212]: http://www.crasseux.com/books/ctut.pdf
 [213]: http://home.netcom.com/~tjensen/ptr/pointers.htm
 [214]: https://github.com/adamierymenko/huffandpuff
+[215]: http://sourceforge.net/projects/vtd-xml/
+[216]: http://www.msweet.org/projects.php?Z3
+[217]: http://svn.msweet.org/mxml/trunk/COPYING
+[218]: http://ezxml.sourceforge.net/
+[219]: http://www.libroxml.net/
+[220]: https://github.com/json-c/json-c/wiki
+[221]: https://github.com/id-Software/Quake-2
+[222]: https://github.com/dinhviethoa/libetpan
+[223]: https://github.com/jgm/CommonMark
+[224]: https://github.com/jgm/CommonMark/blob/master/LICENSE
+[225]: https://github.com/id-Software/Quake
+[226]: https://github.com/zeromq/czmq
+[227]: https://www.gnu.org/licenses/license-list.html#MPL-2.0
+[228]: https://github.com/alanxz/rabbitmq-c
+[229]: http://www.rabbitmq.com/
+[230]: https://github.com/madler/zlib
+[231]: https://github.com/libretro/RetroArch
+[232]: http://www.libretro.com/
+[233]: https://github.com/mongodb/mongo-c-driver
+[234]: http://www.mongodb.org/
+[235]: https://github.com/mongodb/libbson
+[236]: https://github.com/cloudwu/pbc
