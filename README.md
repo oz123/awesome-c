@@ -230,6 +230,7 @@ Networking and Internet
 * [oSip][179] - A SIP implementation in C without additional dependencies. [GNU GPL3][41].
 * [socket99][203] - A wrapper library for the BSD sockets API.
 * [Tox][145] - A communication platform, designed to be a Skype-killer. [GNU GPL3][41].
+* [twitc][237] - A mini C library for interacting with the Twitter OAuth API. [GNU GPL3][41].
 * [ZeroMQ][52] - High-performance message passing networking library. Implemented in C++, but has a C interface. [GNU LGPL3][5].
 
 Numerical
@@ -620,3 +621,4 @@ XML
 [234]: http://www.mongodb.org/
 [235]: https://github.com/mongodb/libbson
 [236]: https://github.com/cloudwu/pbc
+[237]: https://github.com/sinemetu1/twitc
