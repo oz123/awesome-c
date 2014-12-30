@@ -363,6 +363,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
+* [mpc][238] - A parser combinator library. [FreeBSD][24].
 * [ncurses][178] - Coloured terminal UI library. [GNU GPL3][41].
 * [nope.c][209] - A C-language-based, ultra-light software platform for scalable server-side and networking applications (think node.js for C programmers). [GNU GPL2.1][8].
 * [pbc][236] - A protocol buffers library. [Expat][11].
@@ -622,3 +623,4 @@ XML
 [235]: https://github.com/mongodb/libbson
 [236]: https://github.com/cloudwu/pbc
 [237]: https://github.com/sinemetu1/twitc
+[238]: https://github.com/orangeduck/mpc
