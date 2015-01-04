@@ -362,6 +362,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
+* [libucl][239] - A universal configuration library parser. [FreeBSD][24].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [mpc][238] - A parser combinator library. [FreeBSD][24].
 * [ncurses][178] - Coloured terminal UI library. [GNU GPL3][41].
@@ -624,3 +625,4 @@ XML
 [236]: https://github.com/cloudwu/pbc
 [237]: https://github.com/sinemetu1/twitc
 [238]: https://github.com/orangeduck/mpc
+[239]: https://github.com/vstakhov/libucl
