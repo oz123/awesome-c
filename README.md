@@ -159,6 +159,7 @@ Advanced
 
 * [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][204]
 * [Bit twiddling hacks][73]
+* [Implementing smart pointers for the C programming language][240]
 * [Some dark corners of C][210]
 * [The lost art of C structure packing][34]
 * [Writing efficient C and C code optimization][33]
@@ -372,6 +373,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
 * [udpc][190] - An implementation of the [Universal Design Pattern][191]. [GNU GPL3][41].
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
+* [Viola][241] - A simplification of libCello. [Expat][11].
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression library. [3-clause BSD][6].
 
 XML
@@ -626,3 +628,5 @@ XML
 [237]: https://github.com/sinemetu1/twitc
 [238]: https://github.com/orangeduck/mpc
 [239]: https://github.com/vstakhov/libucl
+[240]: http://snaipe.me/c/c-smart-pointers/
+[241]: https://github.com/eatonphil/Viola
