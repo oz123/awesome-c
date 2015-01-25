@@ -255,6 +255,8 @@ Numerical
 Parallel Programming
 ====================
 
+* [cchan][243] - A small library for channel constructs for inter-thread communication. Public domain.
+* [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures. [FreeBSD][24].
 * [OpenMP][37] - A set of C pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
 * [pth][180] - A portable implementation for non-preemptive priority-based scheduling for multiple threads of execution. [GNU GPL3][41].
 * [pthreads][146] - The POSIX thread library. Standard (no license applicable).
@@ -630,3 +632,5 @@ XML
 [239]: https://github.com/vstakhov/libucl
 [240]: http://snaipe.me/c/c-smart-pointers/
 [241]: https://github.com/eatonphil/Viola
+[242]: https://github.com/concurrencykit/ck
+[243]: http://repo.hu/projects/cchan/
