@@ -33,6 +33,7 @@ This lists databases and data stores with C APIs.
 * [mongo-c-driver][233] - A high-performance client library for [MongoDB][234]. [Apache2.0][32].
 * [PostgreSQL][121] - A powerful object-relational database system. [PostgreSQL licence][122]
 * [Redis][51] - An advanced key-value store. [3-clause BSD][6].
+* [sophia][244] - A modern, embeddable key-value database. [FreeBSD][24].
 * [SQLite][22] - A self-contained, serverless, zero-configuration, transactional SQL database engine with a C interface. Public domain.
 * [UnQLite][23] - A self-contained, serverless, zero-configuration, transactional NoSQL engine with a C interface. [FreeBSD][24].
 
@@ -160,6 +161,7 @@ Advanced
 * [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][204]
 * [Bit twiddling hacks][73]
 * [Implementing smart pointers for the C programming language][240]
+* [Inline functions in C][245]
 * [Some dark corners of C][210]
 * [The lost art of C structure packing][34]
 * [Writing efficient C and C code optimization][33]
@@ -634,3 +636,5 @@ XML
 [241]: https://github.com/eatonphil/Viola
 [242]: https://github.com/concurrencykit/ck
 [243]: http://repo.hu/projects/cchan/
+[244]: https://github.com/pmwkaa/sophia
+[245]: http://www.greenend.org.uk/rjk/tech/inline.html
