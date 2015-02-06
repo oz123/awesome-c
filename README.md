@@ -136,6 +136,7 @@ Reference
 ---------
 
 * [C: A Reference Manual 5E][181] (online PDF)
+* [Draft C11 standard][247]
 * [The C Programming Language 2E][7] (online PDF)
 
 Beginner
@@ -640,3 +641,4 @@ XML
 [244]: https://github.com/pmwkaa/sophia
 [245]: http://www.greenend.org.uk/rjk/tech/inline.html
 [246]: https://github.com/Snaipe/Criterion
+[247]: http://www.open-std.org/JTC1/SC22/WG14/
