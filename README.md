@@ -318,6 +318,7 @@ Testing
 * [CHEAT][84] - A very simple unit testing framework. [FreeBSD][24].
 * [Check][59] - A unit testing framework for C. [GNU LGPL2.1][15].
 * [cmocka][141] - A unit testing framework with support for mock objects. [Apache2.0][32].
+* [Criterion][246] - A KISS, non-intrusive C test framework. [Expat][11].
 * [CUnit][94] - Another unit testing framework for C. [GNU LGPL2.1][15].
 * [minunit][92] - Minimal unit testing framework for C. [Expat][11].
 
@@ -638,3 +639,4 @@ XML
 [243]: http://repo.hu/projects/cchan/
 [244]: https://github.com/pmwkaa/sophia
 [245]: http://www.greenend.org.uk/rjk/tech/inline.html
+[246]: https://github.com/Snaipe/Criterion
