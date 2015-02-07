@@ -43,9 +43,19 @@ Editors
 These are specifically fancier, IDE-type editors. If you want a programmer's text editor, and yours *doesn't* support C, I'd be quite surprised.
 
 * [Anjuta DevStudio][42] - The GNOME IDE. [GNU GPL3][41].
+* [Code::Blocks][249] - An extensible, configurable IDE supporting C. [GNU GPL3][41].
 * [CodeLite][45] - A cross-platform IDE. [GNU GPL2.1][8].
 * [Geany][43] - A very small and fast IDE. [GNU GPL2.1][8].
 * [KDevelop][44] - The KDE IDE. [GNU GPL2.1][8].
+
+Environments
+============
+
+This is a list of technologies designed to bring Windows into the 21st century with respect to support for C.
+
+* [Cygwin][253] - Designed to emulate a POSIX-compatible environment extensively under Windows. [Various licenses, all free][254].
+* [MinGW][251] - A minimalist environment for C development on Windows. [Various licenses, all free][252].
+
 
 Frameworks
 ==========
@@ -145,6 +155,7 @@ Beginner
 * [A tutorial on pointers][213]
 * [Building C Projects][208]
 * [C Primer Plus 5E][184] (online PDF)
+* [C Programming Wikibook][248] (online PDF)
 * [The GNU C Programming Tutorial][212] (online PDF)
 
 Intermediate
@@ -242,8 +253,10 @@ Numerical
 
 * [apophenia][188] - A library for statistical and scientific computing. [GNU GPL2.1][8] with some [exceptions][189].
 * [ATLAS][137] - Automatically Tuned Linear Algebra Software. [3-clause BSD][6].
+* [BigNum][257] - A package for arbitrary-precision arithmetic. No license specified.
 * [BLAS][135] - Basic Linear Algebra Subprograms; a set of routines that provide vector and matrix operations. [BLAS license][136]
 * [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [GNU GPL2.1][8].
+* [FLINT][255] - Fast Library for Number Theory; a library supporting arithmetic with numbers, polynomials, power series and matrices, among others. [GNU GPL2.1][8].
 * [GLPK][159] - GNU Linear Programming Kit; a package designed for solving large-scale linear programming, mixed integer programming and other related problems. [GNU GPL3][41].
 * [GMP][79] - GNU Multple Precision Arithmetic Library; a library for arbitrary-precision arithmetic. [GNU GPL2.1][8] and [GNU LGPL2.1][15].
 * [GNU MPC][175] - A library for complex number arithmetic. [GNU LGPL3][5].
@@ -252,6 +265,7 @@ Numerical
 * [GSL][47] - The GNU Scientific Library; a sophisticated numerical library. [GNU GPL3][41].
 * [KISS FFT][71] - A very simple fast Fourier transform library. [3-clause BSD][6].
 * [LAPACKE][133] - A C interface to [LAPACK][134]. [3-clause BSD][6].
+* [PARI/GP][256] - A computer algebra system for number theory; includes a compiler to C. [GNU GPL3][41].
 * [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [3-clause BSD][6].
 
 
@@ -330,6 +344,7 @@ While practically any decent programmer's text editor supports C, there are some
 
 ## Emacs ##
 
+* [CEDET][250] - Collection of Emacs Development Environment Tools; designed to provide IDE-like features to Emacs. Built-in. [GNU GPL2.1][8].
 * [Flycheck][149] - Modern syntax checking. For C, it can use either GCC or Clang as a back-end. [GNU GPL3][41].
 * [Yasnippet][150] - A template system, with C templates for common code snippets. [GNU GPL3][41].
 
@@ -642,3 +657,13 @@ XML
 [245]: http://www.greenend.org.uk/rjk/tech/inline.html
 [246]: https://github.com/Snaipe/Criterion
 [247]: http://www.open-std.org/JTC1/SC22/WG14/
+[248]: http://libflow.com/d/c6v1q5ti/C_Programming
+[249]: http://www.codeblocks.org/
+[250]: http://cedet.sourceforge.net/
+[251]: http://mingw.org/
+[252]: http://mingw.org/license
+[253]: https://cygwin.com/
+[254]: https://cygwin.com/licensing.html
+[255]: http://flintlib.org/
+[256]: http://pari.math.u-bordeaux.fr/
+[257]: http://www.mit.edu/afs/athena.mit.edu/contrib/bignum/
