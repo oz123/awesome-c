@@ -45,8 +45,10 @@ These are specifically fancier, IDE-type editors. If you want a programmer's tex
 * [Anjuta DevStudio][42] - The GNOME IDE. [GNU GPL3][41].
 * [Code::Blocks][249] - An extensible, configurable IDE supporting C. [GNU GPL3][41].
 * [CodeLite][45] - A cross-platform IDE. [GNU GPL2.1][8].
+* [Eclipse][258] - An IDE written in Java. [EPL][259].
 * [Geany][43] - A very small and fast IDE. [GNU GPL2.1][8].
 * [KDevelop][44] - The KDE IDE. [GNU GPL2.1][8].
+* [NetBeans][260] - Another IDE written in Java. [GNU GPL2.1][8] or [CDDL][261].
 
 Environments
 ============
@@ -162,6 +164,7 @@ Intermediate
 ------------
 
 * [8 gdb tricks you should know][206]
+* [10 C99 tricks][257]
 * [Diving into concurrency: trying out mutexes and atomics][202]
 * [Introduction to OpenMP][207] (video)
 * [memcpy vs memmove][205]
@@ -253,7 +256,6 @@ Numerical
 
 * [apophenia][188] - A library for statistical and scientific computing. [GNU GPL2.1][8] with some [exceptions][189].
 * [ATLAS][137] - Automatically Tuned Linear Algebra Software. [3-clause BSD][6].
-* [BigNum][257] - A package for arbitrary-precision arithmetic. No license specified.
 * [BLAS][135] - Basic Linear Algebra Subprograms; a set of routines that provide vector and matrix operations. [BLAS license][136]
 * [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [GNU GPL2.1][8].
 * [FLINT][255] - Fast Library for Number Theory; a library supporting arithmetic with numbers, polynomials, power series and matrices, among others. [GNU GPL2.1][8].
@@ -666,4 +668,8 @@ XML
 [254]: https://cygwin.com/licensing.html
 [255]: http://flintlib.org/
 [256]: http://pari.math.u-bordeaux.fr/
-[257]: http://www.mit.edu/afs/athena.mit.edu/contrib/bignum/
+[257]: http://blog.noctua-software.com/c-tricks.html
+[258]: http://www.eclipse.org/ide/
+[259]: http://directory.fsf.org/wiki/License:EPLv1.0
+[260]: https://netbeans.org/
+[261]: http://directory.fsf.org/wiki/License:CDDLv1.0
