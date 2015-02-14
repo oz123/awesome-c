@@ -148,6 +148,7 @@ Reference
 ---------
 
 * [C: A Reference Manual 5E][181] (online PDF)
+* [C FAQ - comp.lang.c Frequently Asked Questions][262]
 * [Draft C11 standard][247]
 * [The C Programming Language 2E][7] (online PDF)
 
@@ -673,3 +674,4 @@ XML
 [259]: http://directory.fsf.org/wiki/License:EPLv1.0
 [260]: https://netbeans.org/
 [261]: http://directory.fsf.org/wiki/License:CDDLv1.0
+[262]: http://c-faq.com/
