@@ -148,6 +148,7 @@ Reference
 ---------
 
 * [C: A Reference Manual 5E][181] (online PDF)
+* [CERT C Coding Standard][266]
 * [C FAQ - comp.lang.c Frequently Asked Questions][262]
 * [Draft C11 standard][247]
 * [The C Programming Language 2E][7] (online PDF)
@@ -159,6 +160,7 @@ Beginner
 * [Building C Projects][208]
 * [C Primer Plus 5E][184] (online PDF)
 * [C Programming Wikibook][248] (online PDF)
+* [POSIX Threads Programming tutorial][263] (a little dated, but most of it is still valid and useful)
 * [The GNU C Programming Tutorial][212] (online PDF)
 
 Intermediate
@@ -168,7 +170,9 @@ Intermediate
 * [10 C99 tricks][257]
 * [Diving into concurrency: trying out mutexes and atomics][202]
 * [Introduction to OpenMP][207] (video)
+* [OpenMP tutorial][264] (for the OpenMP3 standard)
 * [memcpy vs memmove][205]
+* [MPI tutorial][265]
 * [Object-Oriented Programming with ANSI C][185] (online PDF)
 
 Advanced
@@ -675,3 +679,7 @@ XML
 [260]: https://netbeans.org/
 [261]: http://directory.fsf.org/wiki/License:CDDLv1.0
 [262]: http://c-faq.com/
+[263]: https://computing.llnl.gov/tutorials/pthreads/
+[264]: https://computing.llnl.gov/tutorials/openMP/
+[265]: https://computing.llnl.gov/tutorials/mpi/
+[266]: https://www.securecoding.cert.org/confluence/display/seccode/CERT+C+Coding+Standard
