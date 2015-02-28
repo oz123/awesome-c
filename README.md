@@ -1,6 +1,6 @@
 # Awesome C #
 
-A curated list of C good stuff. I give preference to [free software][13] for code, and sellers who aren't evil for physical resources.
+A curated list of C good stuff. This list contains *only* [free software][13] for code, and sellers who aren't evil for physical resources.
 
 This is released under the GNU Free Documentation License - its text is provided in the LICENSE file.
 
@@ -9,8 +9,7 @@ Compilers
 
 * [Clang][38] - A C compiler for LLVM. Supports C11. [NCSA][39].
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports C11 and OpenMP. [GNU GPL3][41].
-* [LCC][152] - A Retargetable Compiler for ANSI C. Nonfree (but liberal) license. [License][153].
-* [PCC][74] - A very old C compiler. Supports C99. [Various licenses][75]
+* [PCC][74] - A very old C compiler. Supports C99. [Various licenses][75], all free.
 * [TCC][58] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except complex types). [GNU GPL2.1][8].
 
 Crypto
@@ -162,6 +161,7 @@ Beginner
 * [C Programming Wikibook][248] (online PDF)
 * [POSIX Threads Programming tutorial][263] (a little dated, but most of it is still valid and useful)
 * [The GNU C Programming Tutorial][212] (online PDF)
+* [Templating in C][267]
 
 Intermediate
 ------------
@@ -683,3 +683,4 @@ XML
 [264]: https://computing.llnl.gov/tutorials/openMP/
 [265]: https://computing.llnl.gov/tutorials/mpi/
 [266]: https://www.securecoding.cert.org/confluence/display/seccode/CERT+C+Coding+Standard
+[267]: http://blog.pkh.me/p/20-templating-in-c.html
