@@ -262,6 +262,7 @@ Numerical
 * [apophenia][188] - A library for statistical and scientific computing. [GNU GPL2.1][8] with some [exceptions][189].
 * [ATLAS][137] - Automatically Tuned Linear Algebra Software. [3-clause BSD][6].
 * [BLAS][135] - Basic Linear Algebra Subprograms; a set of routines that provide vector and matrix operations. [BLAS license][136]
+* [CRlibm][268] - Correctly Rounded mathematical library; a modern implementation of a range of numeric routines. [GN LGPL3][5].
 * [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [GNU GPL2.1][8].
 * [FLINT][255] - Fast Library for Number Theory; a library supporting arithmetic with numbers, polynomials, power series and matrices, among others. [GNU GPL2.1][8].
 * [GLPK][159] - GNU Linear Programming Kit; a package designed for solving large-scale linear programming, mixed integer programming and other related problems. [GNU GPL3][41].
@@ -684,3 +685,4 @@ XML
 [265]: https://computing.llnl.gov/tutorials/mpi/
 [266]: https://www.securecoding.cert.org/confluence/display/seccode/CERT+C+Coding+Standard
 [267]: http://blog.pkh.me/p/20-templating-in-c.html
+[268]: http://lipforge.ens-lyon.fr/www/crlibm/index.html
