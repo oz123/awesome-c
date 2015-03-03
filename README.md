@@ -8,6 +8,7 @@ Compilers
 =========
 
 * [Clang][38] - A C compiler for LLVM. Supports C11. [NCSA][39].
+* [CompCert][] - A fully-verified C compiler. Supports almost all of C89. [GNU GPL2.1][8].
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports C11 and OpenMP. [GNU GPL3][41].
 * [PCC][74] - A very old C compiler. Supports C99. [Various licenses][75], all free.
 * [TCC][58] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except complex types). [GNU GPL2.1][8].
@@ -686,3 +687,4 @@ XML
 [266]: https://www.securecoding.cert.org/confluence/display/seccode/CERT+C+Coding+Standard
 [267]: http://blog.pkh.me/p/20-templating-in-c.html
 [268]: http://lipforge.ens-lyon.fr/www/crlibm/index.html
+[269]: https://github.com/AbsInt/CompCert
