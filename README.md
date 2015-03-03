@@ -383,6 +383,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [bfd][157] - A library for manipulating binary object files. Part of GNU binutils. [GNU GPL2.1][8].
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer vision. [3-clause BSD][6].
 * [CommonMark][223] - A C implementation of the CommonMark spec. [Variety of licenses, all free][224].
+* [docopt.c][270] - A C implementation of a command-line option parser. [Expat][11].
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPL3][41].
 * [GNU Libffcall][162] - A collection of libraries for building foreign function interfaces. [GNU GPL3][41].
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
@@ -688,3 +689,4 @@ XML
 [267]: http://blog.pkh.me/p/20-templating-in-c.html
 [268]: http://lipforge.ens-lyon.fr/www/crlibm/index.html
 [269]: https://github.com/AbsInt/CompCert
+[270]: https://github.com/docopt/docopt.c
