@@ -181,10 +181,12 @@ Advanced
 
 * [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][204]
 * [Bit twiddling hacks][73]
+* [I do not know C][272]
 * [Implementing smart pointers for the C programming language][240]
 * [Inline functions in C][245]
 * [Some dark corners of C][210]
 * [The lost art of C structure packing][34]
+* [What a C programmer should know about memory][271]
 * [Writing efficient C and C code optimization][33]
  
 Self-study courses
@@ -690,3 +692,5 @@ XML
 [268]: http://lipforge.ens-lyon.fr/www/crlibm/index.html
 [269]: https://github.com/AbsInt/CompCert
 [270]: https://github.com/docopt/docopt.c
+[271]: http://marek.vavrusa.com/c/memory/2015/02/20/memory/
+[272]: http://kukuruku.co/hub/programming/i-do-not-know-c
