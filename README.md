@@ -178,6 +178,7 @@ Intermediate
 * [Object-Oriented Programming with ANSI C][185] (online PDF)
 * [The lost art of C structure packing][34]
 * [What a C programmer should know about memory][271]
+* [What every C programmer should know about undefined behaviour][275]
 
 Advanced
 --------
@@ -698,3 +699,4 @@ XML
 [272]: http://kukuruku.co/hub/programming/i-do-not-know-c
 [273]: http://kamalatta.ddnss.de/otherdocs/pikestyle.html
 [274]: https://github.com/andlabs/qo
+[275]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
