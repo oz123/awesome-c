@@ -177,6 +177,7 @@ Intermediate
 * [MPI tutorial][265]
 * [Object-Oriented Programming with ANSI C][185] (online PDF)
 * [The lost art of C structure packing][34]
+* [What a C programmer should know about memory][271]
 
 Advanced
 --------
@@ -187,7 +188,6 @@ Advanced
 * [Implementing smart pointers for the C programming language][240]
 * [Inline functions in C][245]
 * [Some dark corners of C][210]
-* [What a C programmer should know about memory][271]
 * [Writing efficient C and C code optimization][33]
  
 Self-study courses
