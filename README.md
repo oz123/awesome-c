@@ -151,6 +151,7 @@ Reference
 * [CERT C Coding Standard][266]
 * [C FAQ - comp.lang.c Frequently Asked Questions][262]
 * [Draft C11 standard][247]
+* [Robert Pike's notes on programming in C][273]
 * [The C Programming Language 2E][7] (online PDF)
 
 Beginner
@@ -374,6 +375,7 @@ This is a list of useful programs to help you write and debug C code which are *
 * [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPL3][41].
 * [libtool][172] - A generic library support script. [GNU GPL3][41].
+* [qo][274] - A build system that works without a separate config file. [Expat][11].
 * [rr][95] - A debugger that records non-deterministic executions to allow for deterministic debugging. [FreeBSD][24].
 * [Valgrind][85] - A range of dynamic analysis tools, including a leak checker. [GNU GPL2.1][8].
 
@@ -694,3 +696,5 @@ XML
 [270]: https://github.com/docopt/docopt.c
 [271]: http://marek.vavrusa.com/c/memory/2015/02/20/memory/
 [272]: http://kukuruku.co/hub/programming/i-do-not-know-c
+[273]: http://kamalatta.ddnss.de/otherdocs/pikestyle.html
+[274]: https://github.com/andlabs/qo
