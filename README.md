@@ -373,7 +373,7 @@ Tools
 
 This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
 
-* [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. No license specified.
+* [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. [Expat][11].
 * [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
