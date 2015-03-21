@@ -373,9 +373,10 @@ Tools
 
 This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
 
-* [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. [Expat][11].
 * [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
+* [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. [Expat][11].
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
+* [cinclude2dot][280] - Graphs include dependencies in a C project using Graphviz. [GNU GPL3][41].
 * [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPL3][41].
 * [libtool][172] - A generic library support script. [GNU GPL3][41].
@@ -707,3 +708,4 @@ XML
 [277]: https://github.com/wolkykim/qlibc
 [278]: https://github.com/wolkykim/qlibc/blob/master/LICENSE
 [279]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
+[280]: http://www.flourish.org/cinclude2dot/
