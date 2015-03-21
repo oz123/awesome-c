@@ -72,6 +72,7 @@ This section has big libraries that provide data structures and other stuff you 
 * [GObject][3] - An object-oriented system and object model for C. [GNU LGPL3][5].
 * [libnih][93] - A lightweight library of C functions and structures. [GNU GPL2.1][8].
 * [libU][28] - A small library of basic utilities, including memory allocation, string manipulation and logging. [3-clause BSD][6].
+* [qlibc][277] - A simple and powerful C library, designed as a replacement for GLib while focusing on being small and light. [qLib license][278] (similar to [FreeBSD][24]).
 * [stb][114] - A range of single-file libraries for C. Public domain.
 
 Game Programming
@@ -161,6 +162,7 @@ Beginner
 * [Building C Projects][208]
 * [C Primer Plus 5E][184] (online PDF)
 * [C Programming Wikibook][248] (online PDF)
+* [Introduction to 'fun' C][279]
 * [POSIX Threads Programming tutorial][263] (a little dated, but most of it is still valid and useful)
 * [The GNU C Programming Tutorial][212] (online PDF)
 * [Templating in C][267]
@@ -371,6 +373,7 @@ Tools
 
 This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
 
+* [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. No license specified.
 * [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
@@ -700,3 +703,7 @@ XML
 [273]: http://kamalatta.ddnss.de/otherdocs/pikestyle.html
 [274]: https://github.com/andlabs/qo
 [275]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
+[276]: https://github.com/ryanmjacobs/c
+[277]: https://github.com/wolkykim/qlibc
+[278]: https://github.com/wolkykim/qlibc/blob/master/LICENSE
+[279]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
