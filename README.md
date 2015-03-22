@@ -393,6 +393,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer vision. [3-clause BSD][6].
 * [CommonMark][223] - A C implementation of the CommonMark spec. [Variety of licenses, all free][224].
 * [docopt.c][270] - A C implementation of a command-line option parser. [Expat][11].
+* [dyncall][281] - Another foreign function interface library. [Expat][11].
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPL3][41].
 * [GNU Libffcall][162] - A collection of libraries for building foreign function interfaces. [GNU GPL3][41].
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
@@ -709,3 +710,4 @@ XML
 [278]: https://github.com/wolkykim/qlibc/blob/master/LICENSE
 [279]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
 [280]: http://www.flourish.org/cinclude2dot/
+[281]: http://www.dyncall.org/
