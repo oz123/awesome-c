@@ -10,7 +10,7 @@ Compilers
 * [Clang][38] - A C compiler for LLVM. Supports C11. [NCSA][39].
 * [CompCert][269] - A fully-verified C compiler. Supports almost all of C89. [GNU GPL2.1][8].
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports C11 and OpenMP. [GNU GPL3][41].
-* [PCC][74] - A very old C compiler. Supports C99. [Various licenses][75], all free.
+* [PCC][74] - A venerable C compiler. Supports C99. [Various licenses][75], all free.
 * [TCC][58] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except complex types). [GNU GPL2.1][8].
 
 Crypto
@@ -21,6 +21,7 @@ Crypto
 * [LibreSSL][143] - A BSD fork of OpenSSL. Various licenses, all semi-free.
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
 * [libsodium][198] - A modern and easy-to-use crypto library. [Expat][11].
+* [mbed TLS][291] - Another crypto implementation for C. [GNU GPL2.1][8].
 
 Database
 ========
@@ -56,8 +57,7 @@ Environments
 This is a list of technologies designed to bring Windows into the 21st century with respect to support for C.
 
 * [Cygwin][253] - Designed to emulate a POSIX-compatible environment extensively under Windows. [Various licenses, all free][254].
-* [MinGW][251] - A minimalist environment for C development on Windows. [Various licenses, all free][252].
-
+* [MinGW-w64][287] - A minimalist environment for C development on Windows with 64 bit support. [Various licenses, all free][252].
 
 Frameworks
 ==========
@@ -281,6 +281,8 @@ Numerical
 * [KISS FFT][71] - A very simple fast Fourier transform library. [3-clause BSD][6].
 * [LAPACKE][133] - A C interface to [LAPACK][134]. [3-clause BSD][6].
 * [PARI/GP][256] - A computer algebra system for number theory; includes a compiler to C. [GNU GPL3][41].
+* [PETSc][282] - A suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. [FreeBSD][24].
+* [SLEPc][283] - A software library for the solution of large, sparse eigenvalue problems on parallel computers. [GNU LGPL3][5].
 * [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [3-clause BSD][6].
 
 
@@ -289,9 +291,13 @@ Parallel Programming
 
 * [cchan][243] - A small library for channel constructs for inter-thread communication. Public domain.
 * [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures. [FreeBSD][24].
+* [MPICH][285] - Another implementation of MPI. [MPICH licence][286].
 * [OpenMP][37] - A set of C pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
+* [OpenMPI][284] - A message passing interface implementation. [3-clause BSD][6].
+* [PETSc][282] - A suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. [FreeBSD][24].
 * [pth][180] - A portable implementation for non-preemptive priority-based scheduling for multiple threads of execution. [GNU GPL3][41].
 * [pthreads][146] - The POSIX thread library. Standard (no license applicable).
+* [SLEPc][283] - A software library for the solution of large, sparse eigenvalue problems on parallel computers. [GNU LGPL3][5].
 * [TinyCThread][115] - A portable, small implementation of the C11 threads API. [zlib][49].
 
 Regex
@@ -321,6 +327,7 @@ This contains collections of small source code. If you want something big and in
 * [CCAN][103] - Modelled after Perl's CPAN, this is a big collection of C code that does stuff. The full list is [here][104]. Various licenses (all free software).
 * [clib][26] - Something of a package manager for C. Comes with a [bunch of libraries of its own][27]. [Expat][11].
 * [gnulib][46] - A collection of common GNU code. [GNU GPL3][41].
+* [libdjb][292] - A collection of libraries doing various things. (Apparently) public domain.
 * [ulib][154] - Another collection of source code. [Expat][11].
 
 Standard Libraries
@@ -374,14 +381,17 @@ Tools
 This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
 
 * [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
+* [address-sanitizer][288] - A fast memory error detector. [Apache2.0][32].
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. [Expat][11].
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [cinclude2dot][280] - Graphs include dependencies in a C project using Graphviz. [GNU GPL3][41].
 * [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPL3][41].
+* [include-what-you-use][289] - Helps find unecessary inclusions and make suggestions for fixing them. Based on LLVM/Clang (and only works with it). [NCSA][39].
 * [libtool][172] - A generic library support script. [GNU GPL3][41].
 * [qo][274] - A build system that works without a separate config file. [Expat][11].
 * [rr][95] - A debugger that records non-deterministic executions to allow for deterministic debugging. [FreeBSD][24].
+* [unifdef][290] - Removes #ifdef and #if directives with their delimited text without touching any other part of the file. [3-clause BSD][6] and [FreeBSD][24].
 * [Valgrind][85] - A range of dynamic analysis tools, including a leak checker. [GNU GPL2.1][8].
 
 Utilities
@@ -398,6 +408,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [GNU Libffcall][162] - A collection of libraries for building foreign function interfaces. [GNU GPL3][41].
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
+* [jemalloc][293] - A malloc implementation that emphasizes avoidance of fragmentation and scalable concurrency support. [FreeBSD][24].
 * [libavl][156] - A library containing a range of self-balancing binary trees. [GNU GPL2.1][8].
 * [libbson][235] - A BSON utility library. [Apache2.0][32].
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
@@ -412,6 +423,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [pbc][236] - A protocol buffers library. [Expat][11].
 * [rabbitmq-c][228] - A client library for [RabbitMQ][229]. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
+* [tcmalloc][294] - A fast, reduced-contention malloc implementation. Part of [gperftools][295]. [3-clause BSD][6].
 * [udpc][190] - An implementation of the [Universal Design Pattern][191]. [GNU GPL3][41].
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
 * [Viola][241] - A simplification of libCello. [Expat][11].
@@ -711,3 +723,17 @@ XML
 [279]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
 [280]: http://www.flourish.org/cinclude2dot/
 [281]: http://www.dyncall.org/
+[282]: http://www.mcs.anl.gov/petsc/
+[283]: http://slepc.upv.es/
+[284]: https://github.com/open-mpi/ompi
+[285]: http://www.mpich.org/
+[286]: http://git.mpich.org/mpich.git/blob_plain/6aab201f58d71fc97f2c044d250389ba86ac1e3c:/COPYRIGHT
+[287]: http://mingw-w64.yaxm.org/doku.php/start
+[288]: https://code.google.com/p/address-sanitizer/
+[289]: https://code.google.com/p/include-what-you-use/
+[290]: http://dotat.at/prog/unifdef/
+[291]: https://tls.mbed.org/
+[292]: http://www.fefe.de/djb/
+[293]: http://www.canonware.com/jemalloc/
+[294]: http://goog-perftools.sourceforge.net/doc/tcmalloc.html
+[295]: https://code.google.com/p/gperftools/
