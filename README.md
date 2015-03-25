@@ -21,6 +21,7 @@ Crypto
 * [LibreSSL][143] - A BSD fork of OpenSSL. Various licenses, all semi-free.
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
 * [libsodium][198] - A modern and easy-to-use crypto library. [Expat][11].
+* [libtomcrypt][299] - A fairly comprehensive, modular and portable cryptographic toolkit. Public domain.
 * [mbed TLS][291] - Another crypto implementation for C. [GNU GPL2.1][8].
 
 Database
@@ -354,10 +355,12 @@ Testing
 
 * [CHEAT][84] - A very simple unit testing framework. [FreeBSD][24].
 * [Check][59] - A unit testing framework for C. [GNU LGPL2.1][15].
+* [CMock][297] - A mock/stub generator for C. [Expat][11].
 * [cmocka][141] - A unit testing framework with support for mock objects. [Apache2.0][32].
 * [Criterion][246] - A KISS, non-intrusive C test framework. [Expat][11].
 * [CUnit][94] - Another unit testing framework for C. [GNU LGPL2.1][15].
 * [minunit][92] - Minimal unit testing framework for C. [Expat][11].
+* [Unity][296] - A simple unit testing framework for C. [Expat][11].
 
 Text Editor Extensions
 ======================
@@ -402,6 +405,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [bfd][157] - A library for manipulating binary object files. Part of GNU binutils. [GNU GPL2.1][8].
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer vision. [3-clause BSD][6].
 * [CommonMark][223] - A C implementation of the CommonMark spec. [Variety of licenses, all free][224].
+* [CException][298] - A C implementation of exceptions. [Expat][11].
 * [docopt.c][270] - A C implementation of a command-line option parser. [Expat][11].
 * [dyncall][281] - Another foreign function interface library. [Expat][11].
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPL3][41].
@@ -737,3 +741,7 @@ XML
 [293]: http://www.canonware.com/jemalloc/
 [294]: http://goog-perftools.sourceforge.net/doc/tcmalloc.html
 [295]: https://code.google.com/p/gperftools/
+[296]: https://github.com/ThrowTheSwitch/Unity
+[297]: https://github.com/ThrowTheSwitch/CMock
+[298]: https://github.com/ThrowTheSwitch/CException
+[299]: https://github.com/libtom/libtomcrypt
