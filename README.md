@@ -111,6 +111,7 @@ Graphics
 
 * [Cogl][127] - A GPU graphics and utilities API. [GNU LGPL2.1][15].
 * [Clutter][126] - A UI library based on OpenGL. [GNU LGPL2.1][15].
+* [libimagequant][] - Small, portable library for high-quality conversion of RGBA images to 8-bit indexed colour images. [FreeBSD][24].
 * [libjpeg][192] - A library for reading and writing JPEG files. Free software license (check the source).
 * [libjpeg-turbo][193] - A faster library for reading and writing JPEG files. [Various licences][194].
 * [libxmi][174] - A function library for rasterizing 2D vector graphics. [GNU GPL3][41].
@@ -745,3 +746,4 @@ XML
 [297]: https://github.com/ThrowTheSwitch/CMock
 [298]: https://github.com/ThrowTheSwitch/CException
 [299]: https://github.com/libtom/libtomcrypt
+[300]: http://pngquant.org/lib/
