@@ -98,7 +98,7 @@ These are libraries of all sorts that are useful for game programming.
 * [GLFW][98] - A multi-platform library for creating windows with OpenGL contexts. [zlib][49].
 * [RetroArch][231] - The reference frontend for [libretro][232]. [GNU GPL3][41].
 * [SDL][50] - A cross-platform library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [zlib][49].
-
+* [SDL2][301]- A a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL. This is the most current version. [zlib][49]
 
 Generic Programming
 ===================
@@ -111,13 +111,13 @@ Graphics
 
 * [Cogl][127] - A GPU graphics and utilities API. [GNU LGPL2.1][15].
 * [Clutter][126] - A UI library based on OpenGL. [GNU LGPL2.1][15].
-* [libimagequant][] - Small, portable library for high-quality conversion of RGBA images to 8-bit indexed colour images. [FreeBSD][24].
+* [libimagequant][300] - Small, portable library for high-quality conversion of RGBA images to 8-bit indexed colour images. [FreeBSD][24].
 * [libjpeg][192] - A library for reading and writing JPEG files. Free software license (check the source).
 * [libjpeg-turbo][193] - A faster library for reading and writing JPEG files. [Various licences][194].
 * [libxmi][174] - A function library for rasterizing 2D vector graphics. [GNU GPL3][41].
 * [mozjpeg][200] - An improved JPEG encoder. [3-clause BSD][6].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
-* [SDL2](https://www.libsdl.org/) - Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. [zlib](http://www.zlib.net/)
+
 
 Graphical User Interface
 ========================
@@ -421,6 +421,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
 * [libucl][239] - A universal configuration library parser. [FreeBSD][24].
+* [libudp][302] - An implementation of the Universal Design Pattern in C. [GNU GPL3][41].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [mpc][238] - A parser combinator library. [FreeBSD][24].
 * [ncurses][178] - Coloured terminal UI library. [GNU GPL3][41].
@@ -429,7 +430,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [rabbitmq-c][228] - A client library for [RabbitMQ][229]. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL3][41].
 * [tcmalloc][294] - A fast, reduced-contention malloc implementation. Part of [gperftools][295]. [3-clause BSD][6].
-* [udpc][190] - An implementation of the [Universal Design Pattern][191]. [GNU GPL3][41].
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
 * [Viola][241] - A simplification of libCello. [Expat][11].
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression library. [3-clause BSD][6].
@@ -747,3 +747,5 @@ XML
 [298]: https://github.com/ThrowTheSwitch/CException
 [299]: https://github.com/libtom/libtomcrypt
 [300]: http://pngquant.org/lib/
+[301]: https://www.libsdl.org/
+[302]: https://notabug.org/koz.ross/libudp
