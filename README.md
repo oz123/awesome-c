@@ -93,6 +93,7 @@ These are provided as examples of C game programming code.
 These are libraries of all sorts that are useful for game programming.
 
 * [Allegro][48] - A cross-platform, video game development and multimedia library. [zlib][49].
+* [Chipmunk2D][303] - A fast and lightweight 2D game physics library. [Expat][11].
 * [CSFML][90] - A binding for [SFML][91] in C. [zlib][49].
 * [FreeGLUT][99] - An alternative to the OpenGL Utility Toolkit. Allows the creation and management of windows with OpenGL contexts. [X11][100].
 * [GLFW][98] - A multi-platform library for creating windows with OpenGL contexts. [zlib][49].
@@ -749,3 +750,4 @@ XML
 [300]: http://pngquant.org/lib/
 [301]: https://www.libsdl.org/
 [302]: https://notabug.org/koz.ross/libudp
+[303]: https://github.com/slembcke/Chipmunk2D
