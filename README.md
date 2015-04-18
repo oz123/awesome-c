@@ -386,6 +386,8 @@ Tools
 This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
 
 * [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
+* [Autoconf][305] - An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. Part of the Autotools. [GNU GPL3][41].
+* [Automake][306] - A tool for automatically generating ``Makefile.in`` files compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of the Autotools. [GNU GPL3][41].
 * [address-sanitizer][288] - A fast memory error detector. [Apache2.0][32].
 * [biicode][304] - A modern dependency manager for C. [Expat][11].
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. [Expat][11].
@@ -394,7 +396,7 @@ This is a list of useful programs to help you write and debug C code which are *
 * [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPL3][41].
 * [include-what-you-use][289] - Helps find unecessary inclusions and make suggestions for fixing them. Based on LLVM/Clang (and only works with it). [NCSA][39].
-* [libtool][172] - A generic library support script. [GNU GPL3][41].
+* [Libtool][172] - A generic library support script. [GNU GPL3][41].
 * [qo][274] - A build system that works without a separate config file. [Expat][11].
 * [rr][95] - A debugger that records non-deterministic executions to allow for deterministic debugging. [FreeBSD][24].
 * [unifdef][290] - Removes #ifdef and #if directives with their delimited text without touching any other part of the file. [3-clause BSD][6] and [FreeBSD][24].
@@ -753,3 +755,5 @@ XML
 [302]: https://notabug.org/koz.ross/libudp
 [303]: https://github.com/slembcke/Chipmunk2D
 [304]: https://biicode.github.io/biicode/
+[305]: https://www.gnu.org/software/autoconf/
+[306]: https://www.gnu.org/software/automake/automake.html
