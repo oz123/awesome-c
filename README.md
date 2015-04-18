@@ -387,6 +387,7 @@ This is a list of useful programs to help you write and debug C code which are *
 
 * [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
 * [address-sanitizer][288] - A fast memory error detector. [Apache2.0][32].
+* [biicode][304] - A modern dependency manager for C. [Expat][11].
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. [Expat][11].
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [cinclude2dot][280] - Graphs include dependencies in a C project using Graphviz. [GNU GPL3][41].
@@ -751,3 +752,4 @@ XML
 [301]: https://www.libsdl.org/
 [302]: https://notabug.org/koz.ross/libudp
 [303]: https://github.com/slembcke/Chipmunk2D
+[304]: https://biicode.github.io/biicode/
