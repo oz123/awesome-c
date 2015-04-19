@@ -39,6 +39,15 @@ This lists databases and data stores with C APIs.
 * [SQLite][22] - A self-contained, serverless, zero-configuration, transactional SQL database engine with a C interface. Public domain.
 * [UnQLite][23] - A self-contained, serverless, zero-configuration, transactional NoSQL engine with a C interface. [FreeBSD][24].
 
+Documentation Generation
+========================
+
+* [Cxref][317] - Generates documentation of C programs in either LaTeX, HTML, RTF or SGML. [GNU GPL2.1][8].
+* [DocOnce][322] - A modestly-tagged markup language that can be used to generate a range of formats. [3-clause BSD][6].
+* [Docutils][321] - A text-processing system to convert plain text documentation into a range of useful formats. Public domain.
+* [Doxygen][318] - The de-facto standard tool for generating C documentation from annotated sources. Can generate a large range of formats. [GNU GPL2.1][8].
+* [GTK-Doc][319] - A tool for generating C documentation from annotated sources. Has support for Autotools. [GNU LGPL2.1][15].
+
 Editors
 =======
 
@@ -67,6 +76,7 @@ This section has big libraries that provide data structures and other stuff you 
 
 * [APR][78] - Apache Portable Runtime; another library of cross-platform utility functions. [Apache2.0][32].
 * [C Algorithms][88] - A collection of common algorithms and data structures for C. [ISC][61].
+* [CPL][308] - The Common Pipeline Library; a set of libraries designed to be a comprehensive, efficient and robust software toolkit. [GNU GPL2.1][8].
 * [EFL][119] - A large collection of useful data structures and functions. Various licenses, all free.
 * [GLib][1] - A library of utility functions and structures, designed to be portable, efficient and powerful. [GNU LGPL3][5].
 * [GIO][2] - A modern and easy-to-use VFS API. [GNU LGPL3][5].
@@ -273,6 +283,7 @@ Numerical
 * [ATLAS][137] - Automatically Tuned Linear Algebra Software. [3-clause BSD][6].
 * [BLAS][135] - Basic Linear Algebra Subprograms; a set of routines that provide vector and matrix operations. [BLAS license][136]
 * [CRlibm][268] - Correctly Rounded mathematical library; a modern implementation of a range of numeric routines. [GN LGPL3][5].
+* [Cuba][316] - A library for multidimensional numerical integration. [GNU LGPL3][5].
 * [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [GNU GPL2.1][8].
 * [FLINT][255] - Fast Library for Number Theory; a library supporting arithmetic with numbers, polynomials, power series and matrices, among others. [GNU GPL2.1][8].
 * [GLPK][159] - GNU Linear Programming Kit; a package designed for solving large-scale linear programming, mixed integer programming and other related problems. [GNU GPL3][41].
@@ -386,16 +397,22 @@ Tools
 This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
 
 * [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
+* [Artistic Style][314] - A fast and small automatic source code formatter that supports C. [GNU LGPL2.1][15].
 * [Autoconf][305] - An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. Part of the Autotools. [GNU GPL3][41].
 * [Automake][306] - A tool for automatically generating ``Makefile.in`` files compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of the Autotools. [GNU GPL3][41].
 * [address-sanitizer][288] - A fast memory error detector. [Apache2.0][32].
 * [biicode][304] - A modern dependency manager for C. [Expat][11].
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. [Expat][11].
+* [c2html][313] - Converts C source files to highlighted HTML. [GNU GPL2.1][8].
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
+* [CBMC][309] - C Bounded Model Checker; a tool for verification of array bounds, pointer safety and user-specified assertions. [Original BSD][310].
 * [cinclude2dot][280] - Graphs include dependencies in a C project using Graphviz. [GNU GPL3][41].
+* [Complexity][307] - A tool for measuring the complexity of C source code. [GNU GPL3][41].
+* [DDD][320] - A graphical front-end for a range of command-line debuggers. [GNU GPL3][41].
 * [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPL3][41].
 * [include-what-you-use][289] - Helps find unecessary inclusions and make suggestions for fixing them. Based on LLVM/Clang (and only works with it). [NCSA][39].
+* [indent][315] - Formats C source code automatically to make it easier to read. Also converts from one style of source to another. [GNU GPLv3][41].
 * [Libtool][172] - A generic library support script. [GNU GPL3][41].
 * [qo][274] - A build system that works without a separate config file. [Expat][11].
 * [rr][95] - A debugger that records non-deterministic executions to allow for deterministic debugging. [FreeBSD][24].
@@ -409,6 +426,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
 * [bfd][157] - A library for manipulating binary object files. Part of GNU binutils. [GNU GPL2.1][8].
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer vision. [3-clause BSD][6].
+* [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking [OpenCL][312] projects. [GNU LGPL3][5].
 * [CommonMark][223] - A C implementation of the CommonMark spec. [Variety of licenses, all free][224].
 * [CException][298] - A C implementation of exceptions. [Expat][11].
 * [docopt.c][270] - A C implementation of a command-line option parser. [Expat][11].
@@ -757,3 +775,19 @@ XML
 [304]: https://biicode.github.io/biicode/
 [305]: https://www.gnu.org/software/autoconf/
 [306]: https://www.gnu.org/software/automake/automake.html
+[307]: https://www.gnu.org/software/complexity/
+[308]: http://www.eso.org/sci/software/cpl/
+[309]: http://www.cprover.org/cbmc/
+[310]: https://directory.fsf.org/wiki/License:BSD_4Clause
+[311]: https://fakenmc.github.io/cf4ocl/
+[312]: https://www.khronos.org/opencl/
+[313]: http://c2html.sourceforge.net/whatisc2html.html
+[314]: http://astyle.sourceforge.net/
+[315]: https://www.gnu.org/software/indent/
+[316]: http://www.feynarts.de/cuba/
+[317]: http://www.gedanken.org.uk/software/cxref/
+[318]: http://www.stack.nl/~dimitri/doxygen/index.html
+[319]: http://www.gtk.org/gtk-doc/
+[320]: https://www.gnu.org/software/ddd/ddd.html
+[321]: http://docutils.sourceforge.net/
+[322]: https://hplgit.github.io/doconce/doc/web/index.html
