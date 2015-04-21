@@ -165,6 +165,7 @@ Reference
 * [CERT C Coding Standard][266]
 * [C FAQ - comp.lang.c Frequently Asked Questions][262]
 * [Draft C11 standard][247]
+* [GNU C Reference Manual][329]
 * [Robert Pike's notes on programming in C][273]
 * [The C Programming Language 2E][7] (online PDF)
 
@@ -409,13 +410,19 @@ This is a list of useful programs to help you write and debug C code which are *
 * [cinclude2dot][280] - Graphs include dependencies in a C project using Graphviz. [GNU GPL3][41].
 * [Complexity][307] - A tool for measuring the complexity of C source code. [GNU GPL3][41].
 * [DDD][320] - A graphical front-end for a range of command-line debuggers. [GNU GPL3][41].
+* [fab][323] - A build system that helps build optimally every time. [GNU GPL3][41].
 * [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPL3][41].
+* [Glade][328] - A RAD tool to enable quick development of GTK+ GUIs. [GNU LGPL2.1][15].
+* [GMSL][331] - GNU Make Standard Library; a collection of additional functionality for GNU Make. [GNU GPL3][41].
+* [GNU Global][330] - A source code tagging tool which works with C. [GNU GPL3][41].
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPL3][41].
 * [include-what-you-use][289] - Helps find unecessary inclusions and make suggestions for fixing them. Based on LLVM/Clang (and only works with it). [NCSA][39].
 * [indent][315] - Formats C source code automatically to make it easier to read. Also converts from one style of source to another. [GNU GPLv3][41].
 * [Libtool][172] - A generic library support script. [GNU GPL3][41].
+* [Make][324] - A tool which controls the generation of executables and other non-source files of a program. [GNU GPLv3][41].
 * [qo][274] - A build system that works without a separate config file. [Expat][11].
 * [rr][95] - A debugger that records non-deterministic executions to allow for deterministic debugging. [FreeBSD][24].
+* [tup][326] - A very fast, file-based, cross-platform build system. [GNU GPL2.1][8].
 * [unifdef][290] - Removes #ifdef and #if directives with their delimited text without touching any other part of the file. [3-clause BSD][6] and [FreeBSD][24].
 * [Valgrind][85] - A range of dynamic analysis tools, including a leak checker. [GNU GPL2.1][8].
 
@@ -431,6 +438,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [CException][298] - A C implementation of exceptions. [Expat][11].
 * [docopt.c][270] - A C implementation of a command-line option parser. [Expat][11].
 * [dyncall][281] - Another foreign function interface library. [Expat][11].
+* [FANN][325] - Fast Artifical Neural Network library; an implementation of neural networks. [GNU GPL2.1][8].
+* [gjrand][327] - A library of random-number generation routines. [GNU GPL2.1][8].
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPL3][41].
 * [GNU Libffcall][162] - A collection of libraries for building foreign function interfaces. [GNU GPL3][41].
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
@@ -791,3 +800,12 @@ XML
 [320]: https://www.gnu.org/software/ddd/ddd.html
 [321]: http://docutils.sourceforge.net/
 [322]: https://hplgit.github.io/doconce/doc/web/index.html
+[323]: http://fabutil.org/
+[324]: https://www.gnu.org/software/make/
+[325]: http://leenissen.dk/fann/wp/
+[326]: http://gittup.org/tup/index.html
+[327]: http://sourceforge.net/projects/gjrand/
+[328]: https://glade.gnome.org/
+[329]: https://www.gnu.org/software/gnu-c-manual/
+[330]: https://www.gnu.org/software/global/
+[331]: http://gmsl.sourceforge.net/
