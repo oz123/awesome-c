@@ -416,6 +416,7 @@ This is a list of useful programs to help you write and debug C code which are *
 * [GMSL][331] - GNU Make Standard Library; a collection of additional functionality for GNU Make. [GNU GPL3][41].
 * [GNU Global][330] - A source code tagging tool which works with C. [GNU GPL3][41].
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPL3][41].
+* [Highlight][333] - Converts source code to formatted text with nice highlighting. [GNU GPL2.1][8].
 * [include-what-you-use][289] - Helps find unecessary inclusions and make suggestions for fixing them. Based on LLVM/Clang (and only works with it). [NCSA][39].
 * [indent][315] - Formats C source code automatically to make it easier to read. Also converts from one style of source to another. [GNU GPLv3][41].
 * [Libtool][172] - A generic library support script. [GNU GPL3][41].
@@ -811,3 +812,4 @@ XML
 [330]: https://www.gnu.org/software/global/
 [331]: http://gmsl.sourceforge.net/
 [332]: https://github.com/nfc-tools/libnfc
+[333]: http://www.andre-simon.de/index.php
