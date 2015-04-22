@@ -450,6 +450,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
 * [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
+* [libnfc][332] - A platform-independent Near-Field Communication library. [GNU LGPL3][5].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
 * [libucl][239] - A universal configuration library parser. [FreeBSD][24].
 * [libudp][302] - An implementation of the Universal Design Pattern in C. [GNU GPL3][41].
@@ -809,3 +810,4 @@ XML
 [329]: https://www.gnu.org/software/gnu-c-manual/
 [330]: https://www.gnu.org/software/global/
 [331]: http://gmsl.sourceforge.net/
+[332]: https://github.com/nfc-tools/libnfc
