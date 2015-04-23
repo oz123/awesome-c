@@ -254,6 +254,7 @@ Networking and Internet
 * [GnuTLS][112] - A secure communication library, implementing SSL, TLS and DTLS. [GNU LGPL2.1][15].
 * [gumbo-parser][196] - An HTML5 parsing library in C99. [Apache2.0][32].
 * [http-parser][197] - An HTTP request/response parser. [Expat][11].
+* [ldns][339] - A library to simplify DNS programming. [GNU LGPL2.1][15].
 * [libcurl][65] - A client-side URL transfer library, supporting a wide range of formats. [curl license][66]
 * [LibEtPan][222] - A mail library providing an efficient network for IMAP, SMTP, POP and NNTP. [3-clause BSD][6].
 * [libev][144] - Yet another event loop. [FreeBSD][24].
@@ -448,6 +449,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [iniparser][336] - A parser for .ini files. [Expat][11].
 * [jemalloc][293] - A malloc implementation that emphasizes avoidance of fragmentation and scalable concurrency support. [FreeBSD][24].
+* [kdtree][337] - A simple library for working with KD-trees. [3-clause BSD][6].
 * [libavl][156] - A library containing a range of self-balancing binary trees. [GNU GPL2.1][8].
 * [libbson][235] - A BSON utility library. [Apache2.0][32].
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
@@ -458,6 +460,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libucl][239] - A universal configuration library parser. [FreeBSD][24].
 * [libudp][302] - An implementation of the Universal Design Pattern in C. [GNU GPL3][41].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
+* [lzo][338] - A very fast data compression library. [GNU GPL2.1][8].
 * [mpc][238] - A parser combinator library. [FreeBSD][24].
 * [ncurses][178] - Coloured terminal UI library. [GNU GPL3][41].
 * [nope.c][209] - A C-language-based, ultra-light software platform for scalable server-side and networking applications (think node.js for C programmers). [GNU GPL2.1][8].
@@ -818,3 +821,6 @@ XML
 [334]: http://www.perforce.com/resources/documentation/jam
 [335]: https://en.wikipedia.org/wiki/Perforce_Jam#License
 [336]: https://github.com/ndevilla/iniparser
+[337]: https://github.com/jtsiomb/kdtree
+[338]: http://www.oberhumer.com/opensource/lzo/
+[339]: http://www.nlnetlabs.nl/projects/ldns/index.html
