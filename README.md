@@ -107,6 +107,7 @@ These are libraries of all sorts that are useful for game programming.
 * [CSFML][90] - A binding for [SFML][91] in C. [zlib][49].
 * [FreeGLUT][99] - An alternative to the OpenGL Utility Toolkit. Allows the creation and management of windows with OpenGL contexts. [X11][100].
 * [GLFW][98] - A multi-platform library for creating windows with OpenGL contexts. [zlib][49].
+* [libao][341] - A cross-platform audio library with a wide variety of outputs. [GNU GPL2.1][8].
 * [RetroArch][231] - The reference frontend for [libretro][232]. [GNU GPL3][41].
 * [SDL][50] - A cross-platform library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [zlib][49].
 * [SDL2][301]- A a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL. This is the most current version. [zlib][49]
@@ -125,6 +126,7 @@ Graphics
 * [libimagequant][300] - Small, portable library for high-quality conversion of RGBA images to 8-bit indexed colour images. [FreeBSD][24].
 * [libjpeg][192] - A library for reading and writing JPEG files. Free software license (check the source).
 * [libjpeg-turbo][193] - A faster library for reading and writing JPEG files. [Various licences][194].
+* [libRSVG][340] - A library to render SVG files using Cairo. [GNU LGPL2.1][15].
 * [libxmi][174] - A function library for rasterizing 2D vector graphics. [GNU GPL3][41].
 * [mozjpeg][200] - An improved JPEG encoder. [3-clause BSD][6].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
@@ -460,6 +462,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libucl][239] - A universal configuration library parser. [FreeBSD][24].
 * [libudp][302] - An implementation of the Universal Design Pattern in C. [GNU GPL3][41].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
+* [libYAML][341] - A YAML 1.1 parser and emitter. [Expat][11].
 * [lzo][338] - A very fast data compression library. [GNU GPL2.1][8].
 * [mpc][238] - A parser combinator library. [FreeBSD][24].
 * [ncurses][178] - Coloured terminal UI library. [GNU GPL3][41].
@@ -824,3 +827,7 @@ XML
 [337]: https://github.com/jtsiomb/kdtree
 [338]: http://www.oberhumer.com/opensource/lzo/
 [339]: http://www.nlnetlabs.nl/projects/ldns/index.html
+[340]: https://wiki.gnome.org/Projects/LibRsvg
+[341]: http://www.pyyaml.org/wiki/LibYAML
+[342]: https://www.xiph.org/ao/
+
