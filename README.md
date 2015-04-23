@@ -419,6 +419,7 @@ This is a list of useful programs to help you write and debug C code which are *
 * [Highlight][333] - Converts source code to formatted text with nice highlighting. [GNU GPL2.1][8].
 * [include-what-you-use][289] - Helps find unecessary inclusions and make suggestions for fixing them. Based on LLVM/Clang (and only works with it). [NCSA][39].
 * [indent][315] - Formats C source code automatically to make it easier to read. Also converts from one style of source to another. [GNU GPLv3][41].
+* [Jam][334] - A build system, designed to be easier than make. Understands C build rules implicitly. [Jam License][335].
 * [Libtool][172] - A generic library support script. [GNU GPL3][41].
 * [Make][324] - A tool which controls the generation of executables and other non-source files of a program. [GNU GPLv3][41].
 * [qo][274] - A build system that works without a separate config file. [Expat][11].
@@ -445,6 +446,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [GNU Libffcall][162] - A collection of libraries for building foreign function interfaces. [GNU GPL3][41].
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
+* [iniparser][336] - A parser for .ini files. [Expat][11].
 * [jemalloc][293] - A malloc implementation that emphasizes avoidance of fragmentation and scalable concurrency support. [FreeBSD][24].
 * [libavl][156] - A library containing a range of self-balancing binary trees. [GNU GPL2.1][8].
 * [libbson][235] - A BSON utility library. [Apache2.0][32].
@@ -813,3 +815,6 @@ XML
 [331]: http://gmsl.sourceforge.net/
 [332]: https://github.com/nfc-tools/libnfc
 [333]: http://www.andre-simon.de/index.php
+[334]: http://www.perforce.com/resources/documentation/jam
+[335]: https://en.wikipedia.org/wiki/Perforce_Jam#License
+[336]: https://github.com/ndevilla/iniparser
