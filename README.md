@@ -206,6 +206,7 @@ Advanced
 * [I do not know C][272]
 * [Implementing smart pointers for the C programming language][240]
 * [Inline functions in C][245]
+* [Metaprogramming custom control structures in C][343]
 * [Some dark corners of C][210]
 * [Writing efficient C and C code optimization][33]
  
@@ -400,6 +401,7 @@ Tools
 
 This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
 
+* [adlint][344] - A static analyzer. Supports all of C89 and part of C99. [GNU GPL3][41].
 * [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
 * [Artistic Style][314] - A fast and small automatic source code formatter that supports C. [GNU LGPL2.1][15].
 * [Autoconf][305] - An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. Part of the Autotools. [GNU GPL3][41].
@@ -436,6 +438,7 @@ Utilities
 
 This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
+* [ApeTagLibs][345] - A C library for working with APEv2 tags. [Expat][11].
 * [bfd][157] - A library for manipulating binary object files. Part of GNU binutils. [GNU GPL2.1][8].
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer vision. [3-clause BSD][6].
 * [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking [OpenCL][312] projects. [GNU LGPL3][5].
@@ -830,4 +833,6 @@ XML
 [340]: https://wiki.gnome.org/Projects/LibRsvg
 [341]: http://www.pyyaml.org/wiki/LibYAML
 [342]: https://www.xiph.org/ao/
-
+[343]: http://www.chiark.greenend.org.uk/~sgtatham/mp/
+[344]: https://yanoh.github.io/adlint/
+[345]: https://github.com/jeremyevans/ape_tag_libs/tree/master/c
