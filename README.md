@@ -413,6 +413,7 @@ This is a list of useful programs to help you write and debug C code which are *
 * [c2html][313] - Converts C source files to highlighted HTML. [GNU GPL2.1][8].
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [CBMC][309] - C Bounded Model Checker; a tool for verification of array bounds, pointer safety and user-specified assertions. [Original BSD][310].
+* [cdecl][348] - An online service to translate C declarations into English and vice versa. Public domain.
 * [cinclude2dot][280] - Graphs include dependencies in a C project using Graphviz. [GNU GPL3][41].
 * [Complexity][307] - A tool for measuring the complexity of C source code. [GNU GPL3][41].
 * [DDD][320] - A graphical front-end for a range of command-line debuggers. [GNU GPL3][41].
@@ -838,3 +839,4 @@ XML
 [344]: https://yanoh.github.io/adlint/
 [345]: https://github.com/jeremyevans/ape_tag_libs/tree/master/c
 [346]: http://www.mission-base.com/peter/source/pbl/doc/AIntroduction.html
+[347]: http://cdecl.org/
