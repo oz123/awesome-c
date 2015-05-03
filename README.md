@@ -83,6 +83,7 @@ This section has big libraries that provide data structures and other stuff you 
 * [GObject][3] - An object-oriented system and object model for C. [GNU LGPL3][5].
 * [libnih][93] - A lightweight library of C functions and structures. [GNU GPL2.1][8].
 * [libU][28] - A small library of basic utilities, including memory allocation, string manipulation and logging. [3-clause BSD][6].
+* [pblSet][346] - A large, portable collection of basic functions, data structures and utilities. [GNU LGPL2.1][15].
 * [qlibc][277] - A simple and powerful C library, designed as a replacement for GLib while focusing on being small and light. [qLib license][278] (similar to [FreeBSD][24]).
 * [stb][114] - A range of single-file libraries for C. Public domain.
 
@@ -836,3 +837,4 @@ XML
 [343]: http://www.chiark.greenend.org.uk/~sgtatham/mp/
 [344]: https://yanoh.github.io/adlint/
 [345]: https://github.com/jeremyevans/ape_tag_libs/tree/master/c
+[346]: http://www.mission-base.com/peter/source/pbl/doc/AIntroduction.html
