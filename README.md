@@ -164,21 +164,18 @@ This is a list of resources for learning C programming in general, or something 
 Reference
 ---------
 
-* [C: A Reference Manual 5E][181] (online PDF)
 * [CERT C Coding Standard][266]
 * [C FAQ - comp.lang.c Frequently Asked Questions][262]
 * [Draft C11 standard][247]
 * [GNU C Reference Manual][329]
 * [Robert Pike's notes on programming in C][273]
-* [The C Programming Language 2E][7] (online PDF)
 
 Beginner
 --------
 
 * [A tutorial on pointers][213]
 * [Building C Projects][208]
-* [C Primer Plus 5E][184] (online PDF)
-* [C Programming Wikibook][248] (online PDF)
+* [C Programming Wikibook][248]
 * [Introduction to 'fun' C][279]
 * [POSIX Threads Programming tutorial][263] (a little dated, but most of it is still valid and useful)
 * [The GNU C Programming Tutorial][212] (online PDF)
@@ -194,7 +191,6 @@ Intermediate
 * [OpenMP tutorial][264] (for the OpenMP3 standard)
 * [memcpy vs memmove][205]
 * [MPI tutorial][265]
-* [Object-Oriented Programming with ANSI C][185] (online PDF)
 * [The lost art of C structure packing][34]
 * [What a C programmer should know about memory][271]
 * [What every C programmer should know about undefined behaviour][275]
@@ -221,11 +217,14 @@ Self-study courses
 Reference
 ---------
 
+* [C: A Reference Manual 5E][181] - A full reference book for C99.
 * [C Pocket Reference][182] - A concise reference book for C99.
+* [The C Programming Language 2E][7] - The original book on C, by its creators.
 
 Beginner
 --------
 
+* [C Primer Plus 6E][184] - A complete tutorial on programming in C11.
 * [C Programming: A Modern Approach][64] - An excellent book to learn the basics from C from.
 * [Head First C][102] - A 'head-first' style book for learning C.
 
@@ -500,7 +499,7 @@ XML
 [4]: https://github.com/android/platform_bionic
 [5]: http://www.gnu.org/licenses/lgpl.html
 [6]: http://directory.fsf.org/wiki/License:BSD_3Clause
-[7]: http://books.cat-v.org/computer-science/c-programming-language/The.C.Programming.Language.2nd.Edition.pdf
+[7]: https://en.wikipedia.org/wiki/The_C_Programming_Language
 [8]: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 [9]: http://www.fefe.de/dietlibc/
 [10]: http://www.musl-libc.org/
@@ -674,10 +673,10 @@ XML
 [178]: https://gnu.org/software/ncurses/
 [179]: https://gnu.org/software/osip/
 [180]: https://gnu.org/software/pth/
-[181]: https://savedparadigms.files.wordpress.com/2014/09/harbison-s-p-steele-g-l-c-a-reference-manual-5th-ed.pdf
+[181]: http://careferencemanual.com/
 [182]: http://shop.oreilly.com/product/9780596004361.do
 [183]: http://shop.oreilly.com/product/0636920026136.do
-[184]: http://faculty.euc.ac.cy/scharalambous/csc131/books/C%20book%201.pdf
+[184]: http://www.pearsonhighered.com/educator/product/C-Primer-Plus-6E/9780321928429.page
 [185]: http://www.planetpdf.com/codecuts/pdfs/ooc.pdf
 [186]: https://github.com/scrooloose/syntastic
 [187]: https://github.com/scrooloose/syntastic/blob/master/LICENCE
@@ -741,7 +740,7 @@ XML
 [245]: http://www.greenend.org.uk/rjk/tech/inline.html
 [246]: https://github.com/Snaipe/Criterion
 [247]: http://www.open-std.org/JTC1/SC22/WG14/
-[248]: http://libflow.com/d/c6v1q5ti/C_Programming
+[248]: https://en.wikibooks.org/wiki/C_Programming
 [249]: http://www.codeblocks.org/
 [250]: http://cedet.sourceforge.net/
 [251]: http://mingw.org/
