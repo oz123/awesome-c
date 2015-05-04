@@ -462,6 +462,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
 * [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
+* [libmpv][348] - A music-playing library. Compile with ``./waf configure --disable-cplayer --enable-libmpv-shared`` to not have the music player. [GNU GPL2.1][8].
 * [libnfc][332] - A platform-independent Near-Field Communication library. [GNU LGPL3][5].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
 * [libucl][239] - A universal configuration library parser. [FreeBSD][24].
@@ -840,3 +841,4 @@ XML
 [345]: https://github.com/jeremyevans/ape_tag_libs/tree/master/c
 [346]: http://www.mission-base.com/peter/source/pbl/doc/AIntroduction.html
 [347]: http://cdecl.org/
+[348]: https://github.com/mpv-player/mpv
