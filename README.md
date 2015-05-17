@@ -177,6 +177,7 @@ Beginner
 * [Building C Projects][208]
 * [C Programming Wikibook][248]
 * [Introduction to 'fun' C][279]
+* [Learning C with GDB][349]
 * [POSIX Threads Programming tutorial][263] (a little dated, but most of it is still valid and useful)
 * [The GNU C Programming Tutorial][212] (online PDF)
 * [Templating in C][267]
@@ -303,7 +304,6 @@ Numerical
 * [PETSc][282] - A suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. [FreeBSD][24].
 * [SLEPc][283] - A software library for the solution of large, sparse eigenvalue problems on parallel computers. [GNU LGPL3][5].
 * [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [3-clause BSD][6].
-
 
 Parallel Programming
 ====================
@@ -450,11 +450,13 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [FANN][325] - Fast Artifical Neural Network library; an implementation of neural networks. [GNU GPL2.1][8].
 * [gjrand][327] - A library of random-number generation routines. [GNU GPL2.1][8].
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPL3][41].
+* [GNU gperf][351] - A perfect hash function generator, given a list of strings. Outputs C code. [GNU GPL3][41].
 * [GNU Libffcall][162] - A collection of libraries for building foreign function interfaces. [GNU GPL3][41].
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [iniparser][336] - A parser for .ini files. [Expat][11].
 * [jemalloc][293] - A malloc implementation that emphasizes avoidance of fragmentation and scalable concurrency support. [FreeBSD][24].
+* [jwHash][350] - A fast hashtable implementation. [Apache2.0][32].
 * [kdtree][337] - A simple library for working with KD-trees. [3-clause BSD][6].
 * [libavl][156] - A library containing a range of self-balancing binary trees. [GNU GPL2.1][8].
 * [libbson][235] - A BSON utility library. [Apache2.0][32].
@@ -841,3 +843,6 @@ XML
 [346]: http://www.mission-base.com/peter/source/pbl/doc/AIntroduction.html
 [347]: http://cdecl.org/
 [348]: https://github.com/mpv-player/mpv
+[349]: https://www.recurse.com/blog/5-learning-c-with-gdb
+[350]: https://github.com/watmough/jwHash
+[351]: https://www.gnu.org/software/gperf/
