@@ -356,6 +356,7 @@ Parallel Programming
 
 * [cchan][243] - A small library for channel constructs for inter-thread communication. Public domain.
 * [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures. [FreeBSD][24].
+* [mill][352] - Go-style concurrency in C. [X11][353].
 * [MPICH][285] - Another implementation of MPI. [MPICH licence][286].
 * [OpenMP][37] - A set of C pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
 * [OpenMPI][284] - A message passing interface implementation. [3-clause BSD][6].
@@ -892,3 +893,5 @@ XML
 [349]: https://www.recurse.com/blog/5-learning-c-with-gdb
 [350]: https://github.com/watmough/jwHash
 [351]: https://www.gnu.org/software/gperf/
+[352]: http://libmill.org/
+[353]: https://directory.fsf.org/wiki/License:X11
