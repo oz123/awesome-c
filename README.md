@@ -510,6 +510,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
 * [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
+* [libimobiledevice][354] - A cross-platform protocol library to communicate with iThings. [GNU GPL 2.1][8].
 * [libmpv][348] - A music-playing library. Compile with ``./waf configure --disable-cplayer --enable-libmpv-shared`` to not have the music player. [GNU GPL2.1][8].
 * [libnfc][332] - A platform-independent Near-Field Communication library. [GNU LGPL3][5].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
@@ -895,3 +896,4 @@ XML
 [351]: https://www.gnu.org/software/gperf/
 [352]: http://libmill.org/
 [353]: https://directory.fsf.org/wiki/License:X11
+[354]: https://github.com/libimobiledevice/libimobiledevice
