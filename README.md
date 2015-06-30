@@ -474,7 +474,7 @@ This is a list of useful programs to help you write and debug C code which are *
 * [indent][315] - Formats C source code automatically to make it easier to read. Also converts from one style of source to another. [GNU GPLv3][41].
 * [Jam][334] - A build system, designed to be easier than make. Understands C build rules implicitly. [Jam License][335].
 * [Libtool][172] - A generic library support script. [GNU GPL3][41].
-* [Make][324] - A tool which controls the generation of executables and other non-source files of a program. [GNU GPLv3][41].
+* [Make][324] - A tool which controls the generation of executables and other non-source files of a program. [GNU GPL3][41].
 * [qo][274] - A build system that works without a separate config file. [Expat][11].
 * [rr][95] - A debugger that records non-deterministic executions to allow for deterministic debugging. [FreeBSD][24].
 * [tup][326] - A very fast, file-based, cross-platform build system. [GNU GPL2.1][8].
@@ -505,6 +505,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [jemalloc][293] - A malloc implementation that emphasizes avoidance of fragmentation and scalable concurrency support. [FreeBSD][24].
 * [jwHash][350] - A fast hashtable implementation. [Apache2.0][32].
 * [kdtree][337] - A simple library for working with KD-trees. [3-clause BSD][6].
+* [Kitsune][355] - An efficient, general-purpose framework for dynamic software updating. [GNU LGPL3][5].
 * [libavl][156] - A library containing a range of self-balancing binary trees. [GNU GPL2.1][8].
 * [libbson][235] - A BSON utility library. [Apache2.0][32].
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
@@ -897,3 +898,4 @@ XML
 [352]: http://libmill.org/
 [353]: https://directory.fsf.org/wiki/License:X11
 [354]: https://github.com/libimobiledevice/libimobiledevice
+[355]: http://kitsune-dsu.com/
