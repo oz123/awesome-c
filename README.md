@@ -499,6 +499,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPL3][41].
 * [GNU gperf][351] - A perfect hash function generator, given a list of strings. Outputs C code. [GNU GPL3][41].
 * [GNU Libffcall][162] - A collection of libraries for building foreign function interfaces. [GNU GPL3][41].
+* [hammer][356] - Parser combinators for binary formats. [GNU GPL2.1][8].
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [iniparser][336] - A parser for .ini files. [Expat][11].
@@ -899,3 +900,4 @@ XML
 [353]: https://directory.fsf.org/wiki/License:X11
 [354]: https://github.com/libimobiledevice/libimobiledevice
 [355]: http://kitsune-dsu.com/
+[356]: https://github.com/abiggerhammer/hammer
