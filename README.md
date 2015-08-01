@@ -245,6 +245,7 @@ Intermediate
 Advanced
 --------
 
+* [Advanced metaprogramming in C][357]
 * [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][204]
 * [Bit twiddling hacks][73]
 * [I do not know C][272]
@@ -901,3 +902,4 @@ XML
 [354]: https://github.com/libimobiledevice/libimobiledevice
 [355]: http://kitsune-dsu.com/
 [356]: https://github.com/abiggerhammer/hammer
+[357]: http://250bpm.com/blog:56
