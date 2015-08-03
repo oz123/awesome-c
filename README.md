@@ -252,6 +252,7 @@ Advanced
 * [Implementing smart pointers for the C programming language][240]
 * [Inline functions in C][245]
 * [Metaprogramming custom control structures in C][343]
+* [Solving the temporary storage problem of C macros][358]
 * [Some dark corners of C][210]
 * [Writing efficient C and C code optimization][33]
  
@@ -903,3 +904,4 @@ XML
 [355]: http://kitsune-dsu.com/
 [356]: https://github.com/abiggerhammer/hammer
 [357]: http://250bpm.com/blog:56
+[358]: http://www.samnip.ps/thought/macro-storage-for-inverse-comma
