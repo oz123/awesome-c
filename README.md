@@ -80,6 +80,7 @@ This lists databases and data stores with C APIs.
 * [MariaDB][25] - A robust, scalable and reliable SQL server, designed to be a drop-in replacement for MySQL. [3-clause BSD][6].
 * [mongo-c-driver][233] - A high-performance client library for [MongoDB][234]. [Apache2.0][32].
 * [PostgreSQL][121] - A powerful object-relational database system. [PostgreSQL licence][122]
+* [recutils][360] - A set of tools and a C library for accessing human-editable, plaintext database files called recfiles. [GNU GPL3][41].
 * [Redis][51] - An advanced key-value store. [3-clause BSD][6].
 * [sophia][244] - A modern, embeddable key-value database. [FreeBSD][24].
 * [SQLite][22] - A self-contained, serverless, zero-configuration, transactional SQL database engine with a C interface. Public domain.
@@ -325,6 +326,7 @@ Networking and Internet
 * [onion][170] - HTTP server library, designed to be easy to use. [Apache2.0][32].
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
 * [oSip][179] - A SIP implementation in C without additional dependencies. [GNU GPL3][41].
+* [s2n][359] - A C99 implementation of the TLS/SSL protocols, designed to be simple, fast and with security as a priority. [Apache2.0][32].
 * [socket99][203] - A wrapper library for the BSD sockets API.
 * [Tox][145] - A communication platform, designed to be a Skype-killer. [GNU GPL3][41].
 * [twitc][237] - A mini C library for interacting with the Twitter OAuth API. [GNU GPL3][41].
@@ -905,3 +907,5 @@ XML
 [356]: https://github.com/abiggerhammer/hammer
 [357]: http://250bpm.com/blog:56
 [358]: http://www.samnip.ps/thought/macro-storage-for-inverse-comma
+[359]: https://github.com/awslabs/s2n
+[360]: https://www.gnu.org/software/recutils/
