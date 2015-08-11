@@ -213,6 +213,7 @@ Reference
 
 * [CERT C Coding Standard][266]
 * [C FAQ - comp.lang.c Frequently Asked Questions][262]
+* [Comparison of C/POSIX standard library implementations for GNU/Linux][362]
 * [Draft C11 standard][247]
 * [GNU C Reference Manual][329]
 * [Robert Pike's notes on programming in C][273]
@@ -911,3 +912,4 @@ XML
 [359]: https://github.com/awslabs/s2n
 [360]: https://www.gnu.org/software/recutils/
 [361]: http://pp.ipd.kit.edu/firm/Index
+[362]: http://www.etalabs.net/compare_libcs.html
