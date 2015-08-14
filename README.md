@@ -406,7 +406,7 @@ Standard Libraries
 
 This contains standard C libraries.
 
-* [Bionic][4] - Google's C standard library, developed for Android. [3-clause BSD][6]
+* [Bionic][4] - Google's C standard library, developed for Android. [3-clause BSD][6].
 * [dietlibc][9] - A C standard library designed for the smallest possible binaries. [GNU GPL2.1][8].
 * [glibc][57] - The GNU C Library; an implementation of the C standard library. [GNU LGPL3][5]. 
 * [musl][10] - A standard C library, compatible with POSIX 2008 and C11. Designed for static linking. [Expat][11].
@@ -420,6 +420,7 @@ String Manipulation
 * [libgiconv][163] - A text conversion library. [GNU LGPL2.1][8].
 * [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
 * [shoco][363] - A compressor for small text strings. [Expat][11].
+* [smaz][363] - An efficient string compression library. [3-clause BSD][6].
 
 Testing
 =======
@@ -915,3 +916,4 @@ XML
 [361]: http://pp.ipd.kit.edu/firm/Index
 [362]: http://www.etalabs.net/compare_libcs.html
 [363]: https://github.com/Ed-von-Schleck/shoco
+[364]: https://github.com/antirez/smaz
