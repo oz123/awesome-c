@@ -419,6 +419,7 @@ String Manipulation
 * [libunistring][173] - A library for manipulating Unicode strings in C. [GNU LGPL3][5].
 * [libgiconv][163] - A text conversion library. [GNU LGPL2.1][8].
 * [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
+* [shoco][363] - A compressor for small text strings. [Expat][11].
 
 Testing
 =======
@@ -913,3 +914,4 @@ XML
 [360]: https://www.gnu.org/software/recutils/
 [361]: http://pp.ipd.kit.edu/firm/Index
 [362]: http://www.etalabs.net/compare_libcs.html
+[363]: https://github.com/Ed-von-Schleck/shoco
