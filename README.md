@@ -171,6 +171,7 @@ Graphics
 
 * [Cogl][127] - A GPU graphics and utilities API. [GNU LGPL2.1][15].
 * [Clutter][126] - A UI library based on OpenGL. [GNU LGPL2.1][15].
+* [heman][365] - A tiny library of image utilities dealing with height maps, normal maps, distance fields and the like. [Expat][11].
 * [libimagequant][300] - Small, portable library for high-quality conversion of RGBA images to 8-bit indexed colour images. [FreeBSD][24].
 * [libjpeg][192] - A library for reading and writing JPEG files. Free software license (check the source).
 * [libjpeg-turbo][193] - A faster library for reading and writing JPEG files. [Various licences][194].
@@ -917,3 +918,4 @@ XML
 [362]: http://www.etalabs.net/compare_libcs.html
 [363]: https://github.com/Ed-von-Schleck/shoco
 [364]: https://github.com/antirez/smaz
+[365]: https://github.com/prideout/heman
