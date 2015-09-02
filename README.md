@@ -60,7 +60,7 @@ These are tools to automate the building and testing of projects in C.
 * [Autoconf][305] - An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. Part of the Autotools. [GNU GPL3][41].
 * [Automake][306] - A tool for automatically generating ``Makefile.in`` files compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of the Autotools. [GNU GPL3][41].
 * [Jam][334] - A build system, designed to be easier than make. Understands C build rules implicitly. [Jam License][335].
-* [Libtool][172] - A generic library support script. [GNU GPL3][41].
+* [Libtool][172] - A generic library support script. Part of the Autotools. [GNU GPL3][41].
 * [Meson][368] - An extremely fast, user-friendly build system. Based on Ninja. [Apache2.0][32].
 
 Compilers
@@ -155,9 +155,12 @@ Game Programming
 These are provided as examples of C game programming code.
 
 * [Corange][101] - A game engine in pure C. [FreeBSD][24].
-* [ioquake3][107] - The Quake3 engine, freed at last. [GNU GPL2.1][8]
+* [Darkplaces][369] - A modified version of the Quake2 engine. [GNU GPL2.1][8] or later.
+* [ioquake3][107] - The Quake3 engine, freed at last. [GNU GPL2.1][8].
+* [Orx][370] - A portable, lightweight, plugin-based, data-driven, 2D-oriented game engine. [zlib][49].
 * [Quake][225] - The Quake engine. [GNU GPL2.1][8].
 * [Quake2][221] - The Quake2 engine. [GNU GPL2.1][8].
+* [Spearmint][371] - An engine designed for FPS games. [GNU GPL3][41] or later.
 
 ## Resources ##
 
@@ -931,3 +934,6 @@ XML
 [366]: https://github.com/cacalabs/libcaca
 [367]: http://www.wtfpl.net/txt/copying/
 [368]: http://mesonbuild.com/
+[369]: https://icculus.org/twilight/darkplaces/
+[370]: http://orx-project.org/about
+[371]: https://github.com/zturtleman/spearmint
