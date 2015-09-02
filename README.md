@@ -7,6 +7,7 @@ This is released under the GNU Free Documentation License - its text is provided
 Contents
 ========
 
+- [Build Systems](#build-systems)
 - [Compilers](#compilers)
 - [Crypto](#crypto)
 - [Database](#database)
@@ -49,6 +50,18 @@ Contents
 - [Tools](#tools)
 - [Utilities](#utilities)
 - [XML](#xml)
+
+Build Systems
+=============
+
+These are tools to automate the building and testing of projects in C.
+
+* [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
+* [Autoconf][305] - An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. Part of the Autotools. [GNU GPL3][41].
+* [Automake][306] - A tool for automatically generating ``Makefile.in`` files compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of the Autotools. [GNU GPL3][41].
+* [Jam][334] - A build system, designed to be easier than make. Understands C build rules implicitly. [Jam License][335].
+* [Libtool][172] - A generic library support script. [GNU GPL3][41].
+* [Meson][368] - An extremely fast, user-friendly build system. Based on Ninja. [Apache2.0][32].
 
 Compilers
 =========
@@ -458,10 +471,7 @@ Tools
 This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
 
 * [adlint][344] - A static analyzer. Supports all of C89 and part of C99. [GNU GPL3][41].
-* [aimake][97] - A build tool designed to avoid complex configurations. [GNU GPL3][41].
 * [Artistic Style][314] - A fast and small automatic source code formatter that supports C. [GNU LGPL2.1][15].
-* [Autoconf][305] - An extensible package of M4 macros that produce shell scripts to automatically configure software source code packages. Part of the Autotools. [GNU GPL3][41].
-* [Automake][306] - A tool for automatically generating ``Makefile.in`` files compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of the Autotools. [GNU GPL3][41].
 * [address-sanitizer][288] - A fast memory error detector. [Apache2.0][32].
 * [biicode][304] - A modern dependency manager for C. [Expat][11].
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. [Expat][11].
@@ -481,8 +491,6 @@ This is a list of useful programs to help you write and debug C code which are *
 * [Highlight][333] - Converts source code to formatted text with nice highlighting. [GNU GPL2.1][8].
 * [include-what-you-use][289] - Helps find unecessary inclusions and make suggestions for fixing them. Based on LLVM/Clang (and only works with it). [NCSA][39].
 * [indent][315] - Formats C source code automatically to make it easier to read. Also converts from one style of source to another. [GNU GPLv3][41].
-* [Jam][334] - A build system, designed to be easier than make. Understands C build rules implicitly. [Jam License][335].
-* [Libtool][172] - A generic library support script. [GNU GPL3][41].
 * [Make][324] - A tool which controls the generation of executables and other non-source files of a program. [GNU GPL3][41].
 * [qo][274] - A build system that works without a separate config file. [Expat][11].
 * [rr][95] - A debugger that records non-deterministic executions to allow for deterministic debugging. [FreeBSD][24].
@@ -922,3 +930,4 @@ XML
 [365]: https://github.com/prideout/heman
 [366]: https://github.com/cacalabs/libcaca
 [367]: http://www.wtfpl.net/txt/copying/
+[368]: http://mesonbuild.com/
