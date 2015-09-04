@@ -537,6 +537,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libmpv][348] - A music-playing library. Compile with ``./waf configure --disable-cplayer --enable-libmpv-shared`` to not have the music player. [GNU GPL2.1][8].
 * [libnfc][332] - A platform-independent Near-Field Communication library. [GNU LGPL3][5].
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
+* [libsoundio][372] - A library for cross-platform, real-time audio input and output. Has a range of back-ends. [Expat][11].
 * [libucl][239] - A universal configuration library parser. [FreeBSD][24].
 * [libudp][302] - An implementation of the Universal Design Pattern in C. [GNU GPL3][41].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
@@ -937,3 +938,4 @@ XML
 [369]: https://icculus.org/twilight/darkplaces/
 [370]: http://orx-project.org/about
 [371]: https://github.com/zturtleman/spearmint
+[372]: https://github.com/andrewrk/libsoundio
