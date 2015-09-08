@@ -531,6 +531,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libavl][156] - A library containing a range of self-balancing binary trees. [GNU GPL2.1][8].
 * [libbson][235] - A BSON utility library. [Apache2.0][32].
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
+* [libcox][373] - A library which permits cross-platform system calls and standard utilities across different operating systems. [FreeBSD][24].
 * [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 with a linking exception][109].
 * [libimobiledevice][354] - A cross-platform protocol library to communicate with iThings. [GNU GPL 2.1][8].
@@ -939,3 +940,4 @@ XML
 [370]: http://orx-project.org/about
 [371]: https://github.com/zturtleman/spearmint
 [372]: https://github.com/andrewrk/libsoundio
+[373]: http://libcox.net/
