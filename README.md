@@ -258,6 +258,7 @@ Intermediate
 * [OpenMP tutorial][264] (for the OpenMP3 standard)
 * [memcpy vs memmove][205]
 * [MPI tutorial][265]
+* [Some unknown features or tricks in C language][374]
 * [The lost art of C structure packing][34]
 * [What a C programmer should know about memory][271]
 * [What every C programmer should know about undefined behaviour][275]
@@ -941,3 +942,4 @@ XML
 [371]: https://github.com/zturtleman/spearmint
 [372]: https://github.com/andrewrk/libsoundio
 [373]: http://libcox.net/
+[374]: http://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
