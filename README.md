@@ -487,6 +487,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libcox][373] - A library which permits cross-platform system calls and standard utilities across different operating systems. [FreeBSD][24].
 * [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 only, with a linking exception][109].
+* [libimobiledevice][354] - A cross-platform protocol library to communicate with iThings. [GNU LGPLv2.1][15] or later (library), [GNU GPL2.1][8] or later (tools).
 * [libmpv][348] - A music-playing library. Compile with ``./waf configure --disable-cplayer --enable-libmpv-shared`` to not have the music player. [GNU GPL2.1][8] or later.
 * [libnfc][332] - A platform-independent Near-Field Communication library. [GNU LGPL3][5] only.
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].

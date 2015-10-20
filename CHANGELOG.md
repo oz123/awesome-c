@@ -17,7 +17,6 @@
 * pblSet (unclear licensing).
 * CRlibm (unclear licensing).
 * libroxml (unclear licensing).
-* libimobiledevice (unclear licensing).
 * SGLIB (unclear licensing).
 * libRSVG (unclear licensing).
 * Elementary (dead link).
