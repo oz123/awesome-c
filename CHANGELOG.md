@@ -24,7 +24,8 @@
 
 ### Added ###
 
-* None in this version.
+* CHANGELOG.md file.
+* TODO.md file.
 
 
 
