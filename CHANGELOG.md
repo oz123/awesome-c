@@ -15,6 +15,7 @@
 
 * mpack.
 * cmp.
+* BerkeleyDB.
 
 ## 21st October 2015 ##
 

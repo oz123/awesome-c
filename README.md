@@ -82,6 +82,7 @@ These are tools to automate the building and testing of projects in C.
 
 This lists databases and data stores with C APIs.
 
+* [BerkeleyDB][380] - A library for a high-performance embedded database for key-value data. [GNU AGPLv3][381] only.
 * [Hiredis][201] - A minimalistic client library for Redis. [3-clause BSD][6].
 * [LMDB][105] - An ultra-fast, ultra-compact key-value embedded data store. [newOpenLDAP][106].
 * [MariaDB][25] - A robust, scalable and reliable SQL server, designed to be a drop-in replacement for MySQL. [3-clause BSD][6].
@@ -898,3 +899,5 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [377]: https://github.com/camgunz/cmp
 [378]: https://github.com/ludocode/mpack
 [379]: http://msgpack.org/
+[380]: http://www.oracle.com/us/products/database/berkeley-db/overview/index.html
+[381]: https://gnu.org/licenses/agpl.html
