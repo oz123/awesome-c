@@ -14,3 +14,4 @@ These are not prioritized.
 * Incorporate Elementary OS stuff into list.
 * ~~Clean up heading styles in document.~~
 * Check 'or later' clauses in all GPL and LGPL entries.
+* Migrate anything on SourceForge to NAB to avoid it going poof.
