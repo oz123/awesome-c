@@ -1,5 +1,19 @@
 # Changelog #
 
+## 22nd October 2015 ##
+
+### General ###
+
+* Removing reference to Gulag Code if the repo was migrated.
+
+### Removed ###
+
+* tcmalloc (now replaced with a link to the gperftools repo).
+
+### Added ###
+
+* Nothing.
+
 ## 21st October 2015 ##
 
 ### General ###
