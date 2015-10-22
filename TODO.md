@@ -14,4 +14,25 @@ These are not prioritized.
 * Incorporate Elementary OS stuff into list.
 * ~~Clean up heading styles in document.~~
 * Check 'or later' clauses in all GPL and LGPL entries.
-* Migrate anything on SourceForge to NAB to avoid it going poof.
+* Remove or migrate anything on SourceForge to NAB to avoid it going poof:
+  * Docutils
+  * Orx
+  * Allegro
+  * FreeGLUT
+  * LibJPEG
+  * mihl
+  * ATLAS
+  * KISS FFT
+  * T-Rex
+  * bstrlib
+  * Check
+  * CUnit
+  * CEDET
+  * Artistic Style
+  * c2html
+  * GMSL
+  * gjrand
+  * ezXML
+* Remove or migrate anything on Gulag Code to NAB to avoid it going poof:
+  * msgpackalt
+  * ulib

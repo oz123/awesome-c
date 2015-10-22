@@ -76,7 +76,7 @@ These are tools to automate the building and testing of projects in C.
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
 * [libsodium][198] - A modern and easy-to-use crypto library. [Expat][11].
 * [libtomcrypt][299] - A fairly comprehensive, modular and portable cryptographic toolkit. Public domain.
-* [mbed TLS][291] - Another crypto implementation for C. [Apache2.01][32].
+* [mbed TLS][291] - Another crypto implementation for C. [Apache2.0][32].
 
 ## Database ##
 
@@ -473,6 +473,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPL3][41] only.
 * [GNU gperf][351] - A perfect hash function generator, given a list of strings. Outputs C code. [GNU GPL3][41] or later.
 * [GNU Libffcall][162] - A collection of libraries for building foreign function interfaces. [GNU GPL3][41] or later.
+* [gperftools][295] - A collection of utilities for measuring and improving performance. [3-clause BSD][6].
 * [hammer][356] - Parser combinators for binary formats. [GNU GPL2.1][8] only.
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
@@ -503,7 +504,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [pbc][236] - A protocol buffers library. [Expat][11].
 * [rabbitmq-c][228] - A client library for [RabbitMQ][229]. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL2.1][8] only.
-* [tcmalloc][294] - A fast, reduced-contention malloc implementation. Part of [gperftools][295]. [3-clause BSD][6].
+
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
 * [Viola][241] - A simplification of libCello. [Expat][11].
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression library. [3-clause BSD][6].
@@ -805,14 +806,13 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [285]: http://www.mpich.org/
 [286]: http://git.mpich.org/mpich.git/blob_plain/6aab201f58d71fc97f2c044d250389ba86ac1e3c:/COPYRIGHT
 [287]: http://mingw-w64.yaxm.org/doku.php/start
-[288]: https://code.google.com/p/address-sanitizer/
-[289]: https://code.google.com/p/include-what-you-use/
+[288]: https://github.com/google/sanitizers
+[289]: https://github.com/include-what-you-use/include-what-you-use
 [290]: http://dotat.at/prog/unifdef/
 [291]: https://tls.mbed.org/
 [292]: http://www.fefe.de/djb/
 [293]: http://www.canonware.com/jemalloc/
-[294]: http://goog-perftools.sourceforge.net/doc/tcmalloc.html
-[295]: https://code.google.com/p/gperftools/
+[295]: https://github.com/gperftools/gperftools
 [296]: https://github.com/ThrowTheSwitch/Unity
 [297]: https://github.com/ThrowTheSwitch/CMock
 [298]: https://github.com/ThrowTheSwitch/CException
