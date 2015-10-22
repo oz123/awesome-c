@@ -9,10 +9,12 @@
 ### Removed ###
 
 * tcmalloc (now replaced with a link to the gperftools repo).
+* msgpackalt (replaced by two better-maintained, non-Gulag-hosted implementations).
 
 ### Added ###
 
-* Nothing.
+* mpack.
+* cmp.
 
 ## 21st October 2015 ##
 
@@ -39,9 +41,3 @@
 
 * CHANGELOG.md file.
 * TODO.md file.
-
-
-
-
-
-

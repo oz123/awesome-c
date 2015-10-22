@@ -34,5 +34,5 @@ These are not prioritized.
   * gjrand
   * ezXML
 * Remove or migrate anything on Gulag Code to NAB to avoid it going poof:
-  * msgpackalt
-  * ulib
+  * ~~msgpackalt~~ (replaced with cmp and mpack) 
+  * ulib (slated for migration)

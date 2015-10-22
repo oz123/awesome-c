@@ -363,8 +363,9 @@ This is a list of resources for learning C programming in general, or something 
 ## Serialization ##
 
 * [c-capnproto][130] - An implementation of the Cap'n Proto serialization protocol. [Expat][11].
+* [cmp][377] - An implementation of the [MessagePack][379] serialization protocol. [Expat][11].
 * [libavro][140] - A C implementation of the Avro data serialization system. [Apache2.0][32].
-* [msgpackalt][132] - A simple, light and fast binary serialization library. [3-clause BSD][6].
+* [mpack][378] - Another implementation of the [MessagePack][379] serialization protocol. [Expat][11]. 
 * [protobuf-c][129] - An implementation of Google Protocol Buffer in C. [FreeBSD][24].
 * [xdr][131] - External Data Representation; a standard for data serialization. Standard (no license applicable).
 
@@ -894,3 +895,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [374]: http://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
 [375]: https://www.gnu.org/licenses/old-licenses/fdl-1.1.html
 [376]: https://github.com/timonwong/libao
+[377]: https://github.com/camgunz/cmp
+[378]: https://github.com/ludocode/mpack
+[379]: http://msgpack.org/
