@@ -98,7 +98,6 @@ This lists databases and data stores with C APIs.
 
 * [Cxref][317] - Generates documentation of C programs in either LaTeX, HTML, RTF or SGML. [GNU GPL2.1][8] only.
 * [DocOnce][322] - A modestly-tagged markup language that can be used to generate a range of formats. [3-clause BSD][6].
-* [Docutils][321] - A text-processing system to convert plain text documentation into a range of useful formats. Public domain.
 * [Doxygen][318] - The de-facto standard tool for generating C documentation from annotated sources. Can generate a large range of formats. [GNU GPL2.1][8] only.
 * [GTK-Doc][319] - A tool for generating C documentation from annotated sources. Has support for the Autotools. [GNU GPL2.1][15] only (code), [GNU FDL1.1][375] only.
 
@@ -175,12 +174,10 @@ These are libraries of all sorts that are useful for game programming.
 * [heman][365] - A tiny library of image utilities dealing with height maps, normal maps, distance fields and the like. [Expat][11].
 * [libcaca][366] - An ASCII renderer for terminal-based interfaces. [WTFPLv2][367].
 * [libimagequant][300] - Small, portable library for high-quality conversion of RGBA images to 8-bit indexed colour images. [FreeBSD][24].
-* [libjpeg][192] - A library for reading and writing JPEG files. Free software license (check the source).
 * [libjpeg-turbo][193] - A faster library for reading and writing JPEG files. [Various licences][194].
 * [libxmi][174] - A function library for rasterizing 2D vector graphics. [GNU GPL3][41] or later.
 * [mozjpeg][200] - An improved JPEG encoder. [3-clause BSD][6].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
-
 
 ## Graphical User Interface ##
 
@@ -306,7 +303,6 @@ This is a list of resources for learning C programming in general, or something 
 * [libmicrohttpd][165] - A small C library that makes it easy to run an HTTP server as part of another application. [GNU LGPL2.1][15] or later.
 * [libsoup][167] - A GNOME HTTP client/server library. Uses GObject. [GNU LGPL2.1][15] only.
 * [lwan][199] - An experimental, scalable, high-performance HTTP server. [GNU GPL2.1][8] only.
-* [mihl][169] - A library for implementing an embedded HTTP server. [FreeBSD][24].
 * [mongoose][171] - Embedded web server for C. [GNU GPL2.1][8] only.
 * [nanomsg][139] - A C-based implementation of ZeroMQ. [Expat][11].
 * [onion][170] - HTTP server library, designed to be easy to use. [Apache2.0][32].
@@ -359,7 +355,6 @@ This is a list of resources for learning C programming in general, or something 
 * [PCRE][83] - An implementation of regexes identical to that of Perl 5. [3-clause BSD][6].
 * [SLRE][80] - Super Light Regular Expression library; a very small implementation of a subset of Perl regex syntax. [GNU GPL2.1][8] only.
 * [TRE][82] - A POSIX-compliant, feature-full regex library. [FreeBSD][24].
-* [T-Rex][81] - Another tiny regex library. [zlib][49].
 
 ## Serialization ##
 
@@ -378,7 +373,6 @@ This contains collections of small source code. If you want something big and in
 * [clib][26] - Something of a package manager for C. Comes with a [bunch of libraries of its own][27]. [Expat][11].
 * [gnulib][46] - A collection of common GNU code. Various licenses, all free.
 * [libdjb][292] - A collection of libraries doing various things. (Apparently) public domain.
-* [ulib][154] - Another collection of source code. [Expat][11].
 
 ## Standard Libraries ##
 
@@ -434,7 +428,6 @@ This is a list of useful programs to help you write and debug C code which are *
 * [address-sanitizer][288] - A fast memory error detector. [Apache2.0][32].
 * [biicode][304] - A modern dependency manager for C. [Expat][11].
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. [Expat][11].
-* [c2html][313] - Converts C source files to highlighted HTML. [GNU GPL2.1][8] or later.
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [CBMC][309] - C Bounded Model Checker; a tool for verification of array bounds, pointer safety and user-specified assertions. [Original BSD][310].
 * [cdecl][348] - An online service to translate C declarations into English and vice versa. Public domain.
@@ -516,7 +509,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 > "XML is crap. Really. There are no excuses. XML is nasty to parse for humans, and it's a disaster to parse even for computers. There's just no reason for that horrible crap to exist." - Linus Torvalds
 
 * [Expat][89] - A stream-oriented XML parser. [Expat][11].
-* [ezXML][218] - An easy-to-use, fast and lightweight XML parser. [Expat][11].
 * [libxml2][62] - A standards-compliant, portable XML parser. [Expat][11].
 * [mini-xml][216] - A small XML reading and writing library. No dependencies aside from C standard library. [GNU LGPL2.1 with static linking exception][217].
 
@@ -568,7 +560,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [45]: http://www.codelite.org/
 [46]: https://www.gnu.org/software/gnulib/
 [47]: http://www.gnu.org/software/gsl/
-[48]: http://alleg.sourceforge.net/readme.html
+[48]: http://liballeg.org
 [49]: http://directory.fsf.org/wiki/License:Zlib
 [50]: https://www.libsdl.org/
 [51]: http://redis.io/
@@ -619,7 +611,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [96]: http://libcello.org/
 [97]: http://nethack4.org/projects/aimake/
 [98]: http://www.glfw.org/
-[99]: http://freeglut.sourceforge.net/
+[99]: https://github.com/dcnieho/FreeGLUT
 [100]: http://directory.fsf.org/wiki/License:X11
 [101]: https://github.com/orangeduck/Corange
 [102]: http://shop.oreilly.com/product/0636920015482.do
@@ -889,7 +881,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [367]: http://www.wtfpl.net/txt/copying/
 [368]: http://mesonbuild.com/
 [369]: https://icculus.org/twilight/darkplaces/
-[370]: http://orx-project.org/about
+[370]: https://bitbucket.org/orx/orx
 [371]: https://github.com/zturtleman/spearmint
 [372]: https://github.com/andrewrk/libsoundio
 [373]: http://libcox.net/

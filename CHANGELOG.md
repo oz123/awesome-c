@@ -1,5 +1,27 @@
 # Changelog #
 
+## 23rd October 2015 ##
+
+### General ###
+
+* Changed Orx link to point to BitBucket repo.
+* Changed Allegro link to point to their new site.
+* Changed FreeGLUT link to point to their new site.
+
+### Removed ###
+
+* ulib.
+* Docutils.
+* libjpeg.
+* mihl.
+* T-Rex.
+* c2html.
+* ezXML.
+
+### Added ###
+
+* None.
+
 ## 22nd October 2015 ##
 
 ### General ###
