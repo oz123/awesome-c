@@ -8,7 +8,7 @@ These are not prioritized.
   * libroxml
   * libRSVG
   * Neon
-  * pblSet
+  * ~~pblSet~~
   * SGLIB
   * ZeroMQ
 * Incorporate Elementary OS stuff into list.
