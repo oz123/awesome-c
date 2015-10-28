@@ -170,12 +170,14 @@ These are libraries of all sorts that are useful for game programming.
 
 ## Graphics ##
 
+* [Cairo][384] - A 2D graphics library. [GNU LGPL2.1][15] only or [MPLv1.1][385].
 * [Cogl][127] - A GPU graphics and utilities API. [Expat][11] (dependent on [3-clause BSD][6] and possibly [LGPLv2.1][15] only libs).
 * [Clutter][126] - A UI library based on OpenGL. [GNU LGPL2.1][15] only.
 * [heman][365] - A tiny library of image utilities dealing with height maps, normal maps, distance fields and the like. [Expat][11].
 * [libcaca][366] - An ASCII renderer for terminal-based interfaces. [WTFPLv2][367].
 * [libimagequant][300] - Small, portable library for high-quality conversion of RGBA images to 8-bit indexed colour images. [FreeBSD][24].
 * [libjpeg-turbo][193] - A faster library for reading and writing JPEG files. [Various licences][194].
+* [libpng][382] - The official PNG reference library. [libpng license][383].
 * [libxmi][174] - A function library for rasterizing 2D vector graphics. [GNU GPL3][41] or later.
 * [mozjpeg][200] - An improved JPEG encoder. [3-clause BSD][6].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
@@ -894,3 +896,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [379]: http://msgpack.org/
 [380]: http://www.oracle.com/us/products/database/berkeley-db/overview/index.html
 [381]: https://gnu.org/licenses/agpl.html
+[382]: https://http://www.libpng.org/
+[383]: http://www.libpng.org/pub/png/src/libpng-LICENSE.txt
+[384]: http://cairographics.org/
+[385]: https://directory.fsf.org/wiki/License:MPLv1.1

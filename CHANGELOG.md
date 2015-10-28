@@ -1,5 +1,16 @@
 # Changelog #
 
+## 29th October 2015 ##
+
+### General ###
+
+### Removed ###
+
+### Added ###
+
+* libcairo.
+* libpng.
+
 ## 27th October 2015 ##
 
 ### General ###
