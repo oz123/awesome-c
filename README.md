@@ -35,6 +35,7 @@ This is released under the GNU Free Documentation License, without invariants or
       - [Advanced](#advanced-1)
 - [Multimedia](#multimedia)
 - [Networking and Internet](#networking-and-internet)
+  - [Web Frameworks](#web-frameworks)
 - [Numerical](#numerical)
 - [Parallel Programming](#parallel-programming)
 - [Regex](#regex)
@@ -315,6 +316,10 @@ This is a list of resources for learning C programming in general, or something 
 * [socket99][203] - A C99 wrapper for the BSD sockets API. [ISC][61].
 * [Tox][145] - A communication platform, designed to be a Skype-killer. [GNU GPL3][41] only.
 * [twitc][237] - A mini C library for interacting with the Twitter OAuth API. [Expat][11].
+
+### Web Frameworks ###
+
+* [balde][386] - A microframework for C based on GLib. [GNU LGPLv2.1][15] only.
 
 ## Numerical ##
 
@@ -900,3 +905,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [383]: http://www.libpng.org/pub/png/src/libpng-LICENSE.txt
 [384]: http://cairographics.org/
 [385]: https://directory.fsf.org/wiki/License:MPLv1.1
+[386]: https://github.com/balde/balde
