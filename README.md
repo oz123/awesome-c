@@ -507,7 +507,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [pbc][236] - A protocol buffers library. [Expat][11].
 * [rabbitmq-c][228] - A client library for [RabbitMQ][229]. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPL2.1][8] only.
-
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
 * [Viola][241] - A simplification of libCello. [Expat][11].
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression library. [3-clause BSD][6].
