@@ -1,5 +1,15 @@
 # Changelog #
 
+## 15th December 2015 ##
+
+### General ###
+
+### Removed ###
+
+* ESR's work.
+
+### Added ###
+
 ## 29th October 2015 ##
 
 ### General ###

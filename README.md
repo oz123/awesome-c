@@ -236,7 +236,6 @@ This is a list of resources for learning C programming in general, or something 
 * [memcpy vs memmove][205]
 * [MPI tutorial][265]
 * [Some unknown features or tricks in C language][374]
-* [The lost art of C structure packing][34]
 * [What a C programmer should know about memory][271]
 * [What every C programmer should know about undefined behaviour][275]
 
