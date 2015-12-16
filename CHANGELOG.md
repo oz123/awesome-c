@@ -1,5 +1,16 @@
 # Changelog #
 
+## 16th December 2015 ##
+
+### General ###
+
+* Tidied up GPL and LGPL license names.
+* Finished confirming GPL and LGPL license versions.
+
+### Removed ###
+
+### Added ###
+
 ## 15th December 2015 ##
 
 ### General ###
