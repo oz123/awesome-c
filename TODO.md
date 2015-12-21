@@ -9,7 +9,7 @@ These are not prioritized.
   * libRSVG
   * Neon
   * ~~pblSet~~
-  * SGLIB
+  * ~~SGLIB~~
   * ZeroMQ
 * Incorporate Elementary OS stuff into list.
 * ~~Clean up heading styles in document.~~

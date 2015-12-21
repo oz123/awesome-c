@@ -1,5 +1,16 @@
 # Changelog #
 
+## 21st December 2015 ##
+
+### General ###
+
+### Added ###
+
+* libcsv
+* SGLIB
+
+### Removed ###
+
 ## 16th December 2015 ##
 
 ### General ###

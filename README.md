@@ -168,6 +168,7 @@ These are libraries of all sorts that are useful for game programming.
 ## Generic Programming ##
 
 * [klib][76] - Small and lightweight implementations of common algorithms and data structures. [Expat][11].
+* [SGLIB][30] - A simple generic library for C. Any OSI-approved license.
 
 ## Graphics ##
 
@@ -488,6 +489,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libbson][235] - A BSON utility library. [Apache2.0][32].
 * [libCello][96] - A library introducing higher-level programming to C. [3-clause BSD][6].
 * [libcox][373] - A library which permits cross-platform system calls and standard utilities across different operating systems. [FreeBSD][24].
+* [libcsv][387] - A simple, streaming CSV parser. [GNU LGPLv2.1][15] or later.
 * [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 only, with a linking exception][109].
 * [libimobiledevice][354] - A cross-platform protocol library to communicate with iThings. [GNU LGPLv2.1][15] or later (library), [GNU GPLv2.1][8] or later (tools).
@@ -548,7 +550,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [27]: https://github.com/clibs/clib/wiki/Packages
 [28]: http://www.koanlogic.com/libu/
 [29]: https://github.com/antirez/sds
-[30]: https://github.com/stefanct/sglib
+[30]: http://sglib.sourceforge.net/
 [31]: http://facebook.github.io/libphenom/index.html
 [32]: http://directory.fsf.org/wiki/License:Apache2.0
 [33]: http://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
@@ -904,3 +906,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [384]: http://cairographics.org/
 [385]: https://directory.fsf.org/wiki/License:MPLv1.1
 [386]: https://github.com/balde/balde
+[387]: http://sourceforge.net/projects/libcsv/
