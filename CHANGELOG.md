@@ -1,5 +1,15 @@
 # Changelog #
 
+## 30th December 2015 ##
+
+### General ###
+
+### Added ###
+
+* dlx
+
+### Removed ###
+
 ## 21st December 2015 ##
 
 ### General ###

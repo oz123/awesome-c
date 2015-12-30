@@ -468,6 +468,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking [OpenCL][312] projects. [GNU LGPLv3][5] only (library), [GNU GPLv3][41] or later (other code).
 * [CommonMark][223] - A C implementation of the CommonMark spec. [Variety of licenses, all free][224].
 * [CException][298] - A C implementation of exceptions. [Expat][11].
+* [dlx][388] - An implementation of [Knuth's Algorithm X][389], with example solvers. [GNU GPLv3][41] or later.
 * [docopt.c][270] - A C implementation of a command-line option parser. [Expat][11].
 * [dyncall][281] - Another foreign function interface library. [Expat][11].
 * [FANN][325] - Fast Artifical Neural Network library; an implementation of neural networks. [GNU GPLv2.1][8] only.
@@ -907,3 +908,5 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [385]: https://directory.fsf.org/wiki/License:MPLv1.1
 [386]: https://github.com/balde/balde
 [387]: http://sourceforge.net/projects/libcsv/
+[388]: https://github.com/blynn/dlx
+[389]: https://en.wikipedia.org/wiki/Knuth's_Algorithm_X
