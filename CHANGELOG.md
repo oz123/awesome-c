@@ -1,5 +1,18 @@
 # Changelog #
 
+## 14th January 2016 ##
+
+### General ###
+
+* Renamed 'Parallel Programming' section to 'Concurrent and Parallel'
+
+### Added ###
+
+* libconcurrent
+
+### Removed ###
+
+
 ## 30th December 2015 ##
 
 ### General ###

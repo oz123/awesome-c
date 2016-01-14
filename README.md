@@ -8,6 +8,7 @@ This is released under the GNU Free Documentation License, without invariants or
 
 - [Build Systems](#build-systems)
 - [Compilers](#compilers)
+- [Concurrent and Parallel](#concurrent-and-parallel)
 - [Crypto](#crypto)
 - [Database](#database)
 - [Documentation Generation](#documentation-generation)
@@ -37,7 +38,6 @@ This is released under the GNU Free Documentation License, without invariants or
 - [Networking and Internet](#networking-and-internet)
   - [Web Frameworks](#web-frameworks)
 - [Numerical](#numerical)
-- [Parallel Programming](#parallel-programming)
 - [Regex](#regex)
 - [Serialization](#serialization)
 - [Source Code Collections](#source-code-collections)
@@ -69,6 +69,21 @@ These are tools to automate the building and testing of projects in C.
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports C11 and OpenMP. [GNU GPLv3][41] or later.
 * [PCC][74] - A venerable C compiler. Supports C99. [Various licenses][75], all free.
 * [TCC][58] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except complex types). [GNU LGPLv2.1][15] only.
+
+## Concurrent and Parallel ##
+
+* [cchan][243] - A small library for channel constructs for inter-thread communication. Public domain.
+* [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures. [FreeBSD][24].
+* [libconcurrent][390] - Concurrent programming library, using coroutines, for C11. [zlip][49].
+* [mill][352] - Go-style concurrency in C. [X11][353].
+* [MPICH][285] - Another implementation of MPI. [MPICH licence][286].
+* [OpenMP][37] - A set of C pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
+* [OpenMPI][284] - A message passing interface implementation. [3-clause BSD][6].
+* [PETSc][282] - A suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. [FreeBSD][24].
+* [pth][180] - A portable implementation for non-preemptive priority-based scheduling for multiple threads of execution. [GNU GPLv3][41] or later.
+* [pthreads][146] - The POSIX thread library. Standard (no license applicable).
+* [SLEPc][283] - A software library for the solution of large, sparse eigenvalue problems on parallel computers. [GNU LGPLv3][5] only.
+* [TinyCThread][115] - A portable, small implementation of the C11 threads API. [zlib][49].
 
 ## Crypto ##
 
@@ -342,19 +357,7 @@ This is a list of resources for learning C programming in general, or something 
 * [SLEPc][283] - A software library for the solution of large, sparse eigenvalue problems on parallel computers. [GNU LGPLv3][5] only.
 * [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [3-clause BSD][6].
 
-## Parallel Programming ##
 
-* [cchan][243] - A small library for channel constructs for inter-thread communication. Public domain.
-* [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures. [FreeBSD][24].
-* [mill][352] - Go-style concurrency in C. [X11][353].
-* [MPICH][285] - Another implementation of MPI. [MPICH licence][286].
-* [OpenMP][37] - A set of C pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
-* [OpenMPI][284] - A message passing interface implementation. [3-clause BSD][6].
-* [PETSc][282] - A suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. [FreeBSD][24].
-* [pth][180] - A portable implementation for non-preemptive priority-based scheduling for multiple threads of execution. [GNU GPLv3][41] or later.
-* [pthreads][146] - The POSIX thread library. Standard (no license applicable).
-* [SLEPc][283] - A software library for the solution of large, sparse eigenvalue problems on parallel computers. [GNU LGPLv3][5] only.
-* [TinyCThread][115] - A portable, small implementation of the C11 threads API. [zlib][49].
 
 ## Regex ##
 
@@ -910,3 +913,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [387]: http://sourceforge.net/projects/libcsv/
 [388]: https://github.com/blynn/dlx
 [389]: https://en.wikipedia.org/wiki/Knuth's_Algorithm_X
+[390]: https://github.com/sharow/libconcurrent
