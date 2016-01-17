@@ -1,5 +1,17 @@
 # Changelog #
 
+## 17th January 2016 ##
+
+### General ###
+
+
+### Added ###
+
+* Scalable C
+
+### Removed ###
+
+
 ## 14th January 2016 ##
 
 ### General ###

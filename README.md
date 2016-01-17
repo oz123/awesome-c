@@ -251,6 +251,7 @@ This is a list of resources for learning C programming in general, or something 
 * [OpenMP tutorial][264] (for the OpenMP3 standard)
 * [memcpy vs memmove][205]
 * [MPI tutorial][265]
+* [Scalable C - Writing Large-Scale Distributed C][391]
 * [Some unknown features or tricks in C language][374]
 * [What a C programmer should know about memory][271]
 * [What every C programmer should know about undefined behaviour][275]
@@ -914,3 +915,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [388]: https://github.com/blynn/dlx
 [389]: https://en.wikipedia.org/wiki/Knuth's_Algorithm_X
 [390]: https://github.com/sharow/libconcurrent
+[391]: https://hintjens.gitbooks.io/scalable-c/content/index.html
