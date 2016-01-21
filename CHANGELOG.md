@@ -1,5 +1,18 @@
 # Changelog #
 
+## 21st January 2016 ##
+
+### General ###
+
+
+### Added ###
+
+* munit
+* squash
+
+### Removed ###
+
+
 ## 17th January 2016 ##
 
 ### General ###

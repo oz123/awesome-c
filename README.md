@@ -414,6 +414,7 @@ This contains standard C libraries.
 * [Criterion][246] - A KISS, non-intrusive C test framework. [Expat][11].
 * [CUnit][94] - Another unit testing framework for C. [GNU LGPL2.0][15] only.
 * [minunit][92] - Minimal unit testing framework for C. [Expat][11].
+* [munit][392] - A small unit testing framework for C. [Expat][11].
 * [Unity][296] - A simple unit testing framework for C. [Expat][11].
 
 ## Text Editor Extensions ##
@@ -513,6 +514,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [pbc][236] - A protocol buffers library. [Expat][11].
 * [rabbitmq-c][228] - A client library for [RabbitMQ][229]. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPLv2.1][8] only.
+* [squash][393] - A compression abstraction library, complete with some utilities. [Expat][11].
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
 * [Viola][241] - A simplification of libCello. [Expat][11].
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression library. [3-clause BSD][6].
@@ -916,3 +918,5 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [389]: https://en.wikipedia.org/wiki/Knuth's_Algorithm_X
 [390]: https://github.com/sharow/libconcurrent
 [391]: https://hintjens.gitbooks.io/scalable-c/content/index.html
+[392]: https://github.com/nemequ/munit/
+[393]: https://github.com/quixdb/squash
