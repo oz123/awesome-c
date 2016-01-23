@@ -1,5 +1,18 @@
 # Changelog #
 
+## 24th January 2016 ##
+
+### General ###
+
+
+### Added ###
+
+* tinyexpr
+* minctest
+
+### Removed ###
+
+
 ## 21st January 2016 ##
 
 ### General ###

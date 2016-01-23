@@ -413,6 +413,7 @@ This contains standard C libraries.
 * [cmocka][141] - A unit testing framework with support for mock objects. [Apache2.0][32].
 * [Criterion][246] - A KISS, non-intrusive C test framework. [Expat][11].
 * [CUnit][94] - Another unit testing framework for C. [GNU LGPL2.0][15] only.
+* [minctest][394] - A unit testing microlibrary. [3-clause BSD][6].
 * [minunit][92] - Minimal unit testing framework for C. [Expat][11].
 * [munit][392] - A small unit testing framework for C. [Expat][11].
 * [Unity][296] - A simple unit testing framework for C. [Expat][11].
@@ -515,6 +516,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [rabbitmq-c][228] - A client library for [RabbitMQ][229]. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPLv2.1][8] only.
 * [squash][393] - A compression abstraction library, complete with some utilities. [Expat][11].
+* [tinyexpr][395] - A tiny recursive-descent parser, compiler and evaluation engine for simple mathematical expressions. [3-clause BSD][6].
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
 * [Viola][241] - A simplification of libCello. [Expat][11].
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression library. [3-clause BSD][6].
@@ -920,3 +922,5 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [391]: https://hintjens.gitbooks.io/scalable-c/content/index.html
 [392]: https://github.com/nemequ/munit/
 [393]: https://github.com/quixdb/squash
+[394]: https://github.com/codeplea/minctest
+[395]: https://github.com/codeplea/tinyexpr
