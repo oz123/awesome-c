@@ -516,6 +516,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [rabbitmq-c][228] - A client library for [RabbitMQ][229]. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPLv2.1][8] only.
 * [squash][393] - A compression abstraction library, complete with some utilities. [Expat][11].
+* [termbox][396] - A library for writing text-based interfaces. [Expat][11].
 * [tinyexpr][395] - A tiny recursive-descent parser, compiler and evaluation engine for simple mathematical expressions. [3-clause BSD][6].
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
 * [Viola][241] - A simplification of libCello. [Expat][11].
@@ -924,3 +925,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [393]: https://github.com/quixdb/squash
 [394]: https://github.com/codeplea/minctest
 [395]: https://github.com/codeplea/tinyexpr
+[396]: https://github.com/nsf/termbox

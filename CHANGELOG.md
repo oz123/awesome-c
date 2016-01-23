@@ -9,6 +9,7 @@
 
 * tinyexpr
 * minctest
+* termbox
 
 ### Removed ###
 
