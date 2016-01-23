@@ -4,6 +4,7 @@
 
 ### General ###
 
+* Added Peers notice
 
 ### Added ###
 

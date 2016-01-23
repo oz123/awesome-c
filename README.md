@@ -4,6 +4,8 @@ A curated list of C good stuff. This list contains *only* [free software][13] fo
 
 This is released under the GNU Free Documentation License, without invariants or a cover - its text is provided in the LICENSE file.
 
+This project is part of [Peers][397] - a community for growing our freedom. Support us today!
+
 ## Contents ##
 
 - [Build Systems](#build-systems)
@@ -926,3 +928,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [394]: https://github.com/codeplea/minctest
 [395]: https://github.com/codeplea/tinyexpr
 [396]: https://github.com/nsf/termbox
+[397]: http://peers.community/
