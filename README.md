@@ -153,6 +153,7 @@ This section has big libraries that provide data structures and other stuff you 
 * [PBL][346] - A large library of utilities, featuring data structures, among other things. [GNU LGPLv2.1][15] or later (library), [GNU GPLv2.1][8] or later (test code).
 * [qlibc][277] - A simple and powerful C library, designed as a replacement for GLib while focusing on being small and light. [qLib license][278] (similar to [FreeBSD][24]).
 * [stb][114] - A range of single-file libraries for C. Public domain.
+* [TBOX][398] - A multi-platform library with a large number of capabilities. [GNU LGPLv2.1][15] or later.
 
 ## Game Programming ##
 
@@ -929,3 +930,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [395]: https://github.com/codeplea/tinyexpr
 [396]: https://github.com/nsf/termbox
 [397]: http://peers.community/
+[398]: https://github.com/waruqi/tbox
