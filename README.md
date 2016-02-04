@@ -324,6 +324,7 @@ This is a list of resources for learning C programming in general, or something 
 * [libhttpd][166] - A library to add basic web server capabilities to an application or embedded device. [GNU GPL2][41] only.
 * [libidn][164] - An implementation of the Stringprep, Punycode and IDNA specifications. [GNU GPLv3][41] or later.
 * [libmicrohttpd][165] - A small C library that makes it easy to run an HTTP server as part of another application. [GNU LGPLv2.1][15] or later.
+* [libquickmail][399] - A library intended to give developers a way to send email from their applications. Supports multiple To/Cc/Bcc recipients and attachments without size limits. [GNU GPLv3][41] or later.
 * [libsoup][167] - A GNOME HTTP client/server library. Uses GObject. [GNU LGPLv2.1][15] only.
 * [lwan][199] - An experimental, scalable, high-performance HTTP server. [GNU GPLv2.1][8] only.
 * [mongoose][171] - Embedded web server for C. [GNU GPLv2.1][8] only.
@@ -931,3 +932,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [396]: https://github.com/nsf/termbox
 [397]: http://peers.community/
 [398]: https://github.com/waruqi/tbox
+[399]: http://sourceforge.net/projects/libquickmail/
