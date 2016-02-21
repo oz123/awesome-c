@@ -1,5 +1,17 @@
 # Changelog #
 
+## 21st February 2016 ##
+
+### General ###
+
+* Cleaning up done items on TODO.md.
+
+### Added ###
+
+* binn
+
+### Removed ###
+
 ## 27th January 2016 ##
 
 ### General ###
