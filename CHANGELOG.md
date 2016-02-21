@@ -1,5 +1,19 @@
 # Changelog #
 
+## 22nd February 2016 ##
+
+### General ###
+
+### Added ###
+
+* giflib
+* libgd
+* C-Reduce
+* cflow
+* Hoedown
+
+### Removed ###
+
 ## 21st February 2016 ##
 
 ### General ###

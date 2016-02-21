@@ -193,8 +193,10 @@ These are libraries of all sorts that are useful for game programming.
 * [Cairo][384] - A 2D graphics library. [GNU LGPLv2.1][15] only or [MPLv1.1][385].
 * [Cogl][127] - A GPU graphics and utilities API. [Expat][11] (dependent on [3-clause BSD][6] and possibly [LGPLv2.1][15] only libs).
 * [Clutter][126] - A UI library based on OpenGL. [GNU LGPLv2.1][15] only.
+* [giflib][401] - A library for reading and writing gif images. [Expat][11].
 * [heman][365] - A tiny library of image utilities dealing with height maps, normal maps, distance fields and the like. [Expat][11].
 * [libcaca][366] - An ASCII renderer for terminal-based interfaces. [WTFPLv2][367].
+* [libgd][402] - A library for the dynamic creation of images by programmers. [Expat][11].
 * [libimagequant][300] - Small, portable library for high-quality conversion of RGBA images to 8-bit indexed colour images. [FreeBSD][24].
 * [libjpeg-turbo][193] - A faster library for reading and writing JPEG files. [Various licences][194].
 * [libpng][382] - The official PNG reference library. [libpng license][383].
@@ -447,9 +449,11 @@ This is a list of useful programs to help you write and debug C code which are *
 * [address-sanitizer][288] - A fast memory error detector. [Apache2.0][32].
 * [biicode][304] - A modern dependency manager for C. [Expat][11].
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. [Expat][11].
+* [C-Reduce][403] - A tool that takes a large C file with a property of interest and automatically produces a much smaller C file that has the same property. Intended to help create minimal bug-demonstrating cases in complex code. [3-clause BSD][6].
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [CBMC][309] - C Bounded Model Checker; a tool for verification of array bounds, pointer safety and user-specified assertions. [Original BSD][310].
 * [cdecl][348] - An online service to translate C declarations into English and vice versa. Public domain.
+* [cflow][404] - Analyzes a collection of C source files and prints a graph charting control flow in the program. [GNU GPLv3][41] or later.
 * [cinclude2dot][280] - Graphs include dependencies in a C project using Graphviz. Any GNU GPL version (due to underspecification in the file).
 * [Complexity][307] - A tool for measuring the complexity of C source code. [GNU GPLv3][41] or later.
 * [DDD][320] - A graphical front-end for a range of command-line debuggers. [GNU GPLv3][41] or later.
@@ -491,6 +495,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [gperftools][295] - A collection of utilities for measuring and improving performance. [3-clause BSD][6].
 * [hammer][356] - Parser combinators for binary formats. [GNU GPLv2.1][8] only.
 * [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various licenses, all free.
+* [Hoedown][405] - A fully-standards-compliant, extension-supporting, UTF-8 aware, fast Markdown parser. [Expat][11].
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [iniparser][336] - A parser for .ini files. [Expat][11].
 * [jemalloc][293] - A malloc implementation that emphasizes avoidance of fragmentation and scalable concurrency support. [FreeBSD][24].
@@ -935,3 +940,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [398]: https://github.com/waruqi/tbox
 [399]: http://sourceforge.net/projects/libquickmail/
 [400]: https://github.com/liteserver/binn
+[401]: https://sourceforge.net/projects/giflib/
+[402]: https://github.com/libgd/libgd
+[403]: https://embed.cs.utah.edu/creduce/
+[404]: http://www.gnu.org/software/cflow/
+[405]: https://github.com/hoedown/hoedown
