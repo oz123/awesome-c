@@ -143,6 +143,7 @@ This section has big libraries that provide data structures and other stuff you 
 
 * [APR][78] - Apache Portable Runtime; another library of cross-platform utility functions. [Apache2.0][32].
 * [C Algorithms][88] - A collection of common algorithms and data structures for C. [ISC][61].
+* [Collections-C][406] - A library of generic data structures. [GNU LGPLv3][5] or later.
 * [CPL][308] - The Common Pipeline Library; a set of libraries designed to be a comprehensive, efficient and robust software toolkit. [GNU GPLv2.1][8] only.
 * [EFL][119] - A large collection of useful data structures and functions. Various licenses, all free.
 * [GLib][1] - A library of utility functions and structures, designed to be portable, efficient and powerful. [GNU LGPLv2.1][15] only.
@@ -518,6 +519,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libudp][302] - An implementation of the Universal Design Pattern in C. [GNU GPLv3][41] or later.
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [libYAML][341] - A YAML 1.1 parser and emitter. [Expat][11].
+* [libxo][407] - Allows an application to generate plain text, XML, JSON and HTML output using a common set of function calls. The application decides at runtime what output style should be produced. [FreeBSD][24].
 * [lzo][338] - A very fast data compression library. [GNU GPLv2.1][8] or later.
 * [mpc][238] - A parser combinator library. [FreeBSD][24].
 * [ncurses][178] - Coloured terminal UI library. [GNU GPLv3][41] or later.
@@ -945,3 +947,5 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [403]: https://embed.cs.utah.edu/creduce/
 [404]: http://www.gnu.org/software/cflow/
 [405]: https://github.com/hoedown/hoedown
+[406]: https://github.com/srdja/Collections-C
+[407]: https://github.com/Juniper/libxo
