@@ -181,8 +181,7 @@ These are libraries of all sorts that are useful for game programming.
 * [GLFW][98] - A multi-platform library for creating windows with OpenGL contexts. [zlib][49].
 * [libao][376] - A cross-platform audio library with a wide variety of outputs. [GNU GPLv2.1][8] or later.
 * [RetroArch][231] - The reference frontend for [libretro][232]. [GNU GPLv3][41] only.
-* [SDL][50] - A cross-platform library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [zlib][49].
-* [SDL2][301]- A a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL. This is the most current version. [zlib][49]
+* [SDL2][50] - A cross-platform library designed to provide low-level access to audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [zlib][49].
 
 ## Generic Programming ##
 
@@ -411,7 +410,7 @@ This contains standard C libraries.
 * [libgiconv][163] - A text conversion library. [GNU LGPLv2.1][15] only (library), [GNU GPLv3][41] only (*iconv* program).
 * [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
 * [shoco][363] - A compressor for small text strings. [Expat][11].
-* [smaz][363] - An efficient string compression library. [3-clause BSD][6].
+* [smaz][364] - An efficient string compression library. [3-clause BSD][6].
 
 ## Testing ##
 
@@ -445,7 +444,6 @@ While practically any decent programmer's text editor supports C, there are some
 
 This is a list of useful programs to help you write and debug C code which are *not* editors, libraries or compilers.
 
-* [adlint][344] - A static analyzer. Supports all of C89 and part of C99. [GNU GPLv3][41] or later.
 * [Artistic Style][314] - A fast and small automatic source code formatter that supports C. [GNU LGPLv3][5] only.
 * [address-sanitizer][288] - A fast memory error detector. [Apache2.0][32].
 * [biicode][304] - A modern dependency manager for C. [Expat][11].
@@ -516,7 +514,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libPhenom][31] - An eventing framework for building high-scalability and high-performance systems. [Apache2.0][32].
 * [libsoundio][372] - A library for cross-platform, real-time audio input and output. Has a range of back-ends. [Expat][11].
 * [libucl][239] - A universal configuration library parser. [FreeBSD][24].
-* [libudp][302] - An implementation of the Universal Design Pattern in C. [GNU GPLv3][41] or later.
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [libYAML][341] - A YAML 1.1 parser and emitter. [Expat][11].
 * [libxo][407] - Allows an application to generate plain text, XML, JSON and HTML output using a common set of function calls. The application decides at runtime what output style should be produced. [FreeBSD][24].
@@ -559,8 +556,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [14]: http://www.gtk.org/
 [15]: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 [16]: http://webserver2.tecgraf.puc-rio.br/iup/
-[17]: http://docs.enlightenment.org/auto/elementary/
-[18]: http://www.enlightenment.org/p.php?p=about/libs
+
+[18]: https://www.enlightenment.org?p=about%252Flibs
 [19]: http://www.tcl.tk/
 [20]: http://www.tcl.tk/software/tcltk/license.html
 [21]: http://xforms-toolkit.org/
@@ -607,13 +604,13 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [62]: http://xmlsoft.org/
 [63]: https://www.ffmpeg.org/
 [64]: http://knking.com/books/c2/index.html
-[65]: http://curl.haxx.se/libcurl/
-[66]: http://curl.haxx.se/docs/copyright.html
+[65]: https://curl.haxx.se/libcurl/
+[66]: https://curl.haxx.se/docs/copyright.html
 [67]: http://site.icu-project.org/
 [68]: http://source.icu-project.org/repos/icu/icu/trunk/license.html
 [69]: http://lodev.org/lodepng/
 [70]: http://www.fftw.org/
-[71]: http://sourceforge.net/projects/kissfft/
+[71]: https://sourceforge.net/projects/kissfft/
 [72]: http://www.yeppp.info/
 [73]: https://graphics.stanford.edu/~seander/bithacks.html
 [74]: http://pcc.ludd.ltu.se/
@@ -661,11 +658,11 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [116]: http://bstring.sourceforge.net/
 [117]: http://troydhanson.github.io/uthash/
 [118]: http://troydhanson.github.io/uthash/license.html
-[119]: https://www.enlightenment.org/p.php?p=about/efl
+[119]: https://www.enlightenment.org?p=about%252Fefl
 [120]: http://zserge.com/jsmn.html
 [121]: http://www.postgresql.org/
-[122]: http://opensource.org/licenses/postgresql
-[123]: http://gstreamer.freedesktop.org/
+[122]: https://opensource.org/licenses/postgresql
+[123]: https://gstreamer.freedesktop.org/
 [124]: http://libevent.org/
 [125]: http://www.hboehm.info/gc/
 [126]: https://blogs.gnome.org/clutter/get-it/
@@ -674,7 +671,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [129]: https://github.com/protobuf-c/protobuf-c
 [130]: https://github.com/jmckaskill/c-capnproto
 [131]: http://en.wikipedia.org/wiki/External_Data_Representation
-[132]: https://code.google.com/p/msgpackalt/
+[132]: https://bitbucket.org/martijnj/msgpackalt
 [133]: http://www.netlib.org/lapack/lapacke.html
 [134]: http://www.netlib.org/lapack/
 [135]: http://www.netlib.org/blas/
@@ -696,7 +693,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [151]: http://valloric.github.io/YouCompleteMe/
 [152]: https://sites.google.com/site/lccretargetablecompiler/
 [153]: https://github.com/drh/lcc/blob/master/CPYRIGHT
-[154]: https://code.google.com/p/ulib/
+
 [155]: https://gnu.org/software/adns/
 [156]: http://adtinfo.org/libavl.html/index.html
 [157]: http://sourceware.org/binutils/docs/bfd/
@@ -726,13 +723,13 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [181]: http://careferencemanual.com/
 [182]: http://shop.oreilly.com/product/9780596004361.do
 [183]: http://shop.oreilly.com/product/0636920026136.do
-[184]: http://www.pearsonhighered.com/educator/product/C-Primer-Plus-6E/9780321928429.page
+[184]: https://www.pearsonhighered.com/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
 [185]: http://www.planetpdf.com/codecuts/pdfs/ooc.pdf
 [186]: https://github.com/scrooloose/syntastic
 [187]: https://github.com/scrooloose/syntastic/blob/master/LICENCE
 [188]: https://github.com/b-k/apophenia
-[189]: https://github.com/b-k/apophenia/blob/master/install/COPYING2
-[190]: https://github.com/kozross/udpc
+[189]: https://github.com/b-k/apophenia/blob/master/install/COPYING
+
 [191]: http://steve-yegge.blogspot.co.nz/2008/10/universal-design-pattern.html
 [192]: http://libjpeg.sourceforge.net/
 [193]: http://libjpeg-turbo.virtualgl.org/
@@ -751,13 +748,13 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [206]: https://blogs.oracle.com/ksplice/entry/8_gdb_tricks_you_should
 [207]: https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
 [208]: http://nethack4.org/blog/building-c.html
-[209]: https://github.com/riolet/nope.c
+[209]: https://github.com/riolet/WAFer
 [210]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153
-[211]: http://www.cppinstitute.org/?page_id=1487
+[211]: http://cppinstitute.com/study-resources
 [212]: http://www.crasseux.com/books/ctut.pdf
 [213]: http://home.netcom.com/~tjensen/ptr/pointers.htm
 [214]: https://github.com/adamierymenko/huffandpuff
-[215]: http://sourceforge.net/projects/vtd-xml/
+[215]: https://sourceforge.net/projects/vtd-xml/
 [216]: http://www.msweet.org/projects.php?Z3
 [217]: http://svn.msweet.org/mxml/trunk/COPYING
 [218]: http://ezxml.sourceforge.net/
@@ -776,7 +773,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [231]: https://github.com/libretro/RetroArch
 [232]: http://www.libretro.com/
 [233]: https://github.com/mongodb/mongo-c-driver
-[234]: http://www.mongodb.org/
+[234]: https://www.mongodb.org/
 [235]: https://github.com/mongodb/libbson
 [236]: https://github.com/cloudwu/pbc
 [237]: https://github.com/sinemetu1/twitc
@@ -822,7 +819,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [277]: https://github.com/wolkykim/qlibc
 [278]: https://github.com/wolkykim/qlibc/blob/master/LICENSE
 [279]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
-[280]: http://www.flourish.org/cinclude2dot/
+[280]: https://www.flourish.org/cinclude2dot/
 [281]: http://www.dyncall.org/
 [282]: http://www.mcs.anl.gov/petsc/
 [283]: http://slepc.upv.es/
@@ -841,9 +838,9 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [297]: https://github.com/ThrowTheSwitch/CMock
 [298]: https://github.com/ThrowTheSwitch/CException
 [299]: https://github.com/libtom/libtomcrypt
-[300]: http://pngquant.org/lib/
-[301]: https://www.libsdl.org/
-[302]: https://notabug.org/koz.ross/libudp
+[300]: https://pngquant.org/lib/
+
+
 [303]: https://github.com/slembcke/Chipmunk2D
 [304]: https://biicode.github.io/biicode/
 [305]: https://www.gnu.org/software/autoconf/
@@ -868,7 +865,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [324]: https://www.gnu.org/software/make/
 [325]: http://leenissen.dk/fann/wp/
 [326]: http://gittup.org/tup/index.html
-[327]: http://sourceforge.net/projects/gjrand/
+[327]: https://sourceforge.net/projects/gjrand/
 [328]: https://glade.gnome.org/
 [329]: https://www.gnu.org/software/gnu-c-manual/
 [330]: https://www.gnu.org/software/global/
@@ -885,7 +882,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [341]: http://www.pyyaml.org/wiki/LibYAML
 [342]: https://www.xiph.org/ao/
 [343]: http://www.chiark.greenend.org.uk/~sgtatham/mp/
-[344]: https://yanoh.github.io/adlint/
+
 [345]: https://github.com/jeremyevans/ape_tag_libs/tree/master/c
 [346]: http://www.mission-base.com/peter/source/
 [347]: http://cdecl.org/
@@ -923,7 +920,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [379]: http://msgpack.org/
 [380]: http://www.oracle.com/us/products/database/berkeley-db/overview/index.html
 [381]: https://gnu.org/licenses/agpl.html
-[382]: https://http://www.libpng.org/
+[382]: http://www.libpng.org/
 [383]: http://www.libpng.org/pub/png/src/libpng-LICENSE.txt
 [384]: http://cairographics.org/
 [385]: https://directory.fsf.org/wiki/License:MPLv1.1

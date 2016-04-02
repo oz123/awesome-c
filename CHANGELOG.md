@@ -1,5 +1,21 @@
 # Changelog #
 
+## 2nd April 2016 ##
+
+### General ###
+
+* Cleaned up some dead links
+
+### Added ###
+
+* https addresses whenever possible
+
+### Removed ###
+
+* adlint (dead link)
+* Libudp (dead link)
+* SDL (same page links to both SDL and SDL2)
+
 ## 14th March 2016 ##
 
 ### General ###
