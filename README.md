@@ -529,6 +529,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [tinyexpr][395] - A tiny recursive-descent parser, compiler and evaluation engine for simple mathematical expressions. [3-clause BSD][6].
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
 * [Viola][241] - A simplification of libCello. [Expat][11].
+* [XLSX I/O][344] - A cross-platform C library for reading and writing .xlsx files. [Expat][11].
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression library. [3-clause BSD][6].
 
 ## XML ##
@@ -882,7 +883,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [341]: http://www.pyyaml.org/wiki/LibYAML
 [342]: https://www.xiph.org/ao/
 [343]: http://www.chiark.greenend.org.uk/~sgtatham/mp/
-
+[344]: https://brechtsanders.github.io/xlsxio/
 [345]: https://github.com/jeremyevans/ape_tag_libs/tree/master/c
 [346]: http://www.mission-base.com/peter/source/
 [347]: http://cdecl.org/

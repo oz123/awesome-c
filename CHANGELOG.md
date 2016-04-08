@@ -1,5 +1,16 @@
 # Changelog #
 
+## 9th April 2016 ##
+
+### General ###
+
+
+### Added ###
+
+* XLSX I/O
+
+### Removed ###
+
 ## 2nd April 2016 ##
 
 ### General ###
