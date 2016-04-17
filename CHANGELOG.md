@@ -1,5 +1,21 @@
 # Changelog #
 
+## 18th April 2016 ##
+
+### General ###
+
+* Fixing some of the text to be clearer and less redundant
+* Putting up clarification regarding C++
+
+### Added ###
+
+* sort
+* theft
+* vector.h
+
+### Removed ###
+
+
 ## 9th April 2016 ##
 
 ### General ###

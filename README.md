@@ -6,6 +6,8 @@ This is released under the GNU Free Documentation License, without invariants or
 
 This project is part of [Peers][397] - a community for growing our freedom. Support us today!
 
+**An important note:** This project does *not* index anything C++-related; only C stuff is considered.
+
 ## Contents ##
 
 - [Build Systems](#build-systems)
@@ -66,20 +68,20 @@ These are tools to automate the building and testing of projects in C.
 
 ## Compilers ##
 
-* [Clang][38] - A C compiler for LLVM. Supports C11. [NCSA][39].
-* [CompCert][269] - A fully-verified C compiler. Supports almost all of C89. [GNU GPLv2.1][8] or later.
-* [GCC][40] - Provides a C compiler as part of its compiler set. Supports C11 and OpenMP. [GNU GPLv3][41] or later.
-* [PCC][74] - A venerable C compiler. Supports C99. [Various licenses][75], all free.
-* [TCC][58] - Tiny C Compiler; a small, fast C compiler. Supports C99 (except complex types). [GNU LGPLv2.1][15] only.
+* [Clang][38] - A compiler for LLVM. Supports C11. [NCSA][39].
+* [CompCert][269] - A fully-verified compiler. Supports almost all of C89. [GNU GPLv2.1][8] or later.
+* [GCC][40] - Provides a C compiler as part of its compiler set. Supports C11. [GNU GPLv3][41] or later.
+* [PCC][74] - A venerable compiler. Supports C99. [Various licenses][75], all free.
+* [TCC][58] - Tiny C Compiler; a small, fast compiler. Supports C99 (except complex types). [GNU LGPLv2.1][15] only.
 
 ## Concurrent and Parallel ##
 
 * [cchan][243] - A small library for channel constructs for inter-thread communication. Public domain.
 * [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures. [FreeBSD][24].
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for C11. [zlip][49].
-* [mill][352] - Go-style concurrency in C. [X11][353].
+* [mill][352] - Go-style concurrency. [X11][353].
 * [MPICH][285] - Another implementation of MPI. [MPICH licence][286].
-* [OpenMP][37] - A set of C pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
+* [OpenMP][37] - A set of pragmas designed to allow for easy parallelization of code. Standard (licensing not applicable).
 * [OpenMPI][284] - A message passing interface implementation. [3-clause BSD][6].
 * [PETSc][282] - A suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. [FreeBSD][24].
 * [pth][180] - A portable implementation for non-preemptive priority-based scheduling for multiple threads of execution. [GNU GPLv3][41] or later.
@@ -91,10 +93,10 @@ These are tools to automate the building and testing of projects in C.
 
 * [GnuTLS][112] - A secure communication library, implementing SSL, TLS and DTLS. [GNU LGPLv2.1][15] or later.
 * [libgcrypt][142] - A general-purpose cryptography library, with a range of available ciphers. [GNU LGPLv2.1][15] or later (code), [GNU GPLv2.1][8] or later (manual and tools).
-* [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
+* [OpenSSL][110] - Implementation of the SSL and TLS protocols. Also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
 * [libsodium][198] - A modern and easy-to-use crypto library. [Expat][11].
 * [libtomcrypt][299] - A fairly comprehensive, modular and portable cryptographic toolkit. Public domain.
-* [mbed TLS][291] - Another crypto implementation for C. [Apache2.0][32].
+* [mbed TLS][291] - Another crypto implementation. [Apache2.0][32].
 
 ## Database ##
 
@@ -106,18 +108,18 @@ This lists databases and data stores with C APIs.
 * [MariaDB][25] - A robust, scalable and reliable SQL server, designed to be a drop-in replacement for MySQL. [3-clause BSD][6].
 * [mongo-c-driver][233] - A high-performance client library for [MongoDB][234]. [Apache2.0][32].
 * [PostgreSQL][121] - A powerful object-relational database system. [PostgreSQL licence][122].
-* [recutils][360] - A set of tools and a C library for accessing human-editable, plaintext database files called recfiles. [GNU GPLv3][41] or later.
+* [recutils][360] - A set of tools and a library for accessing human-editable, plaintext database files called recfiles. [GNU GPLv3][41] or later.
 * [Redis][51] - An advanced key-value store. [3-clause BSD][6].
 * [sophia][244] - A modern, embeddable key-value database. [FreeBSD][24].
-* [SQLite][22] - A self-contained, serverless, zero-configuration, transactional SQL database engine with a C interface. Public domain.
-* [UnQLite][23] - A self-contained, serverless, zero-configuration, transactional NoSQL engine with a C interface. [FreeBSD][24].
+* [SQLite][22] - A self-contained, serverless, zero-configuration, transactional SQL database engine. Public domain.
+* [UnQLite][23] - A self-contained, serverless, zero-configuration, transactional NoSQL engine. [FreeBSD][24].
 
 ## Documentation Generation ##
 
-* [Cxref][317] - Generates documentation of C programs in either LaTeX, HTML, RTF or SGML. [GNU GPLv2.1][8] only.
+* [Cxref][317] - Generates documentation in either LaTeX, HTML, RTF or SGML. [GNU GPLv2.1][8] only.
 * [DocOnce][322] - A modestly-tagged markup language that can be used to generate a range of formats. [3-clause BSD][6].
-* [Doxygen][318] - The de-facto standard tool for generating C documentation from annotated sources. Can generate a large range of formats. [GNU GPLv2.1][8] only.
-* [GTK-Doc][319] - A tool for generating C documentation from annotated sources. Has support for the Autotools. [GNU GPLv2.1][15] only (code), [GNU FDL1.1][375] only.
+* [Doxygen][318] - The de-facto standard tool for generating documentation from annotated sources. Can generate a large range of formats. [GNU GPLv2.1][8] only.
+* [GTK-Doc][319] - A tool for generating documentation from annotated sources. Has support for the Autotools. [GNU GPLv2.1][15] only (code), [GNU FDL1.1][375] only (documentation).
 
 ## Editors ##
 
@@ -142,18 +144,18 @@ This is a list of technologies designed to bring Windows into the 21st century w
 This section has big libraries that provide data structures and other stuff you expect of a 'modern' standard library.
 
 * [APR][78] - Apache Portable Runtime; another library of cross-platform utility functions. [Apache2.0][32].
-* [C Algorithms][88] - A collection of common algorithms and data structures for C. [ISC][61].
+* [C Algorithms][88] - A collection of common algorithms and data structures. [ISC][61].
 * [Collections-C][406] - A library of generic data structures. [GNU LGPLv3][5] or later.
 * [CPL][308] - The Common Pipeline Library; a set of libraries designed to be a comprehensive, efficient and robust software toolkit. [GNU GPLv2.1][8] only.
 * [EFL][119] - A large collection of useful data structures and functions. Various licenses, all free.
 * [GLib][1] - A library of utility functions and structures, designed to be portable, efficient and powerful. [GNU LGPLv2.1][15] only.
 * [GIO][2] - A modern and easy-to-use VFS API. [GNU LGPLv2.1][15] only.
-* [GObject][3] - An object-oriented system and object model for C. [GNU LGPLv2.1][15] only.
-* [libnih][93] - A lightweight library of C functions and structures. [GNU GPLv2.1][8] only.
+* [GObject][3] - An object-oriented system and object model. [GNU LGPLv2.1][15] only.
+* [libnih][93] - A lightweight library of functions and structures. [GNU GPLv2.1][8] only.
 * [libU][28] - A small library of basic utilities, including memory allocation, string manipulation and logging. [3-clause BSD][6].
 * [PBL][346] - A large library of utilities, featuring data structures, among other things. [GNU LGPLv2.1][15] or later (library), [GNU GPLv2.1][8] or later (test code).
-* [qlibc][277] - A simple and powerful C library, designed as a replacement for GLib while focusing on being small and light. [qLib license][278] (similar to [FreeBSD][24]).
-* [stb][114] - A range of single-file libraries for C. Public domain.
+* [qlibc][277] - A simple and powerful library, designed as a replacement for GLib while focusing on being small and light. [qLib license][278] (similar to [FreeBSD][24]).
+* [stb][114] - A range of single-file libraries. Public domain.
 * [TBOX][398] - A multi-platform library with a large number of capabilities. [GNU LGPLv2.1][15] or later.
 
 ## Game Programming ##
@@ -176,7 +178,7 @@ These are libraries of all sorts that are useful for game programming.
 
 * [Allegro][48] - A cross-platform, video game development and multimedia library. [zlib][49].
 * [Chipmunk2D][303] - A fast and lightweight 2D game physics library. [Expat][11].
-* [CSFML][90] - A binding for [SFML][91] in C. [zlib][49].
+* [CSFML][90] - A binding for [SFML][91]. [zlib][49].
 * [FreeGLUT][99] - An alternative to the OpenGL Utility Toolkit. Allows the creation and management of windows with OpenGL contexts. [X11][100].
 * [GLFW][98] - A multi-platform library for creating windows with OpenGL contexts. [zlib][49].
 * [libao][376] - A cross-platform audio library with a wide variety of outputs. [GNU GPLv2.1][8] or later.
@@ -186,7 +188,7 @@ These are libraries of all sorts that are useful for game programming.
 ## Generic Programming ##
 
 * [klib][76] - Small and lightweight implementations of common algorithms and data structures. [Expat][11].
-* [SGLIB][30] - A simple generic library for C. Any OSI-approved license.
+* [SGLIB][30] - A simple generic library. Any OSI-approved license.
 
 ## Graphics ##
 
@@ -215,11 +217,11 @@ These are specifically [widget toolkits][12].
 
 ## JSON ##
 
-* [Jansson][53] - A C library for encoding, decoding and manipulating JSON. [Expat][11].
+* [Jansson][53] - A library for encoding, decoding and manipulating JSON. [Expat][11].
 * [jsmn][120] - A minimalistic JSON parser. [Expat][11].
 * [json-c][220] - A library for working with JSON. [Expat][11].
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON Schema. LGPL, any version.
-* [YAJL][60] - A fast C JSON streaming parser library. [ISC][61]
+* [YAJL][60] - A fast streaming JSON parser library. [ISC][61]
 
 ## Learning, Reference and Tutorials ##
 
@@ -325,23 +327,23 @@ This is a list of resources for learning C programming in general, or something 
 * [libgss][161] - Generic Security Service. [GNU GPLv3][41] or later.
 * [libhttpd][166] - A library to add basic web server capabilities to an application or embedded device. [GNU GPL2][41] only.
 * [libidn][164] - An implementation of the Stringprep, Punycode and IDNA specifications. [GNU GPLv3][41] or later.
-* [libmicrohttpd][165] - A small C library that makes it easy to run an HTTP server as part of another application. [GNU LGPLv2.1][15] or later.
+* [libmicrohttpd][165] - A small library that makes it easy to run an HTTP server as part of another application. [GNU LGPLv2.1][15] or later.
 * [libquickmail][399] - A library intended to give developers a way to send email from their applications. Supports multiple To/Cc/Bcc recipients and attachments without size limits. [GNU GPLv3][41] or later.
 * [libsoup][167] - A GNOME HTTP client/server library. Uses GObject. [GNU LGPLv2.1][15] only.
 * [lwan][199] - An experimental, scalable, high-performance HTTP server. [GNU GPLv2.1][8] only.
-* [mongoose][171] - Embedded web server for C. [GNU GPLv2.1][8] only.
+* [mongoose][171] - Embedded web server. [GNU GPLv2.1][8] only.
 * [nanomsg][139] - A C-based implementation of ZeroMQ. [Expat][11].
 * [onion][170] - HTTP server library, designed to be easy to use. [Apache2.0][32].
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also includes a cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111]
-* [oSip][179] - A SIP implementation in C without additional dependencies. [GNU LGPLv2.1][15] or later.
+* [oSip][179] - A SIP implementation without additional dependencies. [GNU LGPLv2.1][15] or later.
 * [s2n][359] - A C99 implementation of the TLS/SSL protocols, designed to be simple, fast and with security as a priority. [Apache2.0][32].
 * [socket99][203] - A C99 wrapper for the BSD sockets API. [ISC][61].
 * [Tox][145] - A communication platform, designed to be a Skype-killer. [GNU GPLv3][41] only.
-* [twitc][237] - A mini C library for interacting with the Twitter OAuth API. [Expat][11].
+* [twitc][237] - A mini library for interacting with the Twitter OAuth API. [Expat][11].
 
 ### Web Frameworks ###
 
-* [balde][386] - A microframework for C based on GLib. [GNU LGPLv2.1][15] only.
+* [balde][386] - A microframework based on GLib. [GNU LGPLv2.1][15] only.
 
 ## Numerical ##
 
@@ -358,7 +360,7 @@ This is a list of resources for learning C programming in general, or something 
 * [GNU MPRIA][177] - A portable mathematics library for multi-precision rational interval arithmetic. [GNU GPLv3][41] or later.
 * [GSL][47] - The GNU Scientific Library; a sophisticated numerical library. [GNU GPLv3][41] only.
 * [KISS FFT][71] - A very simple fast Fourier transform library. [3-clause BSD][6].
-* [LAPACKE][133] - A C interface to [LAPACK][134]. [3-clause BSD][6].
+* [LAPACKE][133] - An interface to [LAPACK][134]. [3-clause BSD][6].
 * [PARI/GP][256] - A computer algebra system for number theory; includes a compiler to C. [GNU GPLv2.1][8] or later.
 * [PETSc][282] - A suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. [FreeBSD][24].
 * [SLEPc][283] - A software library for the solution of large, sparse eigenvalue problems on parallel computers. [GNU LGPLv3][5] only.
@@ -379,17 +381,17 @@ This is a list of resources for learning C programming in general, or something 
 * [binn][400] - A binary serialization format, meant to be compact, fast and easy-to-use. [Apache2.0][32].
 * [c-capnproto][130] - An implementation of the Cap'n Proto serialization protocol. [Expat][11].
 * [cmp][377] - An implementation of the [MessagePack][379] serialization protocol. [Expat][11].
-* [libavro][140] - A C implementation of the Avro data serialization system. [Apache2.0][32].
+* [libavro][140] - An implementation of the Avro data serialization system. [Apache2.0][32].
 * [mpack][378] - Another implementation of the [MessagePack][379] serialization protocol. [Expat][11]. 
-* [protobuf-c][129] - An implementation of Google Protocol Buffer in C. [FreeBSD][24].
+* [protobuf-c][129] - An implementation of Google Protocol Buffer. [FreeBSD][24].
 * [xdr][131] - External Data Representation; a standard for data serialization. Standard (no license applicable).
 
 ## Source Code Collections ##
 
 This contains collections of small source code. If you want something big and integrated, check the Frameworks section.
 
-* [CCAN][103] - Modelled after Perl's CPAN, this is a big collection of C code that does stuff. The full list is [here][104]. Various licenses, all free.
-* [clib][26] - Something of a package manager for C. Comes with a [bunch of libraries of its own][27]. [Expat][11].
+* [CCAN][103] - Modelled after Perl's CPAN, this is a big collection of code that does stuff. The full list is [here][104]. Various licenses, all free.
+* [clib][26] - Something of a package manager. Comes with a [bunch of libraries of its own][27]. [Expat][11].
 * [gnulib][46] - A collection of common GNU code. Various licenses, all free.
 * [libdjb][292] - A collection of libraries doing various things. (Apparently) public domain.
 
@@ -397,33 +399,34 @@ This contains collections of small source code. If you want something big and in
 
 This contains standard C libraries.
 
-* [Bionic][4] - Google's C standard library, developed for Android. [3-clause BSD][6].
-* [dietlibc][9] - A C standard library designed for the smallest possible binaries. [GNU GPLv2.1][8] only.
-* [glibc][57] - The GNU C Library; an implementation of the C standard library. [GNU LGPLv2.1][15] only. 
-* [musl][10] - A standard C library, compatible with POSIX 2008 and C11. Designed for static linking. [Expat][11].
+* [Bionic][4] - Google's standard library, developed for Android. [3-clause BSD][6].
+* [dietlibc][9] - A standard library designed for the smallest possible binaries. [GNU GPLv2.1][8] only.
+* [glibc][57] - The GNU C Library; an implementation of the standard library. [GNU LGPLv2.1][15] only. 
+* [musl][10] - A standard library, compatible with POSIX 2008 and C11. Designed for static linking. [Expat][11].
 
 ## String Manipulation ##
 
 * [bstrlib][116] - The Better String Library. Dual-licensed under [3-clause BSD][6] or [GNU GPLv2.1][8] only.
 * [ICU][67] - International Components for Unicode; a library for Unicode support. [ICU license][68].
-* [libunistring][173] - A library for manipulating Unicode strings in C. [GNU LGPLv3][5] only.
+* [libunistring][173] - A library for manipulating Unicode strings. [GNU LGPLv3][5] only.
 * [libgiconv][163] - A text conversion library. [GNU LGPLv2.1][15] only (library), [GNU GPLv3][41] only (*iconv* program).
-* [SDS][29] - Simple Dynamic Strings; a library for handling C strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
+* [SDS][29] - Simple Dynamic Strings; a library for handling strings in a simpler way, but one that is compatible with normal C string functions. Available via [clib][26]. [FreeBSD][24].
 * [shoco][363] - A compressor for small text strings. [Expat][11].
 * [smaz][364] - An efficient string compression library. [3-clause BSD][6].
 
 ## Testing ##
 
 * [CHEAT][84] - A very simple unit testing framework. [FreeBSD][24].
-* [Check][59] - A unit testing framework for C. [GNU LGPLv2.1][15] only.
-* [CMock][297] - A mock/stub generator for C. [Expat][11].
+* [Check][59] - A unit testing framework. [GNU LGPLv2.1][15] only.
+* [CMock][297] - A mock/stub generator. [Expat][11].
 * [cmocka][141] - A unit testing framework with support for mock objects. [Apache2.0][32].
-* [Criterion][246] - A KISS, non-intrusive C test framework. [Expat][11].
-* [CUnit][94] - Another unit testing framework for C. [GNU LGPL2.0][15] only.
+* [Criterion][246] - A KISS, non-intrusive test framework. [Expat][11].
+* [CUnit][94] - Another unit testing framework. [GNU LGPL2.0][15] only.
 * [minctest][394] - A unit testing microlibrary. [3-clause BSD][6].
-* [minunit][92] - Minimal unit testing framework for C. [Expat][11].
-* [munit][392] - A small unit testing framework for C. [Expat][11].
-* [Unity][296] - A simple unit testing framework for C. [Expat][11].
+* [minunit][92] - Minimal unit testing framework. [Expat][11].
+* [munit][392] - A small unit testing framework. [Expat][11].
+* [theft][302] - Property-based testing (similar to [Quickcheck][301]). [Expat][11].
+* [Unity][296] - A simple unit testing framework. [Expat][11].
 
 ## Text Editor Extensions ##
 
@@ -446,21 +449,21 @@ This is a list of useful programs to help you write and debug C code which are *
 
 * [Artistic Style][314] - A fast and small automatic source code formatter that supports C. [GNU LGPLv3][5] only.
 * [address-sanitizer][288] - A fast memory error detector. [Apache2.0][32].
-* [biicode][304] - A modern dependency manager for C. [Expat][11].
+* [biicode][304] - A modern dependency manager. [Expat][11].
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. [Expat][11].
 * [C-Reduce][403] - A tool that takes a large C file with a property of interest and automatically produces a much smaller C file that has the same property. Intended to help create minimal bug-demonstrating cases in complex code. [3-clause BSD][6].
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [CBMC][309] - C Bounded Model Checker; a tool for verification of array bounds, pointer safety and user-specified assertions. [Original BSD][310].
 * [cdecl][348] - An online service to translate C declarations into English and vice versa. Public domain.
-* [cflow][404] - Analyzes a collection of C source files and prints a graph charting control flow in the program. [GNU GPLv3][41] or later.
-* [cinclude2dot][280] - Graphs include dependencies in a C project using Graphviz. Any GNU GPL version (due to underspecification in the file).
-* [Complexity][307] - A tool for measuring the complexity of C source code. [GNU GPLv3][41] or later.
+* [cflow][404] - Analyzes a collection of source files and prints a graph charting control flow in the program. [GNU GPLv3][41] or later.
+* [cinclude2dot][280] - Graphs include dependencies in a project using Graphviz. Any GNU GPL version (due to underspecification in the file).
+* [Complexity][307] - A tool for measuring the complexity of source code. [GNU GPLv3][41] or later.
 * [DDD][320] - A graphical front-end for a range of command-line debuggers. [GNU GPLv3][41] or later.
 * [fab][323] - A build system that helps build optimally every time. [GNU GPLv3][41] only.
-* [GDB][87] - The GNU Project debugger; a debugger for C. [GNU GPLv3][41] or later.
+* [GDB][87] - The GNU Project debugger. [GNU GPLv3][41] or later.
 * [Glade][328] - A RAD tool to enable quick development of GTK+ GUIs. [GNU GPLv2.1][8] only.
 * [GMSL][331] - GNU Make Standard Library; a collection of additional functionality for GNU Make. [3-clause BSD][6].
-* [GNU Global][330] - A source code tagging tool which works with C. [GNU GPLv3][41] only.
+* [GNU Global][330] - A source code tagging tool. [GNU GPLv3][41] only.
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. [GNU GPLv3][41] or later.
 * [Highlight][333] - Converts source code to formatted text with nice highlighting. [GNU GPLv3][41] only.
 * [include-what-you-use][289] - Helps find unecessary inclusions and make suggestions for fixing them. Based on LLVM/Clang (and only works with it). [NCSA][39].
@@ -476,17 +479,17 @@ This is a list of useful programs to help you write and debug C code which are *
 
 This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
-* [ApeTagLibs][345] - A C library for working with APEv2 tags. [Expat][11].
+* [ApeTagLibs][345] - A library for working with APEv2 tags. [Expat][11].
 * [bfd][157] - A library for manipulating binary object files. Part of GNU binutils. [GNU GPLv3][41] or later.
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer vision. [3-clause BSD][6].
 * [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking [OpenCL][312] projects. [GNU LGPLv3][5] only (library), [GNU GPLv3][41] or later (other code).
-* [CommonMark][223] - A C implementation of the CommonMark spec. [Variety of licenses, all free][224].
-* [CException][298] - A C implementation of exceptions. [Expat][11].
+* [CommonMark][223] - An implementation of the CommonMark spec. [Variety of licenses, all free][224].
+* [CException][298] - An implementation of exceptions. [Expat][11].
 * [dlx][388] - An implementation of [Knuth's Algorithm X][389], with example solvers. [GNU GPLv3][41] or later.
-* [docopt.c][270] - A C implementation of a command-line option parser. [Expat][11].
+* [docopt.c][270] - An implementation of a command-line option parser. [Expat][11].
 * [dyncall][281] - Another foreign function interface library. [Expat][11].
 * [FANN][325] - Fast Artifical Neural Network library; an implementation of neural networks. [GNU GPLv2.1][8] only.
-* [Firm][361] - A C library that provides a graph-based intermediate representation, optimizations and assembly code generation suitable for use in compilers. Comes with an example C front-end under the same license. [GNU LGPLv2.1][15] only.
+* [Firm][361] - A library that provides a graph-based intermediate representation, optimizations and assembly code generation suitable for use in compilers. Comes with an example C front-end under the same license. [GNU LGPLv2.1][15] only.
 * [gjrand][327] - A library of random-number generation routines. [GNU GPLv2.1][8] only or [GNU GPLv3][41] only (user's choice).
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPLv3][41] only.
 * [GNU gperf][351] - A perfect hash function generator, given a list of strings. Outputs C code. [GNU GPLv3][41] or later.
@@ -520,16 +523,18 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [lzo][338] - A very fast data compression library. [GNU GPLv2.1][8] or later.
 * [mpc][238] - A parser combinator library. [FreeBSD][24].
 * [ncurses][178] - Coloured terminal UI library. [GNU GPLv3][41] or later.
-* [nope.c][209] - A C-language-based, ultra-light software platform for scalable server-side and networking applications (think node.js for C programmers). [GNU GPLv2.1][8] only.
+* [nope.c][209] - An ultra-light software platform for scalable server-side and networking applications (think node.js for C programmers). [GNU GPLv2.1][8] only.
 * [pbc][236] - A protocol buffers library. [Expat][11].
 * [rabbitmq-c][228] - A client library for [RabbitMQ][229]. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPLv2.1][8] only.
+* [sort][190] - A collection of sorting routines, designed to run at compile-time with a user-defined type. [Expat][11].
 * [squash][393] - A compression abstraction library, complete with some utilities. [Expat][11].
 * [termbox][396] - A library for writing text-based interfaces. [Expat][11].
 * [tinyexpr][395] - A tiny recursive-descent parser, compiler and evaluation engine for simple mathematical expressions. [3-clause BSD][6].
 * [uthash][117] - A hash table implementation, allowing existing structures to be stored in a hash table easily. [1-clause BSD][118]
+* [vector.h][152] - A header library for typed lists. [Expat][11].
 * [Viola][241] - A simplification of libCello. [Expat][11].
-* [XLSX I/O][344] - A cross-platform C library for reading and writing .xlsx files. [Expat][11].
+* [XLSX I/O][344] - A cross-platform library for reading and writing .xlsx files. [Expat][11].
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression library. [3-clause BSD][6].
 
 ## XML ##
@@ -694,7 +699,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [151]: http://valloric.github.io/YouCompleteMe/
 [152]: https://sites.google.com/site/lccretargetablecompiler/
 [153]: https://github.com/drh/lcc/blob/master/CPYRIGHT
-
+[152]: https://github.com/swenson/vector.h
 [155]: https://gnu.org/software/adns/
 [156]: http://adtinfo.org/libavl.html/index.html
 [157]: http://sourceware.org/binutils/docs/bfd/
@@ -730,7 +735,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [187]: https://github.com/scrooloose/syntastic/blob/master/LICENCE
 [188]: https://github.com/b-k/apophenia
 [189]: https://github.com/b-k/apophenia/blob/master/install/COPYING
-
+[190]: https://github.com/swenson/sort
 [191]: http://steve-yegge.blogspot.co.nz/2008/10/universal-design-pattern.html
 [192]: http://libjpeg.sourceforge.net/
 [193]: http://libjpeg-turbo.virtualgl.org/
@@ -840,8 +845,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [298]: https://github.com/ThrowTheSwitch/CException
 [299]: https://github.com/libtom/libtomcrypt
 [300]: https://pngquant.org/lib/
-
-
+[301]: https://wiki.haskell.org/Introduction_to_QuickCheck2
+[302]: https://github.com/silentbicycle/theft
 [303]: https://github.com/slembcke/Chipmunk2D
 [304]: https://biicode.github.io/biicode/
 [305]: https://www.gnu.org/software/autoconf/
