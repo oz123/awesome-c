@@ -212,6 +212,7 @@ These are specifically [widget toolkits][12].
 
 * [GTK+][14] - A cross-platform widget toolkit. [GNU LGPLv2.1][15] only.
 * [IUP][16] - Another cross-platform widget toolkit. [Expat][11].
+* [nuklear][408] - A small, C89, single-header widget toolkit. Public domain.
 * [Tk][19] - A basic widget toolkit. Part of Tcl/Tk. [Tcl/Tk License][20].
 * [XForms Toolkit][21] - A widget toolkit designed for the XWindow system. [GNU LGPLv2.1][15] only.
 
@@ -952,3 +953,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [405]: https://github.com/hoedown/hoedown
 [406]: https://github.com/srdja/Collections-C
 [407]: https://github.com/Juniper/libxo
+[408]: https://github.com/vurtun/nuklear
