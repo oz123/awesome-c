@@ -202,6 +202,8 @@ These are libraries of all sorts that are useful for game programming.
 * [libimagequant][300] - Small, portable library for high-quality conversion of RGBA images to 8-bit indexed colour images. [FreeBSD][24].
 * [libjpeg-turbo][193] - A faster library for reading and writing JPEG files. [Various licences][194].
 * [libpng][382] - The official PNG reference library. [libpng license][383].
+* [libsixel][17] - A library implementing the SIXEL protocol, allowing beautiful
+  graphics in your terminal. [Expat][11].
 * [libxmi][174] - A function library for rasterizing 2D vector graphics. [GNU GPLv3][41] or later.
 * [mozjpeg][200] - An improved JPEG encoder. [3-clause BSD][6].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a native C binding. [Various licenses][148].
@@ -366,8 +368,6 @@ This is a list of resources for learning C programming in general, or something 
 * [PETSc][282] - A suite of data structures and routines for scalable parallel solution of scientific applications modelled by partial differential equations. [FreeBSD][24].
 * [SLEPc][283] - A software library for the solution of large, sparse eigenvalue problems on parallel computers. [GNU LGPLv3][5] only.
 * [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [3-clause BSD][6].
-
-
 
 ## Regex ##
 
@@ -543,6 +543,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 > "XML is crap. Really. There are no excuses. XML is nasty to parse for humans, and it's a disaster to parse even for computers. There's just no reason for that horrible crap to exist." - Linus Torvalds
 
 * [Expat][89] - A stream-oriented XML parser. [Expat][11].
+* [libroxml][409] - Another XML
+  library. [GNU LGPLv2.1 with static linking exception][217] only.
 * [libxml2][62] - A standards-compliant, portable XML parser. [Expat][11].
 * [mini-xml][216] - A small XML reading and writing library. No dependencies aside from C standard library. [GNU LGPLv2.1 with static linking exception][217] only.
 
@@ -563,7 +565,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [14]: http://www.gtk.org/
 [15]: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 [16]: http://webserver2.tecgraf.puc-rio.br/iup/
-
+[17]: https://github.com/saitoha/libsixel
 [18]: https://www.enlightenment.org?p=about%252Flibs
 [19]: http://www.tcl.tk/
 [20]: http://www.tcl.tk/software/tcltk/license.html
@@ -954,3 +956,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [406]: https://github.com/srdja/Collections-C
 [407]: https://github.com/Juniper/libxo
 [408]: https://github.com/vurtun/nuklear
+[409]: https://github.com/blunderer/libroxml

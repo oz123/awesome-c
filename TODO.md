@@ -4,7 +4,6 @@ These are not prioritized.
 
 * Clarify licensing on all unclear works:
   * CRlibm
-  * libroxml
   * libRSVG
   * Neon
   * ZeroMQ

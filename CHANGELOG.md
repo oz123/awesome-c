@@ -1,5 +1,18 @@
 # Changelog #
 
+## 13th May 2016 ##
+
+### General ###
+
+* Restored libroxml (licence clarified)
+
+### Added ###
+
+* libsixel
+
+### Removed ###
+
+
 ## 20th April 2016 ##
 
 ### General ###
