@@ -452,7 +452,12 @@ This is a list of useful programs to help you write and debug C code which are *
 * [address-sanitizer][288] - A fast memory error detector. [Apache2.0][32].
 * [biicode][304] - A modern dependency manager. [Expat][11].
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also has shebang support. [Expat][11].
-* [C-Reduce][403] - A tool that takes a large C file with a property of interest and automatically produces a much smaller C file that has the same property. Intended to help create minimal bug-demonstrating cases in complex code. [3-clause BSD][6].
+* [C-Reduce][403] - A tool that takes a large C file with a property of interest
+  and automatically produces a much smaller C file that has the same
+  property. Intended to help create minimal bug-demonstrating cases in complex
+  code. [3-clause BSD][6].
+* [CScout][410] - A source code analyzer and refactoring browser for C
+  programs. [GNU GPLv3][41] only.
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [CBMC][309] - C Bounded Model Checker; a tool for verification of array bounds, pointer safety and user-specified assertions. [Original BSD][310].
 * [cdecl][348] - An online service to translate C declarations into English and vice versa. Public domain.
@@ -512,6 +517,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libcsv][387] - A simple, streaming CSV parser. [GNU LGPLv2.1][15] or later.
 * [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 only, with a linking exception][109].
+* [liblfds][411] - A portable lock-free data structure library. Public domain
+  (more exactly, whatever license you want).
 * [libimobiledevice][354] - A cross-platform protocol library to communicate with iThings. [GNU LGPLv2.1][15] or later (library), [GNU GPLv2.1][8] or later (tools).
 * [libmpv][348] - A music-playing library. Compile with ``./waf configure --disable-cplayer --enable-libmpv-shared`` to not have the music player. [GNU GPLv2.1][8] or later.
 * [libnfc][332] - A platform-independent Near-Field Communication library. [GNU LGPLv3][5] only.
@@ -957,3 +964,5 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [407]: https://github.com/Juniper/libxo
 [408]: https://github.com/vurtun/nuklear
 [409]: https://github.com/blunderer/libroxml
+[410]: http://www.spinellis.gr/cscout/
+[411]: http://liblfds.org/

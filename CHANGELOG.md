@@ -1,5 +1,14 @@
 # Changelog #
 
+## 4th June 2016 ##
+
+### General ###
+
+### Added ###
+
+* CScout
+* liblfds
+
 ## 13th May 2016 ##
 
 ### General ###
