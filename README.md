@@ -496,6 +496,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [dyncall][281] - Another foreign function interface library. [Expat][11].
 * [FANN][325] - Fast Artifical Neural Network library; an implementation of neural networks. [GNU GPLv2.1][8] only.
 * [Firm][361] - A library that provides a graph-based intermediate representation, optimizations and assembly code generation suitable for use in compilers. Comes with an example C front-end under the same license. [GNU LGPLv2.1][15] only.
+* [Genann][412] - A simple ANN in C89, without additional dependencies. [zlib][49].
 * [gjrand][327] - A library of random-number generation routines. [GNU GPLv2.1][8] only or [GNU GPLv3][41] only (user's choice).
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI implementation. [GNU GPLv3][41] only.
 * [GNU gperf][351] - A perfect hash function generator, given a list of strings. Outputs C code. [GNU GPLv3][41] or later.
@@ -966,3 +967,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [409]: https://github.com/blunderer/libroxml
 [410]: http://www.spinellis.gr/cscout/
 [411]: http://liblfds.org/
+[412]: https://github.com/codeplea/genann
