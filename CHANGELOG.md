@@ -1,5 +1,13 @@
 # Changelog #
 
+## 2nd August 2016 ##
+
+### General ###
+
+### Added ###
+
+* argparse
+
 ## 4th June 2016 ##
 
 ### General ###

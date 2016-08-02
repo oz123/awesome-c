@@ -486,6 +486,8 @@ This is a list of useful programs to help you write and debug C code which are *
 This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
 * [ApeTagLibs][345] - A library for working with APEv2 tags. [Expat][11].
+* [argparse][413] - A command-line argument parsing library, inspired by
+  Python's argparse module. [Expat][11].
 * [bfd][157] - A library for manipulating binary object files. Part of GNU binutils. [GNU GPLv3][41] or later.
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer vision. [3-clause BSD][6].
 * [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented framework for developing and benchmarking [OpenCL][312] projects. [GNU LGPLv3][5] only (library), [GNU GPLv3][41] or later (other code).
@@ -968,3 +970,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [410]: http://www.spinellis.gr/cscout/
 [411]: http://liblfds.org/
 [412]: https://github.com/codeplea/genann
+[413]: https://github.com/cofyc/argparse
