@@ -179,6 +179,7 @@ These are libraries of all sorts that are useful for game programming.
 * [Allegro][48] - A cross-platform, video game development and multimedia library. [zlib][49].
 * [Chipmunk2D][303] - A fast and lightweight 2D game physics library. [Expat][11].
 * [CSFML][90] - A binding for [SFML][91]. [zlib][49].
+* [Epoxy][414] - A library for handling OpenGL function pointer management. [Expat][11].
 * [FreeGLUT][99] - An alternative to the OpenGL Utility Toolkit. Allows the creation and management of windows with OpenGL contexts. [X11][100].
 * [GLFW][98] - A multi-platform library for creating windows with OpenGL contexts. [zlib][49].
 * [libao][376] - A cross-platform audio library with a wide variety of outputs. [GNU GPLv2.1][8] or later.
@@ -196,7 +197,6 @@ These are libraries of all sorts that are useful for game programming.
 * [Cogl][127] - A GPU graphics and utilities API. [Expat][11] (dependent on [3-clause BSD][6] and possibly [LGPLv2.1][15] only libs).
 * [Clutter][126] - A UI library based on OpenGL. [GNU LGPLv2.1][15] only.
 * [giflib][401] - A library for reading and writing gif images. [Expat][11].
-* [Epoxy][414] - A library for handling OpenGL function pointer management. [Expat][11].
 * [heman][365] - A tiny library of image utilities dealing with height maps, normal maps, distance fields and the like. [Expat][11].
 * [libcaca][366] - An ASCII renderer for terminal-based interfaces. [WTFPLv2][367].
 * [libgd][402] - A library for the dynamic creation of images by programmers. [Expat][11].
