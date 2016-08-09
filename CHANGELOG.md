@@ -1,5 +1,13 @@
 # Changelog #
 
+## 10th August 2016 ##
+
+### General ###
+
+### Added ###
+
+* Epoxy
+
 ## 2nd August 2016 ##
 
 ### General ###
