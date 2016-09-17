@@ -362,6 +362,7 @@ useful relating to C programming.
 ### Reference books ###
 
 * [C: A Reference Manual 5E][181] - A full reference book for C99.
+* [C in a Nushell 2E][418] - A concise reference book for C11.
 * [C Pocket Reference][182] - A concise reference book for C99.
 * [The C Programming Language 2E][7] - The original book on C, by its creators.
 
@@ -1187,3 +1188,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [415]: https://kore.io/
 [416]: http://zeromq.org/
 [417]: https://wiki.gnome.org/action/show/Projects/LibRsvg?action=show&redirect=LibRsvg
+[418]: http://shop.oreilly.com/product/0636920033844.do

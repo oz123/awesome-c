@@ -15,6 +15,7 @@
 * Reintroduced:
   * ZeroMQ
   * libRSVG
+* Added 'C in a Nutshell 2E'
 
 ## 10th August 2016 ##
 
