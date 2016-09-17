@@ -752,6 +752,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   files. [Expat][11].
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
   library. [3-clause BSD][6].
+* [ZeroMQ][416] - A distributed messaging protocol
+  implementation. [GNU LGPLv3 with static linking exception][5] only.
 
 ## XML ##
 
@@ -1181,3 +1183,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [413]: https://github.com/cofyc/argparse
 [414]: https://github.com/anholt/libepoxy
 [415]: https://kore.io/
+[416]: http://zeromq.org/

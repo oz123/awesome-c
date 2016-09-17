@@ -9,6 +9,8 @@
 * Added kore.io
 * Removed TODO.md (replaced with issues on NAB repo)
 * Cleaned up README.md with markdownlint
+* Clarified license on ZeroMQ
+* Reintroduced ZeroMQ
 
 ## 10th August 2016 ##
 
