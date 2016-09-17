@@ -272,6 +272,8 @@ These are libraries of all sorts that are useful for game programming.
 * [libjpeg-turbo][193] - A faster library for reading and writing JPEG
   files. [Various licences][194].
 * [libpng][382] - The official PNG reference library. [libpng license][383].
+* [libRSVG][417] - A library to render SVG files using Cairo. [GNU LGPLv2.1][15]
+  or later.
 * [libsixel][17] - A library implementing the SIXEL protocol, allowing beautiful
   graphics in your terminal. [Expat][11].
 * [libxmi][174] - A function library for rasterizing 2D vector
@@ -1184,3 +1186,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [414]: https://github.com/anholt/libepoxy
 [415]: https://kore.io/
 [416]: http://zeromq.org/
+[417]: https://wiki.gnome.org/action/show/Projects/LibRsvg?action=show&redirect=LibRsvg
