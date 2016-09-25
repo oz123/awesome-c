@@ -74,6 +74,7 @@ These are tools to automate the building and testing of projects in C.
 * [Libtool][172] - A generic library support script. Part of the
   Autotools. [GNU GPLv3][41] or later.
 * [Meson][368] - An extremely fast, user-friendly build system. Based on Ninja. [Apache2.0][32].
+* [zproject][420] - A project generator and build system support. [MPLv2.0][227]
 
 ## Compilers ##
 
@@ -397,7 +398,7 @@ useful relating to C programming.
 ## Networking and Internet ##
 
 * [asnlc][138] - A compiler of ASN.1 specifications into C source code. [FreeBSD][24].
-* [czmq][226] - A high-level binding for ZeroMQ. [MPL2.0][227]
+* [czmq][226] - A high-level binding for ZeroMQ. [MPLv2.0][227]
 * [GNU adns][155] - An advanced, easy-to-use, asynch-capable DNS client library
   and utilities. [GNU GPLv3][41] or later.
 * [GNU SASL][160] - An implementation of the Simple Authentication and Security
@@ -441,6 +442,7 @@ useful relating to C programming.
 * [Tox][145] - A communication platform, designed to be a
   Skype-killer. [GNU GPLv3][41] only.
 * [twitc][237] - A mini library for interacting with the Twitter OAuth API. [Expat][11].
+* [zyre][419] - A framework for proximity-based peer-to-peer applications. [MPLv2.0][227].
 
 ### Web Frameworks ###
 
@@ -753,10 +755,11 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Viola][241] - A simplification of libCello. [Expat][11].
 * [XLSX I/O][344] - A cross-platform library for reading and writing .xlsx
   files. [Expat][11].
-* [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
-  library. [3-clause BSD][6].
 * [ZeroMQ][416] - A distributed messaging protocol
   implementation. [GNU LGPLv3 with static linking exception][5] only.
+* [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
+  library. [3-clause BSD][6].
+* [zproto][421] - A protocol framework for ZeroMQ. [Expat][11].
 
 ## XML ##
 
@@ -1189,3 +1192,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [416]: http://zeromq.org/
 [417]: https://wiki.gnome.org/action/show/Projects/LibRsvg?action=show&redirect=LibRsvg
 [418]: http://shop.oreilly.com/product/0636920033844.do
+[419]: https://github.com/zeromq/zyre
+[420]: https://github.com/zeromq/zproject
+[421]: https://github.com/zeromq/zproto

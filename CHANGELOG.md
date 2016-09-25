@@ -1,8 +1,13 @@
 # Changelog #
 
-## 17th September 2016 ##
+## 25th September 2016 ##
 
-### General ###
+* Added:
+  * zproject
+  * zproto
+  * zyre
+
+## 17th September 2016 ##
 
 * Maintainer's birthday!
 * Cleaned up the changelog a bit
