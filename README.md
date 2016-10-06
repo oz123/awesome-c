@@ -398,6 +398,8 @@ useful relating to C programming.
 ## Networking and Internet ##
 
 * [asnlc][138] - A compiler of ASN.1 specifications into C source code. [FreeBSD][24].
+* [CHL][422] - C Hypertext Library - A library for writing web applications in
+  C. [GNU GPLv3][41] only.
 * [czmq][226] - A high-level binding for ZeroMQ. [MPLv2.0][227]
 * [GNU adns][155] - An advanced, easy-to-use, asynch-capable DNS client library
   and utilities. [GNU GPLv3][41] or later.
@@ -1195,3 +1197,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [419]: https://github.com/zeromq/zyre
 [420]: https://github.com/zeromq/zproject
 [421]: https://github.com/zeromq/zproto
+[422]: https://github.com/it4e/CHL

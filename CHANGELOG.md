@@ -1,5 +1,9 @@
 # Changelog #
 
+## 7th October 2016 ##
+
+* Added CHL
+
 ## 25th September 2016 ##
 
 * Added:
