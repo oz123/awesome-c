@@ -3,8 +3,8 @@
 A curated list of C good stuff. This list contains *only* [free software][13]
 for code, and sellers who aren't evil for physical resources.
 
-This is released under the GNU Free Documentation License, without invariants or
-a cover - its text is provided in the LICENSE file.
+This is released under a Creative Commons-Attribution-ShareAlike license,
+version 4. You can find its text in the LICENSE file.
 
 This project is part of [Peers][397] - a community for growing our
 freedom. Support us today!
