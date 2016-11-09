@@ -16,6 +16,7 @@ pure C stuff is considered.
 
 * [Build Systems](#build-systems)
 * [Compilers](#compilers)
+* [Compression](#compression)
 * [Concurrent and Parallel](#concurrent-and-parallel)
 * [Database](#database)
 * [Documentation Generation](#documentation-generation)
@@ -86,6 +87,16 @@ These are tools to automate the building and testing of projects in C.
 * [PCC][74] - A venerable compiler. Supports C99. [Various licenses][75], all free.
 * [TCC][58] - Tiny C Compiler; a small, fast compiler. Supports C99 (except
   complex types). [GNU LGPLv2.1][15] only.
+
+## Compression ##
+
+* [lzo][338] - A very fast data compression library. [GNU GPLv2.1][8] or later.
+* [shoco][363] - A compressor for small text strings. [Expat][11].
+* [smaz][364] - An efficient string compression library. [3-clause BSD][6].
+* [squash][393] - A compression abstraction library, complete with some
+  utilities. [Expat][11].
+* [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
+  library. [3-clause BSD][6].
 
 ## Concurrent and Parallel ##
 
@@ -566,8 +577,6 @@ This contains standard C libraries.
 * [SDS][29] - Simple Dynamic Strings; a library for handling strings in a
   simpler way, but one that is compatible with normal C string
   functions. Available via [clib][26]. [FreeBSD][24].
-* [shoco][363] - A compressor for small text strings. [Expat][11].
-* [smaz][364] - An efficient string compression library. [3-clause BSD][6].
 
 ## Testing ##
 
@@ -748,7 +757,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libxo][407] - Allows an application to generate plain text, XML, JSON and
   HTML output using a common set of function calls. The application decides at
   runtime what output style should be produced. [FreeBSD][24].
-* [lzo][338] - A very fast data compression library. [GNU GPLv2.1][8] or later.
+
 * [mpc][238] - A parser combinator library. [FreeBSD][24].
 * [ncurses][178] - Coloured terminal UI library. [GNU GPLv3][41] or later.
 * [nope.c][209] - An ultra-light software platform for scalable server-side and
@@ -759,8 +768,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPLv2.1][8] only.
 * [sort][190] - A collection of sorting routines, designed to run at
   compile-time with a user-defined type. [Expat][11].
-* [squash][393] - A compression abstraction library, complete with some
-  utilities. [Expat][11].
 * [termbox][396] - A library for writing text-based interfaces. [Expat][11].
 * [tinyexpr][395] - A tiny recursive-descent parser, compiler and evaluation
   engine for simple mathematical expressions. [3-clause BSD][6].
@@ -772,8 +779,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   files. [Expat][11].
 * [ZeroMQ][416] - A distributed messaging protocol
   implementation. [GNU LGPLv3 with static linking exception][5] only.
-* [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
-  library. [3-clause BSD][6].
 * [zproto][421] - A protocol framework for ZeroMQ. [Expat][11].
 
 ## XML ##
