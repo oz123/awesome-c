@@ -587,7 +587,7 @@ extensions that make it more pleasant. This is categorized by editor.
   provide IDE-like features to Emacs. Built-in. [GNU GPLv3][41] or later.
 * [Flycheck][149] - Modern syntax checking. For C, it can use either GCC or
   Clang as a back-end. [GNU GPLv3][41] or later.
-* [Yasnippet][150] - A template system, with C templates for common code
+* [YASnippet][150] - A template system, with C templates for common code
   snippets. [GNU GPLv3][41] or later.
 
 ### Vim ###
