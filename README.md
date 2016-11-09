@@ -270,11 +270,14 @@ These are libraries of all sorts that are useful for game programming.
 
 ## Graphical User Interface ##
 
-These are specifically [widget toolkits][12].
+These are specifically [widget toolkits][12], or things meant to be used in a
+similar way to them.
 
 * [GTK+][14] - A cross-platform widget toolkit. [GNU LGPLv2.1][15] only.
 * [IUP][16] - Another cross-platform widget toolkit. [Expat][11].
 * [nuklear][408] - A small, C89, single-header widget toolkit. Public domain.
+* [tinyfiledialogs][426] - A single-file library for simple dialogs. Compatible
+  with many other toolkits and OSes. [zlib][49].
 * [Tk][19] - A basic widget toolkit. Part of Tcl/Tk. [Tcl/Tk License][20].
 * [XForms Toolkit][21] - A widget toolkit designed for the XWindow
   system. [GNU LGPLv2.1][15] only.
@@ -1211,3 +1214,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [423]: http://www.koanlogic.com/klone/
 [424]: http://savannah.nongnu.org/projects/acl/
 [425]: http://savannah.nongnu.org/projects/attr/
+[426]: https://sourceforge.net/projects/tinyfiledialogs/
