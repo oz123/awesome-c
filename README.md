@@ -90,6 +90,8 @@ These are tools to automate the building and testing of projects in C.
 
 ## Compression ##
 
+* [libbzip2][427] - A patent-free, high-quality data compression
+  library. [Original BSD][310].
 * [lzo][338] - A very fast data compression library. [GNU GPLv2.1][8] or later.
 * [shoco][363] - A compressor for small text strings. [Expat][11].
 * [smaz][364] - An efficient string compression library. [3-clause BSD][6].
@@ -1220,3 +1222,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [424]: http://savannah.nongnu.org/projects/acl/
 [425]: http://savannah.nongnu.org/projects/attr/
 [426]: https://sourceforge.net/projects/tinyfiledialogs/
+[427]: http://www.bzip.org/
