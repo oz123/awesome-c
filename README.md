@@ -885,7 +885,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [102]: http://shop.oreilly.com/product/0636920015482.do
 [103]: http://ccodearchive.net/
 [104]: http://ccodearchive.net/list.html
-[105]: http://symas.com/mdb/
+[105]: https://symas.com/products/lightning-memory-mapped-database/
 [106]: http://directory.fsf.org/wiki/License:OpenLDAPv2.7
 [107]: https://github.com/ioquake/ioq3
 [108]: https://libgit2.github.com/
@@ -901,11 +901,11 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [118]: http://troydhanson.github.io/uthash/license.html
 [119]: https://www.enlightenment.org?p=about%252Fefl
 [120]: http://zserge.com/jsmn.html
-[121]: http://www.postgresql.org/
+[121]: https://www.postgresql.org/
 [122]: https://opensource.org/licenses/postgresql
 [123]: https://gstreamer.freedesktop.org/
 [124]: http://libevent.org/
-[125]: http://www.hboehm.info/gc/
+[125]: https://www.hboehm.info/gc/
 [126]: https://blogs.gnome.org/clutter/get-it/
 [127]: https://github.com/rib/cogl-web/wiki
 [128]: https://github.com/atgreen/libffi
@@ -935,7 +935,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [152]: https://sites.google.com/site/lccretargetablecompiler/
 [153]: https://github.com/drh/lcc/blob/master/CPYRIGHT
 [152]: https://github.com/swenson/vector.h
-[155]: https://gnu.org/software/adns/
+[155]: https://www.gnu.org/software/adns/
 [156]: http://adtinfo.org/libavl.html/index.html
 [157]: http://sourceware.org/binutils/docs/bfd/
 [158]: https://gnu.org/software/freeipmi/index.html
