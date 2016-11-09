@@ -17,7 +17,6 @@ pure C stuff is considered.
 * [Build Systems](#build-systems)
 * [Compilers](#compilers)
 * [Concurrent and Parallel](#concurrent-and-parallel)
-
 * [Database](#database)
 * [Documentation Generation](#documentation-generation)
 * [Editors](#editors)
@@ -401,7 +400,7 @@ stuff relating to networks and the Internet.
   SMTP, POP and NNTP. [3-clause BSD][6].
 * [libev][144] - Yet another event loop. [FreeBSD][24].
 * [libevent][124] - An event loop replacement for network servers. [3-clause BSD][6].
-* [libgss][161] - Generic Security Service. [GNU GPLv3][41] or later.
+
 * [libhttpd][166] - A library to add basic web server capabilities to an
   application or embedded device. [GNU GPLv2][41] only.
 * [libidn][164] - An implementation of the Stringprep, Punycode and IDNA
@@ -430,7 +429,7 @@ stuff relating to networks and the Internet.
 * [balde][386] - A microframework based on GLib. [GNU LGPLv2.1][15] only.
 * [onion][170] - HTTP server library, designed to be easy to
   use. [Apache2.0][32].
-* [KLone][] - A fully-featured, multi-platform, web application development
+* [KLone][423] - A fully-featured, multi-platform, web application development
   framework, targeted especially at embedded systems and
   appliances. [3-clause BSD][6].
 * [Kore][415] - An easy-to-use web application framework for writing scalable
@@ -491,6 +490,8 @@ stuff relating to networks and the Internet.
 This includes various cryptographical and secure communications libraries and
 frameworks, as well as various security-related things.
 
+* [acl][424] - Commands for manipulating POSIX access control
+  lists. [GNU GPLv2.1][8] or later.
 * [GNU SASL][160] - An implementation of the Simple Authentication and Security
   Layer and a few common SASL mechanism. [GNU GPLv3][41] or later.
 * [GnuTLS][112] - A secure communication library, implementing SSL, TLS and
@@ -498,6 +499,7 @@ frameworks, as well as various security-related things.
 * [libgcrypt][142] - A general-purpose cryptography library, with a range of
   available ciphers. [GNU LGPLv2.1][15] or later (code), [GNU GPLv2.1][8] or
   later (manual and tools).
+* [libgss][161] - Generic Security Service. [GNU GPLv3][41] or later.
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols. Also includes a
   cryptography
   library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
@@ -1205,3 +1207,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [421]: https://github.com/zeromq/zproto
 [422]: https://github.com/it4e/CHL
 [423]: http://www.koanlogic.com/klone/
+[424]: http://savannah.nongnu.org/projects/acl/
