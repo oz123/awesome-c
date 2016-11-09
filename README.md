@@ -432,7 +432,6 @@ useful relating to C programming.
   server. [GNU GPLv2.1][8] only.
 * [mongoose][171] - Embedded web server. [GNU GPLv2.1][8] only.
 * [nanomsg][139] - A C-based implementation of ZeroMQ. [Expat][11].
-* [onion][170] - HTTP server library, designed to be easy to use. [Apache2.0][32].
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also
   includes a cryptography
   library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
@@ -449,6 +448,11 @@ useful relating to C programming.
 ### Web Frameworks ###
 
 * [balde][386] - A microframework based on GLib. [GNU LGPLv2.1][15] only.
+* [onion][170] - HTTP server library, designed to be easy to
+  use. [Apache2.0][32].
+* [KLone][] - A fully-featured, multi-platform, web application development
+  framework, targeted especially at embedded systems and
+  appliances. [3-clause BSD][6].
 * [Kore][415] - An easy-to-use web application framework for writing scalable
   web APIs in C. [ISC][61].
 
@@ -1198,3 +1202,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [420]: https://github.com/zeromq/zproject
 [421]: https://github.com/zeromq/zproto
 [422]: https://github.com/it4e/CHL
+[423]: http://www.koanlogic.com/klone/
