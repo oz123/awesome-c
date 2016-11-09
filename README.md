@@ -668,6 +668,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [ApeTagLibs][345] - A library for working with APEv2 tags. [Expat][11].
 * [argparse][413] - A command-line argument parsing library, inspired by
   Python's argparse module. [Expat][11].
+* [attr][425] - Commands for manipulating filesystem extended
+  attributes. [GNU GPLv2.1][8] or later.
 * [bfd][157] - A library for manipulating binary object files. Part of GNU
   binutils. [GNU GPLv3][41] or later.
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer
@@ -1208,3 +1210,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [422]: https://github.com/it4e/CHL
 [423]: http://www.koanlogic.com/klone/
 [424]: http://savannah.nongnu.org/projects/acl/
+[425]: http://savannah.nongnu.org/projects/attr/
