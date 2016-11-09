@@ -1152,7 +1152,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [370]: https://bitbucket.org/orx/orx
 [371]: https://github.com/zturtleman/spearmint
 [372]: https://github.com/andrewrk/libsoundio
-[373]: http://libcox.net/
+[373]: http://libcox.symisc.net/
 [374]: http://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
 [375]: https://www.gnu.org/licenses/old-licenses/fdl-1.1.html
 [376]: https://github.com/timonwong/libao
