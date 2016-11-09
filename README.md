@@ -21,7 +21,6 @@ pure C stuff is considered.
 * [Database](#database)
 * [Documentation Generation](#documentation-generation)
 * [Editors](#editors)
-* [Environments](#environments)
 * [Frameworks](#frameworks)
 * [Game Programming](#game-programming)
   * [Engines](#engines)
@@ -56,6 +55,7 @@ pure C stuff is considered.
   * [Vim](#vim)
 * [Tools](#tools)
 * [Utilities](#utilities)
+* [Windows Environments](#windows-environments)
 * [XML](#xml)
 
 ## Build Systems ##
@@ -172,15 +172,6 @@ supports C anyway.
 * [Geany][43] - A very small and fast IDE. [GNU GPLv2.1][8] or later.
 * [KDevelop][44] - The KDE IDE. [GNU GPLv2.1][8] only.
 
-## Environments ##
-
-This is a list of technologies designed to bring Windows into the 21st century
-with respect to support for C.
-
-* [Cygwin][253] - Designed to emulate a POSIX-compatible environment extensively
-  under Windows. [Various licenses, all free][254].
-* [MinGW-w64][287] - A minimalist environment for C development on Windows with
-  64 bit support. [Various licenses, all free][252].
 
 ## Frameworks ##
 
@@ -759,7 +750,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libxo][407] - Allows an application to generate plain text, XML, JSON and
   HTML output using a common set of function calls. The application decides at
   runtime what output style should be produced. [FreeBSD][24].
-
 * [mpc][238] - A parser combinator library. [FreeBSD][24].
 * [ncurses][178] - Coloured terminal UI library. [GNU GPLv3][41] or later.
 * [nope.c][209] - An ultra-light software platform for scalable server-side and
@@ -782,6 +772,19 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [ZeroMQ][416] - A distributed messaging protocol
   implementation. [GNU LGPLv3 with static linking exception][5] only.
 * [zproto][421] - A protocol framework for ZeroMQ. [Expat][11].
+
+## Windows Environments ##
+
+This is a list of technologies designed to bring Windows into the 21st century
+with respect to support for C.
+
+* [Cygwin][253] - Designed to emulate a POSIX-compatible environment extensively
+  under Windows. [Various licenses, all free][254].
+* [MinGW-w64][287] - A minimalist environment for C development on Windows with
+  64 bit support. [Various licenses, all free][252].
+* [MSYS2][428] - Minimal SYStem 2; aims to provide support for a POSIX
+  environment on Windows, with a package manager based on Arch Linux's
+  pacman. Packages have individual licenses, otherwise, as MinGW and Cygwin.
 
 ## XML ##
 
@@ -1223,3 +1226,4 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [425]: http://savannah.nongnu.org/projects/attr/
 [426]: https://sourceforge.net/projects/tinyfiledialogs/
 [427]: http://www.bzip.org/
+[428]: http://msys2.github.io/
