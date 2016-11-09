@@ -1140,7 +1140,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [358]: http://www.samnip.ps/thought/macro-storage-for-inverse-comma
 [359]: https://github.com/awslabs/s2n
 [360]: https://www.gnu.org/software/recutils/
-[361]: http://pp.ipd.kit.edu/firm/Index
+[361]: http://pp.ipd.kit.edu/firm/
 [362]: http://www.etalabs.net/compare_libcs.html
 [363]: https://github.com/Ed-von-Schleck/shoco
 [364]: https://github.com/antirez/smaz
