@@ -930,7 +930,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 [147]: https://www.opengl.org/
 [148]: http://www.sgi.com/tech/opengl/?/license.html
 [149]: https://github.com/flycheck/flycheck
-[150]: https://github.com/capitaomorte/yasnippet
+[150]: http://joaotavora.github.io/yasnippet/
 [151]: http://valloric.github.io/YouCompleteMe/
 [152]: https://sites.google.com/site/lccretargetablecompiler/
 [153]: https://github.com/drh/lcc/blob/master/CPYRIGHT
