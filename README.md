@@ -17,7 +17,7 @@ pure C stuff is considered.
 * [Build Systems](#build-systems)
 * [Compilers](#compilers)
 * [Concurrent and Parallel](#concurrent-and-parallel)
-* [Crypto](#crypto)
+
 * [Database](#database)
 * [Documentation Generation](#documentation-generation)
 * [Editors](#editors)
@@ -45,6 +45,7 @@ pure C stuff is considered.
   * [Web Frameworks](#web-frameworks)
 * [Numerical](#numerical)
 * [Regex](#regex)
+* [Security](#security)
 * [Serialization](#serialization)
 * [Source Code Collections](#source-code-collections)
 * [Standard Libraries](#standard-libraries)
@@ -110,21 +111,6 @@ These are tools to automate the building and testing of projects in C.
   problems on parallel computers. [GNU LGPLv3][5] only.
 * [TinyCThread][115] - A portable, small implementation of the C11 threads
   API. [zlib][49].
-
-## Crypto ##
-
-* [GnuTLS][112] - A secure communication library, implementing SSL, TLS and
-  DTLS. [GNU LGPLv2.1][15] or later.
-* [libgcrypt][142] - A general-purpose cryptography library, with a range of
-  available ciphers. [GNU LGPLv2.1][15] or later (code), [GNU GPLv2.1][8] or
-  later (manual and tools).
-* [OpenSSL][110] - Implementation of the SSL and TLS protocols. Also includes a
-  cryptography
-  library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
-* [libsodium][198] - A modern and easy-to-use crypto library. [Expat][11].
-* [libtomcrypt][299] - A fairly comprehensive, modular and portable
-  cryptographic toolkit. Public domain.
-* [mbed TLS][291] - Another crypto implementation. [Apache2.0][32].
 
 ## Database ##
 
@@ -397,16 +383,15 @@ useful relating to C programming.
 
 ## Networking and Internet ##
 
+The [Security](#security) section also contains useful resources for making
+stuff relating to networks and the Internet.
+
 * [asnlc][138] - A compiler of ASN.1 specifications into C source code. [FreeBSD][24].
 * [CHL][422] - C Hypertext Library - A library for writing web applications in
   C. [GNU GPLv3][41] only.
 * [czmq][226] - A high-level binding for ZeroMQ. [MPLv2.0][227]
 * [GNU adns][155] - An advanced, easy-to-use, asynch-capable DNS client library
   and utilities. [GNU GPLv3][41] or later.
-* [GNU SASL][160] - An implementation of the Simple Authentication and Security
-  Layer and a few common SASL mechanism. [GNU GPLv3][41] or later.
-* [GnuTLS][112] - A secure communication library, implementing SSL, TLS and
-  DTLS. [GNU LGPLv2.1][15] or later.
 * [gumbo-parser][196] - An HTML5 parsing library in C99. [Apache2.0][32].
 * [http-parser][197] - An HTTP request/response parser. [Expat][11].
 * [ldns][339] - A library to simplify DNS programming. [3-clause BSD][6].
@@ -432,13 +417,8 @@ useful relating to C programming.
   server. [GNU GPLv2.1][8] only.
 * [mongoose][171] - Embedded web server. [GNU GPLv2.1][8] only.
 * [nanomsg][139] - A C-based implementation of ZeroMQ. [Expat][11].
-* [OpenSSL][110] - Implementation of the SSL and TLS protocols, and also
-  includes a cryptography
-  library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
 * [oSip][179] - A SIP implementation without additional
   dependencies. [GNU LGPLv2.1][15] or later.
-* [s2n][359] - A C99 implementation of the TLS/SSL protocols, designed to be
-  simple, fast and with security as a priority. [Apache2.0][32].
 * [socket99][203] - A C99 wrapper for the BSD sockets API. [ISC][61].
 * [Tox][145] - A communication platform, designed to be a
   Skype-killer. [GNU GPLv3][41] only.
@@ -505,6 +485,28 @@ useful relating to C programming.
 * [SLRE][80] - Super Light Regular Expression library; a very small
   implementation of a subset of Perl regex syntax. [GNU GPLv2.1][8] only.
 * [TRE][82] - A POSIX-compliant, feature-full regex library. [FreeBSD][24].
+
+## Security ##
+
+This includes various cryptographical and secure communications libraries and
+frameworks, as well as various security-related things.
+
+* [GNU SASL][160] - An implementation of the Simple Authentication and Security
+  Layer and a few common SASL mechanism. [GNU GPLv3][41] or later.
+* [GnuTLS][112] - A secure communication library, implementing SSL, TLS and
+  DTLS. [GNU LGPLv2.1][15] or later.
+* [libgcrypt][142] - A general-purpose cryptography library, with a range of
+  available ciphers. [GNU LGPLv2.1][15] or later (code), [GNU GPLv2.1][8] or
+  later (manual and tools).
+* [OpenSSL][110] - Implementation of the SSL and TLS protocols. Also includes a
+  cryptography
+  library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
+* [libsodium][198] - A modern and easy-to-use crypto library. [Expat][11].
+* [libtomcrypt][299] - A fairly comprehensive, modular and portable
+  cryptographic toolkit. Public domain.
+* [mbed TLS][291] - Another crypto implementation. [Apache2.0][32].
+* [s2n][359] - A C99 implementation of the TLS/SSL protocols, designed to be
+  simple, fast and with security as a priority. [Apache2.0][32].
 
 ## Serialization ##
 
