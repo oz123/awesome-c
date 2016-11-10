@@ -12,6 +12,9 @@ freedom. Support us today!
 **An important note:** This project does *not* index anything C++-related; only
 pure C stuff is considered.
 
+**Note for contributors:** If you want to make a pull request, please read
+CONTRIBUTING.md first.
+
 ## Contents ##
 
 * [Build Systems](#build-systems)
