@@ -239,6 +239,9 @@ These are libraries of all sorts that are useful for game programming.
   only.
 * [SDL2][50] - A cross-platform library designed to provide low-level access to
   audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [zlib][49].
+* [SIGIL][429] - Sound, Input and Graphics Integration Library; a simple
+  alternative to other libraries for doing all those things. Various licenses,
+  all free.
 
 ## Generic Programming ##
 
@@ -1227,3 +1230,4 @@ with respect to support for C.
 [426]: https://sourceforge.net/projects/tinyfiledialogs/
 [427]: http://www.bzip.org/
 [428]: http://msys2.github.io/
+[429]: http://www.libsigil.com/
