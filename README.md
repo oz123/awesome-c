@@ -78,6 +78,8 @@ These are tools to automate the building and testing of projects in C.
 * [Libtool][172] - A generic library support script. Part of the
   Autotools. [GNU GPLv3][41] or later.
 * [Meson][368] - An extremely fast, user-friendly build system. Based on Ninja. [Apache2.0][32].
+* [tup][326] - A very fast, file-based, cross-platform build
+  system. [GNU GPLv2.1][8] only.
 * [zproject][420] - A project generator and build system support. [MPLv2.0][227]
 
 ## Compilers ##
@@ -662,8 +664,6 @@ This is a list of useful programs to help you write and debug C code which are
 * [qo][274] - A build system that works without a separate config file. [Expat][11].
 * [rr][95] - A debugger that records non-deterministic executions to allow for
   deterministic debugging. [FreeBSD][24].
-* [tup][326] - A very fast, file-based, cross-platform build
-  system. [GNU GPLv2.1][8] only.
 * [unifdef][290] - Removes #ifdef and #if directives with their delimited text
   without touching any other part of the file. [3-clause BSD][6]
   and [FreeBSD][24].
