@@ -80,8 +80,6 @@ These are tools to automate the building and testing of projects in C.
 ## Compilers ##
 
 * [Clang][38] - A compiler for LLVM. Supports C11. [NCSA][39].
-* [CompCert][269] - A fully-verified compiler. Supports almost all of
-  C89. [GNU GPLv2.1][8] or later.
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports
   C11. [GNU GPLv3][41] or later.
 * [PCC][74] - A venerable compiler. Supports C99. [Various licenses][75], all free.
@@ -1073,7 +1071,7 @@ with respect to support for C.
 [266]: https://www.securecoding.cert.org/confluence/display/c/SEI+CERT+C+Coding+Standard
 [267]: http://blog.pkh.me/p/20-templating-in-c.html
 [268]: http://lipforge.ens-lyon.fr/www/crlibm/index.html
-[269]: https://github.com/AbsInt/CompCert
+
 [270]: https://github.com/docopt/docopt.c
 [271]: http://marek.vavrusa.com/c/memory/2015/02/20/memory/
 [272]: http://kukuruku.co/hub/programming/i-do-not-know-c
