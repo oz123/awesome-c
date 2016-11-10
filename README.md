@@ -683,12 +683,14 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer
   vision. [3-clause BSD][6].
 * [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented
-  framework for developing and benchmarking [OpenCL][312]
+  framework for developing and benchmarking [OpenCL][312].
   projects. [GNU LGPLv3][5] only (library), [GNU GPLv3][41] or later (other
   code).
 * [CommonMark][223] - An implementation of the CommonMark
   spec. [Variety of licenses, all free][224].
 * [CException][298] - An implementation of exceptions. [Expat][11].
+* [D-Bus][430] - A simple way for applications to talk to one
+  another. [AFLv2.1][431] or [GPLv2.1][8] or later.
 * [dlx][388] - An implementation of [Knuth's Algorithm X][389], with example
   solvers. [GNU GPLv3][41] or later.
 * [docopt.c][270] - An implementation of a command-line option parser. [Expat][11].
@@ -1231,3 +1233,5 @@ with respect to support for C.
 [427]: http://www.bzip.org/
 [428]: http://msys2.github.io/
 [429]: http://www.libsigil.com/
+[430]: https://www.freedesktop.org/wiki/Software/dbus/
+[431]: https://dbus.freedesktop.org/doc/COPYING
