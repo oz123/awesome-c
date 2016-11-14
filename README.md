@@ -73,6 +73,10 @@ These are tools to automate the building and testing of projects in C.
 * [Automake][306] - A tool for automatically generating ``Makefile.in`` files
   compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of
   the Autotools. [GNU GPLv3][41] or later.
+* [fab][323] - A build system that helps build optimally every
+  time. [GNU GPLv3][41] only.
+* [GNU Make][324] - A tool which controls the generation of executables and other
+  non-source files of a program. [GNU GPLv3][41] or later.
 * [Jam][334] - A build system, designed to be easier than make. Understands C
   build rules implicitly. [Jam License][335].
 * [Libtool][172] - A generic library support script. Part of the
@@ -174,7 +178,6 @@ supports C anyway.
 * [Eclipse][258] - An IDE written in Java. [EPL][259].
 * [Geany][43] - A very small and fast IDE. [GNU GPLv2.1][8] or later.
 * [KDevelop][44] - The KDE IDE. [GNU GPLv2.1][8] only.
-
 
 ## Frameworks ##
 
@@ -389,7 +392,13 @@ useful relating to C programming.
 * [FFMPEG][63] - A complete, cross-platform solution to record, convert and
   stream audio and video. [GNU LGPLv2.1][15] or later, with some parts
   under [GNU GPLv2.1][8] or later.
-* [GStreamer][123] - A framework for audio and visual media. [GNU LGPLv2.1][15] only.
+* [GStreamer][123] - A framework for audio and visual media. [GNU LGPLv2.1][15]
+  only.
+* [libmpv][348] - A music-playing library. Compile with ``./waf configure
+  --disable-cplayer --enable-libmpv-shared`` to not have the music
+  player. [GNU GPLv2.1][8] or later.
+* [libsoundio][372] - A library for cross-platform, real-time audio input and
+  output. Has a range of back-ends. [Expat][11].
 * [lodepng][69] - A simple PNG image decoder and encoder, requiring no other
   dependencies. [3-clause BSD][6].
 
@@ -413,7 +422,6 @@ stuff relating to networks and the Internet.
   SMTP, POP and NNTP. [3-clause BSD][6].
 * [libev][144] - Yet another event loop. [FreeBSD][24].
 * [libevent][124] - An event loop replacement for network servers. [3-clause BSD][6].
-
 * [libhttpd][166] - A library to add basic web server capabilities to an
   application or embedded device. [GNU GPLv2][41] only.
 * [libidn][164] - An implementation of the Stringprep, Punycode and IDNA
@@ -640,8 +648,6 @@ This is a list of useful programs to help you write and debug C code which are
   code. [GNU GPLv3][41] or later.
 * [DDD][320] - A graphical front-end for a range of command-line
   debuggers. [GNU GPLv3][41] or later.
-* [fab][323] - A build system that helps build optimally every
-  time. [GNU GPLv3][41] only.
 * [GDB][87] - The GNU Project debugger. [GNU GPLv3][41] or later.
 * [Glade][328] - A RAD tool to enable quick development of GTK+
   GUIs. [GNU GPLv2.1][8] only.
@@ -658,9 +664,6 @@ This is a list of useful programs to help you write and debug C code which are
 * [indent][315] - Formats C source code automatically to make it easier to
   read. Also converts from one style of source to another. [GNU GPLv3][41] or
   later.
-* [Make][324] - A tool which controls the generation of executables and other
-  non-source files of a program. [GNU GPLv3][41] or later (link to the GNU
-  implementation).
 * [qo][274] - A build system that works without a separate config file. [Expat][11].
 * [rr][95] - A debugger that records non-deterministic executions to allow for
   deterministic debugging. [FreeBSD][24].
@@ -741,15 +744,10 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libimobiledevice][354] - A cross-platform protocol library to communicate
   with iThings. [GNU LGPLv2.1][15] or later (library), [GNU GPLv2.1][8] or later
   (tools).
-* [libmpv][348] - A music-playing library. Compile with ``./waf configure
-  --disable-cplayer --enable-libmpv-shared`` to not have the music
-  player. [GNU GPLv2.1][8] or later.
 * [libnfc][332] - A platform-independent Near-Field Communication
   library. [GNU LGPLv3][5] only.
 * [libPhenom][31] - An eventing framework for building high-scalability and
   high-performance systems. [Apache2.0][32].
-* [libsoundio][372] - A library for cross-platform, real-time audio input and
-  output. Has a range of back-ends. [Expat][11].
 * [libucl][239] - A universal configuration library parser. [FreeBSD][24].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [libYAML][341] - A YAML 1.1 parser and emitter. [Expat][11].
