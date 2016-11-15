@@ -428,6 +428,8 @@ stuff relating to networks and the Internet.
   specifications. [GNU GPLv3][41] or later.
 * [libmicrohttpd][165] - A small library that makes it easy to run an HTTP
   server as part of another application. [GNU LGPLv2.1][15] or later.
+* [libonion][170] - HTTP server library, designed to be easy to
+  use. [Apache2.0][32].
 * [libquickmail][399] - A library intended to give developers a way to send
   email from their applications. Supports multiple To/Cc/Bcc recipients and
   attachments without size limits. [GNU GPLv3][41] or later.
@@ -448,8 +450,6 @@ stuff relating to networks and the Internet.
 ### Web Frameworks ###
 
 * [balde][386] - A microframework based on GLib. [GNU LGPLv2.1][15] only.
-* [onion][170] - HTTP server library, designed to be easy to
-  use. [Apache2.0][32].
 * [KLone][423] - A fully-featured, multi-platform, web application development
   framework, targeted especially at embedded systems and
   appliances. [3-clause BSD][6].
@@ -975,7 +975,7 @@ with respect to support for C.
 [167]: https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup
 [168]: http://www.webdav.org/neon/
 [169]: http://mihl.sourceforge.net/
-[170]: https://github.com/davidmoreno/onion
+[170]: http://www.coralbits.com/libonion/
 [171]: https://github.com/cesanta/mongoose
 [172]: https://gnu.org/software/libtool/
 [173]: https://gnu.org/software/libunistring/
