@@ -97,6 +97,8 @@ These are tools to automate the building and testing of projects in C.
 
 ## Compression ##
 
+* [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
+  implementation). [GNU GPLv2.1][8] or later.
 * [libbzip2][427] - A patent-free, high-quality data compression
   library. [Original BSD][310].
 * [lzo][338] - A very fast data compression library. [GNU GPLv2.1][8] or later.
@@ -106,7 +108,6 @@ These are tools to automate the building and testing of projects in C.
   utilities. [Expat][11].
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
   library. [3-clause BSD][6].
-* [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA implementation). [GNU GPLv2.1][8] or later.
 
 ## Concurrent and Parallel ##
 
