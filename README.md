@@ -106,7 +106,7 @@ These are tools to automate the building and testing of projects in C.
   utilities. [Expat][11].
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
   library. [3-clause BSD][6].
-* [clzip][432] - C version of the high-quality data compressor Lzip (LZMA implementation). [GNU GPLv2.1][8] or later.
+* [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA implementation). [GNU GPLv2.1][8] or later.
 
 ## Concurrent and Parallel ##
 
@@ -1238,3 +1238,4 @@ with respect to support for C.
 [430]: https://www.freedesktop.org/wiki/Software/dbus/
 [431]: https://dbus.freedesktop.org/doc/COPYING
 [432]: http://lzip.nongnu.org/clzip.html
+[433]: http://lzip.nongnu.org/lzip.html
