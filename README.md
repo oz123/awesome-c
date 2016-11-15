@@ -654,6 +654,8 @@ This is a list of useful programs to help you write and debug C code which are
 * [GMSL][331] - GNU Make Standard Library; a collection of additional
   functionality for GNU Make. [3-clause BSD][6].
 * [GNU Global][330] - A source code tagging tool. [GNU GPLv3][41] only.
+* [GPP][269] - A general-purpose preprocessor. More versatile than the C
+  preprocessor, but more flexible than m4. [GNU LGPLv3][5] or later.
 * [gprof][86] - A performance analysis tool. Part of GNU
   binutils. [GNU GPLv3][41] or later.
 * [Highlight][333] - Converts source code to formatted text with nice
@@ -1072,7 +1074,7 @@ with respect to support for C.
 [266]: https://www.securecoding.cert.org/confluence/display/c/SEI+CERT+C+Coding+Standard
 [267]: http://blog.pkh.me/p/20-templating-in-c.html
 [268]: http://lipforge.ens-lyon.fr/www/crlibm/index.html
-
+[269]: https://logological.org/gpp
 [270]: https://github.com/docopt/docopt.c
 [271]: http://marek.vavrusa.com/c/memory/2015/02/20/memory/
 [272]: http://kukuruku.co/hub/programming/i-do-not-know-c
