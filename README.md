@@ -92,8 +92,6 @@ These are tools to automate the building and testing of projects in C.
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports
   C11. [GNU GPLv3][41] or later.
 * [PCC][74] - A venerable compiler. Supports C99. [Various licenses][75], all free.
-* [TCC][58] - Tiny C Compiler; a small, fast compiler. Supports C99 (except
-  complex types). [GNU LGPLv2.1][15] only.
 
 ## Compression ##
 
@@ -865,7 +863,7 @@ with respect to support for C.
 [55]: http://dl.acm.org/citation.cfm?id=179241
 [56]: https://github.com/libuv/libuv
 [57]: http://www.gnu.org/software/libc/
-[58]: http://bellard.org/tcc/
+
 [59]: http://check.sourceforge.net/
 [60]: https://lloyd.github.io/yajl/
 [61]: http://directory.fsf.org/wiki/License:ISC
