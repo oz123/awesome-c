@@ -694,13 +694,17 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   binutils. [GNU GPLv3][41] or later.
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer
   vision. [3-clause BSD][6].
+* [CException][298] - An implementation of exceptions. [Expat][11].
 * [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented
   framework for developing and benchmarking [OpenCL][312].
   projects. [GNU LGPLv3][5] only (library), [GNU GPLv3][41] or later (other
   code).
 * [CommonMark][223] - An implementation of the CommonMark
   spec. [Variety of licenses, all free][224].
-* [CException][298] - An implementation of exceptions. [Expat][11].
+* [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
+  for 'freezing' a running application to disk, then restoring
+  it. [GNU GPLv2.1][8] only and [GNU LGPLv2.1][15] only (depending on file -
+  check the code for details).
 * [D-Bus][430] - A simple way for applications to talk to one
   another. [AFLv2.1][431] or [GPLv2.1][8] or later.
 * [Discount][438] - A simple implementation of a Markdown parser. [3-clause BSD][6].
@@ -1256,3 +1260,4 @@ with respect to support for C.
 [437]: http://hardysimpson.github.io/zlog/
 [438]: http://www.pell.portland.or.us/~orc/Code/discount/
 [439]: https://github.com/clMathLibraries/clBLAS
+[440]: https://criu.org/Main_Page
