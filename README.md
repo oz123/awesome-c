@@ -593,6 +593,8 @@ This contains standard C libraries.
 * [cmocka][141] - A unit testing framework with support for mock objects. [Apache2.0][32].
 * [Criterion][246] - A KISS, non-intrusive test framework. [Expat][11].
 * [CUnit][94] - Another unit testing framework. [GNU LGPL2.0][15] only.
+* [greatest][58] - A unit testing library in one file, with no memory
+  allocation. [Expat][11].
 * [minctest][394] - A unit testing microlibrary. [3-clause BSD][6].
 * [minunit][92] - Minimal unit testing framework. [Expat][11].
 * [munit][392] - A small unit testing framework. [Expat][11].
@@ -863,7 +865,7 @@ with respect to support for C.
 [55]: http://dl.acm.org/citation.cfm?id=179241
 [56]: https://github.com/libuv/libuv
 [57]: http://www.gnu.org/software/libc/
-
+[58]: https://github.com/silentbicycle/greatest
 [59]: http://check.sourceforge.net/
 [60]: https://lloyd.github.io/yajl/
 [61]: http://directory.fsf.org/wiki/License:ISC
