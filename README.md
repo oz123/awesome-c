@@ -55,7 +55,7 @@ CONTRIBUTING.md first.
 * [Testing](#testing)
 * [Text Editor Extensions](#text-editor-extensions)
   * [Emacs](#emacs)
-  * [Neovim/Vim](#neovim-vim)
+  * [Neovim/Vim](#neovimvim)
 * [Tools](#tools)
 * [Utilities](#utilities)
 * [Windows Environments](#windows-environments)
