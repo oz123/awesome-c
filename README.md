@@ -82,6 +82,9 @@ These are tools to automate the building and testing of projects in C.
 * [Libtool][172] - A generic library support script. Part of the
   Autotools. [GNU GPLv3][41] or later.
 * [Meson][368] - An extremely fast, user-friendly build system. Based on Ninja. [Apache2.0][32].
+* [Premake][435] - A command-line utility which reads a scripted definition of a
+  software project and uses it to generate project files for Visual Studio and
+  GNU Make. Other targets are also being worked on. [3-clause BSD][6].
 * [tup][326] - A very fast, file-based, cross-platform build
   system. [GNU GPLv2.1][8] only.
 * [zproject][420] - A project generator and build system support. [MPLv2.0][227]
@@ -1243,3 +1246,4 @@ with respect to support for C.
 [432]: http://lzip.nongnu.org/clzip.html
 [433]: http://lzip.nongnu.org/lzip.html
 [434]: https://github.com/openvenues/libpostal
+[435]: https://github.com/premake/premake-core
