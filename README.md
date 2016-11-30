@@ -702,6 +702,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [CException][298] - An implementation of exceptions. [Expat][11].
 * [D-Bus][430] - A simple way for applications to talk to one
   another. [AFLv2.1][431] or [GPLv2.1][8] or later.
+* [Discount][438] - A simple implementation of a Markdown parser. [3-clause BSD][6].
 * [dlx][388] - An implementation of [Knuth's Algorithm X][389], with example
   solvers. [GNU GPLv3][41] or later.
 * [docopt.c][270] - An implementation of a command-line option parser. [Expat][11].
@@ -1252,3 +1253,4 @@ with respect to support for C.
 [435]: https://github.com/premake/premake-core
 [436]: https://github.com/jgm/cmark
 [437]: http://hardysimpson.github.io/zlog/
+[438]: http://www.pell.portland.or.us/~orc/Code/discount/
