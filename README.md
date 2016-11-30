@@ -644,7 +644,7 @@ This is a list of useful programs to help you write and debug C code which are
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [CBMC][309] - C Bounded Model Checker; a tool for verification of array
   bounds, pointer safety and user-specified assertions. [Original BSD][310].
-* [cdecl][348] - An online service to translate C declarations into English and
+* [cdecl][347] - An online service to translate C declarations into English and
   vice versa. Public domain.
 * [cflow][404] - Analyzes a collection of source files and prints a graph
   charting control flow in the program. [GNU GPLv3][41] or later.
