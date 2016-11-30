@@ -786,6 +786,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   files. [Expat][11].
 * [ZeroMQ][416] - A distributed messaging protocol
   implementation. [GNU LGPLv3 with static linking exception][5] only.
+* [zlog][437] - A reliable, pure C logging library. [GNU LGPLv2.1][15] only.
 * [zproto][421] - A protocol framework for ZeroMQ. [Expat][11].
 
 ## Windows Environments ##
@@ -1250,3 +1251,4 @@ with respect to support for C.
 [434]: https://github.com/openvenues/libpostal
 [435]: https://github.com/premake/premake-core
 [436]: https://github.com/jgm/cmark
+[437]: http://hardysimpson.github.io/zlog/
