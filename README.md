@@ -741,6 +741,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libbson][235] - A BSON utility library. [Apache2.0][32].
 * [libCello][96] - A library introducing higher-level programming to
   C. [3-clause BSD][6].
+* [libcmark][436] - A library for parsing the CommonMark dialect of
+  Markdown. [FreeBSD][24].
 * [libcox][373] - A library which permits cross-platform system calls and
   standard utilities across different operating systems. [FreeBSD][24].
 * [libcsv][387] - A simple, streaming CSV parser. [GNU LGPLv2.1][15] or later.
@@ -1247,3 +1249,4 @@ with respect to support for C.
 [433]: http://lzip.nongnu.org/lzip.html
 [434]: https://github.com/openvenues/libpostal
 [435]: https://github.com/premake/premake-core
+[436]: https://github.com/jgm/cmark
