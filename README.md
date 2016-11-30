@@ -752,6 +752,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   library. [GNU LGPLv3][5] only.
 * [libPhenom][31] - An eventing framework for building high-scalability and
   high-performance systems. [Apache2.0][32].
+* [libpostal][434] - A library for parsing and normalization of street addresses
+  around the world. Powered by statistical NLP and open geo data. [Expat][11].
 * [libucl][239] - A universal configuration library parser. [FreeBSD][24].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [libYAML][341] - A YAML 1.1 parser and emitter. [Expat][11].
@@ -1240,3 +1242,4 @@ with respect to support for C.
 [431]: https://dbus.freedesktop.org/doc/COPYING
 [432]: http://lzip.nongnu.org/clzip.html
 [433]: http://lzip.nongnu.org/lzip.html
+[434]: https://github.com/openvenues/libpostal
