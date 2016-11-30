@@ -55,7 +55,7 @@ CONTRIBUTING.md first.
 * [Testing](#testing)
 * [Text Editor Extensions](#text-editor-extensions)
   * [Emacs](#emacs)
-  * [Vim](#vim)
+  * [Neovim/Vim](#neovim-vim)
 * [Tools](#tools)
 * [Utilities](#utilities)
 * [Windows Environments](#windows-environments)
@@ -619,8 +619,9 @@ extensions that make it more pleasant. This is categorized by editor.
 * [YASnippet][150] - A template system, with C templates for common code
   snippets. [GNU GPLv3][41] or later.
 
-### Vim ###
+### Neovim/Vim ###
 
+* [Neomake][441] - Async :make and linting framework for Neovim/Vim. [Expat][11].
 * [Syntastic][186] - Syntax checking and linting. [Do What The Fuck You Want To license][187].
 * [YouCompleteMe][151] - A code completion engine for Vim. [GNU GPLv3][41] only.
 
@@ -1261,3 +1262,4 @@ with respect to support for C.
 [438]: http://www.pell.portland.or.us/~orc/Code/discount/
 [439]: https://github.com/clMathLibraries/clBLAS
 [440]: https://criu.org/Main_Page
+[441]: https://github.com/neomake/neomake
