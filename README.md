@@ -466,6 +466,7 @@ stuff relating to networks and the Internet.
 * [ATLAS][137] - Automatically Tuned Linear Algebra Software. [3-clause BSD][6].
 * [BLAS][135] - Basic Linear Algebra Subprograms; a set of routines that provide
   vector and matrix operations. [BLAS license][136].
+* [clBLAS][439] - BLAS functions written in OpenCL. [Apache2.0][32].
 * [Cuba][316] - A library for multidimensional numerical
   integration. [GNU LGPLv3][5] only.
 * [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized
@@ -1254,3 +1255,4 @@ with respect to support for C.
 [436]: https://github.com/jgm/cmark
 [437]: http://hardysimpson.github.io/zlog/
 [438]: http://www.pell.portland.or.us/~orc/Code/discount/
+[439]: https://github.com/clMathLibraries/clBLAS
