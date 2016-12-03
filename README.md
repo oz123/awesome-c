@@ -246,6 +246,7 @@ These are libraries of all sorts that are useful for game programming.
   creation and management of windows with OpenGL contexts. [X11][100].
 * [GLFW][98] - A multi-platform library for creating windows with OpenGL
   contexts. [zlib][49].
+* [kazmath][446] - A maths library for games. [FreeBSD][24].
 * [libao][376] - A cross-platform audio library with a wide variety of
   outputs. [GNU GPLv2.1][8] or later.
 * [RetroArch][231] - The reference frontend for [libretro][232]. [GNU GPLv3][41]
@@ -1274,3 +1275,4 @@ with respect to support for C.
 [443]: https://github.com/DaveGamble/cJSON
 [444]: https://github.com/ands/lightmapper
 [445]: http://blosc.org/
+[446]: https://github.com/Kazade/kazmath
