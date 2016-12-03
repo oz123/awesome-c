@@ -98,6 +98,8 @@ These are tools to automate the building and testing of projects in C.
 
 ## Compression ##
 
+* [blosc][445] - An extremely fast, multi-threaded, meta-compressor
+  library. Various licenses, all free.
 * [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
   implementation). [GNU GPLv2.1][8] or later.
 * [libbzip2][427] - A patent-free, high-quality data compression
@@ -1271,3 +1273,4 @@ with respect to support for C.
 [442]: http://libdill.org/
 [443]: https://github.com/DaveGamble/cJSON
 [444]: https://github.com/ands/lightmapper
+[445]: http://blosc.org/
