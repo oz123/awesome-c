@@ -20,7 +20,7 @@ CONTRIBUTING.md first.
 * [Build Systems](#build-systems)
 * [Compilers](#compilers)
 * [Compression](#compression)
-* [Concurrent and Parallel](#concurrent-and-parallel)
+* [Concurrent and Parallel](#concurrency-and-parallelism)
 * [Database](#database)
 * [Documentation Generation](#documentation-generation)
 * [Editors](#editors)
@@ -110,7 +110,7 @@ These are tools to automate the building and testing of projects in C.
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
   library. [3-clause BSD][6].
 
-## Concurrent and Parallel ##
+## Concurrency and Parallelism ##
 
 * [cchan][243] - A small library for channel constructs for inter-thread
   communication. Public domain.
@@ -118,6 +118,8 @@ These are tools to automate the building and testing of projects in C.
   non-blocking data structures. [FreeBSD][24].
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for
   C11. [zlip][49].
+* [libdill][442] - A library which makes structured concurrent programming
+  easy. [X11][353].
 * [mill][352] - Go-style concurrency. [X11][353].
 * [MPICH][285] - Another implementation of MPI. [MPICH licence][286].
 * [OpenMP][37] - A set of pragmas designed to allow for easy parallelization of
@@ -1263,3 +1265,4 @@ with respect to support for C.
 [439]: https://github.com/clMathLibraries/clBLAS
 [440]: https://criu.org/Main_Page
 [441]: https://github.com/neomake/neomake
+[442]: http://libdill.org/
