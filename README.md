@@ -302,6 +302,7 @@ similar way to them.
 
 ## JSON ##
 
+* [cJSON][443] - Ultra-lightweight JSON parser. [Expat][11].
 * [Jansson][53] - A library for encoding, decoding and manipulating JSON. [Expat][11].
 * [jsmn][120] - A minimalistic JSON parser. [Expat][11].
 * [json-c][220] - A library for working with JSON. [Expat][11].
@@ -1266,3 +1267,4 @@ with respect to support for C.
 [440]: https://criu.org/Main_Page
 [441]: https://github.com/neomake/neomake
 [442]: http://libdill.org/
+[443]: https://github.com/DaveGamble/cJSON
