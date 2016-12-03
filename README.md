@@ -282,6 +282,8 @@ These are libraries of all sorts that are useful for game programming.
   graphics in your terminal. [Expat][11].
 * [libxmi][174] - A function library for rasterizing 2D vector
   graphics. [GNU GPLv3][41] or later.
+* [lightmapper][444] - A single-file library for lightmap baking, using an
+  existing OpenGL renderer. Public domain.
 * [mozjpeg][200] - An improved JPEG encoder. [3-clause BSD][6].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a
   native C binding. [Various licenses][148].
@@ -1268,3 +1270,4 @@ with respect to support for C.
 [441]: https://github.com/neomake/neomake
 [442]: http://libdill.org/
 [443]: https://github.com/DaveGamble/cJSON
+[444]: https://github.com/ands/lightmapper
