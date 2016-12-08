@@ -20,7 +20,7 @@ CONTRIBUTING.md first.
 * [Build Systems](#build-systems)
 * [Compilers](#compilers)
 * [Compression](#compression)
-* [Concurrent and Parallel](#concurrency-and-parallelism)
+* [Concurrency and Parallelism](#concurrency-and-parallelism)
 * [Database](#database)
 * [Documentation Generation](#documentation-generation)
 * [Editors](#editors)
