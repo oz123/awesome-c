@@ -580,6 +580,8 @@ This contains standard C libraries.
   binaries. [GNU GPLv2.1][8] only.
 * [glibc][57] - The GNU C Library; an implementation of the standard
   library. [GNU LGPLv2.1][15] only.
+* [PDCLib][447] - The Public Domain C Library. Implements most of C99 and some of
+  C11. [CC0][448].
 * [musl][10] - A standard library, compatible with POSIX 2008 and C11. Designed
   for static linking. [Expat][11].
 
@@ -1276,3 +1278,5 @@ with respect to support for C.
 [444]: https://github.com/ands/lightmapper
 [445]: http://blosc.org/
 [446]: https://github.com/Kazade/kazmath
+[447]: http://pdclib.e43.eu/
+[448]: https://creativecommons.org/publicdomain/zero/1.0/
