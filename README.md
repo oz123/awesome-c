@@ -795,6 +795,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [termbox][396] - A library for writing text-based interfaces. [Expat][11].
 * [tinyexpr][395] - A tiny recursive-descent parser, compiler and evaluation
   engine for simple mathematical expressions. [3-clause BSD][6].
+* [Tulip Indicators][449] - A library of functions for technical analysis of
+  financial data. [GNU LGPLv3][5] or later.
 * [uthash][117] - A hash table implementation, allowing existing structures to
   be stored in a hash table easily. [1-clause BSD][118].
 * [vector.h][152] - A header library for typed lists. [Expat][11].
@@ -1280,3 +1282,4 @@ with respect to support for C.
 [446]: https://github.com/Kazade/kazmath
 [447]: http://pdclib.e43.eu/
 [448]: https://creativecommons.org/publicdomain/zero/1.0/
+[449]: https://tulipindicators.org/
