@@ -348,6 +348,7 @@ useful relating to C programming.
 
 * [8 gdb tricks you should know][206]
 * [10 C99 tricks][257]
+* [A comprehensive MPI tutorial resource][454]
 * [Diving into concurrency: trying out mutexes and atomics][202]
 * [Introduction to OpenMP][207] (video)
 * [OpenMP tutorial][264] (for the OpenMP3 standard)
@@ -1301,4 +1302,5 @@ with respect to support for C.
 [450]: https://locklessinc.com/benchmarks_allocator.shtml
 [451]: https://locklessinc.com/
 [452]: https://github.com/distcc/distcc
-[453]: https://github.com/doches/progressbar 
+[453]: https://github.com/doches/progressbar
+[454]: http://mpitutorial.com/
