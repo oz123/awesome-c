@@ -790,6 +790,9 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   high-performance systems. [Apache2.0][32].
 * [libpostal][434] - A library for parsing and normalization of street addresses
   around the world. Powered by statistical NLP and open geo data. [Expat][11].
+* [libtrading][455] - An implementation of network protocols for communicating
+  with exchanges, dark pools and other trading venues. Supports FIX, FIX/FAST
+  and many proprietary protocols. [FreeBSD][24].
 * [libucl][239] - A universal configuration library parser. [FreeBSD][24].
 * [libuv][56] - Cross-platform asynchronous I/O. [Expat][11].
 * [libYAML][341] - A YAML 1.1 parser and emitter. [Expat][11].
@@ -1304,3 +1307,4 @@ with respect to support for C.
 [452]: https://github.com/distcc/distcc
 [453]: https://github.com/doches/progressbar
 [454]: http://mpitutorial.com/
+[455]: http://libtrading.org/ 
