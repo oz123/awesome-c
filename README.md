@@ -586,6 +586,7 @@ integrated, check the Frameworks section.
 * [gnulib][46] - A collection of common GNU code. Various licenses, all free.
 * [libdjb][292] - A collection of libraries doing various things. (Apparently)
   public domain.
+* [par][456] - A bunch of single-file libraries. [Expat][11].
 
 ## Standard Libraries ##
 
@@ -1307,4 +1308,5 @@ with respect to support for C.
 [452]: https://github.com/distcc/distcc
 [453]: https://github.com/doches/progressbar
 [454]: http://mpitutorial.com/
-[455]: http://libtrading.org/ 
+[455]: http://libtrading.org/
+[456]: https://github.com/prideout/par 
