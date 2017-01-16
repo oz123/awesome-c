@@ -801,6 +801,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   networking applications (think node.js for C programmers). [GNU GPLv2.1][8]
   only.
 * [pbc][236] - A protocol buffers library. [Expat][11].
+* [progressbar][453] - An easy-to-use library for displaying text progress bars.
+  [3-clause BSD][6].
 * [rabbitmq-c][228] - A client library for [RabbitMQ][229]. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPLv2.1][8] only.
 * [sort][190] - A collection of sorting routines, designed to run at
@@ -1298,4 +1300,5 @@ with respect to support for C.
 [449]: https://tulipindicators.org/
 [450]: https://locklessinc.com/benchmarks_allocator.shtml
 [451]: https://locklessinc.com/
-[452]: https://github.com/distcc/distcc 
+[452]: https://github.com/distcc/distcc
+[453]: https://github.com/doches/progressbar 
