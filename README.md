@@ -254,6 +254,8 @@ These are libraries of all sorts that are useful for game programming.
   only.
 * [SDL2][50] - A cross-platform library designed to provide low-level access to
   audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [zlib][49].
+* [sdl-gpu][457] - A library for high-performance, modern 2D graphics. Based on
+  SDL. [Expat][11].
 * [SIGIL][429] - Sound, Input and Graphics Integration Library; a simple
   alternative to other libraries for doing all those things. Various licenses,
   all free.
@@ -1309,4 +1311,5 @@ with respect to support for C.
 [453]: https://github.com/doches/progressbar
 [454]: http://mpitutorial.com/
 [455]: http://libtrading.org/
-[456]: https://github.com/prideout/par 
+[456]: https://github.com/prideout/par
+[457]: https://github.com/grimfang4/sdl-gpu 
