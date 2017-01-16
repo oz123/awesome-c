@@ -146,10 +146,10 @@ This lists databases and data stores with C APIs.
 * [BerkeleyDB][380] - A library for a high-performance embedded database for
   key-value data. [GNU AGPLv3][381] only.
 * [Hiredis][201] - A minimalistic client library for Redis. [3-clause BSD][6].
+* [libmongoc][233] - A high-performance client library for [MongoDB][234]. [Apache2.0][32].
 * [LMDB][105] - An ultra-fast, ultra-compact key-value embedded data store. [newOpenLDAP][106].
 * [MariaDB][25] - A robust, scalable and reliable SQL server, designed to be a
   drop-in replacement for MySQL. [3-clause BSD][6].
-* [mongo-c-driver][233] - A high-performance client library for [MongoDB][234]. [Apache2.0][32].
 * [PostgreSQL][121] - A powerful object-relational database system. [PostgreSQL licence][122].
 * [recutils][360] - A set of tools and a library for accessing human-editable,
   plaintext database files called recfiles. [GNU GPLv3][41] or later.
@@ -1078,7 +1078,7 @@ with respect to support for C.
 [230]: https://github.com/madler/zlib
 [231]: https://github.com/libretro/RetroArch
 [232]: http://www.libretro.com/
-[233]: https://github.com/mongodb/mongo-c-driver
+[233]: http://mongoc.org/
 [234]: https://www.mongodb.org/
 [235]: https://github.com/mongodb/libbson
 [236]: https://github.com/cloudwu/pbc
