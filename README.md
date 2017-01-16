@@ -732,8 +732,10 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   it. [GNU GPLv2.1][8] only and [GNU LGPLv2.1][15] only (depending on file -
   check the code for details).
 * [D-Bus][430] - A simple way for applications to talk to one
-  another. [AFLv2.1][431] or [GPLv2.1][8] or later.
+  another. [AFLv2.1][431] or [GNU GPLv2.1][8] or later.
 * [Discount][438] - A simple implementation of a Markdown parser. [3-clause BSD][6].
+* [distcc][452] - A program to allow builds to be distributed among several
+  machines. Supports C. [GNU GPLv2.1][8] or later.
 * [dlx][388] - An implementation of [Knuth's Algorithm X][389], with example
   solvers. [GNU GPLv3][41] or later.
 * [docopt.c][270] - An implementation of a command-line option parser. [Expat][11].
@@ -1296,3 +1298,4 @@ with respect to support for C.
 [449]: https://tulipindicators.org/
 [450]: https://locklessinc.com/benchmarks_allocator.shtml
 [451]: https://locklessinc.com/
+[452]: https://github.com/distcc/distcc 
