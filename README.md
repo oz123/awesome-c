@@ -42,6 +42,7 @@ CONTRIBUTING.md first.
   * [Beginner books](#beginner-books)
   * [Intermediate books](#intermediate-books)
   * [Advanced books](#advanced-books)
+* [Memory Management](#memory-management)
 * [Multimedia](#multimedia)
 * [Networking and Internet](#networking-and-internet)
   * [Web Frameworks](#web-frameworks)
@@ -322,12 +323,14 @@ useful relating to C programming.
 
 ### Reference resources online ###
 
-* [SEI CERT C Coding Standard][266]
+* [Benchmarks of the Lockless Memory Allocator][450] (compares to other
+  implementations)
 * [C FAQ - comp.lang.c Frequently Asked Questions][262]
 * [Comparison of C/POSIX standard library implementations for GNU/Linux][362]
 * [Draft C11 standard][247]
 * [GNU C Reference Manual][329]
 * [Robert Pike's notes on programming in C][273]
+* [SEI CERT C Coding Standard][266]
 
 ### Beginner resources online ###
 
@@ -397,6 +400,18 @@ useful relating to C programming.
 
 * [Expert C Programming: Deep C Secrets][55] - An interesting, in-depth and
   *entertaining* look at the innards of C.
+
+## Memory Management ##
+
+Whether a different, faster ``malloc`` or outright garbage collection, anything
+to do with managing C memory lives here.
+
+* [Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various
+  licenses, all free.
+* [jemalloc][293] - A malloc implementation that emphasizes avoidance of
+  fragmentation and scalable concurrency support. [FreeBSD][24].
+* [Lockless Memory Allocator][451] - An efficient memory allocator. [GNU
+  GPLv3][41] or later.
 
 ## Multimedia ##
 
@@ -741,14 +756,10 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [gperftools][295] - A collection of utilities for measuring and improving
   performance. [3-clause BSD][6].
 * [hammer][356] - Parser combinators for binary formats. [GNU GPLv2.1][8] only.
-* [Hans Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various
-  licenses, all free.
 * [Hoedown][405] - A fully-standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [Expat][11].
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [iniparser][336] - A parser for .ini files. [Expat][11].
-* [jemalloc][293] - A malloc implementation that emphasizes avoidance of
-  fragmentation and scalable concurrency support. [FreeBSD][24].
 * [jwHash][350] - A fast hashtable implementation. [Apache2.0][32].
 * [kdtree][337] - A simple library for working with KD-trees. [3-clause BSD][6].
 * [Kitsune][355] - An efficient, general-purpose framework for dynamic software
@@ -1283,3 +1294,5 @@ with respect to support for C.
 [447]: http://pdclib.e43.eu/
 [448]: https://creativecommons.org/publicdomain/zero/1.0/
 [449]: https://tulipindicators.org/
+[450]: https://locklessinc.com/benchmarks_allocator.shtml
+[451]: https://locklessinc.com/
