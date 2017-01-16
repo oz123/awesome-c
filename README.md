@@ -1016,7 +1016,7 @@ with respect to support for C.
 [168]: http://www.webdav.org/neon/
 [169]: http://mihl.sourceforge.net/
 [170]: http://www.coralbits.com/libonion/
-[171]: https://github.com/cesanta/mongoose
+[171]: https://docs.cesanta.com/mongoose/master/
 [172]: https://gnu.org/software/libtool/
 [173]: https://gnu.org/software/libunistring/
 [174]: https://gnu.org/software/libxmi/
