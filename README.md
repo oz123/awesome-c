@@ -666,8 +666,6 @@ This is a list of useful programs to help you write and debug C code which are
   and automatically produces a much smaller C file that has the same
   property. Intended to help create minimal bug-demonstrating cases in complex
   code. [3-clause BSD][6].
-* [CScout][410] - A source code analyzer and refactoring browser for C
-  programs. [GNU GPLv3][41] only.
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
 * [CBMC][309] - C Bounded Model Checker; a tool for verification of array
   bounds, pointer safety and user-specified assertions. [Original BSD][310].
@@ -679,8 +677,12 @@ This is a list of useful programs to help you write and debug C code which are
   Graphviz. Any GNU GPL version (due to underspecification in the file).
 * [Complexity][307] - A tool for measuring the complexity of source
   code. [GNU GPLv3][41] or later.
+* [CScout][410] - A source code analyzer and refactoring browser for C
+  programs. [GNU GPLv3][41] only.
 * [DDD][320] - A graphical front-end for a range of command-line
   debuggers. [GNU GPLv3][41] or later.
+* [distcc][452] - A program to allow builds to be distributed among several
+  machines. Supports C. [GNU GPLv2.1][8] or later.
 * [GDB][87] - The GNU Project debugger. [GNU GPLv3][41] or later.
 * [Glade][328] - A RAD tool to enable quick development of GTK+
   GUIs. [GNU GPLv2.1][8] only.
@@ -735,8 +737,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [D-Bus][430] - A simple way for applications to talk to one
   another. [AFLv2.1][431] or [GNU GPLv2.1][8] or later.
 * [Discount][438] - A simple implementation of a Markdown parser. [3-clause BSD][6].
-* [distcc][452] - A program to allow builds to be distributed among several
-  machines. Supports C. [GNU GPLv2.1][8] or later.
 * [dlx][388] - An implementation of [Knuth's Algorithm X][389], with example
   solvers. [GNU GPLv3][41] or later.
 * [docopt.c][270] - An implementation of a command-line option parser. [Expat][11].
