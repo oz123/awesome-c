@@ -426,6 +426,8 @@ to do with managing C memory lives here.
 * [libmpv][348] - A music-playing library. Compile with ``./waf configure
   --disable-cplayer --enable-libmpv-shared`` to not have the music
   player. [GNU GPLv2.1][8] or later.
+* [libsndfile][457] - A library for reading and writing sound files. Supports
+  many formats. [GNU LGPLv2.1][15] only or [GNU LGPLv3][5] only.
 * [libsoundio][372] - A library for cross-platform, real-time audio input and
   output. Has a range of back-ends. [Expat][11].
 * [lodepng][69] - A simple PNG image decoder and encoder, requiring no other
@@ -1312,4 +1314,5 @@ with respect to support for C.
 [454]: http://mpitutorial.com/
 [455]: http://libtrading.org/
 [456]: https://github.com/prideout/par
-[457]: https://github.com/grimfang4/sdl-gpu 
+[457]: https://github.com/grimfang4/sdl-gpu
+[458]: http://www.mega-nerd.com/libsndfile/ 
