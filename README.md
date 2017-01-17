@@ -129,6 +129,8 @@ These are tools to automate the building and testing of projects in C.
 * [OpenMP][37] - A set of pragmas designed to allow for easy parallelization of
   code. Standard (licensing not applicable).
 * [OpenMPI][284] - A message passing interface implementation. [3-clause BSD][6].
+* [pal][459] - An optimized library for maths, parallel processing and data
+  movement. [Apache2.0][32].
 * [PETSc][282] - A suite of data structures and routines for scalable parallel
   solution of scientific applications modelled by partial differential
   equations. [FreeBSD][24].
@@ -1316,3 +1318,4 @@ with respect to support for C.
 [456]: https://github.com/prideout/par
 [457]: https://github.com/grimfang4/sdl-gpu
 [458]: http://www.mega-nerd.com/libsndfile/
+[459]: https://github.com/parallella/pal 
