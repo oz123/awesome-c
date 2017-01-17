@@ -103,6 +103,7 @@ These are tools to automate the building and testing of projects in C.
   library. Various licenses, all free.
 * [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
   implementation). [GNU GPLv2.1][8] or later.
+* [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [libbzip2][427] - A patent-free, high-quality data compression
   library. [Original BSD][310].
 * [lzo][338] - A very fast data compression library. [GNU GPLv2.1][8] or later.
@@ -426,7 +427,7 @@ to do with managing C memory lives here.
 * [libmpv][348] - A music-playing library. Compile with ``./waf configure
   --disable-cplayer --enable-libmpv-shared`` to not have the music
   player. [GNU GPLv2.1][8] or later.
-* [libsndfile][457] - A library for reading and writing sound files. Supports
+* [libsndfile][458] - A library for reading and writing sound files. Supports
   many formats. [GNU LGPLv2.1][15] only or [GNU LGPLv3][5] only.
 * [libsoundio][372] - A library for cross-platform, real-time audio input and
   output. Has a range of back-ends. [Expat][11].
@@ -766,7 +767,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [hammer][356] - Parser combinators for binary formats. [GNU GPLv2.1][8] only.
 * [Hoedown][405] - A fully-standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [Expat][11].
-* [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [iniparser][336] - A parser for .ini files. [Expat][11].
 * [jwHash][350] - A fast hashtable implementation. [Apache2.0][32].
 * [kdtree][337] - A simple library for working with KD-trees. [3-clause BSD][6].
@@ -1315,4 +1315,4 @@ with respect to support for C.
 [455]: http://libtrading.org/
 [456]: https://github.com/prideout/par
 [457]: https://github.com/grimfang4/sdl-gpu
-[458]: http://www.mega-nerd.com/libsndfile/ 
+[458]: http://www.mega-nerd.com/libsndfile/
