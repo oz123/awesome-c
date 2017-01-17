@@ -476,9 +476,9 @@ stuff relating to networks and the Internet.
 * [oSip][179] - A SIP implementation without additional
   dependencies. [GNU LGPLv2.1][15] or later.
 * [socket99][203] - A C99 wrapper for the BSD sockets API. [ISC][61].
-* [Tox][145] - A communication platform, designed to be a
-  Skype-killer. [GNU GPLv3][41] only.
 * [twitc][237] - A mini library for interacting with the Twitter OAuth API. [Expat][11].
+* [Wslay][460] - A WebSocket library. Implements version 13 of the WebSocket
+  protocol, as described in RFC 6455. [Expat][11].
 * [zyre][419] - A framework for proximity-based peer-to-peer applications. [MPLv2.0][227].
 
 ### Web Frameworks ###
@@ -1005,7 +1005,7 @@ with respect to support for C.
 [142]: https://www.gnu.org/software/libgcrypt/
 [143]: https://github.com/libressl-portable/
 [144]: http://software.schmorp.de/pkg/libev.html
-[145]: https://github.com/irungentoo/toxcore
+
 [146]: http://en.wikipedia.org/wiki/POSIX_Threads
 [147]: https://www.opengl.org/
 [148]: http://www.sgi.com/tech/opengl/?/license.html
@@ -1318,4 +1318,5 @@ with respect to support for C.
 [456]: https://github.com/prideout/par
 [457]: https://github.com/grimfang4/sdl-gpu
 [458]: http://www.mega-nerd.com/libsndfile/
-[459]: https://github.com/parallella/pal 
+[459]: https://github.com/parallella/pal
+[460]: https://tatsuhiro-t.github.io/wslay/
