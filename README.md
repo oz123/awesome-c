@@ -521,6 +521,10 @@ stuff relating to networks and the Internet.
   library. [GNU GPLv3][41] only.
 * [KISS FFT][71] - A very simple fast Fourier transform library. [3-clause BSD][6].
 * [LAPACKE][133] - An interface to [LAPACK][134]. [3-clause BSD][6].
+* [LibTomMath][461] - A portable, number-theoretic, multiple-precision integer
+  library. Supports algebra, digit manipulation, modular reductions, and various
+  number-theoretic routines. Public domain.
+* [LibTomPoly][463] - A polynomial-related maths library. Public domain.
 * [PARI/GP][256] - A computer algebra system for number theory; includes a
   compiler to C. [GNU GPLv2.1][8] or later.
 * [PETSc][282] - A suite of data structures and routines for scalable parallel
@@ -528,6 +532,8 @@ stuff relating to networks and the Internet.
   equations. [FreeBSD][24].
 * [SLEPc][283] - A software library for the solution of large, sparse eigenvalue
   problems on parallel computers. [GNU LGPLv3][5] only.
+* [TomsFastMath][462] - A set of assembly-level-optimized maths operations,
+  suitable for cryptographic use. Public domain.
 * [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [3-clause BSD][6].
 
 ## Regex ##
@@ -1320,3 +1326,6 @@ with respect to support for C.
 [458]: http://www.mega-nerd.com/libsndfile/
 [459]: https://github.com/parallella/pal
 [460]: https://tatsuhiro-t.github.io/wslay/
+[461]: http://www.libtom.net/LibTomMath/
+[462]: http://www.libtom.net/TomsFastMath/
+[463]: http://www.libtom.net/LibTomPoly/
