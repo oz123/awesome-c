@@ -22,6 +22,7 @@ CONTRIBUTING.md first.
 * [Compression](#compression)
 * [Concurrency and Parallelism](#concurrency-and-parallelism)
 * [Database](#database)
+* [Debugging](#debugging)
 * [Documentation Generation](#documentation-generation)
 * [Editors](#editors)
 * [Frameworks](#frameworks)
@@ -92,7 +93,13 @@ These are tools to automate the building and testing of projects in C.
 
 ## Compilers ##
 
+This section also includes compiler-related and compilation-related tooling.
+
+* [ccache][466] - A compiler cache designed to speed up recompilation. [GNU
+  GPLv3][41] or later.
 * [Clang][38] - A compiler for LLVM. Supports C11. [NCSA][39].
+* [distcc][452] - A program to allow builds to be distributed among several
+  machines. [GNU GPLv2.1][8] or later.
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports
   C11. [GNU GPLv3][41] or later.
 * [PCC][74] - A venerable compiler. Supports C99. [Various licenses][75], all free.
@@ -111,6 +118,7 @@ These are tools to automate the building and testing of projects in C.
 * [smaz][364] - An efficient string compression library. [3-clause BSD][6].
 * [squash][393] - A compression abstraction library, complete with some
   utilities. [Expat][11].
+* [TurboPFor][471] - Fastest integer compression. [GNU GPLv2.1][8] or later.
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
   library. [3-clause BSD][6].
 
@@ -118,6 +126,8 @@ These are tools to automate the building and testing of projects in C.
 
 * [cchan][243] - A small library for channel constructs for inter-thread
   communication. Public domain.
+* [checkedthreads][465] - No race condition goes unnoticed! A simple library for
+  parallelism, with built-in checking for race conditions. [FreeBSD][24].
 * [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and
   non-blocking data structures. [FreeBSD][24].
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for
@@ -162,6 +172,35 @@ This lists databases and data stores with C APIs.
   SQL database engine. Public domain.
 * [UnQLite][23] - A self-contained, serverless, zero-configuration,
   transactional NoSQL engine. [FreeBSD][24].
+
+## Debugging ##
+
+Because we all have to do it sometimes. This includes various tools for making
+debugging easier or better, as well as libraries or code that allows better
+debugging work.
+
+* [C-Reduce][403] - A tool that takes a large C file with a property of interest
+  and automatically produces a much smaller C file that has the same
+  property. Intended to help create minimal bug-demonstrating cases in complex
+  code. [3-clause BSD][6].
+* [CBMC][309] - C Bounded Model Checker; a tool for verification of array
+  bounds, pointer safety and user-specified assertions. [Original BSD][310].
+* [cflow][404] - Analyzes a collection of source files and prints a graph
+  charting control flow in the program. [GNU GPLv3][41] or later.
+* [Complexity][307] - A tool for measuring the complexity of source
+  code. [GNU GPLv3][41] or later.
+* [CScout][410] - A source code analyzer and refactoring browser for C
+  programs. [GNU GPLv3][41] only.
+* [DDD][320] - A graphical front-end for a range of command-line
+  debuggers. [GNU GPLv3][41] or later.
+* [debug][467] - A one-header library for easier 'printf debugging'.
+  [Expat][11].
+* [GDB][87] - The GNU Project debugger. [GNU GPLv3][41] or later.
+* [lldb][468] - The LLVM debugger. [NCSA][39].
+* [rr][95] - A debugger that records non-deterministic executions to allow for
+  deterministic debugging. [FreeBSD][24].
+* [Valgrind][85] - A range of dynamic analysis tools, including a leak
+  checker. [GNU GPLv2.1][8] only.
 
 ## Documentation Generation ##
 
@@ -469,6 +508,8 @@ stuff relating to networks and the Internet.
   attachments without size limits. [GNU GPLv3][41] or later.
 * [libsoup][167] - A GNOME HTTP client/server library. Uses
   GObject. [GNU LGPLv2.1][15] only.
+* [LibVNCServer][464] - Cross-platform libraries to implement VNC server and/or
+  client functionality. [GNU GPLv2.1][8] or later.
 * [lwan][199] - An experimental, scalable, high-performance HTTP
   server. [GNU GPLv2.1][8] only.
 * [mongoose][171] - Embedded web server. [GNU GPLv2.1][8] only.
@@ -628,11 +669,15 @@ This contains standard C libraries.
 * [SDS][29] - Simple Dynamic Strings; a library for handling strings in a
   simpler way, but one that is compatible with normal C string
   functions. Available via [clib][26]. [FreeBSD][24].
+* [utf8.h][472] - Single-header UTF-8 library, designed to mimic C-style string
+  functions. Public domain.
+* [utf8proc][469] - A library for processing UTF-8 data. [Expat][11].
 
 ## Testing ##
 
 * [CHEAT][84] - A very simple unit testing framework. [FreeBSD][24].
 * [Check][59] - A unit testing framework. [GNU LGPLv2.1][15] only.
+* [clar][470] - A clear and simple unit testing framework. [Expat][11].
 * [CMock][297] - A mock/stub generator. [Expat][11].
 * [cmocka][141] - A unit testing framework with support for mock objects. [Apache2.0][32].
 * [Criterion][246] - A KISS, non-intrusive test framework. [Expat][11].
@@ -676,28 +721,11 @@ This is a list of useful programs to help you write and debug C code which are
 * [biicode][304] - A modern dependency manager. [Expat][11].
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also
   has shebang support. [Expat][11].
-* [C-Reduce][403] - A tool that takes a large C file with a property of interest
-  and automatically produces a much smaller C file that has the same
-  property. Intended to help create minimal bug-demonstrating cases in complex
-  code. [3-clause BSD][6].
 * [c99sh][113] - Run C files using hash-bang. [FreeBSD][24].
-* [CBMC][309] - C Bounded Model Checker; a tool for verification of array
-  bounds, pointer safety and user-specified assertions. [Original BSD][310].
 * [cdecl][347] - An online service to translate C declarations into English and
   vice versa. Public domain.
-* [cflow][404] - Analyzes a collection of source files and prints a graph
-  charting control flow in the program. [GNU GPLv3][41] or later.
 * [cinclude2dot][280] - Graphs include dependencies in a project using
   Graphviz. Any GNU GPL version (due to underspecification in the file).
-* [Complexity][307] - A tool for measuring the complexity of source
-  code. [GNU GPLv3][41] or later.
-* [CScout][410] - A source code analyzer and refactoring browser for C
-  programs. [GNU GPLv3][41] only.
-* [DDD][320] - A graphical front-end for a range of command-line
-  debuggers. [GNU GPLv3][41] or later.
-* [distcc][452] - A program to allow builds to be distributed among several
-  machines. Supports C. [GNU GPLv2.1][8] or later.
-* [GDB][87] - The GNU Project debugger. [GNU GPLv3][41] or later.
 * [Glade][328] - A RAD tool to enable quick development of GTK+
   GUIs. [GNU GPLv2.1][8] only.
 * [GMSL][331] - GNU Make Standard Library; a collection of additional
@@ -716,13 +744,9 @@ This is a list of useful programs to help you write and debug C code which are
   read. Also converts from one style of source to another. [GNU GPLv3][41] or
   later.
 * [qo][274] - A build system that works without a separate config file. [Expat][11].
-* [rr][95] - A debugger that records non-deterministic executions to allow for
-  deterministic debugging. [FreeBSD][24].
 * [unifdef][290] - Removes #ifdef and #if directives with their delimited text
   without touching any other part of the file. [3-clause BSD][6]
   and [FreeBSD][24].
-* [Valgrind][85] - A range of dynamic analysis tools, including a leak
-  checker. [GNU GPLv2.1][8] only.
 
 ## Utilities ##
 
@@ -827,6 +851,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [termbox][396] - A library for writing text-based interfaces. [Expat][11].
 * [tinyexpr][395] - A tiny recursive-descent parser, compiler and evaluation
   engine for simple mathematical expressions. [3-clause BSD][6].
+* [tpl][473] - A small binary serialization library. [Expat][11].
 * [Tulip Indicators][449] - A library of functions for technical analysis of
   financial data. [GNU LGPLv3][5] or later.
 * [uthash][117] - A hash table implementation, allowing existing structures to
@@ -1329,3 +1354,13 @@ with respect to support for C.
 [461]: http://www.libtom.net/LibTomMath/
 [462]: http://www.libtom.net/TomsFastMath/
 [463]: http://www.libtom.net/LibTomPoly/
+[464]: https://github.com/LibVNC/libvncserver
+[465]: https://github.com/yosefk/checkedthreads
+[466]: https://ccache.samba.org/
+[467]: https://github.com/esneider/debug
+[468]: https://lldb.llvm.org/
+[469]: https://github.com/JuliaLang/utf8proc
+[470]: https://github.com/vmg/clar
+[471]: https://github.com/powturbo/TurboPFor
+[472]: https://github.com/sheredom/utf8.h
+[473]: https://github.com/troydhanson/tpl
