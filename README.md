@@ -147,8 +147,6 @@ This section also includes compiler-related and compilation-related tooling.
 * [pth][180] - A portable implementation for non-preemptive priority-based
   scheduling for multiple threads of execution. [GNU GPLv3][41] or later.
 * [pthreads][146] - The POSIX thread library. Standard (no license applicable).
-* [SLEPc][283] - A software library for the solution of large, sparse eigenvalue
-  problems on parallel computers. [GNU LGPLv3][5] only.
 * [TinyCThread][115] - A portable, small implementation of the C11 threads
   API. [zlib][49].
 
