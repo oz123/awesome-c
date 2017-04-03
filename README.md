@@ -17,6 +17,7 @@ CONTRIBUTING.md first.
 
 ## Contents ##
 
+* [AI](#ai)
 * [Build Systems](#build-systems)
 * [Compilers](#compilers)
 * [Compression](#compression)
@@ -48,6 +49,7 @@ CONTRIBUTING.md first.
 * [Networking and Internet](#networking-and-internet)
   * [Web Frameworks](#web-frameworks)
 * [Numerical](#numerical)
+* [Profiling](#profiling)
 * [Regex](#regex)
 * [Security](#security)
 * [Serialization](#serialization)
@@ -62,6 +64,18 @@ CONTRIBUTING.md first.
 * [Utilities](#utilities)
 * [Windows Environments](#windows-environments)
 * [XML](#xml)
+
+## AI ##
+
+This includes such things as computer vision, neural nets, machine learning, and
+other such things. Basically, if your university calls it AI, it lives here.
+
+* [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer
+  vision. [3-clause BSD][6].
+* [FANN][325] - Fast Artifical Neural Network library; an implementation of
+  neural networks. [GNU GPLv2.1][8] only.
+* [Genann][412] - A simple ANN in C89, without additional dependencies. [zlib][49].
+* [libdeep][477] - A deep learning library. [3-clause BSD][6].
 
 ## Build Systems ##
 
@@ -134,6 +148,11 @@ This section also includes compiler-related and compilation-related tooling.
   C11. [zlip][49].
 * [libdill][442] - A library which makes structured concurrent programming
   easy. [X11][353].
+* [libhl][478] - A library implementing a thread-safe API to manage a range of data
+  structures. Also provides some supporting functions and structures for
+  concurrent and lockfree programming. [GNU LGPLv3][5] only.
+* [liburcu][474] - A data synchronization library, which scales linearly with the
+  number of cores. [GNU LGPLv2.1][15] or later.
 * [mill][352] - Go-style concurrency. [X11][353].
 * [MPICH][285] - Another implementation of MPI. [MPICH licence][286].
 * [OpenMP][37] - A set of pragmas designed to allow for easy parallelization of
@@ -245,6 +264,8 @@ expect of a 'modern' standard library.
   portable, efficient and powerful. [GNU LGPLv2.1][15] only.
 * [GIO][2] - A modern and easy-to-use VFS API. [GNU LGPLv2.1][15] only.
 * [GObject][3] - An object-oriented system and object model. [GNU LGPLv2.1][15] only.
+* [libcork][476] - Utility functions and structures, designed for
+  resource-constrained systems. Can be embedded. [3-clause BSD][6].
 * [libnih][93] - A lightweight library of functions and
   structures. [GNU GPLv2.1][8] only.
 * [libU][28] - A small library of basic utilities, including memory allocation,
@@ -575,6 +596,16 @@ stuff relating to networks and the Internet.
   suitable for cryptographic use. Public domain.
 * [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [3-clause BSD][6].
 
+## Profiling ##
+
+* [gperftools][295] - A collection of utilities for measuring and improving
+  performance. [3-clause BSD][6].
+* [gprof][86] - A performance analysis tool. Part of GNU binutils. 
+  [GNU GPLv3][41] or later.
+* [OProfile][475] - A statistical profiler for GNU/Linux. Can profile any code
+  (including the kernel!) with low overhead and without recompilation. [GNU
+  GPLv2.1][8] only.
+
 ## Regex ##
 
 > "Some people, when confronted with a problem, think 'I know, I'll use regular
@@ -608,6 +639,8 @@ frameworks, as well as various security-related things.
 * [libtomcrypt][299] - A fairly comprehensive, modular and portable
   cryptographic toolkit. Public domain.
 * [mbed TLS][291] - Another crypto implementation. [Apache2.0][32].
+* [MIRACL][480] - Multiprecision Integer and Rational Arithmetic Cryptographic
+  Library; an SDK for elliptic curve cryptography. [GNU AGPLv3][381] or later.
 * [s2n][359] - A C99 implementation of the TLS/SSL protocols, designed to be
   simple, fast and with security as a priority. [Apache2.0][32].
 
@@ -664,6 +697,7 @@ This contains standard C libraries.
   strings. [GNU LGPLv3][5] only.
 * [libgiconv][163] - A text conversion library. [GNU LGPLv2.1][15] only
   (library), [GNU GPLv3][41] only (*iconv* program).
+* [librope][479] - A UTF-8 rope ('heavy' string) library. [Expat][11].
 * [SDS][29] - Simple Dynamic Strings; a library for handling strings in a
   simpler way, but one that is compatible with normal C string
   functions. Available via [clib][26]. [FreeBSD][24].
@@ -731,8 +765,6 @@ This is a list of useful programs to help you write and debug C code which are
 * [GNU Global][330] - A source code tagging tool. [GNU GPLv3][41] only.
 * [GPP][269] - A general-purpose preprocessor. More versatile than the C
   preprocessor, but more flexible than m4. [GNU LGPLv3][5] or later.
-* [gprof][86] - A performance analysis tool. Part of GNU
-  binutils. [GNU GPLv3][41] or later.
 * [Highlight][333] - Converts source code to formatted text with nice
   highlighting. [GNU GPLv3][41] only.
 * [include-what-you-use][289] - Helps find unecessary inclusions and make
@@ -757,15 +789,13 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   attributes. [GNU GPLv2.1][8] or later.
 * [bfd][157] - A library for manipulating binary object files. Part of GNU
   binutils. [GNU GPLv3][41] or later.
-* [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer
-  vision. [3-clause BSD][6].
 * [CException][298] - An implementation of exceptions. [Expat][11].
 * [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented
   framework for developing and benchmarking [OpenCL][312].
   projects. [GNU LGPLv3][5] only (library), [GNU GPLv3][41] or later (other
   code).
-* [CommonMark][223] - An implementation of the CommonMark
-  spec. [Variety of licenses, all free][224].
+* [CommonMark][223] - An implementation of the CommonMark spec. 
+  [Variety of licenses, all free][224].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
   for 'freezing' a running application to disk, then restoring
   it. [GNU GPLv2.1][8] only and [GNU LGPLv2.1][15] only (depending on file -
@@ -777,13 +807,10 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   solvers. [GNU GPLv3][41] or later.
 * [docopt.c][270] - An implementation of a command-line option parser. [Expat][11].
 * [dyncall][281] - Another foreign function interface library. [Expat][11].
-* [FANN][325] - Fast Artifical Neural Network library; an implementation of
-  neural networks. [GNU GPLv2.1][8] only.
 * [Firm][361] - A library that provides a graph-based intermediate
   representation, optimizations and assembly code generation suitable for use in
   compilers. Comes with an example C front-end under the same
   license. [GNU LGPLv2.1][15] only.
-* [Genann][412] - A simple ANN in C89, without additional dependencies. [zlib][49].
 * [gjrand][327] - A library of random-number generation
   routines. [GNU GPLv2.1][8] only or [GNU GPLv3][41] only (user's choice).
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI
@@ -792,8 +819,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   strings. Outputs C code. [GNU GPLv3][41] or later.
 * [GNU Libffcall][162] - A collection of libraries for building foreign function
   interfaces. [GNU GPLv3][41] or later.
-* [gperftools][295] - A collection of utilities for measuring and improving
-  performance. [3-clause BSD][6].
 * [hammer][356] - Parser combinators for binary formats. [GNU GPLv2.1][8] only.
 * [Hoedown][405] - A fully-standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [Expat][11].
@@ -844,7 +869,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   [3-clause BSD][6].
 * [rabbitmq-c][228] - A client library for [RabbitMQ][229]. [Expat][11].
 * [Ragel][54] - A DSL for state machines that compiles to C. [GNU GPLv2.1][8] only.
-* [sort][190] - A collection of sorting routines, designed to run at
+* [sort][190] - A collection of sorting routines, which type-specialize at
   compile-time with a user-defined type. [Expat][11].
 * [termbox][396] - A library for writing text-based interfaces. [Expat][11].
 * [tinyexpr][395] - A tiny recursive-descent parser, compiler and evaluation
@@ -1362,3 +1387,10 @@ with respect to support for C.
 [471]: https://github.com/powturbo/TurboPFor
 [472]: https://github.com/sheredom/utf8.h
 [473]: https://github.com/troydhanson/tpl
+[474]: http://liburcu.org/
+[475]: http://oprofile.sourceforge.net/news/
+[476]: http://libcork.readthedocs.io/en/0.14.0/
+[477]: https://github.com/bashrc/libdeep
+[478]: https://github.com/xant/libhl
+[479]: https://github.com/josephg/librope
+[480]: https://github.com/miracl/MIRACL
