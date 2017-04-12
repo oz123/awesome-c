@@ -52,7 +52,6 @@ CONTRIBUTING.md first.
 * [Numerical](#numerical)
 * [Profiling](#profiling)
 * [Regex](#regex)
-* [Security](#security)
 * [Serialization](#serialization)
 * [Source Code Collections](#source-code-collections)
 * [Standard Libraries](#standard-libraries)
@@ -528,9 +527,6 @@ to do with managing C memory lives here.
 
 ## Networking and Internet ##
 
-The [Security](#security) section also contains useful resources for making
-stuff relating to networks and the Internet.
-
 * [asnlc][138] - A compiler of ASN.1 specifications into C source code. [FreeBSD][24].
 * [CHL][422] - C Hypertext Library - A library for writing web applications in
   C. [GNU GPLv3][41] only.
@@ -652,10 +648,6 @@ stuff relating to networks and the Internet.
 * [SLRE][80] - Super Light Regular Expression library; a very small
   implementation of a subset of Perl regex syntax. [GNU GPLv2.1][8] only.
 * [TRE][82] - A POSIX-compliant, feature-full regex library. [FreeBSD][24].
-
-## Security ##
-
-* [libgss][161] - Generic Security Service. [GNU GPLv3][41] or later.
 
 ## Serialization ##
 
@@ -850,6 +842,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libcsv][387] - A simple, streaming CSV parser. [GNU LGPLv2.1][15] or later.
 * [libffi][128] - A portable foreign-function interface library. [Expat][11].
 * [libgit2][108] - Pure C implementation of Git. [GNU GPL2 only, with a linking exception][109].
+* [libgss][161] - Generic Security Service. [GNU GPLv3][41] or later.
 * [liblfds][411] - A portable lock-free data structure library. Public domain
   (more exactly, whatever license you want).
 * [libimobiledevice][354] - A cross-platform protocol library to communicate
