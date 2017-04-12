@@ -124,6 +124,7 @@ This section also includes compiler-related and compilation-related tooling.
   library. Various licenses, all free.
 * [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
   implementation). [GNU GPLv2.1][8] or later.
+* [CRoaring][481] - C implementation of [Roaring bitmaps][482]. [Apache2.0][32].
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [libbzip2][427] - A patent-free, high-quality data compression
   library. [Original BSD][310].
@@ -1394,3 +1395,5 @@ with respect to support for C.
 [478]: https://github.com/xant/libhl
 [479]: https://github.com/josephg/librope
 [480]: https://github.com/miracl/MIRACL
+[481]: https://github.com/RoaringBitmap/CRoaring
+[482]: http://roaringbitmap.org/
