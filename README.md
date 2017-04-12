@@ -591,6 +591,8 @@ stuff relating to networks and the Internet.
 * [PETSc][282] - A suite of data structures and routines for scalable parallel
   solution of scientific applications modelled by partial differential
   equations. [FreeBSD][24].
+* [SCS][483] - Splitting Conic Solver; a numerical optimization package for
+  solving large-scale convex cone problems. [Expat][11].
 * [SLEPc][283] - A software library for the solution of large, sparse eigenvalue
   problems on parallel computers. [GNU LGPLv3][5] only.
 * [TomsFastMath][462] - A set of assembly-level-optimized maths operations,
@@ -1397,3 +1399,4 @@ with respect to support for C.
 [480]: https://github.com/miracl/MIRACL
 [481]: https://github.com/RoaringBitmap/CRoaring
 [482]: http://roaringbitmap.org/
+[483]: https://github.com/cvxgrp/scs
