@@ -22,6 +22,7 @@ CONTRIBUTING.md first.
 * [Compilers](#compilers)
 * [Compression](#compression)
 * [Concurrency and Parallelism](#concurrency-and-parallelism)
+* [Crypto](#crypto)
 * [Database](#database)
 * [Debugging](#debugging)
 * [Documentation Generation](#documentation-generation)
@@ -143,6 +144,10 @@ This section also includes compiler-related and compilation-related tooling.
 
 * [cchan][243] - A small library for channel constructs for inter-thread
   communication. Public domain.
+* [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented
+  framework for developing and benchmarking [OpenCL][312].
+  projects. [GNU LGPLv3][5] only (library), [GNU GPLv3][41] or later (other
+  code).
 * [checkedthreads][465] - No race condition goes unnoticed! A simple library for
   parallelism, with built-in checking for race conditions. [FreeBSD][24].
 * [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and
@@ -171,6 +176,30 @@ This section also includes compiler-related and compilation-related tooling.
 * [pthreads][146] - The POSIX thread library. Standard (no license applicable).
 * [TinyCThread][115] - A portable, small implementation of the C11 threads
   API. [zlib][49].
+
+## Crypto ##
+
+This is mostly library implementations of well-known cryptographic algorithms or
+protocols.
+
+* [GNU SASL][160] - An implementation of the Simple Authentication and Security
+  Layer and a few common SASL mechanism. [GNU GPLv3][41] or later.
+* [GnuTLS][112] - A secure communication library, implementing SSL, TLS and
+  DTLS. [GNU LGPLv2.1][15] or later.
+* [libgcrypt][142] - A general-purpose cryptography library, with a range of
+  available ciphers. [GNU LGPLv2.1][15] or later (code), [GNU GPLv2.1][8] or
+  later (manual and tools).
+* [OpenSSL][110] - Implementation of the SSL and TLS protocols. Also includes a
+  cryptography
+  library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
+* [libsodium][198] - A modern and easy-to-use crypto library. [Expat][11].
+* [libtomcrypt][299] - A fairly comprehensive, modular and portable
+  cryptographic toolkit. Public domain.
+* [mbed TLS][291] - Another crypto implementation. [Apache2.0][32].
+* [MIRACL][480] - Multiprecision Integer and Rational Arithmetic Cryptographic
+  Library; an SDK for elliptic curve cryptography. [GNU AGPLv3][381] or later.
+* [s2n][359] - A C99 implementation of the TLS/SSL protocols, designed to be
+  simple, fast and with security as a priority. [Apache2.0][32].
 
 ## Database ##
 
@@ -626,30 +655,7 @@ stuff relating to networks and the Internet.
 
 ## Security ##
 
-This includes various cryptographical and secure communications libraries and
-frameworks, as well as various security-related things.
-
-* [acl][424] - Commands for manipulating POSIX access control
-  lists. [GNU GPLv2.1][8] or later.
-* [GNU SASL][160] - An implementation of the Simple Authentication and Security
-  Layer and a few common SASL mechanism. [GNU GPLv3][41] or later.
-* [GnuTLS][112] - A secure communication library, implementing SSL, TLS and
-  DTLS. [GNU LGPLv2.1][15] or later.
-* [libgcrypt][142] - A general-purpose cryptography library, with a range of
-  available ciphers. [GNU LGPLv2.1][15] or later (code), [GNU GPLv2.1][8] or
-  later (manual and tools).
 * [libgss][161] - Generic Security Service. [GNU GPLv3][41] or later.
-* [OpenSSL][110] - Implementation of the SSL and TLS protocols. Also includes a
-  cryptography
-  library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
-* [libsodium][198] - A modern and easy-to-use crypto library. [Expat][11].
-* [libtomcrypt][299] - A fairly comprehensive, modular and portable
-  cryptographic toolkit. Public domain.
-* [mbed TLS][291] - Another crypto implementation. [Apache2.0][32].
-* [MIRACL][480] - Multiprecision Integer and Rational Arithmetic Cryptographic
-  Library; an SDK for elliptic curve cryptography. [GNU AGPLv3][381] or later.
-* [s2n][359] - A C99 implementation of the TLS/SSL protocols, designed to be
-  simple, fast and with security as a priority. [Apache2.0][32].
 
 ## Serialization ##
 
@@ -799,10 +805,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [bfd][157] - A library for manipulating binary object files. Part of GNU
   binutils. [GNU GPLv3][41] or later.
 * [CException][298] - An implementation of exceptions. [Expat][11].
-* [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented
-  framework for developing and benchmarking [OpenCL][312].
-  projects. [GNU LGPLv3][5] only (library), [GNU GPLv3][41] or later (other
-  code).
 * [CommonMark][223] - An implementation of the CommonMark spec. 
   [Variety of licenses, all free][224].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
@@ -1346,7 +1348,6 @@ with respect to support for C.
 [421]: https://github.com/zeromq/zproto
 [422]: https://github.com/it4e/CHL
 [423]: http://www.koanlogic.com/klone/
-[424]: http://savannah.nongnu.org/projects/acl/
 [425]: http://savannah.nongnu.org/projects/attr/
 [426]: https://sourceforge.net/projects/tinyfiledialogs/
 [427]: http://www.bzip.org/
