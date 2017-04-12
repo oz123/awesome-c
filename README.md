@@ -540,6 +540,8 @@ stuff relating to networks and the Internet.
   dependencies. [GNU LGPLv2.1][15] or later.
 * [socket99][203] - A C99 wrapper for the BSD sockets API. [ISC][61].
 * [twitc][237] - A mini library for interacting with the Twitter OAuth API. [Expat][11].
+* [trezor-crypto][485] - Heavily-optimized crypto algorithms for embedded
+  devices. [Expat][11].
 * [Wslay][460] - A WebSocket library. Implements version 13 of the WebSocket
   protocol, as described in RFC 6455. [Expat][11].
 * [zyre][419] - A framework for proximity-based peer-to-peer applications. [MPLv2.0][227].
@@ -1403,3 +1405,4 @@ with respect to support for C.
 [482]: http://roaringbitmap.org/
 [483]: https://github.com/cvxgrp/scs
 [484]: https://github.com/powturbo/TurboRLE
+[485]: https://github.com/trezor/trezor-crypto
