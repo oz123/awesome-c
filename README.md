@@ -134,6 +134,8 @@ This section also includes compiler-related and compilation-related tooling.
 * [squash][393] - A compression abstraction library, complete with some
   utilities. [Expat][11].
 * [TurboPFor][471] - Fastest integer compression. [GNU GPLv2.1][8] or later.
+* [TurboRLE][484] - Most efficient run-length encoding. [GNU GPLv2.1][8] or
+  later.
 * [zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
   library. [3-clause BSD][6].
 
@@ -1400,3 +1402,4 @@ with respect to support for C.
 [481]: https://github.com/RoaringBitmap/CRoaring
 [482]: http://roaringbitmap.org/
 [483]: https://github.com/cvxgrp/scs
+[484]: https://github.com/powturbo/TurboRLE
