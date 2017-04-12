@@ -685,6 +685,8 @@ integrated, check the Frameworks section.
 This contains standard C libraries.
 
 * [Bionic][4] - Google's standard library, developed for Android. [3-clause BSD][6].
+* [cloudlibc][486] - A standard library based on the concept of
+  [capability-based security][487]. [FreeBSD][24].
 * [dietlibc][9] - A standard library designed for the smallest possible
   binaries. [GNU GPLv2.1][8] only.
 * [glibc][57] - The GNU C Library; an implementation of the standard
@@ -1406,3 +1408,5 @@ with respect to support for C.
 [483]: https://github.com/cvxgrp/scs
 [484]: https://github.com/powturbo/TurboRLE
 [485]: https://github.com/trezor/trezor-crypto
+[486]: https://github.com/NuxiNL/cloudlibc
+[487]: https://en.wikipedia.org/wiki/Capability-based_security
