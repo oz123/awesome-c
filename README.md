@@ -405,6 +405,7 @@ similar way to them.
 * [cJSON][443] - Ultra-lightweight JSON parser. [Expat][11].
 * [Jansson][53] - A library for encoding, decoding and manipulating JSON. [Expat][11].
 * [jsmn][120] - A minimalistic JSON parser. [Expat][11].
+* [jfes][488] - A simple JSON engine without any dependencies. [Expat][11].
 * [json-c][220] - A library for working with JSON. [Expat][11].
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
   Schema. LGPL, any version.
@@ -1404,3 +1405,4 @@ with respect to support for C.
 [485]: https://github.com/trezor/trezor-crypto
 [486]: https://github.com/NuxiNL/cloudlibc
 [487]: https://en.wikipedia.org/wiki/Capability-based_security
+[488]: https://github.com/NeonMercury/jfes
