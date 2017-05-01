@@ -1,7 +1,7 @@
 # Awesome C #
 
-A curated list of C good stuff. This list contains *only* [free software][13]
-for code, and sellers who aren't evil for physical resources.
+A curated list of C good stuff. This list contains *only* [freedom-respecting][13]
+code, and sellers who aren't evil for physical resources.
 
 This is released under a Creative Commons-Attribution-ShareAlike license,
 version 4. You can find its text in the LICENSE file.
