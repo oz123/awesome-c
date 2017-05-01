@@ -881,9 +881,6 @@ with respect to support for C.
 
 * [Expat][89] - A stream-oriented XML parser. [MIT][11].
 * [libxml2][62] - A standards-compliant, portable XML parser. [MIT][11].
-* [mini-xml][216] - A small XML reading and writing library. No dependencies
-  aside from C standard
-  library. [GNU LGPLv2.1 with static linking exception][217] only.
 
 [1]: https://wiki.gnome.org/Projects/GLib
 [2]: https://developer.gnome.org/gio/
