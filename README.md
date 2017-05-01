@@ -179,10 +179,9 @@ protocols.
 * [GNU SASL][160] - An implementation of the Simple Authentication and Security
   Layer and a few common SASL mechanism. [GPL-3.0+][41].
 * [GnuTLS][112] - A secure communication library, implementing SSL, TLS and
-  DTLS. [GNU LGPLv2.1][15] or later.
+  DTLS. [LGPL-2.1+][15].
 * [libgcrypt][142] - A general-purpose cryptography library, with a range of
-  available ciphers. [GNU LGPLv2.1][15] or later (code), [GNU GPLv2.1][8] or
-  later (manual and tools).
+  available ciphers. [LGPL-2.1+][15].
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols. Also includes a
   cryptography
   library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
@@ -191,7 +190,7 @@ protocols.
   cryptographic toolkit. Public domain.
 * [mbed TLS][291] - Another crypto implementation. [Apache-2.0][32].
 * [MIRACL][480] - Multiprecision Integer and Rational Arithmetic Cryptographic
-  Library; an SDK for elliptic curve cryptography. [GNU AGPLv3][381] or later.
+  Library; an SDK for elliptic curve cryptography. [AGPL-1.0+][381].
 * [s2n][359] - A C99 implementation of the TLS/SSL protocols, designed to be
   simple, fast and with security as a priority. [Apache-2.0][32].
 
@@ -200,13 +199,13 @@ protocols.
 This lists databases and data stores with C APIs.
 
 * [BerkeleyDB][380] - A library for a high-performance embedded database for
-  key-value data. [GNU AGPLv3][381] only.
+  key-value data. [AGPL-1.0][381].
 * [Hiredis][201] - A minimalistic client library for Redis. [BSD-3-Clause][6].
 * [libmongoc][233] - A high-performance client library for [MongoDB][234]. [Apache-2.0][32].
-* [LMDB][105] - An ultra-fast, ultra-compact key-value embedded data store. [newOpenLDAP][106].
+* [LMDB][105] - An ultra-fast, ultra-compact key-value embedded data store. [OLDAP-2.8][106].
 * [MariaDB][25] - A robust, scalable and reliable SQL server, designed to be a
   drop-in replacement for MySQL. [BSD-3-Clause][6].
-* [PostgreSQL][121] - A powerful object-relational database system. [PostgreSQL licence][122].
+* [PostgreSQL][121] - A powerful object-relational database system. [PostgreSQL][122].
 * [recutils][360] - A set of tools and a library for accessing human-editable,
   plaintext database files called recfiles. [GPL-3.0+][41].
 * [Redis][51] - An advanced key-value store. [BSD-3-Clause][6].
@@ -227,7 +226,7 @@ debugging work.
   property. Intended to help create minimal bug-demonstrating cases in complex
   code. [BSD-3-Clause][6].
 * [CBMC][309] - C Bounded Model Checker; a tool for verification of array
-  bounds, pointer safety and user-specified assertions. [Original BSD][310].
+  bounds, pointer safety and user-specified assertions. [BSD-4-Clause][310].
 * [cflow][404] - Analyzes a collection of source files and prints a graph
   charting control flow in the program. [GPL-3.0+][41].
 * [Complexity][307] - A tool for measuring the complexity of source
@@ -252,11 +251,9 @@ debugging work.
 * [DocOnce][322] - A modestly-tagged markup language that can be used to
   generate a range of formats. [BSD-3-Clause][6].
 * [Doxygen][318] - The de-facto standard tool for generating documentation from
-  annotated sources. Can generate a large range of formats. [GNU GPLv2.1][8]
-  only.
+  annotated sources. Can generate a large range of formats. [GPL-2.0][8].
 * [GTK-Doc][319] - A tool for generating documentation from annotated
-  sources. Has support for the Autotools. [GNU GPLv2.1][15] only
-  (code), [GNU FDL1.1][375] only (documentation).
+  sources. Has support for the Autotools. [GPL-2.0][15].
 
 ## Editors ##
 
@@ -264,12 +261,12 @@ These are specifically fancier, IDE-type editors. If you want a programmer's
 text editor, look elsewhere. Besides, whatever choice you make most likely
 supports C anyway.
 
-* [Anjuta DevStudio][42] - The GNOME IDE. [GNU GPLv2.1][15] only.
+* [Anjuta DevStudio][42] - The GNOME IDE. [GPL-2.0][15].
 * [Code::Blocks][249] - An extensible, configurable IDE supporting
   C. [GPL-3.0][41].
 * [CodeLite][45] - A cross-platform IDE. [GPL-2.0][8].
 * [Eclipse][258] - An IDE written in Java. [EPL][259].
-* [Geany][43] - A very small and fast IDE. [GNU GPLv2.1][8] or later.
+* [Geany][43] - A very small and fast IDE. [GPL-2.0+][8].
 * [KDevelop][44] - The KDE IDE. [GPL-2.0][8].
 
 ## Frameworks ##
@@ -280,16 +277,15 @@ expect of a 'modern' standard library.
 * [APR][78] - Apache Portable Runtime; another library of cross-platform utility
   functions. [Apache-2.0][32].
 * [C Algorithms][88] - A collection of common algorithms and data structures. [ISC][61].
-* [Collections-C][406] - A library of generic data structures. [GNU LGPLv3][5]
-  or later.
+* [Collections-C][406] - A library of generic data structures. [LGPL-3.0+][5].
 * [CPL][308] - The Common Pipeline Library; a set of libraries designed to be a
   comprehensive, efficient and robust software toolkit. [GPL-2.0][8].
 * [EFL][119] - A large collection of useful data structures and
   functions. Various licenses, all free.
 * [GLib][1] - A library of utility functions and structures, designed to be
-  portable, efficient and powerful. [GNU LGPLv2.1][15] only.
-* [GIO][2] - A modern and easy-to-use VFS API. [GNU LGPLv2.1][15] only.
-* [GObject][3] - An object-oriented system and object model. [GNU LGPLv2.1][15] only.
+  portable, efficient and powerful. [LGPL-2.1][15].
+* [GIO][2] - A modern and easy-to-use VFS API. [LGPL-2.1][15].
+* [GObject][3] - An object-oriented system and object model. [LGPL-2.1][15].
 * [libcork][476] - Utility functions and structures, designed for
   resource-constrained systems. Can be embedded. [BSD-3-Clause][6].
 * [libnih][93] - A lightweight library of functions and
@@ -297,14 +293,12 @@ expect of a 'modern' standard library.
 * [libU][28] - A small library of basic utilities, including memory allocation,
   string manipulation and logging. [BSD-3-Clause][6].
 * [PBL][346] - A large library of utilities, featuring data structures, among
-  other things. [GNU LGPLv2.1][15] or later (library), [GNU GPLv2.1][8] or later
-  (test code).
+  other things. [LGPL-2.1+][15]. 
 * [qlibc][277] - A simple and powerful library, designed as a replacement for
-  GLib while focusing on being small and light. [qLib license][278] (similar
-  to [BSD-2-Clause][24]).
+  GLib while focusing on being small and light. [BSD-2-Clause][24].
 * [stb][114] - A range of single-file libraries. Public domain.
 * [TBOX][398] - A multi-platform library with a large number of
-  capabilities. [GNU LGPLv2.1][15] or later.
+  capabilities. [LGPL-2.1+][15].
 
 ## Game Programming ##
 
@@ -336,7 +330,7 @@ These are libraries of all sorts that are useful for game programming.
   contexts. [Zlib][49].
 * [kazmath][446] - A maths library for games. [BSD-2-Clause][24].
 * [libao][376] - A cross-platform audio library with a wide variety of
-  outputs. [GNU GPLv2.1][8] or later.
+  outputs. [GPL-2.0+][8].
 * [RetroArch][231] - The reference frontend for [libretro][232]. [GPL-3.0][41].
 * [SDL2][50] - A cross-platform library designed to provide low-level access to
   audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [Zlib][49].
@@ -354,22 +348,20 @@ These are libraries of all sorts that are useful for game programming.
 
 ## Graphics ##
 
-* [Cairo][384] - A 2D graphics library. [GNU LGPLv2.1][15] only or [MPLv1.1][385].
-* [Cogl][127] - A GPU graphics and utilities API. [MIT][11] (dependent
-  on [BSD-3-Clause][6] and possibly [LGPLv2.1][15] only libs).
-* [Clutter][126] - A UI library based on OpenGL. [GNU LGPLv2.1][15] only.
+* [Cairo][384] - A 2D graphics library. [LGPL-2.1][15] or [MPL-1.1][385].
+* [Cogl][127] - A GPU graphics and utilities API. [MIT][11]. 
+* [Clutter][126] - A UI library based on OpenGL. [LGPL-2.1][15].
 * [giflib][401] - A library for reading and writing gif images. [MIT][11].
 * [heman][365] - A tiny library of image utilities dealing with height maps,
   normal maps, distance fields and the like. [MIT][11].
-* [libcaca][366] - An ASCII renderer for terminal-based interfaces. [WTFPLv2][367].
+* [libcaca][366] - An ASCII renderer for terminal-based interfaces. [WTFPL][367].
 * [libgd][402] - A library for the dynamic creation of images by programmers. [MIT][11].
 * [libimagequant][300] - Small, portable library for high-quality conversion of
   RGBA images to 8-bit indexed colour images. [BSD-2-Clause][24].
 * [libjpeg-turbo][193] - A faster library for reading and writing JPEG
   files. [Various licences][194].
-* [libpng][382] - The official PNG reference library. [libpng license][383].
-* [libRSVG][417] - A library to render SVG files using Cairo. [GNU LGPLv2.1][15]
-  or later.
+* [libpng][382] - The official PNG reference library. [Libpng][383].
+* [libRSVG][417] - A library to render SVG files using Cairo. [LGPL-2.1+][15].
 * [libsixel][17] - A library implementing the SIXEL protocol, allowing beautiful
   graphics in your terminal. [MIT][11].
 * [libxmi][174] - A function library for rasterizing 2D vector
@@ -385,14 +377,14 @@ These are libraries of all sorts that are useful for game programming.
 These are specifically [widget toolkits][12], or things meant to be used in a
 similar way to them.
 
-* [GTK+][14] - A cross-platform widget toolkit. [GNU LGPLv2.1][15] only.
+* [GTK+][14] - A cross-platform widget toolkit. [LGPL-2.1][15].
 * [IUP][16] - Another cross-platform widget toolkit. [MIT][11].
 * [nuklear][408] - A small, C89, single-header widget toolkit. Public domain.
 * [tinyfiledialogs][426] - A single-file library for simple dialogs. Compatible
   with many other toolkits and OSes. [Zlib][49].
-* [Tk][19] - A basic widget toolkit. Part of Tcl/Tk. [Tcl/Tk License][20].
+* [Tk][19] - A basic widget toolkit. Part of Tcl/Tk. [TCL][20].
 * [XForms Toolkit][21] - A widget toolkit designed for the XWindow
-  system. [GNU LGPLv2.1][15] only.
+  system. [LGPL-2.1][15].
 
 ## JSON ##
 
@@ -402,7 +394,7 @@ similar way to them.
 * [jfes][488] - A simple JSON engine without any dependencies. [MIT][11].
 * [json-c][220] - A library for working with JSON. [MIT][11].
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
-  Schema. LGPL, any version.
+  Schema. [LGPL-2.0+][334] or [LGPL-2.1+][15] or [LGPL-3.0+][5]. 
 * [YAJL][60] - A fast streaming JSON parser library. [ISC][61]
 
 ## Learning, Reference and Tutorials ##
@@ -500,21 +492,18 @@ to do with managing C memory lives here.
   licenses, all free.
 * [jemalloc][293] - A malloc implementation that emphasizes avoidance of
   fragmentation and scalable concurrency support. [BSD-2-Clause][24].
-* [Lockless Memory Allocator][451] - An efficient memory allocator. [GNU
-  GPLv3][41] or later.
+* [Lockless Memory Allocator][451] - An efficient memory allocator. [GPL-3.0+][41].
 
 ## Multimedia ##
 
 * [FFMPEG][63] - A complete, cross-platform solution to record, convert and
-  stream audio and video. [GNU LGPLv2.1][15] or later, with some parts
-  under [GNU GPLv2.1][8] or later.
-* [GStreamer][123] - A framework for audio and visual media. [GNU LGPLv2.1][15]
-  only.
+  stream audio and video. [LGPL-2.1+][15]
+* [GStreamer][123] - A framework for audio and visual media. [LGPL-2.1+][15].
 * [libmpv][348] - A music-playing library. Compile with ``./waf configure
   --disable-cplayer --enable-libmpv-shared`` to not have the music
-  player. [GNU GPLv2.1][8] or later.
+  player. [GPL-2.0+][8].
 * [libsndfile][458] - A library for reading and writing sound files. Supports
-  many formats. [GNU LGPLv2.1][15] only or [GNU LGPLv3][5] only.
+  many formats. [LGPL-2.1][15] or [LGPL-3.0][5] only.
 * [libsoundio][372] - A library for cross-platform, real-time audio input and
   output. Has a range of back-ends. [MIT][11].
 * [lodepng][69] - A simple PNG image decoder and encoder, requiring no other
@@ -532,32 +521,32 @@ to do with managing C memory lives here.
 * [http-parser][197] - An HTTP request/response parser. [MIT][11].
 * [ldns][339] - A library to simplify DNS programming. [BSD-3-Clause][6].
 * [libcurl][65] - A client-side URL transfer library, supporting a wide range of
-  formats. [curl license][66].
+  formats. [curl][66].
 * [LibEtPan][222] - A mail library providing an efficient network for IMAP,
   SMTP, POP and NNTP. [BSD-3-Clause][6].
 * [libev][144] - Yet another event loop. [BSD-2-Clause][24].
 * [libevent][124] - An event loop replacement for network servers. [BSD-3-Clause][6].
 * [libhttpd][166] - A library to add basic web server capabilities to an
-  application or embedded device. [GNU GPLv2][41] only.
+  application or embedded device. [GPL-2.0][41].
 * [libidn][164] - An implementation of the Stringprep, Punycode and IDNA
   specifications. [GPL-3.0+][41].
 * [libmicrohttpd][165] - A small library that makes it easy to run an HTTP
-  server as part of another application. [GNU LGPLv2.1][15] or later.
+  server as part of another application. [LGPL-2.1+][15].
 * [libonion][170] - HTTP server library, designed to be easy to
   use. [Apache-2.0][32].
 * [libquickmail][399] - A library intended to give developers a way to send
   email from their applications. Supports multiple To/Cc/Bcc recipients and
   attachments without size limits. [GPL-3.0+][41].
 * [libsoup][167] - A GNOME HTTP client/server library. Uses
-  GObject. [GNU LGPLv2.1][15] only.
+  GObject. [LGPL-2.1][15].
 * [LibVNCServer][464] - Cross-platform libraries to implement VNC server and/or
-  client functionality. [GNU GPLv2.1][8] or later.
+  client functionality. [GPL-2.0+][8].
 * [lwan][199] - An experimental, scalable, high-performance HTTP
   server. [GPL-2.0][8].
 * [mongoose][171] - Embedded web server. [GPL-2.0][8].
 * [nanomsg][139] - A C-based implementation of ZeroMQ. [MIT][11].
 * [oSip][179] - A SIP implementation without additional
-  dependencies. [GNU LGPLv2.1][15] or later.
+  dependencies. [LGPL-2.1+][15].
 * [socket99][203] - A C99 wrapper for the BSD sockets API. [ISC][61].
 * [twitc][237] - A mini library for interacting with the Twitter OAuth API. [MIT][11].
 * [trezor-crypto][485] - Heavily-optimized crypto algorithms for embedded
@@ -568,7 +557,7 @@ to do with managing C memory lives here.
 
 ### Web Frameworks ###
 
-* [balde][386] - A microframework based on GLib. [GNU LGPLv2.1][15] only.
+* [balde][386] - A microframework based on GLib. [LGPL-2.1][15].
 * [KLone][423] - A fully-featured, multi-platform, web application development
   framework, targeted especially at embedded systems and
   appliances. [BSD-3-Clause][6].
@@ -580,26 +569,22 @@ to do with managing C memory lives here.
 * [apophenia][188] - A library for statistical and scientific
   computing. [GPL-2.0][8].
 * [ATLAS][137] - Automatically Tuned Linear Algebra Software. [BSD-3-Clause][6].
-* [BLAS][135] - Basic Linear Algebra Subprograms; a set of routines that provide
-  vector and matrix operations. [BLAS license][136].
 * [clBLAS][439] - BLAS functions written in OpenCL. [Apache-2.0][32].
 * [Cuba][316] - A library for multidimensional numerical
-  integration. [GNU LGPLv3][5] only.
+  integration. [LGPL-3.0][5].
 * [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized
-  fast Fourier transform routine. [GNU GPLv2.1][8] or later.
+  fast Fourier transform routine. [GPL-2.0+][8].
 * [FLINT][255] - Fast Library for Number Theory; a library supporting arithmetic
   with numbers, polynomials, power series and matrices, among
-  others. [GNU GPLv2.1][8] or later.
+  others. [GPL-2.0+][8].
 * [GLPK][159] - GNU Linear Programming Kit; a package designed for solving
   large-scale linear programming, mixed integer programming and other related
   problems. [GPL-3.0+][41].
 * [GMP][79] - GNU Multple Precision Arithmetic Library; a library for
-  arbitrary-precision arithmetic. Dual-licensed [GPL-2.0][8]
-  and [GNU LGPLv3][5] only.
-* [GNU MPC][175] - A library for complex number arithmetic. [GNU LGPLv3][5] or later.
+  arbitrary-precision arithmetic. [GPL-2.0][8] or [LGPL-3.0][5].
+* [GNU MPC][175] - A library for complex number arithmetic. [LGPL-3.0+][5].
 * [GNU MPFR][176] - A library for arbitrary-precision floating-point
-  arithmetic. [GNU LGPLv3][5] or later (most recent
-  versions), [GNU LGPLv2.1][15] or later (until version 2.4.x).
+  arithmetic. [LGPL-3.0+][5].
 * [GNU MPRIA][177] - A portable mathematics library for multi-precision rational
   interval arithmetic. [GPL-3.0+][41].
 * [GSL][47] - The GNU Scientific Library; a sophisticated numerical
@@ -611,14 +596,14 @@ to do with managing C memory lives here.
   number-theoretic routines. Public domain.
 * [LibTomPoly][463] - A polynomial-related maths library. Public domain.
 * [PARI/GP][256] - A computer algebra system for number theory; includes a
-  compiler to C. [GNU GPLv2.1][8] or later.
+  compiler to C. [GPL-2.0+][8].
 * [PETSc][282] - A suite of data structures and routines for scalable parallel
   solution of scientific applications modelled by partial differential
   equations. [BSD-2-Clause][24].
 * [SCS][483] - Splitting Conic Solver; a numerical optimization package for
   solving large-scale convex cone problems. [MIT][11].
 * [SLEPc][283] - A software library for the solution of large, sparse eigenvalue
-  problems on parallel computers. [GNU LGPLv3][5] only.
+  problems on parallel computers. [LGPL-3.0][5].
 * [TomsFastMath][462] - A set of assembly-level-optimized maths operations,
   suitable for cryptographic use. Public domain.
 * [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [BSD-3-Clause][6].
@@ -630,8 +615,7 @@ to do with managing C memory lives here.
 * [gprof][86] - A performance analysis tool. Part of GNU binutils. 
   [GPL-3.0+][41].
 * [OProfile][475] - A statistical profiler for GNU/Linux. Can profile any code
-  (including the kernel!) with low overhead and without recompilation. [GNU
-  GPLv2.1][8] only.
+  (including the kernel!) with low overhead and without recompilation. [GPL-2.0][8].
 
 ## Regex ##
 
@@ -683,7 +667,7 @@ This contains standard C libraries.
 * [dietlibc][9] - A standard library designed for the smallest possible
   binaries. [GPL-2.0][8].
 * [glibc][57] - The GNU C Library; an implementation of the standard
-  library. [GNU LGPLv2.1][15] only.
+  library. [LGPL-2.1][15].
 * [PDCLib][447] - The Public Domain C Library. Implements most of C99 and some of
   C11. [CC0][448].
 * [musl][10] - A standard library, compatible with POSIX 2008 and C11. Designed
@@ -691,10 +675,9 @@ This contains standard C libraries.
 
 ## String Manipulation ##
 
-* [bstrlib][116] - The Better String Library. Dual-licensed
-  under [BSD-3-Clause][6] or [GPL-2.0][8].
+* [bstrlib][116] - The Better String Library. [BSD-3-Clause][6] or [GPL-2.0][8].
 * [ICU][67] - International Components for Unicode; a library for Unicode
-  support. [ICU license][68].
+  support. [ICU][68].
 * [libunistring][173] - A library for manipulating Unicode
   strings. [GNU LGPLv3][5] only.
 * [libgiconv][163] - A text conversion library. [GNU LGPLv2.1][15] only
@@ -932,7 +915,7 @@ with respect to support for C.
 [17]: https://github.com/saitoha/libsixel
 [18]: https://www.enlightenment.org?p=about%252Flibs
 [19]: http://www.tcl.tk/
-[20]: http://www.tcl.tk/software/tcltk/license.html
+[20]: https://spdx.org/licenses/TCL.html
 [21]: http://xforms-toolkit.org/
 [22]: http://www.sqlite.org/
 [23]: http://unqlite.org/
@@ -973,14 +956,14 @@ with respect to support for C.
 [58]: https://github.com/silentbicycle/greatest
 [59]: http://check.sourceforge.net/
 [60]: https://lloyd.github.io/yajl/
-[61]: http://directory.fsf.org/wiki/License:ISC
+[61]: https://spdx.org/licenses/ISC.html 
 [62]: http://xmlsoft.org/
 [63]: https://www.ffmpeg.org/
 [64]: http://knking.com/books/c2/index.html
 [65]: https://curl.haxx.se/libcurl/
-[66]: https://curl.haxx.se/docs/copyright.html
+[66]: https://spdx.org/licenses/curl.html
 [67]: http://site.icu-project.org/
-[68]: http://source.icu-project.org/repos/icu/icu/trunk/license.html
+[68]: https://spdx.org/licenses/ICU.html 
 [69]: http://lodev.org/lodepng/
 [70]: http://www.fftw.org/
 [71]: https://sourceforge.net/projects/kissfft/
@@ -1012,13 +995,13 @@ with respect to support for C.
 [97]: http://nethack4.org/projects/aimake/
 [98]: http://www.glfw.org/
 [99]: https://github.com/dcnieho/FreeGLUT
-[100]: http://directory.fsf.org/wiki/License:X11
+[100]: https://spdx.org/licenses/X11.html 
 [101]: https://github.com/orangeduck/Corange
 [102]: http://shop.oreilly.com/product/0636920015482.do
 [103]: http://ccodearchive.net/
 [104]: http://ccodearchive.net/list.html
 [105]: https://symas.com/products/lightning-memory-mapped-database/
-[106]: http://directory.fsf.org/wiki/License:OpenLDAPv2.7
+[106]: https://spdx.org/licenses/OLDAP-2.8.html
 [107]: https://github.com/ioquake/ioq3
 [108]: https://libgit2.github.com/
 [109]: https://github.com/libgit2/libgit2/blob/master/COPYING
@@ -1034,7 +1017,7 @@ with respect to support for C.
 [119]: https://www.enlightenment.org?p=about%252Fefl
 [120]: http://zserge.com/jsmn.html
 [121]: https://www.postgresql.org/
-[122]: https://opensource.org/licenses/postgresql
+[122]: https://spdx.org/licenses/PostgreSQL.html 
 [123]: https://gstreamer.freedesktop.org/
 [124]: http://libevent.org/
 [125]: https://www.hboehm.info/gc/
@@ -1245,7 +1228,7 @@ with respect to support for C.
 [331]: http://gmsl.sourceforge.net/
 [332]: https://github.com/nfc-tools/libnfc
 [333]: http://www.andre-simon.de/index.php
-
+[334]: https://spdx.org/licenses/LGPL-2.0.html 
 
 [336]: https://github.com/ndevilla/iniparser
 [337]: https://github.com/jtsiomb/kdtree
@@ -1278,7 +1261,7 @@ with respect to support for C.
 [364]: https://github.com/antirez/smaz
 [365]: https://github.com/prideout/heman
 [366]: https://github.com/cacalabs/libcaca
-[367]: http://www.wtfpl.net/txt/copying/
+[367]: https://spdx.org/licenses/WTFPL.html 
 [368]: http://mesonbuild.com/
 [369]: https://icculus.org/twilight/darkplaces/
 [370]: https://bitbucket.org/orx/orx
@@ -1292,11 +1275,11 @@ with respect to support for C.
 [378]: https://github.com/ludocode/mpack
 [379]: http://msgpack.org/
 [380]: http://www.oracle.com/us/products/database/berkeley-db/overview/index.html
-[381]: https://gnu.org/licenses/agpl.html
+[381]: https://spdx.org/licenses/AGPL-1.0.html 
 [382]: http://www.libpng.org/
-[383]: http://www.libpng.org/pub/png/src/libpng-LICENSE.txt
+[383]: https://spdx.org/licenses/Libpng.html
 [384]: http://cairographics.org/
-[385]: https://directory.fsf.org/wiki/License:MPLv1.1
+[385]: https://spdx.org/licenses/MPL-1.1.html 
 [386]: https://github.com/balde/balde
 [387]: http://sourceforge.net/projects/libcsv/
 [388]: https://github.com/blynn/dlx
