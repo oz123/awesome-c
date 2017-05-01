@@ -616,6 +616,8 @@ to do with managing C memory lives here.
   [GPL-3.0+][41].
 * [OProfile][475] - A statistical profiler for GNU/Linux. Can profile any code
   (including the kernel!) with low overhead and without recompilation. [GPL-2.0][8].
+* [perf][375] - A Linux kernel-based profiler with a lot of functionality.
+  [GPL-2.0][8].
 
 ## Regex ##
 
@@ -890,12 +892,12 @@ with respect to support for C.
 [6]: https://spdx.org/licenses/BSD-3-Clause.html
 [7]: https://en.wikipedia.org/wiki/The_C_Programming_Language
 [8]: https://spdx.org/licenses/GPL-2.0.html 
-[9]: http://www.fefe.de/dietlibc/
-[10]: http://www.musl-libc.org/
+[9]: https://www.fefe.de/dietlibc/
+[10]: https://www.musl-libc.org/
 [11]: https://spdx.org/licenses/MIT.html
-[12]: http://en.wikipedia.org/wiki/Widget_toolkit
-[13]: http://en.wikipedia.org/wiki/Free_software
-[14]: http://www.gtk.org/
+[12]: https://en.wikipedia.org/wiki/Widget_toolkit
+[13]: https://en.wikipedia.org/wiki/Free_software
+[14]: https://www.gtk.org/
 [15]: https://spdx.org/licenses/LGPL-2.1.html
 [16]: http://webserver2.tecgraf.puc-rio.br/iup/
 [17]: https://github.com/saitoha/libsixel
@@ -903,8 +905,8 @@ with respect to support for C.
 [19]: http://www.tcl.tk/
 [20]: https://spdx.org/licenses/TCL.html
 [21]: http://xforms-toolkit.org/
-[22]: http://www.sqlite.org/
-[23]: http://unqlite.org/
+[22]: https://www.sqlite.org/
+[23]: https://unqlite.org/
 [24]: https://spdx.org/licenses/BSD-2-Clause.html
 [25]: https://mariadb.com/
 [26]: https://github.com/clibs/clib
@@ -914,31 +916,31 @@ with respect to support for C.
 [30]: http://sglib.sourceforge.net/
 [31]: http://facebook.github.io/libphenom/index.html
 [32]: https://spdx.org/licenses/Apache-2.0.html
-[33]: http://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
-[34]: http://www.catb.org/esr/structure-packing/
+[33]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
+
 [35]: http://shop.oreilly.com/product/0636920033677.do
 [36]: http://shop.oreilly.com/product/0636920028000.do
 [37]: http://openmp.org/wp/about-openmp/
-[38]: http://clang.llvm.org/
+[38]: https://clang.llvm.org/
 [39]: https://spdx.org/licenses/NCSA.html
 [40]: https://gcc.gnu.org/
 [41]: https://spdx.org/licenses/GPL-3.0.html
 [42]: http://anjuta.org/
 [43]: http://www.geany.org/
 [44]: https://www.kdevelop.org/
-[45]: http://www.codelite.org/
+[45]: https://www.codelite.org/
 [46]: https://www.gnu.org/software/gnulib/
-[47]: http://www.gnu.org/software/gsl/
+[47]: https://www.gnu.org/software/gsl/
 [48]: http://liballeg.org
 [49]: https://spdx.org/licenses/Zlib.html
 [50]: https://www.libsdl.org/
-[51]: http://redis.io/
+[51]: https://redis.io/
 [52]: http://zeromq.org/
 [53]: http://www.digip.org/jansson/
 [54]: http://www.colm.net/open-source/ragel/
 [55]: http://dl.acm.org/citation.cfm?id=179241
 [56]: https://github.com/libuv/libuv
-[57]: http://www.gnu.org/software/libc/
+[57]: https://www.gnu.org/software/libc/
 [58]: https://github.com/silentbicycle/greatest
 [59]: http://check.sourceforge.net/
 [60]: https://lloyd.github.io/yajl/
@@ -953,7 +955,7 @@ with respect to support for C.
 [69]: http://lodev.org/lodepng/
 [70]: http://www.fftw.org/
 [71]: https://sourceforge.net/projects/kissfft/
-[72]: http://www.yeppp.info/
+[72]: https://bitbucket.org/MDukhan/yeppp
 [73]: https://graphics.stanford.edu/~seander/bithacks.html
 [74]: http://pcc.ludd.ltu.se/
 [75]: http://pcc.ludd.ltu.se/licenses/
@@ -967,12 +969,12 @@ with respect to support for C.
 [83]: http://www.pcre.org/
 [84]: https://github.com/Tuplanolla/cheat
 [85]: http://www.valgrind.org/
-[86]: http://www.gnu.org/software/binutils/
-[87]: http://www.gnu.org/software/gdb/
+[86]: https://www.gnu.org/software/binutils/
+[87]: https://www.gnu.org/software/gdb/
 [88]: https://github.com/fragglet/c-algorithms
-[89]: http://www.libexpat.org/
-[90]: http://www.sfml-dev.org/download/csfml/
-[91]: http://www.sfml-dev.org/index.php
+[89]: http://expat.sourceforge.net/ 
+[90]: https://www.sfml-dev.org/download/csfml/
+[91]: https://www.sfml-dev.org/index.php
 [92]: https://github.com/siu/minunit
 [93]: https://github.com/keybuk/libnih
 [94]: http://cunit.sourceforge.net/
@@ -998,8 +1000,8 @@ with respect to support for C.
 [114]: https://github.com/nothings/stb
 [115]: https://tinycthread.github.io/
 [116]: http://bstring.sourceforge.net/
-[117]: http://troydhanson.github.io/uthash/
-[118]: http://troydhanson.github.io/uthash/license.html
+
+
 [119]: https://www.enlightenment.org?p=about%252Fefl
 [120]: http://zserge.com/jsmn.html
 [121]: https://www.postgresql.org/
@@ -1012,22 +1014,22 @@ with respect to support for C.
 [128]: https://github.com/atgreen/libffi
 [129]: https://github.com/protobuf-c/protobuf-c
 [130]: https://github.com/jmckaskill/c-capnproto
-[131]: http://en.wikipedia.org/wiki/External_Data_Representation
+[131]: https://en.wikipedia.org/wiki/External_Data_Representation
 [132]: https://bitbucket.org/martijnj/msgpackalt
 [133]: http://www.netlib.org/lapack/lapacke.html
 [134]: http://www.netlib.org/lapack/
-[135]: http://www.netlib.org/blas/
-[136]: http://www.netlib.org/blas/#_licensing
+
+
 [137]: http://math-atlas.sourceforge.net/
 [138]: http://lionet.info/asn1c/compiler.html
 [139]: https://github.com/nanomsg/nanomsg
 [140]: http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c
-[141]: http://cmocka.org/
+[141]: https://cmocka.org/
 [142]: https://www.gnu.org/software/libgcrypt/
 [143]: https://github.com/libressl-portable/
 [144]: http://software.schmorp.de/pkg/libev.html
 
-[146]: http://en.wikipedia.org/wiki/POSIX_Threads
+[146]: https://en.wikipedia.org/wiki/POSIX_Threads
 [147]: https://www.opengl.org/
 [148]: http://www.sgi.com/tech/opengl/?/license.html
 [149]: https://github.com/flycheck/flycheck
@@ -1051,7 +1053,7 @@ with respect to support for C.
 [167]: https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup
 [168]: http://www.webdav.org/neon/
 [169]: http://mihl.sourceforge.net/
-[170]: http://www.coralbits.com/libonion/
+[170]: https://www.coralbits.com/libonion/
 [171]: https://docs.cesanta.com/mongoose/master/
 [172]: https://gnu.org/software/libtool/
 [173]: https://gnu.org/software/libunistring/
@@ -1140,9 +1142,9 @@ with respect to support for C.
 [256]: http://pari.math.u-bordeaux.fr/
 [257]: http://blog.noctua-software.com/c-tricks.html
 [258]: http://www.eclipse.org/ide/
-[259]: http://directory.fsf.org/wiki/License:EPLv1.0
+[259]: https://spdx.org/licenses/EPL-1.0.html
 [260]: https://netbeans.org/
-[261]: http://directory.fsf.org/wiki/License:CDDLv1.0
+
 [262]: http://c-faq.com/
 [263]: https://computing.llnl.gov/tutorials/pthreads/
 [264]: https://computing.llnl.gov/tutorials/openMP/
@@ -1233,7 +1235,7 @@ with respect to support for C.
 [350]: https://github.com/watmough/jwHash
 [351]: https://www.gnu.org/software/gperf/
 [352]: http://libmill.org/
-[353]: https://directory.fsf.org/wiki/License:X11
+
 [354]: https://github.com/libimobiledevice/libimobiledevice
 [355]: http://kitsune-dsu.com/
 [356]: https://github.com/abiggerhammer/hammer
@@ -1255,7 +1257,7 @@ with respect to support for C.
 [372]: https://github.com/andrewrk/libsoundio
 [373]: http://libcox.symisc.net/
 [374]: http://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
-[375]: https://www.gnu.org/licenses/old-licenses/fdl-1.1.html
+[375]: https://perf.wiki.kernel.org/index.php/Main_Page 
 [376]: https://github.com/timonwong/libao
 [377]: https://github.com/camgunz/cmp
 [378]: https://github.com/ludocode/mpack
