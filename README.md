@@ -857,8 +857,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Viola][241] - A simplification of libCello. [MIT][11].
 * [XLSX I/O][344] - A cross-platform library for reading and writing .xlsx
   files. [MIT][11].
-* [ZeroMQ][416] - A distributed messaging protocol
-  implementation. [GNU LGPLv3 with static linking exception][5] only.
 * [zlog][437] - A reliable, pure C logging library. [GNU LGPLv2.1][15] only.
 * [zproto][421] - A protocol framework for ZeroMQ. [MIT][11].
 
