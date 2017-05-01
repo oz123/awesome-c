@@ -857,7 +857,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Viola][241] - A simplification of libCello. [MIT][11].
 * [XLSX I/O][344] - A cross-platform library for reading and writing .xlsx
   files. [MIT][11].
-* [zlog][437] - A reliable, pure C logging library. [GNU LGPLv2.1][15] only.
+* [zlog][437] - A reliable, pure C logging library. [LGPL-2.1][15].
 * [zproto][421] - A protocol framework for ZeroMQ. [MIT][11].
 
 ## Windows Environments ##
@@ -880,8 +880,6 @@ with respect to support for C.
 > that horrible crap to exist." - Linus Torvalds
 
 * [Expat][89] - A stream-oriented XML parser. [MIT][11].
-* [libroxml][409] - Another XML
-  library. [GNU LGPLv2.1 with static linking exception][217] only.
 * [libxml2][62] - A standards-compliant, portable XML parser. [MIT][11].
 * [mini-xml][216] - A small XML reading and writing library. No dependencies
   aside from C standard
