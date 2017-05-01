@@ -679,9 +679,8 @@ This contains standard C libraries.
 * [ICU][67] - International Components for Unicode; a library for Unicode
   support. [ICU][68].
 * [libunistring][173] - A library for manipulating Unicode
-  strings. [GNU LGPLv3][5] only.
-* [libgiconv][163] - A text conversion library. [GNU LGPLv2.1][15] only
-  (library), [GPL-3.0][41] (*iconv* program).
+  strings. [LGPL-3.0][5].
+* [libgiconv][163] - A text conversion library. [LGPL-2.1][15]. 
 * [librope][479] - A UTF-8 rope ('heavy' string) library. [MIT][11].
 * [SDS][29] - Simple Dynamic Strings; a library for handling strings in a
   simpler way, but one that is compatible with normal C string
@@ -693,12 +692,12 @@ This contains standard C libraries.
 ## Testing ##
 
 * [CHEAT][84] - A very simple unit testing framework. [BSD-2-Clause][24].
-* [Check][59] - A unit testing framework. [GNU LGPLv2.1][15] only.
+* [Check][59] - A unit testing framework. [LGPL-2.1][15].
 * [clar][470] - A clear and simple unit testing framework. [MIT][11].
 * [CMock][297] - A mock/stub generator. [MIT][11].
 * [cmocka][141] - A unit testing framework with support for mock objects. [Apache-2.0][32].
 * [Criterion][246] - A KISS, non-intrusive test framework. [MIT][11].
-* [CUnit][94] - Another unit testing framework. [GNU LGPL2.0][15] only.
+* [CUnit][94] - Another unit testing framework. [LGPL-2.1+][15].
 * [greatest][58] - A unit testing library in one file, with no memory
   allocation. [MIT][11].
 * [minctest][394] - A unit testing microlibrary. [BSD-3-Clause][6].
@@ -724,7 +723,7 @@ extensions that make it more pleasant. This is categorized by editor.
 ### Neovim/Vim ###
 
 * [Neomake][441] - Async :make and linting framework for Neovim/Vim. [MIT][11].
-* [Syntastic][186] - Syntax checking and linting. [Do What The Fuck You Want To license][187].
+* [Syntastic][186] - Syntax checking and linting. [WTFPL][367].
 * [YouCompleteMe][151] - A code completion engine for Vim. [GPL-3.0][41].
 
 ## Tools ##
@@ -733,7 +732,7 @@ This is a list of useful programs to help you write and debug C code which are
 *not* editors, libraries or compilers.
 
 * [Artistic Style][314] - A fast and small automatic source code formatter that
-  supports C. [GNU LGPLv3][5] only.
+  supports C. [LGPL-3.0][5].
 * [address-sanitizer][288] - A fast memory error detector. [Apache-2.0][32].
 * [biicode][304] - A modern dependency manager. [MIT][11].
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also
@@ -742,14 +741,14 @@ This is a list of useful programs to help you write and debug C code which are
 * [cdecl][347] - An online service to translate C declarations into English and
   vice versa. Public domain.
 * [cinclude2dot][280] - Graphs include dependencies in a project using
-  Graphviz. Any GNU GPL version (due to underspecification in the file).
+  Graphviz. [GPL-1.0+][335] or [GPL-2.0+][8] or [GPL-3.0+][41].
 * [Glade][328] - A RAD tool to enable quick development of GTK+
   GUIs. [GPL-2.0][8].
 * [GMSL][331] - GNU Make Standard Library; a collection of additional
   functionality for GNU Make. [BSD-3-Clause][6].
 * [GNU Global][330] - A source code tagging tool. [GPL-3.0][41].
 * [GPP][269] - A general-purpose preprocessor. More versatile than the C
-  preprocessor, but more flexible than m4. [GNU LGPLv3][5] or later.
+  preprocessor, but more flexible than m4. [LGPL-3.0+][5].
 * [Highlight][333] - Converts source code to formatted text with nice
   highlighting. [GPL-3.0][41].
 * [include-what-you-use][289] - Helps find unecessary inclusions and make
@@ -759,8 +758,7 @@ This is a list of useful programs to help you write and debug C code which are
   read. Also converts from one style of source to another. [GPL-3.0+][41].
 * [qo][274] - A build system that works without a separate config file. [MIT][11].
 * [unifdef][290] - Removes #ifdef and #if directives with their delimited text
-  without touching any other part of the file. [BSD-3-Clause][6]
-  and [BSD-2-Clause][24].
+  without touching any other part of the file. [BSD-3-Clause][6] or [BSD-2-Clause][24].
 
 ## Utilities ##
 
@@ -770,7 +768,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [argparse][413] - A command-line argument parsing library, inspired by
   Python's argparse module. [MIT][11].
 * [attr][425] - Commands for manipulating filesystem extended
-  attributes. [GNU GPLv2.1][8] or later.
+  attributes. [GPL-2.0+][8].
 * [bfd][157] - A library for manipulating binary object files. Part of GNU
   binutils. [GPL-3.0+][41].
 * [CException][298] - An implementation of exceptions. [MIT][11].
@@ -778,10 +776,9 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   [Variety of licenses, all free][224].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
   for 'freezing' a running application to disk, then restoring
-  it. [GPL-2.0][8] and [GNU LGPLv2.1][15] only (depending on file -
-  check the code for details).
+  it. [GPL-2.0][8] or [LGPL-2.1][15].
 * [D-Bus][430] - A simple way for applications to talk to one
-  another. [AFLv2.1][431] or [GNU GPLv2.1][8] or later.
+  another. [AFL-2.1][431] or [GPL-2.0+][8].
 * [Discount][438] - A simple implementation of a Markdown parser. [BSD-3-Clause][6].
 * [dlx][388] - An implementation of [Knuth's Algorithm X][389], with example
   solvers. [GPL-3.0+][41].
@@ -790,9 +787,9 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Firm][361] - A library that provides a graph-based intermediate
   representation, optimizations and assembly code generation suitable for use in
   compilers. Comes with an example C front-end under the same
-  license. [GNU LGPLv2.1][15] only.
+  license. [LGPL-2.1][15].
 * [gjrand][327] - A library of random-number generation
-  routines. [GPL-2.0][8] or [GPL-3.0][41] (user's choice).
+  routines. [GPL-2.0][8] or [GPL-3.0][41].
 * [GNU FreeIPMI][158] - An in-band and out-of-band IPMI
   implementation. [GPL-3.0][41].
 * [GNU gperf][351] - A perfect hash function generator, given a list of
@@ -806,7 +803,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [jwHash][350] - A fast hashtable implementation. [Apache-2.0][32].
 * [kdtree][337] - A simple library for working with KD-trees. [BSD-3-Clause][6].
 * [Kitsune][355] - An efficient, general-purpose framework for dynamic software
-  updating. [GNU LGPLv3][5] or later.
+  updating. [LGPL-3.0+][5].
 * [libavl][156] - A library containing a range of self-balancing binary
   trees. [GPL-3.0+][41].
 * [libbson][235] - A BSON utility library. [Apache-2.0][32].
@@ -816,17 +813,16 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   Markdown. [BSD-2-Clause][24].
 * [libcox][373] - A library which permits cross-platform system calls and
   standard utilities across different operating systems. [BSD-2-Clause][24].
-* [libcsv][387] - A simple, streaming CSV parser. [GNU LGPLv2.1][15] or later.
+* [libcsv][387] - A simple, streaming CSV parser. [LGPL-2.1+][15].
 * [libffi][128] - A portable foreign-function interface library. [MIT][11].
-* [libgit2][108] - Pure C implementation of Git. [GNU GPL2 only, with a linking exception][109].
+* [libgit2][108] - Pure C implementation of Git. [GPL-2.0, with a linking exception][109].
 * [libgss][161] - Generic Security Service. [GPL-3.0+][41].
 * [liblfds][411] - A portable lock-free data structure library. Public domain
   (more exactly, whatever license you want).
 * [libimobiledevice][354] - A cross-platform protocol library to communicate
-  with iThings. [GNU LGPLv2.1][15] or later (library), [GNU GPLv2.1][8] or later
-  (tools).
+  with iThings. [LGPL-2.1+][15].
 * [libnfc][332] - A platform-independent Near-Field Communication
-  library. [GNU LGPLv3][5] only.
+  library. [LGPL-3.0][5].
 * [libPhenom][31] - An eventing framework for building high-scalability and
   high-performance systems. [Apache-2.0][32].
 * [libpostal][434] - A library for parsing and normalization of street addresses
@@ -843,8 +839,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [mpc][238] - A parser combinator library. [BSD-2-Clause][24].
 * [ncurses][178] - Coloured terminal UI library. [GPL-3.0+][41].
 * [nope.c][209] - An ultra-light software platform for scalable server-side and
-  networking applications (think node.js for C programmers). [GNU GPLv2.1][8]
-  only.
+  networking applications (think node.js for C programmers). [GPL-2.0][8].
 * [pbc][236] - A protocol buffers library. [MIT][11].
 * [progressbar][453] - An easy-to-use library for displaying text progress bars.
   [BSD-3-Clause][6].
@@ -857,9 +852,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   engine for simple mathematical expressions. [BSD-3-Clause][6].
 * [tpl][473] - A small binary serialization library. [MIT][11].
 * [Tulip Indicators][449] - A library of functions for technical analysis of
-  financial data. [GNU LGPLv3][5] or later.
-* [uthash][117] - A hash table implementation, allowing existing structures to
-  be stored in a hash table easily. [1-clause BSD][118].
+  financial data. [LGPL-3.0+][5].
 * [vector.h][152] - A header library for typed lists. [MIT][11].
 * [Viola][241] - A simplification of libCello. [MIT][11].
 * [XLSX I/O][344] - A cross-platform library for reading and writing .xlsx
@@ -1082,7 +1075,7 @@ with respect to support for C.
 [184]: https://www.pearsonhighered.com/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
 [185]: http://www.planetpdf.com/codecuts/pdfs/ooc.pdf
 [186]: https://github.com/scrooloose/syntastic
-[187]: https://github.com/scrooloose/syntastic/blob/master/LICENCE
+
 [188]: https://github.com/b-k/apophenia
 [189]: https://github.com/b-k/apophenia/blob/master/install/COPYING
 [190]: https://github.com/swenson/sort
@@ -1229,7 +1222,7 @@ with respect to support for C.
 [332]: https://github.com/nfc-tools/libnfc
 [333]: http://www.andre-simon.de/index.php
 [334]: https://spdx.org/licenses/LGPL-2.0.html 
-
+[335]: https://spdx.org/licenses/GPL-1.0.html 
 [336]: https://github.com/ndevilla/iniparser
 [337]: https://github.com/jtsiomb/kdtree
 [338]: http://www.oberhumer.com/opensource/lzo/
@@ -1324,7 +1317,7 @@ with respect to support for C.
 [428]: http://msys2.github.io/
 [429]: http://www.libsigil.com/
 [430]: https://www.freedesktop.org/wiki/Software/dbus/
-[431]: https://dbus.freedesktop.org/doc/COPYING
+[431]: https://spdx.org/licenses/AFL-2.1.html 
 [432]: http://lzip.nongnu.org/clzip.html
 [433]: http://lzip.nongnu.org/lzip.html
 [434]: https://github.com/openvenues/libpostal
