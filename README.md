@@ -539,6 +539,8 @@ to do with managing C memory lives here.
   GObject. [LGPL-2.1][15].
 * [LibVNCServer][464] - Cross-platform libraries to implement VNC server and/or
   client functionality. [GPL-2.0+][8].
+* [libwebsock][261] - An easy-to-use and powerful web socket library.
+  [LGPL-3.0][5].
 * [lwan][199] - An experimental, scalable, high-performance HTTP
   server. [GPL-2.0][8].
 * [mongoose][171] - Embedded web server. [GPL-2.0][8].
@@ -1142,7 +1144,7 @@ with respect to support for C.
 [258]: http://www.eclipse.org/ide/
 [259]: https://spdx.org/licenses/EPL-1.0.html
 [260]: https://netbeans.org/
-
+[261]: https://github.com/JonnyWhatshisface/libwebsock
 [262]: http://c-faq.com/
 [263]: https://computing.llnl.gov/tutorials/pthreads/
 [264]: https://computing.llnl.gov/tutorials/openMP/
