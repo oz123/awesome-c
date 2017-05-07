@@ -81,16 +81,12 @@ other such things. Basically, if your university calls it AI, it lives here.
 
 These are tools to automate the building and testing of projects in C.
 
-* [aimake][97] - A build tool designed to avoid complex
-  configurations. [GPL-3.0+][41].
 * [Autoconf][305] - An extensible package of M4 macros that produce shell
   scripts to automatically configure software source code packages. Part of the
   Autotools. [GPL-3.0+][41].
 * [Automake][306] - A tool for automatically generating ``Makefile.in`` files
   compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of
   the Autotools. [GPL-3.0+][41].
-* [fab][323] - A build system that helps build optimally every
-  time. [GPL-3.0][41].
 * [GNU Make][324] - A tool which controls the generation of executables and other
   non-source files of a program. [GPL-3.0+][41].
 * [Libtool][172] - A generic library support script. Part of the
