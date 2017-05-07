@@ -814,6 +814,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   C. [BSD-3-Clause][6].
 * [libcmark][436] - A library for parsing the CommonMark dialect of
   Markdown. [BSD-2-Clause][24].
+* [libconfuse][135] - A small configuration file parser library. [ISC][61].
 * [libcox][373] - A library which permits cross-platform system calls and
   standard utilities across different operating systems. [BSD-2-Clause][24].
 * [libcsv][387] - A simple, streaming CSV parser. [LGPL-2.1+][15].
@@ -1019,7 +1020,7 @@ with respect to support for C.
 [132]: https://bitbucket.org/martijnj/msgpackalt
 [133]: http://www.netlib.org/lapack/lapacke.html
 [134]: http://www.netlib.org/lapack/
-
+[135]: https://github.com/martinh/libconfuse
 
 [137]: http://math-atlas.sourceforge.net/
 [138]: http://lionet.info/asn1c/compiler.html
