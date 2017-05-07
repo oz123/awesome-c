@@ -638,6 +638,7 @@ to do with managing C memory lives here.
   protocol. [MIT][11].
 * [cmp][377] - An implementation of the [MessagePack][379] serialization
   protocol. [MIT][11].
+* [flatcc][187] - [FlatBuffers][145] compiler and library. [Apache-2.0][32].
 * [libavro][140] - An implementation of the Avro data serialization system. [Apache-2.0][32].
 * [mpack][378] - Another implementation of the [MessagePack][379] serialization
   protocol. [MIT][11].
@@ -1028,7 +1029,7 @@ with respect to support for C.
 [142]: https://www.gnu.org/software/libgcrypt/
 [143]: https://github.com/libressl-portable/
 [144]: http://software.schmorp.de/pkg/libev.html
-
+[145]: https://google.github.io/flatbuffers/
 [146]: https://en.wikipedia.org/wiki/POSIX_Threads
 [147]: https://www.opengl.org/
 [148]: http://www.sgi.com/tech/opengl/?/license.html
@@ -1070,7 +1071,7 @@ with respect to support for C.
 [184]: https://www.pearsonhighered.com/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
 [185]: http://www.planetpdf.com/codecuts/pdfs/ooc.pdf
 [186]: https://github.com/scrooloose/syntastic
-
+[187]: https://github.com/dvidelabs/flatcc
 [188]: https://github.com/b-k/apophenia
 [189]: https://github.com/b-k/apophenia/blob/master/install/COPYING
 [190]: https://github.com/swenson/sort
