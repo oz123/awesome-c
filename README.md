@@ -489,6 +489,8 @@ to do with managing C memory lives here.
 * [jemalloc][293] - A malloc implementation that emphasizes avoidance of
   fragmentation and scalable concurrency support. [BSD-2-Clause][24].
 * [Lockless Memory Allocator][451] - An efficient memory allocator. [GPL-3.0+][41].
+* [talloc][353] - A hierarchical, reference-counted memory pool system with
+  destructors. [LGPL-3.0+][5].
 
 ## Multimedia ##
 
@@ -499,7 +501,7 @@ to do with managing C memory lives here.
   --disable-cplayer --enable-libmpv-shared`` to not have the music
   player. [GPL-2.0+][8].
 * [libsndfile][458] - A library for reading and writing sound files. Supports
-  many formats. [LGPL-2.1][15] or [LGPL-3.0][5] only.
+  many formats. [LGPL-2.1][15] or [LGPL-3.0][5].
 * [libsoundio][372] - A library for cross-platform, real-time audio input and
   output. Has a range of back-ends. [MIT][11].
 * [lodepng][69] - A simple PNG image decoder and encoder, requiring no other
@@ -1231,7 +1233,7 @@ with respect to support for C.
 [350]: https://github.com/watmough/jwHash
 [351]: https://www.gnu.org/software/gperf/
 [352]: http://libmill.org/
-
+[353]: https://talloc.samba.org/talloc/doc/html/index.html
 [354]: https://github.com/libimobiledevice/libimobiledevice
 [355]: http://kitsune-dsu.com/
 [356]: https://github.com/abiggerhammer/hammer
