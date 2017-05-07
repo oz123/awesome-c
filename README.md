@@ -814,6 +814,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   C. [BSD-3-Clause][6].
 * [libcmark][436] - A library for parsing the CommonMark dialect of
   Markdown. [BSD-2-Clause][24].
+* [libcoap][136] - An implementation of the [Constrained Application Protocol][117].
+  [GPL-2.0+][8] or [BSD-2-Clause][24].
 * [libconfuse][135] - A small configuration file parser library. [ISC][61].
 * [libcox][373] - A library which permits cross-platform system calls and
   standard utilities across different operating systems. [BSD-2-Clause][24].
@@ -1002,7 +1004,7 @@ with respect to support for C.
 [114]: https://github.com/nothings/stb
 [115]: https://tinycthread.github.io/
 [116]: http://bstring.sourceforge.net/
-
+[117]: http://coap.technology/
 
 [119]: https://www.enlightenment.org?p=about%252Fefl
 [120]: http://zserge.com/jsmn.html
@@ -1021,7 +1023,7 @@ with respect to support for C.
 [133]: http://www.netlib.org/lapack/lapacke.html
 [134]: http://www.netlib.org/lapack/
 [135]: https://github.com/martinh/libconfuse
-
+[136]: https://github.com/obgm/libcoap 
 [137]: http://math-atlas.sourceforge.net/
 [138]: http://lionet.info/asn1c/compiler.html
 [139]: https://github.com/nanomsg/nanomsg
