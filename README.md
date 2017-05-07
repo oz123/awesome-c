@@ -924,7 +924,7 @@ with respect to support for C.
 
 [35]: http://shop.oreilly.com/product/0636920033677.do
 [36]: http://shop.oreilly.com/product/0636920028000.do
-[37]: http://openmp.org/wp/about-openmp/
+[37]: http://www.openmp.org/
 [38]: https://clang.llvm.org/
 [39]: https://spdx.org/licenses/NCSA.html
 [40]: https://gcc.gnu.org/
@@ -992,7 +992,7 @@ with respect to support for C.
 [102]: http://shop.oreilly.com/product/0636920015482.do
 [103]: http://ccodearchive.net/
 [104]: http://ccodearchive.net/list.html
-[105]: https://symas.com/products/lightning-memory-mapped-database/
+[105]: https://symas.com/lightning-memory-mapped-database/
 [106]: https://spdx.org/licenses/OLDAP-2.8.html
 [107]: https://github.com/ioquake/ioq3
 [108]: https://libgit2.github.com/
@@ -1073,7 +1073,7 @@ with respect to support for C.
 [183]: http://shop.oreilly.com/product/0636920026136.do
 [184]: https://www.pearsonhighered.com/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
 [185]: http://www.planetpdf.com/codecuts/pdfs/ooc.pdf
-[186]: https://github.com/scrooloose/syntastic
+[186]: https://github.com/vim-syntastic/syntastic
 [187]: https://github.com/dvidelabs/flatcc
 [188]: https://github.com/b-k/apophenia
 [189]: https://github.com/b-k/apophenia/blob/master/install/COPYING
@@ -1119,7 +1119,7 @@ with respect to support for C.
 [229]: http://www.rabbitmq.com/
 [230]: https://github.com/madler/zlib
 [231]: https://github.com/libretro/RetroArch
-[232]: http://www.libretro.com/
+[232]: https://www.libretro.com/
 [233]: http://mongoc.org/
 [234]: https://www.mongodb.org/
 [235]: https://github.com/mongodb/libbson
@@ -1205,7 +1205,7 @@ with respect to support for C.
 [316]: http://www.feynarts.de/cuba/
 [317]: http://www.gedanken.org.uk/software/cxref/
 [318]: http://www.stack.nl/~dimitri/doxygen/index.html
-[319]: http://www.gtk.org/gtk-doc/
+[319]: https://www.gtk.org/gtk-doc/
 [320]: https://www.gnu.org/software/ddd/ddd.html
 [321]: http://docutils.sourceforge.net/
 [322]: https://hplgit.github.io/doconce/doc/web/index.html
