@@ -6,9 +6,6 @@ code, and sellers who aren't evil for physical resources.
 This is released under a Creative Commons-Attribution-ShareAlike license,
 version 4. You can find its text in the LICENSE file.
 
-This project is part of [Peers][397] - a community for growing our
-freedom. Support us today!
-
 **An important note:** This project does *not* index anything C++-related; only
 pure C stuff is considered.
 
@@ -1283,7 +1280,7 @@ with respect to support for C.
 [394]: https://github.com/codeplea/minctest
 [395]: https://github.com/codeplea/tinyexpr
 [396]: https://github.com/nsf/termbox
-[397]: http://peers.community/
+
 [398]: https://github.com/waruqi/tbox
 [399]: http://sourceforge.net/projects/libquickmail/
 [400]: https://github.com/liteserver/binn
