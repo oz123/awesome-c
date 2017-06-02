@@ -482,6 +482,10 @@ useful relating to C programming.
 This details libraries specifically for [lexical analysis][489] (or lexing) and
 [syntactic analysis][490] (or parsing).
 
+* [flex][491] - The fast lexical analyzer generator. [BSD-2-Clause][24].
+* [GNU Bison][492] - A general-purpose parser generator that converts an
+  annotated context-free grammar into a range of parsers. [GPL-3.0+][41].
+* [hammer][356] - Parser combinators for binary formats. [GPL-2.0][8].
 * [re2c][34] - A lexer generator, producing very fast lexers, with access to its
   internals. Public domain.
 
@@ -653,6 +657,7 @@ to do with managing C memory lives here.
 * [OPIC][397] - Object Persistence in C; a revolutionary serialization framework,
   with matching on-disk and in-memory representations. [GPL-3.0+][41].
 * [protobuf-c][129] - An implementation of Google Protocol Buffer. [BSD-2-Clause][24].
+* [tpl][473] - A small binary serialization library. [MIT][11].
 * [xdr][131] - External Data Representation; a standard for data
   serialization. Standard (no license applicable).
 
@@ -809,7 +814,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   strings. Outputs C code. [GPL-3.0+][41].
 * [GNU Libffcall][162] - A collection of libraries for building foreign function
   interfaces. [GPL-3.0+][41].
-* [hammer][356] - Parser combinators for binary formats. [GPL-2.0][8].
 * [Hoedown][405] - A fully-standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [MIT][11].
 * [iniparser][336] - A parser for .ini files. [MIT][11].
@@ -866,7 +870,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [termbox][396] - A library for writing text-based interfaces. [MIT][11].
 * [tinyexpr][395] - A tiny recursive-descent parser, compiler and evaluation
   engine for simple mathematical expressions. [BSD-3-Clause][6].
-* [tpl][473] - A small binary serialization library. [MIT][11].
 * [Tulip Indicators][449] - A library of functions for technical analysis of
   financial data. [LGPL-3.0+][5].
 * [vector.h][152] - A header library for typed lists. [MIT][11].
@@ -1386,3 +1389,5 @@ with respect to support for C.
 [488]: https://github.com/NeonMercury/jfes
 [489]: https://en.wikipedia.org/wiki/Lexical_analysis
 [490]: https://en.wikipedia.org/wiki/Parsing
+[491]: https://github.com/westes/flex
+[492]: https://www.gnu.org/software/bison/ 
