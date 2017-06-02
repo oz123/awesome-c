@@ -42,6 +42,7 @@ CONTRIBUTING.md first.
   * [Beginner books](#beginner-books)
   * [Intermediate books](#intermediate-books)
   * [Advanced books](#advanced-books)
+* [Lexing and Parsing](#lexing-and-parsing)
 * [Memory Management](#memory-management)
 * [Multimedia](#multimedia)
 * [Networking and Internet](#networking-and-internet)
@@ -475,6 +476,14 @@ useful relating to C programming.
 
 * [Expert C Programming: Deep C Secrets][55] - An interesting, in-depth and
   *entertaining* look at the innards of C.
+
+## Lexing and Parsing ##
+
+This details libraries specifically for [lexical analysis][489] (or lexing) and
+[syntactic analysis][490] (or parsing).
+
+* [re2c][34] - A lexer generator, producing very fast lexers, with access to its
+  internals. Public domain.
 
 ## Memory Management ##
 
@@ -922,7 +931,7 @@ with respect to support for C.
 [31]: http://facebook.github.io/libphenom/index.html
 [32]: https://spdx.org/licenses/Apache-2.0.html
 [33]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
-
+[34]: http://re2c.org/index.html
 [35]: http://shop.oreilly.com/product/0636920033677.do
 [36]: http://shop.oreilly.com/product/0636920028000.do
 [37]: http://www.openmp.org/
@@ -1375,3 +1384,5 @@ with respect to support for C.
 [486]: https://github.com/NuxiNL/cloudlibc
 [487]: https://en.wikipedia.org/wiki/Capability-based_security
 [488]: https://github.com/NeonMercury/jfes
+[489]: https://en.wikipedia.org/wiki/Lexical_analysis
+[490]: https://en.wikipedia.org/wiki/Parsing
