@@ -639,6 +639,8 @@ to do with managing C memory lives here.
 * [libavro][140] - An implementation of the Avro data serialization system. [Apache-2.0][32].
 * [mpack][378] - Another implementation of the [MessagePack][379] serialization
   protocol. [MIT][11].
+* [OPIC][397] - Object Persistence in C; a revolutionary serialization framework,
+  with matching on-disk and in-memory representations. [GPL-3.0+][41].
 * [protobuf-c][129] - An implementation of Google Protocol Buffer. [BSD-2-Clause][24].
 * [xdr][131] - External Data Representation; a standard for data
   serialization. Standard (no license applicable).
@@ -1280,7 +1282,7 @@ with respect to support for C.
 [394]: https://github.com/codeplea/minctest
 [395]: https://github.com/codeplea/tinyexpr
 [396]: https://github.com/nsf/termbox
-
+[397]: http://opic.rocks/
 [398]: https://github.com/waruqi/tbox
 [399]: http://sourceforge.net/projects/libquickmail/
 [400]: https://github.com/liteserver/binn
