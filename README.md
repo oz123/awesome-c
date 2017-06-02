@@ -555,6 +555,8 @@ to do with managing C memory lives here.
 ### Web Frameworks ###
 
 * [balde][386] - A microframework based on GLib. [LGPL-2.1][15].
+* [facil.io][118] - A mini-framework for web applications. Includes a fast HTTP and
+  Websocket server, and also supports custom protocols. [MIT][11].
 * [KLone][423] - A fully-featured, multi-platform, web application development
   framework, targeted especially at embedded systems and
   appliances. [BSD-3-Clause][6].
@@ -1004,7 +1006,7 @@ with respect to support for C.
 [115]: https://tinycthread.github.io/
 [116]: http://bstring.sourceforge.net/
 [117]: http://coap.technology/
-
+[118]: http://facil.io/
 [119]: https://www.enlightenment.org?p=about%252Fefl
 [120]: http://zserge.com/jsmn.html
 [121]: https://www.postgresql.org/
