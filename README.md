@@ -179,6 +179,8 @@ protocols.
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols. Also includes a
   cryptography
   library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
+* [liboqs][493] - A library for quantum-resistant cryptographicl algorithms.
+  [MIT][11].
 * [libsodium][198] - A modern and easy-to-use crypto library. [MIT][11].
 * [libtomcrypt][299] - A fairly comprehensive, modular and portable
   cryptographic toolkit. Public domain.
@@ -486,6 +488,7 @@ This details libraries specifically for [lexical analysis][489] (or lexing) and
 * [GNU Bison][492] - A general-purpose parser generator that converts an
   annotated context-free grammar into a range of parsers. [GPL-3.0+][41].
 * [hammer][356] - Parser combinators for binary formats. [GPL-2.0][8].
+* [mpc][238] - A parser combinator library. [BSD-2-Clause][24].
 * [re2c][34] - A lexer generator, producing very fast lexers, with access to its
   internals. Public domain.
 
@@ -856,7 +859,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libxo][407] - Allows an application to generate plain text, XML, JSON and
   HTML output using a common set of function calls. The application decides at
   runtime what output style should be produced. [BSD-2-Clause][24].
-* [mpc][238] - A parser combinator library. [BSD-2-Clause][24].
 * [ncurses][178] - Coloured terminal UI library. [GPL-3.0+][41].
 * [nope.c][209] - An ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [GPL-2.0][8].
@@ -1390,4 +1392,5 @@ with respect to support for C.
 [489]: https://en.wikipedia.org/wiki/Lexical_analysis
 [490]: https://en.wikipedia.org/wiki/Parsing
 [491]: https://github.com/westes/flex
-[492]: https://www.gnu.org/software/bison/ 
+[492]: https://www.gnu.org/software/bison/
+[493]: https://openquantumsafe.org/
