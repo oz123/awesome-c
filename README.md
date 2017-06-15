@@ -782,6 +782,9 @@ This is a list of useful programs to help you write and debug C code which are
 * [indent][315] - Formats C source code automatically to make it easier to
   read. Also converts from one style of source to another. [GPL-3.0+][41].
 * [qo][274] - A build system that works without a separate config file. [MIT][11].
+* [SMACK][500] - A modular software verification toolchain and a self-contained
+  software verifier. Currently only works with programs compiled using Clang.
+  [MIT][11].
 * [unifdef][290] - Removes #ifdef and #if directives with their delimited text
   without touching any other part of the file. [BSD-3-Clause][6] or [BSD-2-Clause][24].
 
@@ -1412,3 +1415,4 @@ with respect to support for C.
 [497]: https://github.com/fredrik-johansson/arb
 [498]: https://github.com/theck01/offbrand_lib
 [499]: https://github.com/simplegeo/libgeohash
+[500]: https://github.com/smackers/smack
