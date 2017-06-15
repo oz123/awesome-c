@@ -846,6 +846,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   standard utilities across different operating systems. [BSD-2-Clause][24].
 * [libcsv][387] - A simple, streaming CSV parser. [LGPL-2.1+][15].
 * [libffi][128] - A portable foreign-function interface library. [MIT][11].
+* [libgeohash][499] - A pure C implementation of the Geohash algorithm.
+  [BSD-3-Clause][6].
 * [libgit2][108] - Pure C implementation of Git. [GPL-2.0, with a linking exception][109].
 * [libgss][161] - Generic Security Service. [GPL-3.0+][41].
 * [liblfds][411] - A portable lock-free data structure library. Public domain
@@ -1409,3 +1411,4 @@ with respect to support for C.
 [496]: https://github.com/dmw/caffeine
 [497]: https://github.com/fredrik-johansson/arb
 [498]: https://github.com/theck01/offbrand_lib
+[499]: https://github.com/simplegeo/libgeohash
