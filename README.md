@@ -767,6 +767,8 @@ This is a list of useful programs to help you write and debug C code which are
   vice versa. Public domain.
 * [cinclude2dot][280] - Graphs include dependencies in a project using
   Graphviz. [GPL-1.0+][335] or [GPL-2.0+][8] or [GPL-3.0+][41].
+* [ClangCheck][502] - A static analysis tool, designed to work with Clang.
+  [NCSA][39].
 * [Cppcheck][501] - A static analysis tool. Despite the name, works well with C.
   [GPL-3.0+][41].
 * [Glade][328] - A RAD tool to enable quick development of GTK+
@@ -1419,3 +1421,4 @@ with respect to support for C.
 [499]: https://github.com/simplegeo/libgeohash
 [500]: https://github.com/smackers/smack
 [501]: http://cppcheck.sourceforge.net/
+[502]: https://clang.llvm.org/docs/ClangCheck.html  
