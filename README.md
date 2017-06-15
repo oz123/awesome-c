@@ -722,6 +722,7 @@ This contains standard C libraries.
 * [CMock][297] - A mock/stub generator. [MIT][11].
 * [cmocka][141] - A unit testing framework with support for mock objects. [Apache-2.0][32].
 * [Criterion][246] - A KISS, non-intrusive test framework. [MIT][11].
+* [ctest][503] - Yet another unit testing framework. [Apache-2.0][32].
 * [CUnit][94] - Another unit testing framework. [LGPL-2.1+][15].
 * [greatest][58] - A unit testing library in one file, with no memory
   allocation. [MIT][11].
@@ -1421,4 +1422,5 @@ with respect to support for C.
 [499]: https://github.com/simplegeo/libgeohash
 [500]: https://github.com/smackers/smack
 [501]: http://cppcheck.sourceforge.net/
-[502]: https://clang.llvm.org/docs/ClangCheck.html  
+[502]: https://clang.llvm.org/docs/ClangCheck.html
+[503]: https://github.com/bvdberg/ctest
