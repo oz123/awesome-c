@@ -792,6 +792,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   attributes. [GPL-2.0+][8].
 * [bfd][157] - A library for manipulating binary object files. Part of GNU
   binutils. [GPL-3.0+][41].
+* [Caffeine][496] - A library for building daemons and services for Linux and
+  FreeBSD systems. [LGPL-2.1+][15].
 * [CException][298] - An implementation of exceptions. [MIT][11].
 * [CLHash][495] - A library implementing the ridiculously fast CLHash hashing
   function. Only works on Intel Haswell or newer. [Apache-2.0][32].
@@ -1400,3 +1402,4 @@ with respect to support for C.
 [493]: https://openquantumsafe.org/
 [494]: https://github.com/sabotage-linux/netbsd-curses
 [495]: https://github.com/lemire/clhash
+[496]: https://github.com/dmw/caffeine
