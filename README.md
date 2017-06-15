@@ -583,6 +583,8 @@ to do with managing C memory lives here.
 
 * [apophenia][188] - A library for statistical and scientific
   computing. [GPL-2.0][8].
+* [Arb][497] - Library for arbitrary-precision interval arithmetic.
+  [LGPL-2.1+][15].
 * [ATLAS][137] - Automatically Tuned Linear Algebra Software. [BSD-3-Clause][6].
 * [clBLAS][439] - BLAS functions written in OpenCL. [Apache-2.0][32].
 * [Cuba][316] - A library for multidimensional numerical
@@ -1403,3 +1405,4 @@ with respect to support for C.
 [494]: https://github.com/sabotage-linux/netbsd-curses
 [495]: https://github.com/lemire/clhash
 [496]: https://github.com/dmw/caffeine
+[497]: https://github.com/fredrik-johansson/arb
