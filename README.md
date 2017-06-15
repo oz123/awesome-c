@@ -860,6 +860,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   HTML output using a common set of function calls. The application decides at
   runtime what output style should be produced. [BSD-2-Clause][24].
 * [ncurses][178] - Coloured terminal UI library. [MIT][11].
+* [netbsd-curses][494] - A simplified and small version of ncurses, with the same
+  interface. [BSD-3-Clause][6].
 * [nope.c][209] - An ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [GPL-2.0][8].
 * [pbc][236] - A protocol buffers library. [MIT][11].
@@ -1394,3 +1396,4 @@ with respect to support for C.
 [491]: https://github.com/westes/flex
 [492]: https://www.gnu.org/software/bison/
 [493]: https://openquantumsafe.org/
+[494]: https://github.com/sabotage-linux/netbsd-curses
