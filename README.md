@@ -859,7 +859,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libxo][407] - Allows an application to generate plain text, XML, JSON and
   HTML output using a common set of function calls. The application decides at
   runtime what output style should be produced. [BSD-2-Clause][24].
-* [ncurses][178] - Coloured terminal UI library. [GPL-3.0+][41].
+* [ncurses][178] - Coloured terminal UI library. [MIT][11].
 * [nope.c][209] - An ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [GPL-2.0][8].
 * [pbc][236] - A protocol buffers library. [MIT][11].
