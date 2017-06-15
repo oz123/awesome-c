@@ -793,6 +793,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [bfd][157] - A library for manipulating binary object files. Part of GNU
   binutils. [GPL-3.0+][41].
 * [CException][298] - An implementation of exceptions. [MIT][11].
+* [CLHash][495] - A library implementing the ridiculously fast CLHash hashing
+  function. Only works on Intel Haswell or newer. [Apache-2.0][32].
 * [CommonMark][223] - An implementation of the CommonMark spec. 
   [Variety of licenses, all free][224].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
@@ -1397,3 +1399,4 @@ with respect to support for C.
 [492]: https://www.gnu.org/software/bison/
 [493]: https://openquantumsafe.org/
 [494]: https://github.com/sabotage-linux/netbsd-curses
+[495]: https://github.com/lemire/clhash
