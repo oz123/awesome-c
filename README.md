@@ -288,6 +288,8 @@ expect of a 'modern' standard library.
   structures. [GPL-2.0][8].
 * [libU][28] - A small library of basic utilities, including memory allocation,
   string manipulation and logging. [BSD-3-Clause][6].
+* [offbrand][498] - A collection of generic, reference-counted data structures.
+  [MIT][11].
 * [PBL][346] - A large library of utilities, featuring data structures, among
   other things. [LGPL-2.1+][15]. 
 * [qlibc][277] - A simple and powerful library, designed as a replacement for
@@ -1406,3 +1408,4 @@ with respect to support for C.
 [495]: https://github.com/lemire/clhash
 [496]: https://github.com/dmw/caffeine
 [497]: https://github.com/fredrik-johansson/arb
+[498]: https://github.com/theck01/offbrand_lib
