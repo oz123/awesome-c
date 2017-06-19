@@ -121,6 +121,8 @@ This section also includes compiler-related and compilation-related tooling.
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [libbzip2][427] - A patent-free, high-quality data compression
   library. [BSD-4-Clause][310].
+* [lz4][508] - Library for an extremely fast compression algorithm.
+  [BSD-2-Clause][24].
 * [lzo][338] - A very fast data compression library. [GPL-2.0+][8].
 * [shoco][363] - A compressor for small text strings. [MIT][11].
 * [smaz][364] - An efficient string compression library. [BSD-3-Clause][6].
@@ -1435,3 +1437,4 @@ with respect to support for C.
 [505]: https://github.com/memononen/nanovg
 [506]: https://github.com/centaurean/density
 [507]: http://maciejczyzewski.me/retter/
+[508]: http://lz4.github.io/lz4/ 
