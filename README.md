@@ -132,6 +132,9 @@ This section also includes compiler-related and compilation-related tooling.
 * [TurboRLE][484] - Most efficient run-length encoding. [GPL-2.0+][8].
 * [Zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
   library. [BSD-3-Clause][6].
+* [Zstandard][510] - A fast, lossless compression algorithm, targeting real-time
+  compression scenarios at zlib-level or better compression ratios.
+  [BSD-3-Clause][6].
 
 ## Concurrency and Parallelism ##
 
@@ -1441,3 +1444,4 @@ with respect to support for C.
 [507]: http://maciejczyzewski.me/retter/
 [508]: http://lz4.github.io/lz4/
 [509]: https://github.com/spotify/sparkey
+[510]: http://facebook.github.io/zstd/
