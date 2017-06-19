@@ -364,6 +364,7 @@ These are libraries of all sorts that are useful for game programming.
 * [Cogl][127] - A GPU graphics and utilities API. [MIT][11]. 
 * [Clutter][126] - A UI library based on OpenGL. [LGPL-2.1][15].
 * [giflib][401] - A library for reading and writing gif images. [MIT][11].
+* [graphene][515] - A thin layer of graphical data types. [MIT][11].
 * [heman][365] - A tiny library of image utilities dealing with height maps,
   normal maps, distance fields and the like. [MIT][11].
 * [libcaca][366] - An ASCII renderer for terminal-based interfaces. [WTFPL][367].
@@ -1454,4 +1455,5 @@ with respect to support for C.
 [511]: http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS
 [512]: http://whitedb.org/
 [513]: http://paulbatchelor.github.io/proj/soundpipe.html
-[514]: https://github.com/atomicobject/heatshrink 
+[514]: https://github.com/atomicobject/heatshrink
+[515]: http://ebassi.github.io/graphene/
