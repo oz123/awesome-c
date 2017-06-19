@@ -877,6 +877,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libxo][407] - Allows an application to generate plain text, XML, JSON and
   HTML output using a common set of function calls. The application decides at
   runtime what output style should be produced. [BSD-2-Clause][24].
+* [linenoise][504] - A small, self-contained alternative to readline and
+  libedit. [BSD-2-Clause][24].
 * [ncurses][178] - Coloured terminal UI library. [MIT][11].
 * [netbsd-curses][494] - A simplified and small version of ncurses, with the same
   interface. [BSD-3-Clause][6].
@@ -1424,3 +1426,4 @@ with respect to support for C.
 [501]: http://cppcheck.sourceforge.net/
 [502]: https://clang.llvm.org/docs/ClangCheck.html
 [503]: https://github.com/bvdberg/ctest
+[504]: https://github.com/antirez/linenoise
