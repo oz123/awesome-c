@@ -220,6 +220,8 @@ This lists databases and data stores with C APIs.
   SQL database engine. Public domain.
 * [UnQLite][23] - A self-contained, serverless, zero-configuration,
   transactional NoSQL engine. [BSD-2-Clause][24].
+* [WhiteDB][512] - A lightweight database library, operating entirely in main
+  memory. [GPL-3.0+][41].
 
 ## Debugging ##
 
@@ -1447,3 +1449,4 @@ with respect to support for C.
 [509]: https://github.com/spotify/sparkey
 [510]: http://facebook.github.io/zstd/
 [511]: http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS
+[512]: http://whitedb.org/
