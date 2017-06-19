@@ -355,7 +355,7 @@ These are libraries of all sorts that are useful for game programming.
 * [libcaca][366] - An ASCII renderer for terminal-based interfaces. [WTFPL][367].
 * [libgd][402] - A library for the dynamic creation of images by programmers. [MIT][11].
 * [libimagequant][300] - Small, portable library for high-quality conversion of
-  RGBA images to 8-bit indexed colour images. [BSD-2-Clause][24].
+  RGBA images to 8-bit indexed colour images. [GPL-3.0+][41].
 * [libjpeg-turbo][193] - A faster library for reading and writing JPEG
   files. [Various licences][194].
 * [libpng][382] - The official PNG reference library. [Libpng][383].
