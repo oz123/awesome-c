@@ -372,6 +372,7 @@ These are libraries of all sorts that are useful for game programming.
 * [libRSVG][417] - A library to render SVG files using Cairo. [LGPL-2.1+][15].
 * [libsixel][17] - A library implementing the SIXEL protocol, allowing beautiful
   graphics in your terminal. [MIT][11].
+* [libvips][511] - An image processing library. [LGPL-2.1+][15].
 * [libxmi][174] - A function library for rasterizing 2D vector
   graphics. [GPL-3.0+][41].
 * [lightmapper][444] - A single-file library for lightmap baking, using an
@@ -1445,3 +1446,4 @@ with respect to support for C.
 [508]: http://lz4.github.io/lz4/
 [509]: https://github.com/spotify/sparkey
 [510]: http://facebook.github.io/zstd/
+[511]: http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS
