@@ -536,6 +536,7 @@ to do with managing C memory lives here.
   output. Has a range of back-ends. [MIT][11].
 * [lodepng][69] - A simple PNG image decoder and encoder, requiring no other
   dependencies. [BSD-3-Clause][6].
+* [Soundpipe][513] - A lightweight music DSP library. [MIT][11].
 
 ## Networking and Internet ##
 
@@ -1450,3 +1451,4 @@ with respect to support for C.
 [510]: http://facebook.github.io/zstd/
 [511]: http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS
 [512]: http://whitedb.org/
+[513]: http://paulbatchelor.github.io/proj/soundpipe.html
