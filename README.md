@@ -211,6 +211,8 @@ This lists databases and data stores with C APIs.
   plaintext database files called recfiles. [GPL-3.0+][41].
 * [Redis][51] - An advanced key-value store. [BSD-3-Clause][6].
 * [sophia][244] - A modern, embeddable key-value database. [BSD-2-Clause][24].
+* [sparkey][509] - A simple constant key/value storage library. Designed for
+  read-heavy loads with infrequent, large bulk inserts. [Apache-2.0][32].
 * [SQLite][22] - A self-contained, serverless, zero-configuration, transactional
   SQL database engine. Public domain.
 * [UnQLite][23] - A self-contained, serverless, zero-configuration,
@@ -1437,4 +1439,5 @@ with respect to support for C.
 [505]: https://github.com/memononen/nanovg
 [506]: https://github.com/centaurean/density
 [507]: http://maciejczyzewski.me/retter/
-[508]: http://lz4.github.io/lz4/ 
+[508]: http://lz4.github.io/lz4/
+[509]: https://github.com/spotify/sparkey
