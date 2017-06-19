@@ -118,6 +118,8 @@ This section also includes compiler-related and compilation-related tooling.
   implementation). [GPL-2.0+][8].
 * [CRoaring][481] - C implementation of [Roaring bitmaps][482]. [Apache-2.0][32].
 * [DENSITY][506] - A super-fast compression library. [BSD-3-Clause][6].
+* [heatshrink][514] - A data compression/decompression library for embedded and
+  real-time systems. [ISC][61].
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [libbzip2][427] - A patent-free, high-quality data compression
   library. [BSD-4-Clause][310].
@@ -1452,3 +1454,4 @@ with respect to support for C.
 [511]: http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS
 [512]: http://whitedb.org/
 [513]: http://paulbatchelor.github.io/proj/soundpipe.html
+[514]: https://github.com/atomicobject/heatshrink 
