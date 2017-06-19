@@ -367,6 +367,8 @@ These are libraries of all sorts that are useful for game programming.
 * [lightmapper][444] - A single-file library for lightmap baking, using an
   existing OpenGL renderer. Public domain.
 * [mozjpeg][200] - An improved JPEG encoder. [BSD-3-Clause][6].
+* [nanovg][505] - Anti-aliased 2D vector drawing library on top of OpenGL, for
+  UI and visualizations. [Zlib][49].
 * [OpenGL][147] - The industry standard for high-performance graphics, with a
   native C binding. [Various licenses][148].
 
@@ -1427,3 +1429,4 @@ with respect to support for C.
 [502]: https://clang.llvm.org/docs/ClangCheck.html
 [503]: https://github.com/bvdberg/ctest
 [504]: https://github.com/antirez/linenoise
+[505]: https://github.com/memononen/nanovg
