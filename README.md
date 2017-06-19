@@ -188,6 +188,8 @@ protocols.
 * [mbed TLS][291] - Another crypto implementation. [Apache-2.0][32].
 * [MIRACL][480] - Multiprecision Integer and Rational Arithmetic Cryptographic
   Library; an SDK for elliptic curve cryptography. [AGPL-1.0+][381].
+* [retter][507] - A collection of hash functions, ciphers, tools, libraries and
+  materials related to cryptography and security. Public domain.
 * [s2n][359] - A C99 implementation of the TLS/SSL protocols, designed to be
   simple, fast and with security as a priority. [Apache-2.0][32].
 
@@ -1432,3 +1434,4 @@ with respect to support for C.
 [504]: https://github.com/antirez/linenoise
 [505]: https://github.com/memononen/nanovg
 [506]: https://github.com/centaurean/density
+[507]: http://maciejczyzewski.me/retter/
