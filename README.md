@@ -117,6 +117,7 @@ This section also includes compiler-related and compilation-related tooling.
 * [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
   implementation). [GPL-2.0+][8].
 * [CRoaring][481] - C implementation of [Roaring bitmaps][482]. [Apache-2.0][32].
+* [DENSITY][506] - A super-fast compression library. [BSD-3-Clause][6].
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [libbzip2][427] - A patent-free, high-quality data compression
   library. [BSD-4-Clause][310].
@@ -1430,3 +1431,4 @@ with respect to support for C.
 [503]: https://github.com/bvdberg/ctest
 [504]: https://github.com/antirez/linenoise
 [505]: https://github.com/memononen/nanovg
+[506]: https://github.com/centaurean/density
