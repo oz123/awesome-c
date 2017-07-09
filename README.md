@@ -343,6 +343,8 @@ These are libraries of all sorts that are useful for game programming.
 * [kazmath][446] - A maths library for games. [BSD-2-Clause][24].
 * [libao][376] - A cross-platform audio library with a wide variety of
   outputs. [GPL-2.0+][8].
+* [raylib][516] - A simple and easy-to-use library to learn video game
+  programming. [Zlib][49].
 * [RetroArch][231] - The reference frontend for [libretro][232]. [GPL-3.0][41].
 * [SDL2][50] - A cross-platform library designed to provide low-level access to
   audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [Zlib][49].
@@ -1457,3 +1459,4 @@ with respect to support for C.
 [513]: http://paulbatchelor.github.io/proj/soundpipe.html
 [514]: https://github.com/atomicobject/heatshrink
 [515]: http://ebassi.github.io/graphene/
+[516]: https://github.com/raysan5/raylib
