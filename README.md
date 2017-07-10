@@ -127,6 +127,8 @@ This section also includes compiler-related and compilation-related tooling.
   [BSD-2-Clause][24].
 * [lzo][338] - A very fast data compression library. [GPL-2.0+][8].
 * [shoco][363] - A compressor for small text strings. [MIT][11].
+* [SIMDComp][519] - A simple library for compressing lists of integers using
+  binary packing. Makes use of SIMD instructions on x86. [BSD-3-Clause][6].
 * [smaz][364] - An efficient string compression library. [BSD-3-Clause][6].
 * [squash][393] - A compression abstraction library, complete with some
   utilities. [MIT][11].
@@ -1466,3 +1468,4 @@ with respect to support for C.
 [516]: https://github.com/raysan5/raylib
 [517]: https://github.com/kkos/oniguruma
 [518]: https://github.com/k-takata/Onigmo
+[519]: https://github.com/lemire/simdcomp
