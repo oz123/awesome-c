@@ -134,6 +134,8 @@ This section also includes compiler-related and compilation-related tooling.
   utilities. [MIT][11].
 * [TurboPFor][471] - Fastest integer compression. [GPL-2.0+][8].
 * [TurboRLE][484] - Most efficient run-length encoding. [GPL-2.0+][8].
+* [zip][520] - A really really small zip archive processing library.
+  [Unlicense][521].
 * [Zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
   library. [BSD-3-Clause][6].
 * [Zstandard][510] - A fast, lossless compression algorithm, targeting real-time
@@ -1469,3 +1471,5 @@ with respect to support for C.
 [517]: https://github.com/kkos/oniguruma
 [518]: https://github.com/k-takata/Onigmo
 [519]: https://github.com/lemire/simdcomp
+[520]: https://github.com/kuba--/zip
+[521]: https://spdx.org/licenses/Unlicense.html 
