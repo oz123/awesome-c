@@ -664,6 +664,10 @@ to do with managing C memory lives here.
 > "Some people, when confronted with a problem, think 'I know, I'll use regular
 > expressions'. Now they have two problems." - Jamie Zawinski.
 
+* [Onigmo][518] - A fork of Oniguruma, supporting more advanced regexps.
+  [BSD-2-Clause][24].
+* [Oniguruma][517] - A regex library supporting a wide range of encodings, and
+  incorporating many security-oriented fixes. [BSD-2-Clause][24].
 * [PCRE][83] - An implementation of regexes identical to that of
   Perl 5. [BSD-3-Clause][6].
 * [SLRE][80] - Super Light Regular Expression library; a very small
@@ -1460,3 +1464,5 @@ with respect to support for C.
 [514]: https://github.com/atomicobject/heatshrink
 [515]: http://ebassi.github.io/graphene/
 [516]: https://github.com/raysan5/raylib
+[517]: https://github.com/kkos/oniguruma
+[518]: https://github.com/k-takata/Onigmo
