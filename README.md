@@ -31,6 +31,7 @@ CONTRIBUTING.md first.
 * [Generic Programming](#generic-programming)
 * [Graphics](#graphics)
 * [Graphical User Interface](#graphical-user-interface)
+* [Hashing](#hashing)
 * [JSON](#json)
 * [Learning, Reference and Tutorials](#learning-reference-and-tutorials)
   * [Reference resources online](#reference-resources-online)
@@ -407,6 +408,16 @@ similar way to them.
 * [Tk][19] - A basic widget toolkit. Part of Tcl/Tk. [TCL][20].
 * [XForms Toolkit][21] - A widget toolkit designed for the XWindow
   system. [LGPL-2.1][15].
+
+## Hashing ##
+
+These are hash function implementations for *non*-crypto purposes.
+Cryptographic hashes can be found in the Crypto section.
+
+* [CLHash][495] - A library implementing the ridiculously fast CLHash hashing
+  function. Only works on Intel Haswell or newer. [Apache-2.0][32].
+* [xxHash][522] - An extremely fast hashing algorithm. Comes in 32 and 64-bit
+  varieties. [BSD-2-Clause][24].
 
 ## JSON ##
 
@@ -836,8 +847,6 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Caffeine][496] - A library for building daemons and services for Linux and
   FreeBSD systems. [LGPL-2.1+][15].
 * [CException][298] - An implementation of exceptions. [MIT][11].
-* [CLHash][495] - A library implementing the ridiculously fast CLHash hashing
-  function. Only works on Intel Haswell or newer. [Apache-2.0][32].
 * [CommonMark][223] - An implementation of the CommonMark spec. 
   [Variety of licenses, all free][224].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
@@ -1472,4 +1481,21 @@ with respect to support for C.
 [518]: https://github.com/k-takata/Onigmo
 [519]: https://github.com/lemire/simdcomp
 [520]: https://github.com/kuba--/zip
-[521]: https://spdx.org/licenses/Unlicense.html 
+[521]: https://spdx.org/licenses/Unlicense.html
+[522]: https://github.com/Cyan4973/xxHash
+
+
+https://github.com/facebook/infer
+https://github.com/RandyGaul/tinyheaders
+https://github.com/lexborisov/myhtml
+https://conan.io/
+https://github.com/aubio/aubio
+https://github.com/Cyan4973/FiniteStateEntropy
+https://github.com/igraph/igraph
+https://github.com/raysan5/raylib
+https://github.com/kgabis/parson
+https://github.com/lc-soft/LCUI
+https://github.com/groonga/groonga
+https://github.com/100/Cranium
+https://github.com/Dead2/zlib-ng
+
