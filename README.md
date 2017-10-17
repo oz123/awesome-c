@@ -544,6 +544,7 @@ to do with managing C memory lives here.
 
 ## Multimedia ##
 
+* [aubio][523] - A library for audio and music analysis. [GPL-3.0+][41].
 * [FFMPEG][63] - A complete, cross-platform solution to record, convert and
   stream audio and video. [LGPL-2.1+][15]
 * [GStreamer][123] - A framework for audio and visual media. [LGPL-2.1+][15].
@@ -1483,13 +1484,8 @@ with respect to support for C.
 [520]: https://github.com/kuba--/zip
 [521]: https://spdx.org/licenses/Unlicense.html
 [522]: https://github.com/Cyan4973/xxHash
+[523]: https://github.com/aubio/aubio
 
-
-https://github.com/facebook/infer
-https://github.com/RandyGaul/tinyheaders
-https://github.com/lexborisov/myhtml
-https://conan.io/
-https://github.com/aubio/aubio
 https://github.com/Cyan4973/FiniteStateEntropy
 https://github.com/igraph/igraph
 https://github.com/raysan5/raylib
