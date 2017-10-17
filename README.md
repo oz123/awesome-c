@@ -211,6 +211,7 @@ This lists databases and data stores with C APIs.
 
 * [BerkeleyDB][380] - A library for a high-performance embedded database for
   key-value data. [AGPL-1.0][381].
+* [Groonga][524] - Columnar store with full-text search. [LGPL-2.1][15].
 * [Hiredis][201] - A minimalistic client library for Redis. [BSD-3-Clause][6].
 * [libmongoc][233] - A high-performance client library for [MongoDB][234]. [Apache-2.0][32].
 * [LMDB][105] - An ultra-fast, ultra-compact key-value embedded data store. [OLDAP-2.8][106].
@@ -1485,13 +1486,8 @@ with respect to support for C.
 [521]: https://spdx.org/licenses/Unlicense.html
 [522]: https://github.com/Cyan4973/xxHash
 [523]: https://github.com/aubio/aubio
+[524]: https://github.com/groonga/groonga
 
-https://github.com/Cyan4973/FiniteStateEntropy
-https://github.com/igraph/igraph
-https://github.com/raysan5/raylib
-https://github.com/kgabis/parson
-https://github.com/lc-soft/LCUI
-https://github.com/groonga/groonga
 https://github.com/100/Cranium
 https://github.com/Dead2/zlib-ng
 
