@@ -1489,6 +1489,3 @@ with respect to support for C.
 [523]: https://github.com/aubio/aubio
 [524]: https://github.com/groonga/groonga
 [525]: https://github.com/100/Cranium
-
-https://github.com/Dead2/zlib-ng
-
