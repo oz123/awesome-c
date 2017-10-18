@@ -448,6 +448,7 @@ useful relating to C programming.
 * [C FAQ - comp.lang.c Frequently Asked Questions][262]
 * [Comparison of C/POSIX standard library implementations for GNU/Linux][362]
 * [Draft C11 standard][247]
+* [Finding the best 64-bit simulation PRNG][529]
 * [GNU C Reference Manual][329]
 * [Robert Pike's notes on programming in C][273]
 * [SEI CERT C Coding Standard][266]
@@ -1497,3 +1498,4 @@ with respect to support for C.
 [526]: http://www.saphir2.com/sphlib/
 [527]: https://github.com/google/highwayhash
 [528]: http://nullprogram.com/blog/2017/08/20/
+[529]: http://nullprogram.com/blog/2017/09/21/
