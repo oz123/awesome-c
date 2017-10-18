@@ -471,6 +471,7 @@ useful relating to C programming.
 * [8 gdb tricks you should know][206]
 * [10 C99 tricks][257]
 * [A comprehensive MPI tutorial resource][454]
+* [Bit Twiddling Hacks][530]
 * [Diving into concurrency: trying out mutexes and atomics][202]
 * [Introduction to OpenMP][207] (video)
 * [OpenMP tutorial][264] (for the OpenMP3 standard)
@@ -1499,3 +1500,4 @@ with respect to support for C.
 [527]: https://github.com/google/highwayhash
 [528]: http://nullprogram.com/blog/2017/08/20/
 [529]: http://nullprogram.com/blog/2017/09/21/
+[530]: https://graphics.stanford.edu/~seander/bithacks.html
