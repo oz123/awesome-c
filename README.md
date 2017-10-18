@@ -420,6 +420,8 @@ Cryptographic hashes can be found in the Crypto section.
 
 * [CLHash][495] - A library implementing the ridiculously fast CLHash hashing
   function. Only works on Intel Haswell or newer. [Apache-2.0][32].
+* [HighwayHash][527] - A fast, strong, SIMD-using hash function. Also contains
+  an implementation of SipHash (although this is slower). [Apache-2.0][32].
 * [xxHash][522] - An extremely fast hashing algorithm. Comes in 32 and 64-bit
   varieties. [BSD-2-Clause][24].
 
@@ -1492,3 +1494,4 @@ with respect to support for C.
 [524]: https://github.com/groonga/groonga
 [525]: https://github.com/100/Cranium
 [526]: http://www.saphir2.com/sphlib/
+[527]: https://github.com/google/highwayhash
