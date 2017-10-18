@@ -422,6 +422,8 @@ Cryptographic hashes can be found in the Crypto section.
   function. Only works on Intel Haswell or newer. [Apache-2.0][32].
 * [HighwayHash][527] - A fast, strong, SIMD-using hash function. Also contains
   an implementation of SipHash (although this is slower). [Apache-2.0][32].
+* [t1ha][530] - Fast Positive Hash - a portable, fast hash function.
+  [BSD-3-Clause][6].
 * [xxHash][522] - An extremely fast hashing algorithm. Comes in 32 and 64-bit
   varieties. [BSD-2-Clause][24].
 
@@ -1499,3 +1501,4 @@ with respect to support for C.
 [527]: https://github.com/google/highwayhash
 [528]: http://nullprogram.com/blog/2017/08/20/
 [529]: http://nullprogram.com/blog/2017/09/21/
+[530]: https://github.com/leo-yuriev/t1ha
