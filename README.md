@@ -205,6 +205,8 @@ protocols.
   materials related to cryptography and security. Public domain.
 * [s2n][359] - A C99 implementation of the TLS/SSL protocols, designed to be
   simple, fast and with security as a priority. [Apache-2.0][32].
+* [sphlib][526] - A set of implementations of various hash functions, including
+  several cryptographic ones. [MIT][11].
 
 ## Database ##
 
@@ -1489,3 +1491,4 @@ with respect to support for C.
 [523]: https://github.com/aubio/aubio
 [524]: https://github.com/groonga/groonga
 [525]: https://github.com/100/Cranium
+[526]: http://www.saphir2.com/sphlib/
