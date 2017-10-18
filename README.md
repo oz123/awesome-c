@@ -455,6 +455,7 @@ useful relating to C programming.
 ### Beginner resources online ###
 
 * [A tutorial on pointers][213]
+* [A tutorial on portable Makefiles][528]
 * [Building C Projects][208]
 * [C Programming Wikibook][248]
 * [Introduction to \`fun' C][279]
@@ -1495,3 +1496,4 @@ with respect to support for C.
 [525]: https://github.com/100/Cranium
 [526]: http://www.saphir2.com/sphlib/
 [527]: https://github.com/google/highwayhash
+[528]: http://nullprogram.com/blog/2017/08/20/
