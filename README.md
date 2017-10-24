@@ -551,6 +551,8 @@ to do with managing C memory lives here.
 * [Lockless Memory Allocator][451] - An efficient memory allocator. [GPL-3.0+][41].
 * [talloc][353] - A hierarchical, reference-counted memory pool system with
   destructors. [LGPL-3.0+][5].
+* [tlsf][531] - Two-Level Segregated Fit allocator; a general-purpose, dynamic
+  memory allocator designed to meet real-time requirements. [BSD-3-Clause][6].
 
 ## Multimedia ##
 
@@ -1502,3 +1504,4 @@ with respect to support for C.
 [528]: http://nullprogram.com/blog/2017/08/20/
 [529]: http://nullprogram.com/blog/2017/09/21/
 [530]: https://github.com/leo-yuriev/t1ha
+[531]: http://www.gii.upv.es/tlsf/
