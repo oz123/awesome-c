@@ -122,6 +122,8 @@ This section also includes compiler-related and compilation-related tooling.
 * [DENSITY][506] - A super-fast compression library. [BSD-3-Clause][6].
 * [heatshrink][514] - A data compression/decompression library for embedded and
   real-time systems. [ISC][61].
+* [fast\_zlib][533] - Improved zlib, which runs 2 to 10 times faster.
+  [BSD-3-Clause][6].
 * [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
 * [libbzip2][427] - A patent-free, high-quality data compression
   library. [BSD-4-Clause][310].
@@ -1507,3 +1509,4 @@ with respect to support for C.
 [530]: https://github.com/leo-yuriev/t1ha
 [531]: http://www.gii.upv.es/tlsf/
 [532]: https://github.com/minad/tlsf
+[533]: https://github.com/gildor2/fast_zlib
