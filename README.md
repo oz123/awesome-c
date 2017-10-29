@@ -783,7 +783,6 @@ This contains standard C libraries.
 * [greatest][58] - A unit testing library in one file, with no memory
   allocation. [MIT][11].
 * [minctest][394] - A unit testing microlibrary. [BSD-3-Clause][6].
-* [minunit][92] - Minimal unit testing framework. [MIT][11].
 * [munit][392] - A small unit testing framework. [MIT][11].
 * [theft][302] - Property-based testing (similar to [Quickcheck][301]). [MIT][11].
 * [Unity][296] - A simple unit testing framework. [MIT][11].
@@ -1070,7 +1069,7 @@ with respect to support for C.
 [89]: http://expat.sourceforge.net/ 
 [90]: https://www.sfml-dev.org/download/csfml/
 [91]: https://www.sfml-dev.org/index.php
-[92]: https://github.com/siu/minunit
+
 [93]: https://github.com/keybuk/libnih
 [94]: http://cunit.sourceforge.net/
 [95]: http://rr-project.org/
