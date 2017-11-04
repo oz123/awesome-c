@@ -27,7 +27,6 @@ CONTRIBUTING.md first.
 * [Editors](#editors)
 * [Frameworks](#frameworks)
 * [Game Programming](#game-programming)
-* [Generic Programming](#generic-programming)
 * [Graphics](#graphics)
 * [Graphical User Interface](#graphical-user-interface)
 * [Hashing](#hashing)
@@ -305,6 +304,8 @@ expect of a 'modern' standard library.
   portable, efficient and powerful. [LGPL-2.1][15].
 * [GIO][2] - A modern and easy-to-use VFS API. [LGPL-2.1][15].
 * [GObject][3] - An object-oriented system and object model. [LGPL-2.1][15].
+* [klib][76] - Small and lightweight implementations of common algorithms and
+  data structures. [MIT][11].
 * [libcork][476] - Utility functions and structures, designed for
   resource-constrained systems. Can be embedded. [BSD-3-Clause][6].
 * [libnih][93] - A lightweight library of functions and
@@ -357,10 +358,6 @@ making games.
   all open-source.
 * [Spearmint][371] - An engine designed for FPS games. [GPL-3.0+][41].
 
-## Generic Programming ##
-
-* [klib][76] - Small and lightweight implementations of common algorithms and
-  data structures. [MIT][11].
 
 ## Graphics ##
 
