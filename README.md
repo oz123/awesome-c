@@ -856,14 +856,13 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   routines. [GPL-2.0][8] or [GPL-3.0][41].
 * [GNU FreeIPMI][158] - In-band and out-of-band IPMI
   implementation. [GPL-3.0][41].
-* [GNU gperf][351] - A perfect hash function generator, given a list of
+* [GNU gperf][351] - Perfect hash function generator, given a list of
   strings. Outputs C code. [GPL-3.0+][41].
-* [GNU Libffcall][162] - A collection of libraries for building foreign function
+* [GNU Libffcall][162] - Collection of libraries for building foreign function
   interfaces. [GPL-3.0+][41].
-* [Hoedown][405] - A fully-standards-compliant, extension-supporting, UTF-8
+* [Hoedown][405] - Fully-standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [MIT][11].
-* [iniparser][336] - A parser for .ini files. [MIT][11].
-* [jwHash][350] - A fast hashtable implementation. [Apache-2.0][32].
+* [iniparser][336] - Parser for .ini files. [MIT][11].
 * [kdtree][337] - A simple library for working with KD-trees. [BSD-3-Clause][6].
 * [Kitsune][355] - An efficient, general-purpose framework for dynamic software
   updating. [LGPL-3.0+][5].
@@ -1310,7 +1309,7 @@ support for C.
 [347]: https://cdecl.org/
 [348]: https://github.com/mpv-player/mpv
 [349]: https://www.recurse.com/blog/5-learning-c-with-gdb
-[350]: https://github.com/watmough/jwHash
+
 [351]: https://www.gnu.org/software/gperf/
 [352]: http://libmill.org/
 [353]: https://talloc.samba.org/talloc/doc/html/index.html
