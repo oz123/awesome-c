@@ -67,85 +67,83 @@ Basically, if your university calls it AI, it lives here.
 
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer
   vision. [BSD-3-Clause][6].
-* [Cranium][525] - A portable, header-only ANN library in C99. [MIT][11].
+* [Cranium][525] - Portable, header-only ANN library in C99. [MIT][11].
 * [FANN][325] - Fast Artifical Neural Network library; an implementation of
   neural networks. [GPL-2.0][8].
-* [Genann][412] - A simple ANN in C89, without additional dependencies. [Zlib][49].
-* [libdeep][477] - A deep learning library. [BSD-3-Clause][6].
+* [Genann][412] - Simple ANN in C89, without additional dependencies. [Zlib][49].
+* [libdeep][477] - Deep learning library. [BSD-3-Clause][6].
 
 ## Build Systems ##
 
 Tools that automate the building and testing of projects in C.
 
-* [Autoconf][305] - An extensible package of M4 macros that produce shell
+* [Autoconf][305] - Extensible package of M4 macros that produce shell
   scripts to automatically configure software source code packages. Part of the
   Autotools. [GPL-3.0+][41].
-* [Automake][306] - A tool for automatically generating ``Makefile.in`` files
+* [Automake][306] - Tool for automatically generating ``Makefile.in`` files
   compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of
   the Autotools. [GPL-3.0+][41].
-* [GNU Make][324] - A tool which controls the generation of executables and other
+* [GNU Make][324] - Tool which controls the generation of executables and other
   non-source files of a program. [GPL-3.0+][41].
-* [Libtool][172] - A generic library support script. Part of the
-  Autotools. [GPL-3.0+][41].
-* [Meson][368] - An extremely fast, user-friendly build system. Based on Ninja. [Apache-2.0][32].
-* [Premake][435] - A command-line utility which reads a scripted definition of a
+* [Libtool][172] - Generic library support script. Part of the Autotools. 
+  [GPL-3.0+][41].
+* [Meson][368] - Extremely fast, user-friendly build system. Based on Ninja. [Apache-2.0][32].
+* [Premake][435] - Command-line utility which reads a scripted definition of a
   software project and uses it to generate project files for Visual Studio and
   GNU Make. Other targets are also being worked on. [BSD-3-Clause][6].
-* [tup][326] - A very fast, file-based, cross-platform build
-  system. [GPL-2.0][8].
-* [zproject][420] - A project generator and build system support.
-  [MPL-2.0][227].
+* [tup][326] - Very fast, file-based, cross-platform build system. [GPL-2.0][8].
+* [zproject][420] - Project generator and build system support tool. [MPL-2.0][227].
 
 ## Compilers ##
 
 Compilers, as well as compiler- and compilation-related tooling.
 
-* [ccache][466] - A compiler cache designed to speed up recompilation. [GPL-3.0+][41].
-* [Clang][38] - A compiler for LLVM. Supports C11. [NCSA][39].
-* [distcc][452] - A program to allow builds to be distributed among several
+* [ccache][466] - Compiler cache designed to speed up recompilation. [GPL-3.0+][41].
+* [Clang][38] - Compiler for LLVM. Supports C11. [NCSA][39].
+* [distcc][452] - Program that allows builds to be distributed among several
   machines. [GPL-2.0+][8].
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports
   C11. [GPL-3.0+][41].
-* [PCC][74] - A venerable compiler. Supports C99. [Various licenses][75], all 
+* [PCC][74] - Venerable compiler. Supports C99. [Various licenses][75], all 
   open-source.
 
 ## Compression ##
 
-* [blosc][445] - An extremely fast, multi-threaded, meta-compressor
-  library. Various licenses, all open-source.
+* [blosc][445] - Extremely fast, multi-threaded, meta-compressor library. 
+  Various licenses, all open-source.
 * [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
   implementation). [GPL-2.0+][8].
 * [CRoaring][481] - C implementation of [Roaring bitmaps][482]. [Apache-2.0][32].
-* [DENSITY][506] - A super-fast compression library. [BSD-3-Clause][6].
-* [heatshrink][514] - A data compression/decompression library for embedded and
+* [DENSITY][506] - Super-fast compression library. [BSD-3-Clause][6].
+* [heatshrink][514] - Data compression/decompression library for embedded and
   real-time systems. [ISC][61].
 * [fast\_zlib][533] - Improved zlib, which runs 2 to 10 times faster.
   [BSD-3-Clause][6].
-* [huffandpuff][214] - A minimal Huffman encoder and decoder. Public domain.
-* [libbzip2][427] - A patent-free, high-quality data compression
+* [huffandpuff][214] - Minimal Huffman encoder and decoder. Public domain.
+* [libbzip2][427] - Patent-free, high-quality data compression
   library. [BSD-4-Clause][310].
 * [lz4][508] - Library for an extremely fast compression algorithm.
   [BSD-2-Clause][24].
-* [lzo][338] - A very fast data compression library. [GPL-2.0+][8].
-* [shoco][363] - A compressor for small text strings. [MIT][11].
-* [SIMDComp][519] - A simple library for compressing lists of integers using
+* [lzo][338] - Very fast data compression library. [GPL-2.0+][8].
+* [shoco][363] - Compressor for small text strings. [MIT][11].
+* [SIMDComp][519] - Simple library for compressing lists of integers using
   binary packing. Makes use of SIMD instructions on x86. [BSD-3-Clause][6].
-* [smaz][364] - An efficient string compression library. [BSD-3-Clause][6].
-* [squash][393] - A compression abstraction library, complete with some
+* [smaz][364] - Efficient string compression library. [BSD-3-Clause][6].
+* [squash][393] - Compression abstraction library, complete with some
   utilities. [MIT][11].
 * [TurboPFor][471] - Fastest integer compression. [GPL-2.0+][8].
 * [TurboRLE][484] - Most efficient run-length encoding. [GPL-2.0+][8].
-* [zip][520] - A really really small zip archive processing library.
+* [zip][520] - Really really small zip archive processing library.
   [Unlicense][521].
-* [Zlib][230] - A massively-spiffy yet delicately-unobtrusive compression
+* [Zlib][230] - Massively-spiffy yet delicately-unobtrusive compression
   library. [BSD-3-Clause][6].
-* [Zstandard][510] - A fast, lossless compression algorithm, targeting real-time
+* [Zstandard][510] - Fast, lossless compression algorithm, targeting real-time
   compression scenarios at zlib-level or better compression ratios.
   [BSD-3-Clause][6].
 
 ## Concurrency and Parallelism ##
 
-* [cchan][243] - A small library for channel constructs for inter-thread
+* [cchan][243] - Small library for channel constructs for inter-thread
   communication. Public domain.
 * [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented
   framework for developing and benchmarking [OpenCL][312] projects. 
@@ -156,26 +154,26 @@ Compilers, as well as compiler- and compilation-related tooling.
   non-blocking data structures. [BSD-2-Clause][24].
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for
   C11. [BSD-3-Clause][6].
-* [libdill][442] - A library which makes structured concurrent programming
+* [libdill][442] - Library which makes structured concurrent programming
   easy. [MIT][11].
-* [libhl][478] - A library implementing a thread-safe API to manage a range of data
+* [libhl][478] - Library implementing a thread-safe API to manage a range of data
   structures. Also provides some supporting functions and structures for
   concurrent and lockfree programming. [LGPL-3.0][5].
-* [liburcu][474] - A data synchronization library, which scales linearly with the
+* [liburcu][474] - Data synchronization library, which scales linearly with the
   number of cores. [LGPL-2.1+][15].
 * [mill][352] - Go-style concurrency. [MIT][11].
-* [OpenMP][37] - A set of pragmas designed to allow for easy parallelization of
+* [OpenMP][37] - Set of pragmas designed to allow for easy parallelization of
   code. Standard (licensing not applicable).
-* [OpenMPI][284] - A message passing interface implementation. [BSD-3-Clause][6].
-* [pal][459] - An optimized library for maths, parallel processing and data
+* [OpenMPI][284] - Message passing interface implementation. [BSD-3-Clause][6].
+* [pal][459] - Optimized library for maths, parallel processing and data
   movement. [Apache-2.0][32].
-* [PETSc][282] - A suite of data structures and routines for scalable parallel
+* [PETSc][282] - Suite of data structures and routines for scalable parallel
   solution of scientific applications modelled by partial differential
   equations. [BSD-2-Clause][24].
-* [pth][180] - A portable implementation for non-preemptive priority-based
+* [pth][180] - Portable implementation for non-preemptive priority-based
   scheduling for multiple threads of execution. [GPL-3.0+][41].
-* [pthreads][146] - The POSIX thread library. Standard (no license applicable).
-* [TinyCThread][115] - A portable, small implementation of the C11 threads
+* [pthreads][146] - POSIX thread library. Standard (no license applicable).
+* [TinyCThread][115] - Portable, small implementation of the C11 threads
   API. [Zlib][49].
 
 ## Crypto ##
@@ -183,54 +181,54 @@ Compilers, as well as compiler- and compilation-related tooling.
 Mostly library implementations of well-known cryptographic algorithms or 
 protocols.
 
-* [GNU SASL][160] - An implementation of the Simple Authentication and Security
+* [GNU SASL][160] - Implementation of the Simple Authentication and Security
   Layer and a few common SASL mechanism. [GPL-3.0+][41].
-* [GnuTLS][112] - A secure communication library, implementing SSL, TLS and
+* [GnuTLS][112] - Secure communication library, implementing SSL, TLS and
   DTLS. [LGPL-2.1+][15].
-* [libgcrypt][142] - A general-purpose cryptography library, with a range of
+* [libgcrypt][142] - General-purpose cryptography library, with a range of
   available ciphers. [LGPL-2.1+][15].
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols. Also includes a
   cryptography
   library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
-* [liboqs][493] - A library for quantum-resistant cryptographicl algorithms.
+* [liboqs][493] - Library for quantum-resistant cryptographicl algorithms.
   [MIT][11].
-* [libsodium][198] - A modern and easy-to-use crypto library. [MIT][11].
-* [libtomcrypt][299] - A fairly comprehensive, modular and portable
+* [libsodium][198] - Modern and easy-to-use crypto library. [MIT][11].
+* [libtomcrypt][299] - Fairly comprehensive, modular and portable
   cryptographic toolkit. Public domain.
 * [mbed TLS][291] - Another crypto implementation. [Apache-2.0][32].
 * [MIRACL][480] - Multiprecision Integer and Rational Arithmetic Cryptographic
   Library; an SDK for elliptic curve cryptography. [AGPL-1.0+][381].
-* [retter][507] - A collection of hash functions, ciphers, tools, libraries and
+* [retter][507] - Collection of hash functions, ciphers, tools, libraries and
   materials related to cryptography and security. Public domain.
-* [s2n][359] - A C99 implementation of the TLS/SSL protocols, designed to be
+* [s2n][359] - C99 implementation of the TLS/SSL protocols, designed to be
   simple, fast and with security as a priority. [Apache-2.0][32].
-* [sphlib][526] - A set of implementations of various hash functions, including
+* [sphlib][526] - Set of implementations of various hash functions, including
   several cryptographic ones. [MIT][11].
 
 ## Database ##
 
 Databases and data stores with C APIs.
 
-* [BerkeleyDB][380] - A library for a high-performance embedded database for
+* [BerkeleyDB][380] - Library for a high-performance embedded database for
   key-value data. [AGPL-1.0][381].
 * [Groonga][524] - Columnar store with full-text search. [LGPL-2.1][15].
-* [Hiredis][201] - A minimalistic client library for Redis. [BSD-3-Clause][6].
-* [libmongoc][233] - A high-performance client library for [MongoDB][234]. [Apache-2.0][32].
-* [LMDB][105] - An ultra-fast, ultra-compact key-value embedded data store. [OLDAP-2.8][106].
-* [MariaDB][25] - A robust, scalable and reliable SQL server, designed to be a
+* [Hiredis][201] - Minimalistic client library for Redis. [BSD-3-Clause][6].
+* [libmongoc][233] - High-performance client library for [MongoDB][234]. [Apache-2.0][32].
+* [LMDB][105] - Ultra-fast, ultra-compact key-value embedded data store. [OLDAP-2.8][106].
+* [MariaDB][25] - Robust, scalable and reliable SQL server, designed to be a
   drop-in replacement for MySQL. [BSD-3-Clause][6].
-* [PostgreSQL][121] - A powerful object-relational database system. [PostgreSQL][122].
-* [recutils][360] - A set of tools and a library for accessing human-editable,
+* [PostgreSQL][121] - Powerful object-relational database system. [PostgreSQL][122].
+* [recutils][360] - Set of tools and a library for accessing human-editable,
   plaintext database files called recfiles. [GPL-3.0+][41].
-* [Redis][51] - An advanced key-value store. [BSD-3-Clause][6].
-* [sophia][244] - A modern, embeddable key-value database. [BSD-2-Clause][24].
-* [sparkey][509] - A simple constant key/value storage library. Designed for
+* [Redis][51] - Advanced key-value store. [BSD-3-Clause][6].
+* [sophia][244] - Modern, embeddable key-value database. [BSD-2-Clause][24].
+* [sparkey][509] - Simple constant key/value storage library. Designed for
   read-heavy loads with infrequent, large bulk inserts. [Apache-2.0][32].
-* [SQLite][22] - A self-contained, serverless, zero-configuration, transactional
+* [SQLite][22] - Self-contained, serverless, zero-configuration, transactional
   SQL database engine. Public domain.
-* [UnQLite][23] - A self-contained, serverless, zero-configuration,
+* [UnQLite][23] - Self-contained, serverless, zero-configuration,
   transactional NoSQL engine. [BSD-2-Clause][24].
-* [WhiteDB][512] - A lightweight database library, operating entirely in main
+* [WhiteDB][512] - Lightweight database library, operating entirely in main
   memory. [GPL-3.0+][41].
 
 ## Debugging ##
@@ -239,7 +237,7 @@ Because we all have to do it sometimes. Various tools for making debugging
 easier or better, as well as libraries or code that allows better debugging 
 work.
 
-* [C-Reduce][403] - A tool that takes a large C file with a property of interest
+* [C-Reduce][403] - Tool that takes a large C file with a property of interest
   and automatically produces a much smaller C file that has the same
   property. Intended to help create minimal bug-demonstrating cases in complex
   code. [BSD-3-Clause][6].
@@ -247,30 +245,30 @@ work.
   bounds, pointer safety and user-specified assertions. [BSD-4-Clause][310].
 * [cflow][404] - Analyzes a collection of source files and prints a graph
   charting control flow in the program. [GPL-3.0+][41].
-* [Complexity][307] - A tool for measuring the complexity of source
+* [Complexity][307] - Tool for measuring the complexity of source
   code. [GPL-3.0+][41].
-* [CScout][410] - A source code analyzer and refactoring browser for C
+* [CScout][410] - Source code analyzer and refactoring browser for C
   programs. [GPL-3.0][41].
-* [DDD][320] - A graphical front-end for a range of command-line
+* [DDD][320] - Graphical front-end for a range of command-line
   debuggers. [GPL-3.0+][41].
-* [debug][467] - A one-header library for easier 'printf debugging'.
+* [debug][467] - One-header library for easier 'printf debugging'.
   [MIT][11].
-* [GDB][87] - The GNU Project debugger. [GPL-3.0+][41].
-* [lldb][468] - The LLVM debugger. [NCSA][39].
-* [rr][95] - A debugger that records non-deterministic executions to allow for
+* [GDB][87] - GNU Project debugger. [GPL-3.0+][41].
+* [lldb][468] - LLVM debugger. [NCSA][39].
+* [rr][95] - Debugger that records non-deterministic executions to allow for
   deterministic debugging. [BSD-2-Clause][24].
-* [Valgrind][85] - A range of dynamic analysis tools, including a leak
+* [Valgrind][85] - Range of dynamic analysis tools, including a leak
   checker. [GPL-2.0][8].
 
 ## Documentation Generation ##
 
 * [Cxref][317] - Generates documentation in either LaTeX, HTML, RTF or
   SGML. [GPL-2.0][8].
-* [DocOnce][322] - A modestly-tagged markup language that can be used to
+* [DocOnce][322] - Modestly-tagged markup language that can be used to
   generate a range of formats. [BSD-3-Clause][6].
-* [Doxygen][318] - The de-facto standard tool for generating documentation from
+* [Doxygen][318] - De-facto standard tool for generating documentation from
   annotated sources. Can generate a large range of formats. [GPL-2.0][8].
-* [GTK-Doc][319] - A tool for generating documentation from annotated
+* [GTK-Doc][319] - Tool for generating documentation from annotated
   sources. Has support for the Autotools. [GPL-2.0][15].
 
 ## Editors ##
@@ -278,13 +276,13 @@ work.
 Fancier, IDE-type editors. If you want a programmer's text editor, look 
 elsewhere. Besides, whatever you use most likely supports C anyway.
 
-* [Anjuta DevStudio][42] - The GNOME IDE. [GPL-2.0][15].
-* [Code::Blocks][249] - An extensible, configurable IDE supporting
+* [Anjuta DevStudio][42] - GNOME IDE. [GPL-2.0][15].
+* [Code::Blocks][249] - Extensible, configurable IDE supporting
   C. [GPL-3.0][41].
-* [CodeLite][45] - A cross-platform IDE. [GPL-2.0][8].
-* [Eclipse][258] - An IDE written in Java. [EPL][259].
-* [Geany][43] - A very small and fast IDE. [GPL-2.0+][8].
-* [KDevelop][44] - The KDE IDE. [GPL-2.0][8].
+* [CodeLite][45] - Cross-platform IDE. [GPL-2.0][8].
+* [Eclipse][258] - IDE written in Java. [EPL][259].
+* [Geany][43] - Very small and fast IDE. [GPL-2.0+][8].
+* [KDevelop][44] - KDE IDE. [GPL-2.0][8].
 
 ## Frameworks ##
 
@@ -293,68 +291,68 @@ Big libraries that provide data structures and other stuff you expect of a
 
 * [APR][78] - Apache Portable Runtime; another library of cross-platform utility
   functions. [Apache-2.0][32].
-* [C Algorithms][88] - A collection of common algorithms and data structures. [ISC][61].
-* [Collections-C][406] - A library of generic data structures. [LGPL-3.0+][5].
+* [C Algorithms][88] - Collection of common algorithms and data structures. [ISC][61].
+* [Collections-C][406] - Library of generic data structures. [LGPL-3.0+][5].
 * [CPL][308] - The Common Pipeline Library; a set of libraries designed to be a
   comprehensive, efficient and robust software toolkit. [GPL-2.0][8].
-* [EFL][119] - A large collection of useful data structures and
+* [EFL][119] - Large collection of useful data structures and
   functions. Various licenses, all open-source.
-* [GLib][1] - A library of utility functions and structures, designed to be
+* [GLib][1] - Library of utility functions and structures, designed to be
   portable, efficient and powerful. [LGPL-2.1][15].
-* [GIO][2] - A modern and easy-to-use VFS API. [LGPL-2.1][15].
-* [GObject][3] - An object-oriented system and object model. [LGPL-2.1][15].
+* [GIO][2] - Modern and easy-to-use VFS API. [LGPL-2.1][15].
+* [GObject][3] - Object-oriented system and object model. [LGPL-2.1][15].
 * [klib][76] - Small and lightweight implementations of common algorithms and
   data structures. [MIT][11].
 * [libcork][476] - Utility functions and structures, designed for
   resource-constrained systems. Can be embedded. [BSD-3-Clause][6].
-* [libnih][93] - A lightweight library of functions and
+* [libnih][93] - Lightweight library of functions and
   structures. [GPL-2.0][8].
-* [libU][28] - A small library of basic utilities, including memory allocation,
+* [libU][28] - Small library of basic utilities, including memory allocation,
   string manipulation and logging. [BSD-3-Clause][6].
-* [offbrand][498] - A collection of generic, reference-counted data structures.
+* [offbrand][498] - Collection of generic, reference-counted data structures.
   [MIT][11].
-* [PBL][346] - A large library of utilities, featuring data structures, among
+* [PBL][346] - Large library of utilities, featuring data structures, among
   other things. [LGPL-2.1+][15]. 
-* [qlibc][277] - A simple and powerful library, designed as a replacement for
+* [qlibc][277] - Simple and powerful library, designed as a replacement for
   GLib while focusing on being small and light. [BSD-2-Clause][24].
-* [stb][114] - A range of single-file libraries. Public domain.
-* [TBOX][398] - A multi-platform library with a large number of
+* [stb][114] - Range of single-file libraries. Public domain.
+* [TBOX][398] - Multi-platform library with a large number of
   capabilities. [LGPL-2.1+][15].
 
 ## Game Programming ##
 
 Engines, libraries and other helpful things specifically for making games.
 
-* [Allegro][48] - A cross-platform, video game development and multimedia
+* [Allegro][48] - Cross-platform, video game development and multimedia
   library. [Zlib][49].
-* [Chipmunk2D][303] - A fast and lightweight 2D game physics library. [MIT][11].
-* [Corange][101] - A game engine in pure C. [BSD-2-Clause][24].
-* [CSFML][90] - A binding for [SFML][91]. [Zlib][49].
-* [Darkplaces][369] - A modified version of the Quake2 engine. [GPL-2.0][8].
-* [Epoxy][414] - A library for handling OpenGL function pointer management. [MIT][11].
-* [FreeGLUT][99] - An alternative to the OpenGL Utility Toolkit. Allows the
+* [Chipmunk2D][303] - Fast and lightweight 2D game physics library. [MIT][11].
+* [Corange][101] - Game engine in pure C. [BSD-2-Clause][24].
+* [CSFML][90] - Binding for [SFML][91]. [Zlib][49].
+* [Darkplaces][369] - Modified version of the Quake2 engine. [GPL-2.0][8].
+* [Epoxy][414] - Library for handling OpenGL function pointer management. [MIT][11].
+* [FreeGLUT][99] - Alternative to the OpenGL Utility Toolkit. Allows the
   creation and management of windows with OpenGL contexts. [X11][100].
-* [GLFW][98] - A multi-platform library for creating windows with OpenGL
+* [GLFW][98] - Multi-platform library for creating windows with OpenGL
   contexts. [Zlib][49].
-* [ioquake3][107] - The Quake3 engine, freed at last. [GPL-2.0][8].
-* [kazmath][446] - A maths library for games. [BSD-2-Clause][24].
-* [libao][376] - A cross-platform audio library with a wide variety of
+* [ioquake3][107] - Quake3 engine, freed at last. [GPL-2.0][8].
+* [kazmath][446] - Maths library for games. [BSD-2-Clause][24].
+* [libao][376] - Cross-platform audio library with a wide variety of
   outputs. [GPL-2.0+][8].
-* [Orx][370] - A portable, lightweight, plugin-based, data-driven, 2D-oriented
+* [Orx][370] - Portable, lightweight, plugin-based, data-driven, 2D-oriented
   game engine. [Zlib][49].
-* [Quake][225] - The Quake engine. [GPL-2.0][8].
-* [Quake2][221] - The Quake2 engine. [GPL-2.0][8].
-* [raylib][516] - A simple and easy-to-use library to learn video game
+* [Quake][225] - Quake engine. [GPL-2.0][8].
+* [Quake2][221] - Quake2 engine. [GPL-2.0][8].
+* [raylib][516] - Simple and easy-to-use library to learn video game
   programming. [Zlib][49].
-* [RetroArch][231] - The reference frontend for [libretro][232]. [GPL-3.0][41].
-* [SDL2][50] - A cross-platform library designed to provide low-level access to
+* [RetroArch][231] - Reference frontend for [libretro][232]. [GPL-3.0][41].
+* [SDL2][50] - Cross-platform library designed to provide low-level access to
   audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [Zlib][49].
-* [sdl-gpu][457] - A library for high-performance, modern 2D graphics. Based on
+* [sdl-gpu][457] - Library for high-performance, modern 2D graphics. Based on
   SDL. [MIT][11].
 * [SIGIL][429] - Sound, Input and Graphics Integration Library; a simple
   alternative to other libraries for doing all those things. Various licenses,
   all open-source.
-* [Spearmint][371] - An engine designed for FPS games. [GPL-3.0+][41].
+* [Spearmint][371] - Engine designed for FPS games. [GPL-3.0+][41].
 
 
 ## Graphics ##
@@ -362,45 +360,45 @@ Engines, libraries and other helpful things specifically for making games.
 Programmatic manipulation of graphics in C; if you want to make a GUI, the 
 Graphical User Interface section has what you need.
 
-* [Cairo][384] - A 2D graphics library. [LGPL-2.1][15] or [MPL-1.1][385].
-* [Cogl][127] - A GPU graphics and utilities API. [MIT][11]. 
-* [Clutter][126] - A UI library based on OpenGL. [LGPL-2.1][15].
-* [giflib][401] - A library for reading and writing gif images. [MIT][11].
-* [graphene][515] - A thin layer of graphical data types. [MIT][11].
-* [heman][365] - A tiny library of image utilities dealing with height maps,
+* [Cairo][384] - 2D graphics library. [LGPL-2.1][15] or [MPL-1.1][385].
+* [Cogl][127] - GPU graphics and utilities API. [MIT][11]. 
+* [Clutter][126] - UI library based on OpenGL. [LGPL-2.1][15].
+* [giflib][401] - Library for reading and writing gif images. [MIT][11].
+* [graphene][515] - Thin layer of graphical data types. [MIT][11].
+* [heman][365] - Tiny library of image utilities dealing with height maps,
   normal maps, distance fields and the like. [MIT][11].
-* [libcaca][366] - An ASCII renderer for terminal-based interfaces. [WTFPL][367].
-* [libgd][402] - A library for the dynamic creation of images by programmers. [MIT][11].
+* [libcaca][366] - ASCII renderer for terminal-based interfaces. [WTFPL][367].
+* [libgd][402] - Library for the dynamic creation of images by programmers. [MIT][11].
 * [libimagequant][300] - Small, portable library for high-quality conversion of
   RGBA images to 8-bit indexed colour images. [GPL-3.0+][41].
-* [libjpeg-turbo][193] - A faster library for reading and writing JPEG
+* [libjpeg-turbo][193] - Faster library for reading and writing JPEG
   files. [Various licences][194].
-* [libpng][382] - The official PNG reference library. [Libpng][383].
-* [libRSVG][417] - A library to render SVG files using Cairo. [LGPL-2.1+][15].
-* [libsixel][17] - A library implementing the SIXEL protocol, allowing beautiful
+* [libpng][382] - Official PNG reference library. [Libpng][383].
+* [libRSVG][417] - Library to render SVG files using Cairo. [LGPL-2.1+][15].
+* [libsixel][17] - Library implementing the SIXEL protocol, allowing beautiful
   graphics in your terminal. [MIT][11].
-* [libvips][511] - An image processing library. [LGPL-2.1+][15].
-* [libxmi][174] - A function library for rasterizing 2D vector
+* [libvips][511] - Image processing library. [LGPL-2.1+][15].
+* [libxmi][174] - Function library for rasterizing 2D vector
   graphics. [GPL-3.0+][41].
-* [lightmapper][444] - A single-file library for lightmap baking, using an
+* [lightmapper][444] - Single-file library for lightmap baking, using an
   existing OpenGL renderer. Public domain.
-* [mozjpeg][200] - An improved JPEG encoder. [BSD-3-Clause][6].
+* [mozjpeg][200] - Improved JPEG encoder. [BSD-3-Clause][6].
 * [nanovg][505] - Anti-aliased 2D vector drawing library on top of OpenGL, for
   UI and visualizations. [Zlib][49].
-* [OpenGL][147] - The industry standard for high-performance graphics, with a
+* [OpenGL][147] - Industry standard for high-performance graphics, with a
   native C binding. [Various licenses][148].
 
 ## Graphical User Interface ##
 
 Widget toolkits, or things meant to be used in a similar way to them.
 
-* [GTK+][14] - A cross-platform widget toolkit. [LGPL-2.1][15].
+* [GTK+][14] - Cross-platform widget toolkit. [LGPL-2.1][15].
 * [IUP][16] - Another cross-platform widget toolkit. [MIT][11].
-* [nuklear][408] - A small, C89, single-header widget toolkit. Public domain.
-* [tinyfiledialogs][426] - A single-file library for simple dialogs. Compatible
+* [nuklear][408] - Small, C89, single-header widget toolkit. Public domain.
+* [tinyfiledialogs][426] - Single-file library for simple dialogs. Compatible
   with many other toolkits and OSes. [Zlib][49].
-* [Tk][19] - A basic widget toolkit. Part of Tcl/Tk. [TCL][20].
-* [XForms Toolkit][21] - A widget toolkit designed for the XWindow
+* [Tk][19] - Basic widget toolkit. Part of Tcl/Tk. [TCL][20].
+* [XForms Toolkit][21] - Widget toolkit designed for the XWindow
   system. [LGPL-2.1][15].
 
 ## Hashing ##
@@ -408,25 +406,25 @@ Widget toolkits, or things meant to be used in a similar way to them.
 Hash function implementations for *non*-crypto purposes. Cryptographic hashes 
 can be found in the Crypto section.
 
-* [CLHash][495] - A library implementing the ridiculously fast CLHash hashing
+* [CLHash][495] - Library implementing the ridiculously fast CLHash hashing
   function. Only works on Intel Haswell or newer. [Apache-2.0][32].
-* [HighwayHash][527] - A fast, strong, SIMD-using hash function. Also contains
+* [HighwayHash][527] - Fast, strong, SIMD-using hash function. Also contains
   an implementation of SipHash (although this is slower). [Apache-2.0][32].
 * [t1ha][530] - Fast Positive Hash - a portable, fast hash function.
   [BSD-3-Clause][6].
-* [xxHash][522] - An extremely fast hashing algorithm. Comes in 32 and 64-bit
+* [xxHash][522] - Extremely fast hashing algorithm. Comes in 32 and 64-bit
   varieties. [BSD-2-Clause][24].
 
 ## JSON ##
 
 * [cJSON][443] - Ultra-lightweight JSON parser. [MIT][11].
-* [Jansson][53] - A library for encoding, decoding and manipulating JSON. [MIT][11].
-* [jsmn][120] - A minimalistic JSON parser. [MIT][11].
-* [jfes][488] - A simple JSON engine without any dependencies. [MIT][11].
-* [json-c][220] - A library for working with JSON. [MIT][11].
+* [Jansson][53] - Library for encoding, decoding and manipulating JSON. [MIT][11].
+* [jsmn][120] - Minimalistic JSON parser. [MIT][11].
+* [jfes][488] - Simple JSON engine without any dependencies. [MIT][11].
+* [json-c][220] - Library for working with JSON. [MIT][11].
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
   Schema. [LGPL-2.0+][334] or [LGPL-2.1+][15] or [LGPL-3.0+][5]. 
-* [YAJL][60] - A fast streaming JSON parser library. [ISC][61]
+* [YAJL][60] - Fast streaming JSON parser library. [ISC][61]
 
 ## Learning, Reference and Tutorials ##
 
@@ -492,29 +490,29 @@ to C programming.
 
 ### Reference books ###
 
-* [C: A Reference Manual 5E][181] - A full reference book for C99.
-* [C in a Nushell 2E][418] - A concise reference book for C11.
-* [C Pocket Reference][182] - A concise reference book for C99.
-* [The C Programming Language 2E][7] - The original book on C, by its creators.
+* [C: A Reference Manual 5E][181] - Full reference book for C99.
+* [C in a Nushell 2E][418] - Concise reference book for C11.
+* [C Pocket Reference][182] - Concise reference book for C99.
+* [The C Programming Language 2E][7] - Original book on C, by its creators.
 
 ### Beginner books ###
 
-* [C Primer Plus 6E][184] - A complete tutorial on programming in C11.
-* [C Programming: A Modern Approach][64] - An excellent book to learn the basics
+* [C Primer Plus 6E][184] - Complete tutorial on programming in C11.
+* [C Programming: A Modern Approach][64] - Excellent book to learn the basics
   from C from.
-* [Head First C][102] - A 'head-first' style book for learning C.
+* [Head First C][102] - 'Head-first' style book for learning C.
 
 ### Intermediate books ###
 
-* [21st Century C][35] - A very good *second* programming book on C.
-* [Understanding and Using C Pointers][36] - An in-depth resource on pointers in
+* [21st Century C][35] - Very good second programming book on C.
+* [Understanding and Using C Pointers][36] - In-depth resource on pointers in
   C.
-* [ZeroMQ][183] - A book for using ZeroMQ with C.
+* [ZeroMQ][183] - Book for using ZeroMQ with C.
 
 ### Advanced books ###
 
-* [Expert C Programming: Deep C Secrets][55] - An interesting, in-depth and
-  *entertaining* look at the innards of C.
+* [Expert C Programming: Deep C Secrets][55] - Interesting, in-depth and
+  entertaining look at the innards of C.
 
 ## Lexing and Parsing ##
 
