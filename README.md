@@ -62,8 +62,8 @@ CONTRIBUTING.md first.
 
 ## AI ##
 
-This includes such things as computer vision, neural nets, machine learning, and
-other such things. Basically, if your university calls it AI, it lives here.
+Computer vision, neural nets, machine learning, and other similar things. 
+Basically, if your university calls it AI, it lives here.
 
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer
   vision. [BSD-3-Clause][6].
@@ -75,7 +75,7 @@ other such things. Basically, if your university calls it AI, it lives here.
 
 ## Build Systems ##
 
-These are tools to automate the building and testing of projects in C.
+Tools that automate the building and testing of projects in C.
 
 * [Autoconf][305] - An extensible package of M4 macros that produce shell
   scripts to automatically configure software source code packages. Part of the
@@ -98,7 +98,7 @@ These are tools to automate the building and testing of projects in C.
 
 ## Compilers ##
 
-This section also includes compiler-related and compilation-related tooling.
+Compilers, as well as compiler- and compilation-related tooling.
 
 * [ccache][466] - A compiler cache designed to speed up recompilation. [GPL-3.0+][41].
 * [Clang][38] - A compiler for LLVM. Supports C11. [NCSA][39].
@@ -180,7 +180,7 @@ This section also includes compiler-related and compilation-related tooling.
 
 ## Crypto ##
 
-This is mostly library implementations of well-known cryptographic algorithms or
+Mostly library implementations of well-known cryptographic algorithms or 
 protocols.
 
 * [GNU SASL][160] - An implementation of the Simple Authentication and Security
@@ -209,7 +209,7 @@ protocols.
 
 ## Database ##
 
-This lists databases and data stores with C APIs.
+Databases and data stores with C APIs.
 
 * [BerkeleyDB][380] - A library for a high-performance embedded database for
   key-value data. [AGPL-1.0][381].
@@ -235,9 +235,9 @@ This lists databases and data stores with C APIs.
 
 ## Debugging ##
 
-Because we all have to do it sometimes. This includes various tools for making
-debugging easier or better, as well as libraries or code that allows better
-debugging work.
+Because we all have to do it sometimes. Various tools for making debugging 
+easier or better, as well as libraries or code that allows better debugging 
+work.
 
 * [C-Reduce][403] - A tool that takes a large C file with a property of interest
   and automatically produces a much smaller C file that has the same
@@ -275,9 +275,8 @@ debugging work.
 
 ## Editors ##
 
-These are specifically fancier, IDE-type editors. If you want a programmer's
-text editor, look elsewhere. Besides, whatever choice you make most likely
-supports C anyway.
+Fancier, IDE-type editors. If you want a programmer's text editor, look 
+elsewhere. Besides, whatever you use most likely supports C anyway.
 
 * [Anjuta DevStudio][42] - The GNOME IDE. [GPL-2.0][15].
 * [Code::Blocks][249] - An extensible, configurable IDE supporting
@@ -289,8 +288,8 @@ supports C anyway.
 
 ## Frameworks ##
 
-This section has big libraries that provide data structures and other stuff you
-expect of a 'modern' standard library.
+Big libraries that provide data structures and other stuff you expect of a 
+'modern' standard library.
 
 * [APR][78] - Apache Portable Runtime; another library of cross-platform utility
   functions. [Apache-2.0][32].
@@ -324,8 +323,7 @@ expect of a 'modern' standard library.
 
 ## Game Programming ##
 
-This includes engines, libraries and other helpful things specifically for
-making games.
+Engines, libraries and other helpful things specifically for making games.
 
 * [Allegro][48] - A cross-platform, video game development and multimedia
   library. [Zlib][49].
@@ -361,8 +359,8 @@ making games.
 
 ## Graphics ##
 
-This is for programmatic manipulation of graphics in C; if you want to make a
-GUI, the Graphical User Interface section is more appropriate.
+Programmatic manipulation of graphics in C; if you want to make a GUI, the 
+Graphical User Interface section has what you need.
 
 * [Cairo][384] - A 2D graphics library. [LGPL-2.1][15] or [MPL-1.1][385].
 * [Cogl][127] - A GPU graphics and utilities API. [MIT][11]. 
@@ -394,8 +392,7 @@ GUI, the Graphical User Interface section is more appropriate.
 
 ## Graphical User Interface ##
 
-These are specifically widget toolkits, or things meant to be used in a
-similar way to them.
+Widget toolkits, or things meant to be used in a similar way to them.
 
 * [GTK+][14] - A cross-platform widget toolkit. [LGPL-2.1][15].
 * [IUP][16] - Another cross-platform widget toolkit. [MIT][11].
@@ -408,8 +405,8 @@ similar way to them.
 
 ## Hashing ##
 
-These are hash function implementations for *non*-crypto purposes.
-Cryptographic hashes can be found in the Crypto section.
+Hash function implementations for *non*-crypto purposes. Cryptographic hashes 
+can be found in the Crypto section.
 
 * [CLHash][495] - A library implementing the ridiculously fast CLHash hashing
   function. Only works on Intel Haswell or newer. [Apache-2.0][32].
@@ -433,8 +430,8 @@ Cryptographic hashes can be found in the Crypto section.
 
 ## Learning, Reference and Tutorials ##
 
-This is a list of resources for learning C programming in general, or something
-useful relating to C programming.
+Resources for learning C programming in general, or something useful relating 
+to C programming.
 
 ### Reference resources online ###
 
@@ -521,8 +518,8 @@ useful relating to C programming.
 
 ## Lexing and Parsing ##
 
-This details libraries specifically for [lexical analysis][489] (or lexing) and
-[syntactic analysis][490] (or parsing).
+Libraries specifically for lexical analysis (or lexing) and syntactic analysis 
+(or parsing).
 
 * [flex][491] - The fast lexical analyzer generator. [BSD-2-Clause][24].
 * [GNU Bison][492] - A general-purpose parser generator that converts an
@@ -567,9 +564,8 @@ to do with managing C memory lives here.
 
 ## Networking and Internet ##
 
-Low-level networking and internet-related stuff resides here. If you want
-something more comprehensive and high-level, you may want the Web Frameworks
-section.
+Low-level networking and internet-related stuff. If you want something more 
+comprehensive and high-level, you may want the Web Frameworks section.
 
 * [asnlc][138] - A compiler of ASN.1 specifications into C source code. [BSD-2-Clause][24].
 * [CHL][422] - C Hypertext Library - A library for writing web applications in
@@ -616,7 +612,6 @@ section.
 * [Wslay][460] - A WebSocket library. Implements version 13 of the WebSocket
   protocol, as described in RFC 6455. [MIT][11].
 * [zyre][419] - A framework for proximity-based peer-to-peer applications. [MPL-2.0][227].
-
 
 ## Numerical ##
 
@@ -677,9 +672,6 @@ section.
 
 ## Regex ##
 
-> "Some people, when confronted with a problem, think 'I know, I'll use regular
-> expressions'. Now they have two problems." - Jamie Zawinski.
-
 * [Onigmo][518] - A fork of Oniguruma, supporting more advanced regexps.
   [BSD-2-Clause][24].
 * [Oniguruma][517] - A regex library supporting a wide range of encodings, and
@@ -711,8 +703,8 @@ section.
 
 ## Source Code Collections ##
 
-This contains collections of small source code. If you want something big and
-integrated, check the Frameworks section.
+Collections of small source code. If you want something big and integrated, check 
+the Frameworks section.
 
 * [CCAN][103] - Modelled after Perl's CPAN, this is a big collection of code
   that does stuff. The full list is [here][104]. Various licenses, all
@@ -727,7 +719,7 @@ integrated, check the Frameworks section.
 
 ## Standard Libraries ##
 
-This contains standard C libraries.
+Implementations of the (standard-mandated) C standard library.
 
 * [Bionic][4] - Google's standard library, developed for Android. [BSD-3-Clause][6].
 * [cloudlibc][486] - A standard library based on the concept of
@@ -793,8 +785,8 @@ extensions that make it more pleasant. These are labelled by editor.
 
 ## Tools ##
 
-This is a list of useful programs to help you write and debug C code which are
-*not* editors, libraries or compilers.
+Useful programs to help you write and debug C code which are *not* editors, 
+libraries or compilers.
 
 * [Artistic Style][314] - A fast and small automatic source code formatter that
   supports C. [LGPL-3.0][5].
@@ -834,7 +826,7 @@ This is a list of useful programs to help you write and debug C code which are
 
 ## Utilities ##
 
-This is a 'catch-all' category for anything that doesn't fit well anywhere else.
+A 'catch-all' category for anything that doesn't fit well anywhere else.
 
 * [ApeTagLibs][345] - A library for working with APEv2 tags. [MIT][11].
 * [argparse][413] - A command-line argument parsing library, inspired by
@@ -942,8 +934,8 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
 
 ## Web Frameworks ##
 
-This lists complete solutions for building the next brilliant web application in
-C.
+Comprehensive and integrated solutions for building the next brilliant web 
+application in C.
 
 * [balde][386] - A microframework based on GLib. [LGPL-2.1][15].
 * [facil.io][118] - A mini-framework for web applications. Includes a fast HTTP and
@@ -956,8 +948,8 @@ C.
 
 ## Windows Environments ##
 
-This is a list of technologies designed to bring Windows into the 21st century
-with respect to support for C.
+Technologies designed to bring Windows into the 21st century with respect to 
+support for C.
 
 * [Cygwin][253] - Designed to emulate a POSIX-compatible environment extensively
   under Windows. [Various licenses, all open-source][254].
@@ -968,10 +960,6 @@ with respect to support for C.
   pacman. Packages have individual licenses, otherwise, as MinGW and Cygwin.
 
 ## XML ##
-
-> "XML is crap. Really. There are no excuses. XML is nasty to parse for humans,
-> and it's a disaster to parse even for computers. There's just no reason for
-> that horrible crap to exist." - Linus Torvalds
 
 * [Expat][89] - A stream-oriented XML parser. [MIT][11].
 * [libxml2][62] - A standards-compliant, portable XML parser. [MIT][11].
@@ -1462,8 +1450,8 @@ with respect to support for C.
 [486]: https://github.com/NuxiNL/cloudlibc
 [487]: https://en.wikipedia.org/wiki/Capability-based_security
 [488]: https://github.com/NeonMercury/jfes
-[489]: https://en.wikipedia.org/wiki/Lexical_analysis
-[490]: https://en.wikipedia.org/wiki/Parsing
+
+
 [491]: https://github.com/westes/flex
 [492]: https://www.gnu.org/software/bison/
 [493]: https://openquantumsafe.org/
