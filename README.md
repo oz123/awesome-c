@@ -26,8 +26,6 @@ CONTRIBUTING.md first.
 * [Editors](#editors)
 * [Frameworks](#frameworks)
 * [Game Programming](#game-programming)
-  * [Engines](#engines)
-  * [Resources](#resources)
 * [Generic Programming](#generic-programming)
 * [Graphics](#graphics)
 * [Graphical User Interface](#graphical-user-interface)
@@ -325,35 +323,28 @@ expect of a 'modern' standard library.
 
 ## Game Programming ##
 
-### Engines ###
-
-These are provided as examples of C game programming code.
-
-* [Corange][101] - A game engine in pure C. [BSD-2-Clause][24].
-* [Darkplaces][369] - A modified version of the Quake2 engine. [GPL-2.0][8].
-* [ioquake3][107] - The Quake3 engine, freed at last. [GPL-2.0][8].
-* [Orx][370] - A portable, lightweight, plugin-based, data-driven, 2D-oriented
-  game engine. [Zlib][49].
-* [Quake][225] - The Quake engine. [GPL-2.0][8].
-* [Quake2][221] - The Quake2 engine. [GPL-2.0][8].
-* [Spearmint][371] - An engine designed for FPS games. [GPL-3.0+][41].
-
-### Resources ###
-
-These are libraries of all sorts that are useful for game programming.
+This includes engines, libraries and other helpful things specifically for
+making games.
 
 * [Allegro][48] - A cross-platform, video game development and multimedia
   library. [Zlib][49].
 * [Chipmunk2D][303] - A fast and lightweight 2D game physics library. [MIT][11].
+* [Corange][101] - A game engine in pure C. [BSD-2-Clause][24].
 * [CSFML][90] - A binding for [SFML][91]. [Zlib][49].
+* [Darkplaces][369] - A modified version of the Quake2 engine. [GPL-2.0][8].
 * [Epoxy][414] - A library for handling OpenGL function pointer management. [MIT][11].
 * [FreeGLUT][99] - An alternative to the OpenGL Utility Toolkit. Allows the
   creation and management of windows with OpenGL contexts. [X11][100].
 * [GLFW][98] - A multi-platform library for creating windows with OpenGL
   contexts. [Zlib][49].
+* [ioquake3][107] - The Quake3 engine, freed at last. [GPL-2.0][8].
 * [kazmath][446] - A maths library for games. [BSD-2-Clause][24].
 * [libao][376] - A cross-platform audio library with a wide variety of
   outputs. [GPL-2.0+][8].
+* [Orx][370] - A portable, lightweight, plugin-based, data-driven, 2D-oriented
+  game engine. [Zlib][49].
+* [Quake][225] - The Quake engine. [GPL-2.0][8].
+* [Quake2][221] - The Quake2 engine. [GPL-2.0][8].
 * [raylib][516] - A simple and easy-to-use library to learn video game
   programming. [Zlib][49].
 * [RetroArch][231] - The reference frontend for [libretro][232]. [GPL-3.0][41].
@@ -364,6 +355,7 @@ These are libraries of all sorts that are useful for game programming.
 * [SIGIL][429] - Sound, Input and Graphics Integration Library; a simple
   alternative to other libraries for doing all those things. Various licenses,
   all free.
+* [Spearmint][371] - An engine designed for FPS games. [GPL-3.0+][41].
 
 ## Generic Programming ##
 
