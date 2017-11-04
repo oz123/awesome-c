@@ -4,7 +4,7 @@ A curated list of C good stuff. This list contains *only* [freedom-respecting][1
 code, and sellers who aren't evil for physical resources.
 
 This is released under a Creative Commons-Attribution-ShareAlike license,
-version 4. You can find its text in the LICENSE file.
+version 4 (SPDX code ``CC-BY-SA-4.0``). You can find its text in the LICENSE file.
 
 **An important note:** This project does *not* index anything C++-related; only
 pure C stuff is considered.
