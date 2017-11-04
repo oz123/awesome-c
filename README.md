@@ -1,7 +1,8 @@
 # Awesome C #
 
-A curated list of C good stuff. This list contains *only* [freedom-respecting][13]
-code, and sellers who aren't evil for physical resources.
+A curated list of C good stuff. This list contains *only* [open-source][13]
+code (as defined by the linked Open Source Definition), and sellers who 
+aren't evil for physical resources.
 
 This is released under a Creative Commons-Attribution-ShareAlike license,
 version 4 (SPDX code ``CC-BY-SA-4.0``). You can find its text in the LICENSE file.
@@ -108,12 +109,13 @@ This section also includes compiler-related and compilation-related tooling.
   machines. [GPL-2.0+][8].
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports
   C11. [GPL-3.0+][41].
-* [PCC][74] - A venerable compiler. Supports C99. [Various licenses][75], all free.
+* [PCC][74] - A venerable compiler. Supports C99. [Various licenses][75], all 
+  open-source.
 
 ## Compression ##
 
 * [blosc][445] - An extremely fast, multi-threaded, meta-compressor
-  library. Various licenses, all free.
+  library. Various licenses, all open-source.
 * [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
   implementation). [GPL-2.0+][8].
 * [CRoaring][481] - C implementation of [Roaring bitmaps][482]. [Apache-2.0][32].
@@ -300,7 +302,7 @@ expect of a 'modern' standard library.
 * [CPL][308] - The Common Pipeline Library; a set of libraries designed to be a
   comprehensive, efficient and robust software toolkit. [GPL-2.0][8].
 * [EFL][119] - A large collection of useful data structures and
-  functions. Various licenses, all free.
+  functions. Various licenses, all open-source.
 * [GLib][1] - A library of utility functions and structures, designed to be
   portable, efficient and powerful. [LGPL-2.1][15].
 * [GIO][2] - A modern and easy-to-use VFS API. [LGPL-2.1][15].
@@ -354,7 +356,7 @@ making games.
   SDL. [MIT][11].
 * [SIGIL][429] - Sound, Input and Graphics Integration Library; a simple
   alternative to other libraries for doing all those things. Various licenses,
-  all free.
+  all open-source.
 * [Spearmint][371] - An engine designed for FPS games. [GPL-3.0+][41].
 
 ## Generic Programming ##
@@ -539,7 +541,7 @@ Whether a different, faster ``malloc`` or outright garbage collection, anything
 to do with managing C memory lives here.
 
 * [Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various
-  licenses, all free.
+  licenses, all open-source.
 * [jemalloc][293] - A malloc implementation that emphasizes avoidance of
   fragmentation and scalable concurrency support. [BSD-2-Clause][24].
 * [Lockless Memory Allocator][451] - An efficient memory allocator. [GPL-3.0+][41].
@@ -722,10 +724,12 @@ This contains collections of small source code. If you want something big and
 integrated, check the Frameworks section.
 
 * [CCAN][103] - Modelled after Perl's CPAN, this is a big collection of code
-  that does stuff. The full list is [here][104]. Various licenses, all free.
+  that does stuff. The full list is [here][104]. Various licenses, all
+  open-source.
 * [clib][26] - Something of a package manager. Comes with
   a [bunch of libraries of its own][27]. [MIT][11].
-* [gnulib][46] - A collection of common GNU code. Various licenses, all free.
+* [gnulib][46] - A collection of common GNU code. Various licenses, all
+  open-source.
 * [libdjb][292] - A collection of libraries doing various things. (Apparently)
   public domain.
 * [par][456] - A bunch of single-file libraries. [MIT][11].
@@ -855,7 +859,7 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   FreeBSD systems. [LGPL-2.1+][15].
 * [CException][298] - An implementation of exceptions. [MIT][11].
 * [CommonMark][223] - An implementation of the CommonMark spec. 
-  [Variety of licenses, all free][224].
+  [Variety of licenses, all open-source][224].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
   for 'freezing' a running application to disk, then restoring
   it. [GPL-2.0][8] or [LGPL-2.1][15].
@@ -954,9 +958,9 @@ This is a list of technologies designed to bring Windows into the 21st century
 with respect to support for C.
 
 * [Cygwin][253] - Designed to emulate a POSIX-compatible environment extensively
-  under Windows. [Various licenses, all free][254].
+  under Windows. [Various licenses, all open-source][254].
 * [MinGW-w64][287] - A minimalist environment for C development on Windows with
-  64 bit support. [Various licenses, all free][252].
+  64 bit support. [Various licenses, all open-source][252].
 * [MSYS2][428] - Minimal SYStem 2; aims to provide support for a POSIX
   environment on Windows, with a package manager based on Arch Linux's
   pacman. Packages have individual licenses, otherwise, as MinGW and Cygwin.
@@ -982,7 +986,7 @@ with respect to support for C.
 [10]: https://www.musl-libc.org/
 [11]: https://spdx.org/licenses/MIT.html
 [12]: https://en.wikipedia.org/wiki/Widget_toolkit
-[13]: https://en.wikipedia.org/wiki/Free_software
+[13]: https://opensource.org/osd 
 [14]: https://www.gtk.org/
 [15]: https://spdx.org/licenses/LGPL-2.1.html
 [16]: http://webserver2.tecgraf.puc-rio.br/iup/
