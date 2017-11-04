@@ -417,7 +417,6 @@ can be found in the Crypto section.
 
 ## JSON ##
 
-* [cJSON][443] - Ultra-lightweight JSON parser. [MIT][11].
 * [Jansson][53] - Library for encoding, decoding and manipulating JSON. [MIT][11].
 * [jsmn][120] - Minimalistic JSON parser. [MIT][11].
 * [jfes][488] - Simple JSON engine without any dependencies. [MIT][11].
@@ -979,7 +978,7 @@ support for C.
 [22]: https://www.sqlite.org/
 [23]: https://unqlite.org/
 [24]: https://spdx.org/licenses/BSD-2-Clause.html
-[25]: https://mariadb.com/
+
 [26]: https://github.com/clibs/clib
 [27]: https://github.com/clibs/clib/wiki/Packages
 [28]: http://www.koanlogic.com/libu/
@@ -1212,7 +1211,7 @@ support for C.
 [255]: http://flintlib.org/
 [256]: http://pari.math.u-bordeaux.fr/
 [257]: http://blog.noctua-software.com/c-tricks.html
-[258]: http://www.eclipse.org/ide/
+
 [259]: https://spdx.org/licenses/EPL-1.0.html
 [260]: https://netbeans.org/
 [261]: https://github.com/JonnyWhatshisface/libwebsock
@@ -1395,7 +1394,7 @@ support for C.
 [440]: https://criu.org/Main_Page
 [441]: https://github.com/neomake/neomake
 [442]: http://libdill.org/
-[443]: https://github.com/DaveGamble/cJSON
+
 [444]: https://github.com/ands/lightmapper
 [445]: http://blosc.org/
 [446]: https://github.com/Kazade/kazmath
