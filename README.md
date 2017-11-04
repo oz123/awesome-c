@@ -421,7 +421,6 @@ can be found in the Crypto section.
 * [jsmn][120] - Minimalistic JSON parser. [MIT][11].
 * [jfes][488] - JSON For Embedded Systems; simple JSON engine without any 
   dependencies. [MIT][11].
-* [json-c][220] - Library for working with JSON. [MIT][11].
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
   Schema. [LGPL-2.0+][334] or [LGPL-2.1+][15] or [LGPL-3.0+][5]. 
 * [YAJL][60] - Fast streaming JSON parser library. [ISC][61]
@@ -1174,7 +1173,7 @@ support for C.
 [217]: http://svn.msweet.org/mxml/trunk/COPYING
 [218]: http://ezxml.sourceforge.net/
 [219]: https://github.com/blunderer/libroxml
-[220]: https://github.com/json-c/json-c/wiki
+
 [221]: https://github.com/id-Software/Quake-2
 [222]: https://github.com/dinhviethoa/libetpan
 [223]: https://github.com/commonmark/CommonMark
