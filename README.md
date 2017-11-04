@@ -863,84 +863,84 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Hoedown][405] - Fully-standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [MIT][11].
 * [iniparser][336] - Parser for .ini files. [MIT][11].
-* [kdtree][337] - A simple library for working with KD-trees. [BSD-3-Clause][6].
-* [Kitsune][355] - An efficient, general-purpose framework for dynamic software
+* [kdtree][337] - Simple library for working with KD-trees. [BSD-3-Clause][6].
+* [Kitsune][355] - Efficient, general-purpose framework for dynamic software
   updating. [LGPL-3.0+][5].
-* [libavl][156] - A library containing a range of self-balancing binary
+* [libavl][156] - Library containing a range of self-balancing binary
   trees. [GPL-3.0+][41].
-* [libbson][235] - A BSON utility library. [Apache-2.0][32].
-* [libCello][96] - A library introducing higher-level programming to
+* [libbson][235] - BSON utility library. [Apache-2.0][32].
+* [libCello][96] - Library introducing higher-level programming to
   C. [BSD-3-Clause][6].
-* [libcmark][436] - A library for parsing the CommonMark dialect of
+* [libcmark][436] - Library for parsing the CommonMark dialect of
   Markdown. [BSD-2-Clause][24].
-* [libcoap][136] - An implementation of the [Constrained Application Protocol][117].
+* [libcoap][136] - Implementation of the [Constrained Application Protocol][117].
   [GPL-2.0+][8] or [BSD-2-Clause][24].
-* [libconfuse][135] - A small configuration file parser library. [ISC][61].
-* [libcox][373] - A library which permits cross-platform system calls and
+* [libconfuse][135] - Small configuration file parser library. [ISC][61].
+* [libcox][373] - Library which permits cross-platform system calls and
   standard utilities across different operating systems. [BSD-2-Clause][24].
-* [libcsv][387] - A simple, streaming CSV parser. [LGPL-2.1+][15].
-* [libffi][128] - A portable foreign-function interface library. [MIT][11].
-* [libgeohash][499] - A pure C implementation of the Geohash algorithm.
+* [libcsv][387] - Simple, streaming CSV parser. [LGPL-2.1+][15].
+* [libffi][128] - Portable foreign-function interface library. [MIT][11].
+* [libgeohash][499] - Pure C implementation of the Geohash algorithm.
   [BSD-3-Clause][6].
 * [libgit2][108] - Pure C implementation of Git. [GPL-2.0, with a linking exception][109].
 * [libgss][161] - Generic Security Service. [GPL-3.0+][41].
-* [liblfds][411] - A portable lock-free data structure library. Public domain
+* [liblfds][411] - Portable lock-free data structure library. Public domain
   (more exactly, whatever license you want).
-* [libimobiledevice][354] - A cross-platform protocol library to communicate
+* [libimobiledevice][354] - Cross-platform protocol library to communicate
   with iThings. [LGPL-2.1+][15].
-* [libnfc][332] - A platform-independent Near-Field Communication
+* [libnfc][332] - Platform-independent Near-Field Communication
   library. [LGPL-3.0][5].
-* [libPhenom][31] - An eventing framework for building high-scalability and
+* [libPhenom][31] - Eventing framework for building high-scalability and
   high-performance systems. [Apache-2.0][32].
-* [libpostal][434] - A library for parsing and normalization of street addresses
+* [libpostal][434] - Library for parsing and normalization of street addresses
   around the world. Powered by statistical NLP and open geo data. [MIT][11].
-* [libtrading][455] - An implementation of network protocols for communicating
+* [libtrading][455] - Implementation of network protocols for communicating
   with exchanges, dark pools and other trading venues. Supports FIX, FIX/FAST
   and many proprietary protocols. [BSD-2-Clause][24].
-* [libucl][239] - A universal configuration library parser. [BSD-2-Clause][24].
+* [libucl][239] - Universal configuration library parser. [BSD-2-Clause][24].
 * [libuv][56] - Cross-platform asynchronous I/O. [MIT][11].
-* [libYAML][341] - A YAML 1.1 parser and emitter. [MIT][11].
+* [libYAML][341] - YAML 1.1 parser and emitter. [MIT][11].
 * [libxo][407] - Allows an application to generate plain text, XML, JSON and
   HTML output using a common set of function calls. The application decides at
   runtime what output style should be produced. [BSD-2-Clause][24].
-* [linenoise][504] - A small, self-contained alternative to readline and
+* [linenoise][504] - Small, self-contained alternative to readline and
   libedit. [BSD-2-Clause][24].
 * [ncurses][178] - Coloured terminal UI library. [MIT][11].
-* [netbsd-curses][494] - A simplified and small version of ncurses, with the same
+* [netbsd-curses][494] - Simplified and small version of ncurses, with the same
   interface. [BSD-3-Clause][6].
-* [nope.c][209] - An ultra-light software platform for scalable server-side and
+* [nope.c][209] - Ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [GPL-2.0][8].
-* [pbc][236] - A protocol buffers library. [MIT][11].
-* [progressbar][453] - An easy-to-use library for displaying text progress bars.
+* [pbc][236] - Protocol buffers library. [MIT][11].
+* [progressbar][453] - Easy-to-use library for displaying text progress bars.
   [BSD-3-Clause][6].
-* [rabbitmq-c][228] - A client library for [RabbitMQ][229]. [MIT][11].
-* [Ragel][54] - A DSL for state machines that compiles to C. [GPL-2.0][8].
-* [sort][190] - A collection of sorting routines, which type-specialize at
+* [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [MIT][11].
+* [Ragel][54] - DSL for state machines that compiles to C. [GPL-2.0][8].
+* [sort][190] - Collection of sorting routines, which type-specialize at
   compile-time with a user-defined type. [MIT][11].
-* [termbox][396] - A library for writing text-based interfaces. [MIT][11].
-* [tinyexpr][395] - A tiny recursive-descent parser, compiler and evaluation
+* [termbox][396] - Library for writing text-based interfaces. [MIT][11].
+* [tinyexpr][395] - Tiny recursive-descent parser, compiler and evaluation
   engine for simple mathematical expressions. [BSD-3-Clause][6].
-* [Tulip Indicators][449] - A library of functions for technical analysis of
+* [Tulip Indicators][449] - Library of functions for technical analysis of
   financial data. [LGPL-3.0+][5].
-* [vector.h][152] - A header library for typed lists. [MIT][11].
-* [Viola][241] - A simplification of libCello. [MIT][11].
-* [XLSX I/O][344] - A cross-platform library for reading and writing .xlsx
+* [vector.h][152] - Header library for typed lists. [MIT][11].
+* [Viola][241] - Simplification of libCello. [MIT][11].
+* [XLSX I/O][344] - Cross-platform library for reading and writing .xlsx
   files. [MIT][11].
-* [zlog][437] - A reliable, pure C logging library. [LGPL-2.1][15].
-* [zproto][421] - A protocol framework for ZeroMQ. [MIT][11].
+* [zlog][437] - Reliable, pure C logging library. [LGPL-2.1][15].
+* [zproto][421] - Protocol framework for ZeroMQ. [MIT][11].
 
 ## Web Frameworks ##
 
 Comprehensive and integrated solutions for building the next brilliant web 
 application in C.
 
-* [balde][386] - A microframework based on GLib. [LGPL-2.1][15].
-* [facil.io][118] - A mini-framework for web applications. Includes a fast HTTP and
+* [balde][386] - Microframework based on GLib. [LGPL-2.1][15].
+* [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
   Websocket server, and also supports custom protocols. [MIT][11].
-* [KLone][423] - A fully-featured, multi-platform, web application development
+* [KLone][423] - Fully-featured, multi-platform, web application development
   framework, targeted especially at embedded systems and
   appliances. [BSD-3-Clause][6].
-* [Kore][415] - An easy-to-use web application framework for writing scalable
+* [Kore][415] - Easy-to-use web application framework for writing scalable
   web APIs in C. [ISC][61].
 
 ## Windows Environments ##
@@ -950,7 +950,7 @@ support for C.
 
 * [Cygwin][253] - Designed to emulate a POSIX-compatible environment extensively
   under Windows. [Various licenses, all open-source][254].
-* [MinGW-w64][287] - A minimalist environment for C development on Windows with
+* [MinGW-w64][287] - Minimalist environment for C development on Windows with
   64 bit support. [Various licenses, all open-source][252].
 * [MSYS2][428] - Minimal SYStem 2; aims to provide support for a POSIX
   environment on Windows, with a package manager based on Arch Linux's
@@ -958,8 +958,8 @@ support for C.
 
 ## XML ##
 
-* [Expat][89] - A stream-oriented XML parser. [MIT][11].
-* [libxml2][62] - A standards-compliant, portable XML parser. [MIT][11].
+* [Expat][89] - Stream-oriented XML parser. [MIT][11].
+* [libxml2][62] - Standards-compliant, portable XML parser. [MIT][11].
 
 [1]: https://wiki.gnome.org/Projects/GLib
 [2]: https://developer.gnome.org/gio/
