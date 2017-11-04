@@ -171,9 +171,6 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [OpenMPI][284] - Message passing interface implementation. [BSD-3-Clause][6].
 * [pal][459] - Optimized library for maths, parallel processing and data
   movement. [Apache-2.0][32].
-* [PETSc][282] - Suite of data structures and routines for scalable parallel
-  solution of scientific applications modelled by partial differential
-  equations. [BSD-2-Clause][24].
 * [pth][180] - Portable implementation for non-preemptive priority-based
   scheduling for multiple threads of execution. [GPL-3.0+][41].
 * [pthreads][146] - POSIX thread library. Standard (no license applicable).
