@@ -46,7 +46,6 @@ CONTRIBUTING.md first.
 * [Memory Management](#memory-management)
 * [Multimedia](#multimedia)
 * [Networking and Internet](#networking-and-internet)
-  * [Web Frameworks](#web-frameworks)
 * [Numerical](#numerical)
 * [Profiling](#profiling)
 * [Regex](#regex)
@@ -60,6 +59,7 @@ CONTRIBUTING.md first.
   * [Neovim/Vim](#neovimvim)
 * [Tools](#tools)
 * [Utilities](#utilities)
+* [Web Frameworks](#web-frameworks)
 * [Windows Environments](#windows-environments)
 * [XML](#xml)
 
@@ -570,6 +570,10 @@ to do with managing C memory lives here.
 
 ## Networking and Internet ##
 
+Low-level networking and internet-related stuff resides here. If you want
+something more comprehensive and high-level, you may want the Web Frameworks
+section.
+
 * [asnlc][138] - A compiler of ASN.1 specifications into C source code. [BSD-2-Clause][24].
 * [CHL][422] - C Hypertext Library - A library for writing web applications in
   C. [GPL-3.0][41].
@@ -616,16 +620,6 @@ to do with managing C memory lives here.
   protocol, as described in RFC 6455. [MIT][11].
 * [zyre][419] - A framework for proximity-based peer-to-peer applications. [MPL-2.0][227].
 
-### Web Frameworks ###
-
-* [balde][386] - A microframework based on GLib. [LGPL-2.1][15].
-* [facil.io][118] - A mini-framework for web applications. Includes a fast HTTP and
-  Websocket server, and also supports custom protocols. [MIT][11].
-* [KLone][423] - A fully-featured, multi-platform, web application development
-  framework, targeted especially at embedded systems and
-  appliances. [BSD-3-Clause][6].
-* [Kore][415] - An easy-to-use web application framework for writing scalable
-  web APIs in C. [ISC][61].
 
 ## Numerical ##
 
@@ -951,6 +945,20 @@ This is a 'catch-all' category for anything that doesn't fit well anywhere else.
   files. [MIT][11].
 * [zlog][437] - A reliable, pure C logging library. [LGPL-2.1][15].
 * [zproto][421] - A protocol framework for ZeroMQ. [MIT][11].
+
+## Web Frameworks ##
+
+This lists complete solutions for building the next brilliant web application in
+C.
+
+* [balde][386] - A microframework based on GLib. [LGPL-2.1][15].
+* [facil.io][118] - A mini-framework for web applications. Includes a fast HTTP and
+  Websocket server, and also supports custom protocols. [MIT][11].
+* [KLone][423] - A fully-featured, multi-platform, web application development
+  framework, targeted especially at embedded systems and
+  appliances. [BSD-3-Clause][6].
+* [Kore][415] - An easy-to-use web application framework for writing scalable
+  web APIs in C. [ISC][61].
 
 ## Windows Environments ##
 
