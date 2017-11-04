@@ -281,7 +281,6 @@ elsewhere. Besides, whatever you use most likely supports C anyway.
 * [Code::Blocks][249] - Extensible, configurable IDE supporting
   C. [GPL-3.0][41].
 * [CodeLite][45] - Cross-platform IDE. [GPL-2.0][8].
-* [Eclipse][258] - IDE written in Java. [EPL][259].
 * [Geany][43] - Very small and fast IDE. [GPL-2.0+][8].
 * [KDevelop][44] - KDE IDE. [GPL-2.0][8].
 
