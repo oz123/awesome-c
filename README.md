@@ -365,6 +365,9 @@ making games.
 
 ## Graphics ##
 
+This is for programmatic manipulation of graphics in C; if you want to make a
+GUI, the Graphical User Interface section is more appropriate.
+
 * [Cairo][384] - A 2D graphics library. [LGPL-2.1][15] or [MPL-1.1][385].
 * [Cogl][127] - A GPU graphics and utilities API. [MIT][11]. 
 * [Clutter][126] - A UI library based on OpenGL. [LGPL-2.1][15].
@@ -395,7 +398,7 @@ making games.
 
 ## Graphical User Interface ##
 
-These are specifically [widget toolkits][12], or things meant to be used in a
+These are specifically widget toolkits, or things meant to be used in a
 similar way to them.
 
 * [GTK+][14] - A cross-platform widget toolkit. [LGPL-2.1][15].
@@ -988,7 +991,7 @@ with respect to support for C.
 [9]: https://www.fefe.de/dietlibc/
 [10]: https://www.musl-libc.org/
 [11]: https://spdx.org/licenses/MIT.html
-[12]: https://en.wikipedia.org/wiki/Widget_toolkit
+
 [13]: https://opensource.org/osd 
 [14]: https://www.gtk.org/
 [15]: https://spdx.org/licenses/LGPL-2.1.html
