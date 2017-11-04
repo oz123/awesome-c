@@ -218,8 +218,6 @@ Databases and data stores with C APIs.
 * [Hiredis][201] - Minimalistic client library for Redis. [BSD-3-Clause][6].
 * [libmongoc][233] - High-performance client library for [MongoDB][234]. [Apache-2.0][32].
 * [LMDB][105] - Ultra-fast, ultra-compact key-value embedded data store. [OLDAP-2.8][106].
-* [MariaDB][25] - Robust, scalable and reliable SQL server, designed to be a
-  drop-in replacement for MySQL. [BSD-3-Clause][6].
 * [PostgreSQL][121] - Powerful object-relational database system. [PostgreSQL][122].
 * [recutils][360] - Set of tools and a library for accessing human-editable,
   plaintext database files called recfiles. [GPL-3.0+][41].
