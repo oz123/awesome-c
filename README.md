@@ -1055,7 +1055,7 @@ with respect to support for C.
 [73]: https://graphics.stanford.edu/~seander/bithacks.html
 [74]: http://pcc.ludd.ltu.se/
 [75]: http://pcc.ludd.ltu.se/licenses/
-[76]: https://github.com/attractivechaos/klib
+[76]: http://attractivechaos.github.io/klib/#About
 [77]: https://github.com/netmail-open/wjelement/
 [78]: http://apr.apache.org/
 [79]: https://gmplib.org/
