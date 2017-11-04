@@ -361,7 +361,6 @@ making games.
 
 * [klib][76] - Small and lightweight implementations of common algorithms and
   data structures. [MIT][11].
-* [SGLIB][30] - A simple generic library. Any OSI-approved license.
 
 ## Graphics ##
 
@@ -1009,7 +1008,7 @@ with respect to support for C.
 [27]: https://github.com/clibs/clib/wiki/Packages
 [28]: http://www.koanlogic.com/libu/
 [29]: https://github.com/antirez/sds
-[30]: http://sglib.sourceforge.net/
+
 [31]: http://facebook.github.io/libphenom/index.html
 [32]: https://spdx.org/licenses/Apache-2.0.html
 [33]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
