@@ -728,10 +728,12 @@ Implementations of the (standard-mandated) C standard library.
   binaries. [GPL-2.0][8].
 * [glibc][57] - The GNU C Library; an implementation of the standard
   library. [LGPL-2.1][15].
-* [PDCLib][447] - The Public Domain C Library. Implements most of C99 and some of
-  C11. [CC0][448].
 * [musl][10] - A standard library, compatible with POSIX 2008 and C11. Designed
   for static linking. [MIT][11].
+* [PDCLib][447] - The Public Domain C Library. Implements most of C99 and some of
+  C11. [CC0][448].
+* [uClibc-ng][12] - A small C library for developing embedded systems.
+  [LGPL-2.1+][15]. 
 
 ## String Manipulation ##
 
@@ -975,7 +977,7 @@ support for C.
 [9]: https://www.fefe.de/dietlibc/
 [10]: https://www.musl-libc.org/
 [11]: https://spdx.org/licenses/MIT.html
-
+[12]: https://uclibc-ng.org/
 [13]: https://opensource.org/osd 
 [14]: https://www.gtk.org/
 [15]: https://spdx.org/licenses/LGPL-2.1.html
