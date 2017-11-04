@@ -419,7 +419,8 @@ can be found in the Crypto section.
 
 * [Jansson][53] - Library for encoding, decoding and manipulating JSON. [MIT][11].
 * [jsmn][120] - Minimalistic JSON parser. [MIT][11].
-* [jfes][488] - Simple JSON engine without any dependencies. [MIT][11].
+* [jfes][488] - JSON For Embedded Systems; simple JSON engine without any 
+  dependencies. [MIT][11].
 * [json-c][220] - Library for working with JSON. [MIT][11].
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
   Schema. [LGPL-2.0+][334] or [LGPL-2.1+][15] or [LGPL-3.0+][5]. 
