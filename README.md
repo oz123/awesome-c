@@ -55,8 +55,6 @@ CONTRIBUTING.md first.
 * [String Manipulation](#string-manipulation)
 * [Testing](#testing)
 * [Text Editor Extensions](#text-editor-extensions)
-  * [Emacs](#emacs)
-  * [Neovim/Vim](#neovimvim)
 * [Tools](#tools)
 * [Utilities](#utilities)
 * [Web Frameworks](#web-frameworks)
@@ -780,21 +778,16 @@ This contains standard C libraries.
 ## Text Editor Extensions ##
 
 While practically any decent programmer's text editor supports C, there are some
-extensions that make it more pleasant. This is categorized by editor.
-
-### Emacs ###
+extensions that make it more pleasant. These are labelled by editor.
 
 * [CEDET][250] - Collection of Emacs Development Environment Tools; designed to
   provide IDE-like features to Emacs. Built-in. [GPL-3.0+][41].
-* [Flycheck][149] - Modern syntax checking. For C, it can use either GCC or
-  Clang as a back-end. [GPL-3.0+][41].
-* [YASnippet][150] - A template system, with C templates for common code
-  snippets. [GPL-3.0+][41].
-
-### Neovim/Vim ###
-
+* [Flycheck][149] - Modern syntax checking for Emacs. For C, it can use either 
+  GCC or Clang as a back-end. [GPL-3.0+][41].
 * [Neomake][441] - Async :make and linting framework for Neovim/Vim. [MIT][11].
-* [Syntastic][186] - Syntax checking and linting. [WTFPL][367].
+* [Syntastic][186] - Syntax checking and linting for Vim. [WTFPL][367].
+* [YASnippet][150] - An Emacs code template system, with C templates for common 
+  snippets. [GPL-3.0+][41].
 * [YouCompleteMe][151] - A code completion engine for Vim. [GPL-3.0][41].
 
 ## Tools ##
