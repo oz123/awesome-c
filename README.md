@@ -780,6 +780,8 @@ This contains standard C libraries.
 While practically any decent programmer's text editor supports C, there are some
 extensions that make it more pleasant. These are labelled by editor.
 
+* [CCompletion][92] - A Notepad++ autocompletion plugin. Works with all
+  identifiers recognized by Ctags. This is a download link. [GPL-2.0+][8].
 * [CEDET][250] - Collection of Emacs Development Environment Tools; designed to
   provide IDE-like features to Emacs. Built-in. [GPL-3.0+][41].
 * [Flycheck][149] - Modern syntax checking for Emacs. For C, it can use either 
@@ -1066,7 +1068,7 @@ with respect to support for C.
 [89]: http://expat.sourceforge.net/ 
 [90]: https://www.sfml-dev.org/download/csfml/
 [91]: https://www.sfml-dev.org/index.php
-
+[92]: http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip
 [93]: https://github.com/keybuk/libnih
 [94]: http://cunit.sourceforge.net/
 [95]: http://rr-project.org/
