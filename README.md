@@ -1172,7 +1172,7 @@ with respect to support for C.
 [192]: http://libjpeg.sourceforge.net/
 [193]: https://libjpeg-turbo.virtualgl.org/
 [194]: https://www.libjpeg-turbo.org/About/License
-[195]: https://github.com/liuliu/ccv
+[195]: http://libccv.org/ 
 [196]: https://github.com/google/gumbo-parser
 [197]: https://github.com/joyent/http-parser
 [198]: https://github.com/jedisct1/libsodium
@@ -1388,7 +1388,7 @@ with respect to support for C.
 [409]: https://github.com/blunderer/libroxml
 [410]: https://www.spinellis.gr/cscout/
 [411]: http://liblfds.org/
-[412]: https://github.com/codeplea/genann
+[412]: https://codeplea.com/genann 
 [413]: https://github.com/cofyc/argparse
 [414]: https://github.com/anholt/libepoxy
 [415]: https://kore.io/
@@ -1500,7 +1500,7 @@ with respect to support for C.
 [522]: https://github.com/Cyan4973/xxHash
 [523]: https://github.com/aubio/aubio
 [524]: https://github.com/groonga/groonga
-[525]: https://github.com/100/Cranium
+[525]: https://100.github.io/Cranium/ 
 [526]: http://www.saphir2.com/sphlib/
 [527]: https://github.com/google/highwayhash
 [528]: http://nullprogram.com/blog/2017/08/20/
