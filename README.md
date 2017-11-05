@@ -588,8 +588,6 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [libquickmail][399] - Library intended to give developers a way to send
   email from their applications. Supports multiple To/Cc/Bcc recipients and
   attachments without size limits. [GPL-3.0+][41].
-* [libsoup][167] - GNOME HTTP client/server library. Uses
-  GObject. [LGPL-2.1][15].
 * [LibVNCServer][464] - Cross-platform libraries to implement VNC server and/or
   client functionality. [GPL-2.0+][8].
 * [libwebsock][261] - Easy-to-use and powerful web socket library.
@@ -1118,7 +1116,7 @@ support for C.
 [164]: https://gnu.org/software/libidn/
 [165]: https://gnu.org/software/libmicrohttpd/
 [166]: http://www.hughes.com.au/products/libhttpd/
-[167]: https://wiki.gnome.org/action/show/Projects/libsoup?action=show&redirect=LibSoup
+
 [168]: http://www.webdav.org/neon/
 [169]: http://mihl.sourceforge.net/
 [170]: https://www.coralbits.com/libonion/
