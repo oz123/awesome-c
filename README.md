@@ -812,7 +812,7 @@ libraries or compilers.
   it). [NCSA][39].
 * [indent][315] - Formats C source code automatically to make it easier to
   read. Also converts from one style of source to another. [GPL-3.0+][41].
-* [qo][274] - Build system that works without a separate config file. [MIT][11].
+
 * [SMACK][500] - Modular software verification toolchain and a self-contained
   software verifier. Currently only works with programs compiled using Clang.
   [MIT][11].
@@ -1227,7 +1227,7 @@ support for C.
 [271]: http://marek.vavrusa.com/c/memory/2015/02/20/memory/
 [272]: https://kukuruku.co/hub/programming/i-do-not-know-c
 [273]: http://kamalatta.ddnss.de/otherdocs/pikestyle.html
-[274]: https://github.com/andlabs/qo
+
 [275]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
 [276]: https://github.com/ryanmjacobs/c
 [277]: https://github.com/wolkykim/qlibc
