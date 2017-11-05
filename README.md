@@ -845,8 +845,6 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   solvers. [GPL-3.0+][41].
 * [docopt.c][270] - Implementation of a command-line option parser. [MIT][11].
 * [dyncall][281] - Another foreign function interface library. [MIT][11].
-* [gjrand][327] - Library of random-number generation
-  routines. [GPL-2.0][8] or [GPL-3.0][41].
 * [GNU FreeIPMI][158] - In-band and out-of-band IPMI
   implementation. [GPL-3.0][41].
 * [GNU gperf][351] - Perfect hash function generator, given a list of
@@ -1279,7 +1277,7 @@ support for C.
 [324]: https://www.gnu.org/software/make/
 [325]: http://leenissen.dk/fann/wp/
 [326]: http://gittup.org/tup/index.html
-[327]: https://sourceforge.net/projects/gjrand/
+
 [328]: https://glade.gnome.org/
 [329]: https://www.gnu.org/software/gnu-c-manual/
 [330]: https://www.gnu.org/software/global/
