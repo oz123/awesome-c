@@ -1388,7 +1388,7 @@ support for C.
 [442]: http://libdill.org/
 
 [444]: https://github.com/ands/lightmapper
-[445]: http://blosc.org/
+[445]: http://blosc.org/pages/blosc-in-depth
 [446]: https://github.com/Kazade/kazmath
 [447]: http://pdclib.e43.eu/
 [448]: https://creativecommons.org/publicdomain/zero/1.0/
