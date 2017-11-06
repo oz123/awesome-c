@@ -437,7 +437,6 @@ to C programming.
 * [Comparison of C/POSIX standard library implementations for GNU/Linux][362]
 * [Draft C11 standard][247]
 * [Finding the best 64-bit simulation PRNG][529]
-* [Robert Pike's notes on programming in C][273]
 * [SEI CERT C Coding Standard][266]
 
 ### Beginner resources online ###
@@ -1220,7 +1219,7 @@ support for C.
 [270]: https://github.com/docopt/docopt.c
 [271]: http://marek.vavrusa.com/c/memory/2015/02/20/memory/
 [272]: https://kukuruku.co/hub/programming/i-do-not-know-c
-[273]: http://kamalatta.ddnss.de/otherdocs/pikestyle.html
+
 
 [275]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
 [276]: https://github.com/ryanmjacobs/c
