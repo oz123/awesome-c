@@ -807,7 +807,6 @@ libraries or compilers.
   it). [NCSA][39].
 * [indent][315] - Formats C source code automatically to make it easier to
   read. Also converts from one style of source to another. [GPL-3.0+][41].
-
 * [SMACK][500] - Modular software verification toolchain and a self-contained
   software verifier. Currently only works with programs compiled using Clang.
   [MIT][11].
