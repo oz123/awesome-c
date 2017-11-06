@@ -437,7 +437,6 @@ to C programming.
 * [Comparison of C/POSIX standard library implementations for GNU/Linux][362]
 * [Draft C11 standard][247]
 * [Finding the best 64-bit simulation PRNG][529]
-* [GNU C Reference Manual][329]
 * [Robert Pike's notes on programming in C][273]
 * [SEI CERT C Coding Standard][266]
 
@@ -1276,7 +1275,7 @@ support for C.
 [326]: http://gittup.org/tup/index.html
 
 [328]: https://glade.gnome.org/
-[329]: https://www.gnu.org/software/gnu-c-manual/
+
 [330]: https://www.gnu.org/software/global/
 [331]: http://gmsl.sourceforge.net/
 [332]: https://github.com/nfc-tools/libnfc
