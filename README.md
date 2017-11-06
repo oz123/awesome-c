@@ -434,7 +434,7 @@ to C programming.
 
 * [Benchmarks of the Lockless Memory Allocator][450]
 * [C FAQ - comp.lang.c Frequently Asked Questions][262]
-* [Comparison of C/POSIX standard library implementations for GNU/Linux][362]
+* [Comparison of C/POSIX standard library implementations for Linux][362]
 * [Draft C11 standard][247]
 * [Finding the best 64-bit simulation PRNG][529]
 * [SEI CERT C Coding Standard][266]
@@ -653,7 +653,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   performance. [BSD-3-Clause][6].
 * [gprof][86] - Performance analysis tool. Part of GNU binutils. 
   [GPL-3.0+][41].
-* [OProfile][475] - Statistical profiler for GNU/Linux. Can profile any code
+* [OProfile][475] - Statistical profiler for Linux. Can profile any code
   (including the kernel!) with low overhead and without recompilation. [GPL-2.0][8].
 * [perf][375] - Linux kernel-based profiler with a lot of functionality.
   [GPL-2.0][8].
