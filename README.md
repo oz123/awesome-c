@@ -432,8 +432,7 @@ to C programming.
 
 ### Reference resources online ###
 
-* [Benchmarks of the Lockless Memory Allocator][450] (compares to other
-  implementations)
+* [Benchmarks of the Lockless Memory Allocator][450]
 * [C FAQ - comp.lang.c Frequently Asked Questions][262]
 * [Comparison of C/POSIX standard library implementations for GNU/Linux][362]
 * [Draft C11 standard][247]
