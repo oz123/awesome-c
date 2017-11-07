@@ -741,6 +741,7 @@ Implementations of the (standard-mandated) C standard library.
 
 ## Testing ##
 
+* [ciut][25] - A modern minimal hassle unit test framework for C and C++. [MIT][11].
 * [CHEAT][84] - Very simple unit testing framework. [BSD-2-Clause][24].
 * [Check][59] - Unit testing framework. [LGPL-2.1][15].
 * [clar][470] - Clear and simple unit testing framework. [MIT][11].
@@ -970,7 +971,7 @@ support for C.
 [22]: https://www.sqlite.org/
 [23]: https://unqlite.org/
 [24]: https://spdx.org/licenses/BSD-2-Clause.html
-
+[25]: https://github.com/yhfudev/cpp-ci-unit-test.git
 [26]: https://github.com/clibs/clib
 [27]: https://github.com/clibs/clib/wiki/Packages
 [28]: http://www.koanlogic.com/libu/
