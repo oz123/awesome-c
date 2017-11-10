@@ -126,6 +126,9 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [huffandpuff][214] - Minimal Huffman encoder and decoder. Public domain.
 * [libbzip2][427] - Patent-free, high-quality data compression
   library. [BSD-4-Clause][310].
+* [Lizard][489] - Formerly LZ5; an efficient compressor with very fast
+  decompression. Achieves compression ratios comparable with zip and zlib at
+  decompression speeds of 1000MB/s and faster. [BSD-2-Clause][24].
 * [lz4][508] - Library for an extremely fast compression algorithm.
   [BSD-2-Clause][24].
 * [lzo][338] - Very fast data compression library. [GPL-2.0+][8].
@@ -1432,7 +1435,7 @@ support for C.
 [486]: https://github.com/NuxiNL/cloudlibc
 [487]: https://en.wikipedia.org/wiki/Capability-based_security
 [488]: https://github.com/NeonMercury/jfes
-
+[489]: https://github.com/inikep/lizard
 
 [491]: https://github.com/westes/flex
 [492]: https://www.gnu.org/software/bison/
