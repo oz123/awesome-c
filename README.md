@@ -870,7 +870,6 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libffi][128] - Portable foreign-function interface library. [MIT][11].
 * [libgeohash][499] - Pure C implementation of the Geohash algorithm.
   [BSD-3-Clause][6].
-* [libgit2][108] - Pure C implementation of Git. [GPL-2.0, with a linking exception][109].
 * [libgss][161] - Generic Security Service. [GPL-3.0+][41].
 * [liblfds][411] - Portable lock-free data structure library. Public domain
   (more exactly, whatever license you want).
@@ -1056,7 +1055,7 @@ support for C.
 [105]: https://symas.com/lightning-memory-mapped-database/
 [106]: https://spdx.org/licenses/OLDAP-2.8.html
 [107]: https://github.com/ioquake/ioq3
-[108]: https://libgit2.github.com/
+
 [109]: https://github.com/libgit2/libgit2/blob/master/COPYING
 [110]: https://www.openssl.org/
 [111]: https://www.openssl.org/source/license.html
