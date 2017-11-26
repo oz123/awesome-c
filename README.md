@@ -312,6 +312,8 @@ Big libraries that provide data structures and other stuff you expect of a
   structures. [GPL-2.0][8].
 * [libU][28] - Small library of basic utilities, including memory allocation,
   string manipulation and logging. [BSD-3-Clause][6].
+* [M\*LIB][350] - Library for generic, but typesafe C containers. Implemented as
+  header-only. [BSD-2-Clause][24]
 * [offbrand][498] - Collection of generic, reference-counted data structures.
   [MIT][11].
 * [PBL][346] - Large library of utilities, featuring data structures, among
@@ -1298,7 +1300,7 @@ support for C.
 [347]: https://cdecl.org/
 [348]: https://github.com/mpv-player/mpv
 [349]: https://www.recurse.com/blog/5-learning-c-with-gdb
-
+[350]: https://github.com/P-p-H-d/mlib 
 [351]: https://www.gnu.org/software/gperf/
 [352]: http://libmill.org/
 [353]: https://talloc.samba.org/talloc/doc/html/index.html
