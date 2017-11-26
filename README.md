@@ -461,6 +461,8 @@ to C programming.
 * [10 C99 tricks][257]
 * [A comprehensive MPI tutorial resource][454]
 * [Diving into concurrency: trying out mutexes and atomics][202]
+* [Generic C reference counting][443]
+* [How to write portable C without complicating your build][490]
 * [Introduction to OpenMP][207] (video)
 * [OpenMP tutorial][264] (for the OpenMP3 standard)
 * [memcpy vs memmove][205]
@@ -1388,7 +1390,7 @@ support for C.
 [440]: https://criu.org/Main_Page
 [441]: https://github.com/neomake/neomake
 [442]: http://libdill.org/
-
+[443]: https://nullprogram.com/blog/2015/02/17 
 [444]: https://github.com/ands/lightmapper
 [445]: http://blosc.org/pages/blosc-in-depth
 [446]: https://github.com/Kazade/kazmath
@@ -1435,7 +1437,7 @@ support for C.
 [487]: https://en.wikipedia.org/wiki/Capability-based_security
 [488]: https://github.com/NeonMercury/jfes
 [489]: https://github.com/inikep/lizard
-
+[490]: https://nullprogram.com/blog/2017/03/30
 [491]: https://github.com/westes/flex
 [492]: https://www.gnu.org/software/bison/
 [493]: https://openquantumsafe.org/
