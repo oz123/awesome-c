@@ -914,7 +914,6 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Tulip Indicators][449] - Library of functions for technical analysis of
   financial data. [LGPL-3.0+][5].
 * [vector.h][152] - Header library for typed lists. [MIT][11].
-* [Viola][241] - Simplification of libCello. [MIT][11].
 * [XLSX I/O][344] - Cross-platform library for reading and writing .xlsx
   files. [MIT][11].
 * [zlog][437] - Reliable, pure C logging library. [LGPL-2.1][15].
@@ -1192,7 +1191,7 @@ support for C.
 [238]: https://github.com/orangeduck/mpc
 [239]: https://github.com/vstakhov/libucl
 [240]: http://snaipe.me/c/c-smart-pointers/
-[241]: https://github.com/eatonphil/Viola
+
 [242]: https://github.com/concurrencykit/ck
 [243]: http://repo.hu/projects/cchan/
 [244]: https://github.com/pmwkaa/sophia
