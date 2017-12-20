@@ -83,6 +83,8 @@ Tools that automate the building and testing of projects in C.
 * [Automake][306] - Tool for automatically generating ``Makefile.in`` files
   compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of
   the Autotools. [GPL-3.0+][41].
+* [CMake][329] - Cross-platform family of tools designed to build, package and test
+  software. [BSD-3-Clause][6].
 * [GNU Make][324] - Tool which controls the generation of executables and other
   non-source files of a program. [GPL-3.0+][41].
 * [Libtool][172] - Generic library support script. Part of the Autotools. 
@@ -1278,7 +1280,7 @@ support for C.
 [326]: http://gittup.org/tup/index.html
 
 [328]: https://glade.gnome.org/
-
+[329]: https://cmake.org/
 [330]: https://www.gnu.org/software/global/
 [331]: http://gmsl.sourceforge.net/
 [332]: https://github.com/nfc-tools/libnfc
