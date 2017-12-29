@@ -82,10 +82,12 @@ is good:
 1. Does it contain documentation, both reference and tutorial?
 1. Does it have its own dedicated page (not just a repo)?
 1. Is this something you would use, or have used in the past, and found it good?
-1. Is it being regularly maintained? Are issues rotting? Has it been updated in
+1. Is it being regularly maintained? Are no issues rotting? Has it been updated in
    the last few months?
-1. Does it have unit tests, CI, or any other code quality checks? If so, how
-   thorough are they? Do they pass?
+1. Does it have unit tests, CI, or any other code quality checks? Do they pass?
+   Are they thorough?
+1. If code, is this work under an SPDX license? If it isn't, is it something
+   fairly similar to an SPDX license?
 
 The more of these questions have 'yes' answers, the more likely it is that
 whatever you're submitting is good.
