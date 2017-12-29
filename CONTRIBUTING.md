@@ -12,21 +12,83 @@ contribute. However, if you're looking for something that would help awesome-c,
 check the current issues, especially those tagged with 'help wanted'. Pull
 requests addressing these are particularly great!
 
+Additionally, if you found (or wrote!) a useful C tool, library, or anything
+else, please contribute it! Even if it falls short, we would be happy to help
+you improve, possibly by contributing ourselves.
+
+Lastly, if you notice that something is dead, or of poor quality, we would love
+contributions that _remove_ anything like that. We can't maintain the entire
+list without your help, and would appreciate more vigilant eyes and minds!
+
+## The scope of this list ##
+
+As per the name, ``awesome-c`` is about the C programming language.
+Specifically, any of the following are in scope:
+
+* Libraries and frameworks for C
+* Tutorials, books or other reference material for or about C
+* Tooling designed for use with C (even if it's not written in C)
+
+The following are expressly _not_ in scope for this list:
+
+* Scripting languages that can be embedded into C
+
+The following _may_ be in scope, but not necessarily:
+
+* Programs written in C, but not specifically for work in C
+
+Avoiding scope creep is important, and such avoidance begins with you. If in
+doubt, keep in mind Antoine de Saint-Exupéry's famous statement:
+
+_''Perfection is attained not when there is nothing left to add, but when there
+is nothing left to take away.''_
+
 ## How to contribute ##
 
 Now for the mechanics of the process, and some do's and don't's.
 
-### Ensure that everything you link to is free (as in freedom) ###
+### Ensure that code you link to is open-source ###
 
-This is highly important - this list *only* contains freedom-respecting things!
-If you are sending a pull request linking to code, ensure it is licensed under a
-freedom-respecting license. This includes, but is not limited to:
+This is highly important - this list *only* contains open-source things!
+If you are sending a pull request linking to code, ensure it is licensed under
+an open-source license. This includes, but is not limited to:
 
 - Anything on the [OSI license list][1]
 - Creative Commons Zero
 
 If you're not sure, better to ask first. If it's not on the list above
 especially.
+
+### Ensure that non-code you link to comes from non-evil sources ###
+
+While there is no open-source requirement for non-code things, including
+documentation, tutorials, learning resources, and so forth, it is essential that
+it comes from sources which aren't evil. Things which are evil include, but are
+not limited to:
+
+* Amazon
+* Anything behind a paywall
+* Anything written by bigots
+
+If in doubt, ask!
+
+### Maintain a level of quality ###
+
+While it isn't possible to curate everything on the list, and occasionally poor
+things will slip through, it's essential that only good stuff ends up on this
+list. To this end, use the following questions as a guide to whether something
+is good:
+
+1. Does it contain documentation, both reference and tutorial?
+1. Does it have its own dedicated page (not just a repo)?
+1. Is this something you would use, or have used in the past, and found it good?
+1. Is it being regularly maintained? Are issues rotting? Has it been updated in
+   the last few months?
+1. Does it have unit tests, CI, or any other code quality checks? If so, how
+   thorough are they? Do they pass?
+
+The more of these questions have 'yes' answers, the more likely it is that
+whatever you're submitting is good.
 
 ### Indicate the license for anything you add clearly ###
 
@@ -40,12 +102,12 @@ different licenses to the library itself (such as tests or examples). There is
 no need to indicate their licenses in that case. However, if the program itself
 is what is being put on the list, *obviously* its license matters.
 
-## Maintain alphabetical order within sections ##
+### Maintain alphabetical order within sections ###
 
 Pretty self-explanatory, really. Numbers are considered to be higher-ordered
 than anything else, and otherwise, lex order.
 
-## Give a clear commit message ##
+### Give a clear commit message ###
 
 The commit message should state clearly *what* you did (adding, removing,
 clarifying, etc.), with *what* (usually by giving the name of the entry), in the
