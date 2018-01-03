@@ -71,6 +71,7 @@ Basically, if your university calls it AI, it lives here.
 * [FANN][325] - Fast Artifical Neural Network library; an implementation of
   neural networks. [GPL-2.0][8].
 * [Genann][412] - Simple ANN in C89, without additional dependencies. [Zlib][49].
+* [KANN][327] - Two-file ANN library. [MIT][11].
 * [libdeep][477] - Deep learning library. [BSD-3-Clause][6].
 
 ## Build Systems ##
@@ -1278,7 +1279,7 @@ support for C.
 [324]: https://www.gnu.org/software/make/
 [325]: http://leenissen.dk/fann/wp/
 [326]: http://gittup.org/tup/index.html
-
+[327]: https://github.com/attractivechaos/kann
 [328]: https://glade.gnome.org/
 [329]: https://cmake.org/
 [330]: https://www.gnu.org/software/global/
