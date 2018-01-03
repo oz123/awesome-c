@@ -904,6 +904,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   interface. [BSD-3-Clause][6].
 * [nope.c][209] - Ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [GPL-2.0][8].
+* [parg][274] - A single-file reimplementation of ``getopt`` with better defaults.
+  [CC0][448].
 * [pbc][236] - Protocol buffers library. [MIT][11].
 * [progressbar][453] - Easy-to-use library for displaying text progress bars.
   [BSD-3-Clause][6].
@@ -1227,7 +1229,7 @@ support for C.
 [271]: http://marek.vavrusa.com/c/memory/2015/02/20/memory/
 [272]: https://kukuruku.co/hub/programming/i-do-not-know-c
 
-
+[274]: https://github.com/jibsen/parg
 [275]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
 [276]: https://github.com/ryanmjacobs/c
 [277]: https://github.com/wolkykim/qlibc
