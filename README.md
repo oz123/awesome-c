@@ -334,7 +334,6 @@ Big libraries that provide data structures and other stuff you expect of a
   other things. [LGPL-2.1+][15]. 
 * [qlibc][277] - Simple and powerful library, designed as a replacement for
   GLib while focusing on being small and light. [BSD-2-Clause][24].
-* [stb][114] - Range of single-file libraries. Public domain.
 * [TBOX][398] - Multi-platform library with a large number of
   capabilities. [LGPL-2.1+][15].
 
@@ -724,6 +723,7 @@ the Frameworks section.
 * [libdjb][292] - Collection of libraries doing various things. (Apparently)
   public domain.
 * [par][456] - Bunch of single-file libraries. [MIT][11].
+* [stb][114] - Range of single-file libraries. Public domain.
 
 ## Standard Libraries ##
 
