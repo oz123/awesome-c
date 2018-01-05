@@ -725,6 +725,8 @@ the Frameworks section.
 * [libdjb][292] - Collection of libraries doing various things. (Apparently)
   public domain.
 * [par][456] - Bunch of single-file libraries. [MIT][11].
+* [Snippets][220] - (Hopefully) useful code snippets and header-only libraries.
+  Public domain.
 * [stb][114] - Range of single-file libraries. Public domain.
 
 ## Standard Libraries ##
@@ -1181,7 +1183,7 @@ support for C.
 [217]: http://svn.msweet.org/mxml/trunk/COPYING
 [218]: http://ezxml.sourceforge.net/
 [219]: https://github.com/blunderer/libroxml
-
+[220]: https://github.com/DanielGibson/Snippets/ 
 [221]: https://github.com/id-Software/Quake-2
 [222]: https://github.com/dinhviethoa/libetpan
 [223]: https://github.com/commonmark/CommonMark
