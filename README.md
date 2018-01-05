@@ -241,7 +241,18 @@ Databases and data stores with C APIs.
 
 ## Data Structures ##
 
+* [Collections-C][406] - Library of generic data structures. [LGPL-3.0+][5].
+* [kdtree][337] - Simple library for working with KD-trees. [BSD-3-Clause][6].
+* [libavl][156] - Library containing a range of self-balancing binary
+  trees. [GPL-3.0+][41].
+* [liblfds][411] - Portable lock-free data structure library. Public domain
+  (more exactly, whatever license you want).
+* [M\*LIB][350] - Library for generic, but typesafe C containers. Implemented as
+  header-only. [BSD-2-Clause][24]
+* [offbrand][498] - Collection of generic, reference-counted data structures.
+  [MIT][11].
 * [uthash][273] - Single-file hash table implementation. [BSD-1-Clause][258].
+* [vector.h][152] - Header library for typed lists. [MIT][11].
 
 ## Debugging ##
 
@@ -303,7 +314,6 @@ Big libraries that provide data structures and other stuff you expect of a
 * [APR][78] - Apache Portable Runtime; another library of cross-platform utility
   functions. [Apache-2.0][32].
 * [C Algorithms][88] - Collection of common algorithms and data structures. [ISC][61].
-* [Collections-C][406] - Library of generic data structures. [LGPL-3.0+][5].
 * [CPL][308] - The Common Pipeline Library; a set of libraries designed to be a
   comprehensive, efficient and robust software toolkit. [GPL-2.0][8].
 * [EFL][119] - Large collection of useful data structures and
@@ -320,10 +330,6 @@ Big libraries that provide data structures and other stuff you expect of a
   structures. [GPL-2.0][8].
 * [libU][28] - Small library of basic utilities, including memory allocation,
   string manipulation and logging. [BSD-3-Clause][6].
-* [M\*LIB][350] - Library for generic, but typesafe C containers. Implemented as
-  header-only. [BSD-2-Clause][24]
-* [offbrand][498] - Collection of generic, reference-counted data structures.
-  [MIT][11].
 * [PBL][346] - Large library of utilities, featuring data structures, among
   other things. [LGPL-2.1+][15]. 
 * [qlibc][277] - Simple and powerful library, designed as a replacement for
@@ -366,7 +372,6 @@ Engines, libraries and other helpful things specifically for making games.
   alternative to other libraries for doing all those things. Various licenses,
   all open-source.
 * [Spearmint][371] - Engine designed for FPS games. [GPL-3.0+][41].
-
 
 ## Graphics ##
 
@@ -863,11 +868,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Hoedown][405] - Fully-standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [MIT][11].
 * [iniparser][336] - Parser for .ini files. [MIT][11].
-* [kdtree][337] - Simple library for working with KD-trees. [BSD-3-Clause][6].
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
   updating. [LGPL-3.0+][5].
-* [libavl][156] - Library containing a range of self-balancing binary
-  trees. [GPL-3.0+][41].
 * [libbson][235] - BSON utility library. [Apache-2.0][32].
 * [libCello][96] - Library introducing higher-level programming to
   C. [BSD-3-Clause][6].
@@ -883,8 +885,6 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libgeohash][499] - Pure C implementation of the Geohash algorithm.
   [BSD-3-Clause][6].
 * [libgss][161] - Generic Security Service. [GPL-3.0+][41].
-* [liblfds][411] - Portable lock-free data structure library. Public domain
-  (more exactly, whatever license you want).
 * [libimobiledevice][354] - Cross-platform protocol library to communicate
   with iThings. [LGPL-2.1+][15].
 * [libnfc][332] - Platform-independent Near-Field Communication
@@ -923,7 +923,6 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   engine for simple mathematical expressions. [BSD-3-Clause][6].
 * [Tulip Indicators][449] - Library of functions for technical analysis of
   financial data. [LGPL-3.0+][5].
-* [vector.h][152] - Header library for typed lists. [MIT][11].
 * [XLSX I/O][344] - Cross-platform library for reading and writing .xlsx
   files. [MIT][11].
 * [zlog][437] - Reliable, pure C logging library. [LGPL-2.1][15].
