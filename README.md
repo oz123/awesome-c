@@ -251,6 +251,8 @@ Databases and data stores with C APIs.
   header-only. [BSD-2-Clause][24]
 * [offbrand][498] - Collection of generic, reference-counted data structures.
   [MIT][11].
+* [PackedArray][241] - Random-access array of tightly-packed unsigned integers of
+  any desired width. Has a SIMD-optimized implementation. [WTFPL][367].
 * [uthash][273] - Single-file hash table implementation. [BSD-1-Clause][258].
 * [vector.h][152] - Header library for typed lists. [MIT][11].
 
@@ -1200,7 +1202,7 @@ support for C.
 [238]: https://github.com/orangeduck/mpc
 [239]: https://github.com/vstakhov/libucl
 [240]: http://snaipe.me/c/c-smart-pointers/
-
+[241]: https://github.com/gpakosz/PackedArray
 [242]: https://github.com/concurrencykit/ck
 [243]: http://repo.hu/projects/cchan/
 [244]: https://github.com/pmwkaa/sophia
