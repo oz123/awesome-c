@@ -22,6 +22,7 @@ CONTRIBUTING.md first.
 * [Concurrency and Parallelism](#concurrency-and-parallelism)
 * [Crypto](#crypto)
 * [Database](#database)
+* [Data Structures](#data-structures)
 * [Debugging](#debugging)
 * [Documentation Generation](#documentation-generation)
 * [Editors](#editors)
@@ -237,6 +238,10 @@ Databases and data stores with C APIs.
   transactional NoSQL engine. [BSD-2-Clause][24].
 * [WhiteDB][512] - Lightweight database library, operating entirely in main
   memory. [GPL-3.0+][41].
+
+## Data Structures ##
+
+* [uthash][273] - Single-file hash table implementation. [BSD-1-Clause][258].
 
 ## Debugging ##
 
@@ -1213,7 +1218,7 @@ support for C.
 [255]: http://flintlib.org/
 [256]: http://pari.math.u-bordeaux.fr/
 [257]: http://blog.noctua-software.com/c-tricks.html
-
+[258]: https://spdx.org/licenses/BSD-1-Clause.html
 [259]: https://spdx.org/licenses/EPL-1.0.html
 [260]: https://netbeans.org/
 [261]: https://github.com/JonnyWhatshisface/libwebsock
@@ -1228,7 +1233,7 @@ support for C.
 [270]: https://github.com/docopt/docopt.c
 [271]: http://marek.vavrusa.com/c/memory/2015/02/20/memory/
 [272]: https://kukuruku.co/hub/programming/i-do-not-know-c
-
+[273]: http://troydhanson.github.io/uthash/
 [274]: https://github.com/jibsen/parg
 [275]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
 [276]: https://github.com/ryanmjacobs/c
