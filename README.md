@@ -728,6 +728,8 @@ the Frameworks section.
 * [Snippets][220] - (Hopefully) useful code snippets and header-only libraries.
   Public domain.
 * [stb][114] - Range of single-file libraries. Public domain.
+* [tinyheaders][108] - Collection of header-only libraries, primarily oriented
+  toward game development. [Zlib][49].
 
 ## Standard Libraries ##
 
@@ -1073,7 +1075,7 @@ support for C.
 [105]: https://symas.com/lightning-memory-mapped-database/
 [106]: https://spdx.org/licenses/OLDAP-2.8.html
 [107]: https://github.com/ioquake/ioq3
-
+[108]: https://github.com/RandyGaul/tinyheaders
 [109]: https://github.com/libgit2/libgit2/blob/master/COPYING
 [110]: https://www.openssl.org/
 [111]: https://www.openssl.org/source/license.html
