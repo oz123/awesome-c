@@ -927,6 +927,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   engine for simple mathematical expressions. [BSD-3-Clause][6].
 * [Tulip Indicators][449] - Library of functions for technical analysis of
   financial data. [LGPL-3.0+][5].
+* [whereami][167] - One-file library for locating the current executable on the 
+  file system. [WTFPL][367].
 * [XLSX I/O][344] - Cross-platform library for reading and writing .xlsx
   files. [MIT][11].
 * [zlog][437] - Reliable, pure C logging library. [LGPL-2.1][15].
@@ -1130,7 +1132,7 @@ support for C.
 [164]: https://gnu.org/software/libidn/
 [165]: https://gnu.org/software/libmicrohttpd/
 [166]: http://www.hughes.com.au/products/libhttpd/
-
+[167]: https://github.com/gpakosz/whereami
 [168]: http://www.webdav.org/neon/
 [169]: http://mihl.sourceforge.net/
 [170]: https://www.coralbits.com/libonion/
