@@ -581,6 +581,7 @@ to do with managing C memory lives here.
 * [lodepng][69] - Simple PNG image decoder and encoder, requiring no other
   dependencies. [``BSD-3-Clause``][BSD-3-Clause].
 * [Soundpipe][513] - Lightweight music DSP library. [MIT][11].
+* [minimp3][536] - Lightweight MP3 decoder single header library. [CC0][448].
 
 ## Networking and Internet ##
 
@@ -1512,3 +1513,4 @@ support for C.
 [533]: https://github.com/gildor2/fast_zlib
 [534]: https://github.com/ferreiradaselva/mathc
 [535]: https://github.com/ferreiradaselva/uastar
+[536]: https://github.com/lieff/minimp3
