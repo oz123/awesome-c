@@ -68,11 +68,11 @@ Basically, if your university calls it AI, it lives here.
 
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer
   vision. [``BSD-3-Clause``][BSD-3-Clause]
-* [Cranium][525] - Portable, header-only ANN library in C99. [MIT][11].
+* [Cranium][525] - Portable, header-only ANN library in C99. [``MIT``][MIT]
 * [FANN][325] - Fast Artifical Neural Network library; an implementation of
   neural networks. [GPL-2.0-only][8].
 * [Genann][412] - Simple ANN in C89, without additional dependencies. [Zlib][49].
-* [KANN][327] - Two-file ANN library. [MIT][11].
+* [KANN][327] - Two-file ANN library. [``MIT``][MIT]
 * [libdeep][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Build Systems ##
@@ -137,14 +137,14 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [lz4][508] - Library for an extremely fast compression algorithm.
   [BSD-2-Clause][24].
 * [lzo][338] - Very fast data compression library. [GPL-2.0-or-later][8].
-* [shoco][363] - Compressor for small text strings. [MIT][11].
+* [shoco][363] - Compressor for small text strings. [``MIT``][MIT]
 * [SIMDComp][519] - Simple library for compressing lists of integers using
   binary packing. Makes use of SIMD instructions on x86.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [smaz][364] - Efficient string compression library.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [squash][393] - Compression abstraction library, complete with some
-  utilities. [MIT][11].
+  utilities. [``MIT``][MIT]
 * [TurboPFor][471] - Fastest integer compression. [GPL-2.0-or-later][8].
 * [TurboRLE][484] - Most efficient run-length encoding. [GPL-2.0-or-later][8].
 * [zip][520] - Really really small zip archive processing library.
@@ -169,13 +169,13 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for
   C11. [``BSD-3-Clause``][BSD-3-Clause]
 * [libdill][442] - Library which makes structured concurrent programming
-  easy. [MIT][11].
+  easy. [``MIT``][MIT]
 * [libhl][478] - Library implementing a thread-safe API to manage a range of data
   structures. Also provides some supporting functions and structures for
   concurrent and lockfree programming. [LGPL-3.0-only][5].
 * [liburcu][474] - Data synchronization library, which scales linearly with the
   number of cores. [LGPL-2.1-or-later][15].
-* [mill][352] - Go-style concurrency. [MIT][11].
+* [mill][352] - Go-style concurrency. [``MIT``][MIT]
 * [OpenMP][37] - Set of pragmas designed to allow for easy parallelization of
   code. Standard (licensing not applicable).
 * [OpenMPI][284] - Message passing interface implementation. [``BSD-3-Clause``][BSD-3-Clause]
@@ -202,8 +202,8 @@ protocols.
   cryptography
   library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
 * [liboqs][493] - Library for quantum-resistant cryptographicl algorithms.
-  [MIT][11].
-* [libsodium][198] - Modern and easy-to-use crypto library. [MIT][11].
+  [``MIT``][MIT]
+* [libsodium][198] - Modern and easy-to-use crypto library. [``MIT``][MIT]
 * [libtomcrypt][299] - Fairly comprehensive, modular and portable
   cryptographic toolkit. Public domain.
 * [mbed TLS][291] - Another crypto implementation. [Apache-2.0][32].
@@ -214,9 +214,9 @@ protocols.
 * [s2n][359] - C99 implementation of the TLS/SSL protocols, designed to be
   simple, fast and with security as a priority. [Apache-2.0][32].
 * [sphlib][526] - Set of implementations of various hash functions, including
-  several cryptographic ones. [MIT][11].
+  several cryptographic ones. [``MIT``][MIT]
 * [trezor-crypto][485] - Heavily-optimized crypto algorithms for embedded
-  devices. [MIT][11].
+  devices. [``MIT``][MIT]
 
 ## Database ##
 
@@ -254,11 +254,11 @@ Databases and data stores with C APIs.
 * [M\*LIB][350] - Library for generic, but typesafe C containers. Implemented as
   header-only. [BSD-2-Clause][24]
 * [offbrand][498] - Collection of generic, reference-counted data structures.
-  [MIT][11].
+  [``MIT``][MIT]
 * [PackedArray][241] - Random-access array of tightly-packed unsigned integers of
   any desired width. Has a SIMD-optimized implementation. [WTFPL][367].
 * [uthash][273] - Single-file hash table implementation. [BSD-1-Clause][258].
-* [vector.h][152] - Header library for typed lists. [MIT][11].
+* [vector.h][152] - Header library for typed lists. [``MIT``][MIT]
 
 ## Debugging ##
 
@@ -281,7 +281,7 @@ work.
 * [DDD][320] - Graphical front-end for a range of command-line
   debuggers. [GPL-3.0-or-later][41].
 * [debug][467] - One-header library for easier 'printf debugging'.
-  [MIT][11].
+  [``MIT``][MIT]
 * [GDB][87] - GNU Project debugger. [GPL-3.0-or-later][41].
 * [lldb][468] - LLVM debugger. [NCSA][39].
 * [rr][95] - Debugger that records non-deterministic executions to allow for
@@ -329,7 +329,7 @@ Big libraries that provide data structures and other stuff you expect of a
 * [GIO][2] - Modern and easy-to-use VFS API. [LGPL-2.1-only][15].
 * [GObject][3] - Object-oriented system and object model. [LGPL-2.1-only][15].
 * [klib][76] - Small and lightweight implementations of common algorithms and
-  data structures. [MIT][11].
+  data structures. [``MIT``][MIT]
 * [libcork][476] - Utility functions and structures, designed for
   resource-constrained systems. Can be embedded. [``BSD-3-Clause``][BSD-3-Clause]
 * [libnih][93] - Lightweight library of functions and
@@ -349,11 +349,11 @@ Engines, libraries and other helpful things specifically for making games.
 
 * [Allegro][48] - Cross-platform, video game development and multimedia
   library. [Zlib][49].
-* [Chipmunk2D][303] - Fast and lightweight 2D game physics library. [MIT][11].
+* [Chipmunk2D][303] - Fast and lightweight 2D game physics library. [``MIT``][MIT]
 * [Corange][101] - Game engine in pure C. [BSD-2-Clause][24].
 * [CSFML][90] - Binding for [SFML][91]. [Zlib][49].
 * [Darkplaces][369] - Modified version of the Quake2 engine. [GPL-2.0-only][8].
-* [Epoxy][414] - Library for handling OpenGL function pointer management. [MIT][11].
+* [Epoxy][414] - Library for handling OpenGL function pointer management. [``MIT``][MIT]
 * [FreeGLUT][99] - Alternative to the OpenGL Utility Toolkit. Allows the
   creation and management of windows with OpenGL contexts. [X11][100].
 * [GLFW][98] - Multi-platform library for creating windows with OpenGL
@@ -373,7 +373,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [SDL2][50] - Cross-platform library designed to provide low-level access to
   audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [Zlib][49].
 * [sdl-gpu][457] - Library for high-performance, modern 2D graphics. Based on
-  SDL. [MIT][11].
+  SDL. [``MIT``][MIT]
 * [SIGIL][429] - Sound, Input and Graphics Integration Library; a simple
   alternative to other libraries for doing all those things. Various licenses,
   all open-source.
@@ -386,14 +386,14 @@ Programmatic manipulation of graphics in C; if you want to make a GUI, the
 Graphical User Interface section has what you need.
 
 * [Cairo][384] - 2D graphics library. [LGPL-2.1-only][15] or [MPL-1.1][385].
-* [Cogl][127] - GPU graphics and utilities API. [MIT][11]. 
+* [Cogl][127] - GPU graphics and utilities API. [``MIT``][MIT] 
 * [Clutter][126] - UI library based on OpenGL. [LGPL-2.1-only][15].
-* [giflib][401] - Library for reading and writing gif images. [MIT][11].
-* [graphene][515] - Thin layer of graphical data types. [MIT][11].
+* [giflib][401] - Library for reading and writing gif images. [``MIT``][MIT]
+* [graphene][515] - Thin layer of graphical data types. [``MIT``][MIT]
 * [heman][365] - Tiny library of image utilities dealing with height maps,
-  normal maps, distance fields and the like. [MIT][11].
+  normal maps, distance fields and the like. [``MIT``][MIT]
 * [libcaca][366] - ASCII renderer for terminal-based interfaces. [WTFPL][367].
-* [libgd][402] - Library for the dynamic creation of images by programmers. [MIT][11].
+* [libgd][402] - Library for the dynamic creation of images by programmers. [``MIT``][MIT]
 * [libimagequant][300] - Small, portable library for high-quality conversion of
   RGBA images to 8-bit indexed colour images. [GPL-3.0-or-later][41].
 * [libjpeg-turbo][193] - Faster library for reading and writing JPEG
@@ -401,7 +401,7 @@ Graphical User Interface section has what you need.
 * [libpng][382] - Official PNG reference library. [Libpng][383].
 * [libRSVG][417] - Library to render SVG files using Cairo. [LGPL-2.1-or-later][15].
 * [libsixel][17] - Library implementing the SIXEL protocol, allowing beautiful
-  graphics in your terminal. [MIT][11].
+  graphics in your terminal. [``MIT``][MIT]
 * [libvips][511] - Image processing library. [LGPL-2.1-or-later][15].
 * [libxmi][174] - Function library for rasterizing 2D vector
   graphics. [GPL-3.0-or-later][41].
@@ -418,7 +418,7 @@ Graphical User Interface section has what you need.
 Widget toolkits, or things meant to be used in a similar way to them.
 
 * [GTK+][14] - Cross-platform widget toolkit. [LGPL-2.1-only][15].
-* [IUP][16] - Another cross-platform widget toolkit. [MIT][11].
+* [IUP][16] - Another cross-platform widget toolkit. [``MIT``][MIT]
 * [nuklear][408] - Small, C89, single-header widget toolkit. Public domain.
 * [tinyfiledialogs][426] - Single-file library for simple dialogs. Compatible
   with many other toolkits and OSes. [Zlib][49].
@@ -442,10 +442,10 @@ can be found in the Crypto section.
 
 ## JSON ##
 
-* [Jansson][53] - Library for encoding, decoding and manipulating JSON. [MIT][11].
-* [jsmn][120] - Minimalistic JSON parser. [MIT][11].
+* [Jansson][53] - Library for encoding, decoding and manipulating JSON. [``MIT``][MIT]
+* [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
 * [jfes][488] - JSON For Embedded Systems; simple JSON engine without any 
-  dependencies. [MIT][11].
+  dependencies. [``MIT``][MIT]
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
   Schema. [LGPL-2.0-or-later][334] or [LGPL-2.1-or-later][15] or [LGPL-3.0-or-later][5]. 
 * [YAJL][60] - Fast streaming JSON parser library. [ISC][61]
@@ -577,10 +577,10 @@ to do with managing C memory lives here.
 * [libsndfile][458] - Library for reading and writing sound files. Supports
   many formats. [LGPL-2.1-only][15] or [LGPL-3.0-only][5].
 * [libsoundio][372] - Library for cross-platform, real-time audio input and
-  output. Has a range of back-ends. [MIT][11].
+  output. Has a range of back-ends. [``MIT``][MIT]
 * [lodepng][69] - Simple PNG image decoder and encoder, requiring no other
   dependencies. [``BSD-3-Clause``][BSD-3-Clause]
-* [Soundpipe][513] - Lightweight music DSP library. [MIT][11].
+* [Soundpipe][513] - Lightweight music DSP library. [``MIT``][MIT]
 
 ## Networking and Internet ##
 
@@ -594,7 +594,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [GNU adns][155] - Advanced, easy-to-use, asynch-capable DNS client library
   and utilities. [GPL-3.0-or-later][41].
 * [gumbo-parser][196] - HTML5 parsing library in C99. [Apache-2.0][32].
-* [http-parser][197] - HTTP request/response parser. [MIT][11].
+* [http-parser][197] - HTTP request/response parser. [``MIT``][MIT]
 * [ldns][339] - Library to simplify DNS programming.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [libcurl][65] - Client-side URL transfer library, supporting a wide range of
@@ -621,13 +621,13 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [lwan][199] - Experimental, scalable, high-performance HTTP
   server. [GPL-2.0-only][8].
 * [mongoose][171] - Embedded web server. [GPL-2.0-only][8].
-* [nanomsg][139] - C-based implementation of ZeroMQ. [MIT][11].
+* [nanomsg][139] - C-based implementation of ZeroMQ. [``MIT``][MIT]
 * [oSip][179] - SIP implementation without additional
   dependencies. [LGPL-2.1-or-later][15].
 * [socket99][203] - C99 wrapper for the BSD sockets API. [ISC][61].
-* [twitc][237] - Mini library for interacting with the Twitter OAuth API. [MIT][11].
+* [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
 * [Wslay][460] - WebSocket library. Implements version 13 of the WebSocket
-  protocol, as described in RFC 6455. [MIT][11].
+  protocol, as described in RFC 6455. [``MIT``][MIT]
 * [zyre][419] - Framework for proximity-based peer-to-peer applications. [MPL-2.0][227].
 
 ## Numerical ##
@@ -669,7 +669,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   solution of scientific applications modelled by partial differential
   equations. [BSD-2-Clause][24].
 * [SCS][483] - Splitting Conic Solver; a numerical optimization package for
-  solving large-scale convex cone problems. [MIT][11].
+  solving large-scale convex cone problems. [``MIT``][MIT]
 * [SLEPc][283] - Library for the solution of large, sparse eigenvalue
   problems on parallel computers. [LGPL-3.0-only][5].
 * [TomsFastMath][462] - Set of assembly-level-optimized maths operations,
@@ -704,17 +704,17 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [binn][400] - Binary serialization format, meant to be compact, fast and
   easy-to-use. [Apache-2.0][32].
 * [c-capnproto][130] - Implementation of the Cap'n Proto serialization
-  protocol. [MIT][11].
+  protocol. [``MIT``][MIT]
 * [cmp][377] - Implementation of the [MessagePack][379] serialization
-  protocol. [MIT][11].
+  protocol. [``MIT``][MIT]
 * [flatcc][187] - [FlatBuffers][145] compiler and library. [Apache-2.0][32].
 * [libavro][140] - Implementation of the Avro data serialization system. [Apache-2.0][32].
 * [mpack][378] - Another implementation of the [MessagePack][379] serialization
-  protocol. [MIT][11].
+  protocol. [``MIT``][MIT]
 * [OPIC][397] - Object Persistence in C; a revolutionary serialization framework,
   with matching on-disk and in-memory representations. [GPL-3.0-or-later][41].
 * [protobuf-c][129] - Implementation of Google Protocol Buffer. [BSD-2-Clause][24].
-* [tpl][473] - Small binary serialization library. [MIT][11].
+* [tpl][473] - Small binary serialization library. [``MIT``][MIT]
 * [xdr][131] - External Data Representation; a standard for data
   serialization. Standard (no license applicable).
 
@@ -727,12 +727,12 @@ the Frameworks section.
   that does stuff. The full list is [here][104]. Various licenses, all
   open-source.
 * [clib][26] - Something of a package manager. Comes with
-  a [bunch of libraries of its own][27]. [MIT][11].
+  a [bunch of libraries of its own][27]. [``MIT``][MIT]
 * [gnulib][46] - Collection of common GNU code. Various licenses, all
   open-source.
 * [libdjb][292] - Collection of libraries doing various things. (Apparently)
   public domain.
-* [par][456] - Bunch of single-file libraries. [MIT][11].
+* [par][456] - Bunch of single-file libraries. [``MIT``][MIT]
 * [Snippets][220] - (Hopefully) useful code snippets and header-only libraries.
   Public domain.
 * [stb][114] - Range of single-file libraries. Public domain.
@@ -751,7 +751,7 @@ Implementations of the (standard-mandated) C standard library.
 * [glibc][57] - The GNU C Library; an implementation of the standard
   library. [LGPL-2.1-only][15].
 * [musl][10] - Standard library, compatible with POSIX 2008 and C11. Designed
-  for static linking. [MIT][11].
+  for static linking. [``MIT``][MIT]
 * [PDCLib][447] - The Public Domain C Library. Implements most of C99 and some of
   C11. [CC0][448].
 * [uClibc-ng][12] - Small C library for developing embedded systems.
@@ -765,30 +765,30 @@ Implementations of the (standard-mandated) C standard library.
 * [libunistring][173] - Library for manipulating Unicode
   strings. [LGPL-3.0-only][5].
 * [libgiconv][163] - Text conversion library. [LGPL-2.1-only][15]. 
-* [librope][479] - UTF-8 rope ('heavy' string) library. [MIT][11].
+* [librope][479] - UTF-8 rope ('heavy' string) library. [``MIT``][MIT]
 * [SDS][29] - Simple Dynamic Strings; a library for handling strings in a
   simpler way, but one that is compatible with normal C string
   functions. Available via [clib][26]. [BSD-2-Clause][24].
 * [utf8.h][472] - Single-header UTF-8 library, designed to mimic C-style string
   functions. Public domain.
-* [utf8proc][469] - Library for processing UTF-8 data. [MIT][11].
+* [utf8proc][469] - Library for processing UTF-8 data. [``MIT``][MIT]
 
 ## Testing ##
 
 * [CHEAT][84] - Very simple unit testing framework. [BSD-2-Clause][24].
 * [Check][59] - Unit testing framework. [LGPL-2.1-only][15].
-* [clar][470] - Clear and simple unit testing framework. [MIT][11].
-* [CMock][297] - Mock/stub generator. [MIT][11].
+* [clar][470] - Clear and simple unit testing framework. [``MIT``][MIT]
+* [CMock][297] - Mock/stub generator. [``MIT``][MIT]
 * [cmocka][141] - Unit testing framework with support for mock objects. [Apache-2.0][32].
-* [Criterion][246] - KISS, non-intrusive test framework. [MIT][11].
+* [Criterion][246] - KISS, non-intrusive test framework. [``MIT``][MIT]
 * [ctest][503] - Yet another unit testing framework. [Apache-2.0][32].
 * [CUnit][94] - Another unit testing framework. [LGPL-2.1-or-later][15].
 * [greatest][58] - Unit testing library in one file, with no memory
-  allocation. [MIT][11].
+  allocation. [``MIT``][MIT]
 * [minctest][394] - Unit testing microlibrary. [``BSD-3-Clause``][BSD-3-Clause]
-* [munit][392] - Small unit testing framework. [MIT][11].
-* [theft][302] - Property-based testing (similar to [Quickcheck][301]). [MIT][11].
-* [Unity][296] - Simple unit testing framework. [MIT][11].
+* [munit][392] - Small unit testing framework. [``MIT``][MIT]
+* [theft][302] - Property-based testing (similar to [Quickcheck][301]). [``MIT``][MIT]
+* [Unity][296] - Simple unit testing framework. [``MIT``][MIT]
 
 ## Text Editor Extensions ##
 
@@ -801,7 +801,7 @@ extensions that make it more pleasant. These are labelled by editor.
   provide IDE-like features to Emacs. Built-in. [GPL-3.0-or-later][41].
 * [Flycheck][149] - Modern syntax checking for Emacs. For C, it can use either 
   GCC or Clang as a back-end. [GPL-3.0-or-later][41].
-* [Neomake][441] - Async :make and linting framework for Neovim/Vim. [MIT][11].
+* [Neomake][441] - Async :make and linting framework for Neovim/Vim. [``MIT``][MIT]
 * [Syntastic][186] - Syntax checking and linting for Vim. [WTFPL][367].
 * [YASnippet][150] - Emacs code template system, with C templates for common 
   snippets. [GPL-3.0-or-later][41].
@@ -815,9 +815,9 @@ libraries or compilers.
 * [Artistic Style][314] - Fast and small automatic source code formatter that
   supports C. [LGPL-3.0-only][5].
 * [address-sanitizer][288] - Fast memory error detector. [Apache-2.0][32].
-* [biicode][304] - Modern dependency manager. [MIT][11].
+* [biicode][304] - Modern dependency manager. [``MIT``][MIT]
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also
-  has shebang support. [MIT][11].
+  has shebang support. [``MIT``][MIT]
 * [c99sh][113] - Run C files using hash-bang. [BSD-2-Clause][24].
 * [cdecl][347] - Online service to translate C declarations into English and
   vice versa. Public domain.
@@ -844,7 +844,7 @@ libraries or compilers.
   read. Also converts from one style of source to another. [GPL-3.0-or-later][41].
 * [SMACK][500] - Modular software verification toolchain and a self-contained
   software verifier. Currently only works with programs compiled using Clang.
-  [MIT][11].
+  [``MIT``][MIT]
 * [unifdef][290] - Removes #ifdef and #if directives with their delimited text
   without touching any other part of the file. [``BSD-3-Clause``][BSD-3-Clause] or [BSD-2-Clause][24].
 
@@ -852,16 +852,16 @@ libraries or compilers.
 
 A 'catch-all' category for anything that doesn't fit well anywhere else.
 
-* [ApeTagLibs][345] - Library for working with APEv2 tags. [MIT][11].
+* [ApeTagLibs][345] - Library for working with APEv2 tags. [``MIT``][MIT]
 * [argparse][413] - Command-line argument parsing library, inspired by
-  Python's argparse module. [MIT][11].
+  Python's argparse module. [``MIT``][MIT]
 * [attr][425] - Commands for manipulating filesystem extended
   attributes. [GPL-2.0-or-later][8].
 * [bfd][157] - Library for manipulating binary object files. Part of GNU
   binutils. [GPL-3.0-or-later][41].
 * [Caffeine][496] - Library for building daemons and services for Linux and
   FreeBSD systems. [LGPL-2.1-or-later][15].
-* [CException][298] - Implementation of exceptions. [MIT][11].
+* [CException][298] - Implementation of exceptions. [``MIT``][MIT]
 * [CommonMark][223] - Implementation of the CommonMark spec. 
   [Variety of licenses, all open-source][224].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
@@ -872,8 +872,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Discount][438] - Simple implementation of a Markdown parser. [``BSD-3-Clause``][BSD-3-Clause]
 * [dlx][388] - Implementation of [Knuth's Algorithm X][389], with example
   solvers. [GPL-3.0-or-later][41].
-* [docopt.c][270] - Implementation of a command-line option parser. [MIT][11].
-* [dyncall][281] - Another foreign function interface library. [MIT][11].
+* [docopt.c][270] - Implementation of a command-line option parser. [``MIT``][MIT]
+* [dyncall][281] - Another foreign function interface library. [``MIT``][MIT]
 * [GNU FreeIPMI][158] - In-band and out-of-band IPMI
   implementation. [GPL-3.0-only][41].
 * [GNU gperf][351] - Perfect hash function generator, given a list of
@@ -881,8 +881,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [GNU Libffcall][162] - Collection of libraries for building foreign function
   interfaces. [GPL-3.0-or-later][41].
 * [Hoedown][405] - Fully-standards-compliant, extension-supporting, UTF-8
-  aware, fast Markdown parser. [MIT][11].
-* [iniparser][336] - Parser for .ini files. [MIT][11].
+  aware, fast Markdown parser. [``MIT``][MIT]
+* [iniparser][336] - Parser for .ini files. [``MIT``][MIT]
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
   updating. [LGPL-3.0-or-later][5].
 * [libbson][235] - BSON utility library. [Apache-2.0][32].
@@ -896,7 +896,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libcox][373] - Library which permits cross-platform system calls and
   standard utilities across different operating systems. [BSD-2-Clause][24].
 * [libcsv][387] - Simple, streaming CSV parser. [LGPL-2.1-or-later][15].
-* [libffi][128] - Portable foreign-function interface library. [MIT][11].
+* [libffi][128] - Portable foreign-function interface library. [``MIT``][MIT]
 * [libgeohash][499] - Pure C implementation of the Geohash algorithm.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [libgss][161] - Generic Security Service. [GPL-3.0-or-later][41].
@@ -907,33 +907,33 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libPhenom][31] - Eventing framework for building high-scalability and
   high-performance systems. [Apache-2.0][32].
 * [libpostal][434] - Library for parsing and normalization of street addresses
-  around the world. Powered by statistical NLP and open geo data. [MIT][11].
+  around the world. Powered by statistical NLP and open geo data. [``MIT``][MIT]
 * [libtrading][455] - Implementation of network protocols for communicating
   with exchanges, dark pools and other trading venues. Supports FIX, FIX/FAST
   and many proprietary protocols. [BSD-2-Clause][24].
 * [libucl][239] - Universal configuration library parser. [BSD-2-Clause][24].
-* [libuv][56] - Cross-platform asynchronous I/O. [MIT][11].
-* [libYAML][341] - YAML 1.1 parser and emitter. [MIT][11].
+* [libuv][56] - Cross-platform asynchronous I/O. [``MIT``][MIT]
+* [libYAML][341] - YAML 1.1 parser and emitter. [``MIT``][MIT]
 * [libxo][407] - Allows an application to generate plain text, XML, JSON and
   HTML output using a common set of function calls. The application decides at
   runtime what output style should be produced. [BSD-2-Clause][24].
 * [linenoise][504] - Small, self-contained alternative to readline and
   libedit. [BSD-2-Clause][24].
-* [ncurses][178] - Coloured terminal UI library. [MIT][11].
+* [ncurses][178] - Coloured terminal UI library. [``MIT``][MIT]
 * [netbsd-curses][494] - Simplified and small version of ncurses, with the same
   interface. [``BSD-3-Clause``][BSD-3-Clause]
 * [nope.c][209] - Ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [GPL-2.0-only][8].
 * [parg][274] - A single-file reimplementation of ``getopt`` with better defaults.
   [CC0][448].
-* [pbc][236] - Protocol buffers library. [MIT][11].
+* [pbc][236] - Protocol buffers library. [``MIT``][MIT]
 * [progressbar][453] - Easy-to-use library for displaying text progress bars.
   [``BSD-3-Clause``][BSD-3-Clause]
-* [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [MIT][11].
+* [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
 * [Ragel][54] - DSL for state machines that compiles to C. [GPL-2.0-only][8].
 * [sort][190] - Collection of sorting routines, which type-specialize at
-  compile-time with a user-defined type. [MIT][11].
-* [termbox][396] - Library for writing text-based interfaces. [MIT][11].
+  compile-time with a user-defined type. [``MIT``][MIT]
+* [termbox][396] - Library for writing text-based interfaces. [``MIT``][MIT]
 * [tinyexpr][395] - Tiny recursive-descent parser, compiler and evaluation
   engine for simple mathematical expressions. [``BSD-3-Clause``][BSD-3-Clause]
 * [Tulip Indicators][449] - Library of functions for technical analysis of
@@ -941,9 +941,9 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [whereami][167] - One-file library for locating the current executable on the 
   file system. [WTFPL][367].
 * [XLSX I/O][344] - Cross-platform library for reading and writing .xlsx
-  files. [MIT][11].
+  files. [``MIT``][MIT]
 * [zlog][437] - Reliable, pure C logging library. [LGPL-2.1-only][15].
-* [zproto][421] - Protocol framework for ZeroMQ. [MIT][11].
+* [zproto][421] - Protocol framework for ZeroMQ. [``MIT``][MIT]
 
 ## Web Frameworks ##
 
@@ -952,7 +952,7 @@ application in C.
 
 * [balde][386] - Microframework based on GLib. [LGPL-2.1-only][15].
 * [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
-  Websocket server, and also supports custom protocols. [MIT][11].
+  Websocket server, and also supports custom protocols. [``MIT``][MIT]
 * [KLone][423] - Fully-featured, multi-platform, web application development
   framework, targeted especially at embedded systems and
   appliances. [``BSD-3-Clause``][BSD-3-Clause]
@@ -978,18 +978,19 @@ support for C.
 * [libxml2][62] - Standards-compliant, portable XML parser. [MIT][11].
 
 [BSD-3-Clause]: https://spdx.org/licenses/BSD-3-Clause.html
+[MIT]: https://spdx.org/licenses/MIT.html
 
 [1]: https://wiki.gnome.org/Projects/GLib
 [2]: https://developer.gnome.org/gio/
 [3]: https://developer.gnome.org/gobject/stable/
 [4]: https://github.com/aosp-mirror/platform_bionic
 [5]: https://spdx.org/licenses/LGPL-3.0.html
-[6]: https://spdx.org/licenses/BSD-3-Clause.html
+
 [7]: https://en.wikipedia.org/wiki/The_C_Programming_Language
 [8]: https://spdx.org/licenses/GPL-2.0.html 
 [9]: https://www.fefe.de/dietlibc/
 [10]: https://www.musl-libc.org/
-[11]: https://spdx.org/licenses/MIT.html
+
 [12]: https://uclibc-ng.org/
 [13]: https://opensource.org/osd 
 [14]: https://www.gtk.org/
