@@ -374,6 +374,7 @@ Engines, libraries and other helpful things specifically for making games.
   alternative to other libraries for doing all those things. Various licenses,
   all open-source.
 * [Spearmint][371] - Engine designed for FPS games. [GPL-3.0-or-later][41].
+* [uastar][535] - Minimal A* implementation. [ZLib][49].
 
 ## Graphics ##
 
@@ -1503,3 +1504,4 @@ support for C.
 [532]: https://github.com/minad/tlsf
 [533]: https://github.com/gildor2/fast_zlib
 [534]: https://github.com/ferreiradaselva/mathc
+[535]: https://github.com/ferreiradaselva/uastar
