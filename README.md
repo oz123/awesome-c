@@ -358,6 +358,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [kazmath][446] - Maths library for games. [BSD-2-Clause][24].
 * [libao][376] - Cross-platform audio library with a wide variety of
   outputs. [GPL-2.0-or-later][8].
+* [MATHC][534] - Math library for 2D and 3D programming. [ZLib][49].
 * [Orx][370] - Portable, lightweight, plugin-based, data-driven, 2D-oriented
   game engine. [Zlib][49].
 * [Quake][225] - Quake engine. [GPL-2.0-only][8].
@@ -1501,3 +1502,4 @@ support for C.
 [531]: http://www.gii.upv.es/tlsf/
 [532]: https://github.com/minad/tlsf
 [533]: https://github.com/gildor2/fast_zlib
+[534]: https://github.com/ferreiradaselva/mathc
