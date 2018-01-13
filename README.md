@@ -978,6 +978,7 @@ support for C.
 * [libxml2][62] - Standards-compliant, portable XML parser. [MIT][11].
 
 [BSD-3-Clause]: https://spdx.org/licenses/BSD-3-Clause.html
+[GPL-2.0-only]: https://spdx.org/licenses/GPL-2.0-only.html
 [MIT]: https://spdx.org/licenses/MIT.html
 
 [1]: https://wiki.gnome.org/Projects/GLib
