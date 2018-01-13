@@ -67,13 +67,13 @@ Computer vision, neural nets, machine learning, and other similar things.
 Basically, if your university calls it AI, it lives here.
 
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer
-  vision. [``BSD-3-Clause``][BSD-3-Clause].
+  vision. [``BSD-3-Clause``][BSD-3-Clause]
 * [Cranium][525] - Portable, header-only ANN library in C99. [MIT][11].
 * [FANN][325] - Fast Artifical Neural Network library; an implementation of
   neural networks. [GPL-2.0-only][8].
 * [Genann][412] - Simple ANN in C89, without additional dependencies. [Zlib][49].
 * [KANN][327] - Two-file ANN library. [MIT][11].
-* [libdeep][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause].
+* [libdeep][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Build Systems ##
 
@@ -86,7 +86,7 @@ Tools that automate the building and testing of projects in C.
   compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of
   the Autotools. [GPL-3.0-or-later][41].
 * [CMake][329] - Cross-platform family of tools designed to build, package and test
-  software. [``BSD-3-Clause``][BSD-3-Clause].
+  software. [``BSD-3-Clause``][BSD-3-Clause]
 * [GNU Make][324] - Tool which controls the generation of executables and other
   non-source files of a program. [GPL-3.0-or-later][41].
 * [Libtool][172] - Generic library support script. Part of the Autotools. 
@@ -94,7 +94,7 @@ Tools that automate the building and testing of projects in C.
 * [Meson][368] - Extremely fast, user-friendly build system. Based on Ninja. [Apache-2.0][32].
 * [Premake][435] - Command-line utility which reads a scripted definition of a
   software project and uses it to generate project files for Visual Studio and
-  GNU Make. Other targets are also being worked on. [``BSD-3-Clause``][BSD-3-Clause].
+  GNU Make. Other targets are also being worked on. [``BSD-3-Clause``][BSD-3-Clause]
 * [tup][326] - Very fast, file-based, cross-platform build system. [GPL-2.0-only][8].
 * [zproject][420] - Project generator and build system support tool. [MPL-2.0][227].
 
@@ -123,11 +123,11 @@ Compilers, as well as compiler- and compilation-related tooling.
   implementation). [GPL-2.0-or-later][8].
 * [CRoaring][481] - C implementation of [Roaring bitmaps][482]. [Apache-2.0][32].
 * [DENSITY][506] - Super-fast compression library.
-  [``BSD-3-Clause``][BSD-3-Clause].
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [heatshrink][514] - Data compression/decompression library for embedded and
   real-time systems. [ISC][61].
 * [fast\_zlib][533] - Improved zlib, which runs 2 to 10 times faster.
-  [``BSD-3-Clause``][BSD-3-Clause].
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [huffandpuff][214] - Minimal Huffman encoder and decoder. Public domain.
 * [libbzip2][427] - Patent-free, high-quality data compression
   library. [BSD-4-Clause][310].
@@ -140,9 +140,9 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [shoco][363] - Compressor for small text strings. [MIT][11].
 * [SIMDComp][519] - Simple library for compressing lists of integers using
   binary packing. Makes use of SIMD instructions on x86.
-  [``BSD-3-Clause``][BSD-3-Clause].
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [smaz][364] - Efficient string compression library.
-  [``BSD-3-Clause``][BSD-3-Clause].
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [squash][393] - Compression abstraction library, complete with some
   utilities. [MIT][11].
 * [TurboPFor][471] - Fastest integer compression. [GPL-2.0-or-later][8].
@@ -150,10 +150,10 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [zip][520] - Really really small zip archive processing library.
   [Unlicense][521].
 * [Zlib][230] - Massively spiffy yet delicately unobtrusive compression
-  library. [``BSD-3-Clause``][BSD-3-Clause``].
+  library. [``BSD-3-Clause``][BSD-3-Clause``]
 * [Zstandard][510] - Fast, lossless compression algorithm, targeting real-time
   compression scenarios at zlib-level or better compression ratios.
-  [``BSD-3-Clause``][BSD-3-Clause].
+  [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Concurrency and Parallelism ##
 
@@ -167,7 +167,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and
   non-blocking data structures. [BSD-2-Clause][24].
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for
-  C11. [``BSD-3-Clause``][BSD-3-Clause].
+  C11. [``BSD-3-Clause``][BSD-3-Clause]
 * [libdill][442] - Library which makes structured concurrent programming
   easy. [MIT][11].
 * [libhl][478] - Library implementing a thread-safe API to manage a range of data
@@ -178,7 +178,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [mill][352] - Go-style concurrency. [MIT][11].
 * [OpenMP][37] - Set of pragmas designed to allow for easy parallelization of
   code. Standard (licensing not applicable).
-* [OpenMPI][284] - Message passing interface implementation. [``BSD-3-Clause``][BSD-3-Clause].
+* [OpenMPI][284] - Message passing interface implementation. [``BSD-3-Clause``][BSD-3-Clause]
 * [pal][459] - Optimized library for maths, parallel processing and data
   movement. [Apache-2.0][32].
 * [pth][180] - Portable implementation for non-preemptive priority-based
@@ -226,13 +226,13 @@ Databases and data stores with C APIs.
   key-value data. [AGPL-3.0-only][381].
 * [Groonga][524] - Columnar store with full-text search. [LGPL-2.1-only][15].
 * [Hiredis][201] - Minimalistic client library for Redis.
-  [``BSD-3-Clause``][BSD-3-Clause].
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [libmongoc][233] - High-performance client library for [MongoDB][234]. [Apache-2.0][32].
 * [LMDB][105] - Ultra-fast, ultra-compact key-value embedded data store. [OLDAP-2.8][106].
 * [PostgreSQL][121] - Powerful object-relational database system. [PostgreSQL][122].
 * [recutils][360] - Set of tools and a library for accessing human-editable,
   plaintext database files called recfiles. [GPL-3.0-or-later][41].
-* [Redis][51] - Advanced key-value store. [``BSD-3-Clause``][BSD-3-Clause].
+* [Redis][51] - Advanced key-value store. [``BSD-3-Clause``][BSD-3-Clause]
 * [sophia][244] - Modern, embeddable key-value database. [BSD-2-Clause][24].
 * [sparkey][509] - Simple constant key/value storage library. Designed for
   read-heavy loads with infrequent, large bulk inserts. [Apache-2.0][32].
@@ -246,7 +246,7 @@ Databases and data stores with C APIs.
 ## Data Structures ##
 
 * [Collections-C][406] - Library of generic data structures. [LGPL-3.0-or-later][5].
-* [kdtree][337] - Simple library for working with KD-trees. [``BSD-3-Clause``][BSD-3-Clause].
+* [kdtree][337] - Simple library for working with KD-trees. [``BSD-3-Clause``][BSD-3-Clause]
 * [libavl][156] - Library containing a range of self-balancing binary
   trees. [GPL-3.0-or-later][41].
 * [liblfds][411] - Portable lock-free data structure library. Public domain
@@ -269,7 +269,7 @@ work.
 * [C-Reduce][403] - Tool that takes a large C file with a property of interest
   and automatically produces a much smaller C file that has the same
   property. Intended to help create minimal bug-demonstrating cases in complex
-  code. [``BSD-3-Clause``][BSD-3-Clause].
+  code. [``BSD-3-Clause``][BSD-3-Clause]
 * [CBMC][309] - C Bounded Model Checker; a tool for verification of array
   bounds, pointer safety and user-specified assertions. [BSD-4-Clause][310].
 * [cflow][404] - Analyzes a collection of source files and prints a graph
@@ -294,7 +294,7 @@ work.
 * [Cxref][317] - Generates documentation in either LaTeX, HTML, RTF or
   SGML. [GPL-2.0-only][8].
 * [DocOnce][322] - Modestly-tagged markup language that can be used to
-  generate a range of formats. [``BSD-3-Clause``][BSD-3-Clause].
+  generate a range of formats. [``BSD-3-Clause``][BSD-3-Clause]
 * [Doxygen][318] - De-facto standard tool for generating documentation from
   annotated sources. Can generate a large range of formats. [GPL-2.0-only][8].
 * [GTK-Doc][319] - Tool for generating documentation from annotated
@@ -331,11 +331,11 @@ Big libraries that provide data structures and other stuff you expect of a
 * [klib][76] - Small and lightweight implementations of common algorithms and
   data structures. [MIT][11].
 * [libcork][476] - Utility functions and structures, designed for
-  resource-constrained systems. Can be embedded. [``BSD-3-Clause``][BSD-3-Clause].
+  resource-constrained systems. Can be embedded. [``BSD-3-Clause``][BSD-3-Clause]
 * [libnih][93] - Lightweight library of functions and
   structures. [GPL-2.0-only][8].
 * [libU][28] - Small library of basic utilities, including memory allocation,
-  string manipulation and logging. [``BSD-3-Clause``][BSD-3-Clause].
+  string manipulation and logging. [``BSD-3-Clause``][BSD-3-Clause]
 * [PBL][346] - Large library of utilities, featuring data structures, among
   other things. [LGPL-2.1-or-later][15]. 
 * [qlibc][277] - Simple and powerful library, designed as a replacement for
@@ -407,7 +407,7 @@ Graphical User Interface section has what you need.
   graphics. [GPL-3.0-or-later][41].
 * [lightmapper][444] - Single-file library for lightmap baking, using an
   existing OpenGL renderer. Public domain.
-* [mozjpeg][200] - Improved JPEG encoder. [``BSD-3-Clause``][BSD-3-Clause].
+* [mozjpeg][200] - Improved JPEG encoder. [``BSD-3-Clause``][BSD-3-Clause]
 * [nanovg][505] - Anti-aliased 2D vector drawing library on top of OpenGL, for
   UI and visualizations. [Zlib][49].
 * [OpenGL][147] - Industry standard for high-performance graphics, with a
@@ -436,7 +436,7 @@ can be found in the Crypto section.
 * [HighwayHash][527] - Fast, strong, SIMD-using hash function. Also contains
   an implementation of SipHash (although this is slower). [Apache-2.0][32].
 * [t1ha][530] - Fast Positive Hash - a portable, fast hash function.
-  [``BSD-3-Clause``][BSD-3-Clause].
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [xxHash][522] - Extremely fast hashing algorithm. Comes in 32 and 64-bit
   varieties. [BSD-2-Clause][24].
 
@@ -565,7 +565,7 @@ to do with managing C memory lives here.
   destructors. [LGPL-3.0-or-later][5].
 * [tlsf][531] - Two-Level Segregated Fit allocator; a general-purpose, dynamic
   memory allocator designed to meet real-time requirements. [Up-to-date
-  implementation][532]. [``BSD-3-Clause``][BSD-3-Clause].
+  implementation][532]. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Multimedia ##
 
@@ -579,7 +579,7 @@ to do with managing C memory lives here.
 * [libsoundio][372] - Library for cross-platform, real-time audio input and
   output. Has a range of back-ends. [MIT][11].
 * [lodepng][69] - Simple PNG image decoder and encoder, requiring no other
-  dependencies. [``BSD-3-Clause``][BSD-3-Clause].
+  dependencies. [``BSD-3-Clause``][BSD-3-Clause]
 * [Soundpipe][513] - Lightweight music DSP library. [MIT][11].
 
 ## Networking and Internet ##
@@ -596,13 +596,13 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [gumbo-parser][196] - HTML5 parsing library in C99. [Apache-2.0][32].
 * [http-parser][197] - HTTP request/response parser. [MIT][11].
 * [ldns][339] - Library to simplify DNS programming.
-  [``BSD-3-Clause``][BSD-3-Clause].
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [libcurl][65] - Client-side URL transfer library, supporting a wide range of
   formats. [curl][66].
 * [LibEtPan][222] - Mail library providing an efficient network for IMAP,
-  SMTP, POP and NNTP. [``BSD-3-Clause``][BSD-3-Clause].
+  SMTP, POP and NNTP. [``BSD-3-Clause``][BSD-3-Clause]
 * [libev][144] - Yet another event loop. [BSD-2-Clause][24].
-* [libevent][124] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause].
+* [libevent][124] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
 * [libhttpd][166] - Library to add basic web server capabilities to an
   application or embedded device. [GPL-2.0-only][41].
 * [libidn][164] - Implementation of the Stringprep, Punycode and IDNA
@@ -636,7 +636,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   computing. [GPL-2.0-only][8].
 * [Arb][497] - Library for arbitrary-precision interval arithmetic.
   [LGPL-2.1-or-later][15].
-* [ATLAS][137] - Automatically Tuned Linear Algebra Software. [``BSD-3-Clause``][BSD-3-Clause].
+* [ATLAS][137] - Automatically Tuned Linear Algebra Software. [``BSD-3-Clause``][BSD-3-Clause]
 * [clBLAS][439] - BLAS functions written in OpenCL. [Apache-2.0][32].
 * [Cuba][316] - Library for multidimensional numerical
   integration. [LGPL-3.0-only][5].
@@ -657,8 +657,8 @@ comprehensive and high-level, you may want the Web Frameworks section.
   interval arithmetic. [GPL-3.0-or-later][41].
 * [GSL][47] - The GNU Scientific Library; a sophisticated numerical
   library. [GPL-3.0-only][41].
-* [KISS FFT][71] - Very simple fast Fourier transform library. [``BSD-3-Clause``][BSD-3-Clause].
-* [LAPACKE][133] - Interface to [LAPACK][134]. [``BSD-3-Clause``][BSD-3-Clause].
+* [KISS FFT][71] - Very simple fast Fourier transform library. [``BSD-3-Clause``][BSD-3-Clause]
+* [LAPACKE][133] - Interface to [LAPACK][134]. [``BSD-3-Clause``][BSD-3-Clause]
 * [LibTomMath][461] - Portable, number-theoretic, multiple-precision integer
   library. Supports algebra, digit manipulation, modular reductions, and various
   number-theoretic routines. Public domain.
@@ -674,12 +674,12 @@ comprehensive and high-level, you may want the Web Frameworks section.
   problems on parallel computers. [LGPL-3.0-only][5].
 * [TomsFastMath][462] - Set of assembly-level-optimized maths operations,
   suitable for cryptographic use. Public domain.
-* [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [``BSD-3-Clause``][BSD-3-Clause].
+* [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Profiling ##
 
 * [gperftools][295] - Collection of utilities for measuring and improving
-  performance. [``BSD-3-Clause``][BSD-3-Clause].
+  performance. [``BSD-3-Clause``][BSD-3-Clause]
 * [gprof][86] - Performance analysis tool. Part of GNU binutils. 
   [GPL-3.0-or-later][41].
 * [OProfile][475] - Statistical profiler for Linux. Can profile any code
@@ -694,7 +694,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [Oniguruma][517] - Regex library supporting a wide range of encodings, and
   incorporating many security-oriented fixes. [BSD-2-Clause][24].
 * [PCRE][83] - Implementation of regexes identical to that of
-  Perl 5. [``BSD-3-Clause``][BSD-3-Clause].
+  Perl 5. [``BSD-3-Clause``][BSD-3-Clause]
 * [SLRE][80] - Super Light Regular Expression library; a very small
   implementation of a subset of Perl regex syntax. [GPL-2.0-only][8].
 * [TRE][82] - POSIX-compliant, feature-full regex library. [BSD-2-Clause][24].
@@ -743,7 +743,7 @@ the Frameworks section.
 
 Implementations of the (standard-mandated) C standard library.
 
-* [Bionic][4] - Google's standard library, developed for Android. [``BSD-3-Clause``][BSD-3-Clause].
+* [Bionic][4] - Google's standard library, developed for Android. [``BSD-3-Clause``][BSD-3-Clause]
 * [cloudlibc][486] - Standard library based on the concept of
   [capability-based security][487]. [BSD-2-Clause][24].
 * [dietlibc][9] - Standard library designed for the smallest possible
@@ -785,7 +785,7 @@ Implementations of the (standard-mandated) C standard library.
 * [CUnit][94] - Another unit testing framework. [LGPL-2.1-or-later][15].
 * [greatest][58] - Unit testing library in one file, with no memory
   allocation. [MIT][11].
-* [minctest][394] - Unit testing microlibrary. [``BSD-3-Clause``][BSD-3-Clause].
+* [minctest][394] - Unit testing microlibrary. [``BSD-3-Clause``][BSD-3-Clause]
 * [munit][392] - Small unit testing framework. [MIT][11].
 * [theft][302] - Property-based testing (similar to [Quickcheck][301]). [MIT][11].
 * [Unity][296] - Simple unit testing framework. [MIT][11].
@@ -831,7 +831,7 @@ libraries or compilers.
 * [Glade][328] - RAD tool to enable quick development of GTK+
   GUIs. [GPL-2.0-only][8].
 * [GMSL][331] - GNU Make Standard Library; a collection of additional
-  functionality for GNU Make. [``BSD-3-Clause``][BSD-3-Clause].
+  functionality for GNU Make. [``BSD-3-Clause``][BSD-3-Clause]
 * [GNU Global][330] - Source code tagging tool. [GPL-3.0-only][41].
 * [GPP][269] - General-purpose preprocessor. More versatile than the C
   preprocessor, but more flexible than m4. [LGPL-3.0-or-later][5].
@@ -869,7 +869,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   it. [GPL-2.0-only][8] or [LGPL-2.1-only][15].
 * [D-Bus][430] - Simple way for applications to talk to one
   another. [AFL-2.1][431] or [GPL-2.0-or-later][8].
-* [Discount][438] - Simple implementation of a Markdown parser. [``BSD-3-Clause``][BSD-3-Clause].
+* [Discount][438] - Simple implementation of a Markdown parser. [``BSD-3-Clause``][BSD-3-Clause]
 * [dlx][388] - Implementation of [Knuth's Algorithm X][389], with example
   solvers. [GPL-3.0-or-later][41].
 * [docopt.c][270] - Implementation of a command-line option parser. [MIT][11].
@@ -887,7 +887,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   updating. [LGPL-3.0-or-later][5].
 * [libbson][235] - BSON utility library. [Apache-2.0][32].
 * [libCello][96] - Library introducing higher-level programming to
-  C. [``BSD-3-Clause``][BSD-3-Clause].
+  C. [``BSD-3-Clause``][BSD-3-Clause]
 * [libcmark][436] - Library for parsing the CommonMark dialect of
   Markdown. [BSD-2-Clause][24].
 * [libcoap][136] - Implementation of the [Constrained Application Protocol][117].
@@ -898,7 +898,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libcsv][387] - Simple, streaming CSV parser. [LGPL-2.1-or-later][15].
 * [libffi][128] - Portable foreign-function interface library. [MIT][11].
 * [libgeohash][499] - Pure C implementation of the Geohash algorithm.
-  [``BSD-3-Clause``][BSD-3-Clause].
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [libgss][161] - Generic Security Service. [GPL-3.0-or-later][41].
 * [libimobiledevice][354] - Cross-platform protocol library to communicate
   with iThings. [LGPL-2.1-or-later][15].
@@ -921,21 +921,21 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   libedit. [BSD-2-Clause][24].
 * [ncurses][178] - Coloured terminal UI library. [MIT][11].
 * [netbsd-curses][494] - Simplified and small version of ncurses, with the same
-  interface. [``BSD-3-Clause``][BSD-3-Clause].
+  interface. [``BSD-3-Clause``][BSD-3-Clause]
 * [nope.c][209] - Ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [GPL-2.0-only][8].
 * [parg][274] - A single-file reimplementation of ``getopt`` with better defaults.
   [CC0][448].
 * [pbc][236] - Protocol buffers library. [MIT][11].
 * [progressbar][453] - Easy-to-use library for displaying text progress bars.
-  [``BSD-3-Clause``][BSD-3-Clause].
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [MIT][11].
 * [Ragel][54] - DSL for state machines that compiles to C. [GPL-2.0-only][8].
 * [sort][190] - Collection of sorting routines, which type-specialize at
   compile-time with a user-defined type. [MIT][11].
 * [termbox][396] - Library for writing text-based interfaces. [MIT][11].
 * [tinyexpr][395] - Tiny recursive-descent parser, compiler and evaluation
-  engine for simple mathematical expressions. [``BSD-3-Clause``][BSD-3-Clause].
+  engine for simple mathematical expressions. [``BSD-3-Clause``][BSD-3-Clause]
 * [Tulip Indicators][449] - Library of functions for technical analysis of
   financial data. [LGPL-3.0-or-later][5].
 * [whereami][167] - One-file library for locating the current executable on the 
@@ -955,7 +955,7 @@ application in C.
   Websocket server, and also supports custom protocols. [MIT][11].
 * [KLone][423] - Fully-featured, multi-platform, web application development
   framework, targeted especially at embedded systems and
-  appliances. [``BSD-3-Clause``][BSD-3-Clause].
+  appliances. [``BSD-3-Clause``][BSD-3-Clause]
 * [Kore][415] - Easy-to-use web application framework for writing scalable
   web APIs in C. [ISC][61].
 
