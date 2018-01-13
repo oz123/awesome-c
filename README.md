@@ -522,7 +522,7 @@ to C programming.
 
 * [C Primer Plus 6E][184] - Complete tutorial on programming in C11.
 * [C Programming: A Modern Approach][64] - Excellent book to learn the basics
-  from C from.
+  of C.
 * [Head First C][102] - 'Head-first' style book for learning C.
 
 ### Intermediate books ###
