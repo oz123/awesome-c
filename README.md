@@ -79,9 +79,6 @@ Basically, if your university calls it AI, it lives here.
 
 Tools that automate the building and testing of projects in C.
 
-* [Automake][306] - Tool for automatically generating ``Makefile.in`` files
-  compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of
-  the Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [CMake][329] - Cross-platform family of tools designed to build, package and test
   software. [``BSD-3-Clause``][BSD-3-Clause]
 * [GNU Make][324] - Tool which controls the generation of executables and other
@@ -1334,7 +1331,7 @@ support for C.
 [303]: https://github.com/slembcke/Chipmunk2D
 [304]: https://biicode.github.io/biicode/
 
-[306]: https://www.gnu.org/software/automake/automake.html
+
 [307]: https://www.gnu.org/software/complexity/
 [308]: http://www.eso.org/sci/software/cpl/
 [309]: http://www.cprover.org/cbmc/
