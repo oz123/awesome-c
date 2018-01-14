@@ -378,8 +378,6 @@ Programmatic manipulation of graphics in C; if you want to make a GUI, the
 Graphical User Interface section has what you need.
 
 * [Cairo][384] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [MPL-1.1][385].
-* [Cogl][127] - GPU graphics and utilities API. [``MIT``][MIT] 
-* [Clutter][126] - UI library based on OpenGL. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [giflib][401] - Library for reading and writing gif images. [``MIT``][MIT]
 * [graphene][515] - Thin layer of graphical data types. [``MIT``][MIT]
 * [heman][365] - Tiny library of image utilities dealing with height maps,
