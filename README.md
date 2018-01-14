@@ -1136,8 +1136,8 @@ support for C.
 [123]: https://gstreamer.freedesktop.org/
 [124]: http://libevent.org/
 [125]: https://www.hboehm.info/gc/
-[126]: https://blogs.gnome.org/clutter/get-it/
-[127]: https://github.com/rib/cogl-web/wiki
+
+
 [128]: https://github.com/atgreen/libffi
 [129]: https://github.com/protobuf-c/protobuf-c
 [130]: https://github.com/jmckaskill/c-capnproto
