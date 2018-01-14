@@ -89,7 +89,6 @@ Tools that automate the building and testing of projects in C.
   software project and uses it to generate project files for Visual Studio and
   GNU Make. Other targets are also being worked on. [``BSD-3-Clause``][BSD-3-Clause]
 * [SCons][521] - Software construction tool using Python. [``MIT``][MIT]
-* [tup][326] - Very fast, file-based, cross-platform build system. [``GPL-2.0-only``][GPL-2.0-only]
 * [zproject][420] - Project generator and build system support tool. [``MPL-2.0``][MPL-2.0]
 
 ## Compilers ##
@@ -1346,7 +1345,7 @@ support for C.
 [323]: http://fabutil.org/
 [324]: https://www.gnu.org/software/make/
 [325]: http://leenissen.dk/fann/wp/
-[326]: http://gittup.org/tup/index.html
+
 [327]: https://github.com/attractivechaos/kann
 [328]: https://glade.gnome.org/
 [329]: https://cmake.org/
