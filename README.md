@@ -83,12 +83,12 @@ Tools that automate the building and testing of projects in C.
   software. [``BSD-3-Clause``][BSD-3-Clause]
 * [GNU Make][324] - Tool which controls the generation of executables and other
   non-source files of a program. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Libtool][172] - Generic library support script. Part of the Autotools. 
-  [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [Libtool][172] - Generic library support script. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Meson][368] - Extremely fast, user-friendly build system. Based on Ninja. [``Apache-2.0``][Apache-2.0]
 * [Premake][435] - Command-line utility which reads a scripted definition of a
   software project and uses it to generate project files for Visual Studio and
   GNU Make. Other targets are also being worked on. [``BSD-3-Clause``][BSD-3-Clause]
+* [SCons][521] - Software construction tool using Python. [``MIT``][MIT]
 * [tup][326] - Very fast, file-based, cross-platform build system. [``GPL-2.0-only``][GPL-2.0-only]
 * [zproject][420] - Project generator and build system support tool. [``MPL-2.0``][MPL-2.0]
 
@@ -1545,7 +1545,7 @@ support for C.
 [518]: https://github.com/k-takata/Onigmo
 [519]: https://github.com/lemire/simdcomp
 [520]: https://github.com/kuba--/zip
-
+[521]: http://www.scons.org/
 [522]: https://github.com/Cyan4973/xxHash
 [523]: https://github.com/aubio/aubio
 [524]: https://github.com/groonga/groonga
