@@ -226,9 +226,6 @@ Databases and data stores with C APIs.
 * [libmongoc][233] - High-performance client library for [MongoDB][234]. [``Apache-2.0``][Apache-2.0]
 * [LMDB][105] - Ultra-fast, ultra-compact key-value embedded data store. [``OLDAP-2.8``][OLDAP-2.8]
 * [PostgreSQL][121] - Powerful object-relational database system. [``PostgreSQL``][PostgreSQL]
-* [recutils][360] - Set of tools and a library for accessing human-editable,
-  plaintext database files called recfiles.
-  [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Redis][51] - Advanced key-value store. [``BSD-3-Clause``][BSD-3-Clause]
 * [sophia][244] - Modern, embeddable key-value database.
   [``BSD-2-Clause``][BSD-2-Clause]
@@ -1385,7 +1382,7 @@ support for C.
 [357]: http://250bpm.com/blog:56
 [358]: http://www.samnip.ps/thought/macro-storage-for-inverse-comma
 [359]: https://github.com/awslabs/s2n
-[360]: https://www.gnu.org/software/recutils/
+
 [361]: https://pp.ipd.kit.edu/firm/
 [362]: http://www.etalabs.net/compare_libcs.html
 [363]: https://github.com/Ed-von-Schleck/shoco
