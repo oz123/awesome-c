@@ -319,10 +319,6 @@ Big libraries that provide data structures and other stuff you expect of a
   [``GPL-2.0-only``][GPL-2.0-only]
 * [EFL][119] - Large collection of useful data structures and
   functions. Various licenses, all open-source.
-* [GLib][1] - Library of utility functions and structures, designed to be
-  portable, efficient and powerful. [``LGPL-2.1-only``][LGPL-2.1-only]
-* [GIO][2] - Modern and easy-to-use VFS API. [``LGPL-2.1-only``][LGPL-2.1-only]
-* [GObject][3] - Object-oriented system and object model. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [klib][76] - Small and lightweight implementations of common algorithms and
   data structures. [``MIT``][MIT]
 * [libcork][476] - Utility functions and structures, designed for
@@ -961,7 +957,6 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 Comprehensive and integrated solutions for building the next brilliant web 
 application in C.
 
-* [balde][386] - Microframework based on GLib. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
   Websocket server, and also supports custom protocols. [``MIT``][MIT]
 * [KLone][423] - Fully-featured, multi-platform, web application development
@@ -1021,9 +1016,6 @@ support for C.
 [X11]: https://spdx.org/licenses/X11.html
 [Zlib]: https://spdx.org/licenses/Zlib.html 
 
-[1]: https://wiki.gnome.org/Projects/GLib
-[2]: https://developer.gnome.org/gio/
-[3]: https://developer.gnome.org/gobject/stable/
 [4]: https://github.com/aosp-mirror/platform_bionic
 
 
@@ -1405,7 +1397,7 @@ support for C.
 
 [384]: http://cairographics.org/
 [385]: https://spdx.org/licenses/MPL-1.1.html 
-[386]: https://github.com/balde/balde
+
 [387]: http://sourceforge.net/projects/libcsv/
 [388]: https://github.com/blynn/dlx
 [389]: https://en.wikipedia.org/wiki/Knuth's_Algorithm_X
