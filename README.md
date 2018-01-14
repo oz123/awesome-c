@@ -79,9 +79,6 @@ Basically, if your university calls it AI, it lives here.
 
 Tools that automate the building and testing of projects in C.
 
-* [Autoconf][305] - Extensible package of M4 macros that produce shell
-  scripts to automatically configure software source code packages. Part of the
-  Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Automake][306] - Tool for automatically generating ``Makefile.in`` files
   compliant with the GNU Coding Standards. Requires the use of Autoconf. Part of
   the Autotools. [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -1336,7 +1333,7 @@ support for C.
 [302]: https://github.com/silentbicycle/theft
 [303]: https://github.com/slembcke/Chipmunk2D
 [304]: https://biicode.github.io/biicode/
-[305]: https://www.gnu.org/software/autoconf/
+
 [306]: https://www.gnu.org/software/automake/automake.html
 [307]: https://www.gnu.org/software/complexity/
 [308]: http://www.eso.org/sci/software/cpl/
