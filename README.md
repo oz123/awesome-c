@@ -294,8 +294,6 @@ work.
   generate a range of formats. [``BSD-3-Clause``][BSD-3-Clause]
 * [Doxygen][318] - De-facto standard tool for generating documentation from
   annotated sources. Can generate a large range of formats. [``GPL-2.0-only``][GPL-2.0-only]
-* [GTK-Doc][319] - Tool for generating documentation from annotated
-  sources. Has support for the Autotools. [``GPL-2.0-only``][GPL-2.0-only]
 
 ## Editors ##
 
@@ -1341,7 +1339,7 @@ support for C.
 [316]: http://www.feynarts.de/cuba/
 [317]: http://www.gedanken.org.uk/software/cxref/
 [318]: http://www.stack.nl/~dimitri/doxygen/index.html
-[319]: https://www.gtk.org/gtk-doc/
+
 [320]: https://www.gnu.org/software/ddd/ddd.html
 [321]: http://docutils.sourceforge.net/
 [322]: https://hplgit.github.io/doconce/doc/web/index.html
