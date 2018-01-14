@@ -97,7 +97,11 @@ whatever you're submitting is good.
 Ensure that you label licenses correctly. ``awesome-c`` now uses [SPDX][2]
 license labels, so please use those. If the license is weird or not on the list,
 label it as clearly as possible. Also check if the license is in use
-already - if it is, don't create another link to it.
+already - if it is, don't create another link to it. License links are named the
+same way as the license itself: if you want to link to the ``GPL-3.0-or-later``
+license, you format the link as 
+ 
+    [``GPL-3.0-or-later``][GPL-3.0-or-later]
 
 Sometimes, libraries or frameworks will contain documentation or code under
 different licenses to the library itself (such as tests or examples). There is
@@ -114,6 +118,18 @@ than anything else, and otherwise, lex order.
 The commit message should state clearly *what* you did (adding, removing,
 clarifying, etc.), with *what* (usually by giving the name of the entry), in the
 present continuous tense (i.e. 'adding' not 'added').
+
+### Keep to the same style as other entries
+
+This includes, but is not limited to:
+
+* The order of entries is: name with link, description, license link
+* Avoid starting descriptions with 'a', 'an' or 'the'
+* License link text should be backtick-wrapped
+* If something has a dedicated site, link to that in preference to a Github or
+  other repo page
+
+Read some of the other entries to see how to format any new ones.
 
 [1]: https://opensource.org/licenses 
 [2]: https://spdx.org/licenses/ 
