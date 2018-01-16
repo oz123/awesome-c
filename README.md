@@ -434,6 +434,7 @@ can be found in the Crypto section.
 
 * [Jansson][53] - Library for encoding, decoding and manipulating JSON. [``MIT``][MIT]
 * [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
+* [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
 * [jfes][488] - JSON For Embedded Systems; simple JSON engine without any 
   dependencies. [``MIT``][MIT]
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
@@ -1441,7 +1442,7 @@ support for C.
 [428]: http://msys2.github.io/
 [429]: http://www.libsigil.com/
 [430]: https://www.freedesktop.org/wiki/Software/dbus/
-
+[431]: https://github.com/sheredom/json.h
 [432]: http://lzip.nongnu.org/clzip.html
 [433]: http://lzip.nongnu.org/lzip.html
 [434]: https://github.com/openvenues/libpostal
