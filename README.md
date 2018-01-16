@@ -433,10 +433,10 @@ can be found in the Crypto section.
 ## JSON ##
 
 * [Jansson][53] - Library for encoding, decoding and manipulating JSON. [``MIT``][MIT]
-* [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
-* [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
 * [jfes][488] - JSON For Embedded Systems; simple JSON engine without any 
   dependencies. [``MIT``][MIT]
+* [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
+* [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
   Schema. [``LGPL-2.0-or-later``][LGPL-2.0-or-later] or [``LGPL-2.1-or-later``][LGPL-2.1-or-later] or [``LGPL-3.0-or-later``][LGPL-3.0-or-later] 
 * [YAJL][60] - Fast streaming JSON parser library. [``ISC``][ISC]
