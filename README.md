@@ -760,6 +760,8 @@ Implementations of the (standard-mandated) C standard library.
 * [bstrlib][116] - The Better String Library. [``BSD-3-Clause``][BSD-3-Clause] or [``GPL-2.0-only``][GPL-2.0-only]
 * [ICU][67] - International Components for Unicode; a library for Unicode
   support. [``ICU``][ICU]
+* [levenstein.c][360] - [Levenstein distance][334] algorithm implementation.
+  [``MIT``][MIT].
 * [libunistring][173] - Library for manipulating Unicode
   strings. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [libgiconv][163] - Text conversion library. [``LGPL-2.1-only``][LGPL-2.1-only] 
@@ -1348,7 +1350,7 @@ support for C.
 [331]: http://gmsl.sourceforge.net/
 [332]: https://github.com/nfc-tools/libnfc
 [333]: http://www.andre-simon.de/index.php
-
+[334]: https://en.wikipedia.org/wiki/Levenshtein_distance
 [335]: https://spdx.org/licenses/GPL-1.0.html 
 [336]: https://github.com/ndevilla/iniparser
 [337]: https://github.com/jtsiomb/kdtree
@@ -1374,7 +1376,7 @@ support for C.
 [357]: http://250bpm.com/blog:56
 [358]: http://www.samnip.ps/thought/macro-storage-for-inverse-comma
 [359]: https://github.com/awslabs/s2n
-
+[360]: https://github.com/wooorm/levenshtein.c
 [361]: https://pp.ipd.kit.edu/firm/
 [362]: http://www.etalabs.net/compare_libcs.html
 [363]: https://github.com/Ed-von-Schleck/shoco
