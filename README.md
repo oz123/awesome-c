@@ -1,6 +1,6 @@
 # Awesome C #
 
-A curated list of C good stuff. This list contains *only* [open-source][13]
+A curated list of C good stuff. This list contains *only* [open source][13]
 code (as defined by the linked Open Source Definition), and sellers who 
 aren't evil for physical resources.
 
@@ -106,12 +106,12 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports
   C11. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [PCC][74] - Venerable compiler. Supports C99. [Various licenses][75], all 
-  open-source.
+  open source.
 
 ## Compression ##
 
 * [blosc][445] - Extremely fast, multi-threaded, meta-compressor library. 
-  Various licenses, all open-source.
+  Various licenses, all open source.
 * [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
   implementation). [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [CRoaring][481] - C implementation of [Roaring bitmaps][482]. [``Apache-2.0``][Apache-2.0]
@@ -318,7 +318,7 @@ Big libraries that provide data structures and other stuff you expect of a
   comprehensive, efficient and robust software toolkit.
   [``GPL-2.0-only``][GPL-2.0-only]
 * [EFL][119] - Large collection of useful data structures and
-  functions. Various licenses, all open-source.
+  functions. Various licenses, all open source.
 * [klib][76] - Small and lightweight implementations of common algorithms and
   data structures. [``MIT``][MIT]
 * [libcork][476] - Utility functions and structures, designed for
@@ -368,7 +368,7 @@ Engines, libraries and other helpful things specifically for making games.
   SDL. [``MIT``][MIT]
 * [SIGIL][429] - Sound, Input and Graphics Integration Library; a simple
   alternative to other libraries for doing all those things. Various licenses,
-  all open-source.
+  all open source.
 * [Spearmint][371] - Engine designed for FPS games. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [uastar][535] - Minimal A\* implementation. [``ZLib``][Zlib]
 
@@ -547,7 +547,7 @@ Whether a different, faster malloc or outright garbage collection, anything
 to do with managing C memory lives here.
 
 * [Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various
-  licenses, all open-source.
+  licenses, all open source.
 * [jemalloc][293] - Malloc implementation that emphasizes avoidance of
   fragmentation and scalable concurrency support.
   [``BSD-2-Clause``][BSD-2-Clause]
@@ -720,13 +720,15 @@ the Frameworks section.
 
 * [CCAN][103] - Modelled after Perl's CPAN, this is a big collection of code
   that does stuff. The full list is [here][104]. Various licenses, all
-  open-source.
+  open source.
 * [clib][26] - Something of a package manager. Comes with
   a [bunch of libraries of its own][27]. [``MIT``][MIT]
 * [gnulib][46] - Collection of common GNU code. Various licenses, all
-  open-source.
+  open source.
 * [libdjb][292] - Collection of libraries doing various things. (Apparently)
   public domain.
+* [mmx][448] - Collection of single-header libraries. Various licenses, all 
+  open source.
 * [par][456] - Bunch of single-file libraries. [``MIT``][MIT]
 * [Snippets][220] - (Hopefully) useful code snippets and header-only libraries.
   Public domain.
@@ -864,7 +866,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   FreeBSD systems. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [CException][298] - Implementation of exceptions. [``MIT``][MIT]
 * [CommonMark][223] - Implementation of the CommonMark spec. 
-  [Variety of licenses, all open-source][224].
+  [Variety of licenses, all open source][224].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
   for 'freezing' a running application to disk, then restoring
   it. [``GPL-2.0-only``][GPL-2.0-only] or [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -969,9 +971,9 @@ Technologies designed to bring Windows into the 21st century with respect to
 support for C.
 
 * [Cygwin][253] - Designed to emulate a POSIX-compatible environment extensively
-  under Windows. [Various licenses, all open-source][254].
+  under Windows. [Various licenses, all open source][254].
 * [MinGW-w64][287] - Minimalist environment for C development on Windows with
-  64 bit support. [Various licenses, all open-source][252].
+  64 bit support. [Various licenses, all open source][252].
 * [MSYS2][428] - Minimal SYStem 2; aims to provide support for a POSIX
   environment on Windows, with a package manager based on Arch Linux's
   pacman. Packages have individual licenses, otherwise, as MinGW and Cygwin.
@@ -1456,7 +1458,7 @@ support for C.
 [445]: http://blosc.org/pages/blosc-in-depth
 [446]: https://github.com/Kazade/kazmath
 [447]: http://pdclib.e43.eu/
-
+[448]: https://github.com/vurtun/mmx
 [449]: https://tulipindicators.org/
 [450]: https://locklessinc.com/benchmarks_allocator.shtml
 [451]: https://locklessinc.com/
