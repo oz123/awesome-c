@@ -425,6 +425,8 @@ can be found in the Crypto section.
 * [HighwayHash][527] - Fast, strong, SIMD-using hash function. Also contains
   an implementation of SipHash (although this is slower).
   [``Apache-2.0``][Apache-2.0]
+* [SpookyHash][326] - Extremely fast hash function.
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [t1ha][530] - Fast Positive Hash - a portable, fast hash function.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [xxHash][522] - Extremely fast hashing algorithm. Comes in 32 and 64-bit
@@ -1342,7 +1344,7 @@ support for C.
 [323]: http://fabutil.org/
 [324]: https://www.gnu.org/software/make/
 [325]: http://leenissen.dk/fann/wp/
-
+[326]: https://github.com/centaurean/spookyhash
 [327]: https://github.com/attractivechaos/kann
 [328]: https://glade.gnome.org/
 [329]: https://cmake.org/
