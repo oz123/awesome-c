@@ -789,6 +789,7 @@ Implementations of the (standard-mandated) C standard library.
 * [munit][392] - Small unit testing framework. [``MIT``][MIT]
 * [theft][302] - Property-based testing (similar to [Quickcheck][301]). [``MIT``][MIT]
 * [Unity][296] - Simple unit testing framework. [``MIT``][MIT]
+* [utest][386] - Single-header unit testing library. [``Unlicense``][Unlicense]
 
 ## Text Editor Extensions ##
 
@@ -1398,7 +1399,7 @@ support for C.
 
 [384]: http://cairographics.org/
 [385]: https://spdx.org/licenses/MPL-1.1.html 
-
+[386]: https://github.com/evolutional/utest
 [387]: http://sourceforge.net/projects/libcsv/
 [388]: https://github.com/blynn/dlx
 [389]: https://en.wikipedia.org/wiki/Knuth's_Algorithm_X
