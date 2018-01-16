@@ -767,6 +767,7 @@ Implementations of the (standard-mandated) C standard library.
 * [SDS][29] - Simple Dynamic Strings; a library for handling strings in a
   simpler way, but one that is compatible with normal C string
   functions. Available via [clib][26]. [``BSD-2-Clause``][BSD-2-Clause]
+* [stmr.c][383] - [Porter Stemmer][367] algorithm implementation. [``MIT``][MIT]
 * [utf8.h][472] - Single-header UTF-8 library, designed to mimic C-style string
   functions. Public domain.
 * [utf8proc][469] - Library for processing UTF-8 data. [``MIT``][MIT]
@@ -1380,7 +1381,7 @@ support for C.
 [364]: https://github.com/antirez/smaz
 [365]: https://github.com/prideout/heman
 [366]: https://github.com/cacalabs/libcaca
-
+[367]: http://tartarus.org/martin/PorterStemmer/
 [368]: http://mesonbuild.com/
 [369]: https://icculus.org/twilight/darkplaces/
 [370]: https://bitbucket.org/orx/orx
@@ -1396,7 +1397,7 @@ support for C.
 [380]: http://www.oracle.com/us/products/database/berkeley-db/overview/index.html
 [381]: https://spdx.org/licenses/AGPL-1.0.html 
 [382]: http://www.libpng.org/
-
+[383]: https://github.com/wooorm/stmr.c
 [384]: http://cairographics.org/
 [385]: https://spdx.org/licenses/MPL-1.1.html 
 [386]: https://github.com/evolutional/utest
