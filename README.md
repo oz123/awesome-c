@@ -1,7 +1,7 @@
 # Awesome C #
 
 A curated list of C good stuff. This list contains *only* [open source][13]
-code (as defined by the linked Open Source Definition), and sellers who 
+code (as defined by the linked Open Source Definition), and sellers who
 aren't evil for physical resources.
 
 This is released under a Creative Commons-Attribution-ShareAlike license,
@@ -63,7 +63,7 @@ CONTRIBUTING.md first.
 
 ## AI ##
 
-Computer vision, neural nets, machine learning, and other similar things. 
+Computer vision, neural nets, machine learning, and other similar things.
 Basically, if your university calls it AI, it lives here.
 
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer
@@ -105,12 +105,12 @@ Compilers, as well as compiler- and compilation-related tooling.
   license. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports
   C11. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [PCC][74] - Venerable compiler. Supports C99. [Various licenses][75], all 
+* [PCC][74] - Venerable compiler. Supports C99. [Various licenses][75], all
   open source.
 
 ## Compression ##
 
-* [blosc][445] - Extremely fast, multi-threaded, meta-compressor library. 
+* [blosc][445] - Extremely fast, multi-threaded, meta-compressor library.
   Various licenses, all open source.
 * [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
   implementation). [``GPL-2.0-or-later``][GPL-2.0-or-later]
@@ -154,7 +154,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [cchan][243] - Small library for channel constructs for inter-thread
   communication. Public domain.
 * [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented
-  framework for developing and benchmarking [OpenCL][312] projects. 
+  framework for developing and benchmarking [OpenCL][312] projects.
   [``LGPL-3.0-only``][LGPL-3.0-only]
 * [checkedthreads][465] - No race condition goes unnoticed! A simple library for
   parallelism, with built-in checking for race conditions. [``BSD-2-Clause``][BSD-2-Clause]
@@ -184,7 +184,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 
 ## Crypto ##
 
-Mostly library implementations of well-known cryptographic algorithms or 
+Mostly library implementations of well-known cryptographic algorithms or
 protocols.
 
 * [GNU SASL][160] - Implementation of the Simple Authentication and Security
@@ -257,8 +257,8 @@ Databases and data stores with C APIs.
 
 ## Debugging ##
 
-Because we all have to do it sometimes. Various tools for making debugging 
-easier or better, as well as libraries or code that allows better debugging 
+Because we all have to do it sometimes. Various tools for making debugging
+easier or better, as well as libraries or code that allows better debugging
 work.
 
 * [C-Reduce][403] - Tool that takes a large C file with a property of interest
@@ -296,7 +296,7 @@ work.
 
 ## Editors ##
 
-Fancier, IDE-type editors. If you want a programmer's text editor, look 
+Fancier, IDE-type editors. If you want a programmer's text editor, look
 elsewhere. Besides, whatever you use most likely supports C anyway.
 
 * [Anjuta DevStudio][42] - GNOME IDE. [``GPL-2.0-only``][GPL-2.0-only]
@@ -308,7 +308,7 @@ elsewhere. Besides, whatever you use most likely supports C anyway.
 
 ## Frameworks ##
 
-Big libraries that provide data structures and other stuff you expect of a 
+Big libraries that provide data structures and other stuff you expect of a
 'modern' standard library.
 
 * [APR][78] - Apache Portable Runtime; another library of cross-platform utility
@@ -328,7 +328,7 @@ Big libraries that provide data structures and other stuff you expect of a
 * [libU][28] - Small library of basic utilities, including memory allocation,
   string manipulation and logging. [``BSD-3-Clause``][BSD-3-Clause]
 * [PBL][346] - Large library of utilities, featuring data structures, among
-  other things. [``LGPL-2.1-or-later``][LGPL-2.1-or-later] 
+  other things. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [qlibc][277] - Simple and powerful library, designed as a replacement for
   GLib while focusing on being small and light. [``BSD-2-Clause``][BSD-2-Clause]
 * [TBOX][398] - Multi-platform library with a large number of
@@ -374,7 +374,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 ## Graphics ##
 
-Programmatic manipulation of graphics in C; if you want to make a GUI, the 
+Programmatic manipulation of graphics in C; if you want to make a GUI, the
 Graphical User Interface section has what you need.
 
 * [Cairo][384] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [MPL-1.1][385].
@@ -417,7 +417,7 @@ Widget toolkits, or things meant to be used in a similar way to them.
 
 ## Hashing ##
 
-Hash function implementations for *non*-crypto purposes. Cryptographic hashes 
+Hash function implementations for *non*-crypto purposes. Cryptographic hashes
 can be found in the Crypto section.
 
 * [CLHash][495] - Library implementing the ridiculously fast CLHash hashing
@@ -435,17 +435,18 @@ can be found in the Crypto section.
 ## JSON ##
 
 * [Jansson][53] - Library for encoding, decoding and manipulating JSON. [``MIT``][MIT]
-* [jfes][488] - JSON For Embedded Systems; simple JSON engine without any 
+* [jfes][488] - JSON For Embedded Systems; simple JSON engine without any
   dependencies. [``MIT``][MIT]
 * [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
 * [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
-  Schema. [``LGPL-2.0-or-later``][LGPL-2.0-or-later] or [``LGPL-2.1-or-later``][LGPL-2.1-or-later] or [``LGPL-3.0-or-later``][LGPL-3.0-or-later] 
+  Schema. [``LGPL-2.0-or-later``][LGPL-2.0-or-later] or
+  [``LGPL-2.1-or-later``][LGPL-2.1-or-later] or [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [YAJL][60] - Fast streaming JSON parser library. [``ISC``][ISC]
 
 ## Learning, Reference and Tutorials ##
 
-Resources for learning C programming in general, or something useful relating 
+Resources for learning C programming in general, or something useful relating
 to C programming.
 
 ### Reference resources online ###
@@ -453,6 +454,8 @@ to C programming.
 * [Benchmarks of the Lockless Memory Allocator][450]
 * [C FAQ - comp.lang.c Frequently Asked Questions][262]
 * [Comparison of C/POSIX standard library implementations for Linux][362]
+* [Draft C89 standard][6]
+* [Draft C99 standard][258]
 * [Draft C11 standard][247]
 * [Finding the best 64-bit simulation PRNG][529]
 * [SEI CERT C Coding Standard][266]
@@ -532,7 +535,7 @@ to C programming.
 
 ## Lexing and Parsing ##
 
-Libraries specifically for lexical analysis (or lexing) and syntactic analysis 
+Libraries specifically for lexical analysis (or lexing) and syntactic analysis
 (or parsing).
 
 * [flex][491] - Fast lexical analyzer generator. [``BSD-2-Clause``][BSD-2-Clause]
@@ -581,7 +584,7 @@ to do with managing C memory lives here.
 
 ## Networking and Internet ##
 
-Low-level networking and internet-related stuff. If you want something more 
+Low-level networking and internet-related stuff. If you want something more
 comprehensive and high-level, you may want the Web Frameworks section.
 
 * [asnlc][138] - Compiler of ASN.1 specifications into C source code. [``BSD-2-Clause``][BSD-2-Clause]
@@ -676,7 +679,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 
 * [gperftools][295] - Collection of utilities for measuring and improving
   performance. [``BSD-3-Clause``][BSD-3-Clause]
-* [gprof][86] - Performance analysis tool. Part of GNU binutils. 
+* [gprof][86] - Performance analysis tool. Part of GNU binutils.
   [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [OProfile][475] - Statistical profiler for Linux. Can profile any code
   (including the kernel!) with low overhead and without recompilation. [``GPL-2.0-only``][GPL-2.0-only]
@@ -718,7 +721,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 
 ## Source Code Collections ##
 
-Collections of small source code. If you want something big and integrated, check 
+Collections of small source code. If you want something big and integrated, check
 the Frameworks section.
 
 * [CCAN][103] - Modelled after Perl's CPAN, this is a big collection of code
@@ -730,7 +733,7 @@ the Frameworks section.
   open source.
 * [libdjb][292] - Collection of libraries doing various things. (Apparently)
   public domain.
-* [mmx][448] - Collection of single-header libraries. Various licenses, all 
+* [mmx][448] - Collection of single-header libraries. Various licenses, all
   open source.
 * [par][456] - Bunch of single-file libraries. [``MIT``][MIT]
 * [Snippets][220] - (Hopefully) useful code snippets and header-only libraries.
@@ -755,18 +758,19 @@ Implementations of the (standard-mandated) C standard library.
 * [PDCLib][447] - The Public Domain C Library. Implements most of C99 and some of
   C11. [``CC0-1.0``][CC0-1.0]
 * [uClibc-ng][12] - Small C library for developing embedded systems.
-  [``LGPL-2.1-or-later``][LGPL-2.1-or-later] 
+  [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 
 ## String Manipulation ##
 
-* [bstrlib][116] - The Better String Library. [``BSD-3-Clause``][BSD-3-Clause] or [``GPL-2.0-only``][GPL-2.0-only]
+* [bstrlib][116] - The Better String Library. [``BSD-3-Clause``][BSD-3-Clause] or
+  [``GPL-2.0-only``][GPL-2.0-only]
 * [ICU][67] - International Components for Unicode; a library for Unicode
   support. [``ICU``][ICU]
 * [levenstein.c][360] - [Levenstein distance][334] algorithm implementation.
   [``MIT``][MIT].
 * [libunistring][173] - Library for manipulating Unicode
   strings. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [libgiconv][163] - Text conversion library. [``LGPL-2.1-only``][LGPL-2.1-only] 
+* [libgiconv][163] - Text conversion library. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [librope][479] - UTF-8 rope ('heavy' string) library. [``MIT``][MIT]
 * [SDS][29] - Simple Dynamic Strings; a library for handling strings in a
   simpler way, but one that is compatible with normal C string
@@ -806,18 +810,18 @@ extensions that make it more pleasant. These are labelled by editor.
 * [CEDET][250] - Collection of Emacs Development Environment Tools; designed to
   provide IDE-like features to Emacs. Built-in.
   [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Flycheck][149] - Modern syntax checking for Emacs. For C, it can use either 
+* [Flycheck][149] - Modern syntax checking for Emacs. For C, it can use either
   GCC or Clang as a back-end. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Neomake][441] - Async :make and linting framework for Neovim/Vim. [``MIT``][MIT]
 * [Syntastic][186] - Syntax checking and linting for Vim. [``WTFPL``][WTFPL]
-* [YASnippet][150] - Emacs code template system, with C templates for common 
+* [YASnippet][150] - Emacs code template system, with C templates for common
   snippets. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [YouCompleteMe][151] - Code completion engine for Vim.
   [``GPL-3.0-only``][GPL-3.0-only]
 
 ## Tools ##
 
-Useful programs to help you write and debug C code which are *not* editors, 
+Useful programs to help you write and debug C code which are *not* editors,
 libraries or compilers.
 
 * [Artistic Style][314] - Fast and small automatic source code formatter that
@@ -856,7 +860,8 @@ libraries or compilers.
   software verifier. Currently only works with programs compiled using Clang.
   [``MIT``][MIT]
 * [unifdef][290] - Removes #ifdef and #if directives with their delimited text
-  without touching any other part of the file. [``BSD-3-Clause``][BSD-3-Clause] or [``BSD-2-Clause``][BSD-2-Clause]
+  without touching any other part of the file. [``BSD-3-Clause``][BSD-3-Clause] or
+  [``BSD-2-Clause``][BSD-2-Clause]
 
 ## Utilities ##
 
@@ -872,7 +877,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Caffeine][496] - Library for building daemons and services for Linux and
   FreeBSD systems. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [CException][298] - Implementation of exceptions. [``MIT``][MIT]
-* [CommonMark][223] - Implementation of the CommonMark spec. 
+* [CommonMark][223] - Implementation of the CommonMark spec.
   [Variety of licenses, all open source][224].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
   for 'freezing' a running application to disk, then restoring
@@ -951,7 +956,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   engine for simple mathematical expressions. [``BSD-3-Clause``][BSD-3-Clause]
 * [Tulip Indicators][449] - Library of functions for technical analysis of
   financial data. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-* [whereami][167] - One-file library for locating the current executable on the 
+* [whereami][167] - One-file library for locating the current executable on the
   file system. [``WTFPL``][WTFPL]
 * [XLSX I/O][344] - Cross-platform library for reading and writing .xlsx
   files. [``MIT``][MIT]
@@ -961,7 +966,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 
 ## Web Frameworks ##
 
-Comprehensive and integrated solutions for building the next brilliant web 
+Comprehensive and integrated solutions for building the next brilliant web
 application in C.
 
 * [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
@@ -974,7 +979,7 @@ application in C.
 
 ## Windows Environments ##
 
-Technologies designed to bring Windows into the 21st century with respect to 
+Technologies designed to bring Windows into the 21st century with respect to
 support for C.
 
 * [Cygwin][253] - Designed to emulate a POSIX-compatible environment extensively
@@ -994,23 +999,23 @@ support for C.
 [AGPL-3.0-only]: https://spdx.org/licenses/AGPL-3.0-only.html
 [AGPL-3.0-or-later]: https://spdx.org/licenses/AGPL-3.0-or-later.html
 [Apache-2.0]: https://spdx.org/licenses/Apache-2.0.html
-[BSD-1-Clause]: https://spdx.org/licenses/BSD-1-Clause.html 
-[BSD-2-Clause]: https://spdx.org/licenses/BSD-2-Clause.html 
+[BSD-1-Clause]: https://spdx.org/licenses/BSD-1-Clause.html
+[BSD-2-Clause]: https://spdx.org/licenses/BSD-2-Clause.html
 [BSD-3-Clause]: https://spdx.org/licenses/BSD-3-Clause.html
 [BSD-4-Clause]: https://spdx.org/licenses/BSD-4-Clause.html
 [CC0-1.0]: https://spdx.org/licenses/CC0-1.0.html
 [curl]: https://spdx.org/licenses/curl.html
 [GPL-2.0-only]: https://spdx.org/licenses/GPL-2.0-only.html
-[GPL-2.0-or-later]: https://spdx.org/licenses/GPL-2.0-or-later.html 
-[GPL-3.0-only]: https://spdx.org/licenses/GPL-3.0-only.html 
-[GPL-3.0-or-later]: https://spdx.org/licenses/GPL-3.0-or-later.html 
+[GPL-2.0-or-later]: https://spdx.org/licenses/GPL-2.0-or-later.html
+[GPL-3.0-only]: https://spdx.org/licenses/GPL-3.0-only.html
+[GPL-3.0-or-later]: https://spdx.org/licenses/GPL-3.0-or-later.html
 [ICU]: https://spdx.org/licenses/ICU.html
 [ISC]: https://spdx.org/licenses/ISC.html
 [LGPL-2.0-or-later]: https://spdx.org/licenses/LGPL-2.0-or-later.html
 [LGPL-2.1-only]: https://spdx.org/licenses/LGPL-2.1-only.html
-[LGPL-2.1-or-later]: https://spdx.org/licenses/LGPL-2.1-or-later.html 
+[LGPL-2.1-or-later]: https://spdx.org/licenses/LGPL-2.1-or-later.html
 [LGPL-3.0-only]: https://spdx.org/licenses/LGPL-3.0-only.html
-[LGPL-3.0-or-later]: https://spdx.org/licenses/LGPL-3.0-or-later.html 
+[LGPL-3.0-or-later]: https://spdx.org/licenses/LGPL-3.0-or-later.html
 [Libpng]: https://spdx.org/licenses/Libpng.html
 [MIT]: https://spdx.org/licenses/MIT.html
 [MPL-2.0]: https://spdx.org/licenses/MPL-2.0.html
@@ -1019,13 +1024,13 @@ support for C.
 [PostgreSQL]: https://spdx.org/licenses/PostgreSQL.html
 [TCL]: https://spdx.org/licenses/TCL.html
 [Unlicense]: https://spdx.org/licenses/Unlicense.html
-[WTFPL]: https://spdx.org/licenses/WTFPL.html 
+[WTFPL]: https://spdx.org/licenses/WTFPL.html
 [X11]: https://spdx.org/licenses/X11.html
-[Zlib]: https://spdx.org/licenses/Zlib.html 
+[Zlib]: https://spdx.org/licenses/Zlib.html
 
 [4]: https://github.com/aosp-mirror/platform_bionic
 
-
+[6]: https://port70.net/~nsz/c/c89/c89-draft.html
 [7]: https://en.wikipedia.org/wiki/The_C_Programming_Language
 
 [9]: https://www.fefe.de/dietlibc/
@@ -1155,7 +1160,7 @@ support for C.
 [133]: http://www.netlib.org/lapack/lapacke.html
 [134]: http://www.netlib.org/lapack/
 [135]: https://github.com/martinh/libconfuse
-[136]: https://github.com/obgm/libcoap 
+[136]: https://github.com/obgm/libcoap
 [137]: http://math-atlas.sourceforge.net/
 [138]: http://lionet.info/asn1c/compiler.html
 [139]: https://github.com/nanomsg/nanomsg
@@ -1203,7 +1208,7 @@ support for C.
 [181]: http://careferencemanual.com/
 [182]: http://shop.oreilly.com/product/9780596004361.do
 [183]: http://shop.oreilly.com/product/0636920026136.do
-[184]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html 
+[184]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
 [185]: http://www.planetpdf.com/codecuts/pdfs/ooc.pdf
 [186]: https://github.com/vim-syntastic/syntastic
 [187]: https://github.com/dvidelabs/flatcc
@@ -1214,7 +1219,7 @@ support for C.
 [192]: http://libjpeg.sourceforge.net/
 [193]: https://libjpeg-turbo.virtualgl.org/
 [194]: https://www.libjpeg-turbo.org/About/License
-[195]: http://libccv.org/ 
+[195]: http://libccv.org/
 [196]: https://github.com/google/gumbo-parser
 [197]: https://github.com/joyent/http-parser
 [198]: https://github.com/jedisct1/libsodium
@@ -1239,7 +1244,7 @@ support for C.
 [217]: http://svn.msweet.org/mxml/trunk/COPYING
 [218]: http://ezxml.sourceforge.net/
 [219]: https://github.com/blunderer/libroxml
-[220]: https://github.com/DanielGibson/Snippets/ 
+[220]: https://github.com/DanielGibson/Snippets/
 [221]: https://github.com/id-Software/Quake-2
 [222]: https://github.com/dinhviethoa/libetpan
 [223]: https://github.com/commonmark/CommonMark
@@ -1266,7 +1271,7 @@ support for C.
 [244]: https://github.com/pmwkaa/sophia
 [245]: http://www.greenend.org.uk/rjk/tech/inline.html
 [246]: https://github.com/Snaipe/Criterion
-[247]: http://www.open-std.org/JTC1/SC22/WG14/
+[247]: https://port70.net/~nsz/c/c11/n1570.html
 [248]: https://en.wikibooks.org/wiki/C_Programming
 [249]: http://www.codeblocks.org/
 [250]: http://cedet.sourceforge.net/
@@ -1277,7 +1282,7 @@ support for C.
 [255]: http://flintlib.org/
 [256]: http://pari.math.u-bordeaux.fr/
 [257]: http://blog.noctua-software.com/c-tricks.html
-
+[258]: https://port70.net/~nsz/c/c99/n1256.html
 [259]: https://spdx.org/licenses/EPL-1.0.html
 [260]: https://netbeans.org/
 [261]: https://github.com/JonnyWhatshisface/libwebsock
@@ -1353,7 +1358,7 @@ support for C.
 [332]: https://github.com/nfc-tools/libnfc
 [333]: http://www.andre-simon.de/index.php
 [334]: https://en.wikipedia.org/wiki/Levenshtein_distance
-[335]: https://spdx.org/licenses/GPL-1.0.html 
+[335]: https://spdx.org/licenses/GPL-1.0.html
 [336]: https://github.com/ndevilla/iniparser
 [337]: https://github.com/jtsiomb/kdtree
 [338]: http://www.oberhumer.com/opensource/lzo/
@@ -1368,7 +1373,7 @@ support for C.
 [347]: https://cdecl.org/
 [348]: https://github.com/mpv-player/mpv
 [349]: https://www.recurse.com/blog/5-learning-c-with-gdb
-[350]: https://github.com/P-p-H-d/mlib 
+[350]: https://github.com/P-p-H-d/mlib
 [351]: https://www.gnu.org/software/gperf/
 [352]: http://libmill.org/
 [353]: https://talloc.samba.org/talloc/doc/html/index.html
@@ -1393,17 +1398,17 @@ support for C.
 [372]: https://github.com/andrewrk/libsoundio
 [373]: http://libcox.symisc.net/
 [374]: http://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
-[375]: https://perf.wiki.kernel.org/index.php/Main_Page 
+[375]: https://perf.wiki.kernel.org/index.php/Main_Page
 [376]: https://github.com/timonwong/libao
 [377]: https://github.com/camgunz/cmp
 [378]: https://github.com/ludocode/mpack
 [379]: https://msgpack.org/
 [380]: http://www.oracle.com/us/products/database/berkeley-db/overview/index.html
-[381]: https://spdx.org/licenses/AGPL-1.0.html 
+[381]: https://spdx.org/licenses/AGPL-1.0.html
 [382]: http://www.libpng.org/
 [383]: https://github.com/wooorm/stmr.c
 [384]: http://cairographics.org/
-[385]: https://spdx.org/licenses/MPL-1.1.html 
+[385]: https://spdx.org/licenses/MPL-1.1.html
 [386]: https://github.com/evolutional/utest
 [387]: http://sourceforge.net/projects/libcsv/
 [388]: https://github.com/blynn/dlx
@@ -1430,7 +1435,7 @@ support for C.
 [409]: https://github.com/blunderer/libroxml
 [410]: https://www.spinellis.gr/cscout/
 [411]: http://liblfds.org/
-[412]: https://codeplea.com/genann 
+[412]: https://codeplea.com/genann
 [413]: https://github.com/cofyc/argparse
 [414]: https://github.com/anholt/libepoxy
 [415]: https://kore.io/
@@ -1460,7 +1465,7 @@ support for C.
 [440]: https://criu.org/Main_Page
 [441]: https://github.com/neomake/neomake
 [442]: http://libdill.org/
-[443]: https://nullprogram.com/blog/2015/02/17 
+[443]: https://nullprogram.com/blog/2015/02/17
 [444]: https://github.com/ands/lightmapper
 [445]: http://blosc.org/pages/blosc-in-depth
 [446]: https://github.com/Kazade/kazmath
@@ -1542,7 +1547,7 @@ support for C.
 [522]: https://github.com/Cyan4973/xxHash
 [523]: https://github.com/aubio/aubio
 [524]: https://github.com/groonga/groonga
-[525]: https://100.github.io/Cranium/ 
+[525]: https://100.github.io/Cranium/
 [526]: http://www.saphir2.com/sphlib/
 [527]: https://github.com/google/highwayhash
 [528]: http://nullprogram.com/blog/2017/08/20/
