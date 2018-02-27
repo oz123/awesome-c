@@ -922,6 +922,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   [``BSD-2-Clause``][BSD-2-Clause]
 * [libcsv][387] - Simple, streaming CSV parser.
   [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [libelf][310] - Simple library for parsing ELF files. [``MIT``][MIT].
 * [libffi][128] - Portable foreign-function interface library. [``MIT``][MIT]
 * [libgeohash][499] - Pure C implementation of the Geohash algorithm.
   [``BSD-3-Clause``][BSD-3-Clause]
@@ -1342,7 +1343,7 @@ support for C.
 [307]: https://www.gnu.org/software/complexity/
 [308]: http://www.eso.org/sci/software/cpl/
 [309]: http://www.cprover.org/cbmc/
-
+[310]: https://github.com/0intro/libelf
 [311]: https://fakenmc.github.io/cf4ocl/
 [312]: https://www.khronos.org/opencl/
 [313]: http://c2html.sourceforge.net/whatisc2html.html
