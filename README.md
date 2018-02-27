@@ -253,6 +253,8 @@ Databases and data stores with C APIs.
   header-only. [``BSD-2-Clause``][BSD-2-Clause]
 * [offbrand][498] - Collection of generic, reference-counted data structures.
   [``MIT``][MIT]
+* [libsrt][305] - Soft and hard real-time data structures.
+  [``BSD-3-Clause``][BSD-3-Clause].
 * [PackedArray][241] - Random-access array of tightly-packed unsigned integers of
   any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [uthash][273] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
@@ -1331,7 +1333,7 @@ support for C.
 [302]: https://github.com/silentbicycle/theft
 [303]: https://github.com/slembcke/Chipmunk2D
 [304]: https://biicode.github.io/biicode/
-
+[305]: https://faragon.github.io/libsrt.html
 
 [307]: https://www.gnu.org/software/complexity/
 [308]: http://www.eso.org/sci/software/cpl/
