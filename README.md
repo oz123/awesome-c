@@ -391,7 +391,8 @@ Graphical User Interface section has what you need.
 * [libgd][402] - Library for the dynamic creation of images by programmers. [``MIT``][MIT]
 * [libimagequant][300] - Small, portable library for high-quality conversion of
   RGBA images to 8-bit indexed colour images. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [libjpeg-turbo][193] - Faster library for reading and writing JPEG files. [Various licences][194].
+* [libjpeg-turbo][193] - Faster library for reading and writing JPEG files.
+  [Various licences][194].
 * [libpng][382] - Official PNG reference library. [``Libpng``][Libpng]
 * [libRSVG][417] - Library to render SVG files using Cairo. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libsixel][17] - Library implementing the SIXEL protocol, allowing beautiful
