@@ -112,6 +112,9 @@ Compilers, as well as compiler- and compilation-related tooling.
 
 * [blosc][445] - Extremely fast, multi-threaded, meta-compressor library.
   Various licenses, all open source.
+* [Brotli][25] - General-purpose lossless compression algorithm library. Has
+  speeds comparable to DEFLATE, but much higher compression ratios.
+  [``MIT``][MIT].
 * [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
   implementation). [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [CRoaring][481] - C implementation of [Roaring bitmaps][482]. [``Apache-2.0``][Apache-2.0]
@@ -1037,7 +1040,7 @@ support for C.
 [10]: https://www.musl-libc.org/
 
 [12]: https://uclibc-ng.org/
-[13]: https://opensource.org/osd 
+[13]: https://opensource.org/osd
 [14]: https://www.gtk.org/
 
 [16]: http://webserver2.tecgraf.puc-rio.br/iup/
@@ -1048,7 +1051,7 @@ support for C.
 [21]: http://xforms-toolkit.org/
 [22]: https://www.sqlite.org/
 [23]: https://unqlite.org/
-
+[24]: https://github.com/google/brotli
 
 [26]: https://github.com/clibs/clib
 [27]: https://github.com/clibs/clib/wiki/Packages
@@ -1113,7 +1116,7 @@ support for C.
 [86]: https://www.gnu.org/software/binutils/
 [87]: https://www.gnu.org/software/gdb/
 [88]: https://github.com/fragglet/c-algorithms
-[89]: http://expat.sourceforge.net/ 
+[89]: http://expat.sourceforge.net/
 [90]: https://www.sfml-dev.org/download/csfml/
 [91]: https://www.sfml-dev.org/index.php
 [92]: http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip
