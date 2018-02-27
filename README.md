@@ -564,6 +564,8 @@ to do with managing C memory lives here.
   [``BSD-2-Clause``][BSD-2-Clause]
 * [Lockless Memory Allocator][451] - Efficient memory allocator.
   [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [rpmalloc][126] - Thread-caching, fast memory allocator, naturally aligned on
+  32-byte boundaries. Public domain.
 * [talloc][353] - Hierarchical, reference-counted memory pool system with
   destructors. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [tlsf][531] - Two-Level Segregated Fit allocator; a general-purpose, dynamic
@@ -1155,7 +1157,7 @@ support for C.
 [123]: https://gstreamer.freedesktop.org/
 [124]: http://libevent.org/
 [125]: https://www.hboehm.info/gc/
-
+[126]: https://github.com/rampantpixels/rpmalloc
 
 [128]: https://github.com/atgreen/libffi
 [129]: https://github.com/protobuf-c/protobuf-c
