@@ -790,10 +790,10 @@ Implementations of the (standard-mandated) C standard library.
 
 ## Testing ##
 
-* [ciut][5] - A modern minimal hassle unit test framework. [``MIT``][MIT]
 * [CHEAT][84] - Very simple unit testing framework.
   [``BSD-2-Clause``][BSD-2-Clause]
 * [Check][59] - Unit testing framework. [``LGPL-2.1-only``][LGPL-2.1-only]
+* [ciut][5] - A modern minimal hassle unit test framework. [``MIT``][MIT]
 * [clar][470] - Clear and simple unit testing framework. [``MIT``][MIT]
 * [CMock][297] - Mock/stub generator. [``MIT``][MIT]
 * [cmocka][141] - Unit testing framework with support for mock objects. [``Apache-2.0``][Apache-2.0]
