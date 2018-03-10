@@ -1152,7 +1152,7 @@ support for C.
 [117]: http://coap.technology/
 [118]: http://facil.io/
 [119]: https://www.enlightenment.org?p=about%252Fefl
-[120]: http://zserge.com/jsmn.html
+[120]: https://zserge.com/jsmn.html
 [121]: https://www.postgresql.org/
 
 [123]: https://gstreamer.freedesktop.org/
@@ -1405,7 +1405,7 @@ support for C.
 [371]: https://github.com/zturtleman/spearmint
 [372]: https://github.com/andrewrk/libsoundio
 [373]: http://libcox.symisc.net/
-[374]: http://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
+[374]: https://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
 [375]: https://perf.wiki.kernel.org/index.php/Main_Page
 [376]: https://github.com/timonwong/libao
 [377]: https://github.com/camgunz/cmp
