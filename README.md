@@ -790,6 +790,7 @@ Implementations of the (standard-mandated) C standard library.
 
 ## Testing ##
 
+* [ciut][5] - A modern minimal hassle unit test framework. [``MIT``][MIT]
 * [CHEAT][84] - Very simple unit testing framework.
   [``BSD-2-Clause``][BSD-2-Clause]
 * [Check][59] - Unit testing framework. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -1039,7 +1040,7 @@ support for C.
 [Zlib]: https://spdx.org/licenses/Zlib.html
 
 [4]: https://github.com/aosp-mirror/platform_bionic
-
+[5]: https://github.com/yhfudev/cpp-ci-unit-test.git
 [6]: https://port70.net/~nsz/c/c89/c89-draft.html
 [7]: https://en.wikipedia.org/wiki/The_C_Programming_Language
 
