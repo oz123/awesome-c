@@ -474,10 +474,12 @@ to C programming.
 * [C Programming Wikibook][248]
 * [Introduction to \`fun' C][279]
 * [Learning C with GDB][349]
+* [memcpy vs memmove][205]
 * [POSIX Threads Programming tutorial][263] (a little dated, but most of it is
   still valid and useful)
 * [The GNU C Programming Tutorial][212] (online PDF)
 * [Templating in C][267]
+* [What a C programmer should know about memory][227]
 
 ### Intermediate resources online ###
 
@@ -1237,7 +1239,7 @@ support for C.
 [202]: https://jvns.ca/blog/2014/12/14/fun-with-threads/
 [203]: https://github.com/silentbicycle/socket99
 [204]: http://danluu.com/malloc-tutorial/
-
+[205]: https://web.archive.org/web/20170620131430/https://www.tedunangst.com/flak/post/memcpy-vs-memmove
 [206]: https://blogs.oracle.com/ksplice/8-gdb-tricks-you-should-know
 [207]: https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
 [208]: http://nethack4.org/blog/building-c.html
@@ -1259,7 +1261,7 @@ support for C.
 [224]: https://github.com/jgm/CommonMark/blob/master/LICENSE
 [225]: https://github.com/id-Software/Quake
 [226]: https://github.com/zeromq/czmq
-
+[227]: http://marek.vavrusa.com/memory/
 [228]: https://github.com/alanxz/rabbitmq-c
 [229]: http://www.rabbitmq.com/
 [230]: https://github.com/madler/zlib
