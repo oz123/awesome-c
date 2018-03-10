@@ -112,7 +112,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 
 * [blosc][445] - Extremely fast, multi-threaded, meta-compressor library.
   Various licenses, all open source.
-* [Brotli][25] - General-purpose lossless compression algorithm library. Has
+* [Brotli][24] - General-purpose lossless compression algorithm library. Has
   speeds comparable to DEFLATE, but much higher compression ratios.
   [``MIT``][MIT].
 * [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
