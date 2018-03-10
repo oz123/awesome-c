@@ -489,11 +489,9 @@ to C programming.
 * [How to write portable C without complicating your build][490]
 * [Introduction to OpenMP][207] (video)
 * [OpenMP tutorial][264] (for the OpenMP3 standard)
-* [memcpy vs memmove][205]
 * [MPI tutorial][265]
 * [Scalable C - Writing Large-Scale Distributed C][391]
 * [Some unknown features or tricks in C language][374]
-* [What a C programmer should know about memory][271]
 * [What every C programmer should know about undefined behaviour][275]
 
 ### Advanced resources online ###
@@ -1239,7 +1237,7 @@ support for C.
 [202]: https://jvns.ca/blog/2014/12/14/fun-with-threads/
 [203]: https://github.com/silentbicycle/socket99
 [204]: http://danluu.com/malloc-tutorial/
-[205]: https://www.tedunangst.com/flak/post/memcpy-vs-memmove
+
 [206]: https://blogs.oracle.com/ksplice/8-gdb-tricks-you-should-know
 [207]: https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
 [208]: http://nethack4.org/blog/building-c.html
@@ -1305,7 +1303,7 @@ support for C.
 [268]: http://lipforge.ens-lyon.fr/www/crlibm/index.html
 [269]: https://logological.org/gpp
 [270]: https://github.com/docopt/docopt.c
-[271]: http://marek.vavrusa.com/c/memory/2015/02/20/memory/
+
 [272]: https://kukuruku.co/hub/programming/i-do-not-know-c
 [273]: http://troydhanson.github.io/uthash/
 [274]: https://github.com/jibsen/parg
