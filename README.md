@@ -943,7 +943,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libucl][239] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
 * [libuv][56] - Cross-platform asynchronous I/O. [``MIT``][MIT]
 * [libvldmail][3] - Your friendly email validation library. No external
-  dependencies (not even regexps). [``WTFPL``][WTFPL] 
+  dependencies (not even regexps). [``WTFPL``][WTFPL]
 * [libYAML][341] - YAML 1.1 parser and emitter. [``MIT``][MIT]
 * [libxo][407] - Allows an application to generate plain text, XML, JSON and
   HTML output using a common set of function calls. The application decides at
