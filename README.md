@@ -942,6 +942,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   and many proprietary protocols. [``BSD-2-Clause``][BSD-2-Clause]
 * [libucl][239] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
 * [libuv][56] - Cross-platform asynchronous I/O. [``MIT``][MIT]
+* [libvldmail][3] - Your friendly email validation library. No external
+  dependencies (not even regexps). [``WTFPL``][WTFPL] 
 * [libYAML][341] - YAML 1.1 parser and emitter. [``MIT``][MIT]
 * [libxo][407] - Allows an application to generate plain text, XML, JSON and
   HTML output using a common set of function calls. The application decides at
@@ -1039,6 +1041,7 @@ support for C.
 [X11]: https://spdx.org/licenses/X11.html
 [Zlib]: https://spdx.org/licenses/Zlib.html
 
+[3]: https://github.com/dertuxmalwieder/libvldmail
 [4]: https://github.com/aosp-mirror/platform_bionic
 [5]: https://github.com/yhfudev/cpp-ci-unit-test.git
 [6]: https://port70.net/~nsz/c/c89/c89-draft.html
