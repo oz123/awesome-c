@@ -149,7 +149,9 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [zip][520] - Really really small zip archive processing library.
   [``Unlicense``][Unlicense]
 * [Zlib][230] - Massively spiffy yet delicately unobtrusive compression
-  library. [``BSD-3-Clause``][BSD-3-Clause``]
+  library. [``BSD-3-Clause``][BSD-3-Clause]
+* [zlib-ng][1] - Zlib replacement with optimizations for 'next-generation'
+  systems. [``BSD-3-Clause``][BSD-3-Caluse]
 * [Zstandard][510] - Fast, lossless compression algorithm, targeting real-time
   compression scenarios at zlib-level or better compression ratios.
   [``BSD-3-Clause``][BSD-3-Clause]
@@ -1043,6 +1045,7 @@ support for C.
 [X11]: https://spdx.org/licenses/X11.html
 [Zlib]: https://spdx.org/licenses/Zlib.html
 
+[1]: https://github.com/Dead2/zlib-ng
 [2]: https://github.com/Cyan4973/FiniteStateEntropy
 [3]: https://github.com/dertuxmalwieder/libvldmail
 [4]: https://github.com/aosp-mirror/platform_bionic
