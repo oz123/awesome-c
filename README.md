@@ -118,6 +118,8 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
   implementation). [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [CRoaring][481] - C implementation of [Roaring bitmaps][482]. [``Apache-2.0``][Apache-2.0]
+* [FiniteStateEntropy][2] - Two highly-efficient compression codecs optimized
+  for modern CPUs. [``BSD-2-Clause``][BSD-2-Clause]
 * [DENSITY][506] - Super-fast compression library. [``BSD-3-Clause``][BSD-3-Clause]
 * [heatshrink][514] - Data compression/decompression library for embedded and
   real-time systems. [``ISC``][ISC]
@@ -1041,6 +1043,7 @@ support for C.
 [X11]: https://spdx.org/licenses/X11.html
 [Zlib]: https://spdx.org/licenses/Zlib.html
 
+[2]: https://github.com/Cyan4973/FiniteStateEntropy
 [3]: https://github.com/dertuxmalwieder/libvldmail
 [4]: https://github.com/aosp-mirror/platform_bionic
 [5]: https://github.com/yhfudev/cpp-ci-unit-test.git
