@@ -174,6 +174,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [liburcu][474] - Data synchronization library, which scales linearly with the
   number of cores. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [mill][352] - Go-style concurrency. [``MIT``][MIT]
+* [OCL-MLA][312] - OpenCL Mid-Level Abstractions. [``BSD-3-Clause``][BSD-3-Clause]
 * [OpenMP][37] - Set of pragmas designed to allow for easy parallelization of
   code. Standard (licensing not applicable).
 * [OpenMPI][284] - Message passing interface implementation. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1351,8 +1352,8 @@ support for C.
 [308]: http://www.eso.org/sci/software/cpl/
 [309]: http://www.cprover.org/cbmc/
 [310]: https://github.com/0intro/libelf
-[311]: https://fakenmc.github.io/cf4ocl/
 
+[312]: http://tuxfan.github.io/ocl-mla/ 
 [313]: http://c2html.sourceforge.net/whatisc2html.html
 [314]: http://astyle.sourceforge.net/
 [315]: https://www.gnu.org/software/indent/
