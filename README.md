@@ -468,6 +468,7 @@ to C programming.
 * [Draft C11 standard][247]
 * [Finding the best 64-bit simulation PRNG][529]
 * [SEI CERT C Coding Standard][266]
+* [Programming Community Curated Resources for learning C][537]
 
 ### Beginner resources online ###
 
@@ -1578,3 +1579,4 @@ support for C.
 [534]: https://github.com/ferreiradaselva/mathc
 [535]: https://github.com/ferreiradaselva/uastar
 [536]: https://github.com/lieff/minimp3
+[537]: https://hackr.io/tutorials/learn-c
