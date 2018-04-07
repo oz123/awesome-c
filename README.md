@@ -945,6 +945,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   with exchanges, dark pools and other trading venues. Supports FIX, FIX/FAST
   and many proprietary protocols. [``BSD-2-Clause``][BSD-2-Clause]
 * [libucl][239] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
+* [libusb][306] - Provides generic access to USB devices.
+  [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libuv][56] - Cross-platform asynchronous I/O. [``MIT``][MIT]
 * [libvldmail][3] - Your friendly email validation library. No external
   dependencies (not even regexps). [``WTFPL``][WTFPL]
@@ -1349,7 +1351,7 @@ support for C.
 [303]: https://github.com/slembcke/Chipmunk2D
 [304]: https://biicode.github.io/biicode/
 [305]: https://faragon.github.io/libsrt.html
-
+[306]: http://libusb.info/
 [307]: https://www.gnu.org/software/complexity/
 [308]: http://www.eso.org/sci/software/cpl/
 [309]: http://www.cprover.org/cbmc/
