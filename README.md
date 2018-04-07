@@ -161,9 +161,6 @@ Compilers, as well as compiler- and compilation-related tooling.
 
 * [cchan][243] - Small library for channel constructs for inter-thread
   communication. Public domain.
-* [cf4ocl][311] - The C Framework for OpenCL; a cross-platform object-oriented
-  framework for developing and benchmarking [OpenCL][312] projects.
-  [``LGPL-3.0-only``][LGPL-3.0-only]
 * [checkedthreads][465] - No race condition goes unnoticed! A simple library for
   parallelism, with built-in checking for race conditions. [``BSD-2-Clause``][BSD-2-Clause]
 * [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and
@@ -178,6 +175,8 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [liburcu][474] - Data synchronization library, which scales linearly with the
   number of cores. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [mill][352] - Go-style concurrency. [``MIT``][MIT]
+* [oclkit][311] - Two-file OpenCL wrapper. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [OCL-MLA][312] - OpenCL Mid-Level Abstractions. [``BSD-3-Clause``][BSD-3-Clause]
 * [OpenMP][37] - Set of pragmas designed to allow for easy parallelization of
   code. Standard (licensing not applicable).
 * [OpenMPI][284] - Message passing interface implementation. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1357,8 +1356,8 @@ support for C.
 [308]: http://www.eso.org/sci/software/cpl/
 [309]: http://www.cprover.org/cbmc/
 [310]: https://github.com/0intro/libelf
-[311]: https://fakenmc.github.io/cf4ocl/
-[312]: https://www.khronos.org/opencl/
+[311]: https://github.com/matze/oclkit
+[312]: http://tuxfan.github.io/ocl-mla/ 
 [313]: http://c2html.sourceforge.net/whatisc2html.html
 [314]: http://astyle.sourceforge.net/
 [315]: https://www.gnu.org/software/indent/
