@@ -608,6 +608,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   and utilities. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [gumbo-parser][196] - HTML5 parsing library in C99.
   [``Apache-2.0``][Apache-2.0]
+* [H20][127] - A new-generation HTTP server. [``MIT``][MIT]
 * [http-parser][197] - HTTP request/response parser. [``MIT``][MIT]
 * [ldns][339] - Library to simplify DNS programming.
   [``BSD-3-Clause``][BSD-3-Clause]
@@ -1173,7 +1174,7 @@ support for C.
 [124]: http://libevent.org/
 [125]: https://www.hboehm.info/gc/
 [126]: https://github.com/rampantpixels/rpmalloc
-
+[127]: https://h2o.examp1e.net/
 [128]: https://github.com/atgreen/libffi
 [129]: https://github.com/protobuf-c/protobuf-c
 [130]: https://github.com/jmckaskill/c-capnproto
