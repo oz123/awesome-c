@@ -89,6 +89,7 @@ Tools that automate the building and testing of projects in C.
   software project and uses it to generate project files for Visual Studio and
   GNU Make. Other targets are also being worked on. [``BSD-3-Clause``][BSD-3-Clause]
 * [SCons][521] - Software construction tool using Python. [``MIT``][MIT]
+* [xmake][271] - Cross-platform build utility. [``Apache-2.0``][Apache-2.0]
 * [zproject][420] - Project generator and build system support tool. [``MPL-2.0``][MPL-2.0]
 
 ## Compilers ##
@@ -1317,7 +1318,7 @@ support for C.
 [268]: http://lipforge.ens-lyon.fr/www/crlibm/index.html
 [269]: https://logological.org/gpp
 [270]: https://github.com/docopt/docopt.c
-
+[271]: http://xmake.io/
 [272]: https://kukuruku.co/hub/programming/i-do-not-know-c
 [273]: http://troydhanson.github.io/uthash/
 [274]: https://github.com/jibsen/parg
