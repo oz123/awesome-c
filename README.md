@@ -775,8 +775,7 @@ Implementations of the (standard-mandated) C standard library.
 
 ## String Manipulation ##
 
-* [bstrlib][116] - The Better String Library. [``BSD-3-Clause``][BSD-3-Clause] or
-  [``GPL-2.0-only``][GPL-2.0-only]
+* [bstring][116] - The Better String Library. [``BSD-3-Clause``][BSD-3-Clause]
 * [ICU][67] - International Components for Unicode; a library for Unicode
   support. [``ICU``][ICU]
 * [levenstein.c][360] - [Levenstein distance][334] algorithm implementation.
@@ -1163,7 +1162,7 @@ support for C.
 [113]: https://github.com/RhysU/c99sh
 [114]: https://github.com/nothings/stb
 [115]: https://tinycthread.github.io/
-[116]: http://bstring.sourceforge.net/
+[116]: http://mike.steinert.ca/bstring/
 [117]: http://coap.technology/
 [118]: http://facil.io/
 [119]: https://www.enlightenment.org?p=about%252Fefl
