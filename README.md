@@ -1252,7 +1252,7 @@ support for C.
 [203]: https://github.com/silentbicycle/socket99
 [204]: http://danluu.com/malloc-tutorial/
 [205]: https://web.archive.org/web/20170620131430/https://www.tedunangst.com/flak/post/memcpy-vs-memmove
-[206]: https://blogs.oracle.com/ksplice/8-gdb-tricks-you-should-know
+[206]: https://blogs.oracle.com/linux/8-gdb-tricks-you-should-know
 [207]: https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
 [208]: http://nethack4.org/blog/building-c.html
 [209]: https://github.com/riolet/WAFer
