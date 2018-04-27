@@ -652,7 +652,9 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [ATLAS][137] - Automatically Tuned Linear Algebra Software. [``BSD-3-Clause``][BSD-3-Clause]
 * [clBLAS][439] - BLAS functions written in OpenCL. [``Apache-2.0``][Apache-2.0]
 * [Cuba][316] - Library for multidimensional numerical integration. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized
+* [fft-c][537] - The Best-performance Fourier Transform from fftpack;
+wrapped in a user-friendly format
+* [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized[``MIT``][ MIT]
   fast Fourier transform routine. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [FLINT][255] - Fast Library for Number Theory; a library supporting arithmetic
   with numbers, polynomials, power series and matrices, among
@@ -1581,3 +1583,4 @@ support for C.
 [534]: https://github.com/ferreiradaselva/mathc
 [535]: https://github.com/ferreiradaselva/uastar
 [536]: https://github.com/lieff/minimp3
+[537]: https://github.com/adis300/fft-c
