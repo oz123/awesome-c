@@ -653,8 +653,8 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [clBLAS][439] - BLAS functions written in OpenCL. [``Apache-2.0``][Apache-2.0]
 * [Cuba][316] - Library for multidimensional numerical integration. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [fft-c][537] - The Best-performance Fourier Transform from fftpack;
-wrapped in a user-friendly format
-* [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized[``MIT``][ MIT]
+wrapped in a user-friendly format [``MIT``][ MIT]
+* [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized
   fast Fourier transform routine. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [FLINT][255] - Fast Library for Number Theory; a library supporting arithmetic
   with numbers, polynomials, power series and matrices, among
