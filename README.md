@@ -259,6 +259,8 @@ Databases and data stores with C APIs.
   [``MIT``][MIT]
 * [libsrt][305] - Soft and hard real-time data structures.
   [``BSD-3-Clause``][BSD-3-Clause].
+* [list.h][538] - Implementations for singly-linked and doubly-linked list functions.
+  [``GPL-3.0-only``][GPL-3.0-only]
 * [PackedArray][241] - Random-access array of tightly-packed unsigned integers of
   any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [uthash][273] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
@@ -1582,3 +1584,4 @@ support for C.
 [535]: https://github.com/ferreiradaselva/uastar
 [536]: https://github.com/lieff/minimp3
 [537]: https://github.com/adis300/fft-c
+[538]: https://github.com/nbulischeck/list.h
