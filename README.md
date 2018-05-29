@@ -894,7 +894,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [CException][298] - Implementation of exceptions. [``MIT``][MIT]
 * [CommonMark][223] - Implementation of the CommonMark spec.
   [Variety of licenses, all open source][224].
-* [cpu\_features][317] - Get CPU features at runtime. [``Apache-2.0``][Apache-2.0].
+* [cpu\_features][319] - Get CPU features at runtime. [``Apache-2.0``][Apache-2.0].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
   for 'freezing' a running application to disk, then restoring
   it. [``GPL-2.0-only``][GPL-2.0-only] or [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -1366,7 +1366,7 @@ support for C.
 [316]: http://www.feynarts.de/cuba/
 [317]: http://www.gedanken.org.uk/software/cxref/
 [318]: http://www.stack.nl/~dimitri/doxygen/index.html
-[317]: https://github.com/google/cpu_features
+[319]: https://github.com/google/cpu_features
 [320]: https://www.gnu.org/software/ddd/ddd.html
 [321]: http://docutils.sourceforge.net/
 [322]: https://hplgit.github.io/doconce/doc/web/index.html
