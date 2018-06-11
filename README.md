@@ -37,6 +37,7 @@ CONTRIBUTING.md first.
   * [Beginner resources online](#beginner-resources-online)
   * [Intermediate resources online](#intermediate-resources-online)
   * [Advanced resources online](#advanced-resources-online)
+  
   * [Online self-study courses](#online-self-study-courses)
   * [Reference books](#reference-books)
   * [Beginner books](#beginner-books)
@@ -1261,7 +1262,7 @@ support for C.
 [210]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153
 [211]: http://cppinstitute.com/study-resources
 [212]: http://www.crasseux.com/books/ctut.pdf
-[213]: http://home.netcom.com/~tjensen/ptr/pointers.htm
+[213]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
 [214]: https://github.com/adamierymenko/huffandpuff
 [215]: https://sourceforge.net/projects/vtd-xml/
 [216]: https://michaelrsweet.github.io?Z3
