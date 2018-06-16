@@ -1168,7 +1168,7 @@ support for C.
 [116]: http://mike.steinert.ca/bstring/
 [117]: http://coap.technology/
 [118]: http://facil.io/
-[119]: https://www.enlightenment.org?p=about%252Fefl
+[119]: https://www.enlightenment.org
 [120]: https://zserge.com/jsmn.html
 [121]: https://www.postgresql.org/
 
@@ -1191,7 +1191,7 @@ support for C.
 [139]: https://github.com/nanomsg/nanomsg
 [140]: http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c
 [141]: https://cmocka.org/
-[142]: https://www.gnupg.org/related_software/libgcrypt/
+[142]: https://gnupg.org/related_software/libgcrypt
 [143]: https://github.com/libressl-portable/
 [144]: http://software.schmorp.de/pkg/libev.html
 [145]: https://google.github.io/flatbuffers/
