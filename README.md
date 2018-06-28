@@ -1108,7 +1108,7 @@ support for C.
 [56]: http://libuv.org
 [57]: https://www.gnu.org/software/libc/
 [58]: https://github.com/silentbicycle/greatest
-[59]: http://check.sourceforge.net/
+[59]: https://libcheck.github.io/check
 [60]: https://lloyd.github.io/yajl/
 
 [62]: http://xmlsoft.org/
