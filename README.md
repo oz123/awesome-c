@@ -1440,7 +1440,7 @@ support for C.
 [389]: https://en.wikipedia.org/wiki/Knuth's_Algorithm_X
 [390]: https://github.com/sharow/libconcurrent
 [391]: https://hintjens.gitbooks.io/scalable-c/content/index.html
-[392]: https://github.com/nemequ/munit/
+[392]: https://nemequ.github.io/munit
 [393]: https://github.com/quixdb/squash
 [394]: https://github.com/codeplea/minctest
 [395]: https://github.com/codeplea/tinyexpr
