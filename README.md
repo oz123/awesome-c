@@ -84,7 +84,6 @@ Tools that automate the building and testing of projects in C.
   software. [``BSD-3-Clause``][BSD-3-Clause]
 * [GNU Make][324] - Tool which controls the generation of executables and other
   non-source files of a program. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Libtool][172] - Generic library support script. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Meson][368] - Extremely fast, user-friendly build system. Based on Ninja. [``Apache-2.0``][Apache-2.0]
 * [Premake][435] - Command-line utility which reads a scripted definition of a
   software project and uses it to generate project files for Visual Studio and
@@ -1221,7 +1220,7 @@ support for C.
 [169]: http://mihl.sourceforge.net/
 [170]: https://www.coralbits.com/libonion/
 [171]: https://cesanta.com
-[172]: https://gnu.org/software/libtool/
+
 [173]: https://gnu.org/software/libunistring/
 [174]: https://gnu.org/software/libxmi/
 [175]: http://www.multiprecision.org/index.php?prog=mpc&page=home
