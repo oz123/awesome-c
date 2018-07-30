@@ -356,6 +356,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [CSFML][90] - Binding for [SFML][91]. [``Zlib``][Zlib]
 * [Darkplaces][369] - Modified version of the Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
 * [Epoxy][414] - Library for handling OpenGL function pointer management. [``MIT``][MIT]
+* [Freecell Solver][539] - Set of libraries and command-line programs for automatically solving FreeCell and some similar variants of card Solitaire. [``MIT``][MIT]
 * [FreeGLUT][99] - Alternative to the OpenGL Utility Toolkit. Allows the
   creation and management of windows with OpenGL contexts. [``X11``][X11]
 * [GLFW][98] - Multi-platform library for creating windows with OpenGL
@@ -1585,3 +1586,4 @@ support for C.
 [536]: https://github.com/lieff/minimp3
 [537]: https://github.com/adis300/fft-c
 [538]: https://github.com/nbulischeck/list.h
+[539]: https://github.com/shlomif/fc-solve
