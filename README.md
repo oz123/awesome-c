@@ -165,6 +165,7 @@ Compilers, as well as compiler- and compilation-related tooling.
   parallelism, with built-in checking for race conditions. [``BSD-2-Clause``][BSD-2-Clause]
 * [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and
   non-blocking data structures. [``BSD-2-Clause``][BSD-2-Clause]
+* [FCFS RWLock][540] - First-come first-served Readers/Writers lock for POSIX threads. [``CC0-1.0``][CC0-1.0]
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for
   C11. [``BSD-3-Clause``][BSD-3-Clause]
 * [libdill][442] - Library which makes structured concurrent programming
@@ -1587,3 +1588,4 @@ support for C.
 [537]: https://github.com/adis300/fft-c
 [538]: https://github.com/nbulischeck/list.h
 [539]: https://github.com/shlomif/fc-solve
+[540]: http://www.shlomifish.org/rwlock/
