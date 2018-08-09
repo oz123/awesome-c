@@ -266,6 +266,7 @@ Databases and data stores with C APIs.
   any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [uthash][273] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
 * [vector.h][152] - Header library for typed lists. [``MIT``][MIT]
+* [libds](https://github.com/recp/ds) - Common Data Structures and Algorithms. [MIT](https://github.com/recp/ds/blob/master/LICENSE)
 
 ## Debugging ##
 
@@ -384,6 +385,7 @@ Engines, libraries and other helpful things specifically for making games.
   all open source.
 * [Spearmint][371] - Engine designed for FPS games. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [uastar][535] - Minimal A\* implementation. [``ZLib``][Zlib]
+* [cglm](https://github.com/recp/cglm) - 📽 Optimized OpenGL/Graphics Math (glm) for C. [MIT](https://github.com/recp/cglm/blob/master/LICENSE)
 
 ## Graphics ##
 
@@ -986,6 +988,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [zlog][437] - Reliable, pure C logging library.
   [``LGPL-2.1-only``][LGPL-2.1-only]
 * [zproto][421] - Protocol framework for ZeroMQ. [``MIT``][MIT]
+* [tm](https://github.com/recp/tm) - ⏱ Timer and Timeline Utils for C. [MIT](https://github.com/recp/tm/blob/master/LICENSE)
 
 ## Web Frameworks ##
 
