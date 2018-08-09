@@ -643,7 +643,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [oSip][179] - SIP implementation without additional
   dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [socket99][203] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
-* [tcpSocket] [541] - Client-Server TCP sockets for file transfer [``GPL-3.0-only``][GPL-3.0-only]
+* [tcpSocket][541] - Client-Server TCP sockets for file transfer [``GPL-3.0-only``][GPL-3.0-only]
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
 * [Wslay][460] - WebSocket library. Implements version 13 of the WebSocket
   protocol, as described in RFC 6455. [``MIT``][MIT]
