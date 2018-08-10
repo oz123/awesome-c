@@ -252,7 +252,7 @@ Databases and data stores with C APIs.
 * [kdtree][337] - Simple library for working with KD-trees. [``BSD-3-Clause``][BSD-3-Clause]
 * [libavl][156] - Library containing a range of self-balancing binary
   trees. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [libds](https://github.com/recp/ds) - Common Data Structures and Algorithms. [``MIT``][MIT]
+* [ds][541] - Common Data Structures and Algorithms. [``MIT``][MIT]
 * [liblfds][411] - Portable lock-free data structure library. Public domain
   (more exactly, whatever license you want).
 * [M\*LIB][350] - Library for generic, but typesafe C containers. Implemented as
@@ -353,7 +353,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 * [Allegro][48] - Cross-platform, video game development and multimedia
   library. [``Zlib``][Zlib]
-* [cglm](https://github.com/recp/cglm) - 📽 Optimized OpenGL/Graphics Math (glm) for C. [``MIT``][MIT]
+* [cglm][542] - 📽 Optimized OpenGL/Graphics Math (glm) for C. [``MIT``][MIT]
 * [Chipmunk2D][303] - Fast and lightweight 2D game physics library. [``MIT``][MIT]
 * [Corange][101] - Game engine in pure C. [``BSD-2-Clause``][BSD-2-Clause]
 * [CSFML][90] - Binding for [SFML][91]. [``Zlib``][Zlib]
@@ -979,7 +979,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [termbox][396] - Library for writing text-based interfaces. [``MIT``][MIT]
 * [tinyexpr][395] - Tiny recursive-descent parser, compiler and evaluation
   engine for simple mathematical expressions. [``BSD-3-Clause``][BSD-3-Clause]
-* [tm](https://github.com/recp/tm) - ⏱ Timer and Timeline Utils for C. [``MIT``][MIT]
+* [tm][543] - ⏱ Timer and Timeline Utils for C. [``MIT``][MIT]
 * [Tulip Indicators][449] - Library of functions for technical analysis of
   financial data. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [whereami][167] - One-file library for locating the current executable on the
@@ -1592,3 +1592,6 @@ support for C.
 [538]: https://github.com/nbulischeck/list.h
 [539]: https://github.com/shlomif/fc-solve
 [540]: http://www.shlomifish.org/rwlock/
+[541]: https://github.com/recp/ds
+[542]: https://github.com/recp/cglm
+[543]: https://github.com/recp/tm
