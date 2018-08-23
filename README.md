@@ -995,6 +995,9 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 Comprehensive and integrated solutions for building the next brilliant web
 application in C.
 
+* [Cloudgizer][544] - Cloudgizer is a tool for building web applications as
+  Apache modules, with emphasis on performance, small-footprint, and more
+  productive and safer programming in C. [``Apache-2.0``][Apache-2.0]
 * [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
   Websocket server, and also supports custom protocols. [``MIT``][MIT]
 * [KLone][423] - Fully-featured, multi-platform, web application development
@@ -1595,3 +1598,4 @@ support for C.
 [541]: https://github.com/recp/ds
 [542]: https://github.com/recp/cglm
 [543]: https://github.com/recp/tm
+[544]: https://zigguro.org/cloudgizer/
