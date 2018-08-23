@@ -634,6 +634,8 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [libquickmail][399] - Library intended to give developers a way to send
   email from their applications. Supports multiple To/Cc/Bcc recipients and
   attachments without size limits. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [libsagui][172] - Library for cross-platform HTTP servers.
+  [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [LibVNCServer][464] - Cross-platform libraries to implement VNC server and/or
   client functionality. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [libwebsock][261] - Easy-to-use and powerful web socket library.
@@ -1228,7 +1230,7 @@ support for C.
 [169]: http://mihl.sourceforge.net/
 [170]: https://www.coralbits.com/libonion/
 [171]: https://cesanta.com
-
+[172]: https://risoflora.github.io/libsagui/
 [173]: https://gnu.org/software/libunistring/
 [174]: https://gnu.org/software/libxmi/
 [175]: http://www.multiprecision.org/index.php?prog=mpc&page=home
