@@ -1602,4 +1602,4 @@ support for C.
 [543]: https://github.com/recp/tm
 
 [545]: https://zigguro.org/cloudgizer/
-[546]: https://github.com/ScientificC/cmathl/
+[546]: https://scientificc.github.io/cmathl/
