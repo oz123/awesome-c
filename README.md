@@ -1095,7 +1095,7 @@ support for C.
 [34]: http://re2c.org/index.html
 [35]: http://shop.oreilly.com/product/0636920033677.do
 [36]: http://shop.oreilly.com/product/0636920028000.do
-[37]: http://www.openmp.org/
+[37]: https://www.openmp.org/
 [38]: https://clang.llvm.org/
 
 [40]: https://gcc.gnu.org/
@@ -1106,7 +1106,7 @@ support for C.
 [45]: https://www.codelite.org/
 [46]: https://www.gnu.org/software/gnulib/
 [47]: https://www.gnu.org/software/gsl/
-[48]: http://liballeg.org
+[48]: https://liballeg.org
 
 [50]: https://www.libsdl.org/
 [51]: https://redis.io/
@@ -1127,7 +1127,7 @@ support for C.
 
 [67]: http://site.icu-project.org/
 
-[69]: http://lodev.org/lodepng/
+[69]: https://lodev.org/lodepng/
 [70]: http://www.fftw.org/
 [71]: https://sourceforge.net/projects/kissfft/
 [72]: https://bitbucket.org/MDukhan/yeppp
@@ -1167,7 +1167,7 @@ support for C.
 
 [107]: https://ioquake3.org
 [108]: https://github.com/RandyGaul/tinyheaders
-[109]: https://github.com/libgit2/libgit2/blob/master/COPYING
+
 [110]: https://www.openssl.org/
 [111]: https://www.openssl.org/source/license.html
 [112]: http://www.gnutls.org/
@@ -1304,7 +1304,7 @@ support for C.
 [243]: http://repo.hu/projects/cchan/
 [244]: http://sophia.systems
 [245]: http://www.greenend.org.uk/rjk/tech/inline.html
-[246]: http://criterion.readthedocs.io/en/master
+[246]: https://criterion.readthedocs.io/en/master
 [247]: https://port70.net/~nsz/c/c11/n1570.html
 [248]: https://en.wikibooks.org/wiki/C_Programming
 [249]: http://www.codeblocks.org/
@@ -1366,7 +1366,7 @@ support for C.
 [306]: https://libusb.info/
 [307]: https://www.gnu.org/software/complexity/
 [308]: http://www.eso.org/sci/software/cpl/
-[309]: http://www.cprover.org/cbmc/
+[309]: https://www.cprover.org/cbmc/
 [310]: https://github.com/0intro/libelf
 [311]: https://github.com/matze/oclkit
 [312]: http://tuxfan.github.io/ocl-mla/ 
@@ -1388,7 +1388,7 @@ support for C.
 [328]: https://glade.gnome.org/
 [329]: https://cmake.org/
 [330]: https://www.gnu.org/software/global/
-[331]: http://gmsl.sourceforge.net/
+[331]: https://gmsl.sourceforge.net/
 [332]: https://github.com/nfc-tools/libnfc
 [333]: http://www.andre-simon.de/index.php
 [334]: https://en.wikipedia.org/wiki/Levenshtein_distance
@@ -1398,7 +1398,7 @@ support for C.
 [338]: http://www.oberhumer.com/opensource/lzo/
 [339]: http://www.nlnetlabs.nl/projects/ldns/index.html
 [340]: https://wiki.gnome.org/Projects/LibRsvg
-[341]: http://www.pyyaml.org/wiki/LibYAML
+[341]: https://www.pyyaml.org/wiki/LibYAML
 [342]: https://www.xiph.org/ao/
 [343]: https://www.chiark.greenend.org.uk/~sgtatham/mp/
 [344]: https://brechtsanders.github.io/xlsxio/
@@ -1572,7 +1572,7 @@ support for C.
 [513]: http://paulbatchelor.github.io/proj/soundpipe.html
 [514]: https://github.com/atomicobject/heatshrink
 [515]: http://ebassi.github.io/graphene/
-[516]: http://www.raylib.com
+[516]: https://www.raylib.com
 [517]: https://github.com/kkos/oniguruma
 [518]: https://github.com/k-takata/Onigmo
 [519]: https://github.com/lemire/simdcomp
