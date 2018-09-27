@@ -1577,7 +1577,7 @@ support for C.
 [518]: https://github.com/k-takata/Onigmo
 [519]: https://github.com/lemire/simdcomp
 [520]: https://github.com/kuba--/zip
-[521]: http://www.scons.org/
+[521]: https://www.scons.org/
 [522]: http://cyan4973.github.io/xxHash
 [523]: https://github.com/aubio/aubio
 [524]: https://github.com/groonga/groonga
