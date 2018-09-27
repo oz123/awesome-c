@@ -658,7 +658,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [ATLAS][137] - Automatically Tuned Linear Algebra Software. [``BSD-3-Clause``][BSD-3-Clause]
 * [clBLAS][439] - BLAS functions written in OpenCL. [``Apache-2.0``][Apache-2.0]
-* [cmathl][546] - A pure-C math library with a great variety of mathematical functions with CMake build support. Seeks to be close to C89/C90 compliant for portability. [``MIT``][MIT]
+* [cmathl][546] - Math library with a great variety of mathematical functions with CMake build support. Seeks to be close to C89/C90 compliant for portability. [``MIT``][MIT]
 * [Cuba][316] - Library for multidimensional numerical integration. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [fft-c][537] - A high-performance Fourier Transform from netlib's fftpack; wrapped in a user-friendly format [``MIT``][ MIT]
 * [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [``GPL-2.0-or-later``][GPL-2.0-or-later]
@@ -1264,7 +1264,7 @@ support for C.
 [203]: https://github.com/silentbicycle/socket99
 [204]: http://danluu.com/malloc-tutorial/
 [205]: https://web.archive.org/web/20170620131430/https://www.tedunangst.com/flak/post/memcpy-vs-memmove
-[206]: https://blogs.oracle.com/linux/8-gdb-tricks-you-should-know
+[206]: https://blogs.oracle.com/linux/8-gdb-tricks-you-should-know-v2
 [207]: https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG
 [208]: http://nethack4.org/blog/building-c.html
 [209]: https://github.com/riolet/WAFer
