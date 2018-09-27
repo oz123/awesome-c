@@ -1329,7 +1329,7 @@ support for C.
 [268]: http://lipforge.ens-lyon.fr/www/crlibm/index.html
 [269]: https://logological.org/gpp
 [270]: https://github.com/docopt/docopt.c
-[271]: http://xmake.io/
+[271]: https://xmake.io/
 [272]: https://kukuruku.co/hub/programming/i-do-not-know-c
 [273]: http://troydhanson.github.io/uthash/
 [274]: https://github.com/jibsen/parg
