@@ -37,7 +37,6 @@ CONTRIBUTING.md first.
   * [Beginner resources online](#beginner-resources-online)
   * [Intermediate resources online](#intermediate-resources-online)
   * [Advanced resources online](#advanced-resources-online)
-  
   * [Online self-study courses](#online-self-study-courses)
   * [Reference books](#reference-books)
   * [Beginner books](#beginner-books)
@@ -119,7 +118,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [clzip][432] - C version of the high-quality data compressor [Lzip][433] (LZMA
   implementation). [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [CRoaring][481] - C implementation of [Roaring bitmaps][482]. [``Apache-2.0``][Apache-2.0]
-* [FiniteStateEntropy][2] - Two highly-efficient compression codecs optimized
+* [FiniteStateEntropy][2] - Two highly efficient compression codecs optimized
   for modern CPUs. [``BSD-2-Clause``][BSD-2-Clause]
 * [DENSITY][506] - Super-fast compression library. [``BSD-3-Clause``][BSD-3-Clause]
 * [heatshrink][514] - Data compression/decompression library for embedded and
@@ -129,12 +128,12 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [huffandpuff][214] - Minimal Huffman encoder and decoder. Public domain.
 * [libbzip2][427] - Patent-free, high-quality data compression
   library. [``BSD-4-Clause``][BSD-4-Clause]
-* [Lizard][489] - Formerly LZ5; an efficient compressor with very fast
+* [Lizard][489] - Formerly LZ5; an efficient compressor with fast
   decompression. Achieves compression ratios comparable with zip and zlib at
   decompression speeds of 1000MB/s and faster. [``BSD-2-Clause``][BSD-2-Clause]
 * [lz4][508] - Library for an extremely fast compression algorithm.
   [``BSD-2-Clause``][BSD-2-Clause]
-* [lzo][338] - Very fast data compression library.
+* [lzo][338] - Fast data compression library.
   [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [shoco][363] - Compressor for small text strings. [``MIT``][MIT]
 * [SIMDComp][519] - Simple library for compressing lists of integers using
@@ -161,7 +160,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 
 * [cchan][243] - Small library for channel constructs for inter-thread
   communication. Public domain.
-* [checkedthreads][465] - No race condition goes unnoticed! A simple library for
+* [checkedthreads][465] - A simple library for
   parallelism, with built-in checking for race conditions. [``BSD-2-Clause``][BSD-2-Clause]
 * [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and
   non-blocking data structures. [``BSD-2-Clause``][BSD-2-Clause]
@@ -218,7 +217,7 @@ protocols.
   simple, fast and with security as a priority. [``Apache-2.0``][Apache-2.0]
 * [sphlib][526] - Set of implementations of various hash functions, including
   several cryptographic ones. [``MIT``][MIT]
-* [trezor-crypto][485] - Heavily-optimized crypto algorithms for embedded
+* [trezor-crypto][485] - Heavily optimized crypto algorithms for embedded
   devices. [``MIT``][MIT]
 
 ## Database ##
@@ -253,6 +252,8 @@ Databases and data stores with C APIs.
 * [libavl][156] - Library containing a range of self-balancing binary
   trees. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [ds][541] - Common Data Structures and Algorithms. [``MIT``][MIT]
+* [igraph][545] - A graph processing library.
+  [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [liblfds][411] - Portable lock-free data structure library. Public domain
   (more exactly, whatever license you want).
 * [M\*LIB][350] - Library for generic, but typesafe C containers. Implemented as
@@ -261,9 +262,9 @@ Databases and data stores with C APIs.
   [``MIT``][MIT]
 * [libsrt][305] - Soft and hard real-time data structures.
   [``BSD-3-Clause``][BSD-3-Clause].
-* [list.h][538] - Implementations for singly-linked and doubly-linked list functions.
+* [list.h][538] - Implementations for singly linked and doubly linked list functions.
   [``GPL-3.0-only``][GPL-3.0-only]
-* [PackedArray][241] - Random-access array of tightly-packed unsigned integers of
+* [PackedArray][241] - Random-access array of tightly packed unsigned integers of
   any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [uthash][273] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
 * [vector.h][152] - Header library for typed lists. [``MIT``][MIT]
@@ -302,7 +303,7 @@ work.
 
 * [Cxref][317] - Generates documentation in either LaTeX, HTML, RTF or
   SGML. [``GPL-2.0-only``][GPL-2.0-only]
-* [DocOnce][322] - Modestly-tagged markup language that can be used to
+* [DocOnce][322] - Modestly tagged markup language that can be used to
   generate a range of formats. [``BSD-3-Clause``][BSD-3-Clause]
 * [Doxygen][318] - De-facto standard tool for generating documentation from
   annotated sources. Can generate a large range of formats. [``GPL-2.0-only``][GPL-2.0-only]
@@ -313,10 +314,10 @@ Fancier, IDE-type editors. If you want a programmer's text editor, look
 elsewhere. Besides, whatever you use most likely supports C anyway.
 
 * [Anjuta DevStudio][42] - GNOME IDE. [``GPL-2.0-only``][GPL-2.0-only]
-* [Code::Blocks][249] - Extensible, configurable IDE supporting
+* [Code::Blocks][249] - Extendable, configurable IDE supporting
   C. [``GPL-3.0-only``][GPL-3.0-only]
 * [CodeLite][45] - Cross-platform IDE. [``GPL-2.0-only``][GPL-2.0-only]
-* [Geany][43] - Very small and fast IDE. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [Geany][43] - Small and fast IDE. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [KDevelop][44] - KDE IDE. [``GPL-2.0-only``][GPL-2.0-only]
 
 ## Frameworks ##
@@ -359,7 +360,8 @@ Engines, libraries and other helpful things specifically for making games.
 * [CSFML][90] - Binding for [SFML][91]. [``Zlib``][Zlib]
 * [Darkplaces][369] - Modified version of the Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
 * [Epoxy][414] - Library for handling OpenGL function pointer management. [``MIT``][MIT]
-* [Freecell Solver][539] - Set of libraries and command-line programs for automatically solving FreeCell and some similar variants of card Solitaire. [``MIT``][MIT]
+* [Freecell Solver][539] - Set of libraries and command-line programs for 
+  automatically solving FreeCell and some similar variants of card Solitaire. [``MIT``][MIT]
 * [FreeGLUT][99] - Alternative to the OpenGL Utility Toolkit. Allows the
   creation and management of windows with OpenGL contexts. [``X11``][X11]
 * [GLFW][98] - Multi-platform library for creating windows with OpenGL
@@ -539,7 +541,7 @@ to C programming.
 
 ### Intermediate books ###
 
-* [21st Century C][35] - Very good second programming book on C.
+* [21st Century C][35] - Good _second_ programming book on C.
 * [Understanding and Using C Pointers][36] - In-depth resource on pointers in
   C.
 * [ZeroMQ][183] - Book for using ZeroMQ with C.
@@ -560,7 +562,7 @@ Libraries specifically for lexical analysis (or lexing) and syntactic analysis
 * [hammer][356] - Parser combinators for binary formats.
   [``GPL-2.0-only``][GPL-2.0-only]
 * [mpc][238] - Parser combinator library. [``BSD-2-Clause``][BSD-2-Clause]
-* [re2c][34] - Lexer generator, producing very fast lexers, with access to its
+* [re2c][34] - Lexer generator, producing fast lexers, with access to its
   internals. Public domain.
 
 ## Memory Management ##
@@ -568,7 +570,7 @@ Libraries specifically for lexical analysis (or lexing) and syntactic analysis
 Whether a different, faster malloc or outright garbage collection, anything
 to do with managing C memory lives here.
 
-* [Boehm GC][125] - Garbage collection for C? Don't mind if I do! Various
+* [Boehm GC][125] - Garbage collection for C. Various
   licenses, all open source.
 * [jemalloc][293] - Malloc implementation that emphasizes avoidance of
   fragmentation and scalable concurrency support.
@@ -661,7 +663,8 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [cmathl][546] - Math library with a great variety of mathematical functions with CMake build support. Seeks to be close to C89/C90 compliant for portability. [``MIT``][MIT]
 * [Cuba][316] - Library for multidimensional numerical integration. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [fft-c][537] - A high-performance Fourier Transform from netlib's fftpack; wrapped in a user-friendly format [``MIT``][ MIT]
-* [FFTW][70] - The Fastest Fourier Transform in the West; a highly-optimized fast Fourier transform routine. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [FFTW][70] - The Fastest Fourier Transform in the West; a highly optimized 
+  fast Fourier transform routine. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [FLINT][255] - Fast Library for Number Theory; a library supporting arithmetic
   with numbers, polynomials, power series and matrices, among
   others. [``GPL-2.0-or-later``][GPL-2.0-or-later]
@@ -677,7 +680,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   interval arithmetic. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [GSL][47] - The GNU Scientific Library; a sophisticated numerical
   library. [``GPL-3.0-only``][GPL-3.0-only].
-* [KISS FFT][71] - Very simple fast Fourier transform library. [``BSD-3-Clause``][BSD-3-Clause]
+* [KISS FFT][71] - Simple fast Fourier transform library. [``BSD-3-Clause``][BSD-3-Clause]
 * [LAPACKE][133] - Interface to [LAPACK][134]. [``BSD-3-Clause``][BSD-3-Clause]
 * [LibTomMath][461] - Portable, number-theoretic, multiple-precision integer
   library. Supports algebra, digit manipulation, modular reductions, and various
@@ -692,9 +695,9 @@ comprehensive and high-level, you may want the Web Frameworks section.
   solving large-scale convex cone problems. [``MIT``][MIT]
 * [SLEPc][283] - Library for the solution of large, sparse eigenvalue
   problems on parallel computers. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [TomsFastMath][462] - Set of assembly-level-optimized maths operations,
+* [TomsFastMath][462] - Set of optimized maths operations (in assembly),
   suitable for cryptographic use. Public domain.
-* [Yeppp!][72] - Very fast, SIMD-optimized mathematical library. [``BSD-3-Clause``][BSD-3-Clause]
+* [Yeppp!][72] - Fast, SIMD-optimized mathematical library. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Profiling ##
 
@@ -715,7 +718,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   incorporating many security-oriented fixes. [``BSD-2-Clause``][BSD-2-Clause]
 * [PCRE][83] - Implementation of regexes identical to that of
   Perl 5. [``BSD-3-Clause``][BSD-3-Clause]
-* [SLRE][80] - Super Light Regular Expression library; a very small
+* [SLRE][80] - Super Light Regular Expression library; a small
   implementation of a subset of Perl regex syntax.
   [``GPL-2.0-only``][GPL-2.0-only]
 * [TRE][82] - POSIX-compliant, feature-full regex library. [``BSD-2-Clause``][BSD-2-Clause]
@@ -757,7 +760,7 @@ the Frameworks section.
 * [mmx][448] - Collection of single-header libraries. Various licenses, all
   open source.
 * [par][456] - Bunch of single-file libraries. [``MIT``][MIT]
-* [Snippets][220] - (Hopefully) useful code snippets and header-only libraries.
+* [Snippets][220] - Useful code snippets and header-only libraries.
   Public domain.
 * [stb][114] - Range of single-file libraries. Public domain.
 * [tinyheaders][108] - Collection of header-only libraries, primarily oriented
@@ -802,8 +805,7 @@ Implementations of the (standard-mandated) C standard library.
 
 ## Testing ##
 
-* [CHEAT][84] - Very simple unit testing framework.
-  [``BSD-2-Clause``][BSD-2-Clause]
+* [CHEAT][84] - Simple unit testing framework. [``BSD-2-Clause``][BSD-2-Clause]
 * [Check][59] - Unit testing framework. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [ciut][5] - A modern minimal hassle unit test framework. [``MIT``][MIT]
 * [clar][470] - Clear and simple unit testing framework. [``MIT``][MIT]
@@ -917,7 +919,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   strings. Outputs C code. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [GNU Libffcall][162] - Collection of libraries for building foreign function
   interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Hoedown][405] - Fully-standards-compliant, extension-supporting, UTF-8
+* [Hoedown][405] - Fully standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [``MIT``][MIT]
 * [iniparser][336] - Parser for .ini files. [``MIT``][MIT]
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
@@ -1002,7 +1004,7 @@ application in C.
   productive and safer programming in C. [``Apache-2.0``][Apache-2.0]
 * [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
   Websocket server, and also supports custom protocols. [``MIT``][MIT]
-* [KLone][423] - Fully-featured, multi-platform, web application development
+* [KLone][423] - Fully featured, multi-platform, web application development
   framework, targeted especially at embedded systems and
   appliances. [``BSD-3-Clause``][BSD-3-Clause]
 * [Kore][415] - Easy-to-use web application framework for writing scalable
@@ -1600,6 +1602,6 @@ support for C.
 [541]: https://github.com/recp/ds
 [542]: https://github.com/recp/cglm
 [543]: https://github.com/recp/tm
-
+[544]: http://igraph.org/
 [545]: https://zigguro.org/cloudgizer/
 [546]: https://scientificc.github.io/cmathl/
