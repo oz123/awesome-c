@@ -1446,7 +1446,7 @@ support for C.
 [384]: http://cairographics.org/
 [385]: https://spdx.org/licenses/MPL-1.1.html
 [386]: https://github.com/evolutional/utest
-[387]: http://sourceforge.net/projects/libcsv/
+[387]: https://github.com/rgamble/libcsv
 [388]: https://github.com/blynn/dlx
 [389]: https://en.wikipedia.org/wiki/Knuth's_Algorithm_X
 [390]: https://github.com/sharow/libconcurrent
