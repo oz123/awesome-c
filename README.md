@@ -53,6 +53,13 @@ CONTRIBUTING.md first.
 * [Source Code Collections](#source-code-collections)
 * [Standard Libraries](#standard-libraries)
 * [String Manipulation](#string-manipulation)
+* [Structured File Processing](#structured-file-processing)
+	* [CSV](#csv)
+	* [JSON](#json)
+	* [INI](#ini)
+	* [Others](#others)
+	* [XML](#xml) 	
+	* [YAML](#yaml)
 * [Testing](#testing)
 * [Text Editor Extensions](#text-editor-extensions)
 * [Tools](#tools)
@@ -450,18 +457,6 @@ can be found in the Crypto section.
 * [xxHash][522] - Extremely fast hashing algorithm. Comes in 32 and 64-bit
   varieties. [``BSD-2-Clause``][BSD-2-Clause]
 
-## JSON ##
-
-* [Jansson][53] - Library for encoding, decoding and manipulating JSON. [``MIT``][MIT]
-* [jfes][488] - JSON For Embedded Systems; simple JSON engine without any
-  dependencies. [``MIT``][MIT]
-* [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
-* [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
-* [WJElement][77] - Advanced JSON manipulation library, with support for JSON
-  Schema. [``LGPL-2.0-or-later``][LGPL-2.0-or-later] or
-  [``LGPL-2.1-or-later``][LGPL-2.1-or-later] or [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-* [YAJL][60] - Fast streaming JSON parser library. [``ISC``][ISC]
-
 ## Learning, Reference and Tutorials ##
 
 Resources for learning C programming in general, or something useful relating
@@ -803,6 +798,49 @@ Implementations of the (standard-mandated) C standard library.
   functions. Public domain.
 * [utf8proc][469] - Library for processing UTF-8 data. [``MIT``][MIT]
 
+## Structured File Processing ##
+
+This includes libraries for things like XML, JSON, CSV, and other similar formats.
+
+### CSV ###
+
+* [libcsv][387] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+
+### JSON ###
+
+* [Jansson][53] - Library for encoding, decoding and manipulating JSON. [``MIT``][MIT]
+* [jfes][488] - JSON For Embedded Systems; simple JSON engine without any
+  dependencies. [``MIT``][MIT]
+* [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
+* [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
+* [WJElement][77] - Advanced JSON manipulation library, with support for JSON
+  Schema. [``LGPL-2.0-or-later``][LGPL-2.0-or-later] or
+  [``LGPL-2.1-or-later``][LGPL-2.1-or-later] or [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [YAJL][60] - Fast streaming JSON parser library. [``ISC``][ISC]
+
+### INI ###
+
+* [iniparser][336] - Parser for .ini files. [``MIT``][MIT]
+* [libconfini][122] - Yet another INI parser. [``GPL-3.0-only``][GPL-3.0-only]
+
+### Others ###
+
+* [libbson][235] - BSON utility library. [``Apache-2.0``][Apache-2.0]
+* [libconfuse][135] - Small configuration file parser library. [``ISC``][ISC]
+* [libelf][310] - Simple library for parsing ELF files. [``MIT``][MIT]
+* [libucl][239] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
+* [libxo][407] - Allows an application to generate plain text, XML, JSON and
+  HTML output using a common set of function calls. The application decides at runtime what output style should be produced. [``BSD-2-Clause``][BSD-2-Clause]
+
+### XML ###
+
+* [Expat][89] - Stream-oriented XML parser. [MIT][MIT]
+* [libxml2][62] - Standards-compliant, portable XML parser. [MIT][MIT]
+
+### YAML ###
+
+* [libYAML][341] - YAML 1.1 parser and emitter. [``MIT``][MIT]
+
 ## Testing ##
 
 * [CHEAT][84] - Simple unit testing framework. [``BSD-2-Clause``][BSD-2-Clause]
@@ -921,23 +959,17 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Hoedown][405] - Fully standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [``MIT``][MIT]
-* [iniparser][336] - Parser for .ini files. [``MIT``][MIT]
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
   updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
-* [libbson][235] - BSON utility library. [``Apache-2.0``][Apache-2.0]
 * [libCello][96] - Library introducing higher-level programming to
   C. [``BSD-3-Clause``][BSD-3-Clause]
 * [libcmark][436] - Library for parsing the CommonMark dialect of
   Markdown. [``BSD-2-Clause``][BSD-2-Clause]
 * [libcoap][136] - Implementation of the [Constrained Application Protocol][117].
   [``GPL-2.0-or-later``][GPL-2.0-or-later] or [``BSD-2-Clause``][BSD-2-Clause]
-* [libconfuse][135] - Small configuration file parser library. [``ISC``][ISC]
 * [libcox][373] - Library which permits cross-platform system calls and
   standard utilities across different operating systems.
   [``BSD-2-Clause``][BSD-2-Clause]
-* [libcsv][387] - Simple, streaming CSV parser.
-  [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [libelf][310] - Simple library for parsing ELF files. [``MIT``][MIT].
 * [libffi][128] - Portable foreign-function interface library. [``MIT``][MIT]
 * [libgeohash][499] - Pure C implementation of the Geohash algorithm.
   [``BSD-3-Clause``][BSD-3-Clause]
@@ -954,16 +986,11 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libtrading][455] - Implementation of network protocols for communicating
   with exchanges, dark pools and other trading venues. Supports FIX, FIX/FAST
   and many proprietary protocols. [``BSD-2-Clause``][BSD-2-Clause]
-* [libucl][239] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
 * [libusb][306] - Provides generic access to USB devices.
   [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libuv][56] - Cross-platform asynchronous I/O. [``MIT``][MIT]
 * [libvldmail][3] - Your friendly email validation library. No external
   dependencies (not even regexps). [``WTFPL``][WTFPL]
-* [libYAML][341] - YAML 1.1 parser and emitter. [``MIT``][MIT]
-* [libxo][407] - Allows an application to generate plain text, XML, JSON and
-  HTML output using a common set of function calls. The application decides at
-  runtime what output style should be produced. [``BSD-2-Clause``][BSD-2-Clause]
 * [linenoise][504] - Small, self-contained alternative to readline and
   libedit. [``BSD-2-Clause``][BSD-2-Clause]
 * [ncurses][178] - Coloured terminal UI library. [``MIT``][MIT]
@@ -1023,10 +1050,6 @@ support for C.
   environment on Windows, with a package manager based on Arch Linux's
   pacman. Packages have individual licenses, otherwise, as MinGW and Cygwin.
 
-## XML ##
-
-* [Expat][89] - Stream-oriented XML parser. [MIT][MIT]
-* [libxml2][62] - Standards-compliant, portable XML parser. [MIT][MIT]
 
 [AFL-2.1]: https://spdx.org/licenses/AFL-2.1.html
 [AGPL-3.0-only]: https://spdx.org/licenses/AGPL-3.0-only.html
@@ -1182,7 +1205,7 @@ support for C.
 [119]: https://www.enlightenment.org
 [120]: https://zserge.com/jsmn.html
 [121]: https://www.postgresql.org/
-
+[122]: https://madmurphy.github.io/libconfini/html/index.html
 [123]: https://gstreamer.freedesktop.org/
 [124]: http://libevent.org/
 [125]: https://www.hboehm.info/gc/
