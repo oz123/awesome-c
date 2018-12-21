@@ -721,6 +721,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [SLRE][80] - Super Light Regular Expression library; a small
   implementation of a subset of Perl regex syntax.
   [``GPL-2.0-only``][GPL-2.0-only]
+* [sregex][547] - A non-backtracking NFA/DFA-based Perl-compatible regex engine library. [```BSD-3-Clause```][BSD-3-Clause]
 * [TRE][82] - POSIX-compliant, feature-full regex library. [``BSD-2-Clause``][BSD-2-Clause]
 
 ## Serialization ##
@@ -1605,3 +1606,4 @@ support for C.
 [544]: http://igraph.org/
 [545]: https://zigguro.org/cloudgizer/
 [546]: https://scientificc.github.io/cmathl/
+[547]: https://github.com/openresty/sregex
