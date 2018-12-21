@@ -1627,5 +1627,5 @@ support for C.
 [542]: https://github.com/recp/cglm
 [543]: https://github.com/recp/tm
 [544]: http://igraph.org/
-[545]: https://zigguro.org/cloudgizer/
+[545]: https://dasoftver.bitbucket.io/cloudgizer
 [546]: https://scientificc.github.io/cmathl/
