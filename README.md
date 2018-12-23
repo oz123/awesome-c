@@ -821,6 +821,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 
 ### INI ###
 
+* [inih][547] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
 * [iniparser][336] - Parser for .ini files. [``MIT``][MIT]
 * [libconfini][122] - Yet another INI parser. [``GPL-3.0-only``][GPL-3.0-only]
 
@@ -1629,3 +1630,4 @@ support for C.
 [544]: http://igraph.org/
 [545]: https://dasoftver.bitbucket.io/cloudgizer
 [546]: https://scientificc.github.io/cmathl/
+[547]: https://github.com/benhoyt/inih
