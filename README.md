@@ -1183,7 +1183,7 @@ support for C.
 [95]: https://rr-project.org/
 [96]: http://libcello.org/
 [97]: http://nethack4.org/projects/aimake/
-[98]: http://www.glfw.org/
+[98]: https://www.glfw.org/
 [99]: http://freeglut.sourceforge.net
 
 [101]: https://github.com/orangeduck/Corange
@@ -1402,7 +1402,7 @@ support for C.
 [315]: https://www.gnu.org/software/indent/
 [316]: http://www.feynarts.de/cuba/
 [317]: http://www.gedanken.org.uk/software/cxref/
-[318]: http://www.stack.nl/~dimitri/doxygen/index.html
+[318]: http://www.doxygen.nl/ 
 [319]: https://github.com/google/cpu_features
 [320]: https://www.gnu.org/software/ddd/ddd.html
 [321]: http://docutils.sourceforge.net/
@@ -1464,7 +1464,7 @@ support for C.
 [377]: https://github.com/camgunz/cmp
 [378]: https://github.com/ludocode/mpack
 [379]: https://msgpack.org/
-[380]: http://www.oracle.com/us/products/database/berkeley-db/overview/index.html
+[380]: http://www.oracle.com/us/products/database/berkeley-db
 [381]: https://spdx.org/licenses/AGPL-1.0.html
 [382]: http://www.libpng.org/
 [383]: https://github.com/wooorm/stmr.c
@@ -1627,7 +1627,7 @@ support for C.
 [541]: https://github.com/recp/ds
 [542]: https://github.com/recp/cglm
 [543]: https://github.com/recp/tm
-[544]: http://igraph.org/
+[544]: https://igraph.org/
 [545]: https://dasoftver.bitbucket.io/cloudgizer
 [546]: https://scientificc.github.io/cmathl/
 [547]: https://github.com/benhoyt/inih
