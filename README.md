@@ -159,7 +159,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [Zlib][230] - Massively spiffy yet delicately unobtrusive compression
   library. [``BSD-3-Clause``][BSD-3-Clause]
 * [zlib-ng][1] - Zlib replacement with optimizations for 'next-generation'
-  systems. [``BSD-3-Clause``][BSD-3-Caluse]
+  systems. [``BSD-3-Clause``][BSD-3-Clause]
 * [Zstandard][510] - Fast, lossless compression algorithm, targeting real-time
   compression scenarios at zlib-level or better compression ratios.
   [``BSD-3-Clause``][BSD-3-Clause]
