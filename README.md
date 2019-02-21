@@ -639,6 +639,8 @@ comprehensive and high-level, you may want the Web Frameworks section.
   server. [``GPL-2.0-only``][GPL-2.0-only]
 * [mongoose][171] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
 * [nanomsg][139] - C-based implementation of ZeroMQ. [``MIT``][MIT]
+* [NNG][106] - nanomsg-next-generation - lightweight brokerless messaging.
+  [``MIT``][MIT] 
 * [oSip][179] - SIP implementation without additional
   dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [socket99][203] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
@@ -1190,7 +1192,7 @@ support for C.
 [103]: http://ccodearchive.net/
 [104]: http://ccodearchive.net/list.html
 [105]: https://symas.com/lightning-memory-mapped-database/
-
+[106]: https://nanomsg.github.io/nng/
 [107]: https://ioquake3.org
 [108]: https://github.com/RandyGaul/tinyheaders
 [109]: https://boyerjohn.github.io/rapidstring/index.html
