@@ -254,6 +254,8 @@ Databases and data stores with C APIs.
 ## Data Structures ##
 
 * [Collections-C][406] - Library of generic data structures. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [C-DataStructures-Library][548] - Library of generic data structures with
+  purposes of teaching. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [kdtree][337] - Simple library for working with KD-trees. [``BSD-3-Clause``][BSD-3-Clause]
 * [libavl][156] - Library containing a range of self-balancing binary
   trees. [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -1632,3 +1634,4 @@ support for C.
 [545]: https://dasoftver.bitbucket.io/cloudgizer
 [546]: https://scientificc.github.io/cmathl/
 [547]: https://github.com/benhoyt/inih
+[548]: https://github.com/LeoVen/C-DataStructures-Library
