@@ -31,7 +31,6 @@ CONTRIBUTING.md first.
 * [Graphics](#graphics)
 * [Graphical User Interface](#graphical-user-interface)
 * [Hashing](#hashing)
-* [JSON](#json)
 * [Learning, Reference and Tutorials](#learning-reference-and-tutorials)
   * [Reference resources online](#reference-resources-online)
   * [Beginner resources online](#beginner-resources-online)
@@ -66,7 +65,6 @@ CONTRIBUTING.md first.
 * [Utilities](#utilities)
 * [Web Frameworks](#web-frameworks)
 * [Windows Environments](#windows-environments)
-* [XML](#xml)
 
 ## AI ##
 
