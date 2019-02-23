@@ -400,7 +400,7 @@ Engines, libraries and other helpful things specifically for making games.
 Programmatic manipulation of graphics in C; if you want to make a GUI, the
 Graphical User Interface section has what you need.
 
-* [Cairo][384] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [MPL-1.1][385].
+* [Cairo][384] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [``MPL-1.1``][385].
 * [giflib][401] - Library for reading and writing gif images. [``MIT``][MIT]
 * [graphene][515] - Thin layer of graphical data types. [``MIT``][MIT]
 * [heman][365] - Tiny library of image utilities dealing with height maps,
