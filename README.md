@@ -156,6 +156,8 @@ Compilers, as well as compiler- and compilation-related tooling.
   [``Unlicense``][Unlicense]
 * [Zlib][230] - Massively spiffy yet delicately unobtrusive compression
   library. [``BSD-3-Clause``][BSD-3-Clause]
+* [libarchive][548] - libarchive is a portable, efficient C library that can read and write streaming archives in a variety of formats.
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [zlib-ng][1] - Zlib replacement with optimizations for 'next-generation'
   systems. [``BSD-3-Clause``][BSD-3-Clause]
 * [Zstandard][510] - Fast, lossless compression algorithm, targeting real-time
@@ -1632,3 +1634,4 @@ support for C.
 [545]: https://dasoftver.bitbucket.io/cloudgizer
 [546]: https://scientificc.github.io/cmathl/
 [547]: https://github.com/benhoyt/inih
+[548]: https://github.com/libarchive/libarchive
