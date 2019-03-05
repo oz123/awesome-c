@@ -647,6 +647,8 @@ comprehensive and high-level, you may want the Web Frameworks section.
   dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [socket99][203] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
+* [uriparser][100] - Strictly RFC 3986-compliant URI parsing and handling library.
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [Wslay][460] - WebSocket library. Implements version 13 of the WebSocket
   protocol, as described in RFC 6455. [``MIT``][MIT]
 * [zyre][419] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
@@ -1188,7 +1190,7 @@ support for C.
 [97]: http://nethack4.org/projects/aimake/
 [98]: https://www.glfw.org/
 [99]: http://freeglut.sourceforge.net
-
+[100]: https://uriparser.github.io
 [101]: https://github.com/orangeduck/Corange
 [102]: http://shop.oreilly.com/product/0636920015482.do
 [103]: http://ccodearchive.net/
