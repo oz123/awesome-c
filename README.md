@@ -354,7 +354,7 @@ Big libraries that provide data structures and other stuff you expect of a
 * [qlibc][277] - Simple and powerful library, designed as a replacement for
   GLib while focusing on being small and light. [``BSD-2-Clause``][BSD-2-Clause]
 * [TBOX][398] - Multi-platform library with a large number of
-  capabilities. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+  capabilities. [``Apache-2.0``][Apache-2.0]
 
 ## Game Programming ##
 
