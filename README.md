@@ -417,6 +417,8 @@ Graphical User Interface section has what you need.
 * [libRSVG][417] - Library to render SVG files using Cairo. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libsixel][17] - Library implementing the SIXEL protocol, allowing beautiful
   graphics in your terminal. [``MIT``][MIT]
+* [libspng][68] - A simpler interface for reading and writing PNG files.
+  [``BSD-2-Clause``][BSD-2-Clause]
 * [libvips][511] - Image processing library. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libxmi][174] - Function library for rasterizing 2D vector
   graphics. [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -1158,7 +1160,7 @@ support for C.
 [65]: https://curl.haxx.se/libcurl/
 
 [67]: http://site.icu-project.org/
-
+[68]: https://libspng.org/
 [69]: https://lodev.org/lodepng/
 [70]: http://www.fftw.org/
 [71]: https://sourceforge.net/projects/kissfft/
