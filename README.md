@@ -642,6 +642,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [lwan][199] - Experimental, scalable, high-performance HTTP
   server. [``GPL-2.0-only``][GPL-2.0-only]
 * [mongoose][171] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
+* [MQTT-C][549] - A portable MQTT C client for embedded systems and PCs alike. [``MIT``][MIT]
 * [nanomsg][139] - C-based implementation of ZeroMQ. [``MIT``][MIT]
 * [NNG][106] - nanomsg-next-generation - lightweight brokerless messaging.
   [``MIT``][MIT] 
@@ -1639,3 +1640,4 @@ support for C.
 [546]: https://scientificc.github.io/cmathl/
 [547]: https://github.com/benhoyt/inih
 [548]: https://github.com/libarchive/libarchive
+[549]: https://github.com/LiamBindle/MQTT-C
