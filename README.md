@@ -656,6 +656,12 @@ comprehensive and high-level, you may want the Web Frameworks section.
   protocol, as described in RFC 6455. [``MIT``][MIT]
 * [zyre][419] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
 
+
+## Source Code Management ##
+
+* [libgit2][550] - libgit2 is a portable, pure C implementation of the Git core methods.
+
+
 ## Numerical ##
 
 * [apophenia][188] - Library for statistical and scientific computing. [``GPL-2.0-only``][GPL-2.0-only]
@@ -1641,3 +1647,4 @@ support for C.
 [547]: https://github.com/benhoyt/inih
 [548]: https://github.com/libarchive/libarchive
 [549]: https://github.com/LiamBindle/MQTT-C
+[550]: https://libgit2.org/
