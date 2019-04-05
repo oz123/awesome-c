@@ -256,6 +256,7 @@ Databases and data stores with C APIs.
 ## Data Structures ##
 
 * [Collections-C][406] - Library of generic data structures. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [C-Macro-Collections][550] - Generate simple and generic data structures using macros. [``MIT``][MIT]
 * [kdtree][337] - Simple library for working with KD-trees. [``BSD-3-Clause``][BSD-3-Clause]
 * [libavl][156] - Library containing a range of self-balancing binary
   trees. [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -1641,3 +1642,4 @@ support for C.
 [547]: https://github.com/benhoyt/inih
 [548]: https://github.com/libarchive/libarchive
 [549]: https://github.com/LiamBindle/MQTT-C
+[550]: https://github.com/LeoVen/C-Macro-Collections
