@@ -577,6 +577,7 @@ to do with managing C memory lives here.
   [``BSD-2-Clause``][BSD-2-Clause]
 * [Lockless Memory Allocator][451] - Efficient memory allocator.
   [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [libcsptr][66] - Smart pointers for C. [``MIT``][MIT]
 * [rpmalloc][126] - Thread-caching, fast memory allocator, naturally aligned on
   32-byte boundaries. Public domain.
 * [talloc][353] - Hierarchical, reference-counted memory pool system with
@@ -1161,7 +1162,7 @@ support for C.
 [63]: https://www.ffmpeg.org/
 [64]: http://knking.com/books/c2/index.html
 [65]: https://curl.haxx.se/libcurl/
-
+[66]: https://github.com/Snaipe/libcsptr
 [67]: http://site.icu-project.org/
 [68]: https://libspng.org/
 [69]: https://lodev.org/lodepng/
