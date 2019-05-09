@@ -239,6 +239,7 @@ Databases and data stores with C APIs.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [libmongoc][233] - High-performance client library for [MongoDB][234]. [``Apache-2.0``][Apache-2.0]
 * [LMDB][105] - Ultra-fast, ultra-compact key-value embedded data store. [``OLDAP-2.8``][OLDAP-2.8]
+* [MySQL][551] - The world's most popular open source database. [``GPL-2.0-only``][GPL-2.0-only]
 * [PostgreSQL][121] - Powerful object-relational database system. [``PostgreSQL``][PostgreSQL]
 * [Redis][51] - Advanced key-value store. [``BSD-3-Clause``][BSD-3-Clause]
 * [sophia][244] - Modern, embeddable key-value database.
@@ -576,6 +577,7 @@ to do with managing C memory lives here.
   [``BSD-2-Clause``][BSD-2-Clause]
 * [Lockless Memory Allocator][451] - Efficient memory allocator.
   [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [libcsptr][66] - Smart pointers for C. [``MIT``][MIT]
 * [rpmalloc][126] - Thread-caching, fast memory allocator, naturally aligned on
   32-byte boundaries. Public domain.
 * [talloc][353] - Hierarchical, reference-counted memory pool system with
@@ -660,7 +662,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 
 ## Source Code Management ##
 
-* [libgit2][551] - libgit2 is a portable, pure C implementation of the Git core methods.
+* [libgit2][555] - libgit2 is a portable, pure C implementation of the Git core methods.
 
 
 ## Numerical ##
@@ -1166,7 +1168,7 @@ support for C.
 [63]: https://www.ffmpeg.org/
 [64]: http://knking.com/books/c2/index.html
 [65]: https://curl.haxx.se/libcurl/
-
+[66]: https://github.com/Snaipe/libcsptr
 [67]: http://site.icu-project.org/
 [68]: https://libspng.org/
 [69]: https://lodev.org/lodepng/
@@ -1649,4 +1651,5 @@ support for C.
 [548]: https://github.com/libarchive/libarchive
 [549]: https://github.com/LiamBindle/MQTT-C
 [550]: https://github.com/LeoVen/C-Macro-Collections
-[551]: https://libgit2.org/
+[551]: https://github.com/mysql/mysql-server
+[555]: https://libgit2.org/
