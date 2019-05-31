@@ -824,6 +824,8 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 * [jfes][488] - JSON For Embedded Systems; simple JSON engine without any
   dependencies. [``MIT``][MIT]
 * [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
+* [json.c][8] - Easily work with JSON in C. Comes with a reference-counted object
+  model, and aims for conformance with [RFC 7159][11]. [``MIT``][MIT]
 * [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
   Schema. [``LGPL-2.0-or-later``][LGPL-2.0-or-later] or
@@ -1106,10 +1108,10 @@ support for C.
 [5]: https://github.com/yhfudev/cpp-ci-unit-test.git
 [6]: https://port70.net/~nsz/c/c89/c89-draft.html
 [7]: https://en.wikipedia.org/wiki/The_C_Programming_Language
-
+[8]: https://github.com/json-c/json-c
 [9]: https://www.fefe.de/dietlibc/
 [10]: https://www.musl-libc.org/
-
+[11]: https://tools.ietf.org/html/rfc7159
 [12]: https://uclibc-ng.org/
 [13]: https://opensource.org/osd
 [14]: https://www.gtk.org/
