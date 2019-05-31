@@ -986,6 +986,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [libffi][128] - Portable foreign-function interface library. [``MIT``][MIT]
 * [libgeohash][499] - Pure C implementation of the Geohash algorithm.
   [``BSD-3-Clause``][BSD-3-Clause]
+* [libgit2][61] - Portable implementation of the Git core methods, provided as a
+  re-entrant linkable library. [Custom license][41].
 * [libgss][161] - Generic Security Service.
   [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libimobiledevice][354] - Cross-platform protocol library to communicate
@@ -1137,7 +1139,7 @@ support for C.
 [38]: https://clang.llvm.org/
 
 [40]: https://gcc.gnu.org/
-
+[41]: https://github.com/libgit2/libgit2/blob/master/COPYING
 [42]: http://anjuta.org/
 [43]: https://www.geany.org/
 [44]: https://www.kdevelop.org/
@@ -1157,7 +1159,7 @@ support for C.
 [58]: https://github.com/silentbicycle/greatest
 [59]: https://libcheck.github.io/check
 [60]: https://lloyd.github.io/yajl/
-
+[61]: https://libgit2.org/
 [62]: http://xmlsoft.org/
 [63]: https://www.ffmpeg.org/
 [64]: http://knking.com/books/c2/index.html
