@@ -831,6 +831,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
   Schema. [``LGPL-2.0-or-later``][LGPL-2.0-or-later] or
   [``LGPL-2.1-or-later``][LGPL-2.1-or-later] or [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [YAJL][60] - Fast streaming JSON parser library. [``ISC``][ISC]
+* [json][552] - 🔋 Very simple and very powerful JSON parser. [``MIT``][MIT]
 
 ### INI ###
 
@@ -1650,3 +1651,4 @@ support for C.
 [549]: https://github.com/LiamBindle/MQTT-C
 [550]: https://github.com/LeoVen/C-Macro-Collections
 [551]: https://github.com/mysql/mysql-server
+[552]: http://github.com/recp/json
