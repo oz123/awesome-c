@@ -827,6 +827,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 * [json.c][8] - Easily work with JSON in C. Comes with a reference-counted object
   model, and aims for conformance with [RFC 7159][11]. [``MIT``][MIT]
 * [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
+* [parson][552] - Easy to use JSON library. [``MIT``][MIT]
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
   Schema. [``LGPL-2.0-or-later``][LGPL-2.0-or-later] or
   [``LGPL-2.1-or-later``][LGPL-2.1-or-later] or [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
@@ -1650,3 +1651,4 @@ support for C.
 [549]: https://github.com/LiamBindle/MQTT-C
 [550]: https://github.com/LeoVen/C-Macro-Collections
 [551]: https://github.com/mysql/mysql-server
+[552]: https://github.com/kgabis/parson
