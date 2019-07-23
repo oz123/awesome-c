@@ -828,6 +828,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 * [json.c][8] - Easily work with JSON in C. Comes with a reference-counted object
   model, and aims for conformance with [RFC 7159][11]. [``MIT``][MIT]
 * [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
+* [parson][32] - Two-file, C89-compatible JSON parser. [``MIT``][MIT]
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
   Schema. [``LGPL-2.0-or-later``][LGPL-2.0-or-later] or
   [``LGPL-2.1-or-later``][LGPL-2.1-or-later] or [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
@@ -1133,7 +1134,7 @@ support for C.
 [29]: https://github.com/antirez/sds
 
 [31]: http://facebook.github.io/libphenom/index.html
-
+[32]: https://github.com/kgabis/parson
 [33]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 [34]: http://re2c.org/index.html
 [35]: http://shop.oreilly.com/product/0636920033677.do
