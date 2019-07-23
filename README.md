@@ -904,7 +904,6 @@ libraries or compilers.
   supports C. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [address-sanitizer][288] - Fast memory error detector.
   [``Apache-2.0``][Apache-2.0]
-* [biicode][304] - Modern dependency manager. [``MIT``][MIT]
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also
   has shebang support. [``MIT``][MIT]
 * [c99sh][113] - Run C files using hash-bang. [``BSD-2-Clause``][BSD-2-Clause]
@@ -915,6 +914,7 @@ libraries or compilers.
   [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [ClangCheck][502] - Static analysis tool, designed to work with Clang.
   [``NCSA``][NCSA]
+* [conan.io][304] - Something of a package manager for C. [``MIT``][MIT].
 * [Cppcheck][501] - Static analysis tool. Despite the name, works well with C.
   [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Glade][328] - RAD tool to enable quick development of GTK+
@@ -1403,7 +1403,7 @@ support for C.
 [301]: https://wiki.haskell.org/Introduction_to_QuickCheck2
 [302]: https://github.com/silentbicycle/theft
 [303]: http://chipmunk-physics.net
-[304]: https://biicode.github.io/biicode/
+[304]: https://conan.io/
 [305]: https://faragon.github.io/libsrt.html
 [306]: https://libusb.info/
 [307]: https://www.gnu.org/software/complexity/
