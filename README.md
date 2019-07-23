@@ -824,6 +824,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 * [jfes][488] - JSON For Embedded Systems; simple JSON engine without any
   dependencies. [``MIT``][MIT]
 * [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
+* [json][39] - Simple, low-memory-use JSON parser. [``MIT``][MIT]
 * [json.c][8] - Easily work with JSON in C. Comes with a reference-counted object
   model, and aims for conformance with [RFC 7159][11]. [``MIT``][MIT]
 * [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
@@ -1139,7 +1140,7 @@ support for C.
 [36]: http://shop.oreilly.com/product/0636920028000.do
 [37]: https://www.openmp.org/
 [38]: https://clang.llvm.org/
-
+[39]: https://github.com/recp/json
 [40]: https://gcc.gnu.org/
 [41]: https://github.com/libgit2/libgit2/blob/master/COPYING
 [42]: http://anjuta.org/
