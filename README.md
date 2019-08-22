@@ -528,7 +528,7 @@ to C programming.
 ### Reference books ###
 
 * [C: A Reference Manual 5E][181] - Full reference book for C99.
-* [C in a Nushell 2E][418] - Concise reference book for C11.
+* [C in a Nutshell 2E][418] - Concise reference book for C11.
 * [C Pocket Reference][182] - Concise reference book for C99.
 * [The C Programming Language 2E][7] - Original book on C, by its creators.
 
