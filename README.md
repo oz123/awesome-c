@@ -262,7 +262,7 @@ Databases and data stores with C APIs.
 * [libavl][156] - Library containing a range of self-balancing binary
   trees. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [ds][541] - Common Data Structures and Algorithms. [``MIT``][MIT]
-* [igraph][545] - A graph processing library.
+* [igraph][544] - A graph processing library.
   [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [liblfds][411] - Portable lock-free data structure library. Public domain
   (more exactly, whatever license you want).
