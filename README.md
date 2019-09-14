@@ -57,7 +57,7 @@ CONTRIBUTING.md first.
 	* [JSON](#json)
 	* [INI](#ini)
 	* [Others](#others)
-	* [XML](#xml) 	
+	* [XML](#xml)
 	* [YAML](#yaml)
 * [Testing](#testing)
 * [Text Editor Extensions](#text-editor-extensions)
@@ -370,7 +370,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [CSFML][90] - Binding for [SFML][91]. [``Zlib``][Zlib]
 * [Darkplaces][369] - Modified version of the Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
 * [Epoxy][414] - Library for handling OpenGL function pointer management. [``MIT``][MIT]
-* [Freecell Solver][539] - Set of libraries and command-line programs for 
+* [Freecell Solver][539] - Set of libraries and command-line programs for
   automatically solving FreeCell and some similar variants of card Solitaire. [``MIT``][MIT]
 * [FreeGLUT][99] - Alternative to the OpenGL Utility Toolkit. Allows the
   creation and management of windows with OpenGL contexts. [``X11``][X11]
@@ -648,7 +648,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [MQTT-C][549] - A portable MQTT C client for embedded systems and PCs alike. [``MIT``][MIT]
 * [nanomsg][139] - C-based implementation of ZeroMQ. [``MIT``][MIT]
 * [NNG][106] - nanomsg-next-generation - lightweight brokerless messaging.
-  [``MIT``][MIT] 
+  [``MIT``][MIT]
 * [oSip][179] - SIP implementation without additional
   dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [socket99][203] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
@@ -669,7 +669,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [cmathl][546] - Math library with a great variety of mathematical functions with CMake build support. Seeks to be close to C89/C90 compliant for portability. [``MIT``][MIT]
 * [Cuba][316] - Library for multidimensional numerical integration. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [fft-c][537] - A high-performance Fourier Transform from netlib's fftpack; wrapped in a user-friendly format [``MIT``][ MIT]
-* [FFTW][70] - The Fastest Fourier Transform in the West; a highly optimized 
+* [FFTW][70] - The Fastest Fourier Transform in the West; a highly optimized
   fast Fourier transform routine. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [FLINT][255] - Fast Library for Number Theory; a library supporting arithmetic
   with numbers, polynomials, power series and matrices, among
@@ -715,6 +715,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   (including the kernel!) with low overhead and without recompilation. [``GPL-2.0-only``][GPL-2.0-only]
 * [perf][375] - Linux kernel-based profiler with a lot of functionality.
   [``GPL-2.0-only``][GPL-2.0-only]
+* [b63][553] - Light-weight micro-benchmarking tool for C. [``Apache-2.0``][Apache-2.0]
 
 ## Regex ##
 
@@ -1414,13 +1415,13 @@ support for C.
 [309]: https://www.cprover.org/cbmc/
 [310]: https://github.com/0intro/libelf
 [311]: https://github.com/matze/oclkit
-[312]: http://tuxfan.github.io/ocl-mla/ 
+[312]: http://tuxfan.github.io/ocl-mla/
 [313]: http://c2html.sourceforge.net/whatisc2html.html
 [314]: http://astyle.sourceforge.net/
 [315]: https://www.gnu.org/software/indent/
 [316]: http://www.feynarts.de/cuba/
 [317]: http://www.gedanken.org.uk/software/cxref/
-[318]: http://www.doxygen.nl/ 
+[318]: http://www.doxygen.nl/
 [319]: https://github.com/google/cpu_features
 [320]: https://www.gnu.org/software/ddd/ddd.html
 [321]: http://docutils.sourceforge.net/
@@ -1578,7 +1579,7 @@ support for C.
 [474]: http://liburcu.org/
 [475]: http://oprofile.sourceforge.net/news/
 [476]: http://libcork.readthedocs.io/en/0.14.0/
-[477]: https://github.com/jppbsi/LibDEEP 
+[477]: https://github.com/jppbsi/LibDEEP
 [478]: https://github.com/xant/libhl
 [479]: https://github.com/josephg/librope
 [480]: https://github.com/miracl/MIRACL
@@ -1654,3 +1655,4 @@ support for C.
 [550]: https://github.com/LeoVen/C-Macro-Collections
 [551]: https://github.com/mysql/mysql-server
 [552]: https://github.com/hexspeakerg/ONLY_ONCE
+[553]: https://github.com/okuvshynov/b63
