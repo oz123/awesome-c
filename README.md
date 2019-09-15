@@ -80,6 +80,10 @@ Basically, if your university calls it AI, it lives here.
 * [KANN][327] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 
+## Benchmarking ##
+
+* [b63][553] - Light-weight micro-benchmarking tool for C. [``Apache-2.0``][Apache-2.0]
+
 ## Build Systems ##
 
 Tools that automate the building and testing of projects in C.
@@ -715,7 +719,6 @@ comprehensive and high-level, you may want the Web Frameworks section.
   (including the kernel!) with low overhead and without recompilation. [``GPL-2.0-only``][GPL-2.0-only]
 * [perf][375] - Linux kernel-based profiler with a lot of functionality.
   [``GPL-2.0-only``][GPL-2.0-only]
-* [b63][553] - Light-weight micro-benchmarking tool for C. [``Apache-2.0``][Apache-2.0]
 
 ## Regex ##
 
