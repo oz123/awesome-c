@@ -16,6 +16,7 @@ CONTRIBUTING.md first.
 ## Contents ##
 
 * [AI](#ai)
+* [Benchmarking](#benchmarking)
 * [Build Systems](#build-systems)
 * [Compilers](#compilers)
 * [Compression](#compression)
@@ -81,6 +82,8 @@ Basically, if your university calls it AI, it lives here.
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Benchmarking ##
+
+Comparing the performance of various subsystems across different chip/system architectures.
 
 * [b63][553] - Light-weight micro-benchmarking tool for C. [``Apache-2.0``][Apache-2.0]
 
