@@ -756,6 +756,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [tpl][473] - Small binary serialization library. [``MIT``][MIT]
 * [xdr][131] - External Data Representation; a standard for data
   serialization. Standard (no license applicable).
+* [pbtools][555] - Google Protocol Buffers C source code generator. [``MIT``][MIT]
 
 ## Source Code Collections ##
 
@@ -1664,3 +1665,4 @@ support for C.
 [552]: https://github.com/hexspeakerg/ONLY_ONCE
 [553]: https://github.com/okuvshynov/b63
 [554]: https://github.com/rxi/dyad
+[555]: https://github.com/eerimoq/pbtools
