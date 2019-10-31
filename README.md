@@ -850,6 +850,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 * [inih][547] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
 * [iniparser][336] - Parser for .ini files. [``MIT``][MIT]
 * [libconfini][122] - Yet another INI parser. [``GPL-3.0-only``][GPL-3.0-only]
+* [minIni][557] - Small and portable INI file library with read/write support. [``Apache-2.0``][Apache-2.0]
 
 ### Others ###
 
@@ -1669,3 +1670,4 @@ support for C.
 [554]: https://github.com/rxi/dyad
 [555]: https://github.com/eerimoq/pbtools
 [556]: https://wiki.videolan.org/LibVLC
+[557]: https://github.com/compuphase/minIni
