@@ -176,7 +176,8 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [Zstandard][510] - Fast, lossless compression algorithm, targeting real-time
   compression scenarios at zlib-level or better compression ratios.
   [``BSD-3-Clause``][BSD-3-Clause]
-
+* [fastLZ][557] - Lightning-fast lossless compression library (LZ77 type). Embbedable on small target like ARM Cortex-M families. Source code directly embbedable on your project ( a pair of h/c files), no dynamic memory allocation. [``MIT``][MIT]
+ 
 ## Concurrency and Parallelism ##
 
 * [cchan][243] - Small library for channel constructs for inter-thread
