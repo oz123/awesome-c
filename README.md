@@ -698,6 +698,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   library. [``GPL-3.0-only``][GPL-3.0-only].
 * [KISS FFT][71] - Simple fast Fourier transform library. [``BSD-3-Clause``][BSD-3-Clause]
 * [LAPACKE][133] - Interface to [LAPACK][134]. [``BSD-3-Clause``][BSD-3-Clause]
+* [libfixmath][558] - Cross Platform Fixed Point Maths Library. [``MIT``][MIT]
 * [LibTomMath][461] - Portable, number-theoretic, multiple-precision integer
   library. Supports algebra, digit manipulation, modular reductions, and various
   number-theoretic routines. Public domain.
@@ -1671,3 +1672,4 @@ support for C.
 [555]: https://github.com/eerimoq/pbtools
 [556]: https://wiki.videolan.org/LibVLC
 [557]: https://github.com/compuphase/minIni
+[558]: https://github.com/PetteriAimonen/libfixmath
