@@ -404,6 +404,7 @@ Engines, libraries and other helpful things specifically for making games.
   alternative to other libraries for doing all those things. Various licenses,
   all open source.
 * [Spearmint][371] - Engine designed for FPS games. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [tinyc.game][557] - Tiny C games you can compile and run RIGHT NOW http://tinyc.games [``MIT``][MIT]
 * [uastar][535] - Minimal A\* implementation. [``ZLib``][Zlib]
 
 ## Graphics ##
@@ -1669,3 +1670,4 @@ support for C.
 [554]: https://github.com/rxi/dyad
 [555]: https://github.com/eerimoq/pbtools
 [556]: https://wiki.videolan.org/LibVLC
+[557]: https://github.com/superjer/tinyc.games
