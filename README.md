@@ -405,6 +405,7 @@ Engines, libraries and other helpful things specifically for making games.
   all open source.
 * [Spearmint][371] - Engine designed for FPS games. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [uastar][535] - Minimal A\* implementation. [``ZLib``][Zlib]
+* [Flecs][557] - A Multithreaded Entity Component System written for C89 & C99 [``MIT``][MIT]
 
 ## Graphics ##
 
@@ -1669,3 +1670,4 @@ support for C.
 [554]: https://github.com/rxi/dyad
 [555]: https://github.com/eerimoq/pbtools
 [556]: https://wiki.videolan.org/LibVLC
+[557]: https://github.com/SanderMertens/flecs
