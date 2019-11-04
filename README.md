@@ -377,6 +377,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [CSFML][90] - Binding for [SFML][91]. [``Zlib``][Zlib]
 * [Darkplaces][369] - Modified version of the Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
 * [Epoxy][414] - Library for handling OpenGL function pointer management. [``MIT``][MIT]
+* [Flecs][557] - A Multithreaded Entity Component System written for C89 & C99 [``MIT``][MIT]
 * [Freecell Solver][539] - Set of libraries and command-line programs for
   automatically solving FreeCell and some similar variants of card Solitaire. [``MIT``][MIT]
 * [FreeGLUT][99] - Alternative to the OpenGL Utility Toolkit. Allows the
@@ -388,6 +389,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [kazmath][446] - Maths library for games. [``BSD-2-Clause``][BSD-2-Clause]
 * [libao][376] - Cross-platform audio library with a wide variety of
   outputs. [``GPL-2.0-or-later``][GPL-2.0-or-later]
+* [librg][557] - Pure C99 game networking library for building simple and elegant cross-platform multiplayer client-server solutions. [``Apache-2.0``][Apache-2.0]
 * [MATHC][534] - Math library for 2D and 3D programming. [``ZLib``][Zlib]
 * [Orx][370] - Portable, lightweight, plugin-based, data-driven, 2D-oriented
   game engine. [``Zlib``][Zlib]
@@ -404,7 +406,6 @@ Engines, libraries and other helpful things specifically for making games.
   alternative to other libraries for doing all those things. Various licenses,
   all open source.
 * [Spearmint][371] - Engine designed for FPS games. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [tinyc.game][557] - Tiny C games you can compile and run RIGHT NOW http://tinyc.games [``MIT``][MIT]
 * [uastar][535] - Minimal A\* implementation. [``ZLib``][Zlib]
 
 ## Graphics ##
@@ -485,6 +486,7 @@ to C programming.
 * [Draft C11 standard][247]
 * [Finding the best 64-bit simulation PRNG][529]
 * [SEI CERT C Coding Standard][266]
+* [tinyc.game][559] - Tiny C games you can compile and run RIGHT NOW http://tinyc.games [``MIT``][MIT]
 
 ### Beginner resources online ###
 
@@ -1671,3 +1673,6 @@ support for C.
 [555]: https://github.com/eerimoq/pbtools
 [556]: https://wiki.videolan.org/LibVLC
 [557]: https://github.com/superjer/tinyc.games
+[557]: https://github.com/SanderMertens/flecs
+[558]: https://github.com/librg/librg
+[559]: https://github.com/superjer/tinyc.games
