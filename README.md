@@ -389,7 +389,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [kazmath][446] - Maths library for games. [``BSD-2-Clause``][BSD-2-Clause]
 * [libao][376] - Cross-platform audio library with a wide variety of
   outputs. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [librg][557] - Pure C99 game networking library for building simple and elegant cross-platform multiplayer client-server solutions. [``Apache-2.0``][Apache-2.0]
+* [librg][558] - Pure C99 game networking library for building simple and elegant cross-platform multiplayer client-server solutions. [``Apache-2.0``][Apache-2.0]
 * [MATHC][534] - Math library for 2D and 3D programming. [``ZLib``][Zlib]
 * [Orx][370] - Portable, lightweight, plugin-based, data-driven, 2D-oriented
   game engine. [``Zlib``][Zlib]
