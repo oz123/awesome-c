@@ -486,6 +486,7 @@ to C programming.
 * [Draft C11 standard][247]
 * [Finding the best 64-bit simulation PRNG][529]
 * [SEI CERT C Coding Standard][266]
+* [tinyc.game][559] - Tiny C games you can compile and run RIGHT NOW http://tinyc.games [``MIT``][MIT]
 
 ### Beginner resources online ###
 
@@ -1673,3 +1674,4 @@ support for C.
 [556]: https://wiki.videolan.org/LibVLC
 [557]: https://github.com/SanderMertens/flecs
 [558]: https://github.com/librg/librg
+[559]: https://github.com/superjer/tinyc.games
