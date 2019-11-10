@@ -815,7 +815,6 @@ Implementations of the (standard-mandated) C standard library.
   strings. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [libgiconv][163] - Text conversion library. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [librope][479] - UTF-8 rope ('heavy' string) library. [``MIT``][MIT]
-* [rapidstring][109] - Maybe the fastest string library ever. [``MIT``][MIT]
 * [SDS][29] - Simple Dynamic Strings; a library for handling strings in a
   simpler way, but one that is compatible with normal C string
   functions. Available via [clib][26]. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1226,7 +1225,7 @@ support for C.
 [106]: https://nanomsg.github.io/nng/
 [107]: https://ioquake3.org
 [108]: https://github.com/RandyGaul/tinyheaders
-[109]: https://boyerjohn.github.io/rapidstring/index.html
+
 [110]: https://www.openssl.org/
 [111]: https://www.openssl.org/source/license.html
 [112]: http://www.gnutls.org/
