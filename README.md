@@ -1338,8 +1338,8 @@ support for C.
 [220]: https://github.com/DanielGibson/Snippets/
 [221]: https://github.com/id-Software/Quake-2
 [222]: http://www.etpan.org
-[223]: https://github.com/commonmark/CommonMark
-[224]: https://github.com/jgm/CommonMark/blob/master/LICENSE
+[223]: https://github.com/commonmark/commonmark-spec
+[224]: https://github.com/commonmark/commonmark-spec/blob/master/LICENSE 
 [225]: https://github.com/id-Software/Quake
 [226]: http://czmq.zeromq.org
 [227]: https://marek.vavrusa.com/memory/
@@ -1482,7 +1482,7 @@ support for C.
 [365]: https://github.com/prideout/heman
 [366]: https://github.com/cacalabs/libcaca
 [367]: http://tartarus.org/martin/PorterStemmer/
-[368]: http://mesonbuild.com/
+[368]: https://mesonbuild.com/
 [369]: https://icculus.org/twilight/darkplaces/
 [370]: http://orx-project.org
 [371]: https://clover.moe/spearmint
@@ -1579,7 +1579,7 @@ support for C.
 [463]: http://www.libtom.net/LibTomPoly/
 [464]: https://github.com/LibVNC/libvncserver
 [465]: https://github.com/yosefk/checkedthreads
-[466]: https://ccache.samba.org/
+[466]: https://ccache.dev/
 [467]: https://github.com/esneider/debug
 [468]: https://lldb.llvm.org/
 [469]: https://github.com/JuliaLang/utf8proc
