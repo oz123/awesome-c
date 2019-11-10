@@ -852,6 +852,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 * [inih][547] - Small and simple INI file parser, good for embedded systems. [``BSD-3-Clause``][BSD-3-Clause]
 * [iniparser][336] - Parser for .ini files. [``MIT``][MIT]
 * [libconfini][122] - Yet another INI parser. [``GPL-3.0-only``][GPL-3.0-only]
+* [minIni][109] - Small and portable INI parser. [``Apache-2.0``][Apache-2.0]
 
 ### Others ###
 
@@ -1225,7 +1226,7 @@ support for C.
 [106]: https://nanomsg.github.io/nng/
 [107]: https://ioquake3.org
 [108]: https://github.com/RandyGaul/tinyheaders
-
+[109]: https://github.com/compuphase/minIni
 [110]: https://www.openssl.org/
 [111]: https://www.openssl.org/source/license.html
 [112]: http://www.gnutls.org/
