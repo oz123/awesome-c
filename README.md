@@ -1012,8 +1012,6 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   with iThings. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libnfc][332] - Platform-independent Near-Field Communication
   library. [``LGPL-3.0-only``][LGPL-3.0-only]
-* [libPhenom][31] - Eventing framework for building high-scalability and
-  high-performance systems. [``Apache-2.0``][Apache-2.0]
 * [libpostal][434] - Library for parsing and normalization of street addresses
   around the world. Powered by statistical NLP and open geo data. [``MIT``][MIT]
 * [libtrading][455] - Implementation of network protocols for communicating
@@ -1148,7 +1146,7 @@ support for C.
 [28]: http://www.koanlogic.com/libu/
 [29]: https://github.com/antirez/sds
 
-[31]: http://facebook.github.io/libphenom/index.html
+
 [32]: https://github.com/kgabis/parson
 [33]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 [34]: http://re2c.org/index.html
@@ -1283,7 +1281,7 @@ support for C.
 [163]: https://gnu.org/software/libiconv/
 [164]: https://gnu.org/software/libidn/
 [165]: https://gnu.org/software/libmicrohttpd/
-[166]: http://www.hughes.com.au/products/libhttpd/
+[166]: https://www.hughes.com.au/products/libhttpd/
 [167]: https://github.com/gpakosz/whereami
 [168]: http://www.webdav.org/neon/
 [169]: http://mihl.sourceforge.net/
@@ -1344,7 +1342,7 @@ support for C.
 [224]: https://github.com/jgm/CommonMark/blob/master/LICENSE
 [225]: https://github.com/id-Software/Quake
 [226]: http://czmq.zeromq.org
-[227]: http://marek.vavrusa.com/memory/
+[227]: https://marek.vavrusa.com/memory/
 [228]: https://github.com/alanxz/rabbitmq-c
 [229]: http://www.rabbitmq.com/
 [230]: http://zlib.net
