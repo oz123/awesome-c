@@ -891,6 +891,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 * [theft][302] - Property-based testing (similar to [Quickcheck][301]). [``MIT``][MIT]
 * [Unity][296] - Simple unit testing framework. [``MIT``][MIT]
 * [utest][386] - Single-header unit testing library. [``Unlicense``][Unlicense]
+* [Nala][560] - A test framework for C projects. [``MIT``][MIT]
 
 ## Text Editor Extensions ##
 
@@ -1673,3 +1674,4 @@ support for C.
 [557]: https://github.com/SanderMertens/flecs
 [558]: https://github.com/librg/librg
 [559]: https://github.com/superjer/tinyc.games
+[560]: https://github.com/eerimoq/nala
