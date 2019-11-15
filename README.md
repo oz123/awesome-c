@@ -888,6 +888,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
   allocation. [``MIT``][MIT]
 * [minctest][394] - Unit testing microlibrary. [``BSD-3-Clause``][BSD-3-Clause]
 * [munit][392] - Small unit testing framework. [``MIT``][MIT]
+* [Nala][560] - A test framework for C projects. [``MIT``][MIT]
 * [theft][302] - Property-based testing (similar to [Quickcheck][301]). [``MIT``][MIT]
 * [Unity][296] - Simple unit testing framework. [``MIT``][MIT]
 * [utest][386] - Single-header unit testing library. [``Unlicense``][Unlicense]
@@ -1673,3 +1674,4 @@ support for C.
 [557]: https://github.com/SanderMertens/flecs
 [558]: https://github.com/librg/librg
 [559]: https://github.com/superjer/tinyc.games
+[560]: https://github.com/eerimoq/nala
