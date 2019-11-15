@@ -888,10 +888,10 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
   allocation. [``MIT``][MIT]
 * [minctest][394] - Unit testing microlibrary. [``BSD-3-Clause``][BSD-3-Clause]
 * [munit][392] - Small unit testing framework. [``MIT``][MIT]
+* [Nala][560] - A test framework for C projects. [``MIT``][MIT]
 * [theft][302] - Property-based testing (similar to [Quickcheck][301]). [``MIT``][MIT]
 * [Unity][296] - Simple unit testing framework. [``MIT``][MIT]
 * [utest][386] - Single-header unit testing library. [``Unlicense``][Unlicense]
-* [Nala][560] - A test framework for C projects. [``MIT``][MIT]
 
 ## Text Editor Extensions ##
 
