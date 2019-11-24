@@ -283,6 +283,8 @@ Databases and data stores with C APIs.
   [``GPL-3.0-only``][GPL-3.0-only]
 * [PackedArray][241] - Random-access array of tightly packed unsigned integers of
   any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
+* [rb3ptr][561] - Red-Black tree. Exposes almost all implementation primitives, so can be used for
+  scenarios like augmentation, multiple compatible ordering functions, and more. [``MIT``][MIT]
 * [uthash][273] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
 * [vector.h][152] - Header library for typed lists. [``MIT``][MIT]
 
@@ -1675,3 +1677,4 @@ support for C.
 [558]: https://github.com/librg/librg
 [559]: https://github.com/superjer/tinyc.games
 [560]: https://github.com/eerimoq/nala
+[561]: http://jstimpfle.de/projects/rb3ptr/rb3ptr.html
