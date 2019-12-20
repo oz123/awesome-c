@@ -887,7 +887,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 * [CUnit][94] - Another unit testing framework.
   [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [greatest][58] - Unit testing library in one file, with no memory
-  allocation. [``MIT``][MIT]
+  allocation. [``ISC``][ISC]
 * [minctest][394] - Unit testing microlibrary. [``BSD-3-Clause``][BSD-3-Clause]
 * [munit][392] - Small unit testing framework. [``MIT``][MIT]
 * [Nala][560] - A test framework for C projects. [``MIT``][MIT]
