@@ -1027,6 +1027,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   dependencies (not even regexps). [``WTFPL``][WTFPL]
 * [linenoise][504] - Small, self-contained alternative to readline and
   libedit. [``BSD-2-Clause``][BSD-2-Clause]
+* [MegaMimes][31] - Library for getting the [MIME][30] types of a file.
+  [``MIT``][MIT]
 * [ncurses][178] - Coloured terminal UI library. [``MIT``][MIT]
 * [netbsd-curses][494] - Simplified and small version of ncurses, with the same
   interface. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1148,8 +1150,8 @@ support for C.
 [27]: https://github.com/clibs/clib/wiki/Packages
 [28]: http://www.koanlogic.com/libu/
 [29]: https://github.com/antirez/sds
-
-
+[30]: https://en.wikipedia.org/wiki/MIME
+[31]: https://trumpowen.github.io/MegaMimes
 [32]: https://github.com/kgabis/parson
 [33]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 [34]: http://re2c.org/index.html
