@@ -119,6 +119,7 @@ Compilers, as well as compiler- and compilation-related tooling.
   C11. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [PCC][74] - Venerable compiler. Supports C99. [Various licenses][75], all
   open source.
+* [cproc][562] - Cleanly implemented C compiler, small code base, easy to understand and modify.
 
 ## Compression ##
 
@@ -1680,3 +1681,4 @@ support for C.
 [559]: https://github.com/superjer/tinyc.games
 [560]: https://github.com/eerimoq/nala
 [561]: http://jstimpfle.de/projects/rb3ptr/rb3ptr.html
+[562]: https://github.com/michaelforney/cproc
