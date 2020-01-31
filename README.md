@@ -147,7 +147,7 @@ Compilers, as well as compiler- and compilation-related tooling.
   [``BSD-2-Clause``][BSD-2-Clause]
 * [lzo][338] - Fast data compression library.
   [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [pixz][47] - Parallel, indexed xz compressor. [``BSD-2-Clause``][BSD-2-Clause]
+* [pixz][49] - Parallel, indexed xz compressor. [``BSD-2-Clause``][BSD-2-Clause]
 * [shoco][363] - Compressor for small text strings. [``MIT``][MIT]
 * [SIMDComp][519] - Simple library for compressing lists of integers using
   binary packing. Makes use of SIMD instructions on x86.
@@ -1169,7 +1169,7 @@ support for C.
 [46]: https://www.gnu.org/software/gnulib/
 [47]: https://www.gnu.org/software/gsl/
 [48]: https://liballeg.org
-[47]: https://github.com/vasi/pixz
+[49]: https://github.com/vasi/pixz
 [50]: https://www.libsdl.org/
 [51]: https://redis.io/
 [52]: http://zeromq.org/
