@@ -1068,6 +1068,7 @@ application in C.
   productive and safer programming in C. [``Apache-2.0``][Apache-2.0]
 * [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
   Websocket server, and also supports custom protocols. [``MIT``][MIT]
+* [kcgi][562] - CGI and FastCGI library for C [``ISC``][ISC].
 * [KLone][423] - Fully featured, multi-platform, web application development
   framework, targeted especially at embedded systems and
   appliances. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1680,3 +1681,4 @@ support for C.
 [559]: https://github.com/superjer/tinyc.games
 [560]: https://github.com/eerimoq/nala
 [561]: http://jstimpfle.de/projects/rb3ptr/rb3ptr.html
+[562]: https://kristaps.bsd.lv/kcgi
