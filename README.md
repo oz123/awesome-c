@@ -286,7 +286,7 @@ Databases and data stores with C APIs.
 * [rb3ptr][561] - Red-Black tree. Exposes almost all implementation primitives, so can be used for
   scenarios like augmentation, multiple compatible ordering functions, and more. [``MIT``][MIT]
 * [uthash][273] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
-* [vector.h][152] - Header library for typed lists. [``MIT``][MIT]
+* [vector.h][154] - Header library for typed lists. [``MIT``][MIT]
 
 ## Debugging ##
 
@@ -1275,7 +1275,7 @@ support for C.
 [151]: http://valloric.github.io/YouCompleteMe/
 [152]: https://sites.google.com/site/lccretargetablecompiler/
 [153]: https://github.com/drh/lcc/blob/master/CPYRIGHT
-[152]: https://github.com/swenson/vector.h
+[154]: https://github.com/swenson/vector.h
 [155]: https://www.gnu.org/software/adns/
 [156]: http://adtinfo.org/libavl.html/index.html
 [157]: http://sourceware.org/binutils/docs/bfd/
