@@ -859,6 +859,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 ### Others ###
 
 * [libbson][235] - BSON utility library. [``Apache-2.0``][Apache-2.0]
+* [libcbor][563]: CBOR protocol implementation for C and others  
 * [libconfuse][135] - Small configuration file parser library. [``ISC``][ISC]
 * [libelf][310] - Simple library for parsing ELF files. [``MIT``][MIT]
 * [libucl][239] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1682,3 +1683,4 @@ support for C.
 [560]: https://github.com/eerimoq/nala
 [561]: http://jstimpfle.de/projects/rb3ptr/rb3ptr.html
 [562]: https://kristaps.bsd.lv/kcgi
+[563]: https://github.com/PJK/libcbor
