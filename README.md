@@ -891,6 +891,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 * [minctest][394] - Unit testing microlibrary. [``BSD-3-Clause``][BSD-3-Clause]
 * [munit][392] - Small unit testing framework. [``MIT``][MIT]
 * [Nala][560] - A test framework for C projects. [``MIT``][MIT]
+* [Rexo][563] - Framework for C89/C++ featuring automatic registration of tests and a polished API. [``Unlicense``][Unlicense]
 * [theft][302] - Property-based testing (similar to [Quickcheck][301]). [``MIT``][MIT]
 * [Unity][296] - Simple unit testing framework. [``MIT``][MIT]
 * [utest][386] - Single-header unit testing library. [``Unlicense``][Unlicense]
@@ -1682,3 +1683,4 @@ support for C.
 [560]: https://github.com/eerimoq/nala
 [561]: http://jstimpfle.de/projects/rb3ptr/rb3ptr.html
 [562]: https://kristaps.bsd.lv/kcgi
+[563]: https://github.com/christophercrouzet/rexo
