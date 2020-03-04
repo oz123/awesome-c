@@ -1685,5 +1685,5 @@ support for C.
 [560]: https://github.com/eerimoq/nala
 [561]: http://jstimpfle.de/projects/rb3ptr/rb3ptr.html
 [562]: https://kristaps.bsd.lv/kcgi
-[563]: https://github.com/christophercrouzet/rexokcgi
+[563]: https://github.com/christophercrouzet/rexo
 [564]: https://littlevgl.com/
