@@ -1132,7 +1132,7 @@ support for C.
 [7]: https://en.wikipedia.org/wiki/The_C_Programming_Language
 [8]: https://github.com/json-c/json-c
 [9]: https://www.fefe.de/dietlibc/
-[10]: https://www.musl-libc.org/
+[10]: https://musl.libc.org/
 [11]: https://tools.ietf.org/html/rfc7159
 [12]: https://uclibc-ng.org/
 [13]: https://opensource.org/osd
