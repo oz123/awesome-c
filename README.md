@@ -643,6 +643,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [libevent][124] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
 * [libhttpd][166] - Library to add basic web server capabilities to an
   application or embedded device. [``GPL-2.0-only``][GPL-2.0-only]
+* [libhv][564] - Cross platform event loop library. [``BSD-3-Clause``][BSD-3-Clause]
 * [libidn][164] - Implementation of the Stringprep, Punycode and IDNA
   specifications. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libmicrohttpd][165] - Small library that makes it easy to run an HTTP
@@ -1684,3 +1685,4 @@ support for C.
 [561]: http://jstimpfle.de/projects/rb3ptr/rb3ptr.html
 [562]: https://kristaps.bsd.lv/kcgi
 [563]: https://github.com/christophercrouzet/rexo
+[564]: https://github.com/ithewei/libhv
