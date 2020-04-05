@@ -1034,6 +1034,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [ncurses][178] - Coloured terminal UI library. [``MIT``][MIT]
 * [netbsd-curses][494] - Simplified and small version of ncurses, with the same
   interface. [``BSD-3-Clause``][BSD-3-Clause]
+* [nmap][565] - Nmap - the Network Mapper. [``GPL-2.0-only``][GPL-2.0-only]
 * [nope.c][209] - Ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [``GPL-2.0-only``][GPL-2.0-only]
 * [ONLY_ONCE][552] - Like Rust's lazy_static, but for C. It's mt-safe, too! [``MIT``][MIT]
@@ -1686,3 +1687,4 @@ support for C.
 [562]: https://kristaps.bsd.lv/kcgi
 [563]: https://github.com/christophercrouzet/rexo
 [564]: https://github.com/ithewei/libhv
+[565]: https://nmap.org/
