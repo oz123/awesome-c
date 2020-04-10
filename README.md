@@ -1065,9 +1065,6 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 Comprehensive and integrated solutions for building the next brilliant web
 application in C.
 
-* [Cloudgizer][545] - Cloudgizer is a tool for building web applications as
-  Apache modules, with emphasis on performance, small-footprint, and more
-  productive and safer programming in C. [``Apache-2.0``][Apache-2.0]
 * [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
   Websocket server, and also supports custom protocols. [``MIT``][MIT]
 * [kcgi][562] - CGI and FastCGI library for C [``ISC``][ISC].
@@ -1666,7 +1663,6 @@ support for C.
 [542]: https://github.com/recp/cglm
 [543]: https://github.com/recp/tm
 [544]: https://igraph.org/
-[545]: https://dasoftver.bitbucket.io/cloudgizer
 [546]: https://scientificc.github.io/cmathl/
 [547]: https://github.com/benhoyt/inih
 [548]: https://github.com/libarchive/libarchive
