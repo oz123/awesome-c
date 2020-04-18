@@ -674,7 +674,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [Wslay][460] - WebSocket library. Implements version 13 of the WebSocket
   protocol, as described in RFC 6455. [``MIT``][MIT]
 * [zyre][419] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
-* [libpcap][565] - API provides to various kernel packet capture mechanism. [``BSD-3-Clause``][BSD-3-Clause]
+* [libpcap][566] - API provides to various kernel packet capture mechanism. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Numerical ##
 
@@ -1686,3 +1686,4 @@ support for C.
 [563]: https://github.com/christophercrouzet/rexo
 [564]: https://github.com/ithewei/libhv
 [565]: https://github.com/sakhmatd/rogueutil
+[566]: https://github.com/the-tcpdump-group/libpcap
