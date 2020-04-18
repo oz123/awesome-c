@@ -1045,6 +1045,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
 * [Ragel][54] - DSL for state machines that compiles to C. [``GPL-2.0-only``][GPL-2.0-only]
+* [Rogueutil][565] - Cross-platform library for creating text-based user 
+  interfaces (TUI) [``Apache-2.0``][Apache-2.0]
 * [sort][190] - Collection of sorting routines, which type-specialize at
   compile-time with a user-defined type. [``MIT``][MIT]
 * [termbox][396] - Library for writing text-based interfaces. [``MIT``][MIT]
@@ -1683,4 +1685,4 @@ support for C.
 [562]: https://kristaps.bsd.lv/kcgi
 [563]: https://github.com/christophercrouzet/rexo
 [564]: https://github.com/ithewei/libhv
-[565]: https://github.com/the-tcpdump-group/libpcap
+[565]: https://github.com/sakhmatd/rogueutil
