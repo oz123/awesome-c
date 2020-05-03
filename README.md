@@ -407,7 +407,6 @@ Engines, libraries and other helpful things specifically for making games.
 * [SIGIL][429] - Sound, Input and Graphics Integration Library; a simple
   alternative to other libraries for doing all those things. Various licenses,
   all open source.
-* [Spearmint][371] - Engine designed for FPS games. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [uastar][535] - Minimal A\* implementation. [``ZLib``][Zlib]
 
 ## Graphics ##
@@ -1493,7 +1492,7 @@ support for C.
 [368]: https://mesonbuild.com/
 [369]: https://icculus.org/twilight/darkplaces/
 [370]: http://orx-project.org
-[371]: https://clover.moe/spearmint
+
 [372]: http://libsound.io
 [373]: http://libcox.symisc.net/
 [374]: https://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
