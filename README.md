@@ -263,8 +263,10 @@ Databases and data stores with C APIs.
 
 ## Data Structures ##
 
-* [Collections-C][406] - Library of generic data structures. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [C-Macro-Collections][550] - Generate simple and generic data structures using macros. [``MIT``][MIT]
+* [CLIST][371] - Simple and lightweight [dynamic array][25] implementation.
+  [``BSD-2-Clause``][BSD-2-Clause]
+* [Collections-C][406] - Library of generic data structures. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [kdtree][337] - Simple library for working with KD-trees. [``BSD-3-Clause``][BSD-3-Clause]
 * [libavl][156] - Library containing a range of self-balancing binary
   trees. [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -1147,7 +1149,7 @@ support for C.
 [22]: https://www.sqlite.org/
 [23]: https://unqlite.org/
 [24]: https://github.com/google/brotli
-
+[25]: https://en.wikipedia.org/wiki/Dynamic_array
 [26]: https://github.com/clibs/clib
 [27]: https://github.com/clibs/clib/wiki/Packages
 [28]: http://www.koanlogic.com/libu/
@@ -1492,7 +1494,7 @@ support for C.
 [368]: https://mesonbuild.com/
 [369]: https://icculus.org/twilight/darkplaces/
 [370]: http://orx-project.org
-
+[371]: https://github.com/AlexanderAgd/CLIST
 [372]: http://libsound.io
 [373]: http://libcox.symisc.net/
 [374]: https://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
