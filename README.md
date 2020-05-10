@@ -313,6 +313,8 @@ work.
   debuggers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [debug][467] - One-header library for easier 'printf debugging'.
   [``MIT``][MIT]
+* [ESBMC][567] - Efficient SMT-based Bounded Model Checker; a tool for verification of 
+   single and multithread programs, user assertions, overflow, and pointer/memory safety. [``Apache-2.0``][Apache-2.0]
 * [GDB][87] - GNU Project debugger. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [lldb][468] - LLVM debugger. [``NCSA``][NCSA]
 * [rr][95] - Debugger that records non-deterministic executions to allow for
@@ -1688,3 +1690,4 @@ support for C.
 [564]: https://github.com/ithewei/libhv
 [565]: https://github.com/sakhmatd/rogueutil
 [566]: https://github.com/the-tcpdump-group/libpcap
+[567]: http://esbmc.org/
