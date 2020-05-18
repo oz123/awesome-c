@@ -377,6 +377,7 @@ Engines, libraries and other helpful things specifically for making games.
 
 * [Allegro][48] - Cross-platform, video game development and multimedia
   library. [``Zlib``][Zlib]
+* [AssetKit][570] 🎨 3D asset importer/exporter/util library based on COLLADA/glTF specs [``MIT``][MIT]
 * [cglm][542] - 📽 Optimized OpenGL/Graphics Math (glm) for C. [``MIT``][MIT]
 * [Chipmunk2D][303] - Fast and lightweight 2D game physics library. [``MIT``][MIT]
 * [cmt][569] - 🎮 C Bindings/Wrappers for Apple's METAL Graphics Framework. [``MIT``][MIT]
@@ -419,6 +420,7 @@ Engines, libraries and other helpful things specifically for making games.
 Programmatic manipulation of graphics in C; if you want to make a GUI, the
 Graphical User Interface section has what you need.
 
+* [AssetKit][570] 🎨 3D asset importer/exporter/util library based on COLLADA/glTF specs [``MIT``][MIT]
 * [Cairo][384] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [``MPL-1.1``][385].
 * [cmt][569] - 🎮 C Bindings/Wrappers for Apple's METAL Graphics Framework. [``MIT``][MIT]
 * [giflib][401] - Library for reading and writing gif images. [``MIT``][MIT]
@@ -1696,3 +1698,4 @@ support for C.
 [567]: http://esbmc.org/
 [568]: https://github.com/recp/xml
 [569]: https://github.com/recp/cmt
+[570]: https://github.com/recp/AssetKit
