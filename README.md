@@ -379,6 +379,7 @@ Engines, libraries and other helpful things specifically for making games.
   library. [``Zlib``][Zlib]
 * [cglm][542] - 📽 Optimized OpenGL/Graphics Math (glm) for C. [``MIT``][MIT]
 * [Chipmunk2D][303] - Fast and lightweight 2D game physics library. [``MIT``][MIT]
+* [cmt][569] - 🎮 C Bindings/Wrappers for Apple's METAL Graphics Framework. [``MIT``][MIT]
 * [Corange][101] - Game engine in pure C. [``BSD-2-Clause``][BSD-2-Clause]
 * [CSFML][90] - Binding for [SFML][91]. [``Zlib``][Zlib]
 * [Darkplaces][369] - Modified version of the Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
@@ -419,6 +420,7 @@ Programmatic manipulation of graphics in C; if you want to make a GUI, the
 Graphical User Interface section has what you need.
 
 * [Cairo][384] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [``MPL-1.1``][385].
+* [cmt][569] - 🎮 C Bindings/Wrappers for Apple's METAL Graphics Framework. [``MIT``][MIT]
 * [giflib][401] - Library for reading and writing gif images. [``MIT``][MIT]
 * [graphene][515] - Thin layer of graphical data types. [``MIT``][MIT]
 * [heman][365] - Tiny library of image utilities dealing with height maps,
@@ -1693,3 +1695,4 @@ support for C.
 [566]: https://github.com/the-tcpdump-group/libpcap
 [567]: http://esbmc.org/
 [568]: https://github.com/recp/xml
+[569]: https://github.com/recp/cmt
