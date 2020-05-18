@@ -874,6 +874,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 
 * [Expat][89] - Stream-oriented XML parser. [MIT][MIT]
 * [libxml2][62] - Standards-compliant, portable XML parser. [MIT][MIT]
+* [xml][568] - Simple, low-memory-use XML parser / tokenizer. [``MIT``][MIT]
 
 ### YAML ###
 
@@ -1691,3 +1692,4 @@ support for C.
 [565]: https://github.com/sakhmatd/rogueutil
 [566]: https://github.com/the-tcpdump-group/libpcap
 [567]: http://esbmc.org/
+[568]: https://github.com/recp/xml
