@@ -263,8 +263,10 @@ Databases and data stores with C APIs.
 
 ## Data Structures ##
 
-* [Collections-C][406] - Library of generic data structures. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [C-Macro-Collections][550] - Generate simple and generic data structures using macros. [``MIT``][MIT]
+* [CLIST][371] - Simple and lightweight [dynamic array][25] implementation.
+  [``BSD-2-Clause``][BSD-2-Clause]
+* [Collections-C][406] - Library of generic data structures. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [kdtree][337] - Simple library for working with KD-trees. [``BSD-3-Clause``][BSD-3-Clause]
 * [libavl][156] - Library containing a range of self-balancing binary
   trees. [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -311,6 +313,8 @@ work.
   debuggers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [debug][467] - One-header library for easier 'printf debugging'.
   [``MIT``][MIT]
+* [ESBMC][567] - Efficient SMT-based Bounded Model Checker; a tool for verification of 
+   single and multithread programs, user assertions, overflow, and pointer/memory safety. [``Apache-2.0``][Apache-2.0]
 * [GDB][87] - GNU Project debugger. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [lldb][468] - LLVM debugger. [``NCSA``][NCSA]
 * [rr][95] - Debugger that records non-deterministic executions to allow for
@@ -407,7 +411,6 @@ Engines, libraries and other helpful things specifically for making games.
 * [SIGIL][429] - Sound, Input and Graphics Integration Library; a simple
   alternative to other libraries for doing all those things. Various licenses,
   all open source.
-* [Spearmint][371] - Engine designed for FPS games. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [uastar][535] - Minimal A\* implementation. [``ZLib``][Zlib]
 
 ## Graphics ##
@@ -455,7 +458,7 @@ Widget toolkits, or things meant to be used in a similar way to them.
 * [Tk][19] - Basic widget toolkit. Part of Tcl/Tk. [``TCL``][TCL]
 * [XForms Toolkit][21] - Widget toolkit designed for the XWindow
   system. [``LGPL-2.1-only``][LGPL-2.1-only]
-* [littlevGL][564] - embedded GUI with easy-to-use graphical elements and
+* [littlevGL][568] - embedded GUI with easy-to-use graphical elements and
   low memory footprint. [``MIT``][MIT]
 
 ## Hashing ##
@@ -645,6 +648,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [libevent][124] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
 * [libhttpd][166] - Library to add basic web server capabilities to an
   application or embedded device. [``GPL-2.0-only``][GPL-2.0-only]
+* [libhv][564] - Cross platform event loop library. [``BSD-3-Clause``][BSD-3-Clause]
 * [libidn][164] - Implementation of the Stringprep, Punycode and IDNA
   specifications. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libmicrohttpd][165] - Small library that makes it easy to run an HTTP
@@ -675,6 +679,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [Wslay][460] - WebSocket library. Implements version 13 of the WebSocket
   protocol, as described in RFC 6455. [``MIT``][MIT]
 * [zyre][419] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
+* [libpcap][566] - API provides to various kernel packet capture mechanism. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Numerical ##
 
@@ -1045,6 +1050,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
 * [Ragel][54] - DSL for state machines that compiles to C. [``GPL-2.0-only``][GPL-2.0-only]
+* [Rogueutil][565] - Cross-platform library for creating text-based user 
+  interfaces (TUI) [``Apache-2.0``][Apache-2.0]
 * [sort][190] - Collection of sorting routines, which type-specialize at
   compile-time with a user-defined type. [``MIT``][MIT]
 * [termbox][396] - Library for writing text-based interfaces. [``MIT``][MIT]
@@ -1066,9 +1073,6 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 Comprehensive and integrated solutions for building the next brilliant web
 application in C.
 
-* [Cloudgizer][545] - Cloudgizer is a tool for building web applications as
-  Apache modules, with emphasis on performance, small-footprint, and more
-  productive and safer programming in C. [``Apache-2.0``][Apache-2.0]
 * [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
   Websocket server, and also supports custom protocols. [``MIT``][MIT]
 * [kcgi][562] - CGI and FastCGI library for C [``ISC``][ISC].
@@ -1134,7 +1138,7 @@ support for C.
 [7]: https://en.wikipedia.org/wiki/The_C_Programming_Language
 [8]: https://github.com/json-c/json-c
 [9]: https://www.fefe.de/dietlibc/
-[10]: https://www.musl-libc.org/
+[10]: https://musl.libc.org/
 [11]: https://tools.ietf.org/html/rfc7159
 [12]: https://uclibc-ng.org/
 [13]: https://opensource.org/osd
@@ -1149,7 +1153,7 @@ support for C.
 [22]: https://www.sqlite.org/
 [23]: https://unqlite.org/
 [24]: https://github.com/google/brotli
-
+[25]: https://en.wikipedia.org/wiki/Dynamic_array
 [26]: https://github.com/clibs/clib
 [27]: https://github.com/clibs/clib/wiki/Packages
 [28]: http://www.koanlogic.com/libu/
@@ -1494,7 +1498,7 @@ support for C.
 [368]: https://mesonbuild.com/
 [369]: https://icculus.org/twilight/darkplaces/
 [370]: http://orx-project.org
-[371]: https://clover.moe/spearmint
+[371]: https://github.com/AlexanderAgd/CLIST
 [372]: http://libsound.io
 [373]: http://libcox.symisc.net/
 [374]: https://proprogramming.org/some-unknown-features-or-tricks-in-c-language/
@@ -1667,7 +1671,6 @@ support for C.
 [542]: https://github.com/recp/cglm
 [543]: https://github.com/recp/tm
 [544]: https://igraph.org/
-[545]: https://dasoftver.bitbucket.io/cloudgizer
 [546]: https://scientificc.github.io/cmathl/
 [547]: https://github.com/benhoyt/inih
 [548]: https://github.com/libarchive/libarchive
@@ -1686,4 +1689,8 @@ support for C.
 [561]: http://jstimpfle.de/projects/rb3ptr/rb3ptr.html
 [562]: https://kristaps.bsd.lv/kcgi
 [563]: https://github.com/christophercrouzet/rexo
-[564]: https://littlevgl.com/
+[564]: https://github.com/ithewei/libhv
+[565]: https://github.com/sakhmatd/rogueutil
+[566]: https://github.com/the-tcpdump-group/libpcap
+[567]: http://esbmc.org/
+[568]: https://littlevgl.com/
