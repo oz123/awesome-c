@@ -241,6 +241,7 @@ Databases and data stores with C APIs.
 
 * [BerkeleyDB][380] - Library for a high-performance embedded database for
   key-value data. [``AGPL-3.0-only``][AGPL-3.0-only]
+* [EJDB2][568] - Embeddable JSON Database engine. [``MIT``][MIT]
 * [Groonga][524] - Columnar store with full-text search. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [Hiredis][201] - Minimalistic client library for Redis.
   [``BSD-3-Clause``][BSD-3-Clause]
@@ -1689,3 +1690,4 @@ support for C.
 [565]: https://github.com/sakhmatd/rogueutil
 [566]: https://github.com/the-tcpdump-group/libpcap
 [567]: http://esbmc.org/
+[568]: https://ejdb.org/
