@@ -1040,7 +1040,6 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   interface. [``BSD-3-Clause``][BSD-3-Clause]
 * [nope.c][209] - Ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [``GPL-2.0-only``][GPL-2.0-only]
-* [ONLY_ONCE][552] - Like Rust's lazy_static, but for C. It's mt-safe, too! [``MIT``][MIT]
 * [parg][274] - A single-file reimplementation of ``getopt`` with better defaults.
   [``CC0-1.0``][CC0-1.0]
 * [pbc][236] - Protocol buffers library. [``MIT``][MIT]
@@ -1210,7 +1209,7 @@ support for C.
 [81]: http://tiny-rex.sourceforge.net/
 [82]: https://github.com/laurikari/tre/
 [83]: http://www.pcre.org/
-[84]: http://users.jyu.fi/~sapekiis/cheat
+[84]: https://github.com/Tuplanolla/cheat
 [85]: http://www.valgrind.org/
 [86]: https://www.gnu.org/software/binutils/
 [87]: https://www.gnu.org/software/gdb/
@@ -1277,7 +1276,7 @@ support for C.
 [148]: http://www.sgi.com/tech/opengl/?/license.html
 [149]: https://github.com/flycheck/flycheck
 [150]: http://joaotavora.github.io/yasnippet/
-[151]: http://valloric.github.io/YouCompleteMe/
+[151]: https://github.com/ycm-core/YouCompleteMe
 [152]: https://sites.google.com/site/lccretargetablecompiler/
 [153]: https://github.com/drh/lcc/blob/master/CPYRIGHT
 [154]: https://github.com/swenson/vector.h
@@ -1301,13 +1300,13 @@ support for C.
 [172]: https://risoflora.github.io/libsagui/
 [173]: https://gnu.org/software/libunistring/
 [174]: https://gnu.org/software/libxmi/
-[175]: http://www.multiprecision.org/index.php?prog=mpc&page=home
+[175]: http://www.multiprecision.org/mpc/
 [176]: http://mpfr.loria.fr/index.html
 [177]: https://gnu.org/software/mpria/
 [178]: https://gnu.org/software/ncurses/
 [179]: https://gnu.org/software/osip/
 [180]: https://gnu.org/software/pth/
-[181]: http://careferencemanual.com/
+[181]: https://savedparadigms.files.wordpress.com/2014/09/harbison-s-p-steele-g-l-c-a-reference-manual-5th-ed.pdf
 [182]: http://shop.oreilly.com/product/9780596004361.do
 [183]: http://shop.oreilly.com/product/0636920026136.do
 [184]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
@@ -1675,7 +1674,6 @@ support for C.
 [549]: https://github.com/LiamBindle/MQTT-C
 [550]: https://github.com/LeoVen/C-Macro-Collections
 [551]: https://github.com/mysql/mysql-server
-[552]: https://github.com/hexspeakerg/ONLY_ONCE
 [553]: https://github.com/okuvshynov/b63
 [554]: https://github.com/rxi/dyad
 [555]: https://github.com/eerimoq/pbtools
