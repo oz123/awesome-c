@@ -241,6 +241,7 @@ Databases and data stores with C APIs.
 
 * [BerkeleyDB][380] - Library for a high-performance embedded database for
   key-value data. [``AGPL-3.0-only``][AGPL-3.0-only]
+* [EJDB2][568] - Embeddable JSON Database engine. [``MIT``][MIT]
 * [Groonga][524] - Columnar store with full-text search. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [Hiredis][201] - Minimalistic client library for Redis.
   [``BSD-3-Clause``][BSD-3-Clause]
@@ -377,10 +378,10 @@ Engines, libraries and other helpful things specifically for making games.
 
 * [Allegro][48] - Cross-platform, video game development and multimedia
   library. [``Zlib``][Zlib]
-* [AssetKit][570] 🎨 3D asset importer/exporter/util library based on COLLADA/glTF specs [``MIT``][MIT]
+* [AssetKit][571] 🎨 3D asset importer/exporter/util library based on COLLADA/glTF specs [``MIT``][MIT]
 * [cglm][542] - 📽 Optimized OpenGL/Graphics Math (glm) for C. [``MIT``][MIT]
 * [Chipmunk2D][303] - Fast and lightweight 2D game physics library. [``MIT``][MIT]
-* [cmt][569] - 🎮 C Bindings/Wrappers for Apple's METAL Graphics Framework. [``MIT``][MIT]
+* [cmt][570] - 🎮 C Bindings/Wrappers for Apple's METAL Graphics Framework. [``MIT``][MIT]
 * [Corange][101] - Game engine in pure C. [``BSD-2-Clause``][BSD-2-Clause]
 * [CSFML][90] - Binding for [SFML][91]. [``Zlib``][Zlib]
 * [Darkplaces][369] - Modified version of the Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
@@ -420,9 +421,9 @@ Engines, libraries and other helpful things specifically for making games.
 Programmatic manipulation of graphics in C; if you want to make a GUI, the
 Graphical User Interface section has what you need.
 
-* [AssetKit][570] 🎨 3D asset importer/exporter/util library based on COLLADA/glTF specs [``MIT``][MIT]
+* [AssetKit][571] 🎨 3D asset importer/exporter/util library based on COLLADA/glTF specs [``MIT``][MIT]
 * [Cairo][384] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [``MPL-1.1``][385].
-* [cmt][569] - 🎮 C Bindings/Wrappers for Apple's METAL Graphics Framework. [``MIT``][MIT]
+* [cmt][570] - 🎮 C Bindings/Wrappers for Apple's METAL Graphics Framework. [``MIT``][MIT]
 * [giflib][401] - Library for reading and writing gif images. [``MIT``][MIT]
 * [graphene][515] - Thin layer of graphical data types. [``MIT``][MIT]
 * [heman][365] - Tiny library of image utilities dealing with height maps,
@@ -878,7 +879,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 
 * [Expat][89] - Stream-oriented XML parser. [MIT][MIT]
 * [libxml2][62] - Standards-compliant, portable XML parser. [MIT][MIT]
-* [xml][568] - Simple, low-memory-use XML parser / tokenizer. [``MIT``][MIT]
+* [xml][569] - Simple, low-memory-use XML parser / tokenizer. [``MIT``][MIT]
 
 ### YAML ###
 
@@ -1045,7 +1046,6 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   interface. [``BSD-3-Clause``][BSD-3-Clause]
 * [nope.c][209] - Ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [``GPL-2.0-only``][GPL-2.0-only]
-* [ONLY_ONCE][552] - Like Rust's lazy_static, but for C. It's mt-safe, too! [``MIT``][MIT]
 * [parg][274] - A single-file reimplementation of ``getopt`` with better defaults.
   [``CC0-1.0``][CC0-1.0]
 * [pbc][236] - Protocol buffers library. [``MIT``][MIT]
@@ -1215,7 +1215,7 @@ support for C.
 [81]: http://tiny-rex.sourceforge.net/
 [82]: https://github.com/laurikari/tre/
 [83]: http://www.pcre.org/
-[84]: http://users.jyu.fi/~sapekiis/cheat
+[84]: https://github.com/Tuplanolla/cheat
 [85]: http://www.valgrind.org/
 [86]: https://www.gnu.org/software/binutils/
 [87]: https://www.gnu.org/software/gdb/
@@ -1282,7 +1282,7 @@ support for C.
 [148]: http://www.sgi.com/tech/opengl/?/license.html
 [149]: https://github.com/flycheck/flycheck
 [150]: http://joaotavora.github.io/yasnippet/
-[151]: http://valloric.github.io/YouCompleteMe/
+[151]: https://github.com/ycm-core/YouCompleteMe
 [152]: https://sites.google.com/site/lccretargetablecompiler/
 [153]: https://github.com/drh/lcc/blob/master/CPYRIGHT
 [154]: https://github.com/swenson/vector.h
@@ -1306,13 +1306,13 @@ support for C.
 [172]: https://risoflora.github.io/libsagui/
 [173]: https://gnu.org/software/libunistring/
 [174]: https://gnu.org/software/libxmi/
-[175]: http://www.multiprecision.org/index.php?prog=mpc&page=home
+[175]: http://www.multiprecision.org/mpc/
 [176]: http://mpfr.loria.fr/index.html
 [177]: https://gnu.org/software/mpria/
 [178]: https://gnu.org/software/ncurses/
 [179]: https://gnu.org/software/osip/
 [180]: https://gnu.org/software/pth/
-[181]: http://careferencemanual.com/
+[181]: https://savedparadigms.files.wordpress.com/2014/09/harbison-s-p-steele-g-l-c-a-reference-manual-5th-ed.pdf
 [182]: http://shop.oreilly.com/product/9780596004361.do
 [183]: http://shop.oreilly.com/product/0636920026136.do
 [184]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
@@ -1680,7 +1680,6 @@ support for C.
 [549]: https://github.com/LiamBindle/MQTT-C
 [550]: https://github.com/LeoVen/C-Macro-Collections
 [551]: https://github.com/mysql/mysql-server
-[552]: https://github.com/hexspeakerg/ONLY_ONCE
 [553]: https://github.com/okuvshynov/b63
 [554]: https://github.com/rxi/dyad
 [555]: https://github.com/eerimoq/pbtools
@@ -1696,6 +1695,7 @@ support for C.
 [565]: https://github.com/sakhmatd/rogueutil
 [566]: https://github.com/the-tcpdump-group/libpcap
 [567]: http://esbmc.org/
-[568]: https://github.com/recp/xml
-[569]: https://github.com/recp/cmt
-[570]: https://github.com/recp/AssetKit
+[568]: https://ejdb.org/
+[569]: https://github.com/recp/xml
+[570]: https://github.com/recp/cmt
+[571]: https://github.com/recp/AssetKit
