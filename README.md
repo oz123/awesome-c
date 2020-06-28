@@ -1640,7 +1640,7 @@ support for C.
 [508]: http://lz4.github.io/lz4/
 [509]: https://github.com/spotify/sparkey
 [510]: http://facebook.github.io/zstd/
-[511]: http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS
+[511]: https://libvips.github.io/libvips/ 
 [512]: http://whitedb.org/
 [513]: http://paulbatchelor.github.io/proj/soundpipe.html
 [514]: https://github.com/atomicobject/heatshrink
