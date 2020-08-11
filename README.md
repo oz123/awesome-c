@@ -109,6 +109,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 
 * [ccache][466] - Compiler cache designed to speed up recompilation. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Clang][38] - Compiler for LLVM. Supports C11. [``NCSA``][NCSA]
+* [cproc][573] - A C11 compiler using QBE as a backend. [``ISC``][ISC]
 * [distcc][452] - Program that allows builds to be distributed among several
   machines. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [Firm][361] - Library that provides a graph-based intermediate
@@ -1701,3 +1702,4 @@ support for C.
 [570]: https://github.com/recp/cmt
 [571]: https://github.com/recp/AssetKit
 [572]: https://github.com/shiyanhui/libcsp
+[573]: https://git.sr.ht/~mcf/cproc
