@@ -182,6 +182,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [FCFS RWLock][540] - First-come first-served Readers/Writers lock for POSIX threads. [``CC0-1.0``][CC0-1.0]
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for
   C11. [``BSD-3-Clause``][BSD-3-Clause]
+* [libcsp][572] - High performance concurrency C library influenced by the CSP model.
 * [libdill][442] - Library which makes structured concurrent programming
   easy. [``MIT``][MIT]
 * [libhl][478] - Library implementing a thread-safe API to manage a range of data
@@ -1699,3 +1700,4 @@ support for C.
 [569]: https://github.com/recp/xml
 [570]: https://github.com/recp/cmt
 [571]: https://github.com/recp/AssetKit
+[572]: https://github.com/shiyanhui/libcsp
