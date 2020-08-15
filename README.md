@@ -871,7 +871,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 ### Others ###
 
 * [libbson][235] - BSON utility library. [``Apache-2.0``][Apache-2.0]
-* [libcbor][573]: CBOR protocol implementation for C and others  
+* [libcbor][573]: CBOR protocol implementation for C and others. [``MIT``][MIT]
 * [libconfuse][135] - Small configuration file parser library. [``ISC``][ISC]
 * [libelf][310] - Simple library for parsing ELF files. [``MIT``][MIT]
 * [libucl][239] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
