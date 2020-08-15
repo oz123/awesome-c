@@ -109,6 +109,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 
 * [ccache][466] - Compiler cache designed to speed up recompilation. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Clang][38] - Compiler for LLVM. Supports C11. [``NCSA``][NCSA]
+* [cproc][573] - A C11 compiler using QBE as a backend. [``ISC``][ISC]
 * [distcc][452] - Program that allows builds to be distributed among several
   machines. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [Firm][361] - Library that provides a graph-based intermediate
@@ -182,6 +183,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [FCFS RWLock][540] - First-come first-served Readers/Writers lock for POSIX threads. [``CC0-1.0``][CC0-1.0]
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for
   C11. [``BSD-3-Clause``][BSD-3-Clause]
+* [libcsp][572] - High performance concurrency C library influenced by the CSP model. [``MIT``][MIT]
 * [libdill][442] - Library which makes structured concurrent programming
   easy. [``MIT``][MIT]
 * [libhl][478] - Library implementing a thread-safe API to manage a range of data
@@ -1699,3 +1701,5 @@ support for C.
 [569]: https://github.com/recp/xml
 [570]: https://github.com/recp/cmt
 [571]: https://github.com/recp/AssetKit
+[572]: https://github.com/shiyanhui/libcsp
+[573]: https://git.sr.ht/~mcf/cproc
