@@ -109,7 +109,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 
 * [ccache][466] - Compiler cache designed to speed up recompilation. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Clang][38] - Compiler for LLVM. Supports C11. [``NCSA``][NCSA]
-* [cproc][573] - A C11 compiler using QBE as a backend. [``ISC``][ISC]
+* [cproc][574] - A C11 compiler using QBE as a backend. [``ISC``][ISC]
 * [distcc][452] - Program that allows builds to be distributed among several
   machines. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [Firm][361] - Library that provides a graph-based intermediate
@@ -871,6 +871,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 ### Others ###
 
 * [libbson][235] - BSON utility library. [``Apache-2.0``][Apache-2.0]
+* [libcbor][573]: CBOR protocol implementation for C and others. [``MIT``][MIT]
 * [libconfuse][135] - Small configuration file parser library. [``ISC``][ISC]
 * [libelf][310] - Simple library for parsing ELF files. [``MIT``][MIT]
 * [libucl][239] - Universal configuration library parser. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1702,4 +1703,5 @@ support for C.
 [570]: https://github.com/recp/cmt
 [571]: https://github.com/recp/AssetKit
 [572]: https://github.com/shiyanhui/libcsp
-[573]: https://git.sr.ht/~mcf/cproc
+[573]: https://github.com/PJK/libcbor
+[574]: https://git.sr.ht/~mcf/cproc
