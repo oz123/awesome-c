@@ -618,7 +618,7 @@ to do with managing C memory lives here.
   [``LGPL-3.0-only``][LGPL-3.0-only]
 * [libsoundio][372] - Library for cross-platform, real-time audio input and
   output. Has a range of back-ends. [``MIT``][MIT]
-* [libVLC][554] - Complete multimedia library for audio and video
+* [libVLC][556] - Complete multimedia library for audio and video
   encoding, decoding, playing and streaming. [``GPL-2.0-only``][GPL-2.0-only]
 * [lodepng][69] - Simple PNG image decoder and encoder, requiring no other
   dependencies. [``BSD-3-Clause``][BSD-3-Clause]
