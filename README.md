@@ -465,6 +465,8 @@ Widget toolkits, or things meant to be used in a similar way to them.
 * [Tk][19] - Basic widget toolkit. Part of Tcl/Tk. [``TCL``][TCL]
 * [XForms Toolkit][21] - Widget toolkit designed for the XWindow
   system. [``LGPL-2.1-only``][LGPL-2.1-only]
+* [littlevGL][575] - embedded GUI with easy-to-use graphical elements and
+  low memory footprint. [``MIT``][MIT]
 
 ## Hashing ##
 
@@ -1705,3 +1707,4 @@ support for C.
 [572]: https://github.com/shiyanhui/libcsp
 [573]: https://github.com/PJK/libcbor
 [574]: https://git.sr.ht/~mcf/cproc
+[575]: https://littlevgl.com/
