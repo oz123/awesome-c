@@ -465,6 +465,8 @@ Widget toolkits, or things meant to be used in a similar way to them.
 * [Tk][19] - Basic widget toolkit. Part of Tcl/Tk. [``TCL``][TCL]
 * [XForms Toolkit][21] - Widget toolkit designed for the XWindow
   system. [``LGPL-2.1-only``][LGPL-2.1-only]
+* [littlevGL][575] - embedded GUI with easy-to-use graphical elements and
+  low memory footprint. [``MIT``][MIT]
 
 ## Hashing ##
 
@@ -584,7 +586,7 @@ Libraries specifically for lexical analysis (or lexing) and syntactic analysis
 * [hammer][356] - Parser combinators for binary formats.
   [``GPL-2.0-only``][GPL-2.0-only]
 * [mpc][238] - Parser combinator library. [``BSD-2-Clause``][BSD-2-Clause]
-* [owl][575] - A parser generator for visibly pushdown languages. [``MIT``][MIT]
+* [owl][576] - A parser generator for visibly pushdown languages. [``MIT``][MIT]
 * [re2c][34] - Lexer generator, producing fast lexers, with access to its
   internals. Public domain.
 
@@ -1706,4 +1708,5 @@ support for C.
 [572]: https://github.com/shiyanhui/libcsp
 [573]: https://github.com/PJK/libcbor
 [574]: https://git.sr.ht/~mcf/cproc
-[575]: https://github.com/ianh/owl
+[575]: https://littlevgl.com/
+[576]: https://github.com/ianh/owl
