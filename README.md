@@ -586,6 +586,7 @@ Libraries specifically for lexical analysis (or lexing) and syntactic analysis
 * [hammer][356] - Parser combinators for binary formats.
   [``GPL-2.0-only``][GPL-2.0-only]
 * [mpc][238] - Parser combinator library. [``BSD-2-Clause``][BSD-2-Clause]
+* [owl][576] - A parser generator for visibly pushdown languages. [``MIT``][MIT]
 * [re2c][34] - Lexer generator, producing fast lexers, with access to its
   internals. Public domain.
 
@@ -1708,3 +1709,4 @@ support for C.
 [573]: https://github.com/PJK/libcbor
 [574]: https://git.sr.ht/~mcf/cproc
 [575]: https://littlevgl.com/
+[576]: https://github.com/ianh/owl
