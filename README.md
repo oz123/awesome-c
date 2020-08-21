@@ -667,6 +667,8 @@ comprehensive and high-level, you may want the Web Frameworks section.
   email from their applications. Supports multiple To/Cc/Bcc recipients and
   attachments without size limits. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libsagui][172] - Library for cross-platform HTTP servers. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [libuhttpd][577] - A very flexible, lightweight and fully asynchronous HTTP server
+  library based on libev and http-parser for Embedded Linux. [``MIT``][MIT]
 * [LibVNCServer][464] - Cross-platform libraries to implement VNC server and/or
   client functionality. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [libwebsock][261] - Easy-to-use and powerful web socket library.
@@ -1710,3 +1712,4 @@ support for C.
 [574]: https://git.sr.ht/~mcf/cproc
 [575]: https://littlevgl.com/
 [576]: https://github.com/ianh/owl
+[577]: https://github.com/zhaojh329/libuhttpd
