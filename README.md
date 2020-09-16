@@ -682,6 +682,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   [``MIT``][MIT]
 * [oSip][179] - SIP implementation without additional
   dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [silgy][578] - Asynchronous HTTP(S) engine for C/C++ projects. [``MIT``][MIT]
 * [socket99][203] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
 * [uriparser][100] - Strictly RFC 3986-compliant URI parsing and handling library.
@@ -1713,3 +1714,4 @@ support for C.
 [575]: https://littlevgl.com/
 [576]: https://github.com/ianh/owl
 [577]: https://github.com/zhaojh329/libuhttpd
+[578]: https://github.com/silgy/silgy
