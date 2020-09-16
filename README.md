@@ -1055,6 +1055,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   interface. [``BSD-3-Clause``][BSD-3-Clause]
 * [nope.c][209] - Ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [``GPL-2.0-only``][GPL-2.0-only]
+* [obj.h][579] - A single-header supports OOP in pure C. [``MIT``][MIT]
 * [parg][274] - A single-file reimplementation of ``getopt`` with better defaults.
   [``CC0-1.0``][CC0-1.0]
 * [pbc][236] - Protocol buffers library. [``MIT``][MIT]
@@ -1715,3 +1716,4 @@ support for C.
 [576]: https://github.com/ianh/owl
 [577]: https://github.com/zhaojh329/libuhttpd
 [578]: https://github.com/silgy/silgy
+[579]: https://github.com/small-c/obj.h
