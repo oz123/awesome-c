@@ -1,4 +1,5 @@
 # Awesome C #
+//Made Awesome
 
 A curated list of C good stuff. This list contains *only* [open source][13]
 code (as defined by the linked Open Source Definition), and sellers who
