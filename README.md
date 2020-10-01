@@ -345,6 +345,7 @@ elsewhere. Besides, whatever you use most likely supports C anyway.
 * [CodeLite][45] - Cross-platform IDE. [``GPL-2.0-only``][GPL-2.0-only]
 * [Geany][43] - Small and fast IDE. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [KDevelop][44] - KDE IDE. [``GPL-2.0-only``][GPL-2.0-only]
+* [zinjaI][578] - Simple, lightweight and feature-rich IDE. [``GPL-3.0-only``][GPL-3.0-only]
 
 ## Frameworks ##
 
@@ -1713,3 +1714,4 @@ support for C.
 [575]: https://littlevgl.com/
 [576]: https://github.com/ianh/owl
 [577]: https://github.com/zhaojh329/libuhttpd
+[578]: http://zinjai.sourceforge.net/
