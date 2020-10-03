@@ -345,6 +345,7 @@ elsewhere. Besides, whatever you use most likely supports C anyway.
 * [CodeLite][45] - Cross-platform IDE. [``GPL-2.0-only``][GPL-2.0-only]
 * [Geany][43] - Small and fast IDE. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [KDevelop][44] - KDE IDE. [``GPL-2.0-only``][GPL-2.0-only]
+* [zinjaI][578] - Simple, lightweight and feature-rich IDE. [``GPL-3.0-only``][GPL-3.0-only]
 
 ## Frameworks ##
 
@@ -682,7 +683,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   [``MIT``][MIT]
 * [oSip][179] - SIP implementation without additional
   dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [silgy][578] - Asynchronous HTTP(S) engine for C/C++ projects. [``MIT``][MIT]
+* [silgy][579] - Asynchronous HTTP(S) engine for C/C++ projects. [``MIT``][MIT]
 * [socket99][203] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
 * [uriparser][100] - Strictly RFC 3986-compliant URI parsing and handling library.
@@ -1055,7 +1056,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   interface. [``BSD-3-Clause``][BSD-3-Clause]
 * [nope.c][209] - Ultra-light software platform for scalable server-side and
   networking applications (think node.js for C programmers). [``GPL-2.0-only``][GPL-2.0-only]
-* [obj.h][579] - A single-header supports OOP in pure C. [``MIT``][MIT]
+* [obj.h][580] - A single-header supports OOP in pure C. [``MIT``][MIT]
 * [parg][274] - A single-file reimplementation of ``getopt`` with better defaults.
   [``CC0-1.0``][CC0-1.0]
 * [pbc][236] - Protocol buffers library. [``MIT``][MIT]
@@ -1715,5 +1716,6 @@ support for C.
 [575]: https://littlevgl.com/
 [576]: https://github.com/ianh/owl
 [577]: https://github.com/zhaojh329/libuhttpd
-[578]: https://github.com/silgy/silgy
-[579]: https://github.com/small-c/obj.h
+[578]: http://zinjai.sourceforge.net/
+[579]: https://github.com/silgy/silgy
+[580]: https://github.com/small-c/obj.h
