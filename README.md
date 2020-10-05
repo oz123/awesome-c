@@ -1552,7 +1552,7 @@ support for C.
 [408]: https://github.com/vurtun/nuklear
 [409]: https://github.com/blunderer/libroxml
 [410]: https://www.spinellis.gr/cscout/
-[411]: http://liblfds.org/
+[411]: https://liblfds.org/
 [412]: https://codeplea.com/genann
 [413]: https://github.com/cofyc/argparse
 [414]: https://github.com/anholt/libepoxy
