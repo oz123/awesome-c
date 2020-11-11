@@ -91,6 +91,8 @@ Comparing the performance of various subsystems across different chip/system arc
 
 Tools that automate the building and testing of projects in C.
 
+* [Autotools][583] - Also known as the GNU build system (automake, autoconf, libtool...)
+  is one of the most widely used build systems (configure && make). [GPL-1.0-or-later][335]
 * [CMake][329] - Cross-platform family of tools designed to build, package and test
   software. [``BSD-3-Clause``][BSD-3-Clause]
 * [GNU Make][324] - Tool which controls the generation of executables and other
@@ -1729,3 +1731,4 @@ support for C.
 [580]: https://github.com/small-c/obj.h
 [581]: https://github.com/zeromq/libzmq
 [582]: https://www.infradead.org/~tgr/libnl/
+[583]: https://www.gnu.org/software/automake/manual/html_node/GNU-Build-System.html
