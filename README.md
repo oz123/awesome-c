@@ -675,6 +675,10 @@ comprehensive and high-level, you may want the Web Frameworks section.
   client functionality. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [libwebsock][261] - Easy-to-use and powerful web socket library.
   [``LGPL-3.0-only``][LGPL-3.0-only]
+* [libzmq][581] - Core ZeroMQ library, a high-performance asynchronous
+  messaging library, aimed at use in distributed or concurrent applications.
+  C API (backend C++) [``GPL-3.0-or-later``][GPL-3.0-or-later] with static
+  linking exception
 * [lwan][199] - Experimental, scalable, high-performance HTTP
   server. [``GPL-2.0-only``][GPL-2.0-only]
 * [mongoose][171] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
@@ -1719,3 +1723,4 @@ support for C.
 [578]: http://zinjai.sourceforge.net/
 [579]: https://github.com/silgy/silgy
 [580]: https://github.com/small-c/obj.h
+[581]: https://github.com/zeromq/libzmq
