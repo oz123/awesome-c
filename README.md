@@ -662,6 +662,10 @@ comprehensive and high-level, you may want the Web Frameworks section.
   specifications. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [libmicrohttpd][165] - Small library that makes it easy to run an HTTP
   server as part of another application. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [libnl][582] - `libnl` is a collection of libraries to provie APIs to the
+  Netlink protocol (replacement for ioctl). It's primary use is to communicate
+  with the Linux kernel, to modify networking state (interfaces, routing etc...).
+  [``LGPL-2.1-only``][LGPL-2.1-only]
 * [libonion][170] - HTTP server library, designed to be easy to
   use. [``Apache-2.0``][Apache-2.0]
 * [libpcap][566] - API provides to various kernel packet capture mechanism. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1724,3 +1728,4 @@ support for C.
 [579]: https://github.com/silgy/silgy
 [580]: https://github.com/small-c/obj.h
 [581]: https://github.com/zeromq/libzmq
+[582]: https://www.infradead.org/~tgr/libnl/
