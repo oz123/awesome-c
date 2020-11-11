@@ -664,6 +664,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   server as part of another application. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libonion][170] - HTTP server library, designed to be easy to
   use. [``Apache-2.0``][Apache-2.0]
+* [libpcap][566] - API provides to various kernel packet capture mechanism. [``BSD-3-Clause``][BSD-3-Clause]
 * [libquickmail][399] - Library intended to give developers a way to send
   email from their applications. Supports multiple To/Cc/Bcc recipients and
   attachments without size limits. [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -674,6 +675,10 @@ comprehensive and high-level, you may want the Web Frameworks section.
   client functionality. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [libwebsock][261] - Easy-to-use and powerful web socket library.
   [``LGPL-3.0-only``][LGPL-3.0-only]
+* [libzmq][581] - Core ZeroMQ library, a high-performance asynchronous
+  messaging library, aimed at use in distributed or concurrent applications.
+  C API (backend C++) [``GPL-3.0-or-later``][GPL-3.0-or-later] with static
+  linking exception
 * [lwan][199] - Experimental, scalable, high-performance HTTP
   server. [``GPL-2.0-only``][GPL-2.0-only]
 * [mongoose][171] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
@@ -691,7 +696,6 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [Wslay][460] - WebSocket library. Implements version 13 of the WebSocket
   protocol, as described in RFC 6455. [``MIT``][MIT]
 * [zyre][419] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
-* [libpcap][566] - API provides to various kernel packet capture mechanism. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Numerical ##
 
@@ -1719,3 +1723,4 @@ support for C.
 [578]: http://zinjai.sourceforge.net/
 [579]: https://github.com/silgy/silgy
 [580]: https://github.com/small-c/obj.h
+[581]: https://github.com/zeromq/libzmq
