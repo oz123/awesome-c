@@ -280,6 +280,8 @@ Databases and data stores with C APIs.
 * [kdtree][337] - Simple library for working with KD-trees. [``BSD-3-Clause``][BSD-3-Clause]
 * [libavl][156] - Library containing a range of self-balancing binary
   trees. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [libcdada][585] - A small, portable, MACRO-less library for basic data structures
+  (list, set, map, queue...) in C (C++ backend). [``BSD-2-Clause``][BSD-2-Clause]
 * [liblfds][411] - Portable lock-free data structure library. Public domain
   (more exactly, whatever license you want).
 * [libsrt][305] - Soft and hard real-time data structures.
@@ -1735,3 +1737,4 @@ support for C.
 [582]: https://www.infradead.org/~tgr/libnl/
 [583]: https://www.gnu.org/software/automake/manual/html_node/GNU-Build-System.html
 [584]: https://github.com/msune/autotools-skeleton
+[585]: https://msune.github.io/libcdada/
