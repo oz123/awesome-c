@@ -664,6 +664,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   server as part of another application. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libonion][170] - HTTP server library, designed to be easy to
   use. [``Apache-2.0``][Apache-2.0]
+* [libpcap][566] - API provides to various kernel packet capture mechanism. [``BSD-3-Clause``][BSD-3-Clause]
 * [libquickmail][399] - Library intended to give developers a way to send
   email from their applications. Supports multiple To/Cc/Bcc recipients and
   attachments without size limits. [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -691,7 +692,6 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [Wslay][460] - WebSocket library. Implements version 13 of the WebSocket
   protocol, as described in RFC 6455. [``MIT``][MIT]
 * [zyre][419] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
-* [libpcap][566] - API provides to various kernel packet capture mechanism. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Numerical ##
 
