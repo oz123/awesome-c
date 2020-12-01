@@ -142,6 +142,7 @@ Compilers, as well as compiler- and compilation-related tooling.
   real-time systems. [``ISC``][ISC]
 * [fast\_zlib][533] - Improved zlib, which runs 2 to 10 times faster.
   [``BSD-3-Clause``][BSD-3-Clause]
+* [fastLZ][586] - Lightning-fast lossless compression library (LZ77 type). Embbedable on small target like ARM Cortex-M families. Source code directly embbedable on your project ( a pair of h/c files), no dynamic memory allocation. [``MIT``][MIT]
 * [huffandpuff][214] - Minimal Huffman encoder and decoder. Public domain.
 * [libbzip2][427] - Patent-free, high-quality data compression
   library. [``BSD-4-Clause``][BSD-4-Clause]
@@ -1738,3 +1739,4 @@ support for C.
 [583]: https://www.gnu.org/software/automake/manual/html_node/GNU-Build-System.html
 [584]: https://github.com/msune/autotools-skeleton
 [585]: https://msune.github.io/libcdada/
+[586]: https://github.com/ariya/fastlz
