@@ -171,6 +171,8 @@ Compilers, as well as compiler- and compilation-related tooling.
   library. [``BSD-3-Clause``][BSD-3-Clause]
 * [libarchive][548] - libarchive is a portable, efficient C library that can read and write streaming archives in a variety of formats.
   [``BSD-3-Clause``][BSD-3-Clause]
+* [libzip][587] - C library for reading, creating and modifying zip archives.
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [zlib-ng][1] - Zlib replacement with optimizations for 'next-generation'
   systems. [``BSD-3-Clause``][BSD-3-Clause]
 * [Zstandard][510] - Fast, lossless compression algorithm, targeting real-time
@@ -1740,3 +1742,4 @@ support for C.
 [584]: https://github.com/msune/autotools-skeleton
 [585]: https://msune.github.io/libcdada/
 [586]: https://github.com/ariya/fastlz
+[587]: https://libzip.org
