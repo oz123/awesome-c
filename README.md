@@ -855,6 +855,7 @@ Implementations of the (standard-mandated) C standard library.
   simpler way, but one that is compatible with normal C string
   functions. Available via [clib][26]. [``BSD-2-Clause``][BSD-2-Clause]
 * [stmr.c][383] - [Porter Stemmer][367] algorithm implementation. [``MIT``][MIT]
+* [str][587] - Yet another string library for C language. [``BSD-3-Clause``][BSD-3-Clause]
 * [utf8.h][472] - Single-header UTF-8 library, designed to mimic C-style string
   functions. Public domain.
 * [utf8proc][469] - Library for processing UTF-8 data. [``MIT``][MIT]
@@ -1740,3 +1741,4 @@ support for C.
 [584]: https://github.com/msune/autotools-skeleton
 [585]: https://msune.github.io/libcdada/
 [586]: https://github.com/ariya/fastlz
+[587]: https://github.com/maxim2266/str
