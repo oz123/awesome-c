@@ -381,7 +381,8 @@ Big libraries that provide data structures and other stuff you expect of a
   GLib while focusing on being small and light. [``BSD-2-Clause``][BSD-2-Clause]
 * [TBOX][398] - Multi-platform library with a large number of
   capabilities. [``Apache-2.0``][Apache-2.0]
-
+* [plibsys][588] - Cross-platform system C library. Zero third-party dependencies, uses only native system calls. [``MIT``][MIT]
+  
 ## Game Programming ##
 
 Engines, libraries and other helpful things specifically for making games.
@@ -1742,3 +1743,4 @@ support for C.
 [585]: https://msune.github.io/libcdada/
 [586]: https://github.com/ariya/fastlz
 [587]: https://github.com/maxim2266/str
+[588]: https://github.com/saprykin/plibsys
