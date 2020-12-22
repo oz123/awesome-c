@@ -323,7 +323,7 @@ work.
   debuggers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [debug][467] - One-header library for easier 'printf debugging'.
   [``MIT``][MIT]
-* [ESBMC][567] - Efficient SMT-based Bounded Model Checker; a tool for verification of 
+* [ESBMC][567] - Efficient SMT-based Bounded Model Checker; a tool for verification of
    single and multithread programs, user assertions, overflow, and pointer/memory safety. [``Apache-2.0``][Apache-2.0]
 * [GDB][87] - GNU Project debugger. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [lldb][468] - LLVM debugger. [``NCSA``][NCSA]
@@ -382,7 +382,7 @@ Big libraries that provide data structures and other stuff you expect of a
 * [TBOX][398] - Multi-platform library with a large number of
   capabilities. [``Apache-2.0``][Apache-2.0]
 * [plibsys][588] - Cross-platform system C library. Zero third-party dependencies, uses only native system calls. [``MIT``][MIT]
-  
+
 ## Game Programming ##
 
 Engines, libraries and other helpful things specifically for making games.
@@ -1066,6 +1066,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   dependencies (not even regexps). [``WTFPL``][WTFPL]
 * [linenoise][504] - Small, self-contained alternative to readline and
   libedit. [``BSD-2-Clause``][BSD-2-Clause]
+* [libXDGdirs][589] - An implementation of XDG Base Directory Specification
+  [``MIT``][MIT]
 * [MegaMimes][31] - Library for getting the [MIME][30] types of a file.
   [``MIT``][MIT]
 * [ncurses][178] - Coloured terminal UI library. [``MIT``][MIT]
@@ -1081,7 +1083,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
 * [Ragel][54] - DSL for state machines that compiles to C. [``GPL-2.0-only``][GPL-2.0-only]
-* [Rogueutil][565] - Cross-platform library for creating text-based user 
+* [Rogueutil][565] - Cross-platform library for creating text-based user
   interfaces (TUI) [``Apache-2.0``][Apache-2.0]
 * [sort][190] - Collection of sorting routines, which type-specialize at
   compile-time with a user-defined type. [``MIT``][MIT]
@@ -1383,7 +1385,7 @@ support for C.
 [221]: https://github.com/id-Software/Quake-2
 [222]: http://www.etpan.org
 [223]: https://github.com/commonmark/commonmark-spec
-[224]: https://github.com/commonmark/commonmark-spec/blob/master/LICENSE 
+[224]: https://github.com/commonmark/commonmark-spec/blob/master/LICENSE
 [225]: https://github.com/id-Software/Quake
 [226]: http://czmq.zeromq.org
 [227]: https://marek.vavrusa.com/memory/
@@ -1668,7 +1670,7 @@ support for C.
 [508]: http://lz4.github.io/lz4/
 [509]: https://github.com/spotify/sparkey
 [510]: http://facebook.github.io/zstd/
-[511]: https://libvips.github.io/libvips/ 
+[511]: https://libvips.github.io/libvips/
 [512]: http://whitedb.org/
 [513]: http://paulbatchelor.github.io/proj/soundpipe.html
 [514]: https://github.com/atomicobject/heatshrink
@@ -1744,3 +1746,4 @@ support for C.
 [586]: https://github.com/ariya/fastlz
 [587]: https://github.com/maxim2266/str
 [588]: https://github.com/saprykin/plibsys
+[589]: https://github.com/Jorengarenar/libXDGdirs
