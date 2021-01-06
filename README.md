@@ -1747,3 +1747,4 @@ support for C.
 [587]: https://github.com/maxim2266/str
 [588]: https://github.com/saprykin/plibsys
 [589]: https://github.com/Jorengarenar/libXDGdirs
+[590]: https://github.com/sammycage/plutovg
