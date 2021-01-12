@@ -461,6 +461,7 @@ Graphical User Interface section has what you need.
   UI and visualizations. [``Zlib``][Zlib]
 * [OpenGL][147] - Industry standard for high-performance graphics, with a
   native C binding. [Various licenses][148].
+* [PlutoVG][590] - A standalone 2D vector graphics library in C [``MIT``][MIT]
 
 ## Graphical User Interface ##
 
