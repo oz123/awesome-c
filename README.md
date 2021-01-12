@@ -27,6 +27,7 @@ CONTRIBUTING.md first.
 * [Debugging](#debugging)
 * [Documentation Generation](#documentation-generation)
 * [Editors](#editors)
+* [Embedable Scripting Engines](#embedable-scripting-engines)
 * [Frameworks](#frameworks)
 * [Game Programming](#game-programming)
 * [Graphics](#graphics)
@@ -353,6 +354,12 @@ elsewhere. Besides, whatever you use most likely supports C anyway.
 * [Geany][43] - Small and fast IDE. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [KDevelop][44] - KDE IDE. [``GPL-2.0-only``][GPL-2.0-only]
 * [zinjaI][578] - Simple, lightweight and feature-rich IDE. [``GPL-3.0-only``][GPL-3.0-only]
+
+## Embeddable Scripting Engines
+
+When C isn't the right solution, or when you need a more dynamic configration engine:
+
+* [Duktape][591] - Embeddable Javascript engine with a focus on portability and compact footprint [``MIT``][MIT].
 
 ## Frameworks ##
 
@@ -1749,3 +1756,4 @@ support for C.
 [588]: https://github.com/saprykin/plibsys
 [589]: https://github.com/Jorengarenar/libXDGdirs
 [590]: https://github.com/sammycage/plutovg
+[591]: https://duktape.org/
