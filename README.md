@@ -27,7 +27,7 @@ CONTRIBUTING.md first.
 * [Debugging](#debugging)
 * [Documentation Generation](#documentation-generation)
 * [Editors](#editors)
-* [Embedable Scripting Engines](#embedable-scripting-engines)
+* [Embeddable Scripting Engines](#embeddable-scripting-engines)
 * [Frameworks](#frameworks)
 * [Game Programming](#game-programming)
 * [Graphics](#graphics)
