@@ -1105,6 +1105,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   file system. [``WTFPL``][WTFPL]
 * [XLSX I/O][344] - Cross-platform library for reading and writing .xlsx
   files. [``MIT``][MIT]
+* [xlsx_drone][592] - Fast Microsoft Excel's *.xlsx reader. [``MIT``][MIT]  
 * [zlog][437] - Reliable, pure C logging library.
   [``LGPL-2.1-only``][LGPL-2.1-only]
 * [zproto][421] - Protocol framework for ZeroMQ. [``MIT``][MIT]
@@ -1757,3 +1758,4 @@ support for C.
 [589]: https://github.com/Jorengarenar/libXDGdirs
 [590]: https://github.com/sammycage/plutovg
 [591]: https://duktape.org/
+[592]: https://github.com/damian-m-g/xlsx_drone
