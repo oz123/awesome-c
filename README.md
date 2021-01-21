@@ -996,6 +996,7 @@ libraries or compilers.
 * [include-what-you-use][289] - Helps find unecessary inclusions and make
   suggestions for fixing them. Based on LLVM/Clang (and only works with
   it). [``NCSA``][NCSA]
+* [incbin][] - Include binary files in your C/C++ applications with ease [``Unlicense License``][Unlicense License]
 * [indent][315] - Formats C source code automatically to make it easier to
   read. Also converts from one style of source to another. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [SMACK][500] - Modular software verification toolchain and a self-contained
@@ -1757,3 +1758,4 @@ support for C.
 [589]: https://github.com/Jorengarenar/libXDGdirs
 [590]: https://github.com/sammycage/plutovg
 [591]: https://duktape.org/
+[592]: https://github.com/graphitemaster/incbin
