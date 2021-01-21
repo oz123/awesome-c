@@ -145,6 +145,8 @@ Compilers, as well as compiler- and compilation-related tooling.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [fastLZ][586] - Lightning-fast lossless compression library (LZ77 type). Embbedable on small target like ARM Cortex-M families. Source code directly embbedable on your project ( a pair of h/c files), no dynamic memory allocation. [``MIT``][MIT]
 * [huffandpuff][214] - Minimal Huffman encoder and decoder. Public domain.
+* [libzip][587] - C library for reading, creating and modifying zip archives.
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [libbzip2][427] - Patent-free, high-quality data compression
   library. [``BSD-4-Clause``][BSD-4-Clause]
 * [Lizard][489] - Formerly LZ5; an efficient compressor with fast
@@ -1759,3 +1761,4 @@ support for C.
 [590]: https://github.com/sammycage/plutovg
 [591]: https://duktape.org/
 [592]: https://github.com/graphitemaster/incbin
+[593]: https://libzip.org
