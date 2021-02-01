@@ -399,6 +399,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [Allegro][48] - Cross-platform, video game development and multimedia
   library. [``Zlib``][Zlib]
 * [AssetKit][571] 🎨 3D asset importer/exporter/util library based on COLLADA/glTF specs [``MIT``][MIT]
+* [astera][594] - C99 Cross Platform 2D Game Library  [``MIT``][MIT]
 * [cglm][542] - 📽 Optimized OpenGL/Graphics Math (glm) for C. [``MIT``][MIT]
 * [Chipmunk2D][303] - Fast and lightweight 2D game physics library. [``MIT``][MIT]
 * [cmt][570] - 🎮 C Bindings/Wrappers for Apple's METAL Graphics Framework. [``MIT``][MIT]
@@ -1762,3 +1763,4 @@ support for C.
 [591]: https://duktape.org/
 [592]: https://github.com/graphitemaster/incbin
 [593]: https://libzip.org
+[594]: https://github.com/tek256/astera
