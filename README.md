@@ -527,6 +527,7 @@ to C programming.
 * [A tutorial on pointers][213]
 * [A tutorial on portable Makefiles][528]
 * [Building C Projects][208]
+* [C by Example][595]
 * [C Programming Wikibook][248]
 * [Introduction to \`fun' C][279]
 * [Learning C with GDB][349]
@@ -1764,3 +1765,4 @@ support for C.
 [592]: https://github.com/graphitemaster/incbin
 [593]: https://libzip.org
 [594]: https://github.com/tek256/astera
+[595]: https://www.cbyexample.com/
