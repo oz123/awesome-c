@@ -386,11 +386,12 @@ Big libraries that provide data structures and other stuff you expect of a
   string manipulation and logging. [``BSD-3-Clause``][BSD-3-Clause]
 * [PBL][346] - Large library of utilities, featuring data structures, among
   other things. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [plibsys][588] - Cross-platform system C library. Zero third-party dependencies, uses only native system calls. [``MIT``][MIT]
 * [qlibc][277] - Simple and powerful library, designed as a replacement for
   GLib while focusing on being small and light. [``BSD-2-Clause``][BSD-2-Clause]
+* [sc][595] - Common libraries and data structures for C. [``MIT``][MIT]
 * [TBOX][398] - Multi-platform library with a large number of
   capabilities. [``Apache-2.0``][Apache-2.0]
-* [plibsys][588] - Cross-platform system C library. Zero third-party dependencies, uses only native system calls. [``MIT``][MIT]
 
 ## Game Programming ##
 
@@ -1764,3 +1765,4 @@ support for C.
 [592]: https://github.com/graphitemaster/incbin
 [593]: https://libzip.org
 [594]: https://github.com/tek256/astera
+[595]: https://github.com/tezc/sc
