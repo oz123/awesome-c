@@ -145,6 +145,8 @@ Compilers, as well as compiler- and compilation-related tooling.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [fastLZ][586] - Lightning-fast lossless compression library (LZ77 type). Embbedable on small target like ARM Cortex-M families. Source code directly embbedable on your project ( a pair of h/c files), no dynamic memory allocation. [``MIT``][MIT]
 * [huffandpuff][214] - Minimal Huffman encoder and decoder. Public domain.
+* [libzip][587] - C library for reading, creating and modifying zip archives.
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [libbzip2][427] - Patent-free, high-quality data compression
   library. [``BSD-4-Clause``][BSD-4-Clause]
 * [Lizard][489] - Formerly LZ5; an efficient compressor with fast
@@ -384,11 +386,12 @@ Big libraries that provide data structures and other stuff you expect of a
   string manipulation and logging. [``BSD-3-Clause``][BSD-3-Clause]
 * [PBL][346] - Large library of utilities, featuring data structures, among
   other things. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [plibsys][588] - Cross-platform system C library. Zero third-party dependencies, uses only native system calls. [``MIT``][MIT]
 * [qlibc][277] - Simple and powerful library, designed as a replacement for
   GLib while focusing on being small and light. [``BSD-2-Clause``][BSD-2-Clause]
+* [sc][595] - Common libraries and data structures for C. [``MIT``][MIT]
 * [TBOX][398] - Multi-platform library with a large number of
   capabilities. [``Apache-2.0``][Apache-2.0]
-* [plibsys][588] - Cross-platform system C library. Zero third-party dependencies, uses only native system calls. [``MIT``][MIT]
 
 ## Game Programming ##
 
@@ -397,6 +400,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [Allegro][48] - Cross-platform, video game development and multimedia
   library. [``Zlib``][Zlib]
 * [AssetKit][571] 🎨 3D asset importer/exporter/util library based on COLLADA/glTF specs [``MIT``][MIT]
+* [astera][594] - C99 Cross Platform 2D Game Library  [``MIT``][MIT]
 * [cglm][542] - 📽 Optimized OpenGL/Graphics Math (glm) for C. [``MIT``][MIT]
 * [Chipmunk2D][303] - Fast and lightweight 2D game physics library. [``MIT``][MIT]
 * [cmt][570] - 🎮 C Bindings/Wrappers for Apple's METAL Graphics Framework. [``MIT``][MIT]
@@ -996,6 +1000,7 @@ libraries or compilers.
 * [include-what-you-use][289] - Helps find unecessary inclusions and make
   suggestions for fixing them. Based on LLVM/Clang (and only works with
   it). [``NCSA``][NCSA]
+* [incbin][] - Include binary files in your C/C++ applications with ease [``Unlicense License``][Unlicense License]
 * [indent][315] - Formats C source code automatically to make it easier to
   read. Also converts from one style of source to another. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [SMACK][500] - Modular software verification toolchain and a self-contained
@@ -1758,4 +1763,8 @@ support for C.
 [589]: https://github.com/Jorengarenar/libXDGdirs
 [590]: https://github.com/sammycage/plutovg
 [591]: https://duktape.org/
-[592]: https://github.com/damian-m-g/xlsx_drone
+[592]: https://github.com/graphitemaster/incbin
+[593]: https://libzip.org
+[594]: https://github.com/tek256/astera
+[595]: https://github.com/tezc/sc
+[596]: https://github.com/damian-m-g/xlsx_drone
