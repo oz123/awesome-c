@@ -1110,6 +1110,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   file system. [``WTFPL``][WTFPL]
 * [XLSX I/O][344] - Cross-platform library for reading and writing .xlsx
   files. [``MIT``][MIT]
+* [xlsx_drone][596] - Fast Microsoft Excel's *.xlsx reader. [``MIT``][MIT]  
 * [zlog][437] - Reliable, pure C logging library.
   [``LGPL-2.1-only``][LGPL-2.1-only]
 * [zproto][421] - Protocol framework for ZeroMQ. [``MIT``][MIT]
@@ -1766,3 +1767,4 @@ support for C.
 [593]: https://libzip.org
 [594]: https://github.com/tek256/astera
 [595]: https://github.com/tezc/sc
+[596]: https://github.com/damian-m-g/xlsx_drone
