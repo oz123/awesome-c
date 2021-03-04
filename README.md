@@ -1025,6 +1025,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   FreeBSD systems. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [CException][298] - Implementation of exceptions. [``MIT``][MIT]
 * [CommonMark][223] - Implementation of the CommonMark spec.
+* [cosmopolitan][597] - fast portable static native textmode containers (build C programs for Linux\Mac\Windows in one go)
   [Variety of licenses, all open source][224].
 * [cpu\_features][319] - Get CPU features at runtime. [``Apache-2.0``][Apache-2.0].
 * [CRIU][440] - Checkpoint/Restore In Userspace; a software tool (with a C API)
@@ -1768,3 +1769,4 @@ support for C.
 [594]: https://github.com/tek256/astera
 [595]: https://github.com/tezc/sc
 [596]: https://github.com/damian-m-g/xlsx_drone
+[597]: https://github.com/jart/cosmopolitan
