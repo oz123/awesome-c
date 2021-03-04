@@ -1045,6 +1045,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Hoedown][405] - Fully standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [``MIT``][MIT]
+* [IP2Trace][597] - A traceroute tools that displaying geolocation information using 
+  IP2Location database. [``MIT``][MIT]
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
   updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [libCello][96] - Library introducing higher-level programming to
@@ -1768,3 +1770,4 @@ support for C.
 [594]: https://github.com/tek256/astera
 [595]: https://github.com/tezc/sc
 [596]: https://github.com/damian-m-g/xlsx_drone
+[597]: https://github.com/ip2location/ip2location-traceroute
