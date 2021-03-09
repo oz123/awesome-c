@@ -244,6 +244,8 @@ protocols.
   several cryptographic ones. [``MIT``][MIT]
 * [trezor-crypto][485] - Heavily optimized crypto algorithms for embedded
   devices. [``MIT``][MIT]
+* [bfish][598] - A single include C99 Blowfish ECB crypto library. Public
+  domain.
 
 ## Database ##
 
@@ -1770,3 +1772,4 @@ support for C.
 [595]: https://github.com/tezc/sc
 [596]: https://github.com/damian-m-g/xlsx_drone
 [597]: https://github.com/jart/cosmopolitan
+[598]: https://github.com/cjwagenius/bfish
