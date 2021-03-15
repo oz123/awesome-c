@@ -470,6 +470,7 @@ Graphical User Interface section has what you need.
   graphics. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [lightmapper][444] - Single-file library for lightmap baking, using an
   existing OpenGL renderer. Public domain.
+* [little CMS][600] - A Color Management System. It provides fast transforms between ICC profiles.  [``MIT``][MIT]
 * [mozjpeg][200] - Improved JPEG encoder. [``BSD-3-Clause``][BSD-3-Clause]
 * [nanovg][505] - Anti-aliased 2D vector drawing library on top of OpenGL, for
   UI and visualizations. [``Zlib``][Zlib]
@@ -1775,3 +1776,4 @@ support for C.
 [597]: https://github.com/jart/cosmopolitan
 [598]: https://github.com/cjwagenius/bfish
 [599]: https://github.com/hnes/libaco
+[600]: www.littlecms.com
