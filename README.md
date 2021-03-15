@@ -189,6 +189,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and
   non-blocking data structures. [``BSD-2-Clause``][BSD-2-Clause]
 * [FCFS RWLock][540] - First-come first-served Readers/Writers lock for POSIX threads. [``CC0-1.0``][CC0-1.0]
+* [Libaco][599] - A blazing fast and lightweight C asymmetric coroutine library. [``Apache-2.0``][Apache-2.0]
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for
   C11. [``BSD-3-Clause``][BSD-3-Clause]
 * [libcsp][572] - High performance concurrency C library influenced by the CSP model. [``MIT``][MIT]
@@ -1773,3 +1774,4 @@ support for C.
 [596]: https://github.com/damian-m-g/xlsx_drone
 [597]: https://github.com/jart/cosmopolitan
 [598]: https://github.com/cjwagenius/bfish
+[599]: https://github.com/hnes/libaco
