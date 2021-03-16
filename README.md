@@ -1587,7 +1587,7 @@ support for C.
 [405]: https://github.com/hoedown/hoedown
 [406]: https://github.com/srdja/Collections-C
 [407]: https://github.com/Juniper/libxo
-[408]: https://github.com/vurtun/nuklear
+[408]: https://github.com/Immediate-Mode-UI/Nuklear
 [409]: https://github.com/blunderer/libroxml
 [410]: https://www.spinellis.gr/cscout/
 [411]: https://liblfds.org/
