@@ -477,6 +477,7 @@ Graphical User Interface section has what you need.
 * [OpenGL][147] - Industry standard for high-performance graphics, with a
   native C binding. [Various licenses][148].
 * [PlutoVG][590] - A standalone 2D vector graphics library in C [``MIT``][MIT]
+* [SAIL][601] - ⛵ The missing small and fast image decoding library for humans (not for machines) [``MIT``][MIT]
 
 ## Graphical User Interface ##
 
@@ -1777,3 +1778,4 @@ support for C.
 [598]: https://github.com/cjwagenius/bfish
 [599]: https://github.com/hnes/libaco
 [600]: www.littlecms.com
+[601]: https://github.com/smoked-herring/sail
