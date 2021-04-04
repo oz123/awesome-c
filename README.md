@@ -930,6 +930,11 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 
 * [libYAML][341] - YAML 1.1 parser and emitter. [``MIT``][MIT]
 
+## Signal Processing ##
+
+* [libsigrok][601] -  signal analysis software suite that supports various
+device types (such as logic analyzers, oscilloscopes, multimeters, and more). [``GPL``][GPL]
+
 ## Testing ##
 
 * [CHEAT][84] - Simple unit testing framework. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1780,4 +1785,5 @@ support for C.
 [599]: https://github.com/hnes/libaco
 [600]: www.littlecms.com
 [601]: https://github.com/smoked-herring/sail
+[601]: https://sigrok.org/wiki/Libsigrok
 [602]: https://github.com/zpl-c/zpl
