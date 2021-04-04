@@ -839,6 +839,7 @@ the Frameworks section.
 * [stb][114] - Range of single-file libraries. Public domain.
 * [tinyheaders][108] - Collection of header-only libraries, primarily oriented
   toward game development. [``Zlib``][Zlib]
+* [zpl][602] - C99 cross-platform header-only library with many goodies. [``BSD-3-Clause``, ``Unlicense``][BSD-3-Clause, Unlicense]
 
 ## Standard Libraries ##
 
@@ -1779,3 +1780,4 @@ support for C.
 [599]: https://github.com/hnes/libaco
 [600]: www.littlecms.com
 [601]: https://github.com/smoked-herring/sail
+[602]: https://github.com/zpl-c/zpl
