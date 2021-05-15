@@ -1126,6 +1126,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [zlog][437] - Reliable, pure C logging library.
   [``LGPL-2.1-only``][LGPL-2.1-only]
 * [zproto][421] - Protocol framework for ZeroMQ. [``MIT``][MIT]
+* [Metalang99][603] - Full-blown preprocessor metaprogramming. [``MIT``][MIT]
+* [Datatype99][604] - Algebraic data types for C99. [``MIT``][MIT]
 
 ## Web Frameworks ##
 
@@ -1787,3 +1789,5 @@ support for C.
 [601]: https://github.com/smoked-herring/sail
 [601]: https://sigrok.org/wiki/Libsigrok
 [602]: https://github.com/zpl-c/zpl
+[603]: https://github.com/Hirrolot/metalang99
+[604]: https://github.com/Hirrolot/datatype99
