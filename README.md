@@ -1546,7 +1546,7 @@ support for C.
 [355]: http://kitsune-dsu.com/
 [356]: https://github.com/abiggerhammer/hammer
 [357]: http://250bpm.com/blog:56
-[358]: http://www.samnip.ps/thought/macro-storage-for-inverse-comma
+[358]: https://web.archive.org/web/20170429175803/http://www.samnip.ps/thought/macro-storage-for-inverse-comma
 [359]: https://github.com/awslabs/s2n
 [360]: https://github.com/wooorm/levenshtein.c
 [361]: https://pp.ipd.kit.edu/firm/
