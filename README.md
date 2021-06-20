@@ -542,6 +542,8 @@ to C programming.
 * [The GNU C Programming Tutorial][212] (online PDF)
 * [Templating in C][267]
 * [What a C programmer should know about memory][227]
+* [CodeforWin: Learn C Programming, Data Structures Tutorials and Exercises online][605]
+* [Learn C: Free and Open-Source Interactive C Tutorial][606]
 
 ### Intermediate resources online ###
 
@@ -1791,3 +1793,5 @@ support for C.
 [602]: https://github.com/zpl-c/zpl
 [603]: https://github.com/Hirrolot/metalang99
 [604]: https://github.com/Hirrolot/datatype99
+[605]: https://codeforwin.org/2015/09/singly-linked-list-data-structure-in-c.html
+[606]: https://www.learn-c.org
