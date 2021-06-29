@@ -955,6 +955,8 @@ device types (such as logic analyzers, oscilloscopes, multimeters, and more). [`
 * [munit][392] - Small unit testing framework. [``MIT``][MIT]
 * [Nala][560] - A test framework for C projects. [``MIT``][MIT]
 * [Rexo][563] - Framework for C89/C++ featuring automatic registration of tests and a polished API. [``Unlicense``][Unlicense]
+* [Tau][607] -  A Micro Unit testing framework for C/C++ (~1k lines of code). Includes a rich set of assertion macros, supports automatic test 
+registration and can output to multiple formats, like the TAP format or JUnit XML. Supported on Linux, macOS, FreeBSD, and Windows. [``MIT``][MIT]
 * [theft][302] - Property-based testing (similar to [Quickcheck][301]). [``MIT``][MIT]
 * [Unity][296] - Simple unit testing framework. [``MIT``][MIT]
 * [utest][386] - Single-header unit testing library. [``Unlicense``][Unlicense]
@@ -1795,3 +1797,4 @@ support for C.
 [604]: https://github.com/Hirrolot/datatype99
 [605]: https://codeforwin.org/2015/09/singly-linked-list-data-structure-in-c.html
 [606]: https://www.learn-c.org
+[607]: https://github.com/jasmcaus/tau
