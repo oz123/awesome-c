@@ -1796,4 +1796,4 @@ support for C.
 [604]: https://github.com/Hirrolot/datatype99
 [605]: https://codeforwin.org/2015/09/singly-linked-list-data-structure-in-c.html
 [606]: https://www.learn-c.org
-[607]: https://dev.to/hirrolot/compiling-algebraic-data-types-in-pure-c99-5225
+[607]: https://hirrolot.github.io/posts/compiling-algebraic-data-types-in-pure-c99.html
