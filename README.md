@@ -572,6 +572,7 @@ to C programming.
 * [Solving the temporary storage problem of C macros][358]
 * [Some dark corners of C][210]
 * [Writing efficient C and C code optimization][33]
+* [Compiling Algebraic Data Types in Pure C99][607]
 
 ### Online self-study courses ###
 
@@ -1795,3 +1796,4 @@ support for C.
 [604]: https://github.com/Hirrolot/datatype99
 [605]: https://codeforwin.org/2015/09/singly-linked-list-data-structure-in-c.html
 [606]: https://www.learn-c.org
+[607]: https://dev.to/hirrolot/compiling-algebraic-data-types-in-pure-c99-5225
