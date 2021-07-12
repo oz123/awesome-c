@@ -365,6 +365,7 @@ elsewhere. Besides, whatever you use most likely supports C anyway.
 When C isn't the right solution, or when you need a more dynamic configration engine:
 
 * [Duktape][591] - Embeddable Javascript engine with a focus on portability and compact footprint [``MIT``][MIT].
+* [MetaCall][607] - Cross-platform Polyglot Runtime which supports NodeJS, JavaScript, TypeScript, Python, Ruby, C#, Wasm, Java, Cobol and more. [``Apache-2.0``][Apache-2.0]
 
 ## Frameworks ##
 
@@ -1795,3 +1796,4 @@ support for C.
 [604]: https://github.com/Hirrolot/datatype99
 [605]: https://codeforwin.org/2015/09/singly-linked-list-data-structure-in-c.html
 [606]: https://www.learn-c.org
+[607]: https://github.com/metacall/core
