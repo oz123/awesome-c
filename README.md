@@ -1111,6 +1111,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
 * [Ragel][54] - DSL for state machines that compiles to C. [``GPL-2.0-only``][GPL-2.0-only]
+* [Redshift][608] - Utility that adjusts screen color temperature. [`` GPL-3.0-only``][GPL-2.0-only]
 * [Rogueutil][565] - Cross-platform library for creating text-based user
   interfaces (TUI) [``Apache-2.0``][Apache-2.0]
 * [sort][190] - Collection of sorting routines, which type-specialize at
@@ -1797,3 +1798,4 @@ support for C.
 [605]: https://codeforwin.org/2015/09/singly-linked-list-data-structure-in-c.html
 [606]: https://www.learn-c.org
 [607]: https://github.com/metacall/core
+[608]: https://github.com/jonls/redshift
