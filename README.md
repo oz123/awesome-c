@@ -898,7 +898,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
   dependencies. [``MIT``][MIT]
 * [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
 * [json][39] - Simple, low-memory-use JSON parser. [``MIT``][MIT]
-* [json.c][8] - Easily work with JSON in C. Comes with a reference-counted object
+* [json-c][8] - Easily work with JSON in C. Comes with a reference-counted object
   model, and aims for conformance with [RFC 7159][11]. [``MIT``][MIT]
 * [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
 * [parson][32] - Two-file, C89-compatible JSON parser. [``MIT``][MIT]
