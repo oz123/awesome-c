@@ -365,6 +365,7 @@ elsewhere. Besides, whatever you use most likely supports C anyway.
 When C isn't the right solution, or when you need a more dynamic configration engine:
 
 * [Duktape][591] - Embeddable Javascript engine with a focus on portability and compact footprint [``MIT``][MIT].
+* [MetaCall][607] - Cross-platform Polyglot Runtime which supports NodeJS, JavaScript, TypeScript, Python, Ruby, C#, Wasm, Java, Cobol and more. [``Apache-2.0``][Apache-2.0]
 
 ## Frameworks ##
 
@@ -572,6 +573,7 @@ to C programming.
 * [Solving the temporary storage problem of C macros][358]
 * [Some dark corners of C][210]
 * [Writing efficient C and C code optimization][33]
+* [Compiling Algebraic Data Types in Pure C99][608]
 
 ### Online self-study courses ###
 
@@ -896,7 +898,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
   dependencies. [``MIT``][MIT]
 * [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
 * [json][39] - Simple, low-memory-use JSON parser. [``MIT``][MIT]
-* [json.c][8] - Easily work with JSON in C. Comes with a reference-counted object
+* [json-c][8] - Easily work with JSON in C. Comes with a reference-counted object
   model, and aims for conformance with [RFC 7159][11]. [``MIT``][MIT]
 * [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
 * [parson][32] - Two-file, C89-compatible JSON parser. [``MIT``][MIT]
@@ -955,7 +957,7 @@ device types (such as logic analyzers, oscilloscopes, multimeters, and more). [`
 * [munit][392] - Small unit testing framework. [``MIT``][MIT]
 * [Nala][560] - A test framework for C projects. [``MIT``][MIT]
 * [Rexo][563] - Framework for C89/C++ featuring automatic registration of tests and a polished API. [``Unlicense``][Unlicense]
-* [Tau][607] -  A Micro Unit testing framework for C/C++ (~1k lines of code). Includes a rich set of assertion macros, supports automatic test 
+* [Tau][609] -  A Micro Unit testing framework for C/C++ (~1k lines of code). Includes a rich set of assertion macros, supports automatic test 
 registration and can output to multiple formats, like the TAP format or JUnit XML. Supported on Linux, macOS, FreeBSD, and Windows. [``MIT``][MIT]
 * [theft][302] - Property-based testing (similar to [Quickcheck][301]). [``MIT``][MIT]
 * [Unity][296] - Simple unit testing framework. [``MIT``][MIT]
@@ -1797,4 +1799,6 @@ support for C.
 [604]: https://github.com/Hirrolot/datatype99
 [605]: https://codeforwin.org/2015/09/singly-linked-list-data-structure-in-c.html
 [606]: https://www.learn-c.org
-[607]: https://github.com/jasmcaus/tau
+[607]: https://github.com/metacall/core
+[608]: https://hirrolot.github.io/posts/compiling-algebraic-data-types-in-pure-c99.html
+[609]: https://github.com/jasmcaus/tau
