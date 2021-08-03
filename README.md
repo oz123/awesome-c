@@ -81,6 +81,7 @@ Basically, if your university calls it AI, it lives here.
 * [Genann][412] - Simple ANN in C89, without additional dependencies. [``Zlib``][Zlib]
 * [KANN][327] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
+* [m2cgen][610] - A CLI tool to transpile trained classic ML models into a native C code with zero dependencies. [``MIT``][MIT]
 
 ## Benchmarking ##
 
@@ -1802,3 +1803,4 @@ support for C.
 [607]: https://github.com/metacall/core
 [608]: https://hirrolot.github.io/posts/compiling-algebraic-data-types-in-pure-c99.html
 [609]: https://github.com/jasmcaus/tau
+[610]: https://github.com/BayesWitnesses/m2cgen
