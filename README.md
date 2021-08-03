@@ -82,6 +82,7 @@ Basically, if your university calls it AI, it lives here.
 * [KANN][327] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 * [m2cgen][610] - A CLI tool to transpile trained classic ML models into a native C code with zero dependencies. [``MIT``][MIT]
+* [sod][611] -  An Embedded Computer Vision & Machine Learning Library [``GPL-3``][GPL-3]
 
 ## Benchmarking ##
 
@@ -1804,3 +1805,4 @@ support for C.
 [608]: https://hirrolot.github.io/posts/compiling-algebraic-data-types-in-pure-c99.html
 [609]: https://github.com/jasmcaus/tau
 [610]: https://github.com/BayesWitnesses/m2cgen
+[611]: https://sod.pixlab.io/
