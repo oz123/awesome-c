@@ -379,6 +379,7 @@ Big libraries that provide data structures and other stuff you expect of a
 * [C Algorithms][88] - Collection of common algorithms and data structures. [``ISC``][ISC]
 * [CPL][308] - The Common Pipeline Library; a set of libraries designed to be a
   comprehensive, efficient and robust software toolkit.
+* [cpy][] - C implementation of the methods of Python, very helpful for beginners in C.
   [``GPL-2.0-only``][GPL-2.0-only]
 * [EFL][119] - Large collection of useful data structures and
   functions. Various licenses, all open source.
