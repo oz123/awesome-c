@@ -378,8 +378,8 @@ Big libraries that provide data structures and other stuff you expect of a
   functions. [``Apache-2.0``][Apache-2.0]
 * [C Algorithms][88] - Collection of common algorithms and data structures. [``ISC``][ISC]
 * [CPL][308] - The Common Pipeline Library; a set of libraries designed to be a
-  comprehensive, efficient and robust software toolkit.
-  [``GPL-2.0-only``][GPL-2.0-only]
+  comprehensive, efficient and robust software toolkit. [``GPL-2.0-only``][GPL-2.0-only]
+* [cpy][612] - Implementation of the methods & data structures of Python for scripting in C - easy to read and understand. [``MIT``][MIT]
 * [EFL][119] - Large collection of useful data structures and
   functions. Various licenses, all open source.
 * [klib][76] - Small and lightweight implementations of common algorithms and
@@ -1806,3 +1806,4 @@ support for C.
 [609]: https://github.com/jasmcaus/tau
 [610]: https://github.com/BayesWitnesses/m2cgen
 [611]: https://sod.pixlab.io/
+[612]: https://github.com/midnqp/cpy
