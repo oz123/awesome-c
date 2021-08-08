@@ -305,6 +305,7 @@ Databases and data stores with C APIs.
   any desired width. Has a SIMD-optimized implementation. [``WTFPL``][WTFPL]
 * [rb3ptr][561] - Red-Black tree. Exposes almost all implementation primitives, so can be used for
   scenarios like augmentation, multiple compatible ordering functions, and more. [``MIT``][MIT]
+* [ringbuf][612] - General-purpose LIFO indexable ring buffer geared toward logging. [``MIT``][MIT]
 * [uthash][273] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
 * [vector.h][154] - Header library for typed lists. [``MIT``][MIT]
 
@@ -1806,3 +1807,4 @@ support for C.
 [609]: https://github.com/jasmcaus/tau
 [610]: https://github.com/BayesWitnesses/m2cgen
 [611]: https://sod.pixlab.io/
+[612]: https://github.com/aschuhardt/ringbuf
