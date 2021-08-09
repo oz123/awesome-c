@@ -1043,7 +1043,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Caffeine][496] - Library for building daemons and services for Linux and
   FreeBSD systems. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [CException][298] - Implementation of exceptions. [``MIT``][MIT]
-* [ceval](https://github.com/erstan/ceval) - Library for parsing and evaluation of math expressions. [``MIT``][MIT]
+* [ceval][612] - Library for parsing and evaluation of math expressions. [``MIT``][MIT]
 * [CommonMark][223] - Implementation of the CommonMark spec.
 * [cosmopolitan][597] - fast portable static native textmode containers (build C programs for Linux\Mac\Windows in one go)
   [Variety of licenses, all open source][224].
@@ -1807,3 +1807,4 @@ support for C.
 [609]: https://github.com/jasmcaus/tau
 [610]: https://github.com/BayesWitnesses/m2cgen
 [611]: https://sod.pixlab.io/
+[612]: https://github.com/erstan/ceval
