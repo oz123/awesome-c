@@ -789,6 +789,10 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [perf][375] - Linux kernel-based profiler with a lot of functionality.
   [``GPL-2.0-only``][GPL-2.0-only]
 
+## PDF ##
+
+* [pdfio][612] - PDFio is a simple C library for reading and writing PDF files.[``Apache-2.0``][Apache-2.0]
+
 ## Regex ##
 
 * [Onigmo][518] - Fork of Oniguruma, supporting more advanced regexps.
@@ -1806,3 +1810,4 @@ support for C.
 [609]: https://github.com/jasmcaus/tau
 [610]: https://github.com/BayesWitnesses/m2cgen
 [611]: https://sod.pixlab.io/
+[612]: https://github.com/michaelrsweet/pdfio
