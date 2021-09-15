@@ -606,6 +606,7 @@ to C programming.
 
 * [Expert C Programming: Deep C Secrets][55] - Interesting, in-depth and
   entertaining look at the innards of C.
+* [Functional Programming in C#, Second Edition][613] - Real world examples and practical techniques for functional programming in C#.
 
 ## Lexing and Parsing ##
 
@@ -1811,3 +1812,4 @@ support for C.
 [610]: https://github.com/BayesWitnesses/m2cgen
 [611]: https://sod.pixlab.io/
 [612]: https://github.com/michaelrsweet/pdfio
+[613]: https://www.manning.com/books/functional-programming-in-c-sharp-second-edition
