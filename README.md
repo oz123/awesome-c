@@ -447,7 +447,7 @@ Engines, libraries and other helpful things specifically for making games.
 ## Graphics ##
 
 Programmatic manipulation of graphics in C; if you want to make a GUI, the
-Graphical User Interface section has what you need.
+[Graphical User Interface](#graphical-user-interface) section has what you need.
 
 * [AssetKit][571] 🎨 3D asset importer/exporter/util library based on COLLADA/glTF specs [``MIT``][MIT]
 * [Cairo][384] - 2D graphics library. [``LGPL-2.1-only``][LGPL-2.1-only] or [``MPL-1.1``][385].
