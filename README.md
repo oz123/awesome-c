@@ -632,7 +632,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [gumbo-parser][196] - HTML5 parsing library in C99.
   [``Apache-2.0``][Apache-2.0]
 * [H20][127] - A new-generation HTTP server. [``MIT``][MIT]
-* [http-parser][197] - HTTP request/response parser. [``MIT``][MIT]
+* [llhttp][197] - HTTP request/response parser. [``MIT``][MIT]
 * [ldns][339] - Library to simplify DNS programming.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [libcurl][65] - Client-side URL transfer library, supporting a wide range of
@@ -1315,7 +1315,7 @@ support for C.
 [194]: https://www.libjpeg-turbo.org/About/License
 [195]: http://libccv.org/
 [196]: https://github.com/google/gumbo-parser
-[197]: https://github.com/joyent/http-parser
+[197]: https://llhttp.org
 [198]: https://download.libsodium.org/doc
 [199]: https://lwan.ws
 [200]: https://github.com/mozilla/mozjpeg
