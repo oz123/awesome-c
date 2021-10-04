@@ -1165,7 +1165,6 @@ support for C.
 [44]: https://www.kdevelop.org/
 [45]: https://www.codelite.org/
 [46]: https://www.gnu.org/software/gnulib/
-[47]: https://www.gnu.org/software/gsl/
 [48]: https://liballeg.org
 [47]: https://github.com/vasi/pixz
 [50]: https://www.libsdl.org/
