@@ -587,6 +587,7 @@ to C programming.
 * [C in a Nutshell 2E][418] - Concise reference book for C11.
 * [C Pocket Reference][182] - Concise reference book for C99.
 * [The C Programming Language 2E][7] - Original book on C, by its creators.
+* [Tiny C Projects][614] - 21 tiny challenges to master essential C techniques you’ll use in full-size applications.
 
 ### Beginner books ###
 
@@ -1813,3 +1814,4 @@ support for C.
 [611]: https://sod.pixlab.io/
 [612]: https://github.com/michaelrsweet/pdfio
 [613]: https://www.manning.com/books/functional-programming-in-c-sharp-second-edition
+[614]: https://www.manning.com/books/tiny-c-projects
