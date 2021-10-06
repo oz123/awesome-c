@@ -1706,7 +1706,7 @@ support for C.
 [504]: https://github.com/antirez/linenoise
 [505]: https://github.com/memononen/nanovg
 [506]: https://github.com/centaurean/density
-[507]: https://maciejczyzewski.github.io/retter/
+[507]: https://maciejczyzewski.github.io/retter
 [508]: http://lz4.github.io/lz4/
 [509]: https://github.com/spotify/sparkey
 [510]: http://facebook.github.io/zstd/
