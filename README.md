@@ -1525,7 +1525,7 @@ support for C.
 [322]: https://hplgit.github.io/doconce/doc/web/index.html
 [323]: http://fabutil.org/
 [324]: https://www.gnu.org/software/make/
-[325]: http://leenissen.dk/fann/wp/
+[325]: https://github.com/libfann/fann
 [326]: https://github.com/centaurean/spookyhash
 [327]: https://github.com/attractivechaos/kann
 [328]: https://glade.gnome.org/
