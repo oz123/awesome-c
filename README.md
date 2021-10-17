@@ -81,6 +81,8 @@ Basically, if your university calls it AI, it lives here.
 * [Genann][412] - Simple ANN in C89, without additional dependencies. [``Zlib``][Zlib]
 * [KANN][327] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
+* [m2cgen][610] - A CLI tool to transpile trained classic ML models into a native C code with zero dependencies. [``MIT``][MIT]
+* [sod][611] -  An Embedded Computer Vision & Machine Learning Library [``GPL-3``][GPL-3]
 
 ## Benchmarking ##
 
@@ -281,6 +283,8 @@ Databases and data stores with C APIs.
 * [CLIST][371] - Simple and lightweight [dynamic array][25] implementation.
   [``BSD-2-Clause``][BSD-2-Clause]
 * [Collections-C][406] - Library of generic data structures. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [CTL][613] - CTL is a fast compiling, type safe, header only, template-like
+  container library for ISO C99/C11 (improved fork of https://github.com/glouw/ctl). [``MIT``][MIT]
 * [ds][541] - Common Data Structures and Algorithms. [``MIT``][MIT]
 * [igraph][544] - A graph processing library.
   [``GPL-2.0-or-later``][GPL-2.0-or-later]
@@ -365,6 +369,7 @@ elsewhere. Besides, whatever you use most likely supports C anyway.
 When C isn't the right solution, or when you need a more dynamic configration engine:
 
 * [Duktape][591] - Embeddable Javascript engine with a focus on portability and compact footprint [``MIT``][MIT].
+* [MetaCall][607] - Cross-platform Polyglot Runtime which supports NodeJS, JavaScript, TypeScript, Python, Ruby, C#, Wasm, Java, Cobol and more. [``Apache-2.0``][Apache-2.0]
 
 ## Frameworks ##
 
@@ -491,8 +496,8 @@ Widget toolkits, or things meant to be used in a similar way to them.
 * [Tk][19] - Basic widget toolkit. Part of Tcl/Tk. [``TCL``][TCL]
 * [XForms Toolkit][21] - Widget toolkit designed for the XWindow
   system. [``LGPL-2.1-only``][LGPL-2.1-only]
-* [littlevGL][575] - embedded GUI with easy-to-use graphical elements and
-  low memory footprint. [``MIT``][MIT]
+* [LVGL][575] - embedded GUI with easy-to-use graphical elements, beautiful visuals and
+  a low memory footprint. [``MIT``][MIT]
 
 ## Hashing ##
 
@@ -542,6 +547,8 @@ to C programming.
 * [The GNU C Programming Tutorial][212] (online PDF)
 * [Templating in C][267]
 * [What a C programmer should know about memory][227]
+* [CodeforWin: Learn C Programming, Data Structures Tutorials and Exercises online][605]
+* [Learn C: Free and Open-Source Interactive C Tutorial][606]
 
 ### Intermediate resources online ###
 
@@ -570,6 +577,7 @@ to C programming.
 * [Solving the temporary storage problem of C macros][358]
 * [Some dark corners of C][210]
 * [Writing efficient C and C code optimization][33]
+* [Compiling Algebraic Data Types in Pure C99][608]
 
 ### Online self-study courses ###
 
@@ -671,7 +679,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [gumbo-parser][196] - HTML5 parsing library in C99.
   [``Apache-2.0``][Apache-2.0]
 * [H20][127] - A new-generation HTTP server. [``MIT``][MIT]
-* [http-parser][197] - HTTP request/response parser. [``MIT``][MIT]
+* [llhttp][197] - HTTP request/response parser. [``MIT``][MIT]
 * [ldns][339] - Library to simplify DNS programming.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [libcurl][65] - Client-side URL transfer library, supporting a wide range of
@@ -782,6 +790,10 @@ comprehensive and high-level, you may want the Web Frameworks section.
   (including the kernel!) with low overhead and without recompilation. [``GPL-2.0-only``][GPL-2.0-only]
 * [perf][375] - Linux kernel-based profiler with a lot of functionality.
   [``GPL-2.0-only``][GPL-2.0-only]
+
+## PDF ##
+
+* [pdfio][612] - PDFio is a simple C library for reading and writing PDF files.[``Apache-2.0``][Apache-2.0]
 
 ## Regex ##
 
@@ -894,7 +906,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
   dependencies. [``MIT``][MIT]
 * [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
 * [json][39] - Simple, low-memory-use JSON parser. [``MIT``][MIT]
-* [json.c][8] - Easily work with JSON in C. Comes with a reference-counted object
+* [json-c][8] - Easily work with JSON in C. Comes with a reference-counted object
   model, and aims for conformance with [RFC 7159][11]. [``MIT``][MIT]
 * [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
 * [parson][32] - Two-file, C89-compatible JSON parser. [``MIT``][MIT]
@@ -953,6 +965,8 @@ device types (such as logic analyzers, oscilloscopes, multimeters, and more). [`
 * [munit][392] - Small unit testing framework. [``MIT``][MIT]
 * [Nala][560] - A test framework for C projects. [``MIT``][MIT]
 * [Rexo][563] - Framework for C89/C++ featuring automatic registration of tests and a polished API. [``Unlicense``][Unlicense]
+* [Tau][609] -  A Micro Unit testing framework for C/C++ (~1k lines of code). Includes a rich set of assertion macros, supports automatic test 
+registration and can output to multiple formats, like the TAP format or JUnit XML. Supported on Linux, macOS, FreeBSD, and Windows. [``MIT``][MIT]
 * [theft][302] - Property-based testing (similar to [Quickcheck][301]). [``MIT``][MIT]
 * [Unity][296] - Simple unit testing framework. [``MIT``][MIT]
 * [utest][386] - Single-header unit testing library. [``Unlicense``][Unlicense]
@@ -1126,6 +1140,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [zlog][437] - Reliable, pure C logging library.
   [``LGPL-2.1-only``][LGPL-2.1-only]
 * [zproto][421] - Protocol framework for ZeroMQ. [``MIT``][MIT]
+* [Metalang99][603] - Full-blown preprocessor metaprogramming. [``MIT``][MIT]
+* [Datatype99][604] - Algebraic data types for C99. [``MIT``][MIT]
 
 ## Web Frameworks ##
 
@@ -1384,7 +1400,7 @@ support for C.
 [194]: https://www.libjpeg-turbo.org/About/License
 [195]: http://libccv.org/
 [196]: https://github.com/google/gumbo-parser
-[197]: https://github.com/joyent/http-parser
+[197]: https://llhttp.org
 [198]: https://download.libsodium.org/doc
 [199]: https://lwan.ws
 [200]: https://github.com/mozilla/mozjpeg
@@ -1511,7 +1527,7 @@ support for C.
 [322]: https://hplgit.github.io/doconce/doc/web/index.html
 [323]: http://fabutil.org/
 [324]: https://www.gnu.org/software/make/
-[325]: http://leenissen.dk/fann/wp/
+[325]: https://github.com/libfann/fann
 [326]: https://github.com/centaurean/spookyhash
 [327]: https://github.com/attractivechaos/kann
 [328]: https://glade.gnome.org/
@@ -1544,7 +1560,7 @@ support for C.
 [355]: http://kitsune-dsu.com/
 [356]: https://github.com/abiggerhammer/hammer
 [357]: http://250bpm.com/blog:56
-[358]: http://www.samnip.ps/thought/macro-storage-for-inverse-comma
+[358]: https://web.archive.org/web/20170429175803/http://www.samnip.ps/thought/macro-storage-for-inverse-comma
 [359]: https://github.com/awslabs/s2n
 [360]: https://github.com/wooorm/levenshtein.c
 [361]: https://pp.ipd.kit.edu/firm/
@@ -1692,7 +1708,7 @@ support for C.
 [504]: https://github.com/antirez/linenoise
 [505]: https://github.com/memononen/nanovg
 [506]: https://github.com/centaurean/density
-[507]: https://maciejczyzewski.github.io/retter/
+[507]: https://maciejczyzewski.github.io/retter
 [508]: http://lz4.github.io/lz4/
 [509]: https://github.com/spotify/sparkey
 [510]: http://facebook.github.io/zstd/
@@ -1758,7 +1774,7 @@ support for C.
 [572]: https://github.com/shiyanhui/libcsp
 [573]: https://github.com/PJK/libcbor
 [574]: https://git.sr.ht/~mcf/cproc
-[575]: https://littlevgl.com/
+[575]: https://lvgl.io/
 [576]: https://github.com/ianh/owl
 [577]: https://github.com/zhaojh329/libuhttpd
 [578]: http://zinjai.sourceforge.net/
@@ -1787,3 +1803,14 @@ support for C.
 [601]: https://github.com/smoked-herring/sail
 [601]: https://sigrok.org/wiki/Libsigrok
 [602]: https://github.com/zpl-c/zpl
+[603]: https://github.com/Hirrolot/metalang99
+[604]: https://github.com/Hirrolot/datatype99
+[605]: https://codeforwin.org/2015/09/singly-linked-list-data-structure-in-c.html
+[606]: https://www.learn-c.org
+[607]: https://github.com/metacall/core
+[608]: https://hirrolot.github.io/posts/compiling-algebraic-data-types-in-pure-c99.html
+[609]: https://github.com/jasmcaus/tau
+[610]: https://github.com/BayesWitnesses/m2cgen
+[611]: https://sod.pixlab.io/
+[612]: https://github.com/michaelrsweet/pdfio
+[613]: https://github.com/rurban/ctl
