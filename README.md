@@ -53,6 +53,7 @@ CONTRIBUTING.md first.
 * [Serialization](#serialization)
 * [Source Code Collections](#source-code-collections)
 * [Standard Libraries](#standard-libraries)
+  * [Template Libraries](#template-libraries)
 * [String Manipulation](#string-manipulation)
 * [Structured File Processing](#structured-file-processing)
 	* [CSV](#csv)
@@ -496,6 +497,7 @@ Widget toolkits, or things meant to be used in a similar way to them.
   system. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [LVGL][575] - embedded GUI with easy-to-use graphical elements, beautiful visuals and
   a low memory footprint. [``MIT``][MIT]
+* [luigi][614] - A barebones single-header GUI library for Win32, X11 and Essence. [``MIT``][MIT]
 
 ## Hashing ##
 
@@ -868,6 +870,10 @@ Implementations of the (standard-mandated) C standard library.
   C11. [``CC0-1.0``][CC0-1.0]
 * [uClibc-ng][12] - Small C library for developing embedded systems.
   [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+
+### Template libraries
+
+* [CTL][613] - C CONTAINER TEMPLATE LIBRARY (CTL) [``MIT``][MIT]
 
 ## String Manipulation ##
 
@@ -1811,3 +1817,5 @@ support for C.
 [610]: https://github.com/BayesWitnesses/m2cgen
 [611]: https://sod.pixlab.io/
 [612]: https://github.com/michaelrsweet/pdfio
+[613]: https://github.com/rurban/ctl
+[614]: https://github.com/nakst/luigi
