@@ -623,6 +623,7 @@ Libraries specifically for lexical analysis (or lexing) and syntactic analysis
 * [owl][576] - A parser generator for visibly pushdown languages. [``MIT``][MIT]
 * [re2c][34] - Lexer generator, producing fast lexers, with access to its
   internals. Public domain.
+* [jsonparser_c][615] - A powerful json parser for C. [``MIT``][MIT]
 
 ## Memory Management ##
 
@@ -1819,3 +1820,4 @@ support for C.
 [612]: https://github.com/michaelrsweet/pdfio
 [613]: https://github.com/rurban/ctl
 [614]: https://github.com/nakst/luigi
+[615]: https://github.com/SBTopZZZ-LG/jsonparser_c
