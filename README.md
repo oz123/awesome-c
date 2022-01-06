@@ -644,6 +644,9 @@ to do with managing C memory lives here.
 * [tlsf][531] - Two-Level Segregated Fit allocator; a general-purpose, dynamic
   memory allocator designed to meet real-time requirements. [Up-to-date
   implementation][532]. [``BSD-3-Clause``][BSD-3-Clause]
+* [buddy_alloc][615] - Buddy allocator with predictable storage and runtime costs,
+  designed to supplement the system's allocator. Complete line+branch test coverage,
+  resizeable arenas, rellocatable arenas and so on. [``0BSD``][0BSD]
 
 ## Multimedia ##
 
@@ -1179,6 +1182,7 @@ support for C.
 [AGPL-3.0-only]: https://spdx.org/licenses/AGPL-3.0-only.html
 [AGPL-3.0-or-later]: https://spdx.org/licenses/AGPL-3.0-or-later.html
 [Apache-2.0]: https://spdx.org/licenses/Apache-2.0.html
+[0BSD]: https://spdx.org/licenses/0BSD.html
 [BSD-1-Clause]: https://spdx.org/licenses/BSD-1-Clause.html
 [BSD-2-Clause]: https://spdx.org/licenses/BSD-2-Clause.html
 [BSD-3-Clause]: https://spdx.org/licenses/BSD-3-Clause.html
@@ -1819,3 +1823,4 @@ support for C.
 [612]: https://github.com/michaelrsweet/pdfio
 [613]: https://github.com/rurban/ctl
 [614]: https://github.com/nakst/luigi
+[615]: https://github.com/spaskalev/buddy_alloc
