@@ -1029,7 +1029,7 @@ libraries or compilers.
 * [include-what-you-use][289] - Helps find unecessary inclusions and make
   suggestions for fixing them. Based on LLVM/Clang (and only works with
   it). [``NCSA``][NCSA]
-* [incbin][] - Include binary files in your C/C++ applications with ease [``Unlicense License``][Unlicense License]
+* [incbin][592] - Include binary files in your C/C++ applications with ease [``Unlicense``][Unlicense]
 * [indent][315] - Formats C source code automatically to make it easier to
   read. Also converts from one style of source to another. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [SMACK][500] - Modular software verification toolchain and a self-contained
