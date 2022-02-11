@@ -662,6 +662,8 @@ to do with managing C memory lives here.
 * [lodepng][69] - Simple PNG image decoder and encoder, requiring no other
   dependencies. [``BSD-3-Clause``][BSD-3-Clause]
 * [minimp3][536] - Lightweight MP3 decoder single header library. [``CC0-1.0``][CC0-1.0]
+* [OpenAL][615] - Cross-platform three-dimensional positional audio library.
+  Standard (no license applicable)
 * [Soundpipe][513] - Lightweight music DSP library. [``MIT``][MIT]
 
 ## Networking and Internet ##
@@ -1819,3 +1821,4 @@ support for C.
 [612]: https://github.com/michaelrsweet/pdfio
 [613]: https://github.com/rurban/ctl
 [614]: https://github.com/nakst/luigi
+[615]: http://openal.org
