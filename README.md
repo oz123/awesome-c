@@ -673,7 +673,6 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [CHL][422] - C Hypertext Library - A library for writing web applications in
   C. [``GPL-3.0-only``][GPL-3.0-only]
 * [czmq][226] - High-level binding for ZeroMQ. [``MPL-2.0``][MPL-2.0]
-* [Dyad.c][554] - Lightweight, easy, asynchronous networking library. [``MIT``][MIT]
 * [GNU adns][155] - Advanced, easy-to-use, asynch-capable DNS client library
   and utilities. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [gumbo-parser][196] - HTML5 parsing library in C99.
@@ -1757,7 +1756,6 @@ support for C.
 [550]: https://github.com/LeoVen/C-Macro-Collections
 [551]: https://github.com/mysql/mysql-server
 [553]: https://github.com/okuvshynov/b63
-[554]: https://github.com/rxi/dyad
 [555]: https://github.com/eerimoq/pbtools
 [556]: https://wiki.videolan.org/LibVLC
 [557]: https://github.com/SanderMertens/flecs
