@@ -779,6 +779,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [TomsFastMath][462] - Set of optimized maths operations (in assembly),
   suitable for cryptographic use. Public domain.
 * [Yeppp!][72] - Fast, SIMD-optimized mathematical library. [``BSD-3-Clause``][BSD-3-Clause]
+* [filter-c][615] - Fast, easy-to-use signal processing library to perform `high-pass`, `low-pass`, `band-pass`, `band-stop` filtering with Butterworth and Chebyshev. [``MIT``][MIT]
 
 ## Profiling ##
 
@@ -1819,3 +1820,4 @@ support for C.
 [612]: https://github.com/michaelrsweet/pdfio
 [613]: https://github.com/rurban/ctl
 [614]: https://github.com/nakst/luigi
+[615]: https://github.com/adis300/filter-c
