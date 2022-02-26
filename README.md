@@ -429,6 +429,7 @@ Engines, libraries and other helpful things specifically for making games.
   outputs. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [librg][558] - Pure C99 game networking library for building simple and elegant cross-platform multiplayer client-server solutions. [``Apache-2.0``][Apache-2.0]
 * [MATHC][534] - Math library for 2D and 3D programming. [``ZLib``][Zlib]
+* [mel][615] - A crossplatform OpenGL game framework written in C with focus on stability and speed. [``MIT``][MIT]
 * [Orx][370] - Portable, lightweight, plugin-based, data-driven, 2D-oriented
   game engine. [``Zlib``][Zlib]
 * [Quake][225] - Quake engine. [``GPL-2.0-only``][GPL-2.0-only]
@@ -1819,3 +1820,4 @@ support for C.
 [612]: https://github.com/michaelrsweet/pdfio
 [613]: https://github.com/rurban/ctl
 [614]: https://github.com/nakst/luigi
+[615]: https://shadowwlol.github.io/mel/
