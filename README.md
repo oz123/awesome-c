@@ -1632,7 +1632,7 @@ support for C.
 [423]: http://www.koanlogic.com/klone/
 [425]: http://savannah.nongnu.org/projects/attr/
 [426]: https://sourceforge.net/projects/tinyfiledialogs/
-[427]: http://www.bzip.org/
+[427]: https://www.sourceware.org/bzip2
 [428]: http://msys2.github.io/
 [429]: http://www.libsigil.com/
 [430]: https://www.freedesktop.org/wiki/Software/dbus/
