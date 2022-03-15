@@ -1429,7 +1429,7 @@ support for C.
 [219]: https://github.com/blunderer/libroxml
 [220]: https://github.com/DanielGibson/Snippets/
 [221]: https://github.com/id-Software/Quake-2
-[222]: http://www.etpan.org
+[222]: http://www.etpan.org/libetpan.html
 [223]: https://github.com/commonmark/commonmark-spec
 [224]: https://github.com/commonmark/commonmark-spec/blob/master/LICENSE
 [225]: https://github.com/id-Software/Quake
