@@ -549,6 +549,7 @@ to C programming.
 * [What a C programmer should know about memory][227]
 * [CodeforWin: Learn C Programming, Data Structures Tutorials and Exercises online][605]
 * [Learn C: Free and Open-Source Interactive C Tutorial][606]
+* [How to program a text adventure in C][615]
 
 ### Intermediate resources online ###
 
@@ -1819,3 +1820,4 @@ support for C.
 [612]: https://github.com/michaelrsweet/pdfio
 [613]: https://github.com/rurban/ctl
 [614]: https://github.com/nakst/luigi
+[615]: https://github.com/helderman/htpataic
