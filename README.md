@@ -489,6 +489,7 @@ Widget toolkits, or things meant to be used in a similar way to them.
 
 * [GTK+][14] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [IUP][16] - Another cross-platform widget toolkit. [``MIT``][MIT]
+* [microui][616] - Tiny immediate-mode UI library written in portable ANSI C. [```MIT```][MIT]
 * [nuklear][408] - Small, C89, single-header widget toolkit. Public domain.
 * [tinyfiledialogs][426] - Single-file library for simple dialogs. Compatible
   with many other toolkits and OSes. [``Zlib``][Zlib]
@@ -1821,3 +1822,4 @@ support for C.
 [613]: https://github.com/rurban/ctl
 [614]: https://github.com/nakst/luigi
 [615]: https://github.com/helderman/htpataic
+[616]: https://github.com/rxi/microui
