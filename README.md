@@ -912,6 +912,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
   dependencies. [``MIT``][MIT]
 * [jsmn][120] - Minimalistic JSON parser. [``MIT``][MIT]
 * [json][39] - Simple, low-memory-use JSON parser. [``MIT``][MIT]
+* [json-build][617] - C89 tiny zero-allocation JSON serializer. [``MIT``][MIT]
 * [json-c][8] - Easily work with JSON in C. Comes with a reference-counted object
   model, and aims for conformance with [RFC 7159][11]. [``MIT``][MIT]
 * [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
@@ -1154,6 +1155,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 Comprehensive and integrated solutions for building the next brilliant web
 application in C.
 
+* [Concord][618] - A Discord API wrapper library written in C. [``MIT``][MIT]
 * [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
   Websocket server, and also supports custom protocols. [``MIT``][MIT]
 * [kcgi][562] - CGI and FastCGI library for C [``ISC``][ISC].
@@ -1823,3 +1825,5 @@ support for C.
 [614]: https://github.com/nakst/luigi
 [615]: https://github.com/helderman/htpataic
 [616]: https://github.com/rxi/microui
+[617]: https://github.com/lcsmuller/json-build
+[618]: https://github.com/Cogmasters/concord
