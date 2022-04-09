@@ -1077,6 +1077,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Hoedown][405] - Fully standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [``MIT``][MIT]
+* [iLOG3][617] - Standard C logging function library, portable and easy to use, high performance, multiple interfaces, native cross-platform, thread safety. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
   updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [libCello][96] - Library introducing higher-level programming to
@@ -1823,3 +1824,4 @@ support for C.
 [614]: https://github.com/nakst/luigi
 [615]: https://github.com/helderman/htpataic
 [616]: https://github.com/rxi/microui
+[617]: https://github.com/calvinwilliams/iLOG3
