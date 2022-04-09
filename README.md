@@ -489,6 +489,7 @@ Widget toolkits, or things meant to be used in a similar way to them.
 
 * [GTK+][14] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [IUP][16] - Another cross-platform widget toolkit. [``MIT``][MIT]
+* [microui][616] - Tiny immediate-mode UI library written in portable ANSI C. [```MIT```][MIT]
 * [nuklear][408] - Small, C89, single-header widget toolkit. Public domain.
 * [tinyfiledialogs][426] - Single-file library for simple dialogs. Compatible
   with many other toolkits and OSes. [``Zlib``][Zlib]
@@ -549,6 +550,7 @@ to C programming.
 * [What a C programmer should know about memory][227]
 * [CodeforWin: Learn C Programming, Data Structures Tutorials and Exercises online][605]
 * [Learn C: Free and Open-Source Interactive C Tutorial][606]
+* [How to program a text adventure in C][615]
 
 ### Intermediate resources online ###
 
@@ -1075,7 +1077,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Hoedown][405] - Fully standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [``MIT``][MIT]
-* [iLOG3][615] - Standard C logging function library, portable and easy to use, high performance, multiple interfaces, native cross-platform, thread safety. [``LGPL-2.1-only``][LGPL-2.1-only]
+* [iLOG3][617] - Standard C logging function library, portable and easy to use, high performance, multiple interfaces, native cross-platform, thread safety. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
   updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [libCello][96] - Library introducing higher-level programming to
@@ -1820,4 +1822,6 @@ support for C.
 [612]: https://github.com/michaelrsweet/pdfio
 [613]: https://github.com/rurban/ctl
 [614]: https://github.com/nakst/luigi
-[615]: https://github.com/calvinwilliams/iLOG3 
+[615]: https://github.com/helderman/htpataic
+[616]: https://github.com/rxi/microui
+[617]: https://github.com/calvinwilliams/iLOG3
