@@ -415,6 +415,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [CSFML][90] - Binding for [SFML][91]. [``Zlib``][Zlib]
 * [Darkplaces][369] - Modified version of the Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
 * [Epoxy][414] - Library for handling OpenGL function pointer management. [``MIT``][MIT]
+* [exengine][618] - 3D game engine in C99 with a starting template. [``MIT``][MIT]
 * [Flecs][557] - A Multithreaded Entity Component System written for C89 & C99 [``MIT``][MIT]
 * [Freecell Solver][539] - Set of libraries and command-line programs for
   automatically solving FreeCell and some similar variants of card Solitaire. [``MIT``][MIT]
@@ -1825,3 +1826,4 @@ support for C.
 [615]: https://github.com/helderman/htpataic
 [616]: https://github.com/rxi/microui
 [617]: https://github.com/Cogmasters/concord
+[618]: https://github.com/solenum/exengine
