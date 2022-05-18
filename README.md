@@ -1006,6 +1006,8 @@ libraries or compilers.
   supports C. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [address-sanitizer][288] - Fast memory error detector.
   [``Apache-2.0``][Apache-2.0]
+* [bcc][619] - A byte array generator to import binary files directy from C in
+  the spirit of xxd. [``ISC``][ISC]
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also
   has shebang support. [``MIT``][MIT]
 * [c99sh][113] - Run C files using hash-bang. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1827,3 +1829,4 @@ support for C.
 [616]: https://github.com/rxi/microui
 [617]: https://github.com/Cogmasters/concord
 [618]: https://github.com/solenum/exengine
+[619]: https://projects.malikania.fr/bcc
