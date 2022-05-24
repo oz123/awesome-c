@@ -885,6 +885,7 @@ Implementations of the (standard-mandated) C standard library.
   support. [``ICU``][ICU]
 * [levenstein.c][360] - [Levenstein distance][334] algorithm implementation.
   [``MIT``][MIT].
+* [libbase64][620] - Library for base64 encoding and decoding. [``ISC``][ISC]
 * [libunistring][173] - Library for manipulating Unicode
   strings. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [libgiconv][163] - Text conversion library. [``LGPL-2.1-only``][LGPL-2.1-only]
@@ -1830,3 +1831,4 @@ support for C.
 [617]: https://github.com/Cogmasters/concord
 [618]: https://github.com/solenum/exengine
 [619]: https://projects.malikania.fr/bcc
+[620]: https://projects.malikania.fr/libbase64
