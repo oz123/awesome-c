@@ -729,6 +729,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [oSip][179] - SIP implementation without additional
   dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [silgy][579] - Asynchronous HTTP(S) engine for C/C++ projects. [``MIT``][MIT]
+* [sippak][620] - SIP protocol command line utility and client. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [socket99][203] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
 * [uriparser][100] - Strictly RFC 3986-compliant URI parsing and handling library.
@@ -1830,3 +1831,4 @@ support for C.
 [617]: https://github.com/Cogmasters/concord
 [618]: https://github.com/solenum/exengine
 [619]: https://projects.malikania.fr/bcc
+[620]: https://github.com/staskobzar/sippak
