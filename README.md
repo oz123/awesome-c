@@ -483,6 +483,7 @@ Graphical User Interface section has what you need.
   native C binding. [Various licenses][148].
 * [PlutoVG][590] - A standalone 2D vector graphics library in C [``MIT``][MIT]
 * [SAIL][601] - ⛵ The missing small and fast image decoding library for humans (not for machines) [``MIT``][MIT]
+* [Kinc][620] - A low level SDK for building games and media applications in a portable way. Think SDL, but super-charged. [``Zlib``][Zlib]
 
 ## Graphical User Interface ##
 
@@ -1830,3 +1831,4 @@ support for C.
 [617]: https://github.com/Cogmasters/concord
 [618]: https://github.com/solenum/exengine
 [619]: https://projects.malikania.fr/bcc
+[620]: https://github.com/Kode
