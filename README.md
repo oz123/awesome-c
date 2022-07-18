@@ -208,7 +208,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [OCL-MLA][312] - OpenCL Mid-Level Abstractions. [``BSD-3-Clause``][BSD-3-Clause]
 * [OpenMP][37] - Set of pragmas designed to allow for easy parallelization of
   code. Standard (licensing not applicable).
-* [OpenMPI][284] - Message passing interface implementation. [``BSD-3-Clause``][BSD-3-Clause]
+* [Open MPI][284] - Message passing interface implementation. [``BSD-3-Clause``][BSD-3-Clause]
 * [pal][459] - Optimized library for maths, parallel processing and data
   movement. [``Apache-2.0``][Apache-2.0]
 * [pth][180] - Portable implementation for non-preemptive priority-based
