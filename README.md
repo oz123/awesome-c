@@ -391,6 +391,7 @@ Big libraries that provide data structures and other stuff you expect of a
   structures. [``GPL-2.0-only``][GPL-2.0-only]
 * [libU][28] - Small library of basic utilities, including memory allocation,
   string manipulation and logging. [``BSD-3-Clause``][BSD-3-Clause]
+* [libxutils][620] - A cross-platform utility library with various functionality written in C [``MIT``][MIT]
 * [PBL][346] - Large library of utilities, featuring data structures, among
   other things. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [plibsys][588] - Cross-platform system C library. Zero third-party dependencies, uses only native system calls. [``MIT``][MIT]
@@ -1830,3 +1831,4 @@ support for C.
 [617]: https://github.com/Cogmasters/concord
 [618]: https://github.com/solenum/exengine
 [619]: https://projects.malikania.fr/bcc
+[620]: https://github.com/kala13x/libxutils
