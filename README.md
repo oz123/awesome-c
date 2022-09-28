@@ -1058,6 +1058,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Caffeine][496] - Library for building daemons and services for Linux and
   FreeBSD systems. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [CException][298] - Implementation of exceptions. [``MIT``][MIT]
+* [cmdparser][620] - Command-line parser library, fully tested, highly customizable. [``MIT``][MIT]
 * [CommonMark][223] - Implementation of the CommonMark spec.
 * [cosmopolitan][597] - fast portable static native textmode containers (build C programs for Linux\Mac\Windows in one go)
   [Variety of licenses, all open source][224].
@@ -1830,3 +1831,4 @@ support for C.
 [617]: https://github.com/Cogmasters/concord
 [618]: https://github.com/solenum/exengine
 [619]: https://projects.malikania.fr/bcc
+[620]: https://github.com/XUJINKAI/cmdparser/
