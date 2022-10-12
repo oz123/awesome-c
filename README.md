@@ -399,6 +399,7 @@ Big libraries that provide data structures and other stuff you expect of a
 * [sc][595] - Common libraries and data structures for C. [``MIT``][MIT]
 * [TBOX][398] - Multi-platform library with a large number of
   capabilities. [``Apache-2.0``][Apache-2.0]
+* [pspsdk][620] - An open-source SDK for PSP homebrew development. [Various licences][621].
 
 ## Game Programming ##
 
@@ -1830,3 +1831,5 @@ support for C.
 [617]: https://github.com/Cogmasters/concord
 [618]: https://github.com/solenum/exengine
 [619]: https://projects.malikania.fr/bcc
+[620]: https://github.com/pspdev/pspsdk
+[621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
