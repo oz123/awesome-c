@@ -535,6 +535,7 @@ to C programming.
 * [Finding the best 64-bit simulation PRNG][529]
 * [SEI CERT C Coding Standard][266]
 * [tinyc.game][559] - Tiny C games you can compile and run RIGHT NOW http://tinyc.games [``MIT``][MIT]
+* [Explore C](https://kandi.openweaver.com/explore/c)
 
 ### Beginner resources online ###
 
