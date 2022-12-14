@@ -559,6 +559,7 @@ to C programming.
 * [8 gdb tricks you should know][206]
 * [10 C99 tricks][257]
 * [A comprehensive MPI tutorial resource][454]
+* [Build Your Own Text Editor][700]
 * [Diving into concurrency: trying out mutexes and atomics][202]
 * [Generic C reference counting][443]
 * [How to write portable C without complicating your build][490]
@@ -1831,3 +1832,4 @@ support for C.
 [619]: https://projects.malikania.fr/bcc
 [620]: https://github.com/pspdev/pspsdk
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
+[700]: https://viewsourcecode.org/snaptoken/kilo/
