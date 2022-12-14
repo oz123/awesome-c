@@ -1647,7 +1647,7 @@ support for C.
 [432]: http://lzip.nongnu.org/clzip.html
 [433]: http://lzip.nongnu.org/lzip.html
 [434]: https://github.com/openvenues/libpostal
-[435]: https://github.com/premake/premake-core
+[435]: https://premake.github.io/
 [436]: https://github.com/jgm/cmark
 [437]: http://hardysimpson.github.io/zlog/
 [438]: http://www.pell.portland.or.us/~orc/Code/discount/
