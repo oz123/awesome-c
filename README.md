@@ -100,15 +100,18 @@ Tools that automate the building and testing of projects in C.
   new projects. [``BSD-2-Clause``][BSD-2-Clause]
 * [CMake][329] - Cross-platform family of tools designed to build, package and test
   software. [``BSD-3-Clause``][BSD-3-Clause]
-* [GNU Make][324] - Tool which controls the generation of executables and other
+* [GNU Make][gnu-make-ref] - Tool which controls the generation of executables and other
   non-source files of a program. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [Meson][368] - Extremely fast, user-friendly build system. Based on Ninja. [``Apache-2.0``][Apache-2.0]
+* [Meson][meson-ref] - Extremely fast, user-friendly build system. Based on Ninja. [``Apache-2.0``][Apache-2.0]
 * [Premake][435] - Command-line utility which reads a scripted definition of a
   software project and uses it to generate project files for Visual Studio and
   GNU Make. Other targets are also being worked on. [``BSD-3-Clause``][BSD-3-Clause]
 * [SCons][521] - Software construction tool using Python. [``MIT``][MIT]
 * [xmake][271] - Cross-platform build utility. [``Apache-2.0``][Apache-2.0]
 * [zproject][420] - Project generator and build system support tool. [``MPL-2.0``][MPL-2.0]
+
+[gnu-make-ref]: https://www.gnu.org/software/make/
+[meson-ref]: https://mesonbuild.com/
 
 ## Compilers ##
 
@@ -1531,7 +1534,6 @@ support for C.
 [321]: http://docutils.sourceforge.net/
 [322]: https://hplgit.github.io/doconce/doc/web/index.html
 [323]: http://fabutil.org/
-[324]: https://www.gnu.org/software/make/
 [325]: https://github.com/libfann/fann
 [326]: https://github.com/centaurean/spookyhash
 [327]: https://github.com/attractivechaos/kann
@@ -1575,7 +1577,6 @@ support for C.
 [365]: https://github.com/prideout/heman
 [366]: https://github.com/cacalabs/libcaca
 [367]: http://tartarus.org/martin/PorterStemmer/
-[368]: https://mesonbuild.com/
 [369]: https://icculus.org/twilight/darkplaces/
 [370]: http://orx-project.org
 [371]: https://github.com/AlexanderAgd/CLIST
