@@ -38,7 +38,6 @@ CONTRIBUTING.md first.
   * [Beginner resources online](#beginner-resources-online)
   * [Intermediate resources online](#intermediate-resources-online)
   * [Advanced resources online](#advanced-resources-online)
-  * [Online self-study courses](#online-self-study-courses)
   * [Reference books](#reference-books)
   * [Beginner books](#beginner-books)
   * [Intermediate books](#intermediate-books)
@@ -582,10 +581,6 @@ to C programming.
 * [Some dark corners of C][210]
 * [Writing efficient C and C code optimization][33]
 * [Compiling Algebraic Data Types in Pure C99][608]
-
-### Online self-study courses ###
-
-* [C Programming Language Certified Associate preparation course][211]
 
 ### Reference books ###
 
@@ -1425,7 +1420,6 @@ support for C.
 [208]: http://nethack4.org/blog/building-c.html
 [209]: https://github.com/riolet/WAFer
 [210]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153
-[211]: http://cppinstitute.com/study-resources
 [212]: http://www.crasseux.com/books/ctut.pdf
 [213]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
 [214]: https://github.com/adamierymenko/huffandpuff
