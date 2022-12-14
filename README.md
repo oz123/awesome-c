@@ -1127,6 +1127,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
 * [Ragel][54] - DSL for state machines that compiles to C. [``GPL-2.0-only``][GPL-2.0-only]
+* [rmw][622] - safe-remove utility for the command line that can purge items from your waste directories after x number of days. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Rogueutil][565] - Cross-platform library for creating text-based user
   interfaces (TUI) [``Apache-2.0``][Apache-2.0]
 * [sort][190] - Collection of sorting routines, which type-specialize at
@@ -1826,4 +1827,7 @@ support for C.
 [619]: https://projects.malikania.fr/bcc
 [620]: https://github.com/pspdev/pspsdk
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
+[622]: https://remove-to-waste.info
 [700]: https://viewsourcecode.org/snaptoken/kilo/
+
+
