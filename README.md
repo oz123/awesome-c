@@ -574,7 +574,6 @@ to C programming.
 * [Advanced metaprogramming in C][357]
 * [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][204]
 * [Bit twiddling hacks][73]
-* [I do not know C][272]
 * [Implementing smart pointers for the C programming language][240]
 * [Inline functions in C][245]
 * [Metaprogramming custom control structures in C][343]
@@ -1486,7 +1485,6 @@ support for C.
 [269]: https://logological.org/gpp
 [270]: https://github.com/docopt/docopt.c
 [271]: https://xmake.io/
-[272]: https://kukuruku.co/hub/programming/i-do-not-know-c
 [273]: http://troydhanson.github.io/uthash/
 [274]: https://github.com/jibsen/parg
 [275]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
