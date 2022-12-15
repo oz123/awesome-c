@@ -483,6 +483,7 @@ Graphical User Interface section has what you need.
   native C binding. [Various licenses][148].
 * [PlutoVG][590] - A standalone 2D vector graphics library in C [``MIT``][MIT]
 * [SAIL][601] - ⛵ The missing small and fast image decoding library for humans (not for machines) [``MIT``][MIT]
+* [Kinc][623] - Ultra-portable, high performance, open source multimedia framework. [``Zlib``][Zlib]
 
 ## Graphical User Interface ##
 
@@ -1828,6 +1829,5 @@ support for C.
 [620]: https://github.com/pspdev/pspsdk
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
 [622]: https://remove-to-waste.info
+[623]: https://kinc.tech/
 [700]: https://viewsourcecode.org/snaptoken/kilo/
-
-
