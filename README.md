@@ -38,7 +38,6 @@ CONTRIBUTING.md first.
   * [Beginner resources online](#beginner-resources-online)
   * [Intermediate resources online](#intermediate-resources-online)
   * [Advanced resources online](#advanced-resources-online)
-  * [Online self-study courses](#online-self-study-courses)
   * [Reference books](#reference-books)
   * [Beginner books](#beginner-books)
   * [Intermediate books](#intermediate-books)
@@ -484,7 +483,7 @@ Graphical User Interface section has what you need.
   native C binding. [Various licenses][148].
 * [PlutoVG][590] - A standalone 2D vector graphics library in C [``MIT``][MIT]
 * [SAIL][601] - ⛵ The missing small and fast image decoding library for humans (not for machines) [``MIT``][MIT]
-* [Kha][623] - Ultra-portable, high performance, open source multimedia framework. [``Zlib``][Zlib]
+* [Kinc][623] - Ultra-portable, high performance, open source multimedia framework. [``Zlib``][Zlib]
 
 ## Graphical User Interface ##
 
@@ -560,6 +559,7 @@ to C programming.
 * [8 gdb tricks you should know][206]
 * [10 C99 tricks][257]
 * [A comprehensive MPI tutorial resource][454]
+* [Build Your Own Text Editor][700]
 * [Diving into concurrency: trying out mutexes and atomics][202]
 * [Generic C reference counting][443]
 * [How to write portable C without complicating your build][490]
@@ -575,7 +575,6 @@ to C programming.
 * [Advanced metaprogramming in C][357]
 * [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][204]
 * [Bit twiddling hacks][73]
-* [I do not know C][272]
 * [Implementing smart pointers for the C programming language][240]
 * [Inline functions in C][245]
 * [Metaprogramming custom control structures in C][343]
@@ -583,10 +582,6 @@ to C programming.
 * [Some dark corners of C][210]
 * [Writing efficient C and C code optimization][33]
 * [Compiling Algebraic Data Types in Pure C99][608]
-
-### Online self-study courses ###
-
-* [C Programming Language Certified Associate preparation course][211]
 
 ### Reference books ###
 
@@ -1133,6 +1128,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
 * [Ragel][54] - DSL for state machines that compiles to C. [``GPL-2.0-only``][GPL-2.0-only]
+* [rmw][622] - safe-remove utility for the command line that can purge items from your waste directories after x number of days. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Rogueutil][565] - Cross-platform library for creating text-based user
   interfaces (TUI) [``Apache-2.0``][Apache-2.0]
 * [sort][190] - Collection of sorting routines, which type-specialize at
@@ -1426,7 +1422,6 @@ support for C.
 [208]: http://nethack4.org/blog/building-c.html
 [209]: https://github.com/riolet/WAFer
 [210]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153
-[211]: http://cppinstitute.com/study-resources
 [212]: http://www.crasseux.com/books/ctut.pdf
 [213]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
 [214]: https://github.com/adamierymenko/huffandpuff
@@ -1487,7 +1482,6 @@ support for C.
 [269]: https://logological.org/gpp
 [270]: https://github.com/docopt/docopt.c
 [271]: https://xmake.io/
-[272]: https://kukuruku.co/hub/programming/i-do-not-know-c
 [273]: http://troydhanson.github.io/uthash/
 [274]: https://github.com/jibsen/parg
 [275]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
@@ -1648,7 +1642,7 @@ support for C.
 [432]: http://lzip.nongnu.org/clzip.html
 [433]: http://lzip.nongnu.org/lzip.html
 [434]: https://github.com/openvenues/libpostal
-[435]: https://github.com/premake/premake-core
+[435]: https://premake.github.io/
 [436]: https://github.com/jgm/cmark
 [437]: http://hardysimpson.github.io/zlog/
 [438]: http://www.pell.portland.or.us/~orc/Code/discount/
@@ -1834,4 +1828,6 @@ support for C.
 [619]: https://projects.malikania.fr/bcc
 [620]: https://github.com/pspdev/pspsdk
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
-[623]: http://kha.tech/
+[622]: https://remove-to-waste.info
+[623]: https://kinc.tech/
+[700]: https://viewsourcecode.org/snaptoken/kilo/
