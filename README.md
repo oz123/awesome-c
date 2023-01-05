@@ -295,6 +295,7 @@ Databases and data stores with C APIs.
   (more exactly, whatever license you want).
 * [libsrt][305] - Soft and hard real-time data structures.
   [``BSD-3-Clause``][BSD-3-Clause].
+* [linked_ring][701] - Memory efficient in-place replacement for multiple ring buffers. [``MIT``][MIT]
 * [list.h][538] - Implementations for singly linked and doubly linked list functions.
   [``GPL-3.0-only``][GPL-3.0-only]
 * [M\*LIB][350] - Library for generic, but typesafe C containers. Implemented as
@@ -307,6 +308,7 @@ Databases and data stores with C APIs.
   scenarios like augmentation, multiple compatible ordering functions, and more. [``MIT``][MIT]
 * [uthash][273] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
 * [vector.h][154] - Header library for typed lists. [``MIT``][MIT]
+
 
 ## Debugging ##
 
@@ -1829,5 +1831,6 @@ support for C.
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
 [622]: https://remove-to-waste.info
 [700]: https://viewsourcecode.org/snaptoken/kilo/
+[701]: https://github.com/fefa4ka/linked_ring
 
 
