@@ -390,6 +390,7 @@ Big libraries that provide data structures and other stuff you expect of a
   structures. [``GPL-2.0-only``][GPL-2.0-only]
 * [libU][28] - Small library of basic utilities, including memory allocation,
   string manipulation and logging. [``BSD-3-Clause``][BSD-3-Clause]
+* [libxutils][701] - Simple and yet powerful cross-platform C library providing data structures, algorithms and much more. [``MIT``][MIT]
 * [PBL][346] - Large library of utilities, featuring data structures, among
   other things. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [plibsys][588] - Cross-platform system C library. Zero third-party dependencies, uses only native system calls. [``MIT``][MIT]
@@ -1829,5 +1830,6 @@ support for C.
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
 [622]: https://remove-to-waste.info
 [700]: https://viewsourcecode.org/snaptoken/kilo/
+[701]: https://github.com/kala13x/libxutils
 
 
