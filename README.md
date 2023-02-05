@@ -1163,6 +1163,7 @@ application in C.
   appliances. [``BSD-3-Clause``][BSD-3-Clause]
 * [Kore][415] - Easy-to-use web application framework for writing scalable
   web APIs in C. [``ISC``][ISC]
+* [IWNET][701] - Pure C Asynchronous HTTP/IO library providing websockets, SSL, routing and reverse proxy. [``MIT``][MIT]
 
 ## Windows Environments ##
 
@@ -1829,5 +1830,6 @@ support for C.
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
 [622]: https://remove-to-waste.info
 [700]: https://viewsourcecode.org/snaptoken/kilo/
+[701]: https://github.com/Softmotions/iwnet
 
 
