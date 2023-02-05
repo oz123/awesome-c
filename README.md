@@ -1157,7 +1157,7 @@ application in C.
 * [Concord][617] - A Discord API wrapper library written in C. [``MIT``][MIT]
 * [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
   Websocket server, and also supports custom protocols. [``MIT``][MIT]
-* [iwnet][701] - Pure C Asynchronous HTTP/IO library providing websockets, SSL, routing and reverse proxy. [``MIT``][MIT]  
+* [iwnet][701] - Asynchronous HTTP/IO library providing websockets, SSL, routing and reverse proxy. [``MIT``][MIT]  
 * [kcgi][562] - CGI and FastCGI library for C [``ISC``][ISC].
 * [KLone][423] - Fully featured, multi-platform, web application development
   framework, targeted especially at embedded systems and
