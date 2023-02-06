@@ -408,6 +408,7 @@ Engines, libraries and other helpful things specifically for making games.
   library. [``Zlib``][Zlib]
 * [AssetKit][571] 🎨 3D asset importer/exporter/util library based on COLLADA/glTF specs [``MIT``][MIT]
 * [astera][594] - C99 Cross Platform 2D Game Library  [``MIT``][MIT]
+* [cgl][701] - Cross Platform C99 framework for making games(2D/3D)/creative coding. [``MIT``][MIT]
 * [cglm][542] - 📽 Optimized OpenGL/Graphics Math (glm) for C. [``MIT``][MIT]
 * [Chipmunk2D][303] - Fast and lightweight 2D game physics library. [``MIT``][MIT]
 * [cmt][570] - 🎮 C Bindings/Wrappers for Apple's METAL Graphics Framework. [``MIT``][MIT]
@@ -1829,5 +1830,5 @@ support for C.
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
 [622]: https://remove-to-waste.info
 [700]: https://viewsourcecode.org/snaptoken/kilo/
-
+[701]: https://github.com/Jaysmito101/cgl
 
