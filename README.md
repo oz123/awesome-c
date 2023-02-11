@@ -382,6 +382,7 @@ Big libraries that provide data structures and other stuff you expect of a
   [``GPL-2.0-only``][GPL-2.0-only]
 * [EFL][119] - Large collection of useful data structures and
   functions. Various licenses, all open source.
+* [Gear-Lib][623] - C library for IOT Embedded Multimedia and Network. [``MIT``][MIT]
 * [klib][76] - Small and lightweight implementations of common algorithms and
   data structures. [``MIT``][MIT]
 * [libcork][476] - Utility functions and structures, designed for
@@ -1828,6 +1829,7 @@ support for C.
 [620]: https://github.com/pspdev/pspsdk
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
 [622]: https://remove-to-waste.info
+[623]: https://github.com/gozfree/gear-lib
 [700]: https://viewsourcecode.org/snaptoken/kilo/
 
 
