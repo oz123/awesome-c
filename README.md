@@ -732,6 +732,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [Wslay][460] - WebSocket library. Implements version 13 of the WebSocket
   protocol, as described in RFC 6455. [``MIT``][MIT]
 * [zyre][419] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
+* [dperf][620] - dperf is a DPDK based 100Gbps network performance and load testing software. [``Apache-2.0``][Apache-2.0]
 
 ## Numerical ##
 
@@ -1828,6 +1829,5 @@ support for C.
 [620]: https://github.com/pspdev/pspsdk
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
 [622]: https://remove-to-waste.info
+[623]: https://github.com/baidu/dperf
 [700]: https://viewsourcecode.org/snaptoken/kilo/
-
-
