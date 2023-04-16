@@ -203,6 +203,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [liburcu][474] - Data synchronization library, which scales linearly with the
   number of cores. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [mill][352] - Go-style concurrency. [``MIT``][MIT]
+* [nthm][701] - Non-preemptive thread hierarchy management library [``GPL-3.0-only``][GPL-3.0-only]
 * [oclkit][311] - Two-file OpenCL wrapper. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [OCL-MLA][312] - OpenCL Mid-Level Abstractions. [``BSD-3-Clause``][BSD-3-Clause]
 * [OpenMP][37] - Set of pragmas designed to allow for easy parallelization of
@@ -283,6 +284,8 @@ Databases and data stores with C APIs.
 * [CLIST][371] - Simple and lightweight [dynamic array][25] implementation.
   [``BSD-2-Clause``][BSD-2-Clause]
 * [Collections-C][406] - Library of generic data structures. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [cru][702] - Library for fast high-level concurrent operations on
+  large memory-resident graphs [``GPL-3.0-only``][GPL-3.0-only]
 * [ds][541] - Common Data Structures and Algorithms. [``MIT``][MIT]
 * [igraph][544] - A graph processing library.
   [``GPL-2.0-or-later``][GPL-2.0-or-later]
@@ -1829,5 +1832,5 @@ support for C.
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
 [622]: https://remove-to-waste.info
 [700]: https://viewsourcecode.org/snaptoken/kilo/
-
-
+[701]: https://github.com/gueststar/nthm
+[702]: https://github.com/gueststar/cru
