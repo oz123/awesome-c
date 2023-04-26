@@ -1315,7 +1315,7 @@ support for C.
 [102]: http://shop.oreilly.com/product/0636920015482.do
 [103]: http://ccodearchive.net/
 [104]: http://ccodearchive.net/list.html
-[105]: https://symas.com/lightning-memory-mapped-database/
+[105]: http://www.lmdb.tech/doc/
 [106]: https://nanomsg.github.io/nng/
 [107]: https://ioquake3.org
 [108]: https://github.com/RandyGaul/tinyheaders
