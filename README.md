@@ -190,6 +190,7 @@ Compilers, as well as compiler- and compilation-related tooling.
   parallelism, with built-in checking for race conditions. [``BSD-2-Clause``][BSD-2-Clause]
 * [ck][242] - Concurrency primitives, safe memory reclamation mechanisms and
   non-blocking data structures. [``BSD-2-Clause``][BSD-2-Clause]
+* [dyco-coroutine][623] - Coroutine framework with Channel, SSL hook, waitgroup, etc. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [FCFS RWLock][540] - First-come first-served Readers/Writers lock for POSIX threads. [``CC0-1.0``][CC0-1.0]
 * [Libaco][599] - A blazing fast and lightweight C asymmetric coroutine library. [``Apache-2.0``][Apache-2.0]
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for
@@ -1828,6 +1829,7 @@ support for C.
 [620]: https://github.com/pspdev/pspsdk
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
 [622]: https://remove-to-waste.info
+[623]: https://github.com/piaodazhu/dyco-coroutine
 [700]: https://viewsourcecode.org/snaptoken/kilo/
 
 
