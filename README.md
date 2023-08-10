@@ -382,6 +382,8 @@ Big libraries that provide data structures and other stuff you expect of a
   [``GPL-2.0-only``][GPL-2.0-only]
 * [EFL][119] - Large collection of useful data structures and
   functions. Various licenses, all open source.
+* [GLib][701] - Library of utility functions and structures, designed to be
+  portable, efficient and powerful. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [klib][76] - Small and lightweight implementations of common algorithms and
   data structures. [``MIT``][MIT]
 * [libcork][476] - Utility functions and structures, designed for
@@ -1831,3 +1833,4 @@ support for C.
 [622]: https://remove-to-waste.info
 [623]: https://github.com/staskobzar/sippak
 [700]: https://viewsourcecode.org/snaptoken/kilo/
+[701]: https://wiki.gnome.org/Projects/GLib
