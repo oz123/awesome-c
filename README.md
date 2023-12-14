@@ -38,7 +38,6 @@ CONTRIBUTING.md first.
   * [Beginner resources online](#beginner-resources-online)
   * [Intermediate resources online](#intermediate-resources-online)
   * [Advanced resources online](#advanced-resources-online)
-  * [Online self-study courses](#online-self-study-courses)
   * [Reference books](#reference-books)
   * [Beginner books](#beginner-books)
   * [Intermediate books](#intermediate-books)
@@ -208,7 +207,7 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [OCL-MLA][312] - OpenCL Mid-Level Abstractions. [``BSD-3-Clause``][BSD-3-Clause]
 * [OpenMP][37] - Set of pragmas designed to allow for easy parallelization of
   code. Standard (licensing not applicable).
-* [OpenMPI][284] - Message passing interface implementation. [``BSD-3-Clause``][BSD-3-Clause]
+* [Open MPI][284] - Message passing interface implementation. [``BSD-3-Clause``][BSD-3-Clause]
 * [pal][459] - Optimized library for maths, parallel processing and data
   movement. [``Apache-2.0``][Apache-2.0]
 * [pth][180] - Portable implementation for non-preemptive priority-based
@@ -383,6 +382,8 @@ Big libraries that provide data structures and other stuff you expect of a
   [``GPL-2.0-only``][GPL-2.0-only]
 * [EFL][119] - Large collection of useful data structures and
   functions. Various licenses, all open source.
+* [GLib][701] - Library of utility functions and structures, designed to be
+  portable, efficient and powerful. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [klib][76] - Small and lightweight implementations of common algorithms and
   data structures. [``MIT``][MIT]
 * [libcork][476] - Utility functions and structures, designed for
@@ -399,6 +400,7 @@ Big libraries that provide data structures and other stuff you expect of a
 * [sc][595] - Common libraries and data structures for C. [``MIT``][MIT]
 * [TBOX][398] - Multi-platform library with a large number of
   capabilities. [``Apache-2.0``][Apache-2.0]
+* [pspsdk][620] - An open-source SDK for PSP homebrew development. [Various licences][621].
 
 ## Game Programming ##
 
@@ -415,6 +417,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [CSFML][90] - Binding for [SFML][91]. [``Zlib``][Zlib]
 * [Darkplaces][369] - Modified version of the Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
 * [Epoxy][414] - Library for handling OpenGL function pointer management. [``MIT``][MIT]
+* [exengine][618] - 3D game engine in C99 with a starting template. [``MIT``][MIT]
 * [Flecs][557] - A Multithreaded Entity Component System written for C89 & C99 [``MIT``][MIT]
 * [Freecell Solver][539] - Set of libraries and command-line programs for
   automatically solving FreeCell and some similar variants of card Solitaire. [``MIT``][MIT]
@@ -489,6 +492,7 @@ Widget toolkits, or things meant to be used in a similar way to them.
 
 * [GTK+][14] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [IUP][16] - Another cross-platform widget toolkit. [``MIT``][MIT]
+* [microui][616] - Tiny immediate-mode UI library written in portable ANSI C. [```MIT```][MIT]
 * [nuklear][408] - Small, C89, single-header widget toolkit. Public domain.
 * [tinyfiledialogs][426] - Single-file library for simple dialogs. Compatible
   with many other toolkits and OSes. [``Zlib``][Zlib]
@@ -549,12 +553,14 @@ to C programming.
 * [What a C programmer should know about memory][227]
 * [CodeforWin: Learn C Programming, Data Structures Tutorials and Exercises online][605]
 * [Learn C: Free and Open-Source Interactive C Tutorial][606]
+* [How to program a text adventure in C][615]
 
 ### Intermediate resources online ###
 
 * [8 gdb tricks you should know][206]
 * [10 C99 tricks][257]
 * [A comprehensive MPI tutorial resource][454]
+* [Build Your Own Text Editor][700]
 * [Diving into concurrency: trying out mutexes and atomics][202]
 * [Generic C reference counting][443]
 * [How to write portable C without complicating your build][490]
@@ -570,7 +576,6 @@ to C programming.
 * [Advanced metaprogramming in C][357]
 * [A quick tutorial on implementing and debugging malloc, free, calloc, and realloc][204]
 * [Bit twiddling hacks][73]
-* [I do not know C][272]
 * [Implementing smart pointers for the C programming language][240]
 * [Inline functions in C][245]
 * [Metaprogramming custom control structures in C][343]
@@ -578,10 +583,6 @@ to C programming.
 * [Some dark corners of C][210]
 * [Writing efficient C and C code optimization][33]
 * [Compiling Algebraic Data Types in Pure C99][608]
-
-### Online self-study courses ###
-
-* [C Programming Language Certified Associate preparation course][211]
 
 ### Reference books ###
 
@@ -644,7 +645,7 @@ to do with managing C memory lives here.
 * [tlsf][531] - Two-Level Segregated Fit allocator; a general-purpose, dynamic
   memory allocator designed to meet real-time requirements. [Up-to-date
   implementation][532]. [``BSD-3-Clause``][BSD-3-Clause]
-* [buddy_alloc][615] - Buddy allocator with predictable storage and runtime costs,
+* [buddy_alloc][702] - Buddy allocator with predictable storage and runtime costs,
   designed to supplement the system's allocator. Complete line+branch test coverage,
   resizeable arenas, rellocatable arenas and so on. [``0BSD``][0BSD]
 
@@ -1006,6 +1007,8 @@ libraries or compilers.
   supports C. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [address-sanitizer][288] - Fast memory error detector.
   [``Apache-2.0``][Apache-2.0]
+* [bcc][619] - A byte array generator to import binary files directy from C in
+  the spirit of xxd. [``ISC``][ISC]
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also
   has shebang support. [``MIT``][MIT]
 * [c99sh][113] - Run C files using hash-bang. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1032,7 +1035,7 @@ libraries or compilers.
 * [include-what-you-use][289] - Helps find unecessary inclusions and make
   suggestions for fixing them. Based on LLVM/Clang (and only works with
   it). [``NCSA``][NCSA]
-* [incbin][] - Include binary files in your C/C++ applications with ease [``Unlicense License``][Unlicense License]
+* [incbin][592] - Include binary files in your C/C++ applications with ease [``Unlicense``][Unlicense]
 * [indent][315] - Formats C source code automatically to make it easier to
   read. Also converts from one style of source to another. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [SMACK][500] - Modular software verification toolchain and a self-contained
@@ -1129,6 +1132,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   [``BSD-3-Clause``][BSD-3-Clause]
 * [rabbitmq-c][228] - Client library for [RabbitMQ][229]. [``MIT``][MIT]
 * [Ragel][54] - DSL for state machines that compiles to C. [``GPL-2.0-only``][GPL-2.0-only]
+* [rmw][622] - safe-remove utility for the command line that can purge items from your waste directories after x number of days. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [Rogueutil][565] - Cross-platform library for creating text-based user
   interfaces (TUI) [``Apache-2.0``][Apache-2.0]
 * [sort][190] - Collection of sorting routines, which type-specialize at
@@ -1155,6 +1159,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 Comprehensive and integrated solutions for building the next brilliant web
 application in C.
 
+* [Concord][617] - A Discord API wrapper library written in C. [``MIT``][MIT]
 * [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
   Websocket server, and also supports custom protocols. [``MIT``][MIT]
 * [kcgi][562] - CGI and FastCGI library for C [``ISC``][ISC].
@@ -1422,7 +1427,6 @@ support for C.
 [208]: http://nethack4.org/blog/building-c.html
 [209]: https://github.com/riolet/WAFer
 [210]: https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153
-[211]: http://cppinstitute.com/study-resources
 [212]: http://www.crasseux.com/books/ctut.pdf
 [213]: https://pdos.csail.mit.edu/6.828/2017/readings/pointers.pdf
 [214]: https://github.com/adamierymenko/huffandpuff
@@ -1483,7 +1487,6 @@ support for C.
 [269]: https://logological.org/gpp
 [270]: https://github.com/docopt/docopt.c
 [271]: https://xmake.io/
-[272]: https://kukuruku.co/hub/programming/i-do-not-know-c
 [273]: http://troydhanson.github.io/uthash/
 [274]: https://github.com/jibsen/parg
 [275]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
@@ -1644,7 +1647,7 @@ support for C.
 [432]: http://lzip.nongnu.org/clzip.html
 [433]: http://lzip.nongnu.org/lzip.html
 [434]: https://github.com/openvenues/libpostal
-[435]: https://github.com/premake/premake-core
+[435]: https://premake.github.io/
 [436]: https://github.com/jgm/cmark
 [437]: http://hardysimpson.github.io/zlog/
 [438]: http://www.pell.portland.or.us/~orc/Code/discount/
@@ -1823,4 +1826,14 @@ support for C.
 [612]: https://github.com/michaelrsweet/pdfio
 [613]: https://github.com/rurban/ctl
 [614]: https://github.com/nakst/luigi
-[615]: https://github.com/spaskalev/buddy_alloc
+[615]: https://github.com/helderman/htpataic
+[616]: https://github.com/rxi/microui
+[617]: https://github.com/Cogmasters/concord
+[618]: https://github.com/solenum/exengine
+[619]: https://projects.malikania.fr/bcc
+[620]: https://github.com/pspdev/pspsdk
+[621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
+[622]: https://remove-to-waste.info
+[700]: https://viewsourcecode.org/snaptoken/kilo/
+[701]: https://wiki.gnome.org/Projects/GLib
+[702]: https://github.com/spaskalev/buddy_alloc
