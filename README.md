@@ -1076,6 +1076,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   strings. Outputs C code. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [GNU Libffcall][162] - Collection of libraries for building foreign function
   interfaces. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [haclog][702] - Extremely fast plain C logging library. [``MIT``][MIT]
 * [Hoedown][405] - Fully standards-compliant, extension-supporting, UTF-8
   aware, fast Markdown parser. [``MIT``][MIT]
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
@@ -1832,4 +1833,4 @@ support for C.
 [622]: https://remove-to-waste.info
 [700]: https://viewsourcecode.org/snaptoken/kilo/
 [701]: https://wiki.gnome.org/Projects/GLib
-
+[702]: https://github.com/MuggleWei/haclog
