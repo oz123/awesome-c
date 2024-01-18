@@ -609,6 +609,7 @@ to C programming.
 
 * [Expert C Programming: Deep C Secrets][55] - Interesting, in-depth and
   entertaining look at the innards of C.
+* [Modern C, Third Edition: Covers the C23 standard][425] - In Modern C, Third Edition you’ll learn to harness C’s full potential using the latest tools and techniques.
 
 ## Lexing and Parsing ##
 
