@@ -892,6 +892,7 @@ Implementations of the (standard-mandated) C standard library.
   functions. Available via [clib][26]. [``BSD-2-Clause``][BSD-2-Clause]
 * [stmr.c][383] - [Porter Stemmer][367] algorithm implementation. [``MIT``][MIT]
 * [str][587] - Yet another string library for C language. [``BSD-3-Clause``][BSD-3-Clause]
+* [StringZilla][623] - Up to 10x faster SIMD and SWAR-accelerated string search, sort, hashes, edit distances, alignments, and generators. [``Apache-2.0``][Apache-2.0]
 * [utf8.h][472] - Single-header UTF-8 library, designed to mimic C-style string
   functions. Public domain.
 * [utf8proc][469] - Library for processing UTF-8 data. [``MIT``][MIT]
@@ -1830,6 +1831,6 @@ support for C.
 [620]: https://github.com/pspdev/pspsdk
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
 [622]: https://remove-to-waste.info
+[623]: https://github.com/ashvardanian/StringZilla
 [700]: https://viewsourcecode.org/snaptoken/kilo/
 [701]: https://wiki.gnome.org/Projects/GLib
-
