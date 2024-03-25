@@ -1722,7 +1722,7 @@ support for C.
 [509]: https://github.com/spotify/sparkey
 [510]: http://facebook.github.io/zstd/
 [511]: https://libvips.github.io/libvips/
-[512]: http://whitedb.org/
+[512]: https://github.com/priitj/whitedb
 [513]: http://paulbatchelor.github.io/proj/soundpipe.html
 [514]: https://github.com/atomicobject/heatshrink
 [515]: http://ebassi.github.io/graphene/
