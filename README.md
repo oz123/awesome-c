@@ -82,6 +82,7 @@ Basically, if your university calls it AI, it lives here.
 * [KANN][327] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 * [m2cgen][610] - A CLI tool to transpile trained classic ML models into a native C code with zero dependencies. [``MIT``][MIT]
+* [SimSIMD][624] - SIMD-accelerated Vector Similarity Measures and Distances for Search. [``Apache-2.0``][Apache-2.0]
 * [sod][611] -  An Embedded Computer Vision & Machine Learning Library [``GPL-3``][GPL-3]
 
 ## Benchmarking ##
@@ -1834,6 +1835,7 @@ support for C.
 [621]: https://github.com/pspdev/pspsdk/blob/master/LICENSE
 [622]: https://remove-to-waste.info
 [623]: https://github.com/ashvardanian/StringZilla
+[624]: https://github.com/ashvardanian/SimSIMD
 [700]: https://viewsourcecode.org/snaptoken/kilo/
 [701]: https://wiki.gnome.org/Projects/GLib
 [702]: https://duckdb.org/
