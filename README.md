@@ -630,7 +630,8 @@ Libraries specifically for lexical analysis (or lexing) and syntactic analysis
 ## Memory Management ##
 
 Whether a different, faster malloc or outright garbage collection, anything
-to do with managing C memory lives here.
+to do with managing C memory lives here. Note that garbage collection
+implementations work by `__attribute__`, which is compiler-specific.
 
 * [Boehm GC][125] - Garbage collection for C. Various
   licenses, all open source.
