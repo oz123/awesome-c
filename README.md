@@ -82,7 +82,7 @@ Basically, if your university calls it AI, it lives here.
 * [KANN][327] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 * [m2cgen][610] - A CLI tool to transpile trained classic ML models into a native C code with zero dependencies. [``MIT``][MIT]
-* [sod][611] -  An Embedded Computer Vision & Machine Learning Library [``GPL-3``][GPL-3]
+* [sod][611] -  An Embedded Computer Vision & Machine Learning Library. [``GPL-3.0-only``][GPL-3.0-only]
 
 ## Benchmarking ##
 
