@@ -256,7 +256,7 @@ Databases and data stores with C APIs.
 
 * [BerkeleyDB][380] - Library for a high-performance embedded database for
   key-value data. [``AGPL-3.0-only``][AGPL-3.0-only]
-* [DuckDB][702] - Fast in-process analytical database, with C API. [``MIT``][MIT]  
+* [DuckDB][702] - Fast in-process analytical database, with C API. [``MIT``][MIT] 
 * [EJDB2][568] - Embeddable JSON Database engine. [``MIT``][MIT]
 * [Groonga][524] - Columnar store with full-text search. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [Hiredis][201] - Minimalistic client library for Redis.
@@ -277,6 +277,10 @@ Databases and data stores with C APIs.
   transactional NoSQL engine. [``BSD-2-Clause``][BSD-2-Clause]
 * [WhiteDB][512] - Lightweight database library, operating entirely in main
   memory. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [FlashDB][703] - An ultra-lightweight database that supports key-value and 
+  time series data. [``Apache-2.0``][Apache-2.0]
+* [TDengine][704] - High-performance, cloud native time-series database. 
+  [``AGPL-3.0-only``][AGPL-3.0-only]
 
 ## Data Structures ##
 
@@ -1837,3 +1841,6 @@ support for C.
 [700]: https://viewsourcecode.org/snaptoken/kilo/
 [701]: https://wiki.gnome.org/Projects/GLib
 [702]: https://duckdb.org/
+[703]: https://github.com/armink/FlashDB
+[704]: https://github.com/taosdata/TDengine
+
