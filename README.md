@@ -510,6 +510,7 @@ Widget toolkits, or things meant to be used in a similar way to them.
 * [luigi][614] - A barebones single-header GUI library for Win32, X11 and Essence. [``MIT``][MIT]
 * [MiniGUI][707] - A modern and mature cross-platform window system for embedded
   systems. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [AWTK][708] - Toolkit AnyWhere, a cross-platform embedded GUI. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 
 ## Hashing ##
 
@@ -1850,4 +1851,5 @@ support for C.
 [705]: https://nappgui.com/
 [706]: https://github.com/armink/EasyLogger
 [707]: https://github.com/VincentWei/MiniGUI
+[708]: https://github.com/zlgopen/awtk
 
