@@ -1158,6 +1158,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [zproto][421] - Protocol framework for ZeroMQ. [``MIT``][MIT]
 * [Metalang99][603] - Full-blown preprocessor metaprogramming. [``MIT``][MIT]
 * [Datatype99][604] - Algebraic data types for C99. [``MIT``][MIT]
+* [EasyLogger][706] - An ultra-lightweight, high-performance C/C++ log library. [``MIT``][MIT]
 
 ## Web Frameworks ##
 
@@ -1845,4 +1846,5 @@ support for C.
 [703]: https://github.com/armink/FlashDB
 [704]: https://github.com/taosdata/TDengine
 [705]: https://nappgui.com/
+[706]: https://github.com/armink/EasyLogger
 
