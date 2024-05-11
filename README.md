@@ -508,6 +508,10 @@ Widget toolkits, or things meant to be used in a similar way to them.
 * [LVGL][575] - embedded GUI with easy-to-use graphical elements, beautiful visuals and
   a low memory footprint. [``MIT``][MIT]
 * [luigi][614] - A barebones single-header GUI library for Win32, X11 and Essence. [``MIT``][MIT]
+* [MiniGUI][707] - A modern and mature cross-platform window system for embedded
+  systems. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [AWTK][708] - Toolkit AnyWhere, a cross-platform embedded GUI. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [u8g2][709] - U8glib library for monochrome displays, version 2. [``BSD-2-Clause``][BSD-2-Clause]
 
 ## Hashing ##
 
@@ -1847,4 +1851,7 @@ support for C.
 [704]: https://github.com/taosdata/TDengine
 [705]: https://nappgui.com/
 [706]: https://github.com/armink/EasyLogger
+[707]: https://github.com/VincentWei/MiniGUI
+[708]: https://github.com/zlgopen/awtk
+[709]: https://github.com/olikraus/u8g2
 
