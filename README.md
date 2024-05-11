@@ -511,6 +511,7 @@ Widget toolkits, or things meant to be used in a similar way to them.
 * [MiniGUI][707] - A modern and mature cross-platform window system for embedded
   systems. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [AWTK][708] - Toolkit AnyWhere, a cross-platform embedded GUI. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [u8g2][709] - U8glib library for monochrome displays, version 2. [``BSD-2-Clause``][BSD-2-Clause]
 
 ## Hashing ##
 
@@ -1852,4 +1853,5 @@ support for C.
 [706]: https://github.com/armink/EasyLogger
 [707]: https://github.com/VincentWei/MiniGUI
 [708]: https://github.com/zlgopen/awtk
+[709]: https://github.com/olikraus/u8g2
 
