@@ -560,6 +560,7 @@ to C programming.
 * [CodeforWin: Learn C Programming, Data Structures Tutorials and Exercises online][605]
 * [Learn C: Free and Open-Source Interactive C Tutorial][606]
 * [How to program a text adventure in C][615]
+* [Clings - Equivalent of rustlings for C ][https://github.com/c-lings/clings]
 
 ### Intermediate resources online ###
 
