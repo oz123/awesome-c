@@ -443,6 +443,7 @@ Engines, libraries and other helpful things specifically for making games.
 * [Quake2][221] - Quake2 engine. [``GPL-2.0-only``][GPL-2.0-only]
 * [raylib][516] - Simple and easy-to-use library to learn video game
   programming. [``Zlib``][Zlib]
+* [RGFW][707] - Lightweight multi-platform single-header library for creating windows, supports many graphics contexts and software rendering. [``Zlib``][Zlib]
 * [RetroArch][231] - Reference frontend for [libretro][232]. [``GPL-3.0-only``][GPL-3.0-only]
 * [SDL2][50] - Cross-platform library designed to provide low-level access to
   audio, keyboard, mouse, joystick and graphics hardware via OpenGL. [``Zlib``][Zlib]
@@ -1847,4 +1848,5 @@ support for C.
 [704]: https://github.com/taosdata/TDengine
 [705]: https://nappgui.com/
 [706]: https://github.com/armink/EasyLogger
+[707]: https://github.com/ColleagueRiley/RGFW
 
