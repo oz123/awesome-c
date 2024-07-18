@@ -1244,7 +1244,7 @@ support for C.
 
 [21]: http://xforms-toolkit.org/
 [22]: https://www.sqlite.org/
-[23]: https://unqlite.org/
+[23]: https://unqlite.symisc.net
 [24]: https://github.com/google/brotli
 [25]: https://en.wikipedia.org/wiki/Dynamic_array
 [26]: https://github.com/clibs/clib
