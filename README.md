@@ -229,7 +229,14 @@ protocols.
 * [libgcrypt][142] - General-purpose cryptography library, with a range of
   available ciphers. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols. Also includes a
-  cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
+  cryptography library. OpenSSL is covered by one of two licenses, depending on which 
+  release is involved. For the 3.0 release and later, the [``Apache-2.0``][Apache-2.0] license applies. 
+  For any release made before OpenSSL 3.0, the dual [``OpenSSL``][OpenSSL] license applies.
+  [More information here][111].
+* [LibreSSL][707] - Fork of OpenSSL 1.0.1g focused on modernizing the codebase, improving security, and 
+  applying best programming practices. [``OpenSSL``][OpenSSL]
+* [BearSSL][708] - Implementation of the SSL/TLS protocol aimed at small footprint and suitability 
+  for embedded systems. [``MIT``][MIT]
 * [liboqs][493] - Library for quantum-resistant cryptographicl algorithms.
   [``MIT``][MIT]
 * [libsodium][198] - Modern and easy-to-use crypto library. [``MIT``][MIT]
@@ -1221,6 +1228,7 @@ support for C.
 [WTFPL]: https://spdx.org/licenses/WTFPL.html
 [X11]: https://spdx.org/licenses/X11.html
 [Zlib]: https://spdx.org/licenses/Zlib.html
+[OpenSSL]: https://spdx.org/licenses/OpenSSL.html
 
 [1]: https://github.com/Dead2/zlib-ng
 [2]: https://github.com/Cyan4973/FiniteStateEntropy
@@ -1847,4 +1855,5 @@ support for C.
 [704]: https://github.com/taosdata/TDengine
 [705]: https://nappgui.com/
 [706]: https://github.com/armink/EasyLogger
-
+[707]: https://www.libressl.org/
+[708]: https://bearssl.org/
