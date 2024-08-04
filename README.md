@@ -430,6 +430,7 @@ Engines, libraries and other helpful things specifically for making games.
   creation and management of windows with OpenGL contexts. [``X11``][X11]
 * [GLFW][98] - Multi-platform library for creating windows with OpenGL
   contexts. [``Zlib``][Zlib]
+* [img2ascii][707] - 🖼️ A command-line tool for converting images to ASCII art [``MIT``][MIT]
 * [ioquake3][107] - Quake3 engine, freed at last.
   [``GPL-2.0-only``][GPL-2.0-only]
 * [kazmath][446] - Maths library for games. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1847,4 +1848,4 @@ support for C.
 [704]: https://github.com/taosdata/TDengine
 [705]: https://nappgui.com/
 [706]: https://github.com/armink/EasyLogger
-
+[707]: https://github.com/JosefVesely/Image-to-ASCII
