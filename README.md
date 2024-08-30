@@ -273,6 +273,7 @@ Databases and data stores with C APIs.
   [``Apache-2.0``][Apache-2.0]
 * [SQLite][22] - Self-contained, serverless, zero-configuration, transactional
   SQL database engine. Public domain.
+* [SQLite GUI][707] - Lightweight SQLite editor for Windows. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [UnQLite][23] - Self-contained, serverless, zero-configuration,
   transactional NoSQL engine. [``BSD-2-Clause``][BSD-2-Clause]
 * [WhiteDB][512] - Lightweight database library, operating entirely in main
@@ -1847,4 +1848,5 @@ support for C.
 [704]: https://github.com/taosdata/TDengine
 [705]: https://nappgui.com/
 [706]: https://github.com/armink/EasyLogger
+[707]: https://github.com/little-brother/sqlite-gui
 
