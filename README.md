@@ -194,12 +194,14 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [Libaco][599] - A blazing fast and lightweight C asymmetric coroutine library. [``Apache-2.0``][Apache-2.0]
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for
   C11. [``BSD-3-Clause``][BSD-3-Clause]
+* [libch][707] - A golang inspired channel library in C [``MIT``][MIT]
 * [libcsp][572] - High performance concurrency C library influenced by the CSP model. [``MIT``][MIT]
 * [libdill][442] - Library which makes structured concurrent programming
   easy. [``MIT``][MIT]
 * [libhl][478] - Library implementing a thread-safe API to manage a range of data
   structures. Also provides some supporting functions and structures for
   concurrent and lockfree programming. [``LGPL-3.0-only``][LGPL-3.0-only]
+* [libthp][708] - Simple thread pool library in C [``MIT``][MIT]
 * [liburcu][474] - Data synchronization library, which scales linearly with the
   number of cores. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [mill][352] - Go-style concurrency. [``MIT``][MIT]
@@ -1847,4 +1849,5 @@ support for C.
 [704]: https://github.com/taosdata/TDengine
 [705]: https://nappgui.com/
 [706]: https://github.com/armink/EasyLogger
-
+[707]: https://github.com/paulborile/clibs/tree/master/libchannel
+[708]: https://github.com/paulborile/clibs/tree/master/libthp
