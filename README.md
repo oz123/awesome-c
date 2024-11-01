@@ -560,6 +560,7 @@ to C programming.
 * [CodeforWin: Learn C Programming, Data Structures Tutorials and Exercises online][605]
 * [Learn C: Free and Open-Source Interactive C Tutorial][606]
 * [How to program a text adventure in C][615]
+* [C Programming for Everybody][707]
 
 ### Intermediate resources online ###
 
@@ -1847,4 +1848,4 @@ support for C.
 [704]: https://github.com/taosdata/TDengine
 [705]: https://nappgui.com/
 [706]: https://github.com/armink/EasyLogger
-
+[707]: https://codekidz.ai/lesson-intro/c-programmin-3636b2
