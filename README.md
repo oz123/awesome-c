@@ -1819,8 +1819,8 @@ support for C.
 [601]: https://github.com/smoked-herring/sail
 [601]: https://sigrok.org/wiki/Libsigrok
 [602]: https://github.com/zpl-c/zpl
-[603]: https://github.com/Hirrolot/metalang99
-[604]: https://github.com/Hirrolot/datatype99
+[603]: https://github.com/hirrolot/metalang99
+[604]: https://github.com/hirrolot/datatype99
 [605]: https://codeforwin.org/2015/09/singly-linked-list-data-structure-in-c.html
 [606]: https://www.learn-c.org
 [607]: https://github.com/metacall/core
