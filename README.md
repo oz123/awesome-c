@@ -256,7 +256,7 @@ Databases and data stores with C APIs.
 
 * [BerkeleyDB][380] - Library for a high-performance embedded database for
   key-value data. [``AGPL-3.0-only``][AGPL-3.0-only]
-* [DuckDB][702] - Fast in-process analytical database, with C API. [``MIT``][MIT] 
+* [DuckDB][702] - Fast in-process analytical database, with C API. [``MIT``][MIT]
 * [EJDB2][568] - Embeddable JSON Database engine. [``MIT``][MIT]
 * [Groonga][524] - Columnar store with full-text search. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [Hiredis][201] - Minimalistic client library for Redis.
@@ -277,9 +277,9 @@ Databases and data stores with C APIs.
   transactional NoSQL engine. [``BSD-2-Clause``][BSD-2-Clause]
 * [WhiteDB][512] - Lightweight database library, operating entirely in main
   memory. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [FlashDB][703] - An ultra-lightweight database that supports key-value and 
+* [FlashDB][703] - An ultra-lightweight database that supports key-value and
   time series data. [``Apache-2.0``][Apache-2.0]
-* [TDengine][704] - High-performance, cloud native time-series database. 
+* [TDengine][704] - High-performance, cloud native time-series database.
   [``AGPL-3.0-only``][AGPL-3.0-only]
 
 ## Data Structures ##
@@ -639,6 +639,8 @@ to do with managing C memory lives here.
 
 * [Boehm GC][125] - Garbage collection for C. Various
   licenses, all open source.
+* [c-raii][707] - An general RAII implementation for C, with Defer,
+  simple high-level C11/C++11 like Threading/Futures, custom malloc/heap allocation. [``MIT``][MIT]
 * [jemalloc][293] - Malloc implementation that emphasizes avoidance of
   fragmentation and scalable concurrency support.
   [``BSD-2-Clause``][BSD-2-Clause]
@@ -978,7 +980,7 @@ device types (such as logic analyzers, oscilloscopes, multimeters, and more). [`
 * [munit][392] - Small unit testing framework. [``MIT``][MIT]
 * [Nala][560] - A test framework for C projects. [``MIT``][MIT]
 * [Rexo][563] - Framework for C89/C++ featuring automatic registration of tests and a polished API. [``Unlicense``][Unlicense]
-* [Tau][609] -  A Micro Unit testing framework for C/C++ (~1k lines of code). Includes a rich set of assertion macros, supports automatic test 
+* [Tau][609] -  A Micro Unit testing framework for C/C++ (~1k lines of code). Includes a rich set of assertion macros, supports automatic test
 registration and can output to multiple formats, like the TAP format or JUnit XML. Supported on Linux, macOS, FreeBSD, and Windows. [``MIT``][MIT]
 * [theft][302] - Property-based testing (similar to [Quickcheck][301]). [``MIT``][MIT]
 * [Unity][296] - Simple unit testing framework. [``MIT``][MIT]
@@ -1152,7 +1154,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   file system. [``WTFPL``][WTFPL]
 * [XLSX I/O][344] - Cross-platform library for reading and writing .xlsx
   files. [``MIT``][MIT]
-* [xlsx_drone][596] - Fast Microsoft Excel's *.xlsx reader. [``MIT``][MIT]  
+* [xlsx_drone][596] - Fast Microsoft Excel's *.xlsx reader. [``MIT``][MIT]
 * [zlog][437] - Reliable, pure C logging library.
   [``LGPL-2.1-only``][LGPL-2.1-only]
 * [zproto][421] - Protocol framework for ZeroMQ. [``MIT``][MIT]
@@ -1847,4 +1849,4 @@ support for C.
 [704]: https://github.com/taosdata/TDengine
 [705]: https://nappgui.com/
 [706]: https://github.com/armink/EasyLogger
-
+[707]: https://zelang-dev.github.io/c-raii
