@@ -75,7 +75,6 @@ Basically, if your university calls it AI, it lives here.
 
 * [ccv][195] - C-based/Cached/Core Computer Vision library; modern computer
   vision. [``BSD-3-Clause``][BSD-3-Clause]
-* [Cranium][525] - Portable, header-only ANN library in C99. [``MIT``][MIT]
 * [FANN][325] - Fast Artifical Neural Network library; an implementation of
   neural networks. [``GPL-2.0-only``][GPL-2.0-only]
 * [Genann][412] - Simple ANN in C89, without additional dependencies. [``Zlib``][Zlib]
@@ -125,8 +124,6 @@ Compilers, as well as compiler- and compilation-related tooling.
   license. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [GCC][40] - Provides a C compiler as part of its compiler set. Supports
   C11. [``GPL-3.0-or-later``][GPL-3.0-or-later]
-* [PCC][74] - Venerable compiler. Supports C99. [Various licenses][75], all
-  open source.
 
 ## Compression ##
 
@@ -266,8 +263,6 @@ Databases and data stores with C APIs.
 * [MySQL][551] - The world's most popular open source database. [``GPL-2.0-only``][GPL-2.0-only]
 * [PostgreSQL][121] - Powerful object-relational database system. [``PostgreSQL``][PostgreSQL]
 * [Redis][51] - Advanced key-value store. [``BSD-3-Clause``][BSD-3-Clause]
-* [sophia][244] - Modern, embeddable key-value database.
-  [``BSD-2-Clause``][BSD-2-Clause]
 * [sparkey][509] - Simple constant key/value storage library. Designed for
   read-heavy loads with infrequent, large bulk inserts.
   [``Apache-2.0``][Apache-2.0]
@@ -359,7 +354,6 @@ work.
 Fancier, IDE-type editors. If you want a programmer's text editor, look
 elsewhere. Besides, whatever you use most likely supports C anyway.
 
-* [Anjuta DevStudio][42] - GNOME IDE. [``GPL-2.0-only``][GPL-2.0-only]
 * [Code::Blocks][249] - Extendable, configurable IDE supporting
   C. [``GPL-3.0-only``][GPL-3.0-only]
 * [CodeLite][45] - Cross-platform IDE. [``GPL-2.0-only``][GPL-2.0-only]
@@ -696,8 +690,6 @@ comprehensive and high-level, you may want the Web Frameworks section.
   SMTP, POP and NNTP. [``BSD-3-Clause``][BSD-3-Clause]
 * [libev][144] - Yet another event loop. [``BSD-2-Clause``][BSD-2-Clause]
 * [libevent][124] - Event loop replacement for network servers. [``BSD-3-Clause``][BSD-3-Clause]
-* [libhttpd][166] - Library to add basic web server capabilities to an
-  application or embedded device. [``GPL-2.0-only``][GPL-2.0-only]
 * [libhv][564] - Cross platform event loop library. [``BSD-3-Clause``][BSD-3-Clause]
 * [libidn][164] - Implementation of the Stringprep, Punycode and IDNA
   specifications. [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -786,7 +778,6 @@ comprehensive and high-level, you may want the Web Frameworks section.
   problems on parallel computers. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [TomsFastMath][462] - Set of optimized maths operations (in assembly),
   suitable for cryptographic use. Public domain.
-* [Yeppp!][72] - Fast, SIMD-optimized mathematical library. [``BSD-3-Clause``][BSD-3-Clause]
 
 ## Profiling ##
 
@@ -989,8 +980,6 @@ registration and can output to multiple formats, like the TAP format or JUnit XM
 While practically any decent programmer's text editor supports C, there are some
 extensions that make it more pleasant. These are labelled by editor.
 
-* [CCompletion][92] - Notepad++ autocompletion plugin. Works with all
-  identifiers recognized by Ctags. This is a download link. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [CEDET][250] - Collection of Emacs Development Environment Tools; designed to
   provide IDE-like features to Emacs. Built-in.
   [``GPL-3.0-or-later``][GPL-3.0-or-later]
@@ -1221,7 +1210,6 @@ support for C.
 [WTFPL]: https://spdx.org/licenses/WTFPL.html
 [X11]: https://spdx.org/licenses/X11.html
 [Zlib]: https://spdx.org/licenses/Zlib.html
-
 [1]: https://github.com/Dead2/zlib-ng
 [2]: https://github.com/Cyan4973/FiniteStateEntropy
 [3]: https://github.com/dertuxmalwieder/libvldmail
@@ -1236,15 +1224,13 @@ support for C.
 [12]: https://uclibc-ng.org/
 [13]: https://opensource.org/osd
 [14]: https://www.gtk.org/
-
 [16]: http://webserver2.tecgraf.puc-rio.br/iup/
 [17]: https://github.com/saitoha/libsixel
 [18]: https://www.enlightenment.org?p=about%252Flibs
 [19]: http://www.tcl.tk/
-
 [21]: http://xforms-toolkit.org/
 [22]: https://www.sqlite.org/
-[23]: https://unqlite.org/
+[23]: https://unqlite.symisc.net/
 [24]: https://github.com/google/brotli
 [25]: https://en.wikipedia.org/wiki/Dynamic_array
 [26]: https://github.com/clibs/clib
@@ -1252,7 +1238,7 @@ support for C.
 [28]: http://www.koanlogic.com/libu/
 [29]: https://github.com/antirez/sds
 [30]: https://en.wikipedia.org/wiki/MIME
-[31]: https://trumpowen.github.io/MegaMimes
+[31]: https://kobbyowen.github.io/MegaMimes
 [32]: https://github.com/kgabis/parson
 [33]: https://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization
 [34]: http://re2c.org/index.html
@@ -1263,7 +1249,6 @@ support for C.
 [39]: https://github.com/recp/json
 [40]: https://gcc.gnu.org/
 [41]: https://github.com/libgit2/libgit2/blob/master/COPYING
-[42]: http://anjuta.org/
 [43]: https://www.geany.org/
 [44]: https://www.kdevelop.org/
 [45]: https://www.codelite.org/
@@ -1273,7 +1258,6 @@ support for C.
 [49]: https://github.com/vasi/pixz
 [50]: https://www.libsdl.org/
 [51]: https://redis.io/
-[52]: http://zeromq.org/
 [53]: http://www.digip.org/jansson/
 [54]: http://www.colm.net/open-source/ragel/
 [55]: https://dl.acm.org/citation.cfm?id=179241
@@ -1293,16 +1277,12 @@ support for C.
 [69]: https://lodev.org/lodepng/
 [70]: http://www.fftw.org/
 [71]: https://sourceforge.net/projects/kissfft/
-[72]: https://bitbucket.org/MDukhan/yeppp
 [73]: https://graphics.stanford.edu/~seander/bithacks.html
-[74]: http://pcc.ludd.ltu.se/
-[75]: http://pcc.ludd.ltu.se/licenses/
 [76]: http://attractivechaos.github.io/klib/#About
 [77]: https://github.com/netmail-open/wjelement/
 [78]: http://apr.apache.org/
 [79]: https://gmplib.org/
 [80]: https://github.com/cesanta/slre
-[81]: http://tiny-rex.sourceforge.net/
 [82]: https://github.com/laurikari/tre/
 [83]: http://www.pcre.org/
 [84]: https://github.com/Tuplanolla/cheat
@@ -1313,7 +1293,6 @@ support for C.
 [89]: http://expat.sourceforge.net/
 [90]: https://www.sfml-dev.org/download/csfml/
 [91]: https://www.sfml-dev.org/index.php
-[92]: http://freeweb.siol.net/rmihor/NppCCompletionPlugin.zip
 [93]: https://github.com/keybuk/libnih
 [94]: http://cunit.sourceforge.net/
 [95]: https://rr-project.org/
@@ -1338,7 +1317,7 @@ support for C.
 [114]: https://github.com/nothings/stb
 [115]: https://tinycthread.github.io/
 [116]: http://mike.steinert.ca/bstring/
-[117]: http://coap.technology/
+[117]: https://coap.space/
 [118]: http://facil.io/
 [119]: https://www.enlightenment.org
 [120]: https://zserge.com/jsmn.html
@@ -1353,7 +1332,6 @@ support for C.
 [129]: https://github.com/protobuf-c/protobuf-c
 [130]: https://github.com/jmckaskill/c-capnproto
 [131]: https://en.wikipedia.org/wiki/External_Data_Representation
-[132]: https://bitbucket.org/martijnj/msgpackalt
 [133]: http://www.netlib.org/lapack/lapacke.html
 [134]: http://www.netlib.org/lapack/
 [135]: https://github.com/martinh/libconfuse
@@ -1361,7 +1339,7 @@ support for C.
 [137]: http://math-atlas.sourceforge.net/
 [138]: http://lionet.info/asn1c/compiler.html
 [139]: https://github.com/nanomsg/nanomsg
-[140]: http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c
+[140]: https://avro.apache.org/
 [141]: https://cmocka.org/
 [142]: https://gnupg.org/related_software/libgcrypt
 [143]: https://github.com/libressl-portable/
@@ -1373,7 +1351,6 @@ support for C.
 [149]: https://github.com/flycheck/flycheck
 [150]: http://joaotavora.github.io/yasnippet/
 [151]: https://github.com/ycm-core/YouCompleteMe
-[152]: https://sites.google.com/site/lccretargetablecompiler/
 [153]: https://github.com/drh/lcc/blob/master/CPYRIGHT
 [154]: https://github.com/swenson/vector.h
 [155]: https://www.gnu.org/software/adns/
@@ -1387,7 +1364,6 @@ support for C.
 [163]: https://gnu.org/software/libiconv/
 [164]: https://gnu.org/software/libidn/
 [165]: https://gnu.org/software/libmicrohttpd/
-[166]: https://www.hughes.com.au/products/libhttpd/
 [167]: https://github.com/gpakosz/whereami
 [168]: http://www.webdav.org/neon/
 [169]: http://mihl.sourceforge.net/
@@ -1406,7 +1382,6 @@ support for C.
 [182]: http://shop.oreilly.com/product/9780596004361.do
 [183]: http://shop.oreilly.com/product/0636920026136.do
 [184]: https://www.pearson.com/us/higher-education/program/Prata-C-Primer-Plus-6th-Edition/PGM4399.html
-[185]: http://www.planetpdf.com/codecuts/pdfs/ooc.pdf
 [186]: https://github.com/vim-syntastic/syntastic
 [187]: https://github.com/dvidelabs/flatcc
 [188]: http://apophenia.info
@@ -1437,7 +1412,6 @@ support for C.
 [214]: https://github.com/adamierymenko/huffandpuff
 [215]: https://sourceforge.net/projects/vtd-xml/
 [216]: https://michaelrsweet.github.io?Z3
-[217]: http://svn.msweet.org/mxml/trunk/COPYING
 [218]: http://ezxml.sourceforge.net/
 [219]: https://github.com/blunderer/libroxml
 [220]: https://github.com/DanielGibson/Snippets/
@@ -1464,7 +1438,6 @@ support for C.
 [241]: https://github.com/gpakosz/PackedArray
 [242]: http://concurrencykit.org
 [243]: http://repo.hu/projects/cchan/
-[244]: http://sophia.systems
 [245]: http://www.greenend.org.uk/rjk/tech/inline.html
 [246]: https://criterion.readthedocs.io/en/master
 [247]: https://port70.net/~nsz/c/c11/n1570.html
@@ -1488,7 +1461,6 @@ support for C.
 [265]: https://computing.llnl.gov/tutorials/mpi/
 [266]: https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard
 [267]: http://blog.pkh.me/p/20-templating-in-c.html
-[268]: http://lipforge.ens-lyon.fr/www/crlibm/index.html
 [269]: https://logological.org/gpp
 [270]: https://github.com/docopt/docopt.c
 [271]: https://xmake.io/
@@ -1506,7 +1478,7 @@ support for C.
 [284]: https://github.com/open-mpi/ompi
 [285]: http://www.mpich.org/
 [286]: http://git.mpich.org/mpich.git/blob_plain/6aab201f58d71fc97f2c044d250389ba86ac1e3c:/COPYRIGHT
-[287]: http://mingw-w64.yaxm.org/doku.php/start
+[287]: https://www.mingw-w64.org/
 [288]: https://github.com/google/sanitizers
 [289]: https://github.com/include-what-you-use/include-what-you-use
 [290]: http://dotat.at/prog/unifdef/
@@ -1541,7 +1513,6 @@ support for C.
 [320]: https://www.gnu.org/software/ddd/ddd.html
 [321]: http://docutils.sourceforge.net/
 [322]: https://hplgit.github.io/doconce/doc/web/index.html
-[323]: http://fabutil.org/
 [324]: https://www.gnu.org/software/make/
 [325]: https://github.com/libfann/fann
 [326]: https://github.com/centaurean/spookyhash
@@ -1742,7 +1713,6 @@ support for C.
 [522]: http://cyan4973.github.io/xxHash
 [523]: https://github.com/aubio/aubio
 [524]: https://github.com/groonga/groonga
-[525]: https://100.github.io/Cranium/
 [526]: http://www.saphir2.com/sphlib/
 [527]: https://github.com/google/highwayhash
 [528]: http://nullprogram.com/blog/2017/08/20/
