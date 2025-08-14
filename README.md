@@ -911,6 +911,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 ### CSV ###
 
 * [libcsv][387] - Simple, streaming CSV parser. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [zsv][707](https://github.com/liquidaty/zsv) - The world's fastest (simd) CSV parser, with an extensible CLI. [``MIT``][MIT]
 
 ### JSON ###
 
@@ -1847,4 +1848,4 @@ support for C.
 [704]: https://github.com/taosdata/TDengine
 [705]: https://nappgui.com/
 [706]: https://github.com/armink/EasyLogger
-
+[707]: https://github.com/liquidaty/zsv
