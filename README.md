@@ -1387,7 +1387,7 @@ support for C.
 [163]: https://gnu.org/software/libiconv/
 [164]: https://gnu.org/software/libidn/
 [165]: https://gnu.org/software/libmicrohttpd/
-[166]: https://www.hughes.com.au/products/libhttpd/
+[166]: https://github.com/houxn22/LibHTTPD
 [167]: https://github.com/gpakosz/whereami
 [168]: http://www.webdav.org/neon/
 [169]: http://mihl.sourceforge.net/
