@@ -401,7 +401,7 @@ Big libraries that provide data structures and other stuff you expect of a
   other things. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [plibsys][588] - Cross-platform system C library. Zero third-party dependencies, uses only native system calls. [``MIT``][MIT]
 * [qlibc][277] - Simple and powerful library, designed as a replacement for
-  GLib while focusing on being small and light. [``BSD-2-Clause``][BSD-2-Clause]
+  GLib while focusing on being small and light. [``qlibc``][278]
 * [sc][595] - Common libraries and data structures for C. [``MIT``][MIT]
 * [TBOX][398] - Multi-platform library with a large number of
   capabilities. [``Apache-2.0``][Apache-2.0]
@@ -1497,7 +1497,7 @@ support for C.
 [275]: http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html
 [276]: https://github.com/ryanmjacobs/c
 [277]: http://wolkykim.github.io/qlibc
-[278]: https://github.com/wolkykim/qlibc/blob/master/LICENSE
+[278]: https://github.com/wolkykim/qlibc/blob/main/LICENSE
 [279]: https://gist.github.com/eatonphil/21b3d6569f24ad164365
 [280]: https://www.flourish.org/cinclude2dot/
 [281]: http://www.dyncall.org/
