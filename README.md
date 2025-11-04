@@ -1090,6 +1090,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   aware, fast Markdown parser. [``MIT``][MIT]
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
   updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [lazybios][15] - Lightweight SMBIOS/DMI parsing library for hardware detection and system information. [``MIT``][MIT]
 * [libCello][96] - Library introducing higher-level programming to
   C. [``BSD-3-Clause``][BSD-3-Clause]
 * [libcmark][436] - Library for parsing the CommonMark dialect of
@@ -1238,7 +1239,7 @@ support for C.
 [12]: https://uclibc-ng.org/
 [13]: https://opensource.org/osd
 [14]: https://www.gtk.org/
-
+[15]: https://github.com/LazySeldi/lazybios
 [16]: http://webserver2.tecgraf.puc-rio.br/iup/
 [17]: https://github.com/saitoha/libsixel
 [18]: https://www.enlightenment.org?p=about%252Flibs
