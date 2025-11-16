@@ -1178,6 +1178,7 @@ application in C.
   appliances. [``BSD-3-Clause``][BSD-3-Clause]
 * [Kore][415] - Easy-to-use web application framework for writing scalable
   web APIs in C. [``ISC``][ISC]
+* [cMistral][710] - C library for Mistral AI API [`MIT`][MIT]
 
 ## Windows Environments ##
 
@@ -1854,3 +1855,4 @@ support for C.
 [707]: https://github.com/OCamlPro/owi
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
+[710]: https://github.com/Skrebnevf/cMistral
