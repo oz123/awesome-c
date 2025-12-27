@@ -490,6 +490,7 @@ Graphical User Interface section has what you need.
   UI and visualizations. [``Zlib``][Zlib]
 * [OpenGL][147] - Industry standard for high-performance graphics, with a
   native C binding. [Various licenses][148].
+* [Piciem](https://github.com/uzunenes/piciem) - Lightweight image processing library for learning. Implements DFT/FFT, convolution, filters and morphology operations. [``MIT``][MIT]
 * [PlutoVG][590] - A standalone 2D vector graphics library in C [``MIT``][MIT]
 * [SAIL][601] - ⛵ The missing small and fast image decoding library for humans (not for machines) [``MIT``][MIT]
 
