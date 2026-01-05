@@ -720,7 +720,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   library based on libev and http-parser for Embedded Linux. [``MIT``][MIT]
 * [LibVNCServer][464] - Cross-platform libraries to implement VNC server and/or
   client functionality. [``GPL-2.0-or-later``][GPL-2.0-or-later]
-* [libwebsock][261] - Easy-to-use and powerful web socket library.
+* [libwebsock2][261] - Easy-to-use and powerful web socket library.
   [``LGPL-3.0-only``][LGPL-3.0-only]
 * [libzmq][581] - Core ZeroMQ library, a high-performance asynchronous
   messaging library, aimed at use in distributed or concurrent applications.
@@ -1486,7 +1486,7 @@ support for C.
 [258]: https://port70.net/~nsz/c/c99/n1256.html
 [259]: https://spdx.org/licenses/EPL-1.0.html
 [260]: https://netbeans.org/
-[261]: https://github.com/JonnyWhatshisface/libwebsock
+[261]: https://github.com/JonnyWhatshisface/libwebsock2
 [262]: http://c-faq.com/
 [263]: https://computing.llnl.gov/tutorials/pthreads/
 [264]: https://computing.llnl.gov/tutorials/openMP/
