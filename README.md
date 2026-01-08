@@ -1268,7 +1268,7 @@ support for C.
 [39]: https://github.com/recp/json
 [40]: https://gcc.gnu.org/
 [41]: https://github.com/libgit2/libgit2/blob/master/COPYING
-[42]: http://anjuta.org/
+[42]: https://en.wikipedia.org/wiki/Anjuta
 [43]: https://www.geany.org/
 [44]: https://www.kdevelop.org/
 [45]: https://www.codelite.org/
