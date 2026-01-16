@@ -735,6 +735,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   [``MIT``][MIT]
 * [oSip][179] - SIP implementation without additional
   dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [PicoHTTPParser](https://github.com/h2o/picohttpparser) - A tiny, extremely fast HTTP parser. MIT
 * [silgy][579] - Asynchronous HTTP(S) engine for C/C++ projects. [``MIT``][MIT]
 * [socket99][203] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
