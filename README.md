@@ -964,6 +964,7 @@ device types (such as logic analyzers, oscilloscopes, multimeters, and more). [`
 
 ## Testing ##
 
+* [Attest][711] - Cross-platform, heap-free C test framework with parameterized and lifecycle-aware tests, assertions with ad-hoc formatting and detailed failure diagnostics. [``MIT``][MIT]
 * [CHEAT][84] - Simple unit testing framework. [``BSD-2-Clause``][BSD-2-Clause]
 * [Check][59] - Unit testing framework. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [ciut][5] - A modern minimal hassle unit test framework. [``MIT``][MIT]
@@ -1856,3 +1857,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/tugglecore/attest
