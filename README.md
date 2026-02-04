@@ -83,6 +83,7 @@ Basically, if your university calls it AI, it lives here.
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 * [m2cgen][610] - A CLI tool to transpile trained classic ML models into a native C code with zero dependencies. [``MIT``][MIT]
 * [sod][611] -  An Embedded Computer Vision & Machine Learning Library. [``GPL-3.0-only``][GPL-3.0-only]
+* [qsmm][711] - Toolchain for adaptive probabilistic assembler programs implemented as a library in C99. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 
 ## Benchmarking ##
 
@@ -1856,3 +1857,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: http://qsmm.org/
