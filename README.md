@@ -172,6 +172,8 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [TurboRLE][484] - Most efficient run-length encoding. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [zip][520] - Really really small zip archive processing library.
   [``Unlicense``][Unlicense]
+* [zxc][711] - High-performance lossless compression library, achieving lz4-level compression ratios with significantly faster decompression.
+  [``BSD-3-Clause``][BSD-3-Clause]
 * [Zlib][230] - Massively spiffy yet delicately unobtrusive compression
   library. [``BSD-3-Clause``][BSD-3-Clause]
 * [libarchive][548] - libarchive is a portable, efficient C library that can read and write streaming archives in a variety of formats.
@@ -1856,3 +1858,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/hellobertrand/zxc
