@@ -1081,6 +1081,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   solvers. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [docopt.c][270] - Implementation of a command-line option parser. [``MIT``][MIT]
 * [dyncall][281] - Another foreign function interface library. [``MIT``][MIT]
+* [fbpanel][711] - Lightweight, configurable desktop panel for X11; provides taskbar, system tray, application launcher, pager and clock plugins. [``MIT``][MIT]
 * [GNU FreeIPMI][158] - In-band and out-of-band IPMI
   implementation. [``GPL-3.0-only``][GPL-3.0-only]
 * [GNU gperf][351] - Perfect hash function generator, given a list of
@@ -1856,3 +1857,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/Fullaxx/fbpanel
