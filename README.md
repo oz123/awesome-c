@@ -340,6 +340,7 @@ work.
    single and multithread programs, user assertions, overflow, and pointer/memory safety. [``Apache-2.0``][Apache-2.0]
 * [GDB][87] - GNU Project debugger. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [lldb][468] - LLVM debugger. [``NCSA``][NCSA]
+* [Leax][711] - Tool that explains C memory leaks and suggests fixes. [``MIT``][MIT]   
 * [Owi][707] - A symbolic execution tool ([paper][708]) [``AGPL-3.0-or-later``][AGPL-3.0-or-later]
 * [rr][95] - Debugger that records non-deterministic executions to allow for
   deterministic debugging. [``BSD-2-Clause``][BSD-2-Clause]
@@ -1856,3 +1857,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/hooop/Leax
