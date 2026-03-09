@@ -383,6 +383,7 @@ Big libraries that provide data structures and other stuff you expect of a
 
 * [APR][78] - Apache Portable Runtime; another library of cross-platform utility
   functions. [``Apache-2.0``][Apache-2.0]
+* [ByteWeasel][711] - Lightweight, modular register-based VM framework in pure C. [``GPL-3.0-only``][GPL-3.0-only]
 * [C Algorithms][88] - Collection of common algorithms and data structures. [``ISC``][ISC]
 * [CPL][308] - The Common Pipeline Library; a set of libraries designed to be a
   comprehensive, efficient and robust software toolkit.
@@ -1856,3 +1857,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/goofgef/ByteWeasel
