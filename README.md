@@ -285,7 +285,7 @@ Databases and data stores with C APIs.
 ## Data Structures ##
 
 * [buffer_set][711] - Stores a set of values in a binary search tree within a contiguous memory buffer,
-  using the AVL rebalancing algorithm. [``LGPL-2.1-or-later``][LGPL]
+  using the AVL rebalancing algorithm. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [C-Macro-Collections][550] - Generate simple and generic data structures using macros. [``MIT``][MIT]
 * [CLIST][371] - Simple and lightweight [dynamic array][25] implementation.
   [``BSD-2-Clause``][BSD-2-Clause]
