@@ -1053,6 +1053,7 @@ libraries or compilers.
   without touching any other part of the file. [``BSD-3-Clause``][BSD-3-Clause] or
   [``BSD-2-Clause``][BSD-2-Clause]
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=oz123_awesome-c) - Follow experienced devs on GitHub and see what repos they find worth starring. Great for learning.
 ## Utilities ##
 
 A 'catch-all' category for anything that doesn't fit well anywhere else.
