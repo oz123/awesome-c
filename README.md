@@ -575,6 +575,7 @@ to C programming.
 * [Introduction to OpenMP][207] (video)
 * [OpenMP tutorial][264] (for the OpenMP3 standard)
 * [MPI tutorial][265]
+* [Networking from Scratch][711] - Hands-on lessons covering the full network stack from raw bytes to eBPF in C and Python. [``MIT``][MIT]
 * [Scalable C - Writing Large-Scale Distributed C][391]
 * [Some unknown features or tricks in C language][374]
 * [What every C programmer should know about undefined behaviour][275]
@@ -1856,3 +1857,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/TanayK07/networking-from-scratch
