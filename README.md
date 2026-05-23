@@ -573,6 +573,7 @@ to C programming.
 * [Generic C reference counting][443]
 * [How to write portable C without complicating your build][490]
 * [Introduction to OpenMP][207] (video)
+* [Networking from Scratch][711] - Build the network stack from raw bytes. 289 hands-on lessons in C and Python.
 * [OpenMP tutorial][264] (for the OpenMP3 standard)
 * [MPI tutorial][265]
 * [Scalable C - Writing Large-Scale Distributed C][391]
@@ -1856,3 +1857,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/TanayK07/networking-from-scratch
