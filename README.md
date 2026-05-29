@@ -743,6 +743,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [Wslay][460] - WebSocket library. Implements version 13 of the WebSocket
   protocol, as described in RFC 6455. [``MIT``][MIT]
 * [zyre][419] - Framework for proximity-based peer-to-peer applications. [``MPL-2.0``][MPL-2.0]
+* [Papago][708] - Modern, Powerful, Embeddable Web Framework [``BSD-2-Clause``][BSD-2-Clause]
 
 ## Numerical ##
 
@@ -884,6 +885,7 @@ Implementations of the (standard-mandated) C standard library.
 ### Template libraries
 
 * [CTL][613] - C CONTAINER TEMPLATE LIBRARY (CTL) [``MIT``][MIT]
+* [Maple][707] - Lightweight, embeddable Go inspired template engine [``BSD-2-Clause``][iBSD-2-Clause]
 
 ## String Manipulation ##
 
@@ -1162,6 +1164,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Metalang99][603] - Full-blown preprocessor metaprogramming. [``MIT``][MIT]
 * [Datatype99][604] - Algebraic data types for C99. [``MIT``][MIT]
 * [EasyLogger][706] - An ultra-lightweight, high-performance C/C++ log library. [``MIT``][MIT]
+* [Rattler][713] - Clone of Gos Cobra CLI framework [``BSD-2-Clause``][BSD-2-Clause] 
 * [microlog][709] - Extensible and configurable logging library with topics for embedded and desktop 
   [``MIT``][MIT]
 
@@ -1856,3 +1859,6 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/briandowns/libmaple
+[712]: https://github.com/briandowns/libpapago
+[713]: https://github.com/briandowns/librattler
