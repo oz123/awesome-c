@@ -1179,7 +1179,7 @@ application in C.
   appliances. [``BSD-3-Clause``][BSD-3-Clause]
 * [Kore][415] - Easy-to-use web application framework for writing scalable
   web APIs in C. [``ISC``][ISC]
-* [Anarchan][711] - CGI imageboard engine written in C99. [``CC-BY-4.0``][CC-BY-4.0]
+* [Anarchan][711] - CGI imageboard engine written in C99. [```Anarchan license```][Anarchan-license]
 
 ## Windows Environments ##
 
@@ -1204,7 +1204,7 @@ support for C.
 [BSD-3-Clause]: https://spdx.org/licenses/BSD-3-Clause.html
 [BSD-4-Clause]: https://spdx.org/licenses/BSD-4-Clause.html
 [CC0-1.0]: https://spdx.org/licenses/CC0-1.0.html
-[CC-BY-4.0]: https://spdx.org/licenses/CC-BY-4.0.html
+[Anarchan-license]: https://spdx.org/licenses/CC-BY-4.0.html
 [curl]: https://spdx.org/licenses/curl.html
 [GPL-2.0-only]: https://spdx.org/licenses/GPL-2.0-only.html
 [GPL-2.0-or-later]: https://spdx.org/licenses/GPL-2.0-or-later.html
