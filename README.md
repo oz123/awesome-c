@@ -467,6 +467,8 @@ Graphical User Interface section has what you need.
 * [graphene][515] - Thin layer of graphical data types. [``MIT``][MIT]
 * [heman][365] - Tiny library of image utilities dealing with height maps,
   normal maps, distance fields and the like. [``MIT``][MIT]
+* [imgcli][711] - Dependency-free tool to convert, resize, crop, filter and
+  composite images, with an ffmpeg-style filtergraph. [``MIT``][MIT]
 * [libcaca][366] - ASCII renderer for terminal-based interfaces. [``WTFPL``][WTFPL]
 * [libgd][402] - Library for the dynamic creation of images by programmers. [``MIT``][MIT]
 * [libimagequant][300] - Small, portable library for high-quality conversion of
@@ -661,7 +663,6 @@ to do with managing C memory lives here.
 * [FFMPEG][63] - Complete, cross-platform solution to record, convert and
   stream audio and video. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [GStreamer][123] - Framework for audio and visual media. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
-* [imgcli][711] - Dependency-free CLI to convert, resize, crop, filter and composite images, with an ffmpeg-style filtergraph. [``MIT``][MIT]
 * [libmpv][348] - Music-playing library. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [libsndfile][458] - Library for reading and writing sound files. Supports
   many formats. [``LGPL-2.1-only``][LGPL-2.1-only] or
