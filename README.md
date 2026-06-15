@@ -661,6 +661,7 @@ to do with managing C memory lives here.
 * [FFMPEG][63] - Complete, cross-platform solution to record, convert and
   stream audio and video. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [GStreamer][123] - Framework for audio and visual media. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [imgcli][711] - Dependency-free CLI to convert, resize, crop, filter and composite images, with an ffmpeg-style filtergraph. [``MIT``][MIT]
 * [libmpv][348] - Music-playing library. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [libsndfile][458] - Library for reading and writing sound files. Supports
   many formats. [``LGPL-2.1-only``][LGPL-2.1-only] or
@@ -1856,3 +1857,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/swperb/imgcli
