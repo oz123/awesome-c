@@ -467,6 +467,8 @@ Graphical User Interface section has what you need.
 * [graphene][515] - Thin layer of graphical data types. [``MIT``][MIT]
 * [heman][365] - Tiny library of image utilities dealing with height maps,
   normal maps, distance fields and the like. [``MIT``][MIT]
+* [imgcli][711] - Dependency-free tool to convert, resize, crop, filter and
+  composite images, with an ffmpeg-style filtergraph. [``MIT``][MIT]
 * [libcaca][366] - ASCII renderer for terminal-based interfaces. [``WTFPL``][WTFPL]
 * [libgd][402] - Library for the dynamic creation of images by programmers. [``MIT``][MIT]
 * [libimagequant][300] - Small, portable library for high-quality conversion of
@@ -1856,3 +1858,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/swperb/imgcli
