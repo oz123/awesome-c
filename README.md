@@ -959,7 +959,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 
 ## Signal Processing ##
 
-* [libsigrok][601] -  signal analysis software suite that supports various
+* [libsigrok][712] -  signal analysis software suite that supports various
 device types (such as logic analyzers, oscilloscopes, multimeters, and more). [``GPL``][GPL]
 
 ## Testing ##
@@ -1822,7 +1822,7 @@ support for C.
 [599]: https://github.com/hnes/libaco
 [600]: www.littlecms.com
 [601]: https://github.com/smoked-herring/sail
-[601]: https://sigrok.org/wiki/Libsigrok
+[712]: https://sigrok.org/wiki/Libsigrok
 [602]: https://github.com/zpl-c/zpl
 [603]: https://github.com/Hirrolot/metalang99
 [604]: https://github.com/Hirrolot/datatype99
