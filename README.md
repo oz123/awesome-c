@@ -235,6 +235,9 @@ protocols.
 * [libsodium][198] - Modern and easy-to-use crypto library. [``MIT``][MIT]
 * [libtomcrypt][299] - Fairly comprehensive, modular and portable
   cryptographic toolkit. Public domain.
+* [libVES.c][711] - End-to-end encryption of stored data with recoverable
+  keys, post-quantum (ML-KEM) key exchange and user-to-user sharing;
+  includes a CLI. [``Apache-2.0``][Apache-2.0]
 * [mbed TLS][291] - Another crypto implementation. [``Apache-2.0``][Apache-2.0]
 * [MIRACL][480] - Multiprecision Integer and Rational Arithmetic Cryptographic
   Library; an SDK for elliptic curve cryptography.
@@ -1856,3 +1859,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/vesvault/libVES.c
