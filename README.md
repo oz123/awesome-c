@@ -102,6 +102,8 @@ Tools that automate the building and testing of projects in C.
   software. [``BSD-3-Clause``][BSD-3-Clause]
 * [GNU Make][324] - Tool which controls the generation of executables and other
   non-source files of a program. [``GPL-3.0-or-later``][GPL-3.0-or-later]
+* [goose][711] - Cargo-inspired package manager and build tool for C, with
+  project scaffolding, git dependencies, lock files and a test runner. [``MIT``][MIT]
 * [Meson][368] - Extremely fast, user-friendly build system. Based on Ninja. [``Apache-2.0``][Apache-2.0]
 * [Premake][435] - Command-line utility which reads a scripted definition of a
   software project and uses it to generate project files for Visual Studio and
@@ -1856,3 +1858,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/wess/goose
