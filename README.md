@@ -1092,7 +1092,7 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
   updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [lazybios][711] - Library for parsing SMBIOS structures in
-  C99.[``MIT``][LGPL2.1]
+  C99.[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libCello][96] - Library introducing higher-level programming to
   C. [``BSD-3-Clause``][BSD-3-Clause]
 * [libcmark][436] - Library for parsing the CommonMark dialect of
