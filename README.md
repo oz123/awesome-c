@@ -1091,6 +1091,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   aware, fast Markdown parser. [``MIT``][MIT]
 * [Kitsune][355] - Efficient, general-purpose framework for dynamic software
   updating. [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [lazybios][711] - Library for parsing SMBIOS structures in
+  C99.[``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [libCello][96] - Library introducing higher-level programming to
   C. [``BSD-3-Clause``][BSD-3-Clause]
 * [libcmark][436] - Library for parsing the CommonMark dialect of
@@ -1856,3 +1858,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/LazySeldi/lazybios
