@@ -924,6 +924,8 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
 * [json-c][8] - Easily work with JSON in C. Comes with a reference-counted object
   model, and aims for conformance with [RFC 7159][11]. [``MIT``][MIT]
 * [json.h][431] - Single-file non-streaming JSON parser. [``Unlicense``][Unlicense]
+* [orbis][711] - JSON parser, bytecode-compiled schema validator (zero heap
+  during validation) and a small REST server. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [parson][32] - Two-file, C89-compatible JSON parser. [``MIT``][MIT]
 * [WJElement][77] - Advanced JSON manipulation library, with support for JSON
   Schema. [``LGPL-2.0-or-later``][LGPL-2.0-or-later] or
@@ -1856,3 +1858,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/davranfor/orbis
