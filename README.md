@@ -737,6 +737,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [silgy][579] - Asynchronous HTTP(S) engine for C/C++ projects. [``MIT``][MIT]
 * [socket99][203] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
+* [tachyon][711] - Ultra high-throughput static HTTP/HTTPS engine with Linux kTLS. [``MIT``][MIT]
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
 * [uriparser][100] - Strictly RFC 3986-compliant URI parsing and handling library.
   [``BSD-3-Clause``][BSD-3-Clause]
@@ -1856,3 +1857,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/xdearboy/tachyon
