@@ -1015,6 +1015,9 @@ libraries or compilers.
   supports C. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [address-sanitizer][288] - Fast memory error detector.
   [``Apache-2.0``][Apache-2.0]
+* [BARR-C Enforcement Kit][711] - Drop-in clang-format and clang-tidy
+  configurations, compiler warning gates, and ready-made CI enforcing BARR-C,
+  the Embedded C Coding Standard for embedded systems. [``MIT``][MIT]
 * [bcc][619] - A byte array generator to import binary files directy from C in
   the spirit of xxd. [``ISC``][ISC]
 * [c][276] - Compile and execute C "scripts" in one go on the command line. Also
@@ -1856,3 +1859,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/netrinomike/barr-c
