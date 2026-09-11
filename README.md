@@ -83,6 +83,7 @@ Basically, if your university calls it AI, it lives here.
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 * [m2cgen][610] - A CLI tool to transpile trained classic ML models into a native C code with zero dependencies. [``MIT``][MIT]
 * [sod][611] -  An Embedded Computer Vision & Machine Learning Library. [``GPL-3.0-only``][GPL-3.0-only]
+* [Robointuition](https://www.robointuition.net) - Fully local, offline AI coding assistant for secure and private development workflows. C programming.
 
 ## Benchmarking ##
 
