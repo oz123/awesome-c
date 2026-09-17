@@ -1052,6 +1052,7 @@ libraries or compilers.
 * [unifdef][290] - Removes #ifdef and #if directives with their delimited text
   without touching any other part of the file. [``BSD-3-Clause``][BSD-3-Clause] or
   [``BSD-2-Clause``][BSD-2-Clause]
+* [veil][711] - General-purpose steganography toolkit. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 
 ## Utilities ##
 
@@ -1856,3 +1857,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/IdanKoblik/veil
