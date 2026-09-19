@@ -109,6 +109,7 @@ Tools that automate the building and testing of projects in C.
 * [SCons][521] - Software construction tool using Python. [``MIT``][MIT]
 * [xmake][271] - Cross-platform build utility. [``Apache-2.0``][Apache-2.0]
 * [zproject][420] - Project generator and build system support tool. [``MPL-2.0``][MPL-2.0]
+* [flint][711] - Zero-config, manifest-first C/C++ build system and package manager with direct Git dependency resolution. [``MIT``][MIT]
 
 ## Compilers ##
 
@@ -1856,3 +1857,4 @@ support for C.
 [708]: https://hal.science/hal-04627413
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
+[711]: https://github.com/mainak55512/flint
