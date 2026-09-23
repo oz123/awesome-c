@@ -1180,6 +1180,7 @@ application in C.
   appliances. [``BSD-3-Clause``][BSD-3-Clause]
 * [Kore][415] - Easy-to-use web application framework for writing scalable
   web APIs in C. [``ISC``][ISC]
+* [NeuroHTTP](https://github.com/okba14/NeuroHTTP) - Ultra-lightweight AI-driven HTTP server written in pure C and x86 Assembly, focused on low-level performance and embedded inference. [``MIT``][MIT]
 
 ## Windows Environments ##
 
