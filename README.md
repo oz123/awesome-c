@@ -1012,6 +1012,7 @@ extensions that make it more pleasant. These are labelled by editor.
 Useful programs to help you write and debug C code which are *not* editors,
 libraries or compilers.
 
+* [Sbor][709] - Project manager for C, inspired by `cargo`.[``MIT``][MIT]
 * [Artistic Style][314] - Fast and small automatic source code formatter that
   supports C. [``LGPL-3.0-only``][LGPL-3.0-only]
 * [address-sanitizer][288] - Fast memory error detector.
@@ -1855,6 +1856,7 @@ support for C.
 [706]: https://github.com/armink/EasyLogger
 [707]: https://github.com/OCamlPro/owi
 [708]: https://hal.science/hal-04627413
+[709]: https://github.com/Vaishnav-Sabari-Girish/sbor
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
