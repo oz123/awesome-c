@@ -930,6 +930,7 @@ This includes libraries for things like XML, JSON, CSV, and other similar format
   Schema. [``LGPL-2.0-or-later``][LGPL-2.0-or-later] or
   [``LGPL-2.1-or-later``][LGPL-2.1-or-later] or [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
 * [YAJL][60] - Fast streaming JSON parser library. [``ISC``][ISC]
+* [JsonX](https://github.com/embedmind/JsonX) - Lightweight JSON mapping layer for microcontrollers and RTOS. Thin wrapper around cJSON with static memory pools and struct  mapping. [``MIT``][MIT]
 
 ### INI ###
 
