@@ -738,6 +738,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [silgy][579] - Asynchronous HTTP(S) engine for C/C++ projects. [``MIT``][MIT]
 * [socket99][203] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
+* [tnerroT](https://github.com/Achintya47/tnerroT) - From-scratch BitTorrent client implemented in C. [``MIT``][MIT]
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
 * [uriparser][100] - Strictly RFC 3986-compliant URI parsing and handling library.
   [``BSD-3-Clause``][BSD-3-Clause]
