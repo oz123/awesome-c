@@ -1172,6 +1172,8 @@ Comprehensive and integrated solutions for building the next brilliant web
 application in C.
 
 * [Concord][617] - A Discord API wrapper library written in C. [``MIT``][MIT]
+* [CWIST][712] - C17 web framework with HTTP/1.1, HTTP/2, HTTP/3 (QUIC),
+  WebSocket, and post-quantum hybrid TLS. [``MIT``][MIT]
 * [facil.io][118] - Mini-framework for web applications. Includes a fast HTTP and
   Websocket server, and also supports custom protocols. [``MIT``][MIT]
 * [kcgi][562] - CGI and FastCGI library for C [``ISC``][ISC].
@@ -1858,3 +1860,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://c4punks.github.io/CWIST/
