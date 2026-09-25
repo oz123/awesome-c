@@ -196,8 +196,6 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [libconcurrent][390] - Concurrent programming library, using coroutines, for
   C11. [``BSD-3-Clause``][BSD-3-Clause]
 * [libcsp][572] - High performance concurrency C library influenced by the CSP model. [``MIT``][MIT]
-* [libdill][442] - Library which makes structured concurrent programming
-  easy. [``MIT``][MIT]
 * [libhl][478] - Library implementing a thread-safe API to manage a range of data
   structures. Also provides some supporting functions and structures for
   concurrent and lockfree programming. [``LGPL-3.0-only``][LGPL-3.0-only]
@@ -1665,7 +1663,6 @@ support for C.
 [439]: https://github.com/clMathLibraries/clBLAS
 [440]: https://criu.org/Main_Page
 [441]: https://github.com/neomake/neomake
-[442]: http://libdill.org/
 [443]: https://nullprogram.com/blog/2015/02/17
 [444]: https://github.com/ands/lightmapper
 [445]: http://blosc.org/pages/blosc-in-depth
