@@ -689,6 +689,8 @@ comprehensive and high-level, you may want the Web Frameworks section.
   and utilities. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [gumbo-parser][196] - HTML5 parsing library in C99.
   [``Apache-2.0``][Apache-2.0]
+* [Handshaked UDP][712] - Low-latency UDP sessions through carrier-grade NAT,
+  with handshake, keep-alive and connection migration. [``MIT``][MIT]
 * [H20][127] - A new-generation HTTP server. [``MIT``][MIT]
 * [llhttp][197] - HTTP request/response parser. [``MIT``][MIT]
 * [ldns][339] - Library to simplify DNS programming.
@@ -1858,3 +1860,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://github.com/kewl-ua/handshaked_udp
