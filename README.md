@@ -1405,7 +1405,7 @@ support for C.
 [175]: http://www.multiprecision.org/mpc/
 [176]: http://mpfr.loria.fr/index.html
 [177]: https://gnu.org/software/mpria/
-[178]: https://gnu.org/software/ncurses/
+[178]: https://invisible-island.net/ncurses/
 [179]: https://gnu.org/software/osip/
 [180]: https://gnu.org/software/pth/
 [181]: https://savedparadigms.files.wordpress.com/2014/09/harbison-s-p-steele-g-l-c-a-reference-manual-5th-ed.pdf
