@@ -141,7 +141,6 @@ Compilers, as well as compiler- and compilation-related tooling.
 * [CRoaring][481] - C implementation of [Roaring bitmaps][482]. [``Apache-2.0``][Apache-2.0]
 * [FiniteStateEntropy][2] - Two highly efficient compression codecs optimized
   for modern CPUs. [``BSD-2-Clause``][BSD-2-Clause]
-* [DENSITY][506] - Super-fast compression library. [``BSD-3-Clause``][BSD-3-Clause]
 * [heatshrink][514] - Data compression/decompression library for embedded and
   real-time systems. [``ISC``][ISC]
 * [fast\_zlib][533] - Improved zlib, which runs 2 to 10 times faster.
@@ -1729,7 +1728,6 @@ support for C.
 [503]: https://github.com/bvdberg/ctest
 [504]: https://github.com/antirez/linenoise
 [505]: https://github.com/memononen/nanovg
-[506]: https://github.com/centaurean/density
 [507]: https://maciejczyzewski.github.io/retter
 [508]: http://lz4.github.io/lz4/
 [509]: https://github.com/spotify/sparkey
