@@ -1808,7 +1808,7 @@ support for C.
 [584]: https://github.com/msune/autotools-skeleton
 [585]: https://msune.github.io/libcdada/
 [586]: https://github.com/ariya/fastlz
-[587]: https://github.com/maxim2266/str
+[587]: https://github.com/nih-at/libzip
 [588]: https://github.com/saprykin/plibsys
 [589]: https://github.com/Jorengarenar/libXDGdirs
 [590]: https://github.com/sammycage/plutovg
