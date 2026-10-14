@@ -230,7 +230,7 @@ protocols.
 * [libgcrypt][142] - General-purpose cryptography library, with a range of
   available ciphers. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
 * [OpenSSL][110] - Implementation of the SSL and TLS protocols. Also includes a
-  cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License][111].
+  cryptography library. [Dual Licensed under the OpenSSL License and the SSLeay License for 1.x branch][111], [``Apache-2.0`` for 3.x branch][Apache-2.0].
 * [liboqs][493] - Library for quantum-resistant cryptographicl algorithms.
   [``MIT``][MIT]
 * [libsodium][198] - Modern and easy-to-use crypto library. [``MIT``][MIT]
@@ -1338,7 +1338,7 @@ support for C.
 [108]: https://github.com/RandyGaul/tinyheaders
 [109]: https://github.com/compuphase/minIni
 [110]: https://www.openssl.org/
-[111]: https://www.openssl.org/source/license.html
+[111]: https://openssl-library.org/source/license/index.html
 [112]: http://www.gnutls.org/
 [113]: https://github.com/RhysU/c99sh
 [114]: https://github.com/nothings/stb
