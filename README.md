@@ -552,6 +552,7 @@ to C programming.
 * [A tutorial on portable Makefiles][528]
 * [Building C Projects][208]
 * [C Programming Wikibook][248]
+* [Coddy: Learn C Programming][712]
 * [Introduction to \`fun' C][279]
 * [Learning C with GDB][349]
 * [memcpy vs memmove][205]
@@ -1858,3 +1859,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://coddy.tech/landing/c
