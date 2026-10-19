@@ -1039,6 +1039,9 @@ libraries or compilers.
 * [GPP][269] - General-purpose preprocessor. More versatile than the C
   preprocessor, but more flexible than m4.
   [``LGPL-3.0-or-later``][LGPL-3.0-or-later]
+* [HeaderKit][712] - C/C++ header analysis toolkit with pluggable backends and
+  writers for foreign function interface bindings and turnkey package
+  scaffolding. [``MIT``][MIT]
 * [Highlight][333] - Converts source code to formatted text with nice
   highlighting. [``GPL-3.0-only``][GPL-3.0-only]
 * [include-what-you-use][289] - Helps find unecessary inclusions and make
@@ -1858,3 +1861,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://axiomantic.github.io/headerkit/
