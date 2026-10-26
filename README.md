@@ -736,6 +736,9 @@ comprehensive and high-level, you may want the Web Frameworks section.
   [``MIT``][MIT]
 * [oSip][179] - SIP implementation without additional
   dependencies. [``LGPL-2.1-or-later``][LGPL-2.1-or-later]
+* [qev][712] - Maintained libev with the same API: epoll, kqueue, io_uring,
+  event ports and a real epoll on Windows through wepoll, on x86-64 and arm64.
+  [``MIT``][MIT]
 * [silgy][579] - Asynchronous HTTP(S) engine for C/C++ projects. [``MIT``][MIT]
 * [socket99][203] - C99 wrapper for the BSD sockets API. [``ISC``][ISC]
 * [twitc][237] - Mini library for interacting with the Twitter OAuth API. [``MIT``][MIT]
@@ -1858,3 +1861,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://github.com/isndev/qev
