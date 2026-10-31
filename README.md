@@ -1146,6 +1146,8 @@ A 'catch-all' category for anything that doesn't fit well anywhere else.
   interfaces (TUI) [``Apache-2.0``][Apache-2.0]
 * [sort][190] - Collection of sorting routines, which type-specialize at
   compile-time with a user-defined type. [``MIT``][MIT]
+* [TA-Lib][712] - Library of 200+ technical analysis functions for financial
+  market data, with batch and streaming APIs. [``BSD-3-Clause``][BSD-3-Clause]
 * [termbox][396] - Library for writing text-based interfaces. [``MIT``][MIT]
 * [tinyexpr][395] - Tiny recursive-descent parser, compiler and evaluation
   engine for simple mathematical expressions. [``BSD-3-Clause``][BSD-3-Clause]
@@ -1858,3 +1860,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://ta-lib.org/
