@@ -79,6 +79,7 @@ Basically, if your university calls it AI, it lives here.
 * [FANN][325] - Fast Artifical Neural Network library; an implementation of
   neural networks. [``GPL-2.0-only``][GPL-2.0-only]
 * [Genann][412] - Simple ANN in C89, without additional dependencies. [``Zlib``][Zlib]
+* [hako][712] - CPU inference engine for transformer language models, with its own weight format, kernels and tokenizer; no dependencies beyond libc, libm and pthreads. [``GPL-3.0-only``][GPL-3.0-only]
 * [KANN][327] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 * [m2cgen][610] - A CLI tool to transpile trained classic ML models into a native C code with zero dependencies. [``MIT``][MIT]
@@ -1858,3 +1859,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://github.com/mithraeums/hako
