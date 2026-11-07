@@ -778,6 +778,7 @@ comprehensive and high-level, you may want the Web Frameworks section.
   library. Supports algebra, digit manipulation, modular reductions, and various
   number-theoretic routines. Public domain.
 * [LibTomPoly][463] - Polynomial-related maths library. Public domain.
+* [NanoGEMM][712] - Minimalist AVX2/FMA register-tiled GEMM engine for sub-microsecond matrix multiplication. [``MIT``][MIT]
 * [PARI/GP][256] - Computer algebra system for number theory; includes a
   compiler to C. [``GPL-2.0-or-later``][GPL-2.0-or-later]
 * [PETSc][282] - Suite of data structures and routines for scalable parallel
@@ -1858,3 +1859,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://github.com/eminsk/nanogemm
