@@ -299,6 +299,9 @@ Databases and data stores with C APIs.
   (list, set, map, queue...) in C (C++ backend). [``BSD-2-Clause``][BSD-2-Clause]
 * [liblfds][411] - Portable lock-free data structure library. Public domain
   (more exactly, whatever license you want).
+* [librb][712] - C implementation of ring (circular) buffer, with full thread
+  awareness that allows for concurrent read/write and can automatically
+  grow in size when needed [``BSD-3-Clause``][BSD-3-Clause]
 * [libsrt][305] - Soft and hard real-time data structures.
   [``BSD-3-Clause``][BSD-3-Clause].
 * [list.h][538] - Implementations for singly linked and doubly linked list functions.
@@ -1858,3 +1861,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://github.com/mlyszczek/librb
