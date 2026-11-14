@@ -82,6 +82,7 @@ Basically, if your university calls it AI, it lives here.
 * [KANN][327] - Two-file ANN library. [``MIT``][MIT]
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 * [m2cgen][610] - A CLI tool to transpile trained classic ML models into a native C code with zero dependencies. [``MIT``][MIT]
+* [NeckLink][712] - Zero-heap, zero-float ANSI C99 sensorimotor reflex controllers running weight matrices compiled from the adult Drosophila BANC v888 connectome, with MAVLink v2 framing. [``MIT``][MIT]
 * [sod][611] -  An Embedded Computer Vision & Machine Learning Library. [``GPL-3.0-only``][GPL-3.0-only]
 
 ## Benchmarking ##
@@ -1858,3 +1859,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://indian-aman.github.io/necklink/
