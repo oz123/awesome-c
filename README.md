@@ -498,6 +498,8 @@ Graphical User Interface section has what you need.
 
 Widget toolkits, or things meant to be used in a similar way to them.
 
+* [goome][712] - See-through overlays, normal app windows, game mod menus and engine UI
+  for any C program. One header, no dependencies. [``GPL-3.0-only``][GPL-3.0-only]
 * [GTK+][14] - Cross-platform widget toolkit. [``LGPL-2.1-only``][LGPL-2.1-only]
 * [IUP][16] - Another cross-platform widget toolkit. [``MIT``][MIT]
 * [microui][616] - Tiny immediate-mode UI library written in portable ANSI C. [```MIT```][MIT]
@@ -1858,3 +1860,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://goome-ui.github.io/docs/
