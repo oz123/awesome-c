@@ -732,6 +732,9 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [mongoose][171] - Embedded web server. [``GPL-2.0-only``][GPL-2.0-only]
 * [MQTT-C][549] - A portable MQTT C client for embedded systems and PCs alike. [``MIT``][MIT]
 * [nanomsg][139] - C-based implementation of ZeroMQ. [``MIT``][MIT]
+* [NLTP][712] - Zero-malloc C99 datagram transport over UDP and ESP-NOW with
+  X25519/ChaCha20-Poly1305 AEAD, LZ4 compression, and GF(2^8) Cauchy forward
+  error correction. [``MIT``][MIT]
 * [NNG][106] - nanomsg-next-generation - lightweight brokerless messaging.
   [``MIT``][MIT]
 * [oSip][179] - SIP implementation without additional
@@ -1858,3 +1861,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://github.com/indian-aman/NLTP-Arduino
