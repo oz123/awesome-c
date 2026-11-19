@@ -574,6 +574,8 @@ to C programming.
 * [Generic C reference counting][443]
 * [How to write portable C without complicating your build][490]
 * [Introduction to OpenMP][207] (video)
+* [K&R Exercises][712] - Solve the exercises from "The C Programming Language"
+  online against test cases.
 * [OpenMP tutorial][264] (for the OpenMP3 standard)
 * [MPI tutorial][265]
 * [Scalable C - Writing Large-Scale Distributed C][391]
@@ -1858,3 +1860,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://kandrexercises.com
