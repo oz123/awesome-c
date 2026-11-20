@@ -83,7 +83,8 @@ Basically, if your university calls it AI, it lives here.
 * [LibDEEP][477] - Deep learning library. [``BSD-3-Clause``][BSD-3-Clause]
 * [m2cgen][610] - A CLI tool to transpile trained classic ML models into a native C code with zero dependencies. [``MIT``][MIT]
 * [sod][611] -  An Embedded Computer Vision & Machine Learning Library. [``GPL-3.0-only``][GPL-3.0-only]
-
+* [Chebyshev-Compressor](https://github.com/Genesis410/chebyshev-compressor) - Standalone C99 single-header inference engine for recurrent time-series model compression and TinyML.
+  
 ## Benchmarking ##
 
 Comparing the performance of various subsystems across different chip/system architectures.
