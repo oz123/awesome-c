@@ -128,6 +128,8 @@ Compilers, as well as compiler- and compilation-related tooling.
   C11. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [PCC][74] - Venerable compiler. Supports C99. [Various licenses][75], all
   open source.
+* [Plumlang][712] - Compiler and bytecode VM, written in C11, for a statically
+  typed language with a plain-English syntax. [``Apache-2.0``][Apache-2.0]
 
 ## Compression ##
 
@@ -1858,3 +1860,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://plum.elixpo.com
