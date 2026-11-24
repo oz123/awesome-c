@@ -570,6 +570,7 @@ to C programming.
 * [10 C99 tricks][257]
 * [A comprehensive MPI tutorial resource][454]
 * [Build Your Own Text Editor][700]
+* [Certify-the-Checker: what a static analyzer's "no issues found" covers][712]
 * [Diving into concurrency: trying out mutexes and atomics][202]
 * [Generic C reference counting][443]
 * [How to write portable C without complicating your build][490]
@@ -1858,3 +1859,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://ericyunlinchiang.github.io/certify-the-checker/
