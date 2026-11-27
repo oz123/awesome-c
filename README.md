@@ -840,7 +840,6 @@ comprehensive and high-level, you may want the Web Frameworks section.
 * [xdr][131] - External Data Representation; a standard for data
   serialization. Standard (no license applicable).
 * [pbtools][555] - Google Protocol Buffers C source code generator. [``MIT``][MIT]
-* [Nanopb][713] - Protocol Buffers for Embedded Systems. Small code-size Protocol Buffers implementation in Ansi C, especially suitable for use in microcontrollers, but fits any memory restricted system. [``Zlib``][Zlib]
 
 ## Source Code Collections ##
 
@@ -1861,4 +1860,3 @@ support for C.
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
 [712]: https://github.com/johntyner/libcstl
-[713]: https://github.com/nanopb/nanopb
