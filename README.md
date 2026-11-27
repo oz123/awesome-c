@@ -313,6 +313,7 @@ Databases and data stores with C APIs.
   scenarios like augmentation, multiple compatible ordering functions, and more. [``MIT``][MIT]
 * [uthash][273] - Single-file hash table implementation. [``BSD-1-Clause``][BSD-1-Clause]
 * [vector.h][154] - Header library for typed lists. [``MIT``][MIT]
+* [libcstl][712] - Collection of common data structures, not unlike the C++ STL, for C. [``LGPL-2.1-only``][LGPL-2.1-only]
 
 ## Debugging ##
 
@@ -1858,3 +1859,4 @@ support for C.
 [709]: https://github.com/an-dr/microlog
 [710]: https://github.com/Nouridin/vfs_pipe
 [711]: https://github.com/mainak55512/flint
+[712]: https://github.com/johntyner/libcstl
